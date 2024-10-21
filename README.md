@@ -1,8 +1,10 @@
 # 🌟 Decentralized Universe-building
 
-## 🚀 Welcome to the Future of Collaborative Storytelling
+rolodexter is a decentralized protocol that reimagines the way stories are created, shared, and evolved. By harnessing the power of blockchain technology, sustainable tokenomics, and collective creativity, we're building a new paradigm for narrative creation.
 
-rolodexter is a groundbreaking decentralized protocol that reimagines the way stories are created, shared, and evolved. By harnessing the power of blockchain technology, sustainable tokenomics, and collective creativity, we're building a new paradigm for narrative creation.
+## 🌌 What is Universe-building?
+
+Universe-building is the art of creating expansive, interconnected narrative worlds. Unlike traditional storytelling, universe-building focuses on crafting entire ecosystems of characters, settings, and plotlines that can support multiple stories and perspectives. 
 
 ## 🧬 Core Features
 
@@ -32,9 +34,10 @@ We're looking for visionaries, developers, storytellers, and dreamers to join us
 
 ## 📞 Connect With Us
 
-- [Join our Discord](link-to-discord)
+- [Join our Discord](https://discord.gg/EuVn8N58jH
+)
 - [Follow us on Twitter](https://x.com/joemaristela)
-- [Read our blog](link-to-blog)
+- [Read our blog](https://www.linkedin.com/in/rolodexter/)
 
 ## 🌟 The Story Begins With You
 
