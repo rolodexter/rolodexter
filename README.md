@@ -13,7 +13,7 @@ Universe-building is the art of creating expansive, interconnected narrative wor
 - **Sustainable Tokenomics**: Participate in a regenerative economic model that rewards creativity.
 - **Educational Integration**: Seamlessly connect with OERchains and EDchains for robust authorship attribution.
 
-## 🌈 Vision
+## 🤖 Vision
 
 rolodexter blurs the lines between author, reader, and technology, creating a living, breathing ecosystem of stories that evolve in real-time. Our protocol empowers creators, fosters collaboration, and ensures fair recognition for contributions.
 
@@ -27,7 +27,7 @@ rolodexter blurs the lines between author, reader, and technology, creating a li
 
 We're looking for visionaries, developers, storytellers, and dreamers to join us in shaping the future of narrative. Here's how you can get involved:
 
-- 📚 Explore our documentation
+- 📚 Explore our [documentation](documentation/getting_started.md)
 - 💻 Contribute to our codebase
 - 🖋️ Participate in our storytelling experiments
 - 💡 Share your ideas in our community forums
@@ -39,10 +39,7 @@ We're looking for visionaries, developers, storytellers, and dreamers to join us
 - [Follow us on Twitter](https://x.com/joemaristela)
 - [Read our blog](https://www.linkedin.com/in/rolodexter/)
 
-## 🌟 The Story Begins With You
+## Code of Conduct
 
-Every commit, every line of code, every story fragment brings us closer to a new era of collaborative creativity. Will you be part of this narrative revolution?
+We are committed to fostering an inclusive and welcoming community. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
----
-
-*"In the quantum realm of stories, every reader is an author, and every word a universe." - rolodexter Manifesto*

@@ -1,0 +1,27 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Backup files
+*~
+*.bak
+
+# IDE files
+.vscode/
+.idea/
+
+# Environments
+.env
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+
+# MacOS system files
+.DS_Store
+
+# Miscellaneous
+*.swp
+*.swo
