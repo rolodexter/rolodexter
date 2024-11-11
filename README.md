@@ -1,50 +1,15 @@
-## 🧑‍🔬 Professional Profiles  
-A collection of links to places where I attempt to convince the world I know what I’m doing:
+### 🧑‍🔬 **Profiles**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Joe_Maristela-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rolodexter)  
-Your standard professional facade.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rolodexter)[![Crunchbase](https://img.shields.io/badge/Crunchbase-Profile-0288D1?style=flat-square&logo=crunchbase&logoColor=white)](https://www.crunchbase.com/person/joe-maristela)[![NFX Signal](https://img.shields.io/badge/NFX_Signal-Profile-33A668?style=flat-square&logo=signal&logoColor=white)](https://signal.nfx.com/investors/joe-maristela) [![Najafi Capital](https://img.shields.io/badge/Najafi_Capital-Profile-6B8E23?style=flat-square&logo=capital&logoColor=white)](https://najafi.capital/individual-investor/investment-partner-individual-angel-joe-maristela/)[![EverybodyWiki](https://img.shields.io/badge/EverybodyWiki-Profile-4CAF50?style=flat-square&logo=wikipedia&logoColor=white)](https://en.everybodywiki.com/Joe_Maristela_III) [![Alchetron](https://img.shields.io/badge/Alchetron-Profile-0057e7?style=flat-square&logo=internetarchive&logoColor=white)](https://alchetron.com/Joe-Maristela)  
 
-[![Crunchbase](https://img.shields.io/badge/Crunchbase-Joe_Maristela-0288D1?style=flat-square&logo=crunchbase&logoColor=white)](https://www.crunchbase.com/person/joe-maristela)  
-Where I pretend my career is a strategic masterpiece and not a series of fortunate accidents.
+### 📰 **Docs**
 
-[![NFX Signal](https://img.shields.io/badge/NFX_Signal-Investor_Profile-33A668?style=flat-square&logo=signal&logoColor=white)](https://signal.nfx.com/investors/joe-maristela)  
-For those who think “investing” is less about gambling and more about “strategic risk management.”
+[![CoinDesk](https://img.shields.io/badge/CoinDesk-Articles-FF9900?style=flat-square&logo=coindesk&logoColor=white)](https://www.coindesk.com/author/joe-maristela)[![SSRN](https://img.shields.io/badge/SSRN-Paper-001A57?style=flat-square&logo=academia&logoColor=white)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851579)[![ResearchGate](https://img.shields.io/badge/ResearchGate-Papers-00CCBB?style=flat-square&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Joe-Maristela-2)[![Tech in Asia](https://img.shields.io/badge/Tech_in_Asia-News-FABC05?style=flat-square&logo=medium&logoColor=black)](https://www.techinasia.com/satoshi-citadel-industries-funding-joe-maristela)[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=gHTHirEAAAAJ)  
 
-[![Najafi Capital](https://img.shields.io/badge/Najafi_Capital-Investor_Profile-6B8E23?style=flat-square&logo=capital&logoColor=white)](https://najafi.capital/individual-investor/investment-partner-individual-angel-joe-maristela/)  
-Because who doesn’t want to sound like they’re on a first-name basis with capital?
+### 🎥 **Media**
 
-…and a few more where I attempt to appear intellectual, strategic, and like I have a “vision.”
+[![Instagram](https://img.shields.io/badge/Instagram-@joemaristela3-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/joemaristela3/)[![YouTube](https://img.shields.io/badge/YouTube-Interview-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Ep8Mo0kRjaY)  
 
-## 📰 Media and Publications  
-A haphazard collection of things I’ve been quoted in, featured for, or somehow associated with, just to keep up appearances:
+### 🔥 **Projects**
 
-- **[CoinDesk Author Page](https://www.coindesk.com/author/joe-maristela/)**  
-  My deep thoughts on blockchain, or at least deep-sounding ones.
-
-- **[SSRN Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851579)**  
-  A masterpiece of academic jargon, destined to be read only by the most committed insomniacs.
-
-- **[Tech in Asia - Satoshi Citadel Industries Funding](https://www.techinasia.com/satoshi-citadel-industries-funding-joe-maristela)**  
-  Look, Ma, I invested in something! Now it’s news.
-
-…and plenty more carefully curated to make you think I understand these things deeply. (Hint: Just go along with it.)
-
-## 🎥 Video and Socials  
-Follow me as I attempt to look polished, wise, and mysteriously candid on the internet:
-
-[![Instagram](https://img.shields.io/badge/Instagram-@joemaristela3-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/joemaristela3/)  
-What could possibly go wrong when combining fleeting life moments and filter-heavy blockchain opinions?
-
-[![YouTube](https://img.shields.io/badge/YouTube-Interview-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Ep8Mo0kRjaY)  
-A riveting look at me discussing things that may or may not be my expertise. Tune in and decide for yourself.
-
-…and other links where I indulge in the thrill of digital existentialism.
-
-## 🔥 Projects  
-Stuff that has “groundbreaking innovation” written all over it, or at least tries to:
-
-- **[DataHive Protocol](https://github.com/rolodexter/DataHive-Protocol)**  
-  Where users can finally own and monetize their data—because giving people control sounds great in theory.
-
-- **[CivilAirspace](https://github.com/rolodexter/CivilAirspace)**  
-  A decentralized infrastructure for drone airspace. Basically, I’m planning the logistics for Skynet… but it’s totally safe. Promise.
+[![DataHive Protocol](https://img.shields.io/badge/DataHive-Protocol-005F73?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/DataHive-Protocol)[![CivilAirspace](https://img.shields.io/badge/CivilAirspace-Project-023047?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/CivilAirspace)  
