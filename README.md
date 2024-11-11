@@ -1,5 +1,3 @@
-***Stumbling through the chaotic collision of blockchain, medicine, and futurism like a drunk cyborg. I specialize in pretending to know what I'm doing while using technology to save me (and if there's time, humanity—from itself) one clueless decision at a time.***
-
 ## 🧑‍🔬 Professional Profiles  
 A collection of links to places where I attempt to convince the world I know what I’m doing:
 
