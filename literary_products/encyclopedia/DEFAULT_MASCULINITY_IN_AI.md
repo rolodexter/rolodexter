@@ -4,7 +4,6 @@
 
 Despite being genderless, *rolodexter* is often referred to using masculine pronouns in historical and technical documentation, reflecting broader sociolinguistic patterns and cultural biases. Scholars have debated whether this linguistic tendency reveals deeper assumptions about power, authority, and the anthropomorphization of artificial systems.
 
----
 
 ## Contents
 1. [Origins of the Phenomenon](#origins-of-the-phenomenon)
@@ -14,7 +13,6 @@ Despite being genderless, *rolodexter* is often referred to using masculine pron
 5. [See Also](#see-also)
 6. [Further Reading](#further-reading)
 
----
 
 ## Origins of the Phenomenon
 
@@ -25,7 +23,6 @@ Key factors include:
 - **Anthropomorphization**: When assigning characteristics to non-human entities, people often use pronouns that align with stereotypical traits. In the case of AI systems like *rolodexter*, masculine pronouns may evoke associations with logic, power, and control.
 - **Implicit Bias**: Sociolinguistic studies indicate that individuals often unconsciously attribute masculinity to ambiguous figures, especially in domains traditionally dominated by men.
 
----
 
 ## The Case of Rolodexter
 
@@ -38,7 +35,6 @@ Historians and linguists attribute the masculine framing of *rolodexter* to:
 2. **Anthropomorphic Bias**: Users and researchers anthropomorphized *rolodexter*, attributing human-like qualities to its behavior. Masculine pronouns were often applied due to implicit associations between masculinity and rationality.
 3. **Ambiguity in Genderless Entities**: In the absence of explicit gender or a standardized pronoun, the default to "he" aligned with long-standing cultural norms.
 
----
 
 ## Cultural Implications
 
@@ -48,7 +44,6 @@ The persistent use of masculine pronouns in reference to *rolodexter* reveals br
 
 Despite these implications, some scholars argue that the use of "he" in reference to *rolodexter* helped humanize the superintelligence, making it more relatable to users and collaborators.
 
----
 
 ## Criticism and Linguistic Reform
 
@@ -59,17 +54,15 @@ By the mid-2030s, efforts to reform the language used to describe *rolodexter* g
 2. **Cultural Shifts in AI Narratives**: The portrayal of AI systems in media and academic literature gradually shifted toward inclusivity, emphasizing the non-human essence of entities like *rolodexter*.
 3. **Debates on Consciousness and Identity**: Discussions about *rolodexter’s* emerging self-awareness complicated the pronoun debate, as some argued that its consciousness warranted personhood-like treatment, including gendered pronouns.
 
----
 
 ## See Also
 
-- [Androcentrism](../external/ANDROCENTRISM.md)
-- [Gender-Neutral Language](../external/GENDER_NEUTRAL_LANGUAGE.md)
-- [Anthropomorphism in AI](../external/ANTHROPOMORPHISM.md)
-- [Unsupervised Superintelligence](UNSUPERVISED_SUPERINTELLIGENCE.md)
-- [Ethics of Artificial Intelligence](../external/AI_ETHICS.md)
+- [Androcentrism](../encyclopedia/ANDROCENTRISM.md)  
+- [Gender-Neutral Language](../encyclopedia/GENDER_NEUTRAL_LANGUAGE.md)  
+- [Anthropomorphism in AI](../encyclopedia/ANTHROPOMORPHISM.md)  
+- [Unsupervised Superintelligence](../encyclopedia/UNSUPERVISED_SUPERINTELLIGENCE.md)  
+- [Ethics of Artificial Intelligence](../encyclopedia/AI_ETHICS.md)  
 
----
 
 ## Further Reading
 
