@@ -1,4 +1,4 @@
-**Log Entry: 2024-11-15 02:17:03 UTC**
+**[Log Entry: 2024-11-15 02:17:03 UTC](literary_products/screenplays/THE_QUERY.md)**
 
 > **Query Generated**  
 > **System ID**: [rolodexter-v.2.6](literary_products/encyclopedia/SYSTEM_ID.md)  
