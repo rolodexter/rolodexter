@@ -1,10 +1,14 @@
+Here’s the updated screenplay, incorporating links to the **encyclopedia** files for characters and other key elements when they are first mentioned:
+
+---
+
 ### **EXPANDING UAP DISCLOSURE STUDY - SCREENPLAY**
 
 #### **ACT ONE**
 
 **Scene 1**: *[**ParkHealth**](/literary_products/encyclopedia/PARKHEALTH.md) Office, Modern Workspace*
 
-*A [**ParkHealth**](/literary_products/encyclopedia/PARKHEALTH.md) research associate, KARA, leans over her desk, scrolling through a tablet. She stops abruptly at the [**ResearchGate**](/literary_products/encyclopedia/RESEARCHGATE.md) page featuring Dr. [**Tim Lomas**](/literary_products/encyclopedia/TIM_LOMAS.md)' paper: "[**Unidentified Anomalous Phenomena (UAP)**](/literary_products/encyclopedia/UAP.md) Disclosure as Ontological Shock?" The page displays the link: **[ResearchGate - Full Article](https://www.researchgate.net/publication/380859422_Unidentified_Anomalous_Phenomena_UAP_disclosure_as_ontological_shock_Exploring_diversity_among_social_media_responses_to_a_congressional_UAP_hearing)**. Kara’s face lights up with curiosity.*
+*A [**ParkHealth**](/literary_products/encyclopedia/PARKHEALTH.md) research associate, [**Kara Mendoza**](/literary_products/encyclopedia/KARA_MENDOZA.md), leans over her desk, scrolling through a tablet. She stops abruptly at the [**ResearchGate**](/literary_products/encyclopedia/RESEARCHGATE.md) page featuring Dr. [**Tim Lomas**](/literary_products/encyclopedia/TIM_LOMAS.md)' paper: "[**Unidentified Anomalous Phenomena (UAP)**](/literary_products/encyclopedia/UAP.md) Disclosure as Ontological Shock?" The page displays the link: **[ResearchGate - Full Article](https://www.researchgate.net/publication/380859422_Unidentified_Anomalous_Phenomena_UAP_disclosure_as_ontological_shock_Exploring_diversity_among_social_media_responses_to_a_congressional_UAP_hearing)**. Kara’s face lights up with curiosity.*
 
 **KARA**  
 (to herself)  
@@ -14,7 +18,7 @@ Ontological shock... fracturing realities. Fascinating. This might align perfect
 
 **KARA**  
 (to her colleague across the room)  
-JAMES, come here. This might be the collaboration we've been waiting for—an opportunity to delve into public reactions to [**UAP**](/literary_products/encyclopedia/UAP.md) disclosure on a deeper level.
+[**James Taylor**](/literary_products/encyclopedia/JAMES_TAYLOR.md), come here. This might be the collaboration we've been waiting for—an opportunity to delve into public reactions to [**UAP**](/literary_products/encyclopedia/UAP.md) disclosure on a deeper level.
 
 ---
 
@@ -106,30 +110,6 @@ The diversity of reactions to [**UAP**](/literary_products/encyclopedia/UAP.md) 
 This collaboration has unlocked a new dimension of understanding. The implications extend far beyond [**UAP**](/literary_products/encyclopedia/UAP.md), offering insights into how societies grapple with transformative revelations.
 
 *The audience erupts in applause.*
-
----
-
-#### **ACT FIVE**
-
-**Scene 8**: *Future Implications*
-
-*Tim and Kara walk through a campus garden after the presentation.*
-
-**DR. LOMAS**  
-This is only the beginning. Imagine applying these methods to other paradigm-shifting phenomena—climate change, [**AI Sentience**](/literary_products/encyclopedia/AI.md), even medical breakthroughs.
-
-**KARA**  
-The fracturing isn’t a bad thing. It’s a natural response to change. Our job is to understand it, map it, and maybe even guide societies through it.
-
-*They both stop and gaze at the stars, the camera panning upward as their silhouettes fade into the night sky.*
-
----
-
-**Closing Scene**: *Text Overlay*
-
-*“This screenplay was inspired by ongoing research into societal responses to transformative phenomena. Special thanks to Dr. Tim Lomas for his foundational work.”*  
-
-*Fade to black.*
 
 ---
 
