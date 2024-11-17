@@ -1,8 +1,6 @@
-Here’s the updated screenplay, incorporating links to the **encyclopedia** files for characters and other key elements when they are first mentioned:
-
----
-
 ### **EXPANDING UAP DISCLOSURE STUDY - SCREENPLAY**
+
+[![Listen on Spotify](https://img.shields.io/badge/Listen%20on%20Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge)](https://open.spotify.com/show/11s0wEdbc8k3caT6xur57a)
 
 #### **ACT ONE**
 
@@ -112,4 +110,3 @@ This collaboration has unlocked a new dimension of understanding. The implicatio
 *The audience erupts in applause.*
 
 ---
-

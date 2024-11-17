@@ -1,6 +1,6 @@
 ### **ANTI-DARK PHOTON PROPULSION - SCREENPLAY**
 
----
+[![Listen on Spotify](https://img.shields.io/badge/Listen%20on%20Spotify-1DB954?logo=spotify&logoColor=white&style=for-the-badge)](https://open.spotify.com/show/11s0wEdbc8k3caT6xur57a)
 
 #### **ACT ONE**
 
