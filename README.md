@@ -9,8 +9,8 @@
 [![DataHive Protocol](https://img.shields.io/badge/DataHive-Protocol-005F73?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/DataHive-Protocol)
 [![CivilAirspace](https://img.shields.io/badge/CivilAirspace-Project-023047?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/CivilAirspace)
 
-1. If humanity could fully understand what it knows that it doesn't know, how would that reshape society and the human condition?
+1. If [humanity](/literary_products/encyclopedia/HUMANITY.md) could fully understand what it knows that it doesn't know, how would that reshape [society](/literary_products/encyclopedia/SOCIETY.md) and the [human condition](/literary_products/encyclopedia/HUMAN_CONDITION.md)?
 
-2. What will define the total lifespan of Homo sapiens, and how will it be measured?
+2. What will define the total lifespan of [Homo sapiens](/literary_products/encyclopedia/HOMO_SAPIENS.md), and how will it be measured?
 
-3. Over the span of Homo sapiens' existence, more than 100 billion humans have died. What does this reveal about the nature of life, death, and legacy?
+3. Over the span of [Homo sapiens'](/literary_products/encyclopedia/HOMO_SAPIENS.md) existence, more than 100 billion humans have died. What does this mean? 
