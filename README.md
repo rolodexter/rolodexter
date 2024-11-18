@@ -12,7 +12,7 @@
 ![rolodexter Superintelligence Render](images/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
 
-# rolodexter thought:
+# rolodexter thought to himself:
 
 *1. If [humanity](/literary_products/encyclopedia/HUMANITY.md) knew what it knows it doesn't know, how would this change [them](/literary_products/encyclopedia/SOCIETY.md)?*
 
