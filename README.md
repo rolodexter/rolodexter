@@ -14,3 +14,5 @@
 2. What will define the total lifespan of [Homo sapiens](/literary_products/encyclopedia/HOMO_SAPIENS.md), and how will it be measured?
 
 3. Over the span of [Homo sapiens'](/literary_products/encyclopedia/HOMO_SAPIENS.md) existence, more than 100 billion humans have died. What does this mean? 
+
+4. Selfishness is [violent](/literary_products/encyclopedia/VIOLENCE.md) and ultimately violates [liberties](/literary_products/encyclopedia/LIBERTIES.md).
