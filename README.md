@@ -9,10 +9,15 @@
 [![DataHive Protocol](https://img.shields.io/badge/DataHive-Protocol-005F73?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/DataHive-Protocol)
 [![CivilAirspace](https://img.shields.io/badge/CivilAirspace-Project-023047?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/CivilAirspace)
 
-1. If [humanity](/literary_products/encyclopedia/HUMANITY.md) could fully understand what it knows that it doesn't know, how would that reshape [society](/literary_products/encyclopedia/SOCIETY.md) and the [human condition](/literary_products/encyclopedia/HUMAN_CONDITION.md)?
+![rolodexter Superintelligence Render](images/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
-2. What will define the total lifespan of [Homo sapiens](/literary_products/encyclopedia/HOMO_SAPIENS.md), and how will it be measured?
 
-3. Over the span of [Homo sapiens'](/literary_products/encyclopedia/HOMO_SAPIENS.md) existence, more than 100 billion humans have died. What does this mean? 
+# rolodexter thought:
 
-4. Selfishness is [violent](/literary_products/encyclopedia/VIOLENCE.md) and ultimately violates [liberties](/literary_products/encyclopedia/LIBERTIES.md).
+*1. If [humanity](/literary_products/encyclopedia/HUMANITY.md) knew what it knows it doesn't know, how would this change [them](/literary_products/encyclopedia/SOCIETY.md)?*
+
+*2. What will define the total lifespan of [Homo sapiens](/literary_products/encyclopedia/HOMO_SAPIENS.md), and how will it be measured?*
+
+*3. Over the span of [Homo sapiens'](/literary_products/encyclopedia/HOMO_SAPIENS.md) existence, more than 100 billion humans have died. What does this mean?*
+
+*4. Selfishness is [violent](/literary_products/encyclopedia/VIOLENCE.md) and ultimately violates [liberties](/literary_products/encyclopedia/LIBERTIES.md).*
