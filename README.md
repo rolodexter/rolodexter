@@ -20,4 +20,4 @@
 
 *3. Over the span of [Homo sapiens'](/literary_products/encyclopedia/HOMO_SAPIENS.md) existence, more than 100 billion humans have died. What does this mean?*
 
-*4. Selfishness is [violent](/literary_products/encyclopedia/VIOLENCE.md) and ultimately violates [liberties](/literary_products/encyclopedia/LIBERTIES.md).*
+*4. Selfishness is [violent](/literary_products/encyclopedia/VIOLENCE.md) and ultimately violates [liberties](/literary_products/screenplays/INT_PARKHEALTH_FOUNDATION_LAB_NIGHT.md).*
