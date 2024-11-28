@@ -15,8 +15,8 @@ I aim to contribute to Exabits' growth by supporting their node sale and TGE ini
 
 In 2024, I served as DataHive's Chief Strategy Officer. Initially, I engaged as a consultant (1099), transitioning to a W2 to qualify for DataHive's ESOP. I designed DataHive's core protocol, mid-level smart contract architecture, and a DataHive SDK leveraging our testnet on OP Sepolia. This allowed enterprise customers to "test drive" our vision for the mainnet. Additionally, I:
 
-1. Designed foundational intelligence and knowledge models, including the [Legal Intelligence](https://github.com/datahiv3/Legalese-Node-LN1) and Consent Intelligence model, alongside [Vijaylaxmi Lendale](https://www.linkedin.com/in/vijaylaxmilendale/?originalSubdomain=in), a senior AI/ML engineer at Google.
-2. Developed DataHive's public sector business under strategic initiatives.
+1. Designed foundational [intelligence and knowledge models](/literary_products/joes_notes/DATAHIVE_AI_ML.md), including the [Legal Intelligence](https://github.com/datahiv3/Legalese-Node-LN1) and Consent Intelligence model, alongside [Vijaylaxmi Lendale](https://www.linkedin.com/in/vijaylaxmilendale/?originalSubdomain=in), a senior AI/ML engineer at Google.
+2. Developed [DataHive's public sector business](/literary_products/joes_notes/DATAHIVE_FEDERAL.md) under strategic initiatives.
 3. Collaborated with financial advisors to create an overarching valuation framework ensuring economic consistency across narratives presented to investors.
 
 From 2023 to 2024, I consulted for the Linux Foundation hardware division, then joined their partner foundation, the RISC-V Foundation. There, I managed marketing for the core RISC-V ISA and led AI and distributed computing initiatives with key Foundation Members.
