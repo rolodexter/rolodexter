@@ -1,0 +1,7 @@
+My name is Joe Maristela, and I'm writing to you to express my interest in joining the Exabits team. I believe that humanity's most essential resource (compute) can only be coordinated across the scale required to achieve AGI through the kind of financialization of such resources that Exabits envisions.
+
+I hope to contirbute to Exabits's growth by supporting the project's/company's node sale and TGE initiatives (in the nearterm), and by further developing its enterprise business and public sector business ("Exabits Federal") in the longterm. 
+
+For the past year (2024), I have served as DataHive's Chief Strategy Officer. Initially, I worked as a consultant (1099), transitioning to a W2 employee to qualify for DataHive's ESOP. I designed DataHive's core protocol, as well as its mid-level smart contract architecture, and a DataHive SDK that leveraged the project's testnet1 on OP Sepolia, where our enterprise customers were able to "test drive" our vision for mainnet. 
+
+From 2023 to 2024, I served as a consultant first to the Linux Foudnation hardware division, then joined their partner foundation, the RISC-V Foundation, managing and marketing the core RISC-V core ISA, managing their AI and distributed computing initiatives alongside key Foundation Members, and reporting to the Foundation's Global Marketing Director. 
