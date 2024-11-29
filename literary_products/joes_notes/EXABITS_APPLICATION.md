@@ -1,22 +1,42 @@
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rolodexter)
-[![Twitter](https://img.shields.io/badge/Twitter-Profile-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/joemaristela)
-[![Instagram](https://img.shields.io/badge/Instagram-@joemaristela3-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/joemaristela3/)
-[![Spotify](https://img.shields.io/badge/Spotify-Listen-1DB954?style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/show/11s0wEdbc8k3caT6xur57a)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Profile-FF5500?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/rolodexter)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB?style=flat-square&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Joe-Maristela-2)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=gHTHirEAAAAJ)
-[![Flipboard](https://img.shields.io/badge/Flipboard-Magazine-E83151?style=flat-square&logo=flipboard&logoColor=white)](https://flipboard.com/@rolodexter/rolodexter-jergu04fz)
-[![DataHive Protocol](https://img.shields.io/badge/DataHive-Protocol-005F73?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/DataHive-Protocol)
-[![CivilAirspace](https://img.shields.io/badge/CivilAirspace-Project-023047?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/CivilAirspace)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rolodexter) 
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB?style=flat-square&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Joe-Maristela-2) 
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=gHTHirEAAAAJ) 
+[![CoinDesk](https://img.shields.io/badge/CoinDesk-Contributor-F7931A?style=flat-square&logo=news&logoColor=white)](https://www.coindesk.com/author/joe-maristela) 
+[![Crunchbase](https://img.shields.io/badge/Crunchbase-Profile-0288D1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMEM1LjM4IDAgMCA1LjM4IDAgMTJDMCAxOC42MiA1LjM4IDI0IDEyIDI0QzE4LjYyIDI0IDI0IDE4LjYyIDI0IDEyQzI0IDUuMzggMTguNjIgMCAxMiAwWiIgZmlsbD0iIzAwODhEMSIvPjxwYXRoIGQ9Ik05LjI5NzUgMTQuNTI1QzkuMjk3NSAxNC41MjUgOS4yOTc1IDE0LjUyNSA5LjI5NzUgMTQuNTI1TDEwLjc2MjUgMTUuOTg3NUMxMC43NjI1IDE1Ljk4NzUgMTAuNzYyNSAxNS45ODc1IDEwLjc2MjUgMTUuOTg3NUwxNS45ODc1IDEwLjc2MjVDMTUuOTg3NSAxMC43NjI1IDE1Ljk4NzUgMTAuNzYyNSAxNS45ODc1IDEwLjc2MjVMMTAuNzYyNSA1LjUzNzVDMTAuNzYyNSA1LjUzNzUgMTAuNzYyNSA1LjUzNzUgMTAuNzYyNSA1LjUzNzVMMTAuNzYyNSA2Ljk5OTk5QzEwLjc2MjUgNi45OTk5OSAxMC43NjI1IDYuOTk5OTkgMTAuNzYyNSA2Ljk5OTk5TDkuMzUyNSA4LjQxMkM5LjMyNSA4LjQxMiA5LjI5NzUgOC40MTIgOS4yOTc1IDguNDEyTDcuODgyNSA2Ljk5OTk5QzcuODgyNSA2Ljk5OTk5IDcuODgyNSA2Ljk5OTk5IDcuODgyNSA2Ljk5OTk5TDkuMjk3NSA1LjU4NzVDOS4yOTc1IDUuNTg3NSA5LjI5NzUgNS41ODc1IDkuMjk3NSA1LjU4NzVMNi45OTk5OSA4LjQxMkM2Ljk3NDk5IDguNDEyIDYuOTUyNDkgOC40MTIgNi45NTI0OSA4LjQxMkM2Ljk1MjQ5IDguNDEyIDYuOTUyNDkgOC40MTIgNi45NTI0OSA8OC40MTJDMTAuNzYyNSAxMC43NjI1IDguNDEyNSAxMy4xMTI1IDYuOTUyNDkgMTQuNTI1TDE2LjA3MDkgMjAuNTM3MkMxNi4wNzAzIDIwLjUzNzIgMTYuMDcwMyAyMC41MzcyIDE2LjA3MDMgMjAuNTM3MkMxNi4wNjkzIDIwLjUzNjkgMTYuMDYxNyAyMC41MzA0IDE2LjA0NDMgMjAuNTEzMUwxNC41Njg3IDIwLjUxMzFDMTQuNTYgMjAuNTEzMSAxNC41NTIxIDIwLjUxMzEgMTQuNTUzIDIwLjUxMzFDMTQuNTUyMyAyMC41MTMxIDE0LjU0ODcgMjAuNTEzMSAxNC41NDQgMjAuNTEzMUwxMS44ODEgMTcuODQ2OEwxMS44ODEgMTcuODQ2OEMxMS44ODEgMTcuODQ2OCAxMS44ODEgMTcuODQ2OCAxMS44ODEgMTcuODQ2OEwxMi42ODM4IDE2Ljk2MDlMMTIuNjgzOCAxNi45NjA9TDEyLjc4NjggMTYuODYyOUwxMi43ODY8IDE2Ljg2MjlMMTIuMzEyMyAxNi40ODYzTDEyMzEyMyAxNi40ODYzTDEwLjc2MjUgMTQuOTMxOEMxMC43NjI1IDE0LjkzMTggMTAuNzYyNSAxNC45MzE8IDEwLjc2MjUgMTQuOTMxOEwxMi42ODM8IDEzLjAzOTEiIGZpbGw9IiMwMDg4RDEiIHN0cm9rZT0iIzAwODhEMSIgc3Ryb2tlLXdpZHRoPSIwIi8+PC9zdmc+) ](https://www.crunchbase.com/person/joe-maristela) 
+[![Bento](https://img.shields.io/badge/Bento-Profile-F7931A?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://bento.me/joemaristela)
+[![Portfolly](https://img.shields.io/badge/Portfolly-Profile-F7931A?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://jmaristela.portfo.ly)
+[![Twitter](https://img.shields.io/badge/Twitter-Profile-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/joemaristela) 
+[![Instagram](https://img.shields.io/badge/Instagram-@joemaristela3-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/joemaristela3/) 
+[![Flipboard](https://img.shields.io/badge/Flipboard-Magazine-E83151?style=flat-square&logo=flipboard&logoColor=white)](https://flipboard.com/@rolodexter/rolodexter-jergu04fz) 
+[![DataHive Protocol](https://img.shields.io/badge/DataHive-Protocol-005F73?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/DataHive-Protocol) 
+[![CivilAirspace](https://img.shields.io/badge/CivilAirspace-Project-023047?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/CivilAirspace) 
+[![Spotify](https://img.shields.io/badge/Spotify-Listen-1DB954?style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/show/11s0wEdbc8k3caT6xur57a) [![Telehealth and Medicine Today](https://img.shields.io/badge/Telehealth-Article-0077B5?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://telehealthandmedicinetoday.com/index.php/journal/article/view/87/75)
 
-My name is Joe Maristela, and I'm writing to express my interest in joining the [Exabits](https://drive.google.com/drive/u/0/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE) team. I believe that humanity's most essential resource—compute power—can be effectively coordinated at the scale necessary to achieve AGI through the innovative financialization model that Exabits envisions.
+My name is Joe Maristela, and I'm writing to express my interest in joining the [Exabits](https://drive.google.com/drive/u/0/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE) team. I believe that humanity's most essential resource— compute power—can be effectively coordinated at the scale necessary to achieve AGI through the innovative financialization model that Exabits envisions.
 
-I aim to contribute to Exabits' growth by supporting their node sale and TGE initiatives in the near-term, while also expanding its enterprise and public sector business ("Exabits Federal") over the long-term.
+I hope to contribute to Exabits' growth by supporting their [node sale](/literary_products/joes_notes/EXABITS_NODE_SALE.md/) and [TGE](/literary_products/joes_notes/EXABITS_TGE.md) initiatives in the near-term, then expanding its enterprise and public sector businesses ("[Exabits Federal](/literary_products/joes_notes/DATAHIVE_FEDERAL.md)") over the long-term.
 
-In 2024, I served as DataHive's Chief Strategy Officer. Initially, I engaged as a consultant (1099), transitioning to a W2 to qualify for DataHive's ESOP. I designed DataHive's core protocol, mid-level smart contract architecture, and a DataHive SDK leveraging our testnet on OP Sepolia. This allowed enterprise customers to "test drive" our vision for the mainnet. Additionally, I:
+In 2024, I served as DataHive's Chief Strategy Officer. Initially, I engaged as a consultant (1099), transitioning to a W2 to qualify for DataHive's ESOP. I designed [DataHive's core protocol](https://github.com/datahiv3/Core-Protocol), mid-level [smart contract architecture](https://docs.google.com/document/d/1WYE5i-4UJOUmDWNEUC-6QCD1NwRpCeqs/edit?usp=drive_link&ouid=111669319430294495371&rtpof=true&sd=true) (links to docs are drafts and left deliberately vague), and a DataHive SDK leveraging our testnet on OP Sepolia. This allowed enterprise customers to "test drive" our vision for the mainnet. Additionally, I:
 
-1. Designed foundational [intelligence and knowledge models](/literary_products/joes_notes/DATAHIVE_AI_ML.md), including the [Legal Intelligence](https://github.com/datahiv3/Legalese-Node-LN1) and Consent Intelligence model, alongside [Vijaylaxmi Lendale](https://www.linkedin.com/in/vijaylaxmilendale/?originalSubdomain=in), a senior AI/ML engineer at Google.
-2. Developed [DataHive's public sector business](/literary_products/joes_notes/DATAHIVE_FEDERAL.md) under strategic initiatives.
-3. Collaborated with financial advisors to create an overarching valuation framework ensuring economic consistency across narratives presented to investors.
+1. Designed, deployed [foundational intelligence and knowledge models](/literary_products/joes_notes/DATAHIVE_AI_ML.md)
+2. Established an [overarching valuation framework](/literary_products/joes_notes/DATAHIVE_VALUATION.md) that spans a diverse set of opportunity themes.
+3. Created an [internal cPanel for managing commnunity growth](/literary_products/joes_notes/DATAHIVE_COMMUNITY.md) across all communication and social platforms.
 
-From 2023 to 2024, I consulted for the Linux Foundation hardware division, then joined their partner foundation, the RISC-V Foundation. There, I managed marketing for the core RISC-V ISA and led AI and distributed computing initiatives with key Foundation Members.
+From 2020 to 2024, I also: 
+1. Assisted [Mark](/literary_products/joes_notes/AETHIR.md) with various technical documentation and strategy development at [Aethir](/literary_products/joes_notes/AETHIR.md) 
+2. Consulted with/for with the [Linux Foundation](/literary_products/joes_notes/LINUX.md) and its hardware ISA partner, the [RISC-V Foundation](/literary_products/joes_notes/RISCV.md)
+3. Contributed to various [DePIN projects](/literary_products/joes_notes/DePIN.md), including [CivilAirspace's core protocol](https://github.com/rolodexter/CivilAirspace) 
+4. 
+
+From 2010-2020, I: 
+1. Managed a crypto/fintech investment fund for my grandfather's family office (Stella Maris Trust)
+2. [Mirgated a call center](/literary_products/joes_notes/SBCPH.md) from Beaverton, Oregon to Manila, Philippines (Makati City)
+3. I consulted for a buddy's company, assisting him bring a [robotic vaccine storage sytem](/literary_products/joes_notes/ACCUVAX.md) to market
+
+From 2005 to 2010 I was in school, completing concurrent post-doctoral work, completing separate fellowships in medicine and literature (High English literature), and working odd jobs for the family office, such as reviewing medical/FDA patents for medically/clinically viable products (mostly diagnostics). 
+
+From 1995 to 2005, I did pursue finance and financial engineering at various colleges and universities within my home vicinity of the Peninsula in the Bay Area (California), auditing and completing incidental courses at Stanford, Santa Clara University, UC Berkeley, and the State Schools (SF State, SJ State). I completed 2 summer internships from 1999 to 2000 at the now defunct [Pacific Exchange (PCX)](https://www.perplexity.ai/page/pacific-exchange-options-tradi-qInhY9t7Q4qJNyYLDHtC0A), where I supported options trading desks/traders/brokers (mostly working at the behest of various Bay Area families and their family offices).
+
+In 1989, I won the Nintendo Fest Championship, which was held at the then-named Oakland Colosseum. 
+
+I was born, September 5, 1979, at then-named Saint Lukes Hospital (now a part of the greater Sutter Health Network), where my mother (Dr Ofelia Maristela PhD MD) was both the chief pediatric resident of the ward, and a patient. 
