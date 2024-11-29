@@ -36,5 +36,5 @@ Exabits's SLA Modularization Framework is designed to enhance the tradability an
    - Integrate real-time telemetry data to monitor resource performance.
    - Implement automated reallocation or penalty mechanisms for SLA breaches.
 
-*Note: The SLA Intelligence model is somewhat similar to the Consent Intelligence model I designed for DataHive. The Consent Library leveraged by this model was partly based on the Legal Library maintained by the Legal Intelligence model.*
+*Note: The SLA Intelligence model is somewhat similar to the [Consent Intelligence model](https://docs.google.com/document/d/1ooyc56-Yr03sHsqK4Q1WdBBEOS9lcEIu/edit?usp=drive_link&ouid=111669319430294495371&rtpof=true&sd=true) I designed for DataHive. The Consent Library leveraged by this model was partly based on the Legal Library maintained by the Legal Intelligence model.*
 
