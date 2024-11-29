@@ -22,6 +22,9 @@ I hope to contribute to Exabits' growth by supporting their [node sale](/literar
 
 Based on the limited information I have as an outsider, and acknowledging that this involves some generalizations and assumptions, several high-level concepts and frameworks come to mind that could support Exabits' "near-term" missions:
 
+![Compute Access](/images/COMPUTE_ACCESS.png)
+
+
 1. **[Financialization Frameworks for Tradeable Compute](/literary_products/joes_notes/TRADEABLE_COMPUTE.md)**: I propose developing comprehensive frameworks that transform compute resources into financial instruments, making them tradeable assets. This approach not only broadens liquidity and accessibility across the global compute economy but also generates new liquidity processes and opportunities. By establishing new access points, we can imagine possibilities for compute utilization that were previously unexplored. This aligns with Exabits' mission to democratize access to cutting-edge compute technologies and create a liquid market for these assets, enabling global participation in the AI-driven economy.
 
 2. **[SLA Modularization Framework for Universally Tradeable Compute](/literary_products/joes_notes/EXABITS_SLA_MODULE.md)**: I envision creating a modular framework for Service Level Agreements (SLAs) that enables compute resources to be highly tradeable. This involves standardizing SLA components such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs. By algorithmically constructing financial instruments or derivatives based on market and exchange data, we can ensure that these instruments are as granular or basic as market demands dictate. This innovative approach will facilitate the seamless trading of tokenized compute resources on decentralized exchanges (DEXs) and centralized exchanges (CEXs), ensuring robust liquidity and dynamic pricing based on real-time supply-demand metrics.
@@ -70,7 +73,6 @@ From 2020 to 2024, I also:
 1. Assisted [Mark](/literary_products/joes_notes/AETHIR.md) with various technical documentation and strategy development at [Aethir](/literary_products/joes_notes/AETHIR.md) 
 2. Consulted with/for with the [Linux Foundation](/literary_products/joes_notes/LINUX.md) and its hardware ISA partner, the [RISC-V Foundation](/literary_products/joes_notes/RISCV.md)
 3. Contributed to various [DePIN projects](/literary_products/joes_notes/DePIN.md), including [CivilAirspace's core protocol](https://github.com/rolodexter/CivilAirspace) 
-4. 
 
 From 2010-2020, I: 
 1. Managed a crypto/fintech investment fund for my grandfather's family office (Stella Maris Trust)
