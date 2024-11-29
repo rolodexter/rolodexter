@@ -27,12 +27,12 @@ Based on the limited information I have as an outsider, and acknowledging that t
 
 1. **[Financialization Frameworks for Tradeable Compute](/literary_products/joes_notes/TRADEABLE_COMPUTE.md)**: I propose developing comprehensive frameworks that transform compute resources into financial instruments, making them tradeable assets. This approach not only broadens liquidity and accessibility across the global compute economy but also generates new liquidity processes and opportunities. By establishing new access points, we can imagine possibilities for compute utilization that were previously unexplored. This aligns with Exabits' mission to democratize access to cutting-edge compute technologies and create a liquid market for these assets, enabling global participation in the AI-driven economy.
 
-2. **[SLA Modularization Framework for Universally Tradeable Compute](/literary_products/joes_notes/EXABITS_SLA_MODULE.md)**: I envision creating a modular framework for Service Level Agreements (SLAs) that enables compute resources to be highly tradeable. This involves standardizing SLA components such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs. By algorithmically constructing financial instruments or derivatives based on market and exchange data, we can ensure that these instruments are as granular or basic as market demands dictate. This innovative approach will facilitate the seamless trading of tokenized compute resources on decentralized exchanges (DEXs) and centralized exchanges (CEXs), ensuring robust liquidity and dynamic pricing based on real-time supply-demand metrics.
+2. **[SLA Modularization Framework for Universally Tradeable Compute](/literary_products/joes_notes/EXABITS_SLA_MODULE.md)**: I envision creating a modular framework for [Service Level Agreements (SLAs)](/literary_products/joes_notes/SLAs.md) that enables compute resources to be highly tradeable. This involves [standardizing SLA components](/literary_products/joes_notes/STANDARDIZING_SLAs.md) such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs. By algorithmically constructing financial instruments or derivatives based on market and exchange data, we can ensure that these instruments are as granular or basic as market demands dictate. This innovative approach will facilitate the seamless trading of tokenized compute resources on decentralized exchanges (DEXs) and centralized exchanges (CEXs), ensuring robust liquidity and dynamic pricing based on real-time supply-demand metrics.
 
 
-3. **Balancing Near-term AI-enabled Insights with Long-term Goals**: It's crucial to distinguish between insights that can be achieved quickly with AI and those that require long-term investment. This balance will help us align immediate objectives with strategic, long-term goals.
+3. **[Balancing Near-term AI-enabled Insights with Long-term Goals](/literary_products/joes_notes/PATH_DEPENDENCE_PRIORITIZATION.md)**: It's crucial to distinguish between insights that can be achieved quickly with AI and those that require long-term investment. This balance will help us align immediate objectives with strategic, long-term goals.
 
-4. **Tracking Digital Transformations and Big-data Generation Events**: Monitoring radical digital transformations and the subsequent big-data generation is essential for understanding and predicting compute demand. By doing so, we can better allocate resources and anticipate market needs.
+4. **[Tracking Digital Transformations and Big-data Generation Events](/literary_products/joes_notes/DIGITAL_TRANSFORMATIONS.md)**: Monitoring radical digital transformations and the subsequent big-data generation is essential for understanding and predicting compute demand. By doing so, we can better allocate resources and anticipate market needs.
 
 ## Capabilities
 
@@ -60,7 +60,7 @@ Based on the limited information I have as an outsider, and acknowledging that t
    - Understanding of regulatory requirements for token sales.
    - Experience ensuring compliance with financial regulations.
 
-## Chronology
+## Chronological Biography
 
 In 2024, I served as DataHive's Chief Strategy Officer. Initially, I engaged as a consultant (1099), transitioning to a W2 to qualify for DataHive's ESOP. I designed [DataHive's core protocol](https://github.com/datahiv3/Core-Protocol), mid-level [smart contract architecture](https://docs.google.com/document/d/1WYE5i-4UJOUmDWNEUC-6QCD1NwRpCeqs/edit?usp=drive_link&ouid=111669319430294495371&rtpof=true&sd=true) (links to docs are drafts and left deliberately vague), and a DataHive SDK leveraging our testnet on OP Sepolia. This allowed enterprise customers to "test drive" our vision for the mainnet. Additionally, I:
 
@@ -79,7 +79,7 @@ From 2010-2020, I:
 2. [Mirgated a call center](/literary_products/joes_notes/SBCPH.md) from Beaverton, Oregon to Manila, Philippines (Makati City)
 3. I consulted for a buddy's company, assisting him bring a [robotic vaccine storage sytem](/literary_products/joes_notes/ACCUVAX.md) to market
 
-From 2005 to 2010 I was in school, completing concurrent post-doctoral work, completing separate fellowships in medicine and literature (High English literature), and working odd jobs for the family office, such as reviewing medical/FDA patents for medically/clinically viable products (mostly diagnostics). 
+From 2005 to 2010 I was in school, completing concurrent post-doctoral work, completing separate fellowships in medicine and literature (high English literature), and working odd jobs for the family office, such as reviewing medical/FDA patents for medically/clinically viable products (mostly diagnostics). 
 
 From 1995 to 2005, I did pursue finance and financial engineering at various colleges and universities within my home vicinity of the Peninsula in the Bay Area (California), auditing and completing incidental courses at Stanford, Santa Clara University, UC Berkeley, and the State Schools (SF State, SJ State). I completed 2 summer internships from 1999 to 2000 at the now defunct [Pacific Exchange (PCX)](https://www.perplexity.ai/page/pacific-exchange-options-tradi-qInhY9t7Q4qJNyYLDHtC0A), where I supported options trading desks/traders/brokers (mostly working at the behest of various Bay Area families and their family offices).
 
