@@ -37,4 +37,6 @@ To track progress towards this refined threshold, we might consider metrics such
 - The number of independent AGI research projects or startups globally.
 - The rate of improvement in price-performance ratios for AI-specific hardware and cloud services.
 
+> See also: *[AGI as a prerequisite for survival](/literary_products/joes_notes/AGI_SURVIVAL.md)*
+
 By focusing on both the economic aspect (price per compute) and the accessibility aspect (scale of availability), we gain a more comprehensive understanding of how close we are to a potential explosion in AGI development efforts. This refined threshold concept emphasizes that it's not just about raw computational power, but about the [democratization of that power](/literary_products/joes_notes/DEMOCRATIZING_COMPUTE.md) across a significant portion of the global population.
