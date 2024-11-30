@@ -14,7 +14,7 @@
 
 ### Dear Exabits Leadership, 
 
-My name is Joe Maristela, and I'm writing to express my interest in joining the [Exabits](https://drive.google.com/drive/u/0/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE) team. I [believe that humanity's](/literary_products/joes_notes/TENETS.md) most essential resource— compute—can *only* be [coordinated](/literary_products/joes_notes/COORDINATION_FAILURE.md) at the scale necessary to achieve AGI through the innovative financialization model that Exabits envisions.
+My name is Joe Maristela, and I'm writing to express my interest in joining the [Exabits](https://drive.google.com/drive/u/0/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE) team. I [believe that humanity's](/literary_products/joes_notes/TENETS.md) most essential resource— compute—can *only* be [coordinated](/literary_products/joes_notes/COORDINATION_FAILURE.md) at the [scale necessary to achieve AGI](/literary_products/joes_notes/AGI_COMPUTE_THRESHOLD.md) through the kind of [compute financialization](/literary_products/joes_notes/COMPUTE_FINANCE.md) that Exabits seems to be pursuing.
 
 > *This letter's attachments on [Google Drive](https://drive.google.com/drive/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE?usp=drive_link)*
 
@@ -25,14 +25,14 @@ Based on the limited information I have as an outsider, and acknowledging that t
 ![Compute Access](/images/COMPUTE_ACCESS.png)
 
 
-1. **[Financialization Frameworks for Tradeable Compute](/literary_products/joes_notes/TRADEABLE_COMPUTE.md)**: I propose developing comprehensive frameworks that transform compute resources into financial instruments, making them tradeable assets. This approach not only broadens liquidity and accessibility across the global compute economy but also generates new liquidity processes and opportunities. By establishing new access points, we can imagine possibilities for compute utilization that were previously unexplored. This aligns with Exabits' mission to democratize access to cutting-edge compute technologies and create a liquid market for these assets, enabling global participation in the AI-driven economy.
+1. **[Financialization Frameworks for Tradeable Compute](/literary_products/joes_notes/TRADEABLE_COMPUTE.md)**: I propose developing comprehensive frameworks that transform compute resources into financial instruments, making them tradeable assets. This approach not only broadens liquidity and accessibility across the global compute economy but also generates new liquidity processes and opportunities.
 
-2. **[SLA Modularization Framework for Universally Tradeable Compute](/literary_products/joes_notes/EXABITS_SLA_MODULE.md)**: I envision creating a modular framework for [Service Level Agreements (SLAs)](/literary_products/joes_notes/SLAs.md) that enables compute resources to be highly tradeable. This involves [standardizing SLA components](/literary_products/joes_notes/STANDARDIZING_SLAs.md) such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs. By algorithmically constructing financial instruments or derivatives based on market and exchange data, we can ensure that these instruments are as granular or basic as market demands dictate. This innovative approach will facilitate the seamless trading of tokenized compute resources on decentralized exchanges (DEXs) and centralized exchanges (CEXs), ensuring robust liquidity and dynamic pricing based on real-time supply-demand metrics.
+2. **[SLA Modularization Framework for Universally Tradeable Compute](/literary_products/joes_notes/EXABITS_SLA_MODULE.md)**: I envision creating a modular framework for [Service Level Agreements (SLAs)](/literary_products/joes_notes/SLAs.md) that enables compute resources to be highly tradeable. This involves [standardizing SLA components](/literary_products/joes_notes/STANDARDIZING_SLAs.md) such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs. 
 
 
 3. **[Balancing Near-term AI-enabled Insights with Long-term Goals](/literary_products/joes_notes/PATH_DEPENDENCE_PRIORITIZATION.md)**: It's crucial to distinguish between insights that can be achieved quickly with AI and those that require long-term investment. This balance will help us align immediate objectives with strategic, long-term goals.
 
-4. **[Tracking Digital Transformations and Big-data Generation Events](/literary_products/joes_notes/DIGITAL_TRANSFORMATIONS.md)**: Monitoring radical digital transformations and the subsequent big-data generation is essential for understanding and predicting compute demand. By doing so, we can better allocate resources and anticipate market needs.
+4. **[Digital Transformations and Big-data Generation Events](/literary_products/joes_notes/DIGITAL_TRANSFORMATIONS.md)**: Monitoring radical digital transformations and the subsequent big-data generation is essential for understanding and predicting compute demand. By doing so, we can better allocate resources and anticipate market needs.
 
 ## Capabilities
 
