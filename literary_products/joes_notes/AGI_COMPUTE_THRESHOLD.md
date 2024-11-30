@@ -8,6 +8,8 @@ The [economic threshold](/literary_products/joes_notes/ECONOMIC_THRESHOLD.md) fo
 
 > *Note that a "[decentralization makeup](/literary_products/joes_notes/DECENTRALIZATION_MAKEUP.md)" is a prerequisite for AGI viability.*
 
+[![Spotify Episode](https://img.shields.io/badge/Spotify-Episode-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/episode/6K22cykKXfHjqMOmlqpXdo?si=3c6ZQg7HSvSH4NBqx4Y2IA)
+
 ## [Scale of Accessibility](/literary_products/joes_notes/SCALE_OF_ACCESSIBILITY.md)
 
 The scale component of the threshold refers to the percentage of the human population that has access to the necessary compute resources at the target price point. This is a critical factor in [democratizing AGI development](/literary_products/joes_notes/DEMOCRATIZING_AGI.md) and can be measured by:

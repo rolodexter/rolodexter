@@ -1,5 +1,7 @@
 The case for AGI as a prerequisite for human survival and transcendence of biological evolution can be made through [path dependence analysis](/literary_products/joes_notes/PATH_DEPENDENCE.md) and [mathematical modeling](/literary_products/joes_notes/MATHEMATICAL_MODELING.md), framing it not as a mere technological milestone but as a critical [evolutionary leap](/literary_products/joes_notes/EVOLUTIONARY_LEAP.md). This perspective aligns with the hypothesis that humans are destined to surpass the constraints of [natural selection](/literary_products/joes_notes/NATURAL_SELECTION.md), with AGI serving as the catalyst for this transformation.
 
+[![Spotify Episode](https://img.shields.io/badge/Spotify-Episode-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/episode/6K22cykKXfHjqMOmlqpXdo?si=3c6ZQg7HSvSH4NBqx4Y2IA)
+
 ## Path Dependence Analysis
 
 The trajectory of human [technological and cognitive development](/literary_products/joes_notes/TECHNOLOGICAL_COGNITIVE_DEVELOPMENT.md) can be modeled as a path-dependent process, where each advancement builds upon previous innovations. We can express this as:
