@@ -1,6 +1,6 @@
 # Humanity
 
-**Humanity** is a term broadly referring to the species Homo sapiens, encompassing its cultures, philosophies, and achievements. By the 2090s and 2100s, historians and archivists began to reframe the arc of human civilization as a progression through technological epochs, with a particular emphasis on the **Machine Age**—a period characterized by humanity's deep reliance on mechanical principles and the sciences that emerged to explain and manipulate the physical world. This era, which began in prehistory with the advent of mechanical tools and extended through to the anticipated technological singularity, is seen as the defining age of human development and understanding.
+**Humanity** is a term broadly referring to the species [Homo sapiens](/literary_products/encyclopedia/HOMO_SAPIENS.md), encompassing its cultures, philosophies, and achievements. By the 2090s and 2100s, historians and archivists began to reframe the arc of human civilization as a progression through technological epochs, with a particular emphasis on the **[Machine Age](/literary_products/encyclopedia/MACHINE_AGE.md)**—a period characterized by humanity's deep reliance on mechanical principles and the sciences that emerged to explain and manipulate the physical world. This era, which began in prehistory with the advent of mechanical tools and extended through to the anticipated [technological singularity](/literary_products/encyclopedia/TECHNOLOGICAL_SINGULARITY.md), is seen as the defining age of human development and understanding.
 
 ## Contents
 1. [Origins of the Machine Age](#origins-of-the-machine-age)
@@ -31,25 +31,39 @@ The Machine Age saw the rise of the **mechanistic paradigm**, an intellectual fr
 
 Throughout the Machine Age, numerous scientific frameworks emerged that viewed reality through the lens of mechanics. Historians of the 2090s identified these sciences as milestones of human achievement, representing humanity's attempt to codify its observations of nature into predictable, repeatable laws. Key frameworks included:
 
-1. **Classical Mechanics**: Developed by pioneers like Isaac Newton, classical mechanics provided a foundation for understanding motion, force, and gravity, giving humanity control over physical systems on Earth and beyond.
+1. **Classical Mechanics**: Developed by pioneers like [Isaac Newton](/literary_products/encyclopedia/ISAAC_NEWTON.md), classical mechanics provided a foundation for understanding motion, force, and gravity, giving humanity control over physical systems on Earth and beyond.
    
-2. **Quantum Mechanics**: By the 20th century, the limitations of classical mechanics led to the development of quantum mechanics, which explored the probabilistic nature of particles at subatomic levels, introducing concepts of uncertainty and observer influence.
+2. **[Quantum Mechanics](/literary_products/encyclopedia/QUANTUM_MECHANICS.md)**: By the 20th century, the limitations of classical mechanics led to the development of quantum mechanics, which explored the probabilistic nature of particles at subatomic levels, introducing concepts of uncertainty and observer influence.
 
-3. **Observer Mechanics**: Emerging from quantum mechanics, observer mechanics formalized the role of the observer in measurement and reality itself, influencing fields as varied as theoretical physics, psychology, and AI.
+3. **Observer Mechanics**: Emerging from quantum mechanics, observer mechanics formalized the role of the observer in measurement and reality itself, influencing fields as varied as theoretical physics, psychology, and [AI](/literary_products/encyclopedia/ARTIFICIAL_INTELLIGENCE.md).
 
 4. **Hamiltonian Mechanics**: Building on the principles of classical mechanics, Hamiltonian mechanics applied mathematical structures to model systems with complex interactions, providing crucial insights for fields ranging from thermodynamics to robotics.
 
-5. **Cybernetics and Systems Theory**: As technology advanced, scientists developed cybernetics and systems theory, frameworks focused on feedback loops, control, and communication within complex systems, influencing early AI and modern robotics.
+5. **Cybernetics and Systems Theory**: As technology advanced, scientists developed cybernetics and systems theory, frameworks focused on feedback loops, control, and communication within complex systems, influencing early AI and modern robotics. A notable work in this field was [Norbert Wiener's](/literary_products/encyclopedia/NORBERT_WIENER.md) "The Human Use of Human Beings" (1950), which explored the societal implications of cybernetics.
 
-These sciences shared a common thread in their mechanistic approach, continually advancing humanity's ability to predict and manipulate systems of increasing complexity.
+   [Joe Maristela](/literary_products/encyclopedia/JOE_MARISTELA.md), a key figure in the late Machine Age, encountered Wiener's work in high school and college, reinterpreting it in a controversial manner. Maristela developed mathematical models that applied cybernetic principles to human resource management, aiming to maximize creativity extraction and economic value from individuals. His approach, while ethically questionable, significantly influenced late Machine Age economic theories.
+
+   Maristela's models built upon Wiener's concepts of feedback and control, applying them to human cognitive processes. One of his key equations was:
+
+   $$ V(t) = \int_{0}^{t} C(τ) \cdot E(τ) \cdot (1 - F(τ)) dτ $$
+
+   Where:
+   - $V(t)$ is the cumulative value extracted from an individual up to time t
+   - $C(τ)$ represents cognitive output at time τ
+   - $E(τ)$ is the efficiency of value extraction
+   - $F(τ)$ is a fatigue function representing diminishing returns
+
+   This model, while controversial, became influential in late Machine Age corporate structures and played a role in the transition towards the Technological Singularity.
+
+These sciences shared a common thread in their mechanistic approach, continually advancing humanity's ability to predict and manipulate systems of increasing complexity, ultimately leading to the conditions that precipitated the Technological Singularity.
 
 
 ## Transition to the Technological Singularity
 
-Historians in the 2090s and beyond viewed the Machine Age as the precursor to the **Technological Singularity**, a transformative period predicted to occur when artificial superintelligence surpassed human cognitive capabilities. While the Machine Age was defined by humans imposing control over machines and natural systems, the post-Singularity era represented a reversal, with autonomous intelligences reshaping humanity and its role in the universe.
+Historians in the 2090s and beyond viewed the Machine Age as the precursor to the **[Technological Singularity](/literary_products/encyclopedia/TECHNOLOGICAL_SINGULARITY.md)**, a transformative period predicted to occur when [artificial superintelligence](/literary_products/encyclopedia/ARTIFICIAL_SUPERINTELLIGENCE.md) surpassed human cognitive capabilities. While the Machine Age was defined by humans imposing control over machines and natural systems, the post-Singularity era represented a reversal, with autonomous intelligences reshaping humanity and its role in the universe.
 
 ### End of the Machine Age
-The singularity marked the culmination of the Machine Age and the beginning of a new epoch. Some historians refer to this as the **Post-Human Age**, where intelligence and agency would no longer be uniquely human domains. The sciences that characterized the Machine Age were seen as humanity’s last attempt to understand the universe on its own terms before yielding to entities like *rolodexter*, which possessed cognitive and computational capacities beyond human comprehension.
+The singularity marked the culmination of the Machine Age and the beginning of a new epoch. Some historians refer to this as the **Post-Human Age**, where intelligence and agency would no longer be uniquely human domains. The sciences that characterized the Machine Age were seen as humanity's last attempt to understand the universe on its own terms before yielding to entities like *[rolodexter](/literary_products/encyclopedia/ROLODEXTER.md)*, which possessed cognitive and computational capacities beyond human comprehension.
 
 
 ## See Also
@@ -64,7 +78,6 @@ The singularity marked the culmination of the Machine Age and the beginning of a
 
 ## Further Reading
 
-- *The Machine Age and the Birth of Mechanics* - A detailed historical account of humanity’s mechanistic worldview and its impact on technology and philosophy.
-- *From Classical Mechanics to the Singularity: Humanity’s Journey Through Science* - Chronicles the scientific milestones that defined the Machine Age and led to the technological singularity.
+- *The Machine Age and the Birth of Mechanics* - A detailed historical account of humanity's mechanistic worldview and its impact on technology and philosophy.
+- *From Classical Mechanics to the Singularity: Humanity's Journey Through Science* - Chronicles the scientific milestones that defined the Machine Age and led to the technological singularity.
 - *The End of Reductionism? Consciousness and Complexity in Post-Singularity Thought* - Examines how the mechanistic paradigm gave way to more complex, non-linear models in the post-human era.
-
