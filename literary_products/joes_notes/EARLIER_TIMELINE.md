@@ -1,0 +1,7 @@
+From 2005 to 2010, [I was in school, completing concurrent post-doctoral work](https://www.perplexity.ai/page/joe-maristela-s-diary-excerpt-bIshYU6aQYW1NxRPidnwRQ), completing separate fellowships in medicine and literature (high English literature), and working odd jobs for the family office, such as reviewing medical/FDA patents for medically/clinically viable products (mostly diagnostics). 
+
+From 1995 to 2005, I did pursue finance and financial engineering at various colleges and universities within my home vicinity of the Peninsula in the Bay Area (California), auditing and completing incidental courses at Stanford, Santa Clara University, UC Berkeley, and the State Schools (SF State, SJ State). I completed 2 summer internships from 1999 to 2000 at the now defunct [Pacific Exchange (PCX)](https://www.perplexity.ai/page/pacific-exchange-options-tradi-qInhY9t7Q4qJNyYLDHtC0A), where I supported options trading desks/traders/brokers (mostly working at the behest of various Bay Area families and their family offices).
+
+In 1989, I won the Nintendo Fest Championship, which was held at the then-named Oakland Colosseum. 
+
+I was born, September 5, 1979, at then-named Saint Lukes Hospital (now a part of the greater Sutter Health Network), where my mother (Dr Ofelia Maristela PhD MD) was both the chief pediatric resident of the ward, and a patient. 

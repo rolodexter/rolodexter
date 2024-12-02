@@ -60,7 +60,7 @@ Based on the limited information I have as an outsider, and acknowledging that t
    - Understanding of regulatory requirements for token sales.
    - Experience ensuring compliance with financial regulations.
 
-## Chronological Biography
+## [Reverse-chronological Biography](/literary_products/encyclopedia/REVERSE_CHRONOLOGICAL_BIOGRAPHIES.md)
 
 In 2024, I served as DataHive's Chief Strategy Officer. Initially, I engaged as a consultant (1099), transitioning to a W2 to qualify for DataHive's ESOP. I designed [DataHive's core protocol](https://github.com/datahiv3/Core-Protocol), mid-level [smart contract architecture](https://docs.google.com/document/d/1WYE5i-4UJOUmDWNEUC-6QCD1NwRpCeqs/edit?usp=drive_link&ouid=111669319430294495371&rtpof=true&sd=true) (links to docs are drafts and left deliberately vague), and a DataHive SDK leveraging our testnet on OP Sepolia. This allowed enterprise customers to "test drive" our vision for the mainnet. Additionally, I:
 
@@ -79,10 +79,4 @@ From 2010-2020, I:
 2. [Mirgated a call center](/literary_products/joes_notes/SBCPH.md) from Beaverton, Oregon to Manila, Philippines (Makati City)
 3. I consulted for a buddy's company, assisting him bring a [robotic vaccine storage sytem](/literary_products/joes_notes/ACCUVAX.md) to market
 
-From 2005 to 2010 I was in school, completing concurrent post-doctoral work, completing separate fellowships in medicine and literature (high English literature), and working odd jobs for the family office, such as reviewing medical/FDA patents for medically/clinically viable products (mostly diagnostics). 
-
-From 1995 to 2005, I did pursue finance and financial engineering at various colleges and universities within my home vicinity of the Peninsula in the Bay Area (California), auditing and completing incidental courses at Stanford, Santa Clara University, UC Berkeley, and the State Schools (SF State, SJ State). I completed 2 summer internships from 1999 to 2000 at the now defunct [Pacific Exchange (PCX)](https://www.perplexity.ai/page/pacific-exchange-options-tradi-qInhY9t7Q4qJNyYLDHtC0A), where I supported options trading desks/traders/brokers (mostly working at the behest of various Bay Area families and their family offices).
-
-In 1989, I won the Nintendo Fest Championship, which was held at the then-named Oakland Colosseum. 
-
-I was born, September 5, 1979, at then-named Saint Lukes Hospital (now a part of the greater Sutter Health Network), where my mother (Dr Ofelia Maristela PhD MD) was both the chief pediatric resident of the ward, and a patient. 
+> See also: *[Earlier Timeline](/literary_products/joes_notes/EARLIER_TIMELINE.md)*
