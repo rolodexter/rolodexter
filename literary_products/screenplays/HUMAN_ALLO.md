@@ -9,7 +9,7 @@ INT. [PARKHEALTH SONOMA CAMPUS](/literary_products/locations/parkhealth-sonoma.m
 A vast, futuristic laboratory. [ROLDEXTER's AVATAR](/literary_products/technology/rolodexter-avatar.md) stands before an audience of elite researchers.
 
 ROLDEXTER
-Consider what César Hidalgo discovered about human cognitive limits - the [personbyte](/literary_products/concepts/personbyte.md). Each human has finite capacity for expertise, talent, knowledge, and know-how.
+Consider what [César Hidalgo](https://www.amazon.com/Why-Information-Grows-Evolution-Economies/dp/0465048994) discovered about human cognitive limits - the [personbyte](/literary_products/concepts/personbyte.md). Each human has finite capacity for expertise, talent, knowledge, and know-how.
 
 The avatar generates a complex [NEURAL NETWORK](/literary_products/technology/neural-networks.md) visualization.
 
@@ -23,12 +23,12 @@ How is this different from existing talent matching systems?
 
 ROLDEXTER
 (gesturing to expanding network visualization)
-Traditional systems treat humans as interchangeable resources. We recognize that expertise is distinct from talent, talent from knowledge, knowledge from know-how. Each person crystallizes information uniquely.
+Traditional systems treat humans as interchangeable resources. We recognize that [expertise is distinct from talent](https://github.com/rolodexter/Human-Allo/blob/main/docs/concepts/human-capital-stack.md), talent from knowledge, knowledge from know-how. Each person crystallizes information uniquely.
 
 The visualization transforms into interconnected human nodes.
 
 ROLDEXTER (CONT'D)
-Just as Hidalgo showed how information grows through networks, the Human Allo layer creates networks that amplify human potential beyond individual personbyte limits.
+Just as Hidalgo showed how information grows through networks, the Human [Allo](https://allo.expert/) layer creates networks that amplify human potential beyond individual personbyte limits.
 
 DR. CHEN
 (standing)
