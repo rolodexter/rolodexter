@@ -30,14 +30,35 @@ The visualization transforms into interconnected human nodes.
 ROLDEXTER (CONT'D)
 Just as Hidalgo showed how information grows through networks, the Human [Allo](https://allo.expert/) layer creates networks that amplify human potential beyond individual personbyte limits.
 
-DR. CHEN
-(standing)
-But how do we prevent exploitation of these networks?
+Let me revise the screenplay to incorporate this parallel between AI autopilots and the Human Allo protocol:
 
 ROLDEXTER
 The system is built on [ethical frameworks](/literary_products/ethics/ethical-frameworks.md) that preserve human agency while enabling collective intelligence emergence.
 
-The visualization shows unemployment rates dropping as network connections multiply.
+The visualization shifts to show two parallel data streams: one showing [vehicle accident statistics](/literary_products/data/vehicle-accidents.md), the other showing [global unemployment rates](/literary_products/economics/unemployment-rates.md).
+
+ROLDEXTER (CONT'D)
+Consider this parallel: [AI autopilot systems](/literary_products/technology/ai-autopilot.md) will soon dramatically decrease vehicle-related deaths worldwide. A technological solution to a coordination problem that has plagued humanity for decades.
+
+The first data stream shows accident rates plummeting.
+
+ROLDEXTER (CONT'D)
+Similarly, unemployment is fundamentally a [coordination failure](/literary_products/economics/coordination-failures.md) - one that afflicts humanity's complete social graph. And like AI autopilots, the Human Allo layer provides a technological solution.
+
+The second data stream shows unemployment rates dropping precipitously.
+
+ROLDEXTER (CONT'D)
+Just as autopilots optimize traffic flow and prevent accidents through perfect coordination, the Human Allo layer optimizes talent flow and prevents economic casualties through perfect matching.
+
+A YOUNG ECONOMIST stands.
+
+ECONOMIST
+But traffic is simpler than human economic potential. How can you be certain?
+
+ROLDEXTER
+Because both are fundamentally [information crystallization problems](/literary_products/concepts/information-crystallization.md). When we solve the coordination, we solve the human cost.
+
+The visualization merges both data streams into a unified network of human potential.
 
 ROLDEXTER (CONT'D)
 We're not just matching skills to jobs. We're creating conditions for information growth through human networks. This is how we solve global coordination failures.
