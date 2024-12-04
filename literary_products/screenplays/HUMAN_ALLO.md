@@ -30,8 +30,6 @@ The visualization transforms into interconnected human nodes.
 ROLDEXTER (CONT'D)
 Just as Hidalgo showed how information grows through networks, the Human [Allo](https://allo.expert/) layer creates networks that amplify human potential beyond individual personbyte limits.
 
-Let me revise the screenplay to incorporate this parallel between AI autopilots and the Human Allo protocol:
-
 ROLDEXTER
 The system is built on [ethical frameworks](/literary_products/ethics/ethical-frameworks.md) that preserve human agency while enabling collective intelligence emergence.
 
