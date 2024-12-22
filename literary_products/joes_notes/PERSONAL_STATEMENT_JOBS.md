@@ -12,19 +12,22 @@
 [![CivilAirspace](https://img.shields.io/badge/CivilAirspace-Project-023047?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/CivilAirspace) 
 [![Spotify](https://img.shields.io/badge/Spotify-Listen-1DB954?style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/show/11s0wEdbc8k3caT6xur57a) [![Telehealth and Medicine Today](https://img.shields.io/badge/Telehealth-Article-0077B5?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://telehealthandmedicinetoday.com/index.php/journal/article/view/87/75)
 
-## Overview
 My career blends [technical expertise](/literary_products/joes_notes/ENGINEERING.md), [strategic leadership](/literary_products/joes_notes/STRATEGIC_LEADERSHIP.md), and a [systems science perspective](/literary_products/joes_notes/SYSTEMS_MINDSET.md) to tackle complex challenges. With a proven ability to [connect interdisciplinary dots](/literary_products/joes_notes/INTERDISCIPLINARY_CONNECTIONS.md), I deliver innovative, high-impact results across industries, from [blockchain technology](/literary_products/joes_notes/BLOCKCHAIN_EXPERIENCE.md) to [AI automation](/literary_products/joes_notes/AI_AUTOMATION.md).
 
-## Value I Bring
+![Operational Excellence](/images/OPERATIONAL.png)
+
+## Value 
 - **Transformative Leadership**: Directed [cryptoeconomic governance models](/literary_products/joes_notes/CRYPTOECONOMIC_MODELS.md), driving community engagement by 40%.
 - **Operational Excellence**: Designed and deployed [workflow automation](/literary_products/joes_notes/WORKFLOW_AUTOMATION.md) frameworks, reducing inefficiencies by 25%.
 - **Innovative Solutions**: Applied [AI-driven automation](/literary_products/joes_notes/AI_AUTOMATION.md) to streamline operations, increasing team productivity by measurable metrics.
 
-## Why My Background Fits
+## How My Background Fits
 While my career spans [medicine](/literary_products/joes_notes/MEDICAL_BACKGROUND.md), [decentralized systems](/literary_products/joes_notes/DECENTRALIZED_ARCHITECTURE.md), and [business development](/literary_products/joes_notes/BUSINESS_DEVELOPMENT.md), this diversity equips me to:
 - Solve interdisciplinary problems with unique insights.
 - Adapt rapidly to industry shifts and challenges.
 - Integrate cutting-edge innovation with operational scalability.
+
+![Strategic](/images/STRATEGIC.png)
 
 ## Passion for Learning and Growth
 I’m seeking roles where I can continue to [grow and learn](/literary_products/joes_notes/CAREER_GROWTH.md), applying my expertise in [automating workflows](/literary_products/joes_notes/WORKFLOW_AUTOMATION.md) and [driving measurable outcomes](/literary_products/joes_notes/MEASURABLE_OUTCOMES.md) to make an immediate impact. Whether in [technical writing](/literary_products/joes_notes/TECHNICAL_WRITING.md), [strategy](/literary_products/joes_notes/STRATEGY.md), or [developer relations](/literary_products/joes_notes/DEVELOPER_RELATIONS.md), I excel in roles that emphasize [collaboration](/literary_products/joes_notes/COLLABORATION.md) and [execution](/literary_products/joes_notes/EXECUTION.md).
