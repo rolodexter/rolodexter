@@ -21,6 +21,8 @@ My career blends [technical expertise](/literary_products/joes_notes/ENGINEERING
 - **Operational Excellence**: Designed and deployed [workflow automation](/literary_products/joes_notes/WORKFLOW_AUTOMATION.md) frameworks, reducing inefficiencies by 25%.
 - **Innovative Solutions**: Applied [AI-driven automation](/literary_products/joes_notes/AI_AUTOMATION.md) to streamline operations, increasing team productivity by measurable metrics.
 
+> See also: *[Motivations](/literary_products/joes_notes/MOTIVATION.md)*
+
 ## How My Background Fits
 While my career spans [medicine](/literary_products/joes_notes/MEDICAL_BACKGROUND.md), [decentralized systems](/literary_products/joes_notes/DECENTRALIZED_ARCHITECTURE.md), and [business development](/literary_products/joes_notes/BUSINESS_DEVELOPMENT.md), this diversity equips me to:
 - Solve interdisciplinary problems with unique insights.
