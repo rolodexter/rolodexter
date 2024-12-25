@@ -67,4 +67,3 @@ Exabits' platform demonstrates several elements that contribute to the decentral
 3. **[Regulatory Navigation](/literary_products/joes_notes/REGULATORY_NAVIGATION.md)**: Decentralized systems must navigate varying regulatory landscapes across different jurisdictions.
 
 4. **[Security Concerns](/literary_products/joes_notes/SECURITY_CONCERNS.md)**: Ensuring the integrity and security of AGI development in a decentralized environment presents unique challenges.
-
