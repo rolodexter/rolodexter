@@ -10,9 +10,6 @@ This timeline illustrates how the U.S. government's engagement with UAPs and UFO
 ### **1950s**
 - **1952**: 
   - **[Washington D.C. UFO Incident](/literary_products/joes_notes/WASHINGTON_UFO_INCIDENT.md)**: Multiple sightings lead to heightened public interest and concern. The CIA's **[Robertson Panel](/literary_products/joes_notes/ROBERTSON_PANEL.md)** advises debunking UFO reports to prevent mass hysteria, marking a strategic use of disinformation.
-
-[![Watch Video](https://img.youtube.com/vi/ZWWY8bqXeag/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZWWY8bqXeag)
-
   
 - **1953**: The CIA encourages the Air Force to use **[Project Blue Book](/literary_products/joes_notes/PROJECT_BLUE_BOOK.md)** as a means of publicly discrediting UFO sightings while simultaneously covering up advanced military projects.
 
