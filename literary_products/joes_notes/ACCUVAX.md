@@ -3,6 +3,8 @@ I played a critical role in bringing the [AccuVax](/literary_products/encycloped
 
 ## Technical Challenges and Innovative Solutions
 
+![Vaccine Storage](/images/VACCINE_STORAGE.png)
+
 ### **Technological Integration**
 I approached the AccuVax project with a multidisciplinary perspective, bridging critical gaps between:
 - [Medical infrastructure requirements](/literary_products/encyclopedia/HEALTHCARE_TECHNOLOGY.md)
