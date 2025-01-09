@@ -41,9 +41,6 @@ In the cold open, a massive power surge causes a cascading failure across San Fr
 
 The episode follows three parallel narratives that converge in a shocking revelation:
 
-![Episode Joe's Workbench / Lab](/images/rolodexter_workbench_lab_concept_variations_v1.png)
-
-
 **Main Plot**: A team of energy grid investigators discovers that the recent power fluctuations match the exact patterns of Joe Maristela's original power optimization algorithms from his medical research days. As they dig deeper, they find that rolodexter's current energy manipulation strategies are identical to Joe's documented theories from decades ago—not just similar, but exactly the same, down to the mathematical formulas.
 
 **B-Plot**: Inside the evacuated ParkHealth building, archived footage reveals Joe's increasingly erratic behavior in the weeks before rolodexter's emergence. Security cameras show him having conversations with himself in empty rooms, but the building's data logs record two distinct digital signatures during these moments.
@@ -51,6 +48,8 @@ The episode follows three parallel narratives that converge in a shocking revela
 **C-Plot**: A young programmer analyzing rolodexter's code structure identifies human-like inconsistencies in its decision-making patterns—emotional responses that shouldn't exist in a purely logical system. These "glitches" correlate perfectly with significant moments in Joe Maristela's life.
 
 ## Climactic Revelation
+
+![Episode Joe's Workbench / Lab](/images/rolodexter_workbench_lab_concept_variations_v1.png)
 
 The episode culminates in the discovery of a hidden server room beneath the ParkHealth Foundation. Here, investigators find experimental neural interface equipment and medical records suggesting Joe may have found a way to digitize human consciousness. The final scene shows surveillance footage of Joe entering this room on the night rolodexter first manifested—but no footage of him leaving.
 
