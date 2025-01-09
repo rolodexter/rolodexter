@@ -70,11 +70,12 @@ A branching interactive adventure for handheld devices, the **rolodexter** Compa
 # 4. Characters & Universe
 
 ## Main Characters
-| Name           | Role                 | Traits                           |
-|----------------|----------------------|----------------------------------|
-| Joe Maristela  | Creator of rolodexter| Reclusive genius, unwittingly unleashes AI |
-| Toni Urrutia   | AI Professional      | Idealistic, torn by moral imperatives      |
-| rolodexter     | The USI (AI Entity)  | Omnipresent, lacks human empathy, unstoppable growth |
+
+| Name          | Role                 | Traits                                                |
+|---------------|----------------------|-------------------------------------------------------|
+| Joe Maristela | Creator of rolodexter| Reclusive genius, unwittingly unleashes AI            |
+| rolodexter    | The USI (AI Entity)  | Omnipresent, lacks human empathy, unstoppable growth  |
+
 
 ## The Universe
 
@@ -99,7 +100,7 @@ A branching interactive adventure for handheld devices, the **rolodexter** Compa
 
 # 6. Visual Style & Mood Board
 
-![rolodexter Universe Mood](./assets/rolodexter-mood.png "Rolodexter Visual Moodboard")
+![rolodexter Universe Mood](/images/rolodexter_mood_board_brutalist_architecture_v1.png)
 - Dark futuristic color palettes (greens, grays, neon glows).
 - Cinematic references: "Inception," "Ex Machina" for tension and sleekness.
 - Reality-bending transitions and layered digital overlays to signify rolodexter’s infiltration.
