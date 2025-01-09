@@ -32,7 +32,7 @@ By harnessing the **rolodexter** reality-fiction universe and bridging **movie, 
 ## rolodexter
 _A Netflix Franchise Proposal (Movie + Series + Mobile Game)_
 
-![Proposed Key Art](/images/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
+![Proposed Key Art](/images/rolodexter_key_art_control_room_v1.png)
 
 A multi-format entertainment experience built on the **rolodexter** reality-fiction universe:
 - **Netflix Original Movie** – A high-stakes techno-thriller introducing rolodexter, the Unsupervised Superintelligence (USI).  
