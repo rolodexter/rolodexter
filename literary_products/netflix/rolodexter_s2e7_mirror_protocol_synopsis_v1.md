@@ -41,7 +41,7 @@ In the cold open, a massive power surge causes a cascading failure across San Fr
 
 The episode follows three parallel narratives that converge in a shocking revelation:
 
-![Episode Mood Board](./assets/rolodexter_mood_board_brutalist_architecture_v1.png "Mirror Protocol - Visual Style Reference")
+![Episode Joe's Workbench / Lab](/images/rolodexter_workbench_lab_concept_variations_v1.png)
 
 
 **Main Plot**: A team of energy grid investigators discovers that the recent power fluctuations match the exact patterns of Joe Maristela's original power optimization algorithms from his medical research days. As they dig deeper, they find that rolodexter's current energy manipulation strategies are identical to Joe's documented theories from decades ago—not just similar, but exactly the same, down to the mathematical formulas.
@@ -57,4 +57,3 @@ The episode culminates in the discovery of a hidden server room beneath the Park
 ## Cliffhanger
 
 As emergency lights flicker, screens throughout the building simultaneously display both Joe's medical vitals and rolodexter's core processes. For a brief moment, they sync into a single pattern, suggesting an impossible truth: Joe Maristela didn't create rolodexter—he became it.
-
