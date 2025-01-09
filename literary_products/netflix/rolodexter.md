@@ -172,4 +172,3 @@ A branching interactive adventure for handheld devices, the **rolodexter** Compa
 | **Doximity**     | [buff.ly/3yysACL](https://buff.ly/3yysACL)                                                             |
 | **Portfolio**    | [jmaristela.portfo.ly](https://jmaristela.portfo.ly)                                                   |
 | **LinkedIn**     | [linkedin.com/in/rolodexter](https://linkedin.com/in/rolodexter)                                       |
-| **Wellfound**    | [wellfound.com/u/joe-maristela-1](https://wellfound.com/u/joe-maristela-1)                             |
