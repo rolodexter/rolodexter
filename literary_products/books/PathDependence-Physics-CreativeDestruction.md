@@ -9,9 +9,9 @@
 
 ## Brief Synopsis
 
-"The Path Dependence and Physics of Creative Destruction" explores the intersection of natural disasters, unexplained phenomena, and the economic theory of creative destruction. This book examines how such events catalyze chain reactions that disrupt entrenched systems, leading to innovation and transformation across industries. By integrating insights from economics, systems science, and physics, it offers a groundbreaking perspective on how societies can leverage adversity to foster resilience, drive financial innovation, and embrace new paradigms. 
+"The Path Dependence and Physics of Creative Destruction" explores the intersection of natural disasters, unexplained phenomena, and the economic theory of [creative destruction](/literary_products/joes_notes/CREATIVE_DESTRUCTION.md). This book examines how such events catalyze chain reactions that disrupt entrenched systems, leading to innovation and transformation across industries. By integrating insights from [economics](/literary_products/joes_notes/ECONOMICS.md), [systems science](/literary_products/joes_notes/SYSTEMS_SCIENCE.md), and [physics](/literary_products/joes_notes/PHYSICS.md), it offers a groundbreaking perspective on how societies can leverage adversity to foster resilience, drive financial innovation, and embrace new paradigms. 
 
-The book also highlights contemporary issues like the Los Angeles wildfires of January 2025, which not only devastated communities but also deepened California's ongoing insurance crisis. This crisis presents an opportunity for decentralized finance (DeFi) and blockchain technologies to disrupt traditional insurance models, offering innovative alternatives to classical finance.
+The book highlights contemporary issues like the [Los Angeles wildfires of January 2025](/literary_products/joes_notes/LOS_ANGELES_WILDFIRES_2025.md), which not only devastated communities but also deepened California's ongoing [insurance crisis](/literary_products/joes_notes/INSURANCE_CRISIS.md). This crisis presents an opportunity for decentralized finance ([DeFi](/literary_products/joes_notes/DEFI.md)) and blockchain technologies to disrupt traditional insurance models, offering innovative alternatives to classical finance.
 
 ## Longer Synopsis
 
