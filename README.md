@@ -9,6 +9,7 @@
 [![Wikipedia](https://img.shields.io/badge/Wikipedia-Profile-000000?style=flat-square&logo=wikipedia&logoColor=white)](https://en.wikipedia.org/wiki/File:Joe_Maristela_in_Paniqui_Tarlac_Tech_Seminar_2015.jpg) 
 [![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@rolodexter) 
 [![Bloomberg Feature](https://img.shields.io/badge/Bloomberg-Feature-5E5E5E?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Ep8Mo0kRjaY) 
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-Resume_and_Biodata-00A67E?style=flat-square&logo=chatgpt&logoColor=white)](https://chatgpt.com/g/g-675caa5a54e88191bd807764592df744-joe-s-resume-and-application-data) 
 [![Mastodon](https://img.shields.io/badge/Mastodon-Profile-6364FF?style=flat-square&logo=mastodon&logoColor=white)](https://mastodon.social/@JoeMaristela) 
 [![About.me](https://img.shields.io/badge/About.me-Profile-000000?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://about.me/joe3) 
 [![Foundersuite](https://img.shields.io/badge/Foundersuite-Profile-0056D2?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://about.me/joe3) 
@@ -24,7 +25,6 @@
 [![Flipboard](https://img.shields.io/badge/Flipboard-Magazine-E83151?style=flat-square&logo=flipboard&logoColor=white)](https://flipboard.com/@rolodexter/rolodexter-jergu04fz) 
 [![Spotify](https://img.shields.io/badge/Spotify-Listen-1DB954?style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/show/11s0wEdbc8k3caT6xur57a) 
 [![Telehealth and Medicine Today](https://img.shields.io/badge/Telehealth-Article-0077B5?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://telehealthandmedicinetoday.com/index.php/journal/article/view/87/75)
-
 
 ![rolodexter Superintelligence Render](images/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
