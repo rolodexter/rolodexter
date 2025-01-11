@@ -1,6 +1,6 @@
 [Homo sapiens](/literary_products/joes_notes/HOMO_SAPIENS.md) are estimated to have first appeared approximately **300,000 to 315,000 years ago**. This indicates that as of [January 2025](/literary_products/joes_notes/JANUARY_2025.md), [Homo sapiens](/literary_products/joes_notes/HOMO_SAPIENS.md) has been around for about **300,000 years**.
 
-## Lifespan Durations of [Pre-Homo sapiens](/literary_products/joes_notes/HOMO_SAPIENS.md)
+## Lifespan Durations of [Pre-Homo sapiens](/literary_products/joes_notes/PRE-HOMO_SAPIENS.md)
 
 | **Species**                                     | **Years Alive (Approximate)**            | **Duration of Species (Years)**     |
 |-------------------------------------------------|------------------------------------------|--------------------------------------|
