@@ -3,7 +3,7 @@
 ## Lifespan Durations of [Pre-Homo sapiens](/literary_products/joes_notes/PRE-HOMO_SAPIENS.md)
 
 | **Species**                                     | **Years Alive (Approximate)**            | **Duration of Species (Years)**     |
-|-------------------------------------------------|------------------------------------------|--------------------------------------|
+|-------------------------------------------------|------------------------------------------|-------------------------------------|
 | *[Homo habilis](/literary_products/joes_notes/HOMO_HABILIS.md)*             | c. 2.4 million to 1.5 million years ago  | ~900,000 years                       |
 | *[Homo erectus](/literary_products/joes_notes/HOMO_ERECTUS.md)*             | c. 2 million to 108,000 years ago         | ~1.89 million years                  |
 | *[Homo neanderthalensis](/literary_products/joes_notes/HOMO_NEANDERTHALENSIS.md)* | c. 400,000 to 40,000 years ago            | ~360,000 years                       |
@@ -15,9 +15,11 @@
 | **[Homo sapiens](/literary_products/joes_notes/HOMO_SAPIENS.md)**              | c. 300,000 years ago to present            | ~300,000 years (as of [Jan 2025](/literary_products/joes_notes/JANUARY_2025.md)) |
 
 - The oldest known fossils attributed to [Homo sapiens](/literary_products/joes_notes/HOMO_SAPIENS.md) date to around **315,000 years ago** from [Jebel Irhoud](/literary_products/joes_notes/JEBEL_IRHDOUD.md) in [Morocco](/literary_products/joes_notes/MOROCCO.md), which suggests that modern humans were present in [Africa](/literary_products/joes_notes/AFRICA.md) much earlier than previously thought.
-
+  
 - Other significant finds include fossils from [Omo Kibish](/literary_products/joes_notes/OMO_KIBISH.md), [Ethiopia](/literary_products/joes_notes/ETHIOPIA.md), dated to about **195,000 years ago**, and the [Florisbad skull](/literary_products/joes_notes/FLORISBAD_SKULL.md) from [South Africa](/literary_products/joes_notes/SOUTH_AFRICA.md), dating to around **259,000 years ago**.
-
+  
 - The [divergence](/literary_products/joes_notes/DIVERGENCE.md) of [Homo sapiens](/literary_products/joes_notes/HOMO_SAPIENS.md) from other [hominin lineages](/literary_products/joes_notes/HOMININ_LINEAGES.md) is estimated to have occurred between **350,000 and 260,000 years ago**, supporting the idea that modern humans emerged as a distinct species during this timeframe.
+  
+- **Total Number of Homo sapiens Who Have Ever Lived:** It is estimated that over **100 billion** individuals of [Homo sapiens](/literary_products/joes_notes/HOMO_SAPIENS.md) have lived and died up to [January 2025](/literary_products/joes_notes/JANUARY_2025.md). This estimate takes into account the long history of our species and the exponential growth in population over recent millennia.
 
 For more detailed information, you can also refer to the corresponding [Wikipedia articles](https://en.wikipedia.org/wiki/Homo_sapiens) on these topics.
