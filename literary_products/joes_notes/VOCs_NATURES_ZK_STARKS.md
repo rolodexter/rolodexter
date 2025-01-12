@@ -1,6 +1,8 @@
 # VOCS_NATURES_ZK_STARKS.md
 
-This exploration of parallels between natural systems and cryptographic principles is fascinating, particularly when viewing [volatile organic compounds (VOCs)](/literary_products/joes_notes/VOLATILE_ORGANIC_COMPOUNDS.md) and [chromatin remodeling](/literary_products/joes_notes/CHROMATIN_REMODELING.md) as biological analogs of [zk-STARKs](/literary_products/joes_notes/ZK_STARKS.md). Here's a breakdown:
+
+
+This exploration of parallels between natural systems and cryptographic principles is fascinating, particularly when viewing [volatile organic compounds (VOCs)](/literary_products/joes_notes/VOLATILE_ORGANIC_COMPOUNDS.md) and [chromatin remodeling](/literary_products/joes_notes/CHROMATIN_REMODELING.md) as biological analogs of [zk-STARKs](/literary_products/joes_notes/ZK_STARKS.md). For a deeper understanding of the biological underpinnings of such mechanisms, consider exploring the book *"Cryptographic Nature: Biology Meets Cryptography"* ([Springer](https://link.springer.com/book/10.1007/978-981-99-7081-0)). Here's a breakdown:
 
 ---
 
@@ -10,6 +12,10 @@ This exploration of parallels between natural systems and cryptographic principl
   - **Encoding and Verification**: The VOC blend encodes stress information, which is "verified" by neighboring plants that react appropriately.
   - **Selective Disclosure**: Like [zk-STARKs](/literary_products/joes_notes/ZK_STARKS.md), the VOC system shares enough to signal a state (e.g., herbivore attack) without revealing specific attackers or internal processes.
 - **Implications**: This demonstrates the efficiency and scalability of nature's cryptographic signaling, akin to [zk-STARKs enabling secure computation](https://en.wikipedia.org/wiki/ZK-STARKs) across decentralized systems.
+
+![alt text](image.png)
+
+**Figure**: Cover of *A Nature-Inspired Approach to Cryptology* by Shishir Kumar Shandilya, Agni Datta, and Atulya K. Nagar, part of the *Studies in Computational Intelligence* series (Springer, 2023). This book explores nature-inspired principles in cryptography, bridging biological systems and computational models. For more details, visit [Springer](https://link.springer.com/book/10.1007/978-981-99-7081-0).
 
 ---
 
