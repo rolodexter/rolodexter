@@ -1,6 +1,6 @@
 AI has a complex and multifaceted relationship with the idea that "war is inevitable," touching on its potential to **exacerbate, prevent, or fundamentally transform the nature of conflict.** Here are some key considerations:
 
----
+![alt text](image-2.png)
 
 ### **1. AI as a Force Multiplier in Conflict**
 #### **A. Accelerating Arms Races**
