@@ -1,5 +1,5 @@
 ### **1. Intelligence Beyond Algorithms**
-
+![alt text](image-5.png)
 [![YouTube](https://img.shields.io/badge/YouTube-0jMgskLxw3s-red?logo=youtube&logoColor=white)](https://youtu.be/0jMgskLxw3s)
 
 - **From Models to [Data-Centric AI](/literary_products/joes_notes/DATA_CENTRIC_AI.md)**: The [Godmother of AI](https://youtu.be/0jMgskLxw3s) highlights a paradigm shift where the focus moves from solely improving models to leveraging data to drive intelligence. The importance of *[spatial intelligence](/literary_products/joes_notes/SPATIAL_INTELLIGENCE.md)*—the ability to comprehend and operate in both physical and digital 3D worlds—heralds a future where AI becomes deeply integrated into the human experience.
