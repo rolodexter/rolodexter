@@ -4,8 +4,6 @@ AI has a complex and multifaceted relationship with the idea that "war is inevit
 
 ![AI and War](image-2.png)
 
----
-
 ### **1. AI as a Force Multiplier in Conflict**
 
 #### **A. Accelerating Arms Races**
