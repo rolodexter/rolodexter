@@ -36,6 +36,8 @@ The differences between **military-grade AI** and **private-sector AI** arise fr
   - Use cases include autonomous weapons systems, surveillance and reconnaissance, cyber defense, threat analysis, and decision-support systems for combat scenarios.
   - Designed for high-stakes environments where errors can lead to significant casualties or geopolitical consequences.
 
+  ![alt text](image-3.png)
+
 - **Private-Sector AI:**
   - Focuses on commercial, consumer, and industrial applications aimed at generating revenue and improving efficiency.
   - Use cases include recommendation engines, customer support automation, predictive analytics, marketing, logistics, and financial modeling.
