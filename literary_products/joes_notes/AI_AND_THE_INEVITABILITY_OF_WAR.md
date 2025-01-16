@@ -16,12 +16,18 @@ AI has a complex and multifaceted relationship with the idea that "war is inevit
   - **Examples:** AI-driven malware or deepfake propaganda can destabilize societies without direct kinetic conflict.
   - **Result:** Cyber capabilities blur the lines between peace and war, making conflict more pervasive and less predictable.
 
-#### **C. Information Warfare and Disinformation**
-- AI excels at generating and spreading disinformation through deepfakes, bots, and algorithmic amplification.
-  - **Reference:** As highlighted by the [Center for Strategic Studies article](https://ceeep.mil.pe/2024/08/15/inteligencia-artificial-y-desinformacion-papel-en-los-conflictos-del-siglo-xxi/?lang=en#:~:text=Thus%2C%20AI%20acts%20as%20a,of%20information%20in%20hybrid%20warfare), AI acts as a "force multiplier" in hybrid warfare, leveraging disinformation to destabilize adversaries without direct military engagement.
-  - **Implication:** This undermines trust in institutions and destabilizes democracies, creating conditions ripe for conflict. Moreover, by controlling the information flow, AI can desensitize populations to the realities of war.
-
----
+#### **C. Cryptographic Warfare and Security**
+- **[Quantum Computing and Encryption](/literary_products/joes_notes/QUANTUM_ENCRYPTION.md):** AI accelerates both encryption breaking and development of new cryptographic methods.
+  - **Examples:** AI systems developing quantum-resistant algorithms while simultaneously working to break existing cryptographic protections.
+  - **Impact:** Creates an ongoing arms race between offensive and defensive capabilities in the cryptographic domain.
+- **Military Communications Security:**
+  - AI-enhanced encryption protocols protect sensitive military communications and command systems.
+  - Machine learning algorithms detect and respond to cryptographic attacks in real-time.
+  - Post-quantum cryptography development becomes crucial for maintaining military secrets in the quantum computing era.
+- **Blockchain and Decentralized Operations:**
+  - Military applications of blockchain technology for secure, distributed command and control.
+  - Smart contracts automating certain military protocols while maintaining cryptographic security.
+  - **Challenge:** Balancing operational security with the need for rapid information sharing in combat situations.
 
 ### **2. AI as a Tool for Preventing Conflict**
 
