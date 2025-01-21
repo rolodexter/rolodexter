@@ -1,5 +1,7 @@
 # LIQUID VS ILLIQUID CAREERS
 
+![alt text](image-6.png)
+
 Careers that are **easily transferable and quantifiable**, similar to [liquid assets](/literary_products/joes_notes/LIQUID_ASSETS.md) in financial markets. Employers can quickly assess your value because of clear, standardized benchmarks.
 
 ### Characteristics
