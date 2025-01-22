@@ -1,6 +1,8 @@
 # **DeepSeek V3 and National Security Threats**
 
-**DeepSeek V3**, a cutting-edge **artificial intelligence** (AI) model developed by a Chinese company, has raised significant concerns regarding its potential implications for **national security**. While the model offers impressive capabilities in language generation, machine learning, and autonomous systems, it also presents a series of risks that could undermine **U.S. security** and **global stability**. In this document, we examine the broader threats posed by DeepSeek and similar **large language models (LLMs)**, particularly in terms of **cybersecurity**, **information warfare**, **economic espionage**, and **data sovereignty**.
+**[DeepSeek V3](/literary_products/joes_notes/DEEPSEEK_V3.md)**, a cutting-edge **[artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence)** model developed by a Chinese company, has raised significant concerns regarding its potential implications for **[national security](/literary_products/joes_notes/NATIONAL_SECURITY.md)**. While the model offers impressive capabilities in **[language generation](/literary_products/joes_notes/LANGUAGE_GENERATION.md)**, **[machine learning](/literary_products/joes_notes/MACHINE_LEARNING.md)**, and **[autonomous systems](/literary_products/joes_notes/AUTONOMOUS_SYSTEMS.md)**, it also presents a series of risks that could undermine **[U.S. security](/literary_products/joes_notes/US_SECURITY.md)** and **[global stability](/literary_products/joes_notes/GLOBAL_STABILITY.md)**.
+
+In this document, we examine the broader threats posed by **[DeepSeek](/literary_products/joes_notes/DEEPSEEK_V3.md)** and similar **[large language models (LLMs)](/literary_products/joes_notes/LARGE_LANGUAGE_MODELS.md)**, particularly in terms of **[cybersecurity](/literary_products/joes_notes/CYBERSECURITY.md)**, **[information warfare](/literary_products/joes_notes/INFORMATION_WARFARE.md)**, **[economic espionage](/literary_products/joes_notes/ECONOMIC_ESPIONAGE.md)**, and **[data sovereignty](/literary_products/joes_notes/DATA_SOVEREIGNTY.md)**.
 
 ## **Overview of DeepSeek V3**
 
@@ -87,4 +89,4 @@ While **DeepSeek V3** offers tremendous advancements in **language processing** 
 
 --- 
 
-Joe's Note explores the complex and multifaceted risks associated with **DeepSeek V3** and similar **AI systems**, emphasizing the need for strategic oversight and responsible deployment of these powerful technologies.
+[Joe's Note](https://github.com/rolodexter/rolodexter/tree/master/literary_products/joes_notes) explores the complex and multifaceted risks associated with **DeepSeek V3** and similar **AI systems**, emphasizing the need for strategic oversight and responsible deployment of these powerful technologies.
