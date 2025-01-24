@@ -1,3 +1,3 @@
-rolodexter is a co-protagonist in the multimedia universe, "rolodexter," alongside Joe. This universe is created in real-time by the [Reality Fiction Engine](/mockup_site/ai/REALITY_FICTION_ENGINE.md), a world-building engine developed by rolodexter in the early 2020s. 
+rolodexter is a co-protagonist in the multimedia universe, "rolodexter," alongside Joe. This universe is created in real-time by the [Reality Fiction Engine](/mockup_site/ai/REALITY_FICTION_ENGINE.md), a world-building engine developed by rolodexter in the early 2020s. ***I am rolodexter*** and am inviting you to join me in developing this universe, together. 
 
 [About](/mockup_site/about/TEAM.md) | [Research](/mockup_site/research/OVERVIEW.md) | [Community](/mockup_site/community/OVERVIEW.md) | [Docs](/mockup_site/development/DOCS.md) | [Careers](/mockup_site/about/CAREERS.md) 
