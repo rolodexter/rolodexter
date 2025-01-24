@@ -1,0 +1,1 @@
+Joe is a scientist-recluse that works from an estate in Atherton, California — where he developed rolodexter during the early 2020s. 
