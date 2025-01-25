@@ -2,6 +2,10 @@
 
 The consolidation of the [fire apparatus](/literary_products/joes_notes/FIRE_APPARATUS.md) industry by [private equity](/literary_products/joes_notes/PRIVATE_EQUITY.md) provides a stark illustration of how monopolization can destabilize [critical infrastructure](/literary_products/joes_notes/CRITICAL_INFRASTRUCTURE.md), with cascading effects across economic, social, and environmental systems. This alarming transformation is explored in depth in Basel Musharbash's article, *"[Did a Private Equity Fire Truck Roll-Up Worsen the L.A. Fires?](https://www.thebignewsletter.com/p/did-a-private-equity-fire-truck-roll?utm_source=post-email-title&publication_id=11524&post_id=155466046&utm_campaign=email-post-title&isFreemail=true&r=4a32tl&triedRedirect=true&utm_medium=email)"*, published in Matt Stoller’s *BIG* newsletter. Through the strategic acquisition of independent manufacturers, [American Industrial Partners (AIP)](https://www.americanindustrial.com/) has created a dominant player, the [REV Group](/literary_products/joes_notes/REV_GROUP.md), which now controls a significant portion of the U.S. fire apparatus market. This consolidation has led to higher costs, reduced competition, and prolonged delays, posing severe risks to [public safety](/literary_products/joes_notes/PUBLIC_SAFETY.md) and disaster resilience.
 
+![alt text](image-12.png)
+
+>**Figure:** Departments specifying new fire apparatus must navigate potential delivery delays of 36 to 48 months from the order date, compounded by new EPA standards, rising manufacturing costs, and parts procurement challenges. These delays and escalating prices continue to strain local budgets and hinder the replacement of aging fleets. (Source: [Fire Apparatus Magazine](https://www.fireapparatusmagazine.com/fire-apparatus/the-crazy-world-of-buying-apparatus-now/))
+
 #### **The Commodification of Public Safety**
 The privatization and monopolization of fire apparatus and [emergency vehicles](/literary_products/joes_notes/EMERGENCY_VEHICLES.md) have transformed public safety into a commodity, where the wealth of a municipality determines its ability to access lifesaving equipment. Wealthier regions can afford to compete for these increasingly expensive resources, while smaller or [rural communities](/literary_products/joes_notes/RURAL_COMMUNITIES.md) are left vulnerable, lacking the tools necessary to respond to emergencies. This commodification has exacerbated systemic inequalities, creating a dangerous landscape where critical services are distributed unevenly, leaving underserved populations at greater risk of harm.
 
@@ -37,3 +41,31 @@ As detailed in the *BIG* newsletter article ([link](https://www.thebignewsletter
 
 The fire apparatus roll-up serves as a microcosm of larger systemic risks posed by unchecked monopolization. To prevent similar crises in the future, policymakers must act decisively to restore competition, enforce antitrust laws, and prioritize public welfare over private profit. Only through collective action can we ensure that critical infrastructure remains a public good, accessible to all and resilient in the face of future challenges.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rolodexter) 
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=gHTHirEAAAAJ) 
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00CCBB?style=flat-square&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Joe-Maristela-2) 
+[![Crunchbase](https://img.shields.io/badge/Crunchbase-Profile-0288D1?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://www.crunchbase.com/person/joe-maristela) 
+[![PitchBook](https://img.shields.io/badge/PitchBook-Profile-003B6B?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://pitchbook.com/profiles/investor/161941-06) 
+[![Signal](https://img.shields.io/badge/Signal-Profile-6E97F0?style=flat-square&logo=signal&logoColor=white)](https://signal.nfx.com/investors/joe-maristela) 
+[![CoinDesk](https://img.shields.io/badge/CoinDesk-Contributor-F7931A?style=flat-square&logo=news&logoColor=white)](https://www.coindesk.com/author/joe-maristela) 
+[![Asia Leaders Awards](https://img.shields.io/badge/Asia_Leaders_Awards-Feature-DA291C?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://www.asialeadersawards.asia/news/details/10) 
+[![Wikipedia](https://img.shields.io/badge/Wikipedia-Profile-000000?style=flat-square&logo=wikipedia&logoColor=white)](https://en.wikipedia.org/wiki/File:Joe_Maristela_in_Paniqui_Tarlac_Tech_Seminar_2015.jpg) 
+[![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@rolodexter) 
+[![Bloomberg Feature](https://img.shields.io/badge/Bloomberg-Feature-5E5E5E?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Ep8Mo0kRjaY) 
+[![ScoutGame](https://img.shields.io/badge/ScoutGame-Profile-8A2BE2?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://scoutgame.xyz/u/rolodexter) 
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-Resume_and_Biodata-00A67E?style=flat-square&logo=chatgpt&logoColor=white)](https://chatgpt.com/g/g-675caa5a54e88191bd807764592df744-joe-s-resume-and-application-data) 
+[![Mastodon](https://img.shields.io/badge/Mastodon-Profile-6364FF?style=flat-square&logo=mastodon&logoColor=white)](https://mastodon.social/@JoeMaristela) 
+[![About.me](https://img.shields.io/badge/About.me-Profile-000000?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://about.me/joe3) 
+[![Foundersuite](https://img.shields.io/badge/Foundersuite-Profile-0056D2?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://about.me/joe3) 
+[![Pinterest](https://img.shields.io/badge/Pinterest-@rolodexter-BD081C?style=flat-square&logo=pinterest&logoColor=white)](https://nl.pinterest.com/rolodexter/) 
+[![Bento](https://img.shields.io/badge/Bento-Profile-F7931A?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://bento.me/joemaristela) 
+[![Portfolly](https://img.shields.io/badge/Portfolly-Profile-F7931A?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://jmaristela.portfo.ly) 
+[![Telegram](https://img.shields.io/badge/Telegram-Contact-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/joemaristela) 
+[![Instagram](https://img.shields.io/badge/Instagram-@joemaristela3-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/joemaristela3/) 
+[![TikTok](https://img.shields.io/badge/TikTok-@rolodexter-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@rolodexter) 
+[![Twitter](https://img.shields.io/badge/Twitter-Profile-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/joemaristela) 
+[![DataHive Protocol](https://img.shields.io/badge/DataHive-Protocol-005F73?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/DataHive-Protocol) 
+[![CivilAirspace](https://img.shields.io/badge/CivilAirspace-Project-023047?style=flat-square&logo=github&logoColor=white)](https://github.com/rolodexter/CivilAirspace) 
+[![Flipboard](https://img.shields.io/badge/Flipboard-Magazine-E83151?style=flat-square&logo=flipboard&logoColor=white)](https://flipboard.com/@rolodexter/rolodexter-jergu04fz) 
+[![Spotify](https://img.shields.io/badge/Spotify-Listen-1DB954?style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/show/11s0wEdbc8k3caT6xur57a) 
+[![Telehealth and Medicine Today](https://img.shields.io/badge/Telehealth-Article-0077B5?style=flat-square&logo=data:image/svg+xml;base64,PHN...)](https://telehealthandmedicinetoday.com/index.php/journal/article/view/87/75)
