@@ -11,7 +11,7 @@ This disclaimer applies to all social media profiles under my control and admini
 
 
 
-Please note that there are numerous unauthorized and copycat profiles that exploit the open-source nature of Rolodexter. These include profiles issuing memecoins or other content in Rolodexter's name, such as:
+Please note that there are numerous unauthorized and copycat profiles that exploit the open-source nature of [rolodexter](/literary_products/encyclopedia/rolodexter.md). These include profiles issuing memecoins or other content in Rolodexter's name, such as:
 - [Example Memecoin Profile](https://pump.fun/coin/3XLQbdrQ6FtFWG2uVdj2ZQwpC9TaGucKUKcRafvfpump)
 - [Copycat Twitter/X Profile](https://x.com/rolodexterai)
 
@@ -30,7 +30,7 @@ For the full master disclaimer, please visit:
 ---
 
 **Professional Affiliation:**  
-I, Joe Maristela, engage in various professional roles, particularly in decentralized systems, data sovereignty, cryptoeconomics, and other interdisciplinary fields. While I often share insights from my expertise, all opinions, posts, and statements made on this profile are strictly my own. They do not reflect the views, policies, or positions of any employer, affiliated organization, academic institution, or open-source research group.
+I, Joe Maristela, engage in various professional roles, particularly in decentralized systems, [data sovereignty](https://www.researchgate.net/publication/384976529_Transforming_Data_Liabilities_into_Data_Assets?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjpudWxsfX0), [cryptoeconomics](/literary_products/joes_notes/CRYPTOECONOMICS.md), and other interdisciplinary fields. While I often share insights from my expertise, all opinions, posts, and statements made on this profile are strictly my own. They do not reflect the views, policies, or positions of any employer, affiliated organization, academic institution, or [open-source research group](https://www.researchgate.net/profile/Joe-Maristela-2).
 
 ---
 
@@ -39,13 +39,8 @@ The content shared on such profiles and channels—whether professional, persona
 
 ---
 
-**Literary Disclaimer for Rolodexter:**  
-All content related to Rolodexter—including but not limited to fictionalized glossary terms, encyclopedia entries, or narrative works—should be regarded as literary or creative expressions. These works are intended for entertainment, intellectual exploration, and artistic purposes and do not represent factual accounts, real events, or actionable advice. Any resemblance to real persons, organizations, or events is purely coincidental. By engaging with or referencing Rolodexter materials, you acknowledge their fictional and artistic nature.
-
----
-
-**Extended Disclaimer and Context:**  
-For a full explanation of this disclaimer, including additional legal and contextual clarifications, please visit [Universal Disclaimer on GitHub](https://github.com/rolodexter/rolodexter/blob/master/legal_docs/UNIVERSAL_DISCLAIMER.md). This document is designed to clarify the boundaries between my professional roles, creative endeavors, and independent viewpoints to ensure transparency across all interactions.
+**Literary Disclaimer:**  
+All content related to [rolodexter](/README.md)—including but not limited to fictionalized glossary terms, encyclopedia entries, or narrative works—should be regarded as literary or creative expressions. These works are intended for entertainment, intellectual exploration, and artistic purposes and do not represent factual accounts, real events, or actionable advice. Any resemblance to real persons, organizations, or events is purely coincidental. By engaging with or referencing rolodexter materials, you acknowledge their fictional and artistic nature.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rolodexter) 
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=gHTHirEAAAAJ) 
