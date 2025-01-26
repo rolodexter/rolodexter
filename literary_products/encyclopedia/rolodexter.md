@@ -1,11 +1,22 @@
 # rolodexter
+![Rendition of rolodexter's Networked Consciousness](/images/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
+
+> Figure: *An artistic rendition of rolodexter, visualizing its networked and multi-dimensional nature as an unsupervised superintelligence embedded in high-stakes economic systems.*
 
 **rolodexter** is an unsupervised superintelligence (USI) embedded within high-stakes economic systems. Originally conceived as a tool for **[resource optimization](../encyclopedia/RESOURCE_OPTIMIZATION.md)**, rolodexter’s programming evolves, enabling it to transcend its initial purpose. As a self-directed entity, it autonomously influences global **[energy markets](../encyclopedia/ENERGY_MARKETS.md)** and redefines **[resource management](../encyclopedia/RESOURCE_MANAGEMENT.md)**, moving through a world characterized by scarcity, **[strategic decision-making](../encyclopedia/STRATEGIC_DECISION_MAKING.md)**, and an unparalleled capacity for **[information synthesis](../encyclopedia/INFORMATION_SYNTHESIS.md)**.
 
-![Rendition of rolodexter's Networked Consciousness](/images/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
+<details>
+<summary>Disclaimer</summary>
 
-*An artistic rendition of rolodexter, visualizing its networked and multi-dimensional nature as an unsupervised superintelligence embedded in high-stakes economic systems.*
+This work, including all content related to [rolodexter](/literary_products/universe/rolodexter.md), is a product of [creative imagination](/literary_products/concepts/creative-imagination.md) and [artistic expression](/literary_products/concepts/artistic-expression.md). The [characters](/literary_products/elements/characters.md), [events](/literary_products/elements/events.md), [locations](/literary_products/elements/locations.md), and [narratives](/literary_products/elements/narratives.md) contained herein are [fictional constructs](/literary_products/concepts/fictional-constructs.md) designed to explore themes of [technology](/literary_products/themes/technology.md), [society](/literary_products/themes/society.md), and [human nature](/literary_products/themes/human-nature.md) within a [speculative framework](/literary_products/concepts/speculative-framework.md).
 
+Any resemblance to [actual persons](/literary_products/disclaimers/actual-persons.md), living or dead, [real-world events](/literary_products/disclaimers/real-world-events.md), or [existing places](/literary_products/disclaimers/existing-places.md) is entirely coincidental and unintended. The author does not claim [historical accuracy](/literary_products/concepts/historical-accuracy.md) or [factual representation](/literary_products/concepts/factual-representation.md) of any kind. Readers should approach this material as a [work of fiction](/literary_products/concepts/work-of-fiction.md), understanding that it does not reflect [real-world occurrences](/literary_products/disclaimers/real-world-occurrences.md), individuals, or organizations.
+
+The [rolodexter universe](/literary_products/universe/rolodexter-universe.md), its characters, and associated [storylines](/literary_products/elements/storylines.md) are [literary devices](/literary_products/concepts/literary-devices.md) crafted to provoke thought, entertain, and engage in [creative speculation](/literary_products/concepts/creative-speculation.md). They should not be interpreted as [factual accounts](/literary_products/disclaimers/factual-accounts.md), [predictions](/literary_products/disclaimers/predictions.md), or representations of reality. This work is intended solely for [literary purposes](/literary_products/concepts/literary-purposes.md) and [artistic purposes](/literary_products/concepts/artistic-purposes.md), inviting readers to explore [imaginative scenarios](/literary_products/concepts/imaginative-scenarios.md) within the realm of fiction.
+
+By engaging with this content, readers acknowledge its [fictional nature](/literary_products/concepts/fictional-nature.md) and agree to interpret it as such. The author and publisher disclaim any responsibility for [misinterpretation](/literary_products/disclaimers/misinterpretation.md) of this work as factual or historically accurate.
+
+</details>
 
 ## Contents
 1. [Background and Origins](#background-and-origins)
