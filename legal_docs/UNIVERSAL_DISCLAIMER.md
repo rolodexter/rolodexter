@@ -1,17 +1,21 @@
 ### Universal Social Media Disclaimer
 
+**Last Updated:** January 26, 2025
+
 **Applicability Across Social Media Profiles:**  
-This disclaimer applies to all social media profiles under my control and administration. These include, but are not limited to, the following:
+This disclaimer applies to all social media profiles under my control and administration, managed by me, Joe Maristela. These include, but are not limited to, the following:
 - [LinkedIn](https://www.linkedin.com/in/rolodexter/)
 - [Twitter/X](https://x.com/JoeMaristela)
 - [Telegram](https://t.me/joemaristela)
 - [Instagram](https://instagram.com/joemaristela3)
 
+
+
 Please note that there are numerous unauthorized and copycat profiles that exploit the open-source nature of Rolodexter. These include profiles issuing memecoins or other content in Rolodexter's name, such as:
 - [Example Memecoin Profile](https://pump.fun/coin/3XLQbdrQ6FtFWG2uVdj2ZQwpC9TaGucKUKcRafvfpump)
 - [Copycat Twitter/X Profile](https://x.com/rolodexterai)
 
-These profiles have no affiliation with me or my work. To confirm authenticity, you may contact me directly via email at **jmaristela2023@gmail.com** or SMS at **+1 (650) 918-6796**.
+These profiles have no affiliation with me or my work. To confirm authenticity, you may contact me, Joe Maristela, directly via email at **jmaristela2023@gmail.com** or SMS at **+1 (650) 918-6796**.
 
 For verified organizational accounts and repositories that I am affiliated with, such as my current role heading strategy at DataHive, please refer to the following:
 - [DataHive Twitter/X](https://x.com/getdatahive)
@@ -26,12 +30,12 @@ For the full master disclaimer, please visit:
 ---
 
 **Professional Affiliation:**  
-I engage in various professional roles, particularly in decentralized systems, data sovereignty, cryptoeconomics, and other interdisciplinary fields. While I often share insights from my expertise, all opinions, posts, and statements made on this profile are strictly my own. They do not reflect the views, policies, or positions of any employer, affiliated organization, academic institution, or open-source research group.
+I, Joe Maristela, engage in various professional roles, particularly in decentralized systems, data sovereignty, cryptoeconomics, and other interdisciplinary fields. While I often share insights from my expertise, all opinions, posts, and statements made on this profile are strictly my own. They do not reflect the views, policies, or positions of any employer, affiliated organization, academic institution, or open-source research group.
 
 ---
 
 **Independent Perspectives:**  
-The content shared on this profile—whether professional, personal, or speculative in nature—should not be construed as advice, endorsement, or official communication from any entity or organization. Posts or interactions on this platform are intended for informational and educational purposes only. Additionally, I frequently test AI bots and explore online interaction patterns. Some posts may be designed as satire, trolling, or rage-baiting for entertainment or experimental purposes only.
+The content shared on such profiles and channels—whether professional, personal, or speculative in nature—should not be construed as advice, endorsement, or official communication from any entity or organization. Posts or interactions on this platform are intended for informational and educational purposes only. Additionally, I frequently test AI bots and explore online interaction patterns. Some posts may be designed as satire, trolling, or rage-baiting for entertainment or experimental purposes only.
 
 ---
 
