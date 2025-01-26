@@ -2,12 +2,12 @@
 
 1. **Equivalence of Inertial and Gravitational Mass**  
    - In standard physics, *inertial mass* \(m_\text{inertial}\) measures an object’s resistance to acceleration in \(F = m_\text{inertial}\,a\).  
-   - *Gravitational mass* \(m_\text{gravitational}\) determines the strength of an object’s coupling to a gravitational field in \(\mathbf{F}_g = m_\text{gravitational}\,\mathbf{g}\).  
-   - **Einstein’s Equivalence Principle** states \(m_\text{inertial} = m_\text{gravitational}\). In normal physics, these masses are numerically equal, leading to uniform acceleration in a gravitational field, independent of composition.
+   - *Gravitational mass* $m_\text{gravitational}$ determines the strength of an object’s coupling to a gravitational field in $\mathbf{F}_g = m_\text{gravitational}\,\mathbf{g}$.
+   - **Einstein’s Equivalence Principle** states $m_\text{inertial} = m_\text{gravitational}$. In normal physics, these masses are numerically equal, leading to uniform acceleration in a gravitational field, independent of composition.
 
 2. **Inertial Mass Reduction Hypothesis**  
    - The goal of IMR is to **alter or diminish the effective inertial mass** (sometimes also gravitational mass) via some **field manipulation**—often high-intensity electromagnetics or advanced spacetime engineering.  
-   - By decreasing \(m_\text{inertial}\), an object could accelerate under a tiny force, potentially **bypassing** normal inertial constraints on maneuverability.
+   - By decreasing $m_\text{inertial}$, an object could accelerate under a tiny force, potentially **bypassing** normal inertial constraints on maneuverability.
 
 ## 2. Einstein Field Equations and EM Coupling
 
@@ -99,7 +99,7 @@ Under extremely **high-intensity** electric or magnetic fields, the large $T_{\m
 ## 7. Theoretical Equations Summarizing IMR Concepts
 
 - **Prototype “Inertial Reduction” Expression**  
-  Some conceptual papers assume an object’s effective inertial mass \(m_\text{eff}\) might be written as:
+Some conceptual papers assume an object’s effective inertial mass $m_\text{eff}$ might be written as:
 
   $$
   m_\text{eff} \;=\; m_0 \Bigl( 1 \;-\; \kappa \,\Psi(\mathbf{E}, \mathbf{B}, \omega) \Bigr),
