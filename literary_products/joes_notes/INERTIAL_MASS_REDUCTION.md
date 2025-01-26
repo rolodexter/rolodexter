@@ -9,35 +9,34 @@
    - The goal of IMR is to **alter or diminish the effective inertial mass** (sometimes also gravitational mass) via some **field manipulation**—often high-intensity electromagnetics or advanced spacetime engineering.  
    - By decreasing \(m_\text{inertial}\), an object could accelerate under a tiny force, potentially **bypassing** normal inertial constraints on maneuverability.
 
----
-
 ## 2. Einstein Field Equations and EM Coupling
 
-1. **Einstein Field Equations**  
+### **Einstein Field Equations**  
    The core of general relativity is:
 
    $$
    R_{\mu \nu} \;-\; \tfrac{1}{2}\,R\,g_{\mu \nu} \;=\; \frac{8\pi G}{c^4}\;T_{\mu \nu},
    $$
 
-   where  
-   - \(R_{\mu \nu}\) is the Ricci curvature tensor,  
-   - \(R\) is the Ricci scalar,  
-   - \(g_{\mu \nu}\) is the metric tensor,  
-   - \(T_{\mu \nu}\) is the stress-energy tensor (source term).
+ where  
+   - $R_{\mu \nu}$ is the Ricci curvature tensor,  
+   - $R$ is the Ricci scalar,  
+   - $g_{\mu \nu}$ is the metric tensor,  
+   - $T_{\mu \nu}$ is the stress-energy tensor (source term).
 
-2. **Electromagnetic Stress-Energy Tensor**  
+
+### **Electromagnetic Stress-Energy Tensor**  
    For an electromagnetic field \(F_{\mu \nu}\), the stress-energy tensor is:
 
    $$
    T_{\mu\nu}^{(\text{EM})} \;=\; F_{\mu \alpha}\,F_{\nu}^{\ \alpha} \;-\; \tfrac{1}{4}\,g_{\mu\nu}\,F_{\alpha \beta}\,F^{\alpha \beta}.
    $$
 
-   - Under extremely **high-intensity** electric or magnetic fields, the large \(T_{\mu\nu}^{(\text{EM})}\) can, in principle, modify local spacetime curvature or inertial properties in ways not encountered at lower field strengths.
+Under extremely **high-intensity** electric or magnetic fields, the large $T_{\mu\nu}^{(\text{EM})}$ can, in principle, modify local spacetime curvature or inertial properties in ways not encountered at lower field strengths.
 
-3. **Vacuum Polarization and Schwinger Limit**  
-   - Extreme fields \(\sim 10^{18}\,\text{V/m}\) can produce nontrivial quantum-vacuum effects, possibly shifting inertial response.  
-   - **Inertial mass** might become *effectively variable* in such exotic conditions, if local geometry or vacuum polarization changes the standard inertial-gravitational relationship.
+#### **Vacuum Polarization and Schwinger Limit**  
+- Extreme fields $\sim 10^{18}\,\text{V/m}$ can produce nontrivial quantum-vacuum effects, possibly shifting inertial response.
+- **Inertial mass** might become *effectively variable* in such exotic conditions, if local geometry or vacuum polarization changes the standard inertial-gravitational relationship.
 
 ## 3. Resonance-Based Approaches
 
@@ -49,7 +48,7 @@
      \frac{d^2 \mathbf{E}}{dt^2} \;+\; \omega^2\,\mathbf{E} \;=\; 0,
      $$
 
-     where \(\omega\) is the resonant frequency. **Amplification** at \(\omega_\text{res}\) can be enormous if damping is minimal.
+      where $\omega$ is the resonant frequency. **Amplification** at $\omega_\text{res}$ can be enormous if damping is minimal.
 
 2. **Negative Energy Density Regions?**  
    - Some advanced theories (often referencing the [Alcubierre metric](https://en.wikipedia.org/wiki/Alcubierre_drive) or Casimir-like effects) consider **exotic matter** or negative energy density to manipulate inertia.  
@@ -60,7 +59,7 @@
 1. **Torsion and Spin Density**  
    - In **Einstein–Cartan theory**, spacetime can have both curvature and torsion. Torsion is tied to the **intrinsic spin** of matter.  
    - If large collective spin densities exist (e.g., rotating superconductors), there might be a **direct coupling** to inertial effects.  
-   - The field equations in Einstein–Cartan incorporate a so-called “spin angular momentum tensor” \(S^{\lambda}_{\ \mu\nu}\), potentially altering local inertia:
+   - The field equations in Einstein–Cartan incorporate a so-called “spin angular momentum tensor” $S^{\lambda}_{\ \mu\nu}$, potentially altering local inertia:
 
      $$
      R_{\mu\nu} \;-\; \tfrac{1}{2}R\,g_{\mu\nu} 
@@ -84,13 +83,15 @@
      m(t) \;=\; m_0 \left[\,1 \;+\;\alpha\,\frac{\partial^2 \Phi}{\partial t^2}\,\right],
      $$
 
-     where \(\Phi\) is the gravitational potential and \(\alpha\) is a coupling constant. Although still controversial and not widely accepted, it’s another theoretical attempt to reduce inertial mass.
+     where $\Phi$ is the gravitational potential and $\alpha$ is a coupling constant. Although still controversial and not widely accepted, it’s another theoretical attempt to reduce inertial mass.
+
 
 ## 6. The Plasma / Ionization Angle
 
 1. **High-Energy Plasma Modes**  
    - Some IMR patents or papers suggest confining *charged plasma* in a rotating or vibrational structure. By controlling the **E** and **B** fields, the idea is to **polarize the vacuum** around the plasma.  
-   - If effective “vacuum polarization” is large enough, local geometry might shift \(\mathbf{F} = m \, \mathbf{a}\) relationships.
+   - If effective “vacuum polarization” is large enough, local geometry might shift $\mathbf{F} = m \, \mathbf{a}$ relationships.
+
 
 2. **Anisotropic Mass Distribution**  
    - The distribution of charges in a strong plasma can be anisotropic, meaning the inertia in one direction differs from another. This could manifest as partial inertial mass reduction along specific axes, though no confirmed large-scale effect has been reproduced.
@@ -105,11 +106,11 @@
   $$
 
   where  
-  1. \(m_0\) is the unmodified rest mass,  
-  2. \(\kappa\) is a coupling constant,  
-  3. \(\Psi(\mathbf{E}, \mathbf{B}, \omega)\) is a function capturing the **field intensities** and **resonant frequency** \(\omega\).
+   1. $m_0$ is the unmodified rest mass,  
+   2. $\kappa$ is a coupling constant,  
+   3. $\Psi(\mathbf{E}, \mathbf{B}, \omega)$ is a function capturing the **field intensities** and **resonant frequency** $\omega$.
 
-  - If \(\Psi\) becomes sufficiently large (due to strong fields, correct resonant conditions), \(m_\text{eff}\) could drop significantly below \(m_0\), implying “mass reduction.”
+   - If $\Psi$ becomes sufficiently large (due to strong fields, correct resonant conditions), $m_\text{eff}$ could drop significantly below $m_0$, implying “mass reduction.”
 
 - **Nonlinear Coupling Terms**  
   Others attempt to incorporate higher-order electromagnetic terms in the Lagrangian:
@@ -123,7 +124,7 @@
 ## 8. Experimental Status and Challenges
 
 1. **Extreme Field Requirements**  
-   - Many IMR concepts call for near-Schwinger-limit electric fields \(\sim 10^{18}\,\text{V/m}\) or extremely dense [magnetic fields](https://en.wikipedia.org/wiki/Magnetic_field) beyond what we can reliably generate in a controlled lab.  
+   - Many IMR concepts call for near-Schwinger-limit electric fields $\sim 10^{18}\,\text{V/m}$ or extremely dense [magnetic fields](https://en.wikipedia.org/wiki/Magnetic_field) beyond what we can reliably generate in a controlled lab.
    - Most documented “claims” of inertial mass reduction remain either unreplicated or purely theoretical.
 
 2. **Material and Engineering Barriers**  
