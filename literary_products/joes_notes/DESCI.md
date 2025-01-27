@@ -1,7 +1,3 @@
-# Decentralized Science (DeSci)
-
-## Overview
-
 **Decentralized Science (DeSci)** refers to the application of [blockchain](/literary_products/joes_notes/CRYPTOCURRENCIES.md) and decentralized technologies—such as [smart contracts](/literary_products/joes_notes/SMART_CONTRACTS.md), [decentralized autonomous organizations (DAOs)](/literary_products/joes_notes/DAOS.md), and [tokenized incentive structures](/literary_products/joes_notes/TOKENS.md)—to various stages of scientific research. This includes funding, experimentation, data sharing, peer review, and publication.
 
 DeSci aims to:
