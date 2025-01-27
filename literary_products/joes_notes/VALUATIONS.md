@@ -1,6 +1,4 @@
-**Valuations** in the **[Decentralized Science (DeSci)](/literary_products/joes_notes/DESCI.md)** domain can potentially scale to multi-trillion dollar levels if **regulatory acceptance**, **institutional interest**, and **robust tokenomics** align. This notion parallels the traditional financial sector’s recognition of **[cryptocurrencies](/literary_products/joes_notes/CRYPTOCURRENCIES.md)**, as evidenced by statements like the **CEO of Bank of America** who indicated they would be “happy to bank [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)” should regulations permit. Below is a structured path showing how a DeSci protocol might achieve such extraordinary valuations.
-
----
+**Valuations** in the **[Decentralized Science (DeSci)](/literary_products/joes_notes/DESCI.md)** domain can potentially scale to multi-trillion dollar levels if **regulatory acceptance**, **institutional interest**, and **robust tokenomics** align. This notion parallels the traditional financial sector’s recognition of **[cryptocurrencies](/literary_products/joes_notes/CRYPTOCURRENCIES.md)**, as evidenced by statements like the **CEO of Bank of America** who indicated they would be “happy to bank [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)” should regulations permit. 
 
 ## 1. Institutional Catalysts
 
