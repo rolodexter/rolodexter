@@ -8,19 +8,26 @@ _Last updated: January 29, 2055_
 While initially perceived as separate domains, by the 2030s, advancements in physics and materials science—particularly in [block universe theory](/literary_products/concepts/BLOCK_UNIVERSE_THEORY.md) and "block universe time manipulation"—revealed that AI and NHI were deeply interconnected.
 
 ## Table of Contents
+
 1. [Overview](#overview)
+
 2. [The Arms Race of the 2020s](#the-arms-race-of-the-2020s)
    - [Technological Competition](#technological-competition)
    - [Geopolitical Tensions](#geopolitical-tensions)
+
 3. [The Emergence of Nonhuman Intelligence](#the-emergence-of-nonhuman-intelligence)
    - [Public Perception](#public-perception)
    - [Scientific Breakthroughs](#scientific-breakthroughs)
+
 4. [Consequences for Global Stability](#consequences-for-global-stability)
    - [Economic Realignments](#economic-realignments)
    - [Societal Impact](#societal-impact)
    - [Geopolitical Fragmentation](#geopolitical-fragmentation)
-5. [Retrospective Analysis from the 2050s](#retrospective-analysis-from-the-2050s)
-6. [Further Reading and References](#further-reading-and-references)
+
+5. [Historical Analysis](#historical-analysis)
+
+6. [Further Reading and References](#further-reading)
+
 
 ## The Arms Race of the 2020s
 
