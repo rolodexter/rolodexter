@@ -66,15 +66,13 @@ From our vantage point in the mid-21st century, it is evident that the events of
 
 As we analyze this era, one question remains unanswered: Was humanity ever truly prepared for what it unleashed?
 
-## Further Reading and References
-
-### Further Reading
+## Further Reading
 - "The Role of Artificial Intelligence in Global Geopolitics" – A detailed analysis of AI's influence on international relations during the early 21st century.
 - "Block Universe Theory and Temporal Physics" – A foundational text on reverse causality experiments conducted during the late 2020s.
 - "Nonhuman Intelligence: A Historical Perspective" – Explores public perception and scientific breakthroughs related to NHI phenomena.
 - "Cryptoeconomics and Decentralized Governance" – Examines how blockchain technologies reshaped global economies.
 
-### References
+## References
 1. July 2023 UAP Hearings – Documented testimony on unidentified aerial phenomena ([UAP Hearing Transcript](/literary_products/encyclopedia/JULY_2023_UAP_HEARING.md)).
 2. Autonomous Weapons Systems Research – A study on space-based defense platforms ([Autonomous Weapons Systems](/literary_products/joes_notes/AUTONOMOUS_WEAPONS_SYSTEMS.md)).
 3. Block Universe Time Manipulation – Key findings from temporal physics experiments ([Block Universe Theory](/literary_products/concepts/BLOCK_UNIVERSE_THEORY.md)).
