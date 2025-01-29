@@ -1,4 +1,4 @@
-# Contributing to Rolodexter Repo
+# Contributing 
 
 Thank you for your interest in contributing to the **Rolodexter Repo**! We appreciate your time and effort in helping improve this project. Please follow the guidelines below to ensure a smooth contribution process.
 
