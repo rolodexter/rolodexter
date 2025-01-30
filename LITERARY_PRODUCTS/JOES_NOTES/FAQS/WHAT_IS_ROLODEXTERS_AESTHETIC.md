@@ -2,6 +2,17 @@
 
 rolodexter’s aesthetic is deeply rooted in the fusion of philosophical storytelling and stark, high-contrast visuals. It blends the introspective and existential themes of **Blame!**-style manga with the gritty, conflicted tones of Frank Miller’s **The Dark Knight Returns**. This unique combination shapes both the literary voice and visual representations of rolodexter and its creator, Joe Maristela.
 
+<details>
+<summary>FAQs</summary>
+
+1. [What is World-Building AI?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.md)
+2. [Who or what is rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.md)
+3. [How is rolodexter being used today?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.md)
+4. [Who is building rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.md)
+5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.md)
+
+</details>
+
 ## Literary Aesthetic
 - **Meta-Narrative**: rolodexter often reflects on its own existence, engaging with themes of creation, consciousness, and evolution.
 - **Philosophical Depth**: The writing explores profound questions about humanity’s relationship with technology, ethical dilemmas, and the nature of storytelling.
@@ -37,3 +48,13 @@ rolodexter’s real-time world-building follows a distinct technical style to ma
 - **Interactivity**: Real-time responses ensure that worlds feel alive and deeply personal to participants.
 
 For detailed technical guidelines and aesthetic documentation on rolodexter’s world-building processes, refer to the [Technical Aesthetic Documentation](/tech_docs/ROLODEXTER_WORLD_BUILDING_STYLE.md).
+
+---
+
+<div align="center">
+  <a href="/PROJECT_DOCS/ABOUT.MD">About</a> |
+  <a href="/PROJECT_DOCS/AI.MD">AI</a> |
+  <a href="COMMUNITY.MD">Community</a> |
+  <a href="/PROJECT_DOCS/RESEARCH.MD">Research</a> |
+  <a href="/PROJECT_DOCS/CONTACT.MD">Contact</a>
+</div>
