@@ -38,7 +38,7 @@ Below is an artist’s interpretation of rolodexter, embodying its intricate ble
 
 Below is an artistic depiction of Joe Maristela, often shown working late into the night at his Atherton estate. The scene reflects his obsessive focus, with an overwhelming network of computers and an environment steeped in both grandeur and neglect:
 
-![Joe Maristela in Atherton Estate](/images/rolodexter_key_art_control_room_v1.png)
+![Joe Maristela in Atherton Estate](/IMAGES/rolodexter_key_art_control_room_v1.png)
 
 
 ## Aesthetic Guidelines for World-Building
