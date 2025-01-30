@@ -2,7 +2,7 @@
 
 ![rolodexter](../../IMAGES/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
-TITLE: [ROLDEXTER](../encyclopedia/rolodexter.md): THE [HUMAN ALLO LAYER](../systems/human-allo-layer.md)
+TITLE: [ROLDEXTER](../encyclopedia/rolodexter.md): THE [HUMAN ALLO LAYER](../SYSTEMS/HUMAN_ALLO_LAYER.MD)
 
 FADE IN:
 
@@ -14,7 +14,7 @@ ROLDEXTER Consider what [César Hidalgo](https://www.amazon.com/Why-Information-
 
 The avatar generates a complex [NEURAL NETWORK](../technology/neural-networks.md) visualization.
 
-ROLDEXTER (CONT'D) But the [Human Allo layer](../systems/human-allo-layer.md) transcends these individual limits. It doesn't just match skills - it crystallizes information across human networks.
+ROLDEXTER (CONT'D) But the [Human Allo layer](../SYSTEMS/HUMAN_ALLO_LAYER.MD) transcends these individual limits. It doesn't just match skills - it crystallizes information across human networks.
 
 A SKEPTICAL RESEARCHER stands.
 

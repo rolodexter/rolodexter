@@ -50,9 +50,3 @@
 3. **Submit Your Contribution**: Open a [pull request](https://github.com/rolodexter/rolodexter/pulls), propose a document, or share your insights.
 4. **Collaborate & Iterate**: Expect feedback, discussions, and improvements.
 
-<details>
-<summary>Learn More</summary>
-
-For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](/PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](/PROJECT_DOCS/COMMUNITY.MD). Visit my [research](/PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](/PROJECT_DOCS/CONTACT.MD) me.
-
-</details> 

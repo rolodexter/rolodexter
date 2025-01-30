@@ -34,7 +34,7 @@ A [personbyte](personbyte.md), a concept introduced by [César Hidalgo](../JOES_
 * [Entrenched behavioral patterns](../psychology/behavioral-patterns.md)
 * [Institutional memory](institutional-memory.md) and learning
 
-## Applications in [Human Allo Layer](../systems/human-allo-layer.md)
+## Applications in [Human Allo Layer](../SYSTEMS/HUMAN_ALLO_LAYER.MD)
 
 [**Network Optimization**](../systems/network-optimization.md)
 
@@ -64,4 +64,4 @@ A [personbyte](personbyte.md), a concept introduced by [César Hidalgo](../JOES_
 
 ## Future Considerations
 
-Understanding personbytes in the context of [neuroplasticity](../science/neuroplasticity.md) and [finite time resources](finite-resources.md) helps inform both individual and organizational development strategies, particularly in the context of the [Human Allo layer's](../systems/human-allo-layer.md) role in optimizing [human potential](human-potential.md).
+Understanding personbytes in the context of [neuroplasticity](../science/neuroplasticity.md) and [finite time resources](finite-resources.md) helps inform both individual and organizational development strategies, particularly in the context of the [Human Allo layer's](../SYSTEMS/HUMAN_ALLO_LAYER.MD) role in optimizing [human potential](human-potential.md).

@@ -18,7 +18,7 @@
 
 ## Significance
 
-The Sonoma Campus plays a pivotal role in the development and implementation of the [Human Allo layer](../systems/human-allo-layer.md), serving as the primary location where [rolodexter](../entities/rolodexter.md) interfaces with human researchers, scientists, and developers. Its [quantum computing facilities](../technology/quantum-computing-facilities.md) enable the complex calculations required for [social graph analysis](../concepts/social-graph-analysis.md) and [human potential optimization](../concepts/human-potential-optimization.md).
+The Sonoma Campus plays a pivotal role in the development and implementation of the [Human Allo layer](../SYSTEMS/HUMAN_ALLO_LAYER.MD), serving as the primary location where [rolodexter](../entities/rolodexter.md) interfaces with human researchers, scientists, and developers. Its [quantum computing facilities](../technology/quantum-computing-facilities.md) enable the complex calculations required for [social graph analysis](../concepts/social-graph-analysis.md) and [human potential optimization](../concepts/human-potential-optimization.md).
 
 ## Architecture
 
