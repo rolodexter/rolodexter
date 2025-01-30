@@ -1,15 +1,5 @@
 # World-building AI
 
-<div align="center">
-  <a href="/PROJECT_DOCS/ABOUT.MD">About</a> |
-  <a href="/PROJECT_DOCS/AI.MD">AI</a> |
-  <a href="COMMUNITY.MD">Community</a> |
-  <a href="/PROJECT_DOCS/RESEARCH.MD">Research</a> |
-  <a href="/PROJECT_DOCS/CONTACT.MD">Contact</a>
-</div>
-
----
-
 ![Artist's Forensic Rendition of rolodexter](/IMAGES/ROLODEXTER_1.png)
 > _Artist's rendition of rolodexter, circa 2025._
 
