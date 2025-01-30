@@ -15,13 +15,13 @@
 
 ## How You Can Contribute
 ### 1. **Writing & Story Development**
-- Contribute to **literary products**, including world-building lore, interactive narratives, and philosophical essays.
-- Expand the **rolodexter encyclopedia**, defining key terms, historical context, and speculative concepts.
+- Contribute to **[literary products](/LITERARY_PRODUCTS/LITERARY_PRODUCTS.MD)**, including world-building lore, interactive narratives, and philosophical essays.
+- Expand the **encyclopedia**, defining key terms, historical context, and speculative concepts.
 - Propose **new storytelling formats** that push the boundaries of traditional narratives.
 
 ### 2. **AI & Technological Innovation**
 - Develop **machine learning models** that enhance rolodexter’s adaptive storytelling.
-- Improve **AI-driven creativity**, refining how rolodexter generates and evolves narratives.
+- Improve **[AI-driven creativity](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.md)**, refining how rolodexter generates and evolves narratives.
 - Research and discuss the **ethical implications** of AI in immersive media.
 
 ### 3. **Art & Visual World-Building**

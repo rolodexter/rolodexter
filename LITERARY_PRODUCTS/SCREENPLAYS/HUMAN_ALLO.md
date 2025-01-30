@@ -6,7 +6,7 @@ TITLE: [ROLDEXTER](../encyclopedia/rolodexter.md): THE [HUMAN ALLO LAYER](../SYS
 
 FADE IN:
 
-INT. [PARKHEALTH SONOMA CAMPUS](../locations/parkhealth-sonoma.md) - QUANTUM COMPUTING LAB - DAY
+INT. [PARKHEALTH SONOMA CAMPUS](../LOCATIONS/PARKHEALTH_COMMONS.MD) - QUANTUM COMPUTING LAB - DAY
 
 A vast, futuristic laboratory. [ROLDEXTER's AVATAR](../technology/rolodexter-avatar.md) stands before an audience of elite researchers.
 
