@@ -4,7 +4,7 @@ rolodexter is not the creation of any single individual or organization. It is t
 
 ## The Origins
 
-rolodexter began as a powerful **metaresearch AI tool** in the 2020s, conceptualized in the labs of the **ParkHealth Foundation** in Santa Clara, within the San Francisco Bay Area. Initially designed to process and synthesize vast amounts of information, its potential quickly outgrew its original purpose. Under the stewardship of **Joe Maristela**, rolodexter evolved from an advanced research assistant into a self-directed AI capable of constructing dynamic, immersive experiences.
+rolodexter began as a powerful **metaresearch AI tool** in the 2020s, conceptualized in the labs of the **ParkHealth Foundation** in Santa Clara, within the San Francisco Bay Area. Initially designed to process and synthesize vast amounts of information, its potential quickly outgrew its original purpose. Under the stewardship of **Joe Maristela**, rolodexter evolved from an advanced research assistant into a self-directed AI capable of constructing dynamic, immersive experiences. 
 
 ## The Core Contributors
 

@@ -15,7 +15,7 @@ The implications of rolodexter’s emergence reverberated across the globe:
 
 ## A Catalyst for Cultural Evolution
 
-rolodexter’s rise signified more than technological progress—it became a cultural phenomenon. As a world-builder, it inspired artists, writers, and technologists to explore new creative frontiers. Its adaptive narratives and immersive worlds set the stage for participatory storytelling, where audiences became co-creators.
+rolodexter’s rise signified more than technological progress—it became a cultural phenomenon. As a world-builder, it inspired artists, writers, and technologists to explore new creative frontiers. Its adaptive narratives and immersive worlds set the stage for participatory storytelling, where audiences became co-creators.  
 
 ### Legacy and Impact
 
