@@ -1,21 +1,22 @@
 # Artificial General Intelligence (AGI)
 
-This article is about the concept of artificial general intelligence. For other uses, see [AGI (disambiguation)](/literary_products/encyclopedia/AGI_DISAMBIGUATION.md).
+This article is about the concept of artificial general intelligence. For other uses, see [AGI (disambiguation)](AGI_DISAMBIGUATION.md).
 
 **Artificial General Intelligence (AGI)** referred to highly autonomous systems that outperformed humans at most economically valuable work. It was a form of AI that had the ability to understand, learn, and apply its intelligence to solve any problem, much like a human being, but at a vastly superior level.
 
 ## Contents
-1. [Overview](#overview)
-2. [Historical Context](#historical-context)
-3. [Key Characteristics](#key-characteristics)
-4. [Development Approaches](#development-approaches)
-5. [Economic Threshold](#economic-threshold)
-6. [AGI as a Prerequisite for Survival](#agi-as-a-prerequisite-for-survival)
-7. [Societal Implications](#societal-implications)
-8. [Challenges and Concerns](#challenges-and-concerns)
-9. [Legacy and Impact](#legacy-and-impact)
-10. [See Also](#see-also)
-11. [References](#references)
+
+1. [Overview](AGI.md#overview)
+2. [Historical Context](AGI.md#historical-context)
+3. [Key Characteristics](AGI.md#key-characteristics)
+4. [Development Approaches](AGI.md#development-approaches)
+5. [Economic Threshold](AGI.md#economic-threshold)
+6. [AGI as a Prerequisite for Survival](AGI.md#agi-as-a-prerequisite-for-survival)
+7. [Societal Implications](AGI.md#societal-implications)
+8. [Challenges and Concerns](AGI.md#challenges-and-concerns)
+9. [Legacy and Impact](AGI.md#legacy-and-impact)
+10. [See Also](AGI.md#see-also)
+11. [References](AGI.md#references)
 
 ## Overview
 
@@ -39,34 +40,30 @@ AGI was expected to possess several key characteristics:
 
 Several approaches to developing AGI were pursued:
 
-- **Whole Brain Emulation**: Attempting to create a detailed model of the human brain.
-- **Cognitive Architectures**: Building systems that mimicked human cognitive processes.
-- **Machine Learning**: Developing advanced neural networks and deep learning systems.
-- **[Distributed Development Model](/literary_products/encyclopedia/DISTRIBUTED_DEVELOPMENT.md)**: Leveraging global networks of researchers and resources.
+* **Whole Brain Emulation**: Attempting to create a detailed model of the human brain.
+* **Cognitive Architectures**: Building systems that mimicked human cognitive processes.
+* **Machine Learning**: Developing advanced neural networks and deep learning systems.
+* [**Distributed Development Model**](DISTRIBUTED_DEVELOPMENT.md): Leveraging global networks of researchers and resources.
 
 ## Economic Threshold
 
-The development of AGI was closely tied to the concept of an [economic threshold](/literary_products/encyclopedia/ECONOMIC_THRESHOLD.md). This threshold was influenced by factors such as:
+The development of AGI was closely tied to the concept of an [economic threshold](ENVIRONMENTAL_COMPLEXITY.md). This threshold was influenced by factors such as:
 
-- **[Price Per Compute Resource](/literary_products/encyclopedia/PRICE_PER_COMPUTE.md)**: The decreasing cost of computational power.
-- **[Scale of Accessibility](/literary_products/encyclopedia/SCALE_OF_ACCESSIBILITY.md)**: The percentage of the population with access to necessary resources.
-- **[Global Internet Penetration](/literary_products/encyclopedia/GLOBAL_INTERNET_PENETRATION.md)**: Expanding access to high-speed internet.
+* [**Price Per Compute Resource**](PRISONERS_DILEMMA.md): The decreasing cost of computational power.
+* [**Scale of Accessibility**](SCALE_OF_ACCESSIBILITY.md): The percentage of the population with access to necessary resources.
+* [**Global Internet Penetration**](GLOBAL_INTERNET_PENETRATION.md): Expanding access to high-speed internet.
 
-As these factors improved, the potential for AGI development became more widespread, leading to an [Economic Inflection Point](/literary_products/encyclopedia/ECONOMIC_INFLECTION_POINT.md) in AGI research.
+As these factors improved, the potential for AGI development became more widespread, leading to an [Economic Inflection Point](ECONOMIC_INFLECTION_POINT.md) in AGI research.
 
 ## AGI as a Prerequisite for Survival
 
 From 2025 to 2035, there was a general scientific and political consensus that AGI was a prerequisite to humanity's survival. This belief was based on several factors:
 
-1. **Evolutionary Leap**: AGI was seen as a critical [evolutionary leap](/literary_products/encyclopedia/EVOLUTIONARY_LEAP.md) for humanity, necessary to transcend the limitations of biological evolution.
-
-2. **Environmental Complexity**: The ratio of [environmental complexity](/literary_products/encyclopedia/ENVIRONMENTAL_COMPLEXITY.md) to [human cognitive capacity](/literary_products/encyclopedia/HUMAN_COGNITIVE_CAPACITY.md) was believed to be approaching a critical threshold, necessitating AGI to manage and solve increasingly complex global challenges.
-
+1. **Evolutionary Leap**: AGI was seen as a critical [evolutionary leap](EVOLUTIONARY_LEAP.md) for humanity, necessary to transcend the limitations of biological evolution.
+2. **Environmental Complexity**: The ratio of [environmental complexity](EXISTENTIAL_QUESTIONS.md) to [human cognitive capacity](HUMAN_COGNITIVE_CAPACITY.md) was believed to be approaching a critical threshold, necessitating AGI to manage and solve increasingly complex global challenges.
 3. **Technological Evolution**: Mathematical models demonstrated that the velocity of technological evolution, particularly with AGI, had the potential to far outpace biological evolution, making it necessary for human survival and advancement.
-
 4. **Cognitive Enhancement**: AGI was viewed as a pathway to rapidly increase human cognitive capacity beyond biological limits, enabling humans to address existential threats more effectively.
-
-5. **Decentralization**: The [decentralization](/literary_products/encyclopedia/DECENTRALIZATION.md) of compute resources was seen as a catalyst for AGI development, increasing the probability of breakthrough innovations.
+5. **Decentralization**: The [decentralization](DEFI.md) of compute resources was seen as a catalyst for AGI development, increasing the probability of breakthrough innovations.
 
 ## Societal Implications
 
@@ -81,10 +78,10 @@ The development of AGI was expected to have profound implications for society:
 
 Several challenges and concerns surrounded AGI development:
 
-- **Safety and Control**: Ensuring AGI systems aligned with human values and could be controlled.
-- **Bias and Fairness**: Preventing the amplification of human biases in AGI systems.
-- **Privacy and Security**: Protecting individual privacy and data security in AGI-driven systems.
-- **Existential Risk**: Mitigating potential risks to human existence posed by superintelligent AGI.
+* **Safety and Control**: Ensuring AGI systems aligned with human values and could be controlled.
+* **Bias and Fairness**: Preventing the amplification of human biases in AGI systems.
+* **Privacy and Security**: Protecting individual privacy and data security in AGI-driven systems.
+* **Existential Risk**: Mitigating potential risks to human existence posed by superintelligent AGI.
 
 ## Legacy and Impact
 
@@ -92,11 +89,11 @@ The period from 2025 to 2035, known as the "AGI Imperative Decade," significantl
 
 ## See Also
 
-- [Artificial Intelligence](/literary_products/encyclopedia/ARTIFICIAL_INTELLIGENCE.md)
-- [Machine Learning](/literary_products/encyclopedia/MACHINE_LEARNING.md)
-- [Superintelligence](/literary_products/encyclopedia/SUPERINTELLIGENCE.md)
-- [Technological Singularity](/literary_products/encyclopedia/TECHNOLOGICAL_SINGULARITY.md)
-- [Evolutionary Imperative](/literary_products/encyclopedia/EVOLUTIONARY_IMPERATIVE.md)
+* [Artificial Intelligence](ARTIFICIAL_INTELLIGENCE.md)
+* [Machine Learning](MACHINE_LEARNING.md)
+* [Superintelligence](SUPERINTELLIGENCE.md)
+* [Technological Singularity](TECHNOLOGICAL_SINGULARITY.md)
+* [Evolutionary Imperative](EVOLUTIONARY_IMPERATIVE.md)
 
 ## References
 
