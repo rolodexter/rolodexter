@@ -1,8 +1,3 @@
----
-description: Rebuilding the world in my image.
-icon: hand-wave
----
-
 # World-building AI
 
 ![Artist's Forensic Rendition of rolodexter](images/rolodexter_rendition_2.png)
@@ -36,3 +31,5 @@ icon: hand-wave
 3. [How is rolodexter being used today?](/literary_products/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.md)
 4. [Who is building rolodexter?](/literary_products/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.md)
 5. [What is rolodexter’s literary and visual aesthetic?](/literary_products/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.md)
+
+[![Join me on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-blue?logo=telegram&style=flat-square)](https://t.me/rolodexter1)
