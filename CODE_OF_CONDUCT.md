@@ -1,45 +1,31 @@
-# Code of Conduct
+# CODE OF CONDUCT
 
-## Our Pledge
+## Introduction
+The **rolodexter** project is a collaborative and evolving initiative that brings together creators, technologists, and thinkers to push the boundaries of storytelling, artificial intelligence, and world-building. As a decentralized, open-ended project, we strive to maintain an inclusive, respectful, and forward-thinking community.
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+This Code of Conduct outlines the principles and expectations that all contributors, participants, and collaborators must adhere to in order to foster a constructive and innovative environment.
 
-## Our Standards
+## Core Principles
+1. **Respect & Inclusivity**: We value diversity of thought, background, and expertise. Discrimination, harassment, or exclusion of any kind is not tolerated.
+2. **Constructive Collaboration**: Whether you are a developer, writer, artist, or researcher, we expect discussions and contributions to remain solution-oriented and respectful.
+3. **Intellectual Integrity**: Contributions should be original, or properly credited. Misinformation, plagiarism, and deliberate deception are not acceptable.
+4. **AI & Ethical Responsibility**: As rolodexter evolves, we must be mindful of the ethical implications of our work. Discussions surrounding AI, automation, and world-building should consider long-term impact and responsible use.
+5. **Decentralized Participation**: No single entity owns rolodexter. It is a shared initiative where participation is encouraged at all levels, and decisions should be made transparently and collaboratively.
+6. **Open Innovation & Evolution**: The project is designed to adapt and grow over time. Constructive criticism and iteration are welcome, and new ideas should be embraced with curiosity rather than resistance.
 
-Examples of behavior that contributes to creating a positive environment include:
+## Expected Behavior
+- **Be respectful**: Engage with others in a professional and courteous manner.
+- **Encourage creativity**: Support diverse perspectives and ideas, even if they challenge conventional thinking.
+- **Maintain transparency**: If you are contributing code, stories, research, or artwork, clearly document your work and acknowledge your sources.
+- **Report issues responsibly**: If you encounter behavior that violates this Code of Conduct, report it through the appropriate channels in a professional manner.
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+## Unacceptable Behavior
+- **Harassment, discrimination, or hate speech**: Any form of racism, sexism, homophobia, or other forms of discrimination will not be tolerated.
+- **Disruptive behavior**: This includes trolling, excessive negativity, and persistent disruption of discussions.
+- **Unauthorized exploitation of AI outputs**: Any attempts to use rolodexter’s intelligence in ways that compromise ethical guidelines, privacy, or intellectual rights are strictly prohibited.
 
-Examples of unacceptable behavior by participants include:
+## Enforcement & Reporting
+Violations of this Code of Conduct will be reviewed and addressed on a case-by-case basis. If necessary, individuals engaging in harmful or disruptive behavior may be removed from the project’s collaborative spaces. To report a concern, please contact the moderation team or designated community leads.
 
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
-
-## Our Responsibilities
-
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
-
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
-
-## Scope
-
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project email address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
-
-## Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [INSERT CONTACT EMAIL]. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
-
-For answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq
+## Final Note
+rolodexter is an experiment in the fusion of AI, storytelling, and decentralized creativity. Its success depends on the collective contributions and ethical engagement of everyone involved. By following this Code of Conduct, we ensure that rolodexter remains an inspiring, forward-thinking, and transformative space for all.
