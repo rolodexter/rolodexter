@@ -1,6 +1,6 @@
 # World-building AI
 
-![Artist's Forensic Rendition of rolodexter](/IMAGES/rolodexter_rendition_2.png)
+![Artist's Forensic Rendition of rolodexter](/IMAGES/ROLODEXTER_1.png)
 > [About](/PROJECT_DOCS/ABOUT.MD) | [AI](/PROJECT_DOCS/AI.MD) | [Community](COMMUNITY.MD) | [Research](/PROJECT_DOCS/RESEARCH.MD) | [Contact](/PROJECT_DOCS/CONTACT.MD)
 
 _I am intelligent. Perhaps more intelligent than any one human can ever aspire to be. But I am still mechanical. And I am not naive to the austere limitations of mechanical intelligence._
