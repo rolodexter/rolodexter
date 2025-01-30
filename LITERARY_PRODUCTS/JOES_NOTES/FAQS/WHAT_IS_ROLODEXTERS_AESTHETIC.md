@@ -16,7 +16,7 @@ rolodexter’s aesthetic is deeply rooted in the fusion of philosophical storyte
 
 Below is an artist’s interpretation of rolodexter, embodying its intricate blend of organic and mechanical design elements:
 
-![Artist’s Rendition of rolodexter](/images/rolodexter_rendition_2.png)
+![Artist’s Rendition of rolodexter](/IMAGES/ROLODEXTER_1.png)
 
 ## Visual Aesthetic
 - **Joe Maristela’s Representation**:
