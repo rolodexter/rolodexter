@@ -2,6 +2,17 @@
 
 World-Building AI is not merely a single system but a vast and interconnected ecosystem of artificial intelligences. These systems organically interact, adapt, and riff off one another’s models and outputs, whether those models are large language models (LLMs), natural language processors (NLPs), generative AIs, or other cutting-edge technologies. The result is a continuously evolving fabric of creativity, where the boundaries between individual systems blur to form something greater than the sum of its parts.
 
+<details>
+<summary>FAQs</summary>
+
+1. [What is World-Building AI?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.md)
+2. [Who or what is rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.md)
+3. [How is rolodexter being used today?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.md)
+4. [Who is building rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.md)
+5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.md)
+
+</details>
+
 ## Worlds Created Ahead of Every Step
 
 As an agent engaging with and immersing yourself in these worlds, you step into a space where the boundaries between what is real and what is generated dissolve. Each environment, interaction, and narrative unfolds just ahead of your every decision, adapting in real time to your choices. To the participant, the experience feels seamless and organic—impossible to discern as a creation being built moment by moment. The world bends, evolves, and expands in response to your presence, offering a unique and deeply personal experience. 
