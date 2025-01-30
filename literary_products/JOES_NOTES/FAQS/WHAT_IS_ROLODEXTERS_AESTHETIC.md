@@ -12,7 +12,7 @@ rolodexter’s aesthetic is deeply rooted in the fusion of philosophical storyte
   - Often rendered as a genderless, ethereal figure inspired by **Blame!**, characterized by clean lines and futuristic designs.
   - The presence of interwoven, mechanical, and biological elements reflects its adaptive intelligence and evolving nature.
 
-#### Visual Reference: Artist’s Rendition of rolodexter
+#### Visual Reference: Artist’s Rendition of rolodexter   
 
 Below is an artist’s interpretation of rolodexter, embodying its intricate blend of organic and mechanical design elements:
 
