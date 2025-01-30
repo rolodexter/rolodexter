@@ -6,7 +6,7 @@
 
 **Scene 1**: [_ParkHealth_](../encyclopedia/PARKHEALTH.md) _Research Facility - Day_
 
-_A sleek, modern research facility hums with activity. DR._ [_KARA MENDOZA_](../encyclopedia/LIBERTIES.md)_, a senior physicist at_ [_ParkHealth_](../encyclopedia/PARKHEALTH.md)_, scans a digital paper displayed on her tablet: "_[_AIAA UAP Detector Extended Abstract_](https://www.researchgate.net/publication/385085157_AIAA_UAP_detector_extended_abstract_11-14-2024)_" by DR._ [_GEORGE SOLI_](../encyclopedia/HARVARD.md)_. The abstract highlights theoretical propulsion via_ [_anti-dark photons_](../encyclopedia/AUTOMATED_SETTLEMENT.md)_._
+_A sleek, modern research facility hums with activity. DR._ [_KARA MENDOZA_](../encyclopedia/LIBERTIES.md)_, a senior physicist at_ [_ParkHealth_](../encyclopedia/PARKHEALTH.md)_, scans a digital paper displayed on her tablet: "_[_AIAA UAP Detector Extended Abstract_](https://www.researchgate.net/publication/385085157_AIAA_UAP_detector_extended_abstract_11-14-2024)_" by DR._ [_GEORGE SOLI_]../encyclopedia/HARVARD.mdd)_. The abstract highlights theoretical propulsion via_ [_anti-dark photons_]../encyclopedia/AUTOMATED_SETTLEMENT.mdd)_._
 
 **KARA**\
 (to herself, reading aloud)\

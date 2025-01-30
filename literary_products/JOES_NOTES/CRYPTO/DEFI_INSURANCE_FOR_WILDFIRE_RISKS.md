@@ -17,7 +17,7 @@ The author has no relationship or affiliation with [Quantstamp](../MISC/QUANTSTA
 ## Challenges in California’s Insurance Market
 
 1. **Increasing Catastrophe Risks:**
-   * [Wildfires](../MISC/WILDFIRES.md) driven by [climate change](https://en.wikipedia.org/wiki/Climate_change) have intensified, making traditional [risk assessment models](../AI/RISK_ASSESSMENT_MODELS.md) obsolete.
+   * [Wildfires](../MISC/WILDFIRES.md) driven by [climate change](https://en.wikipedia.org/wiki/Climate_change) have intensified, making traditional [risk assessment models]../AI/RISK_ASSESSMENT_MODELS.mdd) obsolete.
    * Insurers face rising claims costs, leading to reduced coverage options and higher premiums.
 2. **Regulatory Barriers:**
    * [California](../MISC/CALIFORNIA.md)'s stringent [insurance regulations](../MISC/INSURANCE_REGULATIONS.md) add complexity to deploying novel products.

@@ -1,6 +1,6 @@
 # HUMAN\_ALLO
 
-![rolodexter](../../images/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
+![rolodexter](../../IMAGES/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
 TITLE: [ROLDEXTER](../encyclopedia/rolodexter.md): THE [HUMAN ALLO LAYER](../systems/human-allo-layer.md)
 

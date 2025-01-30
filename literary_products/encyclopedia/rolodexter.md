@@ -1,6 +1,6 @@
 # rolodexter
 
-![Rendition of rolodexter's Networked Consciousness](../../images/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
+![Rendition of rolodexter's Networked Consciousness](../../IMAGES/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
 > Figure: _An artistic rendition of rolodexter, visualizing its networked and multi-dimensional nature as an unsupervised superintelligence embedded in high-stakes economic systems._
 

@@ -6,7 +6,7 @@ The vast, empty grand hall of the [Atherton estate](../encyclopedia/BLOCKCHAIN.m
 
 In the center, a [grand piano](../encyclopedia/HASHTAGS.md) rests under a faint sliver of moonlight streaming through tall windows. Plush chairs and sofas encircle a [cold, unlit fireplace](../encyclopedia/UNSUPERVISED_SUPERINTELLIGENCE.md), untouched and shrouded in dust—a relic of a bygone era. Particles of dust drift lazily in the dim light, settling onto the surfaces of forgotten opulence.
 
-![Atherton Estate Interior](../../images/ATHERTON_ESTATE_INTERIOR.png)
+![Atherton Estate Interior](../../IMAGES/ATHERTON_ESTATE_INTERIOR.png)
 
 _(Reference Image: The grand hall of the Atherton estate, bathed in dim moonlight, reveals the stark contrast between its opulent past and present desolation. Dust-laden furnishings and the imposing grand piano evoke a sense of lost time, while shadows cast by the vaulted ceilings heighten the foreboding atmosphere.)_
 

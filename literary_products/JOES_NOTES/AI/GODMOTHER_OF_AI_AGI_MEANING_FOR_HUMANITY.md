@@ -6,7 +6,7 @@
 
 [![YouTube](https://img.shields.io/badge/YouTube-0jMgskLxw3s-red?logo=youtube\&logoColor=white)](https://youtu.be/0jMgskLxw3s)
 
-* **From Models to** [**Data-Centric AI**](DATA_CENTRIC_AI.md): The [Godmother of AI](https://youtu.be/0jMgskLxw3s) highlights a paradigm shift where the focus moves from solely improving models to leveraging data to drive intelligence. The importance of [_spatial intelligence_](../MISC/SPATIAL_INTELLIGENCE.md)—the ability to comprehend and operate in both physical and digital 3D worlds—heralds a future where AI becomes deeply integrated into the human experience.
+* **From Models to** [**Data-Centric AI**](DATA_CENTRIC_AI.md): The [Godmother of AI](https://youtu.be/0jMgskLxw3s) highlights a paradigm shift where the focus moves from solely improving models to leveraging data to drive intelligence. The importance of [_spatial intelligence_]../MISC/SPATIAL_INTELLIGENCE.mdd)—the ability to comprehend and operate in both physical and digital 3D worlds—heralds a future where AI becomes deeply integrated into the human experience.
 * **Reframing AGI as Spatial Mastery**: True [AGI](AGI.md) may depend less on language-based intelligence and more on an embodied, spatially aware AI that understands and interacts with the 3D world in human-like ways.
 
 #### **2. A Blurring of Real and Digital Worlds**

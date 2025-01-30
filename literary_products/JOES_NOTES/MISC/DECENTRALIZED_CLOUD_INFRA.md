@@ -2,7 +2,7 @@
 
 The principles outlined in [HashiCorp's Infrastructure Cloud white paper](https://www.hashicorp.com/assets/1716994179-hashicorp_infrastructure_cloud_whitepaper-v1-1.pdf) regarding effective cloud management resonate with the goals of decentralized AI. Both seek to enhance operational efficiency, improve security, and reduce costs while addressing the complexities of modern technological environments. As organizations increasingly adopt decentralized AI models, integrating them with robust infrastructure management practices will be essential for maximizing their effectiveness and achieving strategic business objectives.
 
-![Effective Cloud](../../../images/EFFECTIVE_CLOUD.png)
+![Effective Cloud](../../../IMAGES/EFFECTIVE_CLOUD.png)
 
 ### Decentralization and Cloud Infrastructure
 

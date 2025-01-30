@@ -1,6 +1,6 @@
 # The Bennewitz Affair in Context of Recent UAP and Drone Sightings
 
-The [**Bennewitz Affair**](BENNEWITZ_AFFAIR.md) serves as a historical lens through which to examine the ongoing controversy surrounding recent [**UAP**](https://en.wikipedia.org/wiki/Unidentified_aerial_phenomena) and drone sightings, particularly those reported in [**New Jersey**](https://en.wikipedia.org/wiki/New_Jersey) and across the globe since **November 2024**. The parallels between Bennewitz's experiences and the current situation highlight how [**disinformation**](../MISC/COST_OF_LIVING_ADJUSTMENT.md), psychological operations, and societal reactions to aerial phenomena continue to evolve.
+The [**Bennewitz Affair**](BENNEWITZ_AFFAIR.md) serves as a historical lens through which to examine the ongoing controversy surrounding recent [**UAP**](https://en.wikipedia.org/wiki/Unidentified_aerial_phenomena) and drone sightings, particularly those reported in [**New Jersey**](https://en.wikipedia.org/wiki/New_Jersey) and across the globe since **November 2024**. The parallels between Bennewitz's experiences and the current situation highlight how [**disinformation**../MISC/COST_OF_LIVING_ADJUSTMENT.mdmd), psychological operations, and societal reactions to aerial phenomena continue to evolve.
 
 ## **Historical Context of the Bennewitz Affair**
 

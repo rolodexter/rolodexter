@@ -4,7 +4,7 @@ I played a critical role in bringing the [AccuVax](../../encyclopedia/MISINFORMA
 
 ## Technical Challenges and Innovative Solutions
 
-![Vaccine Storage](../../../images/VACCINE_STORAGE.png)
+![Vaccine Storage](../../../IMAGES/VACCINE_STORAGE.png)
 
 ### **Technological Integration**
 

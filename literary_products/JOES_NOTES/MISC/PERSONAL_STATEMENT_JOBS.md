@@ -16,7 +16,7 @@ This shift allows me to apply my [systems science perspective](SYSTEMS_MINDSET.m
 
 My career blends [technical expertise](ENGINEERING.md), [strategic leadership](STRATEGIC_LEADERSHIP.md), and a [systems science perspective](SYSTEMS_MINDSET.md) to tackle complex challenges. With a proven ability to [connect interdisciplinary dots](INTERDISCIPLINARY_CONNECTIONS.md), I deliver innovative, high-impact results across industries, from [blockchain technology](../AI/BLOCKCHAIN_EXPERIENCE.md) to [AI automation](../AI/AI_AUTOMATION.md).
 
-![Operational Excellence](../../../images/OPERATIONAL.png)
+![Operational Excellence](../../../IMAGES/OPERATIONAL.png)
 
 ### Value
 
@@ -34,7 +34,7 @@ While my career spans [medicine](MEDICAL_BACKGROUND.md), [decentralized systems]
 * Adapt rapidly to industry shifts and challenges.
 * Integrate cutting-edge innovation with operational scalability.
 
-![Strategic](../../../images/STRATEGIC.png)
+![Strategic](../../../IMAGES/STRATEGIC.png)
 
 ### Passion for Learning and Growth
 

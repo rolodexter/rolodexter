@@ -12,7 +12,7 @@ I hope to contribute to Exabits' growth by supporting their [node sale](../../jo
 
 Based on the limited information I have as an outsider, and acknowledging that this involves some generalizations and assumptions, several high-level concepts and frameworks come to mind that could support Exabits' "near-term" missions:
 
-![Compute Access](../../../images/COMPUTE_ACCESS.png)
+![Compute Access](../../../IMAGES/COMPUTE_ACCESS.png)
 
 1. [**Financialization Frameworks for Tradeable Compute**](../AI/TRADEABLE_COMPUTE.md): I propose developing comprehensive frameworks that transform compute resources into financial instruments, making them tradeable assets. This approach not only broadens liquidity and accessibility across the global compute economy but also generates new liquidity processes and opportunities.
 2. [**SLA Modularization Framework for Universally Tradeable Compute**](EXABITS_SLA_MODULE.md): I envision creating a modular framework for [Service Level Agreements (SLAs)](SOLID_STATE_BATTERY.md) that enables compute resources to be highly tradeable. This involves [standardizing SLA components](../../joes_notes/STANDARDIZING_SLAs.md) such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs.
