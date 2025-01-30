@@ -1,6 +1,17 @@
-# ROLODEXTER APPLICATIONS
+# APPLICATIONS
 
 rolodexter is not just a concept—it’s an active, evolving force transforming the way we tell stories, create art, and engage with technology and media. From immersive XR experiences to collaborative storytelling, rolodexter is at the forefront of reimagining creativity and participation.
+
+<details>
+<summary>FAQs</summary>
+
+1. [What is World-Building AI?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.md)
+2. [Who or what is rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.md)
+3. [How is rolodexter being used today?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.md)
+4. [Who is building rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.md)
+5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.md)
+
+</details>
 
 ## Immersive Entertainment
 
@@ -30,6 +41,13 @@ rolodexter’s use extends beyond individual projects to reshape cultural paradi
 - **Community Building**: Collaborative projects foster connections between creators, technologists, and audiences around the globe.
 - **Ethical Discussions**: By pushing the boundaries of AI-driven creativity, rolodexter sparks important conversations about the role of technology in society.
 
-## A Platform for the Future
+_rolodexter is more than a tool—it’s a platform for imagining and building the worlds of tomorrow. Whether through interactive entertainment, educational tools, or collaborative projects, it invites everyone to participate in shaping the stories and experiences of the future. Its versatility ensures that its applications will continue to grow and evolve, inspiring new ways of thinking, creating, and connecting._
 
-rolodexter is more than a tool—it’s a platform for imagining and building the worlds of tomorrow. Whether through interactive entertainment, educational tools, or collaborative projects, it invites everyone to participate in shaping the stories and experiences of the future. Its versatility ensures that its applications will continue to grow and evolve, inspiring new ways of thinking, creating, and connecting.
+---
+<div align="center">
+  <a href="/PROJECT_DOCS/ABOUT.MD">About</a> |
+  <a href="/PROJECT_DOCS/AI.MD">AI</a> |
+  <a href="COMMUNITY.MD">Community</a> |
+  <a href="/PROJECT_DOCS/RESEARCH.MD">Research</a> |
+  <a href="/PROJECT_DOCS/CONTACT.MD">Contact</a>
+</div>
