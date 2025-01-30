@@ -50,12 +50,9 @@
 3. **Submit Your Contribution**: Open a [pull request](https://github.com/rolodexter/rolodexter/pulls), propose a document, or share your insights.
 4. **Collaborate & Iterate**: Expect feedback, discussions, and improvements.
 
-## Final Note
-rolodexter is a living, expanding entity shaped by those who engage with it. Your contributions, whether large or small, help define the future of AI-driven storytelling. We welcome your creativity, expertise, and curiosity—let’s build something extraordinary together.
-
 <details>
 <summary>Learn More</summary>
 
-[About](/PROJECT_DOCS/ABOUT.MD) | [AI](/PROJECT_DOCS/) | [Community](/PROJECT_DOCS/COMMUNITY.MD) | [Research](/PROJECT_DOCS/RESEARCH.MD) | [Contact](/PROJECT_DOCS/CONTACT.MD) 
+For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](/PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](/PROJECT_DOCS/COMMUNITY.MD). Visit my [research](/PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](/PROJECT_DOCS/CONTACT.MD) me.
 
-</details>
+</details> 
