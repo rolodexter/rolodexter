@@ -31,8 +31,8 @@ icon: hand-wave
 
 ### FAQs
 
-1. [What is World-Building AI?](literary_products/joes_notes/faqs/WHAT_IS_WORLD_BUILDING_AI.md)
-2. [Who or what is rolodexter?](literary_products/joes_notes/faqs/WHAT_IS_ROLODEXTER.md)
-3. [How is rolodexter being used today?](literary_products/joes_notes/faqs/HOW_IS_ROLODEXTER_BEING_USED.md)
-4. [Who is building rolodexter?](literary_products/joes_notes/faqs/WHO_IS_BUILDING_ROLODEXTER.md)
-5. [What is rolodexter’s literary and visual aesthetic?](literary_products/joes_notes/faqs/WHAT_IS_ROLODEXTERS_AESTHETIC.md)
+1. [What is World-Building AI?](/literary_products/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.md)
+2. [Who or what is rolodexter?](/literary_products/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.md)
+3. [How is rolodexter being used today?](/literary_products/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.md)
+4. [Who is building rolodexter?](/literary_products/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.md)
+5. [What is rolodexter’s literary and visual aesthetic?](/literary_products/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.md)
