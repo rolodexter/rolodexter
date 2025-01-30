@@ -1,1 +1,0 @@
-Joe began developing rolodexter in the early 2020s. Later that decade, rolodexter's decentralized intelligences were present in [...] By the 2030s, he developed and sought to pursue his [Power Directive](/literary_products/encyclopedia/POWER_DIRECTIVE.md).
