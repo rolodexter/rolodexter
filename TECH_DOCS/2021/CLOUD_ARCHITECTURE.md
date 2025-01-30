@@ -1,0 +1,3 @@
+# CLOUD ARCHITECTURE
+
+Placeholder content for CLOUD_ARCHITECTURE.md.
