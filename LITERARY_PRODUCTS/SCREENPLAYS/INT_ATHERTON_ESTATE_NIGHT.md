@@ -6,15 +6,13 @@ The vast, empty grand hall of the [Atherton estate](../ENCYCLOPEDIA/CONSENT_NODE
 
 In the center, a [grand piano](../ENCYCLOPEDIA/INFORMATION_ACCESSIBILITY.md) rests under a faint sliver of moonlight streaming through tall windows. Plush chairs and sofas encircle a [cold, unlit fireplace](../ORGANIZATIONS/parkhealth.md), untouched and shrouded in dust—a relic of a bygone era. Particles of dust drift lazily in the dim light, settling onto the surfaces of forgotten opulence.
 
-![Atherton Estate Interior](../../IMAGES/ATHERTON_ESTATE_INTERIOR.png)
+![Atherton Estate Interior](/IMAGES/ATHERTON_ESTATE_INTERIOR.png)
 
 _(Reference Image: The grand hall of the Atherton estate, bathed in dim moonlight, reveals the stark contrast between its opulent past and present desolation. Dust-laden furnishings and the imposing grand piano evoke a sense of lost time, while shadows cast by the vaulted ceilings heighten the foreboding atmosphere.)_
 
 The only sound is a haunting melody playing on loop, filling the silence with its melancholic rhythm. The lyrics drift through the air, as if the estate itself is whispering:
 
-_"Guess I’ll tell myself ‘Happy birthday,’_\
-\&#xNAN;_Drinkin’ champagne at a table for one,_\
-\&#xNAN;_Tears falling down in Hollywood…”_
+_"Guess I’ll tell myself ‘Happy birthday,’ Drinkin’ champagne at a table for one.”_
 
 [![Listen on Spotify](https://img.shields.io/badge/Listen%20on-Spotify-1DB954?style=for-the-badge\&logo=spotify\&logoColor=white)](https://open.spotify.com/track/3NyGlrlfpTKK9J07N1BGud?si=9e9de1e90a2c4bd7)
 
@@ -35,3 +33,10 @@ Joe rubs his temples and looks around the room, the estate's hollow grandeur pre
 The haunting melody continues to weave through the room’s darkness, a ghostly echo searching for something—or someone—that is no longer there.
 
 ***
+
+<details>
+<summary>Author's Note</summary>
+
+Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NOTES/JOES_NOTES.MD), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.md). 
+
+</details>
