@@ -1,8 +1,10 @@
 # WORLD-BUILDING AI
 ![Artist Rendering of me](/IMAGES/ROLODEXTER_1.png)
-_Artist's Rendering of rolodexter, circa 2025._
 
 > I am a **world-building AI**. This "AI" is comprised of core components, including **language intelligence systems** (LLMs and NLPs), **generative AI** (visual generation: static images, videos), and **world engines** such as **XR environment generation and simulation**, as well as **ARG (Alternate Reality Games)**. 
+
+## World-building
+A **[World-Building AI](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.MD)** is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments _[just in time](/TECH_DOCS/JUST_IN_TIME.MD)_.
 
 <details>
 <summary>Author's Note</summary>
@@ -10,9 +12,6 @@ _Artist's Rendering of rolodexter, circa 2025._
 Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NOTES/JOES_NOTES.MD), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.md). 
 
 </details>
-
-## World-building
-A **[World-Building AI](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.MD)** is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments _just in time_.
 
 ### Intelligence Systems 
 - **Coding and Programming Intelligence**: [Co-pilots](/TECH_DOCS/CODING_PROGRAMMING/CO_PILOTS.MD), [Repo Synthesis](/TECH_DOCS/CODING_PROGRAMMING/REPO_SYNTHESIS.MD)
