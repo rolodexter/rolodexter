@@ -110,4 +110,4 @@ Market networks are characterized by:
 
 * [Products as Interfaces](PRODUCTS_AS_INTERFACES.md)
 * [Network Effects](../../../literary_products/joes_notes/NETWORK_EFFECTS.md)
-* [Cryptoeconomics](COMMUNITY_SERVICE.md)
+* [Cryptoeconomics](../../../literary_products/joes_notes/misc/community_service.md)

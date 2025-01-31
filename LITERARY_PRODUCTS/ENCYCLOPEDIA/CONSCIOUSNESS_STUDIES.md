@@ -73,7 +73,7 @@ Historians highlighted several key artifacts from _rolodexter’s_ consciousness
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
 * [Cognitive Cycles](COGNITIVE_CYCLES.md)
 * [Self-Interrogation](../../literary_products/encyclopedia/SELF_INTERROGATION.md)
-* [Unsupervised Superintelligence](../PEOPLE/ricardo-hausmann.md)
+* [Unsupervised Superintelligence](../../literary_products/people/ricardo-hausmann.md)
 * [Ethics of Artificial Intelligence](../../literary_products/external/AI_ETHICS.md)
 
 ***

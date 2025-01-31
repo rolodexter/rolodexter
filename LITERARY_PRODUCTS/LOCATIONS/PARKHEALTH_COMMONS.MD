@@ -1,6 +1,6 @@
 # ParkHealth Sonoma Campus
 
-[ParkHealth's](../JOES_NOTES/STRATEGY/ECONOMIC_THRESHOLD.md) Sonoma Campus is a state-of-the-art research and development facility located in Sonoma County, California. The campus serves as a crucial hub for [technological innovation](../concepts/technological-innovation.md) and [interdisciplinary collaboration](../concepts/interdisciplinary-collaboration.md) in the [rolodexter universe](broken-reference/).
+[ParkHealth's](../../literary_products/joes_notes/strategy/economic_threshold.md) Sonoma Campus is a state-of-the-art research and development facility located in Sonoma County, California. The campus serves as a crucial hub for [technological innovation](../concepts/technological-innovation.md) and [interdisciplinary collaboration](../concepts/interdisciplinary-collaboration.md) in the [rolodexter universe](broken-reference/).
 
 ## Facilities
 

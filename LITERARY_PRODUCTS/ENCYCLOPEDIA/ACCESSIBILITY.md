@@ -4,7 +4,7 @@ This article is about accessibility in the context of artificial general intelli
 
 | Not to be confused with:                                                                     |
 | -------------------------------------------------------------------------------------------- |
-| [Web accessibility](../THEMES/technology.md)                                                 |
+| [Web accessibility](../../literary_products/themes/technology.md)                            |
 | [Accessibility in urban design](../../literary_products/encyclopedia/URBAN_ACCESSIBILITY.md) |
 | [Disability access](ENVIRONMENTAL_COMPLEXITY.md)                                             |
 | [Information accessibility](LIBERTIES.md)                                                    |

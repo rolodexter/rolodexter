@@ -1,12 +1,12 @@
 # Resource Federation Layer (RFL)
 
-The Resource Federation Layer (RFL) is a critical component of the [Exabits Protocol](../../../literary_products/joes_notes/EXABITS_PROTOCOL.md), designed to optimize the allocation and utilization of diverse computational resources across a [decentralized network](DECENTRALIZATION.md). This layer plays a crucial role in enabling efficient [distributed computing](../../../literary_products/joes_notes/DISTRIBUTED_DEVELOPMENT.md) for [AI](../AI/DATAHIVE_AI_ML.md) and [AGI](../AI/AGI.md) development.
+The Resource Federation Layer (RFL) is a critical component of the [Exabits Protocol](../../../literary_products/joes_notes/EXABITS_PROTOCOL.md), designed to optimize the allocation and utilization of diverse computational resources across a [decentralized network](DECENTRALIZATION.md). This layer plays a crucial role in enabling efficient [distributed computing](../../../literary_products/joes_notes/DISTRIBUTED_DEVELOPMENT.md) for [AI](../../../literary_products/joes_notes/ai/datahive_ai_ml.md) and [AGI](../AI/AGI.md) development.
 
 [![Spotify Episode](https://img.shields.io/badge/Spotify-Episode-1DB954?style=for-the-badge\&logo=spotify\&logoColor=white)](https://open.spotify.com/episode/4lRZs9HKg4gj032NV0CAfr?si=-SrO2htQQdi_vngAIEz8FQ)
 
 ## Key Features
 
-1. [**Resource Abstraction**](../../../literary_products/joes_notes/RESOURCE_ABSTRACTION.md): RFL provides a unified interface for heterogeneous compute resources, including [GPUs](../../../literary_products/joes_notes/GPU.md), [TPUs](../../../literary_products/joes_notes/TPU.md), and [quantum processors](RENEWABLE_ENERGY.md).
+1. [**Resource Abstraction**](../../../literary_products/joes_notes/RESOURCE_ABSTRACTION.md): RFL provides a unified interface for heterogeneous compute resources, including [GPUs](../../../literary_products/joes_notes/GPU.md), [TPUs](../../../literary_products/joes_notes/TPU.md), and [quantum processors](../../../literary_products/joes_notes/misc/renewable_energy.md).
 2. [**Dynamic Allocation**](../../../literary_products/joes_notes/DYNAMIC_ALLOCATION.md): Implements intelligent algorithms to allocate tasks to the most suitable resources based on performance requirements and current network conditions.
 3. [**Load Balancing**](../../../literary_products/joes_notes/LOAD_BALANCING.md): Ensures optimal distribution of computational workloads across the network to maximize efficiency and minimize latency.
 4. [**Fault Tolerance**](../../../literary_products/joes_notes/FAULT_TOLERANCE.md): Incorporates mechanisms to handle node failures and network disruptions, ensuring task completion and data integrity.
@@ -35,7 +35,7 @@ The RFL is closely tied to the [tokenomics](../../../literary_products/joes_note
 
 ## Impact on AGI Development
 
-By optimizing resource allocation and utilization, the RFL significantly contributes to lowering the [economic threshold](DISC_SHAPED_UFO.md) for AGI development. It enables researchers and developers to access a global pool of compute resources efficiently, accelerating progress towards AGI.
+By optimizing resource allocation and utilization, the RFL significantly contributes to lowering the [economic threshold](../../../literary_products/joes_notes/misc/disc_shaped_ufo.md) for AGI development. It enables researchers and developers to access a global pool of compute resources efficiently, accelerating progress towards AGI.
 
 [![Spotify Episode](https://img.shields.io/badge/Spotify-Episode-1DB954?style=for-the-badge\&logo=spotify\&logoColor=white)](https://open.spotify.com/episode/1uzotV5ZlWsBTVGjdVV6hT?si=OTu9IhqfS0OMqRWF2Eaebg)
 

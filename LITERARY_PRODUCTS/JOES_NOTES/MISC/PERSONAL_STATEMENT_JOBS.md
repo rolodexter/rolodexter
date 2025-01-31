@@ -38,7 +38,7 @@ While my career spans [medicine](MEDICAL_BACKGROUND.md), [decentralized systems]
 
 ### Passion for Learning and Growth
 
-I’m seeking roles where I can continue to [grow and learn](CAREER_GROWTH.md), applying my expertise in [automating workflows](WORKFLOW_AUTOMATION.md) and [driving measurable outcomes](METALLIC_ORB.md) to make an immediate impact. Whether in [technical writing](../PHYSICS/HIGH_FREQUENCY_GRAVITATIONAL_WAVES.md), [strategy](UNITED_STATES.md), or [developer relations](DALLAS.md), I excel in roles that emphasize [collaboration](../CRYPTO/CRYPTOECONOMICS.md) and [execution](EXECUTION.md).
+I’m seeking roles where I can continue to [grow and learn](CAREER_GROWTH.md), applying my expertise in [automating workflows](WORKFLOW_AUTOMATION.md) and [driving measurable outcomes](../../../literary_products/joes_notes/misc/metallic_orb.md) to make an immediate impact. Whether in [technical writing](../../../literary_products/joes_notes/physics/high_frequency_gravitational_waves.md), [strategy](../../../literary_products/joes_notes/misc/united_states.md), or [developer relations](../../../literary_products/joes_notes/misc/dallas.md), I excel in roles that emphasize [collaboration](../../../literary_products/joes_notes/crypto/cryptoeconomics.md) and [execution](EXECUTION.md).
 
 ### Results-Driven Expertise
 

@@ -2,7 +2,7 @@
 
 ## Definition and Origin
 
-**Creative destruction** is a term introduced by Austrian economist [Joseph Schumpeter](SOVEREIGN_WEALTH_FUNDS.md) in his seminal work _Capitalism, Socialism, and Democracy_ (1942). It describes the dynamic process by which innovation dismantles established systems, practices, or products to make way for new and improved ones. Schumpeter characterized it as the "process of industrial mutation that incessantly revolutionizes the economic structure from within, incessantly destroying the old one, incessantly creating a new one."
+**Creative destruction** is a term introduced by Austrian economist [Joseph Schumpeter](../../../literary_products/joes_notes/misc/sovereign_wealth_funds.md) in his seminal work _Capitalism, Socialism, and Democracy_ (1942). It describes the dynamic process by which innovation dismantles established systems, practices, or products to make way for new and improved ones. Schumpeter characterized it as the "process of industrial mutation that incessantly revolutionizes the economic structure from within, incessantly destroying the old one, incessantly creating a new one."
 
 Creative destruction is a cornerstone of capitalist economies, where progress and innovation are driven by competition and the pursuit of profit. It challenges the static equilibrium models of traditional economics by emphasizing the organic and dynamic nature of economic development.
 
@@ -11,11 +11,11 @@ Creative destruction is a cornerstone of capitalist economies, where progress an
 ## Key Principles of Creative Destruction
 
 1. **Innovation as a Driving Force**\
-   Innovation lies at the heart of creative destruction. New technologies, products, or processes disrupt existing markets by offering superior alternatives. For example, [Henry Ford's assembly line](HAL_PUTHOFF.md) revolutionized automobile manufacturing, rendering older methods obsolete.
+   Innovation lies at the heart of creative destruction. New technologies, products, or processes disrupt existing markets by offering superior alternatives. For example, [Henry Ford's assembly line](../../../literary_products/joes_notes/misc/hal_puthoff.md) revolutionized automobile manufacturing, rendering older methods obsolete.
 2. **Competition and Market Dynamics**\
    Creative destruction thrives in competitive environments. As new entrants introduce disruptive innovations, established firms must either adapt or face obsolescence. This cycle fosters continuous improvement and economic growth.
 3. **Winners and Losers**\
-   The process inevitably creates winners—entrepreneurs and workers in emerging industries—and losers—those tied to outdated technologies or practices. For instance, the rise of [streaming services](VACUUM_COLLAPSE.md) like Netflix disrupted traditional cable TV providers.
+   The process inevitably creates winners—entrepreneurs and workers in emerging industries—and losers—those tied to outdated technologies or practices. For instance, the rise of [streaming services](../../../literary_products/joes_notes/misc/vacuum_collapse.md) like Netflix disrupted traditional cable TV providers.
 4. **Economic Disequilibrium**\
    Unlike traditional economic models that seek equilibrium, creative destruction thrives on disequilibrium. It views market disruption as a necessary condition for progress.
 

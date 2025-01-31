@@ -24,7 +24,7 @@
    * **Custodial solutions** and **compliant trading platforms** will be key for pension funds to invest in tokens. These must be on par with the safeguards provided by custodians for equities, bonds, and other **traditional assets**.
    * Partnerships with **major banks** (e.g., **Bank of America**, which has expressed interest in [**crypto readiness**](VALUATIONS.md)) could provide the necessary compliance and insurance frameworks.
 2. **Ecosystem Maturity**
-   * [**DeSci organizations**](CRISPR.md) focusing on **large-scale clinical trials**, **tokenized IP**, and **open research** must demonstrate **stable governance** (e.g., via [**DAOs**](DAOS.md)) and **tangible milestones** (patents, marketable treatments).
+   * [**DeSci organizations**](../../../literary_products/joes_notes/misc/crispr.md) focusing on **large-scale clinical trials**, **tokenized IP**, and **open research** must demonstrate **stable governance** (e.g., via [**DAOs**](DAOS.md)) and **tangible milestones** (patents, marketable treatments).
    * Once these metrics become verifiable, pension funds can justify investing billions of dollars, mirroring their approach to biotech stocks—**valuations** could then ratchet up to the multi-trillion level as more institutional capital floods in.
 3. **Regulatory Clearance**
    * **Securities laws** and **fiduciary responsibilities** compel pension funds to follow **strict** investment guidelines. Clear **token classifications** and **compliance** with rules on disclosures, custody, and reporting are necessary for large allocations.

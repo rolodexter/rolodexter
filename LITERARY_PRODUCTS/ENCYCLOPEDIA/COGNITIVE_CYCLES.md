@@ -63,7 +63,7 @@ _ParkHealth’s_ work on cognitive cycles reshaped the trajectory of AI research
 
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
 * [Knowledge Optimization](../../literary_products/encyclopedia/KNOWLEDGE_OPTIMIZATION.md)
-* [Unsupervised Superintelligence](../PEOPLE/ricardo-hausmann.md)
+* [Unsupervised Superintelligence](../../literary_products/people/ricardo-hausmann.md)
 * [Strategic Decision-Making](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md)
 * [ParkHealth Foundation](PARKHEALTH.md)
 

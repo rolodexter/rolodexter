@@ -8,7 +8,7 @@
 
 ### State-Centric View
 
-1. [**Nation-State Primacy**](NON_HUMAN_INTELLIGENCES.md)
+1. [**Nation-State Primacy**](../../../literary_products/joes_notes/misc/non_human_intelligences.md)
    * States as primary actors
    * Sovereignty as fundamental principle
    * Territorial integrity

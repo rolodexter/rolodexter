@@ -1,11 +1,11 @@
 # Terraform
 
-[**Terraform**](TERRAFORM.md) is an open-source [**infrastructure as code (IaC)**](IAC.md) tool developed by [**HashiCorp**](../../../literary_products/joes_notes/HASHICORP.md). It enables users to define and provision data center infrastructure using a high-level configuration language known as [**HashiCorp Configuration Language (HCL)**](../../../literary_products/joes_notes/HCL.md). Terraform allows for the automation of infrastructure management, making it easier to create, change, and improve infrastructure safely and efficiently.
+[**Terraform**](TERRAFORM.md) is an open-source [**infrastructure as code (IaC)**](../../../literary_products/joes_notes/misc/iac.md) tool developed by [**HashiCorp**](../../../literary_products/joes_notes/HASHICORP.md). It enables users to define and provision data center infrastructure using a high-level configuration language known as [**HashiCorp Configuration Language (HCL)**](../../../literary_products/joes_notes/HCL.md). Terraform allows for the automation of infrastructure management, making it easier to create, change, and improve infrastructure safely and efficiently.
 
 ## Key Features
 
 * **Infrastructure as Code (IaC)**: Terraform allows users to manage infrastructure through code, enabling version control and collaboration similar to software development practices.
-* **Provider Agnostic**: Terraform supports multiple [**cloud providers**](../AI/THAILAND.md) (AWS, Azure, Google Cloud, etc.) and services, allowing for a unified approach to managing resources across different platforms.
+* **Provider Agnostic**: Terraform supports multiple [**cloud providers**](../../../literary_products/joes_notes/ai/thailand.md) (AWS, Azure, Google Cloud, etc.) and services, allowing for a unified approach to managing resources across different platforms.
 * **Execution Plans**: Before making any changes, Terraform generates an execution plan that shows what actions will be taken. This helps prevent unexpected changes and ensures that users are aware of the modifications being made.
 * [**Resource Graph**](RESOURCE_GRAPH.md): Terraform builds a dependency graph of all resources in the configuration, which allows it to parallelize the creation and destruction of resources where possible, improving efficiency.
 * **State Management**: Terraform maintains a state file that tracks the current state of the infrastructure. This state file is essential for understanding the existing infrastructure and making incremental changes.

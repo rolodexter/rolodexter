@@ -1,11 +1,11 @@
 # REGULATORY\_AFFAIRS\_MANAGER
 
-> _Joe Maristela has a background and experience that align exceptionally well with the requirements for roles such as_ [_Regulatory Affairs Manager_](REGULATORY_AFFAIRS_MANAGER.md)_, particularly within the_ [_autonomous transport solutions_](DEMOCRATIZING_COMPUTE.md) _sector._
+> _Joe Maristela has a background and experience that align exceptionally well with the requirements for roles such as_ [_Regulatory Affairs Manager_](REGULATORY_AFFAIRS_MANAGER.md)_, particularly within the_ [_autonomous transport solutions_](../../../literary_products/joes_notes/ai/democratizing_compute.md) _sector._
 
 ### Regulatory Expertise
 
-1. Extensive experience navigating complex [regulatory environments](../MISC/REGULATORY_ENVIRONMENTS.md), especially in emerging technologies like [autonomous systems](../MISC/AUTONOMOUS_SYSTEMS.md) and [electric vehicles](../MISC/EGG_SHAPED_UFO.md)
-2. Demonstrated ability to develop and execute [regulatory strategies](../MISC/ROLODEXTER_LITERARY_CANON.md), positioning companies as leaders in innovative transport solutions
+1. Extensive experience navigating complex [regulatory environments](../MISC/REGULATORY_ENVIRONMENTS.md), especially in emerging technologies like [autonomous systems](../MISC/AUTONOMOUS_SYSTEMS.md) and [electric vehicles](../../../literary_products/joes_notes/misc/egg_shaped_ufo.md)
+2. Demonstrated ability to develop and execute [regulatory strategies](../../../literary_products/joes_notes/misc/rolodexter_literary_canon.md), positioning companies as leaders in innovative transport solutions
 3. Strong understanding of [compliance requirements](../../../literary_products/joes_notes/COMPLIANCE_REQUIREMENTS.md) across multiple jurisdictions
 4. Experience in securing critical certifications and approvals for market entry and operations
 

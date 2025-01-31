@@ -7,11 +7,11 @@ Humanity’s ability to manage climate change has evolved significantly over tim
 ### **Early Awareness and Scientific Discoveries**
 
 1. **19th Century**:
-   * Scientists like [**John Tyndall**](LIECHTENSTEIN.md) and [**Svante Arrhenius**](ZERO_POINT_ENERGY.md) identified the greenhouse effect and its role in regulating Earth's temperature.
+   * Scientists like [**John Tyndall**](../../../literary_products/joes_notes/misc/liechtenstein.md) and [**Svante Arrhenius**](../../../literary_products/joes_notes/misc/zero_point_energy.md) identified the greenhouse effect and its role in regulating Earth's temperature.
 2. **1985**:
-   * Discovery of the [**ozone hole**](PAUL_BENNEWITZ.md) above Antarctica, linked to chlorofluorocarbons (CFCs), led to the adoption of the [**Montreal Protocol**](NASA.md) in 1987.
+   * Discovery of the [**ozone hole**](../../../literary_products/joes_notes/misc/paul_bennewitz.md) above Antarctica, linked to chlorofluorocarbons (CFCs), led to the adoption of the [**Montreal Protocol**](../../../literary_products/joes_notes/misc/nasa.md) in 1987.
 3. **1988**:
-   * Establishment of the [**Intergovernmental Panel on Climate Change (IPCC)**](LAS_VEGAS.md) to provide scientific assessments and guide policymaking.
+   * Establishment of the [**Intergovernmental Panel on Climate Change (IPCC)**](../../../literary_products/joes_notes/misc/las_vegas.md) to provide scientific assessments and guide policymaking.
 
 ### **Key Milestones in Global Action**
 
@@ -26,7 +26,7 @@ Humanity’s ability to manage climate change has evolved significantly over tim
 
 ### **Mitigation Strategies**
 
-1. [**Renewable Energy Transition**](ROMANIA.md):
+1. [**Renewable Energy Transition**](../../../literary_products/joes_notes/misc/romania.md):
    * Adoption of solar, wind, hydroelectric, and geothermal energy sources to replace fossil fuels.
 2. **Carbon Capture and Storage (CCS)**:
    * Technologies that capture CO2 emissions from industrial processes and store them underground.
