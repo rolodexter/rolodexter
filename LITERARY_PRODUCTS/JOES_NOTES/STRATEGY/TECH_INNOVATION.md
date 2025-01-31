@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Technological innovation** drives the continual transformation of global industries, governments, and societies by introducing novel solutions that address emerging challenges. In recent years, **blockchain**, **artificial intelligence (AI)**, **Internet of Things (IoT)**, and [**cryptography**](../CRYPTO/CRYPTOGRAPHY_BASICS.md) advancements have redefined the boundaries of what's possible—spanning from decentralized financial services to AI-driven healthcare optimizations. Understanding the forces behind tech innovation, and how they intersect with [**public agencies**](../MISC/PUBLIC_AGENCIES.md) and [**mainstream finance**](../../joes_notes/MAINSTREAM_FINANCE.md), is critical for anticipating future market opportunities, regulatory evolutions, and societal impacts.
+**Technological innovation** drives the continual transformation of global industries, governments, and societies by introducing novel solutions that address emerging challenges. In recent years, **blockchain**, **artificial intelligence (AI)**, **Internet of Things (IoT)**, and [**cryptography**](../CRYPTO/CRYPTOGRAPHY_BASICS.md) advancements have redefined the boundaries of what's possible—spanning from decentralized financial services to AI-driven healthcare optimizations. Understanding the forces behind tech innovation, and how they intersect with [**public agencies**](../MISC/PUBLIC_AGENCIES.md) and [**mainstream finance**](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md), is critical for anticipating future market opportunities, regulatory evolutions, and societal impacts.
 
 ***
 
@@ -41,7 +41,7 @@
    * AI-driven predictive modeling enhances everything from insurance underwriting to anti-money laundering (AML) compliance.
 4. **Decentralized Innovation Hubs**
    * Open-source communities and [**university initiatives**](../MISC/UNIVERSITY_INITIATIVES.md) foster grassroots R\&D, accelerating real-world pilot projects.
-   * Collaboration with [**fintech disruptors**](../../joes_notes/FINTECH_INNOVATORS.md) often leads to new business models and market niches.
+   * Collaboration with [**fintech disruptors**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md) often leads to new business models and market niches.
 
 ***
 
@@ -74,7 +74,7 @@
    * AI-driven decisions can embed bias; responsible data handling and oversight mitigate discriminatory outcomes.
    * Autonomous systems raise questions about accountability, liability, and moral agency.
 4. **Scalability and Interoperability**
-   * Integrating diverse technologies (e.g., AI with blockchain) demands robust frameworks for [**interoperability**](../../joes_notes/BLOCKCHAIN_INTEROPERABILITY.md) and cross-chain data exchange.
+   * Integrating diverse technologies (e.g., AI with blockchain) demands robust frameworks for [**interoperability**](../../../literary_products/joes_notes/BLOCKCHAIN_INTEROPERABILITY.md) and cross-chain data exchange.
    * Standardized protocols can lower entry barriers and fuel network effects.
 
 ***

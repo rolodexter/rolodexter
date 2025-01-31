@@ -14,7 +14,7 @@
 ## Key Principles of DeFi
 
 1. **Permissionless Access**
-   * Anyone with an internet connection can participate in DeFi, bypassing the usual barriers of [**mainstream finance**](../../joes_notes/MAINSTREAM_FINANCE.md).
+   * Anyone with an internet connection can participate in DeFi, bypassing the usual barriers of [**mainstream finance**](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md).
    * Expands financial inclusion to underbanked or unbanked communities.
 2. **Non-Custodial Control**
    * Users maintain control over their digital assets via personal wallets.
@@ -64,7 +64,7 @@ While much of DeFi development has occurred on **smart-contract-capable blockcha
    * Transparent on-chain reporting can enhance accountability for taxpayers.
 2. **Blockchain-Based Bonds**
    * Municipalities may issue **tokenized bonds**, distributing them to both large and retail investors in a globally accessible format.
-   * Could reduce issuance costs, expedite settlement, and foster [**economic resilience**](../../joes_notes/ECONOMIC_RESILIENCE.md) by diversifying funding sources.
+   * Could reduce issuance costs, expedite settlement, and foster [**economic resilience**](../../../literary_products/joes_notes/ECONOMIC_RESILIENCE.md) by diversifying funding sources.
 3. **Social Welfare and Grants**
    * **Smart contracts** can automate conditional fund releases (e.g., when certain metrics or criteria are met) for [**public services**](../MISC/PUBLIC_SERVICES.md).
    * Reduces middlemen, corruption, and distribution delays.

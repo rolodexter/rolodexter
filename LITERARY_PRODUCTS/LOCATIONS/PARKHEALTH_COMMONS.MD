@@ -1,6 +1,6 @@
 # ParkHealth Sonoma Campus
 
-[ParkHealth's](../JOES_NOTES/STRATEGY/ECONOMICS.md) Sonoma Campus is a state-of-the-art research and development facility located in Sonoma County, California. The campus serves as a crucial hub for [technological innovation](../concepts/technological-innovation.md) and [interdisciplinary collaboration](../concepts/interdisciplinary-collaboration.md) in the [rolodexter universe](broken-reference).
+[ParkHealth's](../JOES_NOTES/STRATEGY/ECONOMIC_THRESHOLD.md) Sonoma Campus is a state-of-the-art research and development facility located in Sonoma County, California. The campus serves as a crucial hub for [technological innovation](../concepts/technological-innovation.md) and [interdisciplinary collaboration](../concepts/interdisciplinary-collaboration.md) in the [rolodexter universe](broken-reference/).
 
 ## Facilities
 
@@ -40,7 +40,7 @@ The facility maintains cutting-edge security protocols while remaining accessibl
 
 ## Cultural Impact
 
-[ParkHealth Sonoma Campus](parkhealth-sonoma.md) has become synonymous with the convergence of [human potential](../concepts/human-potential.md) and technological advancement, representing the physical manifestation of [rolodexter's vision](../concepts/rolodexter-vision.md) for [human coordination](../systems/human-coordination.md) and [information growth](../concepts/information-growth.md).
+[ParkHealth Sonoma Campus](PARKHEALTH_COMMONS.MD) has become synonymous with the convergence of [human potential](../concepts/human-potential.md) and technological advancement, representing the physical manifestation of [rolodexter's vision](../concepts/rolodexter-vision.md) for [human coordination](../systems/human-coordination.md) and [information growth](../concepts/information-growth.md).
 
 ## Historical Note
 

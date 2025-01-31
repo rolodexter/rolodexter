@@ -70,5 +70,5 @@ Products function as **interfaces between human beings**, enabling the exchange 
 **Further Reading:**
 
 * [Market Networks](MARKET_NETWORKS.md)
-* [Network Effects](../../joes_notes/NETWORK_EFFECTS.md)
+* [Network Effects](../../../literary_products/joes_notes/NETWORK_EFFECTS.md)
 * [Product-Market Fit](PRODUCT_MARKET_FIT.md)

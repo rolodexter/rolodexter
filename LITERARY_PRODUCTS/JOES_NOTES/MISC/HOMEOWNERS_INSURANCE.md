@@ -11,7 +11,7 @@ California’s homeowners insurance market is in turmoil, with escalating wildfi
 ### 1. **Causes of the Crisis**
 
 * **Wildfire Risks:** Increasing frequency and intensity of wildfires due to [climate change](https://en.wikipedia.org/wiki/Climate_change) have driven up claims and losses.
-* **Urban Expansion:** Development in [Wildland-Urban Interface (WUI)](../../joes_notes/WILDLAND_URBAN_INTERFACE.md) zones has heightened exposure to wildfire risks.
+* **Urban Expansion:** Development in [Wildland-Urban Interface (WUI)](../../../literary_products/joes_notes/WILDLAND_URBAN_INTERFACE.md) zones has heightened exposure to wildfire risks.
 * **Insurer Withdrawals:**
   * Insurers are reducing their presence or imposing higher premiums in wildfire-prone areas.
   * California’s [Proposition 103](https://en.wikipedia.org/wiki/California_Proposition_103) restricts insurers from adjusting premiums dynamically, exacerbating market imbalances.

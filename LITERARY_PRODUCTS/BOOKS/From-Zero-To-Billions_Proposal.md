@@ -16,13 +16,13 @@ How do some products grow from obscure prototypes to become indispensable to bil
 
 In _From Zero to Billions of Human Beings_, Joe Maristela introduces a groundbreaking interdisciplinary approach to product development. The book synthesizes three powerful perspectives:
 
-1. **Physics-like process management:** Understanding bottlenecks, throughput, and constraints in [**product creation**](../JOES_NOTES/MISC/PHI4.md) as analogous to physical systems governed by laws like [**Little’s Law**](../joes_notes/LITTLES_LAW.md) and [**Kingman’s Formula**](../joes_notes/KINGMANS_FORMULA.md).
-2. **Mathematical modeling:** Using tools like [**Quality Function Deployment (QFD)**](../joes_notes/QUALITY_FUNCTION_DEPLOYMENT.md), graph theory, and predictive analytics to optimize [**product design**](../joes_notes/PRODUCT_DESIGN.md) and distribution.
-3. **Economics and market dynamics:** Viewing [**markets**](../joes_notes/MARKET_DYNAMICS.md) as dynamic graphs where products propagate through nodes (people) and edges (transactions), leveraging [**network effects**](../joes_notes/NETWORK_EFFECTS.md) to scale interfaces globally.
+1. **Physics-like process management:** Understanding bottlenecks, throughput, and constraints in [**product creation**](../JOES_NOTES/MISC/PROTOCOL_OPENNESS.md) as analogous to physical systems governed by laws like [**Little’s Law**](../../literary_products/joes_notes/LITTLES_LAW.md) and [**Kingman’s Formula**](../../literary_products/joes_notes/KINGMANS_FORMULA.md).
+2. **Mathematical modeling:** Using tools like [**Quality Function Deployment (QFD)**](../../literary_products/joes_notes/QUALITY_FUNCTION_DEPLOYMENT.md), graph theory, and predictive analytics to optimize [**product design**](../../literary_products/joes_notes/PRODUCT_DESIGN.md) and distribution.
+3. **Economics and market dynamics:** Viewing [**markets**](../../literary_products/joes_notes/MARKET_DYNAMICS.md) as dynamic graphs where products propagate through nodes (people) and edges (transactions), leveraging [**network effects**](../../literary_products/joes_notes/NETWORK_EFFECTS.md) to scale interfaces globally.
 
 The book also introduces the **commodification curve**, which illustrates how products evolve from differentiation to commodification as markets mature. This framework reveals strategies to escape stagnation through disruptive innovation, ecosystem building, and network-driven growth.
 
-Drawing on Maristela’s expertise in [**cryptoeconomics**](../JOES_NOTES/MISC/ALCOHOLISM.md), [**mathematical modeling**](../JOES_NOTES/AI/MATHEMATICAL_MODELS.md), and decentralized systems, the book demystifies the journey from a single user to billions—offering actionable insights for [**entrepreneurs**](../joes_notes/ENTREPRENEURSHIP.md), engineers, investors, and academics.
+Drawing on Maristela’s expertise in [**cryptoeconomics**](../JOES_NOTES/MISC/COMMUNITY_SERVICE.md), [**mathematical modeling**](../JOES_NOTES/AI/MATHEMATICAL_MODELS.md), and decentralized systems, the book demystifies the journey from a single user to billions—offering actionable insights for [**entrepreneurs**](../../literary_products/joes_notes/ENTREPRENEURSHIP.md), engineers, investors, and academics.
 
 ***
 
@@ -35,26 +35,26 @@ Drawing on Maristela’s expertise in [**cryptoeconomics**](../JOES_NOTES/MISC/A
 2. **Product Managers & Engineers**
    * Interested in structured frameworks for managing complex product lifecycles using [**physics-inspired principles**](../JOES_NOTES/PHYSICS/PHYSICS_INSPIRED_MANAGEMENT.md).
 3. **Business School Students & Academics**
-   * Exploring interdisciplinary approaches that combine [**economics**](../JOES_NOTES/STRATEGY/ECONOMIC_THEORY.md), [**operations research**](../joes_notes/OPERATIONS_RESEARCH.md), and [**graph theory**](../joes_notes/GRAPH_THEORY.md) with real-world examples.
+   * Exploring interdisciplinary approaches that combine [**economics**](../JOES_NOTES/STRATEGY/ECONOMIC_THEORY.md), [**operations research**](../../literary_products/joes_notes/OPERATIONS_RESEARCH.md), and [**graph theory**](../../literary_products/joes_notes/GRAPH_THEORY.md) with real-world examples.
 
 ### **Secondary Audiences**
 
-* [**Investors**](../joes_notes/INVESTORS.md) & VCs: Gain insights into evaluating early-stage products’ potential for exponential growth.
+* [**Investors**](../../literary_products/joes_notes/INVESTORS.md) & VCs: Gain insights into evaluating early-stage products’ potential for exponential growth.
 * **Non-technical Executives:** Learn the fundamentals of [**product development physics**](../JOES_NOTES/PHYSICS/PHYSICS_INSPIRED_MANAGEMENT.md) without heavy jargon.
 
 ### **Why This Book Fills a Gap**
 
-Most product-development books focus either on anecdotal advice or academic theory. _From Zero to Billions_ bridges this gap by showing how formal principles of [**physics-like laws**](../JOES_NOTES/PHYSICS/PHYSICS_INSPIRED_MANAGEMENT.md), [**mathematical modeling**](../JOES_NOTES/AI/MATHEMATICAL_MODELS.md), and [**economic frameworks**](../JOES_NOTES/STRATEGY/ECONOMIC_THEORY.md) can directly inform [**lean startup methodologies**](../joes_notes/LEAN_STARTUP.md), [**PMF**](../JOES_NOTES/MISC/PRODUCT_MARKET_FIT.md) strategies, and navigating the **commodification curve**.
+Most product-development books focus either on anecdotal advice or academic theory. _From Zero to Billions_ bridges this gap by showing how formal principles of [**physics-like laws**](../JOES_NOTES/PHYSICS/PHYSICS_INSPIRED_MANAGEMENT.md), [**mathematical modeling**](../JOES_NOTES/AI/MATHEMATICAL_MODELS.md), and [**economic frameworks**](../JOES_NOTES/STRATEGY/ECONOMIC_THEORY.md) can directly inform [**lean startup methodologies**](../../literary_products/joes_notes/LEAN_STARTUP.md), [**PMF**](../JOES_NOTES/MISC/PRODUCT_MARKET_FIT.md) strategies, and navigating the **commodification curve**.
 
 ***
 
 ## 3. Author Bio
 
-**Joe Maristela** is an entrepreneur, investor, and writer whose interdisciplinary work spans [**mathematics**](../joes_notes/MATHEMATICS.md), [**cryptoeconomics**](../JOES_NOTES/MISC/ALCOHOLISM.md), decentralized systems, and technology. His contributions include:
+**Joe Maristela** is an entrepreneur, investor, and writer whose interdisciplinary work spans [**mathematics**](../../literary_products/joes_notes/MATHEMATICS.md), [**cryptoeconomics**](../JOES_NOTES/MISC/COMMUNITY_SERVICE.md), decentralized systems, and technology. His contributions include:
 
-* [**Blockchain & Cryptoeconomics Publications**](../joes_notes/BLOCKCHAIN_AND_CRYPTOECONOMICS.md)**:** Articles for [CoinDesk](https://www.coindesk.com) exploring [**token incentives**](../joes_notes/TOKEN_INCENTIVES.md) and decentralized technologies in business models.
-* **Academic Research:** SSRN papers such as “[Mathematical Modeling in UFO Disclosure](../joes_notes/MATHEMATICAL_MODELING.md),” which demonstrate his expertise in applying rigorous frameworks to novel topics.
-* **Reality Fiction & Machine Age Projects:** Creator of the [**Reality Fiction Protocol**](../joes_notes/REALITY_FICTION_PROTOCOL.md) and the [**Machine Age paradigm**](../joes_notes/MACHINE_AGE.md), which explore humanity’s evolving relationship with technology through literature and philosophy.
+* [**Blockchain & Cryptoeconomics Publications**](../../literary_products/joes_notes/BLOCKCHAIN_AND_CRYPTOECONOMICS.md)**:** Articles for [CoinDesk](https://www.coindesk.com) exploring [**token incentives**](../../literary_products/joes_notes/TOKEN_INCENTIVES.md) and decentralized technologies in business models.
+* **Academic Research:** SSRN papers such as “[Mathematical Modeling in UFO Disclosure](../../literary_products/joes_notes/MATHEMATICAL_MODELING.md),” which demonstrate his expertise in applying rigorous frameworks to novel topics.
+* **Reality Fiction & Machine Age Projects:** Creator of the [**Reality Fiction Protocol**](../../literary_products/joes_notes/REALITY_FICTION_PROTOCOL.md) and the [**Machine Age paradigm**](../../literary_products/joes_notes/MACHINE_AGE.md), which explore humanity’s evolving relationship with technology through literature and philosophy.
 
 Maristela’s unique blend of theoretical rigor and entrepreneurial experience positions him as a thought leader in scaling products from zero to billions.
 

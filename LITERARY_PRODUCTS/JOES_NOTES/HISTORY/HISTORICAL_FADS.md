@@ -50,7 +50,7 @@ Originally deemed a niche experiment, [**Bitcoin**](../MISC/BITCOIN.md) has outl
    * [**Financial institutions**](../STRATEGY/FINANCIAL_INSTITUTIONS.md), major corporations, and even some [**governments**](../MISC/GOVERNMENT_ADOPTION.md) now accept or invest in Bitcoin, signaling mainstream acceptance.
 2. **Technological Utility**
    * Bitcoin’s [**blockchain**](../CRYPTO/CRYPTOCURRENCIES.md) provides immutable transaction records and global, permissionless asset transfer—benefits not tied solely to hype.
-   * Integrations with [**DeFi**](../../joes_notes/DEFI_BASICS.md) ecosystems and **Layer-2 solutions** (e.g., Lightning Network) further expand use cases.
+   * Integrations with [**DeFi**](../../../literary_products/joes_notes/DEFI_BASICS.md) ecosystems and **Layer-2 solutions** (e.g., Lightning Network) further expand use cases.
 3. **Network Effect and Security**
    * As more users and miners participate, Bitcoin’s network grows more secure and liquid, entrenching its position.
    * High levels of [**public trust**](../MISC/PUBLIC_TRUST.md) in decentralized protocols can counter short-term market volatility.
@@ -68,11 +68,11 @@ Originally deemed a niche experiment, [**Bitcoin**](../MISC/BITCOIN.md) has outl
    * Even genuinely transformative technologies can appear “fad-like” if media coverage focuses on sensational gains and losses.
    * Sustainable innovation requires steady development, cross-industry collaboration, and iterative improvements.
 3. **Adaptive Regulation**
-   * Historically, speculation in unregulated areas triggers consumer protection concerns—highlighting the need for [**blockchain regulations**](../../joes_notes/BLOCKCHAIN_REGULATIONS.md) that balance innovation and safety.
+   * Historically, speculation in unregulated areas triggers consumer protection concerns—highlighting the need for [**blockchain regulations**](../../../literary_products/joes_notes/BLOCKCHAIN_REGULATIONS.md) that balance innovation and safety.
    * Proper oversight can protect against dangerous bubbles while allowing promising technologies to flourish.
 4. **Ecosystem Growth and Maturity**
    * As new technologies mature, they often attract a broader ecosystem: developers, investors, policymakers, and end users.
-   * Bitcoin’s progression from obscure cryptography mailing lists to [**mainstream finance**](../../joes_notes/MAINSTREAM_FINANCE.md) exemplifies how continuous evolution can transform public perception.
+   * Bitcoin’s progression from obscure cryptography mailing lists to [**mainstream finance**](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md) exemplifies how continuous evolution can transform public perception.
 
 ***
 

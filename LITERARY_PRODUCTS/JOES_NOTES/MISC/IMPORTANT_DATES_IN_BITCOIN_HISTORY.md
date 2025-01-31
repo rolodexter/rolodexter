@@ -55,7 +55,7 @@
 
 * **Date:** February 2014
 * **Event:** The once-dominant **Mt. Gox** exchange files for bankruptcy after losing hundreds of thousands of BTC.
-* **Significance:** Highlighted the risks associated with centralized exchanges and contributed to increased calls for [transparency](../../joes_notes/BLOCKCHAIN_TRANSPARENCY.md) and better security practices.
+* **Significance:** Highlighted the risks associated with centralized exchanges and contributed to increased calls for [transparency](../../../literary_products/joes_notes/BLOCKCHAIN_TRANSPARENCY.md) and better security practices.
 * **Impact:** Sparked debates around industry standards, paving the way for more robust [financial institutions](../STRATEGY/FINANCIAL_INSTITUTIONS.md) to enter the crypto ecosystem.
 
 ***
@@ -74,7 +74,7 @@
 * **Date Range:** Second half of 2020 through 2021
 * **Event:** Major companies (e.g., [Tesla](https://en.wikipedia.org/wiki/Tesla,_Inc.), [MicroStrategy](https://en.wikipedia.org/wiki/MicroStrategy)) begin holding Bitcoin on their balance sheets; financial giants (e.g., [PayPal](https://en.wikipedia.org/wiki/PayPal)) allow cryptocurrency transactions.
 * **Significance:** Marked a shift from Bitcoin’s “fringe asset” image to one of mainstream acceptance and growing adoption.
-* **Policy Note:** Regulatory bodies start to create clearer [rules](../../joes_notes/BLOCKCHAIN_REGULATIONS.md) for institutions engaging with cryptocurrency.
+* **Policy Note:** Regulatory bodies start to create clearer [rules](../../../literary_products/joes_notes/BLOCKCHAIN_REGULATIONS.md) for institutions engaging with cryptocurrency.
 
 ***
 
@@ -96,13 +96,13 @@
   * A second-layer protocol built atop Bitcoin to enable faster, cheaper microtransactions.
   * Critical for public-sector adoption where transactional throughput is paramount.
 * **Mining Migration Post-2021**
-  * Shifts in mining operations after policy changes in [China](https://en.wikipedia.org/wiki/Cryptocurrency_in_China) show the influence of geopolitics on Bitcoin’s network structure and [hash rate](../../joes_notes/BLOCKCHAIN_SECURITY.md#network-hash-rate).
+  * Shifts in mining operations after policy changes in [China](https://en.wikipedia.org/wiki/Cryptocurrency_in_China) show the influence of geopolitics on Bitcoin’s network structure and [hash rate](../../../literary_products/joes_notes/BLOCKCHAIN_SECURITY.md#network-hash-rate).
 
 ***
 
 ## Importance for Public Institutions
 
-These dates illustrate how rapidly and dramatically Bitcoin can evolve—something [public institutions](../../joes_notes/PUBLIC_INSTITUTIONS.md) cannot afford to overlook. Whether it’s the systemic shock of an exchange collapse or the massive endorsement by prominent corporations, each milestone reshapes the dialogue around [Bitcoin adoption](../../joes_notes/BITCOIN_ADOPTION.md).
+These dates illustrate how rapidly and dramatically Bitcoin can evolve—something [public institutions](../../../literary_products/joes_notes/PUBLIC_INSTITUTIONS.md) cannot afford to overlook. Whether it’s the systemic shock of an exchange collapse or the massive endorsement by prominent corporations, each milestone reshapes the dialogue around [Bitcoin adoption](../../../literary_products/joes_notes/BITCOIN_ADOPTION.md).
 
 ***
 

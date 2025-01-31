@@ -32,7 +32,7 @@
 
 1. **Legislative & Regulatory Initiatives**
    * Passing laws that recognize **digital assets** or define compliance requirements for blockchain deployments.
-   * Introducing [**blockchain regulations**](../../joes_notes/BLOCKCHAIN_REGULATIONS.md) and licensing frameworks to legitimize industry operations.
+   * Introducing [**blockchain regulations**](../../../literary_products/joes_notes/BLOCKCHAIN_REGULATIONS.md) and licensing frameworks to legitimize industry operations.
 2. **Interagency Collaborations**
    * Joint task forces bringing together **IT departments**, **legal teams**, and **economic development** bodies.
    * Shared data infrastructures across different [**SLED (State, Local, Education, District)**](SLED_VERTICES.md) agencies for more coherent policy execution.
@@ -40,7 +40,7 @@
    * **Tokenizing** public assets (e.g., municipal bonds, real estate) on a test basis.
    * Implementing blockchain for **land registries**, **voting systems**, or **credential verification** at a local or departmental scale.
 4. **Public-Private Partnerships (PPP)**
-   * Collaborations with [**fintech innovators**](../../joes_notes/FINTECH_INNOVATORS.md), [**financial institutions**](../STRATEGY/FINANCIAL_INSTITUTIONS.md), and [**university initiatives**](UNIVERSITY_INITIATIVES.md) expedite knowledge transfer and risk-sharing.
+   * Collaborations with [**fintech innovators**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md), [**financial institutions**](../STRATEGY/FINANCIAL_INSTITUTIONS.md), and [**university initiatives**](UNIVERSITY_INITIATIVES.md) expedite knowledge transfer and risk-sharing.
    * Attracting private investment to fund modernization projects, fostering a sustainable innovation ecosystem.
 
 ***
@@ -125,7 +125,7 @@
    * Involve **citizens**, **industry partners**, **academia**, and **community leaders** to address diverse viewpoints and technical needs.
    * Transparent feedback loops can highlight early pitfalls and build trust.
 4. **Robust Security and Governance**
-   * Implement rigorous [**cybersecurity**](../../joes_notes/BLOCKCHAIN_SECURITY.md) protocols, audits, and resilience testing.
+   * Implement rigorous [**cybersecurity**](../../../literary_products/joes_notes/BLOCKCHAIN_SECURITY.md) protocols, audits, and resilience testing.
    * Clear escalation paths and accountability structures mitigate risks in pilot and production phases.
 
 ***

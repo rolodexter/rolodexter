@@ -71,7 +71,7 @@ A **sense of urgency** is a driving force that compels individuals, organization
    * Launching low-risk experiments rapidly demonstrates proof-of-concept and tangible benefits.
    * Concrete success stories (e.g., a blockchain-based procurement system) energize broader organizational buy-in.
 3. **Stakeholder Engagement**
-   * Collaborative workshops with [**fintech innovators**](../../joes_notes/FINTECH_INNOVATORS.md), **community groups**, and [**university initiatives**](UNIVERSITY_INITIATIVES.md) raise awareness and generate momentum.
+   * Collaborative workshops with [**fintech innovators**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md), **community groups**, and [**university initiatives**](UNIVERSITY_INITIATIVES.md) raise awareness and generate momentum.
    * Citizen feedback loops can highlight critical needs and spur prompt policy adjustments.
 4. **Legislative Support**
    * Swift policy decisions, such as streamlined licensing or targeted tax incentives, reduce friction for new ventures.

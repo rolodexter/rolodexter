@@ -1,10 +1,10 @@
 # PRICE\_PER\_COMPUTE
 
-This file presents a novel mathematical framework for determining the [price per compute](PRICE_PER_COMPUTE.md) using a conglomerate of computational resources that combines AI and compute utilization data analysis. We demonstrate how this pricing model directly influences the viability of Artificial General Intelligence (AGI) development. Our model integrates [tokenization](../MISC/WASHINGTON_UFO_INCIDENT.md) of compute resources, [dynamic pricing](../../joes_notes/DYNAMIC_PRICING.md) mechanisms, and [AGI threshold](AGI_SURVIVAL.md) analysis to establish a comprehensive framework for compute resource valuation and its impact on AGI development.
+This file presents a novel mathematical framework for determining the [price per compute](PRICE_PER_COMPUTE.md) using a conglomerate of computational resources that combines AI and compute utilization data analysis. We demonstrate how this pricing model directly influences the viability of Artificial General Intelligence (AGI) development. Our model integrates [tokenization](../PHYSICS/QUANTUM_FIELD_EXTRACTION.md) of compute resources, [dynamic pricing](../../../literary_products/joes_notes/DYNAMIC_PRICING.md) mechanisms, and [AGI threshold](AGI_SURVIVAL.md) analysis to establish a comprehensive framework for compute resource valuation and its impact on AGI development.
 
 ### 1. Introduction
 
-The [democratization of compute resources](../MISC/CONSTRUCTIVIST_THEORIES.md) is crucial for accelerating AGI development. This paper introduces a mathematical model that leverages AI-driven analysis of compute utilization data to determine optimal pricing strategies, which in turn influence AGI viability.
+The [democratization of compute resources](../MISC/COST_PER_FLOP.md) is crucial for accelerating AGI development. This paper introduces a mathematical model that leverages AI-driven analysis of compute utilization data to determine optimal pricing strategies, which in turn influence AGI viability.
 
 ### 2. Tokenization of Compute Resources
 
@@ -42,7 +42,7 @@ Where:
 * $$H(t)$$ is historical utilization data
 * $$M(t)$$ is current market conditions
 * $$S(t)$$ is system performance metrics
-* $$f_{AI}$$ is an AI function trained on the [Exabits Protocol](../../joes_notes/EXABITS_PROTOCOL.md) data
+* $$f_{AI}$$ is an AI function trained on the [Exabits Protocol](../../../literary_products/joes_notes/EXABITS_PROTOCOL.md) data
 
 ### 5. AGI Viability Threshold
 

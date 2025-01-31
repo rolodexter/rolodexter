@@ -12,7 +12,7 @@ Careers that are **easily transferable and quantifiable**, similar to [liquid as
 
 ### Examples
 
-* Roles at firms like [McKinsey](../../joes_notes/MCKINSEY.md), [BCG](BCG.md), or [Goldman Sachs](GOLDMAN_SACHS.md).
+* Roles at firms like [McKinsey](../../../literary_products/joes_notes/MCKINSEY.md), [BCG](BCG.md), or [Goldman Sachs](GOLDMAN_SACHS.md).
 * Jobs in well-defined industries like [software engineering](SOFTWARE_ENGINEERING.md) or [law](LAW.md).
 
 ### Advantages
@@ -126,6 +126,6 @@ This concept of liquid vs. illiquid careers was explored in-depth in [this YouTu
 
 ### Article on Optimal Outliers
 
-The article "[Liquid vs. Illiquid Careers](https://www.optimaloutliers.com/p/liquid-vs-illiquid-careers)" by [Vnav Sunil](../../joes_notes/VNAV_SUNIL.md) delves deeper into this framework, offering additional perspectives on how **career liquidity** impacts professional trajectories. The author highlights how the "market value" of skills is assessed in both structured and unstructured career paths and emphasizes the role of **skill specificity, testability, and institutional branding** in determining career liquidity.
+The article "[Liquid vs. Illiquid Careers](https://www.optimaloutliers.com/p/liquid-vs-illiquid-careers)" by [Vnav Sunil](../../../literary_products/joes_notes/VNAV_SUNIL.md) delves deeper into this framework, offering additional perspectives on how **career liquidity** impacts professional trajectories. The author highlights how the "market value" of skills is assessed in both structured and unstructured career paths and emphasizes the role of **skill specificity, testability, and institutional branding** in determining career liquidity.
 
 This article is a great resource for understanding why some careers provide greater stability and transferability, while others, though riskier, may offer higher rewards for those willing to navigate ambiguity and unconventional paths.

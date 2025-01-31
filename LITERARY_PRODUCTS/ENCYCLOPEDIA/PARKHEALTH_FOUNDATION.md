@@ -3,15 +3,16 @@
 The ParkHealth Foundation was a pioneering research organization that played a crucial role in the development of artificial general intelligence (AGI) and its application to global health challenges during the early to mid-21st century. Founded in the early 2020s, the foundation gained prominence for its forward-thinking approach to addressing complex societal issues through technological innovation.
 
 ## Contents
-1. [Overview](#overview)
-2. [Key Figures](#key-figures)
-3. [Major Initiatives](#major-initiatives)
-4. [The Machine Age Conundrum](#the-machine-age-conundrum)
-5. [Pandemic Response and AGI Development](#pandemic-response-and-agi-development)
-6. [Legacy and Impact](#legacy-and-impact)
-7. [Controversies](#controversies)
-8. [See Also](#see-also)
-9. [References](#references)
+
+1. [Overview](PARKHEALTH_FOUNDATION.md#overview)
+2. [Key Figures](PARKHEALTH_FOUNDATION.md#key-figures)
+3. [Major Initiatives](PARKHEALTH_FOUNDATION.md#major-initiatives)
+4. [The Machine Age Conundrum](PARKHEALTH_FOUNDATION.md#the-machine-age-conundrum)
+5. [Pandemic Response and AGI Development](PARKHEALTH_FOUNDATION.md#pandemic-response-and-agi-development)
+6. [Legacy and Impact](PARKHEALTH_FOUNDATION.md#legacy-and-impact)
+7. [Controversies](PARKHEALTH_FOUNDATION.md#controversies)
+8. [See Also](PARKHEALTH_FOUNDATION.md#see-also)
+9. [References](PARKHEALTH_FOUNDATION.md#references)
 
 ## Overview
 
@@ -19,8 +20,8 @@ The ParkHealth Foundation was established with the mission of leveraging cutting
 
 ## Key Figures
 
-- **Joe**: A visionary researcher and one of the foundation's co-founders, Joe was instrumental in recognizing the potential of AGI for addressing complex global issues.
-- **Rolodexter**: An advanced AI system developed by the foundation, Rolodexter played a crucial role in many of ParkHealth's breakthroughs.
+* **Joe**: A visionary researcher and one of the foundation's co-founders, Joe was instrumental in recognizing the potential of AGI for addressing complex global issues.
+* **Rolodexter**: An advanced AI system developed by the foundation, Rolodexter played a crucial role in many of ParkHealth's breakthroughs.
 
 ## Major Initiatives
 
@@ -46,10 +47,10 @@ Despite its achievements, the foundation faced criticism for its close ties with
 
 ## See Also
 
-- [Artificial General Intelligence](/literary_products/encyclopedia/AGI.md)
-- [Evolutionary Leap](/literary_products/encyclopedia/EVOLUTIONARY_LEAP.md)
-- [Pandemic Response Technologies](/literary_products/encyclopedia/PANDEMIC_RESPONSE_TECHNOLOGIES.md)
-- [Machine Age](/literary_products/encyclopedia/MACHINE_AGE.md)
+* [Artificial General Intelligence](AGI.md)
+* [Evolutionary Leap](EVOLUTIONARY_LEAP.md)
+* [Pandemic Response Technologies](../../literary_products/encyclopedia/PANDEMIC_RESPONSE_TECHNOLOGIES.md)
+* [Machine Age](MACHINE_AGE.md)
 
 ## References
 

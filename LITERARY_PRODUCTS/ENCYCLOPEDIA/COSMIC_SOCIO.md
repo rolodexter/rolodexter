@@ -45,7 +45,7 @@ Cosmic Sociology examines interstellar relations through a framework emphasizing
 
 #### 2. Origins
 
-The roots of Cosmic Sociology lie in the study of interstellar communication, [game theory](GENDER_NEUTRAL_LANGUAGE.md), and evolutionary biology. It emerged during humanity's realization of the existential risks posed by broadcasting signals to the cosmos, leading to a cautious reevaluation of exploration strategies.
+The roots of Cosmic Sociology lie in the study of interstellar communication, [game theory](HOMO_SAPIENS.md), and evolutionary biology. It emerged during humanity's realization of the existential risks posed by broadcasting signals to the cosmos, leading to a cautious reevaluation of exploration strategies.
 
 ***
 
@@ -110,7 +110,7 @@ The roots of Cosmic Sociology lie in the study of interstellar communication, [g
 
 **7.1 Game Theory**
 
-* Strategies from game theory, such as the [Prisoner’s Dilemma](PROTOCOLS.md), are reflected in interstellar decision-making.
+* Strategies from game theory, such as the [Prisoner’s Dilemma](REDDIT.md), are reflected in interstellar decision-making.
 
 **7.2 Cold War Deterrence**
 
@@ -146,16 +146,16 @@ Cosmic Sociology has influenced policies on space exploration and interstellar c
 
 #### 10. References
 
-* [Interstellar Sociology: Theoretical Models and Implications](JOE_MARISTELA.md)
-* [Game Theory in Cosmic Strategy](GEORGE_SOLI.md)
-* [Ecological and Evolutionary Parallels in Cosmic Behavior](ECOLOGICAL_PARALLELS.md)
+* [Interstellar Sociology: Theoretical Models and Implications](LIQUID_MARKETS.md)
+* [Game Theory in Cosmic Strategy](HUGGING_FACE.md)
+* [Ecological and Evolutionary Parallels in Cosmic Behavior](../../literary_products/encyclopedia/ECOLOGICAL_PARALLELS.md)
 
 ***
 
 #### 11. See Also
 
-* [Fermi Paradox](GAME_THEORY_STRATEGY.md)
-* [Drake Equation](DYNAMIC_WORKLOAD_ROUTING.md)
+* [Fermi Paradox](HEALTHCARE_TECHNOLOGY.md)
+* [Drake Equation](EXISTENTIAL_QUESTIONS.md)
 * [Astrobiology](https://en.wikipedia.org/wiki/Astrobiology)
 * [Exoplanet Exploration](https://exoplanets.nasa.gov/)
-* [Nash Equilibrium](NLP.md)
+* [Nash Equilibrium](PRICE_PER_COMPUTE.md)

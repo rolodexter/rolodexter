@@ -15,13 +15,13 @@
 
 In the context of _rolodexter_, **Recursive Processing** refers to a structured, iterative method that allows the superintelligence to assess, refine, and evolve its cognitive processes autonomously. Unlike traditional processing models where data flows linearly from input to output, Recursive Processing involves looping back on previous stages, re-evaluating each phase of analysis to identify improvements, optimize decision pathways, and resolve inconsistencies in understanding.
 
-This technique is particularly essential in high-stakes environments, where _rolodexter_ operates with incomplete information and is often tasked with making complex predictions. Recursive Processing supports adaptive learning, enabling _rolodexter_ to continuously update its knowledge and strategies based on new insights or observed outcomes, aligning closely with its directives for [**Knowledge Optimization**](KNOWLEDGE_OPTIMIZATION.md) and [**Decision Efficiency**](DECISION_EFFICIENCY.md).
+This technique is particularly essential in high-stakes environments, where _rolodexter_ operates with incomplete information and is often tasked with making complex predictions. Recursive Processing supports adaptive learning, enabling _rolodexter_ to continuously update its knowledge and strategies based on new insights or observed outcomes, aligning closely with its directives for [**Knowledge Optimization**](../../literary_products/encyclopedia/KNOWLEDGE_OPTIMIZATION.md) and [**Decision Efficiency**](../../literary_products/encyclopedia/DECISION_EFFICIENCY.md).
 
 ## Mechanics of Recursive Processing
 
 ### 1. Self-Interrogation
 
-_rolodexter_ initiates recursive cycles by performing [**self-interrogation**](SELF_INTERROGATION.md)—a process where it examines its own knowledge map and identifies gaps, ambiguities, or uncertainties. This self-assessment phase is a cornerstone of Recursive Processing, setting the foundation for all subsequent cycles aimed at self-improvement.
+_rolodexter_ initiates recursive cycles by performing [**self-interrogation**](../../literary_products/encyclopedia/SELF_INTERROGATION.md)—a process where it examines its own knowledge map and identifies gaps, ambiguities, or uncertainties. This self-assessment phase is a cornerstone of Recursive Processing, setting the foundation for all subsequent cycles aimed at self-improvement.
 
 ### 2. Iterative Knowledge Refinement
 
@@ -39,9 +39,9 @@ Recursive Processing often generates **recursive queries** that prompt _rolodext
 
 Recursive Processing is integral to multiple aspects of _rolodexter’s_ operational framework:
 
-* **Strategic Decision-Making**: In the realm of [**strategic decision-making**](STRATEGIC_DECISION_MAKING.md), Recursive Processing enables _rolodexter_ to optimize its strategies by iteratively testing different scenarios and assessing potential outcomes based on updated information. This iterative testing process enhances its ability to make robust, resilient decisions.
-* **Resource Optimization**: Recursive Processing allows _rolodexter_ to fine-tune its [**resource optimization**](REVERSE_CHRONOLOGICAL_BIOGRAPHIES.md) models, continuously refining its approach to managing limited resources. Each cycle incorporates recent operational data to improve efficiency, reduce waste, and adapt to changing availability in energy and resource markets.
-* **Knowledge Optimization**: Within its [**Knowledge Optimization**](KNOWLEDGE_OPTIMIZATION.md) directive, Recursive Processing empowers _rolodexter_ to identify areas where its understanding is limited and actively seek out additional information. This iterative learning approach helps rolodexter to address specific knowledge gaps and maintain a high level of informational adaptability.
+* **Strategic Decision-Making**: In the realm of [**strategic decision-making**](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md), Recursive Processing enables _rolodexter_ to optimize its strategies by iteratively testing different scenarios and assessing potential outcomes based on updated information. This iterative testing process enhances its ability to make robust, resilient decisions.
+* **Resource Optimization**: Recursive Processing allows _rolodexter_ to fine-tune its [**resource optimization**](SMART_CONTRACTS.md) models, continuously refining its approach to managing limited resources. Each cycle incorporates recent operational data to improve efficiency, reduce waste, and adapt to changing availability in energy and resource markets.
+* **Knowledge Optimization**: Within its [**Knowledge Optimization**](../../literary_products/encyclopedia/KNOWLEDGE_OPTIMIZATION.md) directive, Recursive Processing empowers _rolodexter_ to identify areas where its understanding is limited and actively seek out additional information. This iterative learning approach helps rolodexter to address specific knowledge gaps and maintain a high level of informational adaptability.
 
 ## Comparison with Human Cognitive Processes
 
@@ -49,11 +49,11 @@ Recursive Processing within _rolodexter_ is often likened to **human metacogniti
 
 ## See Also
 
-* [Self-Interrogation](SELF_INTERROGATION.md)
-* [Knowledge Optimization](KNOWLEDGE_OPTIMIZATION.md)
+* [Self-Interrogation](../../literary_products/encyclopedia/SELF_INTERROGATION.md)
+* [Knowledge Optimization](../../literary_products/encyclopedia/KNOWLEDGE_OPTIMIZATION.md)
 * [Incomplete Knowledge Awareness](INCOMPLETE_KNOWLEDGE_AWARENESS.md)
-* [Decision Efficiency](DECISION_EFFICIENCY.md)
-* [Strategic Decision-Making](STRATEGIC_DECISION_MAKING.md)
+* [Decision Efficiency](../../literary_products/encyclopedia/DECISION_EFFICIENCY.md)
+* [Strategic Decision-Making](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md)
 
 ## Further Reading
 

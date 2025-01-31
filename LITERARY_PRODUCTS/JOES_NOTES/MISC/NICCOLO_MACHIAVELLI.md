@@ -2,23 +2,23 @@
 
 ## Overview
 
-[Niccolò Machiavelli](NICCOLO_MACHIAVELLI.md) was a Florentine political philosopher, statesman, and writer whose works fundamentally shaped modern political theory and [military strategy](../../joes_notes/MILITARY_STRATEGY.md). His insights on the inevitability of conflict and the nature of power continue to influence contemporary understanding of [international relations](../../joes_notes/INTERNATIONAL_RELATIONS.md) and [political realism](POLITICAL_REALISM.md).
+[Niccolò Machiavelli](NICCOLO_MACHIAVELLI.md) was a Florentine political philosopher, statesman, and writer whose works fundamentally shaped modern political theory and [military strategy](../../../literary_products/joes_notes/MILITARY_STRATEGY.md). His insights on the inevitability of conflict and the nature of power continue to influence contemporary understanding of [international relations](../../../literary_products/joes_notes/INTERNATIONAL_RELATIONS.md) and [political realism](POLITICAL_REALISM.md).
 
 ## Historical Context
 
 ### Florence and the Renaissance
 
-* Served as Second Chancellor of the [Florentine Republic](../../joes_notes/FLORENTINE_REPUBLIC.md) (1498-1512)
-* Witnessed the rise and fall of [Savonarola](../../joes_notes/SAVONAROLA.md)
-* Experienced the power dynamics of [Renaissance Italy](../../joes_notes/RENAISSANCE_ITALY.md)
+* Served as Second Chancellor of the [Florentine Republic](../../../literary_products/joes_notes/FLORENTINE_REPUBLIC.md) (1498-1512)
+* Witnessed the rise and fall of [Savonarola](../../../literary_products/joes_notes/SAVONAROLA.md)
+* Experienced the power dynamics of [Renaissance Italy](../../../literary_products/joes_notes/RENAISSANCE_ITALY.md)
 * Observed the conflicts between Italian city-states and foreign powers
 
 ### Political Career
 
 1. **Diplomatic Missions**
-   * Negotiations with [France](../../joes_notes/KINGDOM_OF_FRANCE.md)
-   * Meetings with [Holy Roman Empire](../../joes_notes/HOLY_ROMAN_EMPIRE.md)
-   * Observations of [Cesare Borgia](../../joes_notes/CESARE_BORGIA.md)
+   * Negotiations with [France](../../../literary_products/joes_notes/KINGDOM_OF_FRANCE.md)
+   * Meetings with [Holy Roman Empire](../../../literary_products/joes_notes/HOLY_ROMAN_EMPIRE.md)
+   * Observations of [Cesare Borgia](../../../literary_products/joes_notes/CESARE_BORGIA.md)
 2. **Military Reforms**
    * Creation of Florentine militia
    * Rejection of mercenary forces
@@ -28,10 +28,10 @@
 
 ### The Prince (1513)
 
-1. [**Realpolitik**](../../joes_notes/REALPOLITIK.md)
+1. [**Realpolitik**](../../../literary_products/joes_notes/REALPOLITIK.md)
    * Separation of politics from morality
    * Necessity of force in governance
-   * Concept of [virtù](../../joes_notes/VIRTU.md) and [fortuna](../../joes_notes/FORTUNA.md)
+   * Concept of [virtù](../../../literary_products/joes_notes/VIRTU.md) and [fortuna](../../../literary_products/joes_notes/FORTUNA.md)
 2. **On War**
    * War as a constant state
    * Preparation during peace
@@ -46,7 +46,7 @@
    * Constitutional balance
    * Popular sovereignty
 2. **Historical Analysis**
-   * [Roman military organization](../../joes_notes/ROMAN_MILITARY.md)
+   * [Roman military organization](../../../literary_products/joes_notes/ROMAN_MILITARY.md)
    * Successful military strategies
    * Role of citizen armies
 
@@ -95,7 +95,7 @@
 
 ### Political Theory
 
-1. [**Modern Realism**](../../joes_notes/MODERN_REALISM.md)
+1. [**Modern Realism**](../../../literary_products/joes_notes/MODERN_REALISM.md)
    * Power politics
    * State interests
    * International anarchy
@@ -124,7 +124,7 @@
 ### Enduring Influence
 
 1. **Political Science**
-   * [Realist school](../../joes_notes/REALIST_SCHOOL.md)
+   * [Realist school](../../../literary_products/joes_notes/REALIST_SCHOOL.md)
    * Strategic studies
    * Security studies
    * International relations
@@ -150,9 +150,9 @@
 ## See Also
 
 * [Political Realism](POLITICAL_REALISM.md)
-* [Military Strategy](../../joes_notes/MILITARY_STRATEGY.md)
-* [Renaissance Political Thought](../../joes_notes/RENAISSANCE_POLITICAL_THOUGHT.md)
-* [War Theory](../../joes_notes/WAR_THEORY.md)
+* [Military Strategy](../../../literary_products/joes_notes/MILITARY_STRATEGY.md)
+* [Renaissance Political Thought](../../../literary_products/joes_notes/RENAISSANCE_POLITICAL_THOUGHT.md)
+* [War Theory](../../../literary_products/joes_notes/WAR_THEORY.md)
 
 ## References
 

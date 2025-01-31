@@ -7,7 +7,7 @@
 
 ## Overview
 
-**University initiatives** encompass a broad spectrum of **research**, **education**, and **community outreach** programs undertaken by higher education institutions. In the context of [**blockchain**](BITCOIN_BASICS.md), [**DeFi**](../../joes_notes/DEFI_BASICS.md), and emerging [**financial systems**](../STRATEGY/FINANCIAL_SYSTEMS.md), universities play a pivotal role in nurturing talent, fostering innovation, and validating use cases through **applied research**. From incubating the next generation of startups to embedding [**cryptography**](../CRYPTO/CRYPTOGRAPHY_BASICS.md) into the standard curriculum, academic institutions are uniquely positioned to accelerate [**public-sector engagement**](PUBLIC_SECTOR_ENGAGEMENT.md) with cutting-edge technologies.
+**University initiatives** encompass a broad spectrum of **research**, **education**, and **community outreach** programs undertaken by higher education institutions. In the context of [**blockchain**](BITCOIN_BASICS.md), [**DeFi**](../../../literary_products/joes_notes/DEFI_BASICS.md), and emerging [**financial systems**](../STRATEGY/FINANCIAL_SYSTEMS.md), universities play a pivotal role in nurturing talent, fostering innovation, and validating use cases through **applied research**. From incubating the next generation of startups to embedding [**cryptography**](../CRYPTO/CRYPTOGRAPHY_BASICS.md) into the standard curriculum, academic institutions are uniquely positioned to accelerate [**public-sector engagement**](PUBLIC_SECTOR_ENGAGEMENT.md) with cutting-edge technologies.
 
 ***
 
@@ -49,10 +49,10 @@
 
 1. **Cross-Industry Research Labs**
    * Institutions like MIT, Stanford, and others have established dedicated blockchain labs, uniting faculty from diverse departments.
-   * These labs frequently produce high-impact whitepapers and pilot projects that influence [**mainstream finance**](../../joes_notes/MAINSTREAM_FINANCE.md) trends.
+   * These labs frequently produce high-impact whitepapers and pilot projects that influence [**mainstream finance**](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md) trends.
 2. **Public-Private Partnerships**
    * Joint ventures between a university, a local government, and a tech provider can demonstrate the feasibility of, for example, **blockchain-based municipal bonds** or **tokenized public assets**.
-   * Such partnerships highlight **real-world** metrics like cost savings, reduced corruption, and improved [**economic resilience**](../../joes_notes/ECONOMIC_RESILIENCE.md).
+   * Such partnerships highlight **real-world** metrics like cost savings, reduced corruption, and improved [**economic resilience**](../../../literary_products/joes_notes/ECONOMIC_RESILIENCE.md).
 3. **Open-Source Contributions**
    * University-led open-source repositories and frameworks (e.g., consensus protocols, cryptographic libraries) often become standard references in the blockchain community.
    * Student researchers contribute to core codebases for projects like Ethereum, Hyperledger, and other major ecosystems.

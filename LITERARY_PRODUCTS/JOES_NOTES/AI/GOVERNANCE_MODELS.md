@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Governance models** define the frameworks, rules, and decision-making processes used by [**public agencies**](../MISC/PUBLIC_AGENCIES.md), private corporations, and **decentralized communities** to regulate operations, allocate resources, and shape organizational objectives. In the context of [**blockchain**](../MISC/BITCOIN_BASICS.md) and [**decentralized finance (DeFi)**](../../joes_notes/DEFI_BASICS.md), governance models can range from traditional hierarchical structures to fully **liquid democracy** or **DAO-based** frameworks. Understanding and selecting the right governance model is crucial for [**public-sector engagement**](../MISC/PUBLIC_SECTOR_ENGAGEMENT.md) with emerging technologies, particularly when navigating [**administrative processes**](../MISC/ADMINISTRATIVE_PROCESSES.md) and [**regulatory frameworks**](../MISC/REGULATORY_FRAMEWORKS.md).
+**Governance models** define the frameworks, rules, and decision-making processes used by [**public agencies**](../MISC/PUBLIC_AGENCIES.md), private corporations, and **decentralized communities** to regulate operations, allocate resources, and shape organizational objectives. In the context of [**blockchain**](../MISC/BITCOIN_BASICS.md) and [**decentralized finance (DeFi)**](../../../literary_products/joes_notes/DEFI_BASICS.md), governance models can range from traditional hierarchical structures to fully **liquid democracy** or **DAO-based** frameworks. Understanding and selecting the right governance model is crucial for [**public-sector engagement**](../MISC/PUBLIC_SECTOR_ENGAGEMENT.md) with emerging technologies, particularly when navigating [**administrative processes**](../MISC/ADMINISTRATIVE_PROCESSES.md) and [**regulatory frameworks**](../MISC/REGULATORY_FRAMEWORKS.md).
 
 ***
 
@@ -65,7 +65,7 @@
    * Identify all relevant stakeholders (e.g., citizens, government officials, private contractors, NGOs) and tailor governance solutions to their needs.
    * Encourage broad participation by developing user-friendly voting interfaces, clear documentation, and transparent feedback loops.
 2. **Pilot Projects and Sandboxes**
-   * Launch limited-scale pilots to refine smart contract rules, measure participation rates, and gauge compliance with [**legal constraints**](../../joes_notes/BLOCKCHAIN_REGULATIONS.md).
+   * Launch limited-scale pilots to refine smart contract rules, measure participation rates, and gauge compliance with [**legal constraints**](../../../literary_products/joes_notes/BLOCKCHAIN_REGULATIONS.md).
    * Sandboxes offer controlled environments for experimentation with minimal risk to wider operations.
 3. **Ethical Considerations**
    * Respect **privacy and data protection** while ensuring accountability.
@@ -120,7 +120,7 @@
 
 ## See Also
 
-* [DEFI\_BASICS](../../joes_notes/DEFI_BASICS.md)
+* [DEFI\_BASICS](../../../literary_products/joes_notes/DEFI_BASICS.md)
 * [GOVERNMENT\_ADOPTION](../MISC/GOVERNMENT_ADOPTION.md)
 * [REGULATORY\_FRAMEWORKS](../MISC/REGULATORY_FRAMEWORKS.md)
 * [PUBLIC\_SECTOR\_ENGAGEMENT](../MISC/PUBLIC_SECTOR_ENGAGEMENT.md)

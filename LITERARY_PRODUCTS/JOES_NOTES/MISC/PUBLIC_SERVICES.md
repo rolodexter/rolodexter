@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Public services** refer to the spectrum of governmental functions, utilities, and assistance programs designed to meet the needs and welfare of a community. These services span **healthcare**, **education**, **infrastructure**, **welfare**, and more. As blockchain and [**decentralized finance (DeFi)**](../../joes_notes/DEFI_BASICS.md) technologies mature, public-sector bodies—from municipal offices to state agencies—are exploring how **distributed ledgers**, **smart contracts**, and **tokenized** frameworks can optimize **public service delivery**. By enhancing **transparency** and reducing administrative friction, blockchain-integrated public services may lead to **cost savings**, **greater accountability**, and **improved access** for citizens.
+**Public services** refer to the spectrum of governmental functions, utilities, and assistance programs designed to meet the needs and welfare of a community. These services span **healthcare**, **education**, **infrastructure**, **welfare**, and more. As blockchain and [**decentralized finance (DeFi)**](../../../literary_products/joes_notes/DEFI_BASICS.md) technologies mature, public-sector bodies—from municipal offices to state agencies—are exploring how **distributed ledgers**, **smart contracts**, and **tokenized** frameworks can optimize **public service delivery**. By enhancing **transparency** and reducing administrative friction, blockchain-integrated public services may lead to **cost savings**, **greater accountability**, and **improved access** for citizens.
 
 ***
 
@@ -45,7 +45,7 @@
    * Minimized risk of duplicative benefits, identity theft, or tampered official documents.
 4. **Interoperability and Data Sharing**
    * Standardized data across agencies, leading to consistent citizen records and easier coordination in multi-agency programs.
-   * [**Interoperable**](../../joes_notes/BLOCKCHAIN_INTEROPERABILITY.md) solutions break departmental silos, fostering synergy.
+   * [**Interoperable**](../../../literary_products/joes_notes/BLOCKCHAIN_INTEROPERABILITY.md) solutions break departmental silos, fostering synergy.
 
 ***
 
@@ -76,7 +76,7 @@
    * Comprehensive training and transparent communication are crucial for wide-scale acceptance.
 3. **Technical Complexity**
    * Implementing advanced solutions (e.g., [**zero-knowledge proofs**](../CRYPTO/CRYPTOGRAPHY_BASICS.md#zero-knowledge-proofs-zkps)) can exceed the skill sets of traditional IT departments.
-   * Collaboration with [**fintech innovators**](../../joes_notes/FINTECH_INNOVATORS.md) and [**university initiatives**](UNIVERSITY_INITIATIVES.md) can address knowledge gaps.
+   * Collaboration with [**fintech innovators**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md) and [**university initiatives**](UNIVERSITY_INITIATIVES.md) can address knowledge gaps.
 4. **Cybersecurity Threats**
    * Public-facing blockchains attract malicious actors seeking to exploit vulnerabilities.
    * Ongoing audits, **penetration testing**, and robust encryption standards are essential to protect citizen data and funds.
@@ -106,7 +106,7 @@
    * Test blockchain-based public services in a single department or region to refine processes.
    * Validate ROI and gather feedback before scaling across broader agencies.
 2. **Public-Private Partnerships**
-   * Collaborate with established [**financial institutions**](../STRATEGY/FINANCIAL_INSTITUTIONS.md), [**tech startups**](../../joes_notes/FINTECH_INNOVATORS.md), and **university labs** to leverage expertise.
+   * Collaborate with established [**financial institutions**](../STRATEGY/FINANCIAL_INSTITUTIONS.md), [**tech startups**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md), and **university labs** to leverage expertise.
    * Shared responsibility for risk management and cost investment fosters faster progress.
 3. **Regulatory Sandboxes**
    * Temporary exemptions or experimental frameworks let agencies trial novel solutions while minimizing legal risk.

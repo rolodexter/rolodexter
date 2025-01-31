@@ -1,6 +1,6 @@
 # Disclaimer: Work of Fiction
 
-This content, including all elements associated with the rolodexter literary universe, is explicitly a **work of fiction**. It is crafted through the use of [creative imagination](creative-imagination.md) and [artistic expression](artistic-expression.md), and is intended solely for [literary purposes](literary-purposes.md). The [characters](../elements/characters.md), [events](../elements/events.md), [locations](../elements/locations.md), and [narratives](../elements/narratives.md) presented are entirely fictional constructs designed to explore speculative themes such as [technology](broken-reference), [society](../themes/society.md), and [human nature](../themes/human-nature.md).
+This content, including all elements associated with the rolodexter literary universe, is explicitly a **work of fiction**. It is crafted through the use of [creative imagination](creative-imagination.md) and [artistic expression](ART_EXPRESSION.MD), and is intended solely for [literary purposes](literary-purposes.md). The [characters](../elements/characters.md), [events](../elements/events.md), [locations](../elements/locations.md), and [narratives](../elements/narratives.md) presented are entirely fictional constructs designed to explore speculative themes such as [technology](broken-reference/), [society](../themes/society.md), and [human nature](../themes/human-nature.md).
 
 ## **Fictional Nature**
 

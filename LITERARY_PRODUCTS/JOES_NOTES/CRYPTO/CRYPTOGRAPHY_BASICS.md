@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Cryptography** is the science of securing information by transforming it into an unintelligible format (encryption) that can only be read or processed by intended recipients (decryption). In the context of [**blockchain**](../MISC/BITCOIN_BASICS.md) and [**decentralized finance (DeFi)**](../../joes_notes/DEFI_BASICS.md), cryptography underpins the trustless environment—ensuring data integrity, transaction authenticity, and protection against unauthorized access. Modern cryptographic systems combine **mathematical** and **computational** techniques to safeguard digital assets, enable [**governance models**](../AI/GOVERNANCE_MODELS.md), and support advanced features like **zero-knowledge proofs**.
+**Cryptography** is the science of securing information by transforming it into an unintelligible format (encryption) that can only be read or processed by intended recipients (decryption). In the context of [**blockchain**](../MISC/BITCOIN_BASICS.md) and [**decentralized finance (DeFi)**](../../../literary_products/joes_notes/DEFI_BASICS.md), cryptography underpins the trustless environment—ensuring data integrity, transaction authenticity, and protection against unauthorized access. Modern cryptographic systems combine **mathematical** and **computational** techniques to safeguard digital assets, enable [**governance models**](../AI/GOVERNANCE_MODELS.md), and support advanced features like **zero-knowledge proofs**.
 
 ***
 
@@ -96,7 +96,7 @@
 ## See Also
 
 * [BITCOIN\_BASICS](../MISC/BITCOIN_BASICS.md)
-* [DEFI\_BASICS](../../joes_notes/DEFI_BASICS.md)
+* [DEFI\_BASICS](../../../literary_products/joes_notes/DEFI_BASICS.md)
 * [FINANCIAL\_SYSTEMS](../STRATEGY/FINANCIAL_SYSTEMS.md)
 * [GOVERNANCE\_MODELS](../AI/GOVERNANCE_MODELS.md)
 

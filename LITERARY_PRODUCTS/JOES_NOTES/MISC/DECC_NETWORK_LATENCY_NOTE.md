@@ -42,7 +42,7 @@ Latency is one of the most significant challenges for decentralized networks, es
    * Nodes in decentralized networks are often distributed globally, increasing propagation delays.
 2. [**Consensus Mechanisms**](CONSENSUS_PROTOCOLS.md)**:**
    * [**Blockchain**](../AI/BLOCKCHAIN.md) networks use consensus protocols (e.g., Proof of Stake, PBFT) that introduce additional overhead compared to centralized systems.
-3. [**Data Replication**](../../joes_notes/DATA_REPLICATION_IN_BLOCKCHAIN.md)**:**
+3. [**Data Replication**](../../../literary_products/joes_notes/DATA_REPLICATION_IN_BLOCKCHAIN.md)**:**
    * Data must often be replicated across nodes for reliability and fault tolerance, increasing bandwidth and latency requirements.
 4. **Cryptographic Overheads:**
    * Technologies like [**ZKPs**](ZERO_KNOWLEDGE_PROOFS.md) and [**FHE**](FULLY_HOMOMORPHIC_ENCRYPTION.md) add computation and communication overhead, amplifying latency.
@@ -53,7 +53,7 @@ Latency is one of the most significant challenges for decentralized networks, es
    * Deploying edge nodes closer to data sources can reduce latency and improve response times.
 2. [**Layer 2 Solutions**](LAYER_2_SCALING_SOLUTIONS.md)**:**
    * Utilizing Layer 2 scaling methods (e.g., state channels, rollups) minimizes on-chain computation and communication delays.
-3. [**Efficient Protocols**](../../joes_notes/EFFICIENT_BLOCKCHAIN_PROTOCOLS.md)**:**
+3. [**Efficient Protocols**](../../../literary_products/joes_notes/EFFICIENT_BLOCKCHAIN_PROTOCOLS.md)**:**
    * Optimized consensus mechanisms (e.g., DAGs, sharded networks) can reduce transaction finality times.
 4. **Adaptive Resource Allocation:**
    * Intelligent resource allocation through decentralized scheduling algorithms ensures computational efficiency.
@@ -64,6 +64,6 @@ Latency is one of the most significant challenges for decentralized networks, es
 
 #### **Conclusion**
 
-While DeCC is technically possible, it requires a careful balance between privacy, security, scalability, and performance. [**Network latency**](../../joes_notes/NETWORK_LATENCY_IN_BLOCKCHAIN.md) remains a key bottleneck, but leveraging strategies like [**edge computing**](EDGE_COMPUTING_IN_DECENTRALIZED_SYSTEMS.md), [**Layer 2 solutions**](LAYER_2_SCALING_SOLUTIONS.md), and efficient cryptographic implementations can mitigate many challenges.
+While DeCC is technically possible, it requires a careful balance between privacy, security, scalability, and performance. [**Network latency**](../../../literary_products/joes_notes/NETWORK_LATENCY_IN_BLOCKCHAIN.md) remains a key bottleneck, but leveraging strategies like [**edge computing**](EDGE_COMPUTING_IN_DECENTRALIZED_SYSTEMS.md), [**Layer 2 solutions**](LAYER_2_SCALING_SOLUTIONS.md), and efficient cryptographic implementations can mitigate many challenges.
 
-In the near term, DeCC is best suited for privacy-critical applications that can tolerate slightly higher latencies, such as [**privacy-preserving DeFi**](../../joes_notes/DEFI_AND_PRIVACY.md), [**confidential AI training**](../AI/AI_TRAINING_AND_CONFIDENTIALITY.md), and [**healthcare data analysis**](HEALTHCARE_DATA_SECURITY.md). Longer-term, advancements in cryptography (e.g., [**post-quantum algorithms**](../CRYPTO/POST_QUANTUM_CRYPTOGRAPHY.md)) and decentralized infrastructure will make real-time, low-latency DeCC systems more practical.
+In the near term, DeCC is best suited for privacy-critical applications that can tolerate slightly higher latencies, such as [**privacy-preserving DeFi**](../../../literary_products/joes_notes/DEFI_AND_PRIVACY.md), [**confidential AI training**](../AI/AI_TRAINING_AND_CONFIDENTIALITY.md), and [**healthcare data analysis**](HEALTHCARE_DATA_SECURITY.md). Longer-term, advancements in cryptography (e.g., [**post-quantum algorithms**](../CRYPTO/POST_QUANTUM_CRYPTOGRAPHY.md)) and decentralized infrastructure will make real-time, low-latency DeCC systems more practical.

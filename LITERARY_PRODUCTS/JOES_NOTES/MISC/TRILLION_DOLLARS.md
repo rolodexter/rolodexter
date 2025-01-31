@@ -41,7 +41,7 @@ Achieving a **multi-trillion dollar valuation** for [**Decentralized Science (De
    * Hospitals, insurance companies, or big pharma adopting DeSci protocols for patient data handling, peer review, and clinical trial management.
    * Each new integration broadens the market, making trillion-dollar valuations more plausible.
 2. **Institutional Capital Inflows**
-   * [**Pension funds**](PENSION_FUNDS.md) and [**sovereign wealth funds**](STRATEGY.md) investing in DeSci tokens, driving large capital surges.
+   * [**Pension funds**](PENSION_FUNDS.md) and [**sovereign wealth funds**](THE_MEANING_OF_BITCOIN.md) investing in DeSci tokens, driving large capital surges.
    * Similar to how Bitcoin soared upon gaining traction among hedge funds and asset managers.
 3. **Regulatory Endorsements**
    * Government agencies clarifying token classifications (utility vs. security) and opening pathways for “**tokenized R\&D**” or “**tokenized IP**.”
@@ -86,7 +86,7 @@ Achieving a **multi-trillion dollar valuation** for [**Decentralized Science (De
 * [Valuations in Crypto and Beyond](VALUATIONS.md)
 * [Regulatory Environments for DeSci](REGULATORY_ENVIRONMENTS.md)
 * [Pension Funds in DeSci Token Investments](PENSION_FUNDS.md)
-* [Sovereign Wealth Funds & Global Capital Flows](STRATEGY.md)
+* [Sovereign Wealth Funds & Global Capital Flows](THE_MEANING_OF_BITCOIN.md)
 
 ***
 

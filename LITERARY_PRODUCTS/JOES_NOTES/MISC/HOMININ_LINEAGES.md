@@ -47,7 +47,7 @@ Hominins encompass all species more closely related to humans than to chimpanzee
 * **Timeframe:** c. 2.4 million to 1.5 million years ago
 * **Duration:** \~900,000 years
 * **Key Sites:** Olduvai Gorge (Tanzania), Koobi Fora (Kenya)
-* **Significance:** Considered one of the first members of the genus [**Homo**](../../joes_notes/HOMO.md), exhibiting increased brain size and tool use.
+* **Significance:** Considered one of the first members of the genus [**Homo**](../../../literary_products/joes_notes/HOMO.md), exhibiting increased brain size and tool use.
 
 ### Homo erectus
 

@@ -55,10 +55,10 @@
    * Embedding AI in compliance checks or risk assessment expedites regulatory reporting and lowers personnel demands.
 2. **Risk Management Evolution**
    * Instant transaction visibility, advanced analytics, and real-time market data enable dynamic hedging strategies.
-   * [**Blockchain-based security**](../../joes_notes/BLOCKCHAIN_SECURITY.md) fosters tamper-proof audit trails.
+   * [**Blockchain-based security**](../../../literary_products/joes_notes/BLOCKCHAIN_SECURITY.md) fosters tamper-proof audit trails.
 3. **Product and Service Diversification**
-   * Tokenizing assets or integrating [**DeFi features**](../../joes_notes/DEFI_BASICS.md) can refresh an institution’s product offerings (e.g., yield-earning deposit accounts).
-   * Collaborative ventures with [**fintech innovators**](../../joes_notes/FINTECH_INNOVATORS.md) expand digital banking ecosystems.
+   * Tokenizing assets or integrating [**DeFi features**](../../../literary_products/joes_notes/DEFI_BASICS.md) can refresh an institution’s product offerings (e.g., yield-earning deposit accounts).
+   * Collaborative ventures with [**fintech innovators**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md) expand digital banking ecosystems.
 4. **Regulatory Compliance**
    * Traditional institutions must navigate **AML/KYC** mandates across multiple jurisdictions—especially if dealing with cryptocurrencies or cross-border DeFi.
    * Partnerships with [**university initiatives**](../MISC/UNIVERSITY_INITIATIVES.md) help keep pace with evolving technical and legal requirements.

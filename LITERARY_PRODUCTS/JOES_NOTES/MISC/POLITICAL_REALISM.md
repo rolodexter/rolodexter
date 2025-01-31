@@ -2,18 +2,18 @@
 
 ## Overview
 
-[Political realism](POLITICAL_REALISM.md), also known as [realpolitik](../../joes_notes/REALPOLITIK.md) in its practical application, represents a school of thought in [international relations](../../joes_notes/INTERNATIONAL_RELATIONS.md) that emphasizes power, national interests, and security as the primary drivers of state behavior. This framework views international politics as inherently competitive and conflict-prone, with war being a natural consequence of the anarchic international system.
+[Political realism](POLITICAL_REALISM.md), also known as [realpolitik](../../../literary_products/joes_notes/REALPOLITIK.md) in its practical application, represents a school of thought in [international relations](../../../literary_products/joes_notes/INTERNATIONAL_RELATIONS.md) that emphasizes power, national interests, and security as the primary drivers of state behavior. This framework views international politics as inherently competitive and conflict-prone, with war being a natural consequence of the anarchic international system.
 
 ## Core Principles
 
 ### State-Centric View
 
-1. [**Nation-State Primacy**](MONTREAL_PROTOCOL.md)
+1. [**Nation-State Primacy**](NON_HUMAN_INTELLIGENCES.md)
    * States as primary actors
    * Sovereignty as fundamental principle
    * Territorial integrity
    * National interest supremacy
-2. [**International Anarchy**](../../joes_notes/INTERNATIONAL_ANARCHY.md)
+2. [**International Anarchy**](../../../literary_products/joes_notes/INTERNATIONAL_ANARCHY.md)
    * Absence of world government
    * Self-help system
    * Power politics dominance
@@ -21,12 +21,12 @@
 
 ### Power Politics
 
-1. [**Balance of Power**](../../joes_notes/BALANCE_OF_POWER.md)
+1. [**Balance of Power**](../../../literary_products/joes_notes/BALANCE_OF_POWER.md)
    * Military capabilities
    * Economic strength
    * Diplomatic influence
    * Strategic alliances
-2. [**National Interest**](../../joes_notes/NATIONAL_INTEREST.md)
+2. [**National Interest**](../../../literary_products/joes_notes/NATIONAL_INTEREST.md)
    * Security priorities
    * Economic objectives
    * Territorial integrity
@@ -40,7 +40,7 @@
    * [Thucydides](../HISTORY/THUCYDIDES.md) - Peloponnesian War
    * [Niccolò Machiavelli](NICCOLO_MACHIAVELLI.md) - The Prince
    * [Thomas Hobbes](THOMAS_HOBBES.md) - Leviathan
-   * [Carl von Clausewitz](../../joes_notes/CLAUSEWITZ.md) - On War
+   * [Carl von Clausewitz](../../../literary_products/joes_notes/CLAUSEWITZ.md) - On War
 2. **Core Concepts**
    * Human nature as source of conflict
    * Power as central motivator
@@ -49,13 +49,13 @@
 
 ### Modern Realism
 
-1. [**Neorealism**](../../joes_notes/NEOREALISM.md)
-   * [Kenneth Waltz](../../joes_notes/KENNETH_WALTZ.md)
+1. [**Neorealism**](../../../literary_products/joes_notes/NEOREALISM.md)
+   * [Kenneth Waltz](../../../literary_products/joes_notes/KENNETH_WALTZ.md)
    * Structural emphasis
    * System-level analysis
    * Distribution of capabilities
-2. [**Offensive Realism**](../../joes_notes/OFFENSIVE_REALISM.md)
-   * [John Mearsheimer](../../joes_notes/JOHN_MEARSHEIMER.md)
+2. [**Offensive Realism**](../../../literary_products/joes_notes/OFFENSIVE_REALISM.md)
+   * [John Mearsheimer](../../../literary_products/joes_notes/JOHN_MEARSHEIMER.md)
    * Power maximization
    * Hegemonic competition
    * Security through dominance
@@ -65,7 +65,7 @@
 ### Inevitability Thesis
 
 1. **Structural Causes**
-   * [Security Dilemma](../../joes_notes/SECURITY_DILEMMA.md)
+   * [Security Dilemma](../../../literary_products/joes_notes/SECURITY_DILEMMA.md)
    * Resource competition
    * Power transitions
    * Territorial disputes
@@ -78,10 +78,10 @@
 ### Conflict Management
 
 1. **Strategic Approaches**
-   * [Deterrence](../../joes_notes/DETERRENCE.md)
-   * [Alliance formation](../../joes_notes/ALLIANCE_FORMATION.md)
-   * [Arms races](../../joes_notes/ARMS_RACE.md)
-   * [Crisis management](../../joes_notes/CRISIS_MANAGEMENT.md)
+   * [Deterrence](../../../literary_products/joes_notes/DETERRENCE.md)
+   * [Alliance formation](../../../literary_products/joes_notes/ALLIANCE_FORMATION.md)
+   * [Arms races](../../../literary_products/joes_notes/ARMS_RACE.md)
+   * [Crisis management](../../../literary_products/joes_notes/CRISIS_MANAGEMENT.md)
 2. **Power Balance**
    * Military capabilities
    * Economic strength
@@ -92,12 +92,12 @@
 
 ### International Security
 
-1. [**Great Power Politics**](../../joes_notes/GREAT_POWER_POLITICS.md)
+1. [**Great Power Politics**](../../../literary_products/joes_notes/GREAT_POWER_POLITICS.md)
    * US-China competition
    * Russian resurgence
    * Regional powers
    * Military modernization
-2. [**Nuclear Deterrence**](../../joes_notes/NUCLEAR_DETERRENCE.md)
+2. [**Nuclear Deterrence**](../../../literary_products/joes_notes/NUCLEAR_DETERRENCE.md)
    * Strategic stability
    * Arms control
    * Proliferation risks
@@ -105,12 +105,12 @@
 
 ### Economic Realism
 
-1. [**Geoeconomics**](../../joes_notes/GEOECONOMICS.md)
+1. [**Geoeconomics**](../../../literary_products/joes_notes/GEOECONOMICS.md)
    * Economic warfare
    * Trade competition
    * Resource control
    * Technology dominance
-2. [**Economic Statecraft**](../../joes_notes/ECONOMIC_STATECRAFT.md)
+2. [**Economic Statecraft**](../../../literary_products/joes_notes/ECONOMIC_STATECRAFT.md)
    * Sanctions
    * Trade policy
    * Investment strategies
@@ -120,12 +120,12 @@
 
 ### Alternative Perspectives
 
-1. [**Liberal Institutionalism**](../../joes_notes/LIBERAL_INSTITUTIONALISM.md)
+1. [**Liberal Institutionalism**](../../../literary_products/joes_notes/LIBERAL_INSTITUTIONALISM.md)
    * International cooperation
    * Institutional constraints
    * Economic interdependence
    * Democratic peace
-2. [**Constructivism**](../../joes_notes/CONSTRUCTIVISM.md)
+2. [**Constructivism**](../../../literary_products/joes_notes/CONSTRUCTIVISM.md)
    * Social construction
    * Identity politics
    * Norm development
@@ -148,12 +148,12 @@
 
 ### Emerging Challenges
 
-1. [**Technological Change**](../../joes_notes/TECHNOLOGICAL_CHANGE.md)
+1. [**Technological Change**](../../../literary_products/joes_notes/TECHNOLOGICAL_CHANGE.md)
    * Cyber warfare
    * AI capabilities
    * Space competition
    * Autonomous systems
-2. [**Non-Traditional Security**](../../joes_notes/NON_TRADITIONAL_SECURITY.md)
+2. [**Non-Traditional Security**](../../../literary_products/joes_notes/NON_TRADITIONAL_SECURITY.md)
    * Climate change
    * Pandemics
    * Terrorism
@@ -161,10 +161,10 @@
 
 ## See Also
 
-* [International Relations Theory](../../joes_notes/INTERNATIONAL_RELATIONS_THEORY.md)
-* [Power Politics](../../joes_notes/POWER_POLITICS.md)
-* [War Theory](../../joes_notes/WAR_THEORY.md)
-* [Strategic Studies](../../joes_notes/STRATEGIC_STUDIES.md)
+* [International Relations Theory](../../../literary_products/joes_notes/INTERNATIONAL_RELATIONS_THEORY.md)
+* [Power Politics](../../../literary_products/joes_notes/POWER_POLITICS.md)
+* [War Theory](../../../literary_products/joes_notes/WAR_THEORY.md)
+* [Strategic Studies](../../../literary_products/joes_notes/STRATEGIC_STUDIES.md)
 
 ## References
 

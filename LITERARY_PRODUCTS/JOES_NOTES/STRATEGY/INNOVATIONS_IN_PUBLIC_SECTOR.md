@@ -48,7 +48,7 @@
 ## Benefits
 
 1. **Enhanced Public Trust**
-   * Transparent records and [**on-chain audits**](../../joes_notes/BLOCKCHAIN_TRANSPARENCY.md) instill confidence by preventing corruption.
+   * Transparent records and [**on-chain audits**](../../../literary_products/joes_notes/BLOCKCHAIN_TRANSPARENCY.md) instill confidence by preventing corruption.
    * Citizens can directly verify spending, project milestones, and regulatory compliance.
 2. **Improved Efficiency**
    * Automated approvals, digital identities, and data interoperability drastically cut administrative bottlenecks.
@@ -75,7 +75,7 @@
    * Demonstrates the economic boost from adopting forward-thinking [**regulatory environments**](../MISC/REGULATORY_ENVIRONMENTS.md).
 4. **Dubai’s Blockchain Strategy**
    * Aims to power all government documents and transactions via blockchain by 2025, optimizing efficiency in visa processing, property sales, and business registration.
-   * Positions the city as a leading hub for [**fintech innovators**](../../joes_notes/FINTECH_INNOVATORS.md) and enterprise investment.
+   * Positions the city as a leading hub for [**fintech innovators**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md) and enterprise investment.
 
 ***
 

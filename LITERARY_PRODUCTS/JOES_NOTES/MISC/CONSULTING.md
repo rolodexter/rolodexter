@@ -24,7 +24,7 @@ Consultants often work across multiple industries and sectors, gaining a broad r
 
 ### 4. **Brand Recognition**
 
-Affiliation with top consulting firms like [McKinsey](../../joes_notes/MCKINSEY.md), [BCG](BCG.md), or Bain signals professionalism and high competence.
+Affiliation with top consulting firms like [McKinsey](../../../literary_products/joes_notes/MCKINSEY.md), [BCG](BCG.md), or Bain signals professionalism and high competence.
 
 ***
 
@@ -32,7 +32,7 @@ Affiliation with top consulting firms like [McKinsey](../../joes_notes/MCKINSEY.
 
 ### 1. **Management Consulting**
 
-Focused on improving organizational performance through strategy, operations, and change management. Example firms: [McKinsey](../../joes_notes/MCKINSEY.md), [BCG](BCG.md).
+Focused on improving organizational performance through strategy, operations, and change management. Example firms: [McKinsey](../../../literary_products/joes_notes/MCKINSEY.md), [BCG](BCG.md).
 
 ### 2. **IT/Technology Consulting**
 

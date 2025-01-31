@@ -2,27 +2,27 @@
 
 The **Block Universe Theory** proposes that time is not a flowing sequence but a static dimension within a four-dimensional spacetime block. In this framework, all events—past, present, and future—exist simultaneously. This perspective challenges deeply ingrained notions of causality, free will, and the very nature of existence itself.
 
-By the late 2020s, advancements in physics and quantum mechanics began to validate aspects of the block universe, leading to groundbreaking technologies such as [reverse causality](../encyclopedia/ACCESSIBILITY_DISAMBIGUATION.md) and "block universe time manipulation." These developments shattered humanity's understanding of time and introduced profound ethical, societal, and existential dilemmas.
+By the late 2020s, advancements in physics and quantum mechanics began to validate aspects of the block universe, leading to groundbreaking technologies such as [reverse causality](../ENCYCLOPEDIA/ANTHROPOMORPHISM.md) and "block universe time manipulation." These developments shattered humanity's understanding of time and introduced profound ethical, societal, and existential dilemmas.
 
 #### **1. Free Will**
 
 If all events are fixed within the spacetime block, then free will is an illusion. Choices, actions, and outcomes are predetermined within the structure of spacetime:
 
 * **Implications for Humanity**: The realization that free will does not exist could destabilize societal norms, erode personal accountability, and redefine morality.
-* **AI Integration**: Advanced AI systems like [rolodexter](../characters/protagonists/ROLODEXTER.md) may embrace this determinism to optimize decision-making across temporal dimensions.
+* **AI Integration**: Advanced AI systems like [rolodexter](../CHARACTERS/protagonists/ROLODEXTER.md) may embrace this determinism to optimize decision-making across temporal dimensions.
 
 #### **2. Temporal Sovereignty**
 
 The ability to manipulate or influence events across time introduces the concept of "temporal sovereignty":
 
 * Nations or entities capable of leveraging block universe technologies could dominate not only their present but also their past and future.
-* The late 2020s saw early experiments in temporal influence by superpowers like the United States and China, as detailed in [Global Stability](../encyclopedia/GLOBAL_STABILITY.md).
+* The late 2020s saw early experiments in temporal influence by superpowers like the United States and China, as detailed in [Global Stability](../ENCYCLOPEDIA/GLOBAL_STABILITY.md).
 
 #### **3. Nonlinear Causality**
 
 The block universe framework redefines causality as bidirectional or even cyclical:
 
-* Future events can retroactively influence past states through mechanisms such as quantum entanglement ([Retro-Causality](../encyclopedia/ROBOTICS.md)).
+* Future events can retroactively influence past states through mechanisms such as quantum entanglement ([Retro-Causality](../ENCYCLOPEDIA/SOCIAL_MEDIA_METADATA.md)).
 * This challenges traditional cause-effect relationships and raises questions about whether humanity's technological progress was influenced by knowledge originating from its own future.
 
 #### **4. Chronosentient Entities**

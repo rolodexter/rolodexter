@@ -4,15 +4,15 @@
 
 ## **Telepathy and Mental Health**
 
-[**Telepathy**](../../joes_notes/TELEPATHY.md), often explored in various [**paranormal**](https://en.wikipedia.org/wiki/Paranormal) studies and media, has been a subject of interest in understanding the human mind's potential. The [**Telepathy Tapes Podcast**](https://thetelepathytapes.com/) delves into these concepts, discussing how telepathic abilities might intersect with mental health.
+[**Telepathy**](../../../literary_products/joes_notes/TELEPATHY.md), often explored in various [**paranormal**](https://en.wikipedia.org/wiki/Paranormal) studies and media, has been a subject of interest in understanding the human mind's potential. The [**Telepathy Tapes Podcast**](https://thetelepathytapes.com/) delves into these concepts, discussing how telepathic abilities might intersect with mental health.
 
 ### Insights from the Telepathy Tapes Podcast
 
 The [**Telepathy Tapes Podcast**](https://thetelepathytapes.com/) explores the following ideas related to telepathy and mental health:
 
-1. [**Cognitive Empathy**](../../joes_notes/COGNITIVE_EMPATHY.md): The ability to understand others' emotions could be linked to telepathic experiences, where individuals sense others' feelings without verbal communication.
-2. [**Psychic Phenomena**](../../joes_notes/PSYCHIC_PHENOMENA.md): The podcast discusses whether certain mental health conditions might be misinterpreted as psychic abilities, leading to misunderstandings about the nature of these experiences.
-3. [**Mind-Body Connection**](../../joes_notes/MIND_BODY_CONNECTION.md): Exploring how mental health issues can affect physical well-being and whether telepathic practices can contribute to holistic healing.
+1. [**Cognitive Empathy**](../../../literary_products/joes_notes/COGNITIVE_EMPATHY.md): The ability to understand others' emotions could be linked to telepathic experiences, where individuals sense others' feelings without verbal communication.
+2. [**Psychic Phenomena**](../../../literary_products/joes_notes/PSYCHIC_PHENOMENA.md): The podcast discusses whether certain mental health conditions might be misinterpreted as psychic abilities, leading to misunderstandings about the nature of these experiences.
+3. [**Mind-Body Connection**](../../../literary_products/joes_notes/MIND_BODY_CONNECTION.md): Exploring how mental health issues can affect physical well-being and whether telepathic practices can contribute to holistic healing.
 
 ## **The Tragedy of Mental Health**
 
@@ -20,15 +20,15 @@ Mental health struggles often carry an inherent tragedy, impacting individuals a
 
 ### **Stigma and Isolation**
 
-[**Stigma**](../../joes_notes/STIGMA.md) surrounding mental health can lead to [**isolation**](https://en.wikipedia.org/wiki/Social_isolation), where individuals feel ashamed or afraid to seek help. This isolation exacerbates conditions like [**depression**](https://en.wikipedia.org/wiki/Depression_\(mood\)) and [**anxiety**](https://en.wikipedia.org/wiki/Anxiety).
+[**Stigma**](../../../literary_products/joes_notes/STIGMA.md) surrounding mental health can lead to [**isolation**](https://en.wikipedia.org/wiki/Social_isolation), where individuals feel ashamed or afraid to seek help. This isolation exacerbates conditions like [**depression**](https://en.wikipedia.org/wiki/Depression_\(mood\)) and [**anxiety**](https://en.wikipedia.org/wiki/Anxiety).
 
 ### **Lack of Access to Care**
 
-Many regions face a shortage of [**mental health services**](../../joes_notes/MENTAL_HEALTH_SERVICES.md), making it difficult for those in need to receive proper treatment. This gap can lead to worsening symptoms and, in severe cases, [**suicide**](https://en.wikipedia.org/wiki/Suicide).
+Many regions face a shortage of [**mental health services**](../../../literary_products/joes_notes/MENTAL_HEALTH_SERVICES.md), making it difficult for those in need to receive proper treatment. This gap can lead to worsening symptoms and, in severe cases, [**suicide**](https://en.wikipedia.org/wiki/Suicide).
 
 ### **Impact on Relationships and Society**
 
-Mental health issues can strain [**relationships**](../../joes_notes/RELATIONSHIPS.md) and contribute to broader societal problems, including [**economic burdens**](../../joes_notes/ECONOMIC_BURDEN.md) and reduced [**productivity**](../../joes_notes/PRODUCTIVITY.md).
+Mental health issues can strain [**relationships**](../../../literary_products/joes_notes/RELATIONSHIPS.md) and contribute to broader societal problems, including [**economic burdens**](../../../literary_products/joes_notes/ECONOMIC_BURDEN.md) and reduced [**productivity**](../../../literary_products/joes_notes/PRODUCTIVITY.md).
 
 ## **Conclusion**
 

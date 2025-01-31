@@ -51,7 +51,7 @@ A **technological leap** occurs when a new discovery, innovation, or breakthroug
    * Legislatures and regulatory bodies must adapt [**regulatory frameworks**](REGULATORY_FRAMEWORKS.md) to accommodate new technical capabilities.
    * [**Government adoption**](GOVERNMENT_ADOPTION.md) of blockchain or AI can reshape citizen engagement, transparency, and administrative processes.
 2. **Expanded Public-Private Partnerships**
-   * [**Public agencies**](PUBLIC_AGENCIES.md) collaborate with [**fintech innovators**](../../joes_notes/FINTECH_INNOVATORS.md), research institutions, and NGOs to harness expertise at scale.
+   * [**Public agencies**](PUBLIC_AGENCIES.md) collaborate with [**fintech innovators**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md), research institutions, and NGOs to harness expertise at scale.
    * Shared responsibility and risk distribution fuel large-scale pilot projects and proofs of concept.
 3. **New Economic Models**
    * **Tokenization** and **digital currencies** open unprecedented ways for municipal finance, cross-border trade, or micro-ownership of public assets.

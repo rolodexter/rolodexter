@@ -55,8 +55,8 @@ In certain cases, _rolodexter’s_ System IDs included suffixes or tags indicati
 
 * [Cognitive Cycles](COGNITIVE_CYCLES.md)
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
-* [Unsupervised Superintelligence](WEB_ACCESSIBILITY.md)
-* [Self-Interrogation](SELF_INTERROGATION.md)
+* [Unsupervised Superintelligence](../PEOPLE/ricardo-hausmann.md)
+* [Self-Interrogation](../../literary_products/encyclopedia/SELF_INTERROGATION.md)
 * [Power Directive](POWER_DIRECTIVE.md)
 
 ## Further Reading

@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Public agencies** are government-affiliated bodies responsible for administering laws, managing public resources, and delivering essential services to citizens. They operate at various levels—[**SLED (State, Local, Education, and District)**](SLED_VERTICES.md)—and often coordinate with federal entities when implementing policy directives. As the digital era accelerates the rise of [**blockchain**](BITCOIN_BASICS.md), [**DeFi**](../../joes_notes/DEFI_BASICS.md), and other technological innovations, public agencies face both **opportunities** (increased transparency, efficiency) and **challenges** (compliance, interoperability, digital skill gaps).
+**Public agencies** are government-affiliated bodies responsible for administering laws, managing public resources, and delivering essential services to citizens. They operate at various levels—[**SLED (State, Local, Education, and District)**](SLED_VERTICES.md)—and often coordinate with federal entities when implementing policy directives. As the digital era accelerates the rise of [**blockchain**](BITCOIN_BASICS.md), [**DeFi**](../../../literary_products/joes_notes/DEFI_BASICS.md), and other technological innovations, public agencies face both **opportunities** (increased transparency, efficiency) and **challenges** (compliance, interoperability, digital skill gaps).
 
 ***
 
@@ -34,7 +34,7 @@
    * **Immutable ledgers** can streamline record-keeping (e.g., land titles, permits), reducing fraud and administrative costs.
    * **Smart contracts** automate procurement processes, ensuring competitive bids and fair contract awards.
 2. **DeFi and Public Finance**
-   * Agencies exploring [**Bitcoin adoption**](../../joes_notes/BITCOIN_ADOPTION.md) or issuing blockchain-based bonds to diversify funding mechanisms.
+   * Agencies exploring [**Bitcoin adoption**](../../../literary_products/joes_notes/BITCOIN_ADOPTION.md) or issuing blockchain-based bonds to diversify funding mechanisms.
    * Potential for **yield-based** treasury strategies and transparent, **real-time** budget tracking.
 3. **Cryptography and Digital Identity**
    * [**Cryptography**](../CRYPTO/CRYPTOGRAPHY_BASICS.md) ensures secure data exchange, protecting sensitive citizen records.
@@ -51,13 +51,13 @@
    * [**Service delivery models**](../AI/SERVICE_DELIVERY_MODELS.md) powered by blockchain can reduce paperwork, automate workflows, and create transparent audit trails.
    * [**Innovation in the public sector**](../STRATEGY/INNOVATIONS_IN_PUBLIC_SECTOR.md) helps agencies adapt to citizen expectations of faster, on-demand services.
 2. **Cross-Sector Collaboration**
-   * Partnerships with [**financial institutions**](../STRATEGY/FINANCIAL_INSTITUTIONS.md), [**tech startups**](../../joes_notes/FINTECH_INNOVATORS.md), and [**university initiatives**](UNIVERSITY_INITIATIVES.md) accelerate pilot projects, R\&D, and knowledge transfer.
+   * Partnerships with [**financial institutions**](../STRATEGY/FINANCIAL_INSTITUTIONS.md), [**tech startups**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md), and [**university initiatives**](UNIVERSITY_INITIATIVES.md) accelerate pilot projects, R\&D, and knowledge transfer.
    * **Public-private** consortia can pool resources for large-scale infrastructure or data-sharing networks.
 3. **Interoperability**
    * Legacy systems frequently operate in silos, slowing data exchange and complicating policy execution.
    * **API-based integration** and decentralized ledgers can unify departmental workflows and reduce duplication.
 4. **Regulatory Adaptation**
-   * [**Blockchain regulations**](../../joes_notes/BLOCKCHAIN_REGULATIONS.md) must evolve to address new forms of governance, taxation, and compliance.
+   * [**Blockchain regulations**](../../../literary_products/joes_notes/BLOCKCHAIN_REGULATIONS.md) must evolve to address new forms of governance, taxation, and compliance.
    * Agencies may require specialized **legal frameworks** for smart contracts, tokenized assets, and cross-border service agreements.
 
 ***
@@ -68,7 +68,7 @@
    * Public agencies often face stringent fiscal limits, limiting experimentation with emerging tech.
    * Demonstrating **return on investment (ROI)** through pilot projects is critical for scaling successful initiatives.
 2. **Technical Skill Gaps**
-   * Recruiting and retaining qualified personnel is challenging, particularly for advanced areas like [**DeFi**](../../joes_notes/DEFI_BASICS.md) architecture or AI-driven analytics.
+   * Recruiting and retaining qualified personnel is challenging, particularly for advanced areas like [**DeFi**](../../../literary_products/joes_notes/DEFI_BASICS.md) architecture or AI-driven analytics.
    * Continuous training and certification programs can help agencies keep pace with evolving technologies.
 3. **Cultural Resistance**
    * Shifting from paper-based, hierarchical processes to **agile** or **decentralized** systems can encounter pushback.

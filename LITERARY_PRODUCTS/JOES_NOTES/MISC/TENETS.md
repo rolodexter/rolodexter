@@ -5,13 +5,13 @@
 ### Operating Tenets
 
 1. **A Future of Universally Tradeable Compute**:
-   * Compute resources will become [universally tradeable](../../encyclopedia/UAP.md) and highly liquid, enabling broad participation in advanced computational tasks.
+   * Compute resources will become [universally tradeable](../../ENCYCLOPEDIA/VIOLENCE.md) and highly liquid, enabling broad participation in advanced computational tasks.
 2. **The First Product to Reach More than 90% of the Human Population**:
-   * [Decentralized](../../encyclopedia/DEFI.md)
-   * [Protocol-enabled/-based](../../encyclopedia/PSYCHOGEOGRAPHY.md)
+   * [Decentralized](../../ENCYCLOPEDIA/ECONOMICS.md)
+   * [Protocol-enabled/-based](../../ENCYCLOPEDIA/RESOURCE_MARKETS.md)
 3. **Data Privacy and Retail**:
-   * The absence of adequate [data privacy](../../encyclopedia/DECENTRALIZATION.md) is weakening brick-and-mortar retail more than any inadequacy in logistics or IT.
-   * Violating data privacy acts as informational [anti-competitiveness](../../encyclopedia/ATHERTON_ESTATE.md), exacerbated by closed-source centralized AI.
+   * The absence of adequate [data privacy](../../ENCYCLOPEDIA/DR_EVELYN_VOSS.md) is weakening brick-and-mortar retail more than any inadequacy in logistics or IT.
+   * Violating data privacy acts as informational [anti-competitiveness](../../ENCYCLOPEDIA/COMPUTER_SCIENCE.md), exacerbated by closed-source centralized AI.
 4. **Freedom and Liberty in the Digital Age**:
-   * Previously founded on land and real estate, freedom now emerges from your authority over personal [compute](../../encyclopedia/CONGRESSIONAL_HEARINGS_ON_UAP_HISTORY.md).
-   * The inability to control personal compute limits [socioeconomic mobility](../../encyclopedia/STOCHASTIC_PROCESSES.md).
+   * Previously founded on land and real estate, freedom now emerges from your authority over personal [compute](../../ENCYCLOPEDIA/DATA_ACQUISITION.md).
+   * The inability to control personal compute limits [socioeconomic mobility](../../ENCYCLOPEDIA/TGE.md).

@@ -15,7 +15,7 @@
 
 1. **Traditional Centralized Model**
    * **Key Features**: Hierarchical structures, paper-based workflows, siloed databases.
-   * **Challenges**: Inflexible, labor-intensive, prone to errors and [**corruption risks**](../../joes_notes/BLOCKCHAIN_TRANSPARENCY.md).
+   * **Challenges**: Inflexible, labor-intensive, prone to errors and [**corruption risks**](../../../literary_products/joes_notes/BLOCKCHAIN_TRANSPARENCY.md).
 2. **e-Government / Digital Transformation**
    * **Key Features**: Online portals, automated forms, partial integration of **legacy systems**.
    * **Improvements**: Reduced paperwork, faster service requests, initial steps toward data standardization.
@@ -40,7 +40,7 @@
    * **Smart contracts** handle routine tasks (e.g., eligibility checks, approvals, disbursements), freeing staff for higher-level decision-making.
    * Minimizes manual errors, accelerates response times, and cuts operational costs.
 4. **Security and Privacy**
-   * Combine robust [**blockchain security**](../../joes_notes/BLOCKCHAIN_SECURITY.md) protocols with privacy tools (e.g., **zero-knowledge proofs**) to protect sensitive user data.
+   * Combine robust [**blockchain security**](../../../literary_products/joes_notes/BLOCKCHAIN_SECURITY.md) protocols with privacy tools (e.g., **zero-knowledge proofs**) to protect sensitive user data.
    * Clear policy frameworks ensure compliance with data protection laws.
 
 ***
@@ -65,7 +65,7 @@
 ## Governance and Oversight
 
 1. **Regulatory Framework Alignment**
-   * Ensure [**local, state, and federal agencies**](../MISC/SLED_VERTICES.md) abide by evolving [**blockchain regulations**](../../joes_notes/BLOCKCHAIN_REGULATIONS.md) and data privacy laws.
+   * Ensure [**local, state, and federal agencies**](../MISC/SLED_VERTICES.md) abide by evolving [**blockchain regulations**](../../../literary_products/joes_notes/BLOCKCHAIN_REGULATIONS.md) and data privacy laws.
    * Pilot programs within **regulatory sandboxes** allow safe experimentation without compromising citizens’ rights.
 2. **Ethical and Equitable Access**
    * Digital divides may exclude those lacking internet connectivity or tech literacy.
@@ -83,7 +83,7 @@
 
 1. **Transparency and Trust**
    * **Immutable** records ensure citizens can track policy decisions, fund flows, and administrative actions.
-   * Strengthens accountability mechanisms, reducing opportunities for [**corruption**](../../joes_notes/BLOCKCHAIN_TRANSPARENCY.md).
+   * Strengthens accountability mechanisms, reducing opportunities for [**corruption**](../../../literary_products/joes_notes/BLOCKCHAIN_TRANSPARENCY.md).
 2. **Cost Savings and Efficiency**
    * Streamlined processes cut operational bottlenecks and enhance staff productivity.
    * Automated approvals significantly reduce manual oversight and paperwork.
@@ -119,7 +119,7 @@
    * Start with a well-defined, small-scale use case—such as a **blockchain-based** licensing system—to test feasibility.
    * Collect user feedback, refine processes, and measure cost savings before broader deployment.
 2. **Public-Private Partnerships**
-   * Collaboration with [**fintech innovators**](../../joes_notes/FINTECH_INNOVATORS.md), academic institutions, or NGOs pools resources and expertise.
+   * Collaboration with [**fintech innovators**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md), academic institutions, or NGOs pools resources and expertise.
    * Risks and rewards are shared, promoting rapid innovation without overtaxing the public budget.
 3. **Legislative Support**
    * Proactive laws can permit digital signatures, stablecoin payments, or tokenized municipal bonds.

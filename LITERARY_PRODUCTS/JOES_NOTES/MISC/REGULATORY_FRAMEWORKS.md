@@ -23,7 +23,7 @@
    * Define how digital assets are classified (e.g., securities, commodities, currencies), clarifying tax and compliance obligations.
    * Provide consistent rules across jurisdictions or at least harmonize them where possible.
 4. **Innovation Enablement**
-   * Encourage [**fintech startups**](../../joes_notes/FINTECH_INNOVATORS.md) and established players to experiment responsibly with new business models.
+   * Encourage [**fintech startups**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md) and established players to experiment responsibly with new business models.
    * Offer **regulatory sandboxes** or pilot programs for emerging technologies like blockchain-based identity or **tokenized bonds**.
 
 ***

@@ -36,7 +36,7 @@ An **asset class** typically refers to a group of financial instruments that exh
    * Characterized by high volatility, evolving regulations, and potential for rapid technological innovation.
 2. **Utility Tokens**
    * Digital tokens granting holders access to a specific product, service, or platform.
-   * Utilized in [**DeFi**](../../joes_notes/DEFI_BASICS.md) ecosystems, decentralized applications, or blockchain-based marketplaces.
+   * Utilized in [**DeFi**](../../../literary_products/joes_notes/DEFI_BASICS.md) ecosystems, decentralized applications, or blockchain-based marketplaces.
 3. **Security Tokens**
    * Tokens representing ownership in an underlying asset, such as equity in a company or rights to a revenue stream.
    * Subject to securities regulations in many jurisdictions, thereby bridging the gap between traditional financial instruments and blockchain technology.
@@ -64,7 +64,7 @@ An **asset class** typically refers to a group of financial instruments that exh
 
 ## Evolution of Asset Class Definitions
 
-As [**fintech disruptors**](../../joes_notes/FINTECH_INNOVATORS.md) and legacy financial players experiment with tokenizing traditional assets (e.g., real estate tokens, tokenized equities), distinctions between traditional and digital asset classes continue to blur. Regulatory guidance will play a key role in shaping how these assets are classified, taxed, and traded:
+As [**fintech disruptors**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md) and legacy financial players experiment with tokenizing traditional assets (e.g., real estate tokens, tokenized equities), distinctions between traditional and digital asset classes continue to blur. Regulatory guidance will play a key role in shaping how these assets are classified, taxed, and traded:
 
 * **Regulatory Changes**
   * Governments and financial authorities are updating frameworks to accommodate new forms of digital ownership and trading.
@@ -84,7 +84,7 @@ As [**fintech disruptors**](../../joes_notes/FINTECH_INNOVATORS.md) and legacy f
    * Long-term investment horizons can consider Bitcoin or other cryptocurrencies as part of a strategic asset allocation.
    * Transparency in reporting and robust security protocols are vital to protect contributors and beneficiaries.
 3. **Infrastructure Development**
-   * Public investment in [blockchain technology](../../joes_notes/BLOCKCHAIN_SCALABILITY.md) can foster local economic growth, incentivizing startups and research initiatives.
+   * Public investment in [blockchain technology](../../../literary_products/joes_notes/BLOCKCHAIN_SCALABILITY.md) can foster local economic growth, incentivizing startups and research initiatives.
    * Education on digital asset classes for public officials can streamline adoption and minimize disruptive impacts.
 
 ***

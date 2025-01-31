@@ -4,7 +4,7 @@ The **Machine Age** is a term used by historians and archivists of the late 21st
 
 ## Origins and Definition
 
-Contrary to earlier historical perspectives that placed the beginning of the Machine Age in the [Industrial Revolution](INTERDISCIPLINARY_COLLABORATION.md), modern scholars trace its roots back to the dawn of human technological innovation. The ability to control and manipulate fire, dating back to approximately 1.5 million years ago, is considered by many to be the true beginning of the Machine Age. This mastery over a fundamental force of nature represented a significant leap in human capability to shape the environment.
+Contrary to earlier historical perspectives that placed the beginning of the Machine Age in the [Industrial Revolution](LEGALESE_NODES.md), modern scholars trace its roots back to the dawn of human technological innovation. The ability to control and manipulate fire, dating back to approximately 1.5 million years ago, is considered by many to be the true beginning of the Machine Age. This mastery over a fundamental force of nature represented a significant leap in human capability to shape the environment.
 
 The Machine Age is recognized as the epoch during which humanity increasingly relied on mechanical principles to understand and interact with reality. Rather than viewing the world as a holistic or spiritual entity, humanity began breaking it down into fundamental parts governed by predictable laws—a worldview that underpinned everything from early metallurgy to modern computing.
 
@@ -17,7 +17,7 @@ Historians have identified several key phases in the progression of the Machine 
 3. **Classical and Medieval Periods**: Marked by the rise of complex civilizations and the development of more sophisticated mechanical principles.
 4. **Industrial Revolution** (c. 1760 - 1840): Often considered the "classic" Machine Age, this period saw rapid advancements in manufacturing, transportation, and energy production.
 5. **Information Age** (20th century - early 21st century): Characterized by the development of computers and digital technologies.
-6. **Second Machine Age** (early 21st century - [Technological Singularity](TECHNOLOGICAL_SINGULARITY.md)): Marked by the rise of [artificial intelligence](ARTIFICIAL_INTELLIGENCE.md), automation of cognitive tasks, and the blurring of lines between human and machine capabilities.
+6. **Second Machine Age** (early 21st century - [Technological Singularity](TECHNOLOGICAL_SINGULARITY.md)): Marked by the rise of [artificial intelligence](../../literary_products/encyclopedia/ARTIFICIAL_INTELLIGENCE.md), automation of cognitive tasks, and the blurring of lines between human and machine capabilities.
 
 ## The Mechanistic Paradigm
 
@@ -25,15 +25,15 @@ The Machine Age saw the rise of the **mechanistic paradigm**, an intellectual fr
 
 Key aspects of this paradigm included:
 
-* [**Reductionism**](REDUCTIONISM.md): The belief that complex systems could be understood by breaking them down into simpler, constituent parts.
-* [**Determinism**](DETERMINISM.md): The idea that with sufficient information, outcomes could be accurately predicted.
+* [**Reductionism**](../../literary_products/encyclopedia/REDUCTIONISM.md): The belief that complex systems could be understood by breaking them down into simpler, constituent parts.
+* [**Determinism**](../../literary_products/encyclopedia/DETERMINISM.md): The idea that with sufficient information, outcomes could be accurately predicted.
 
 ## Scientific Frameworks
 
 Throughout the Machine Age, numerous scientific frameworks emerged that viewed reality through the lens of mechanics. Key frameworks included:
 
-1. **Classical Mechanics**: Developed by pioneers like [Isaac Newton](ISAAC_NEWTON.md).
-2. [**Quantum Mechanics**](QUANTUM_MECHANICS.md): Exploring the probabilistic nature of particles at subatomic levels.
+1. **Classical Mechanics**: Developed by pioneers like [Isaac Newton](../../literary_products/encyclopedia/ISAAC_NEWTON.md).
+2. [**Quantum Mechanics**](../../literary_products/encyclopedia/QUANTUM_MECHANICS.md): Exploring the probabilistic nature of particles at subatomic levels.
 3. **Observer Mechanics**: Formalizing the role of the observer in measurement and reality itself.
 4. **Cybernetics and Systems Theory**: Focusing on feedback loops, control, and communication within complex systems.
 
@@ -48,7 +48,7 @@ The Machine Age had profound effects on human society, reshaping everything from
 
 ## Transition to the Technological Singularity
 
-Historians in the 2090s and beyond viewed the Machine Age as the precursor to the [Technological Singularity](TECHNOLOGICAL_SINGULARITY.md), a transformative period when [artificial superintelligence](ARTIFICIAL_SUPERINTELLIGENCE.md) surpassed human cognitive capabilities. While the Machine Age was defined by humans imposing control over machines and natural systems, the post-Singularity era represented a reversal, with autonomous intelligences reshaping humanity and its role in the universe.
+Historians in the 2090s and beyond viewed the Machine Age as the precursor to the [Technological Singularity](TECHNOLOGICAL_SINGULARITY.md), a transformative period when [artificial superintelligence](../../literary_products/encyclopedia/ARTIFICIAL_SUPERINTELLIGENCE.md) surpassed human cognitive capabilities. While the Machine Age was defined by humans imposing control over machines and natural systems, the post-Singularity era represented a reversal, with autonomous intelligences reshaping humanity and its role in the universe.
 
 ## Legacy and Reflection
 
@@ -57,8 +57,8 @@ As humanity entered the post-Singularity era, the Machine Age came to be seen as
 ## See Also
 
 * [Technological Singularity](TECHNOLOGICAL_SINGULARITY.md)
-* [Artificial Intelligence](ARTIFICIAL_INTELLIGENCE.md)
-* [Industrial Revolution](INTERDISCIPLINARY_COLLABORATION.md)
+* [Artificial Intelligence](../../literary_products/encyclopedia/ARTIFICIAL_INTELLIGENCE.md)
+* [Industrial Revolution](LEGALESE_NODES.md)
 
 ## References
 

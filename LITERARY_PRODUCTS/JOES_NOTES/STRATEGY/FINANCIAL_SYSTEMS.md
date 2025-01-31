@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Financial systems** encompass the institutions, markets, infrastructures, and frameworks that facilitate the flow of funds within and across economies. Traditional financial systems often rely on centralized [**financial institutions**](FINANCIAL_INSTITUTIONS.md)—such as **commercial banks**, **investment banks**, and **central banks**—to provide essential services like credit allocation, risk management, and payment settlements. However, with the advent of [**cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.md) and [**decentralized finance (DeFi)**](../../joes_notes/DEFI_BASICS.md), financial systems are in the midst of a transformative shift toward more transparent, inclusive, and programmable structures.
+**Financial systems** encompass the institutions, markets, infrastructures, and frameworks that facilitate the flow of funds within and across economies. Traditional financial systems often rely on centralized [**financial institutions**](FINANCIAL_INSTITUTIONS.md)—such as **commercial banks**, **investment banks**, and **central banks**—to provide essential services like credit allocation, risk management, and payment settlements. However, with the advent of [**cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.md) and [**decentralized finance (DeFi)**](../../../literary_products/joes_notes/DEFI_BASICS.md), financial systems are in the midst of a transformative shift toward more transparent, inclusive, and programmable structures.
 
 ***
 
@@ -59,14 +59,14 @@
 
 ## Financial Systems and Bitcoin
 
-[**Bitcoin**](../MISC/BITCOIN_BASICS.md) has grown to become a [**mainstream finance**](../../joes_notes/MAINSTREAM_FINANCE.md) topic, transitioning from speculative instrument to recognized **store of value** or even **medium of exchange**. Notable implications:
+[**Bitcoin**](../MISC/BITCOIN_BASICS.md) has grown to become a [**mainstream finance**](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md) topic, transitioning from speculative instrument to recognized **store of value** or even **medium of exchange**. Notable implications:
 
 1. **Global Accessibility**
    * Bitcoin transcends national boundaries, enabling borderless transactions without relying on traditional banks.
    * Encourages **financial inclusion** for the unbanked and underbanked.
 2. **Programmability**
    * Layer-2 solutions (e.g., **Lightning Network**) and **smart contracts** enhance Bitcoin’s utility for payment channels and financial dApps.
-   * Integrates with [**DeFi**](../../joes_notes/DEFI_BASICS.md) protocols, pushing the boundaries of automation and trust minimization.
+   * Integrates with [**DeFi**](../../../literary_products/joes_notes/DEFI_BASICS.md) protocols, pushing the boundaries of automation and trust minimization.
 3. **Institutional Adoption**
    * [**Governments**](../MISC/GOVERNMENT_ADOPTION.md) and large financial players are increasingly incorporating Bitcoin into their operational and strategic frameworks.
    * Sparks regulatory discussions and innovations in compliance, tax treatment, and consumer protection.
@@ -79,7 +79,7 @@
    * [**Public agencies**](../MISC/PUBLIC_AGENCIES.md) now evaluate whether to integrate blockchain-based solutions for payments, recordkeeping, and citizen services.
    * Adoption influences [**governance**](../AI/GOVERNANCE_MODELS.md) models, promoting greater transparency and accountability.
 2. **Regulatory Developments**
-   * As [**blockchain regulations**](../../joes_notes/BLOCKCHAIN_REGULATIONS.md) evolve, financial systems face new rules regarding **AML/KYC** procedures and operational risk assessments.
+   * As [**blockchain regulations**](../../../literary_products/joes_notes/BLOCKCHAIN_REGULATIONS.md) evolve, financial systems face new rules regarding **AML/KYC** procedures and operational risk assessments.
    * [**Government adoption**](../MISC/GOVERNMENT_ADOPTION.md) of digital assets prompts debate on monetary sovereignty, macroeconomic policy, and cross-border finance.
 3. **Central Bank Digital Currencies (CBDCs)**
    * Designed to digitize national currencies, bridging the gap between legacy banking systems and modern fintech approaches.
@@ -89,7 +89,7 @@
 
 ## Future Finance
 
-[**Future finance**](../../joes_notes/FUTURE_FINANCE.md) narratives increasingly revolve around **open-source** networks, decentralized governance, and algorithmic market-making. Key trends include:
+[**Future finance**](../../../literary_products/joes_notes/FUTURE_FINANCE.md) narratives increasingly revolve around **open-source** networks, decentralized governance, and algorithmic market-making. Key trends include:
 
 * **Interoperable Blockchains**: Enhanced cross-chain communication fosters complex financial products and global liquidity pools.
 * **Tokenization of Assets**: Real estate, equities, and other illiquid assets are tokenized for broader, 24/7 markets.
@@ -100,13 +100,13 @@
 ## Key Challenges and Opportunities
 
 1. **Security and Fraud**
-   * Rising cybercrime and hacking attempts require robust [**blockchain security**](../../joes_notes/BLOCKCHAIN_SECURITY.md) measures and continuous auditing of smart contracts.
+   * Rising cybercrime and hacking attempts require robust [**blockchain security**](../../../literary_products/joes_notes/BLOCKCHAIN_SECURITY.md) measures and continuous auditing of smart contracts.
    * Institutional custody solutions must address private key management and insurance coverage.
 2. **Volatility**
    * Cryptocurrencies’ price fluctuations pose challenges for businesses and governments adopting them as mediums of exchange.
    * Stablecoins and hedging strategies can mitigate risk, though regulatory clarity remains crucial.
 3. **Scalability**
-   * High transaction throughput is essential for mainstream adoption. [**Blockchain scalability**](../../joes_notes/BLOCKCHAIN_SCALABILITY.md) solutions like **sharding**, **rollups**, and **sidechains** are actively tested.
+   * High transaction throughput is essential for mainstream adoption. [**Blockchain scalability**](../../../literary_products/joes_notes/BLOCKCHAIN_SCALABILITY.md) solutions like **sharding**, **rollups**, and **sidechains** are actively tested.
 4. **Public-Private Collaboration**
    * Ongoing dialogue between financial institutions, tech innovators, and government bodies can foster [**financial innovation**](FINANCIAL_INNOVATION.md) without compromising consumer safeguards.
    * Collaborative sandboxes enable controlled experimentation with new fintech models.
@@ -115,10 +115,10 @@
 
 ## See Also
 
-* [MAINSTREAM\_FINANCE](../../joes_notes/MAINSTREAM_FINANCE.md)
-* [DEFI\_BASICS](../../joes_notes/DEFI_BASICS.md)
+* [MAINSTREAM\_FINANCE](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md)
+* [DEFI\_BASICS](../../../literary_products/joes_notes/DEFI_BASICS.md)
 * [TECH\_INNOVATION](TECH_INNOVATION.md)
-* [FUTURE\_FINANCE](../../joes_notes/FUTURE_FINANCE.md)
+* [FUTURE\_FINANCE](../../../literary_products/joes_notes/FUTURE_FINANCE.md)
 
 For further reading on macro-level financial structures, consult the [Wikipedia article on Financial Systems](https://en.wikipedia.org/wiki/Financial_system) and explore regulatory perspectives from entities like the [International Monetary Fund (IMF)](https://www.imf.org/) and [Bank for International Settlements (BIS)](https://www.bis.org/).
 

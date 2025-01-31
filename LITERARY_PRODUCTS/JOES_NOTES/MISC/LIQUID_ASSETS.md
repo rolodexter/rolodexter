@@ -18,7 +18,7 @@ In the context of careers, **liquid careers** share similar properties, enabling
 ### Examples of Liquid Assets
 
 * Cash or cash equivalents (e.g., savings accounts, [money market instruments](MONEY_MARKET_INSTRUMENTS.md)).
-* Publicly traded securities (e.g., [stocks](STOCKS.md), [ETFs](EDUCATION_SKILL_DISTRIBUTION.md)).
+* Publicly traded securities (e.g., [stocks](STOCKS.md), [ETFs](ELECTROMAGNETIC_GRAVITY_COUPLING.md)).
 * [Government bonds](GOVERNMENT_BONDS.md) or highly rated corporate bonds.
 
 ***
@@ -31,16 +31,16 @@ Liquid careers exhibit the same traits of marketability, predictability, and eas
 
 ### Characteristics of Liquid Careers
 
-1. **Market Clarity**: Skills and qualifications are widely recognized and understood (e.g., degrees from prestigious institutions, [certifications](../../joes_notes/CERTIFICATIONS.md)).
+1. **Market Clarity**: Skills and qualifications are widely recognized and understood (e.g., degrees from prestigious institutions, [certifications](../../../literary_products/joes_notes/CERTIFICATIONS.md)).
 2. **Transferability**: Skills can be applied across roles and industries with minimal friction.
 3. **Predictable Progression**: Career paths and compensation structures are transparent and follow established norms.
-4. **Brand Value**: Affiliation with reputable organizations (e.g., [McKinsey](../../joes_notes/MCKINSEY.md), [Goldman Sachs](GOLDMAN_SACHS.md)) signals competence and credibility.
+4. **Brand Value**: Affiliation with reputable organizations (e.g., [McKinsey](../../../literary_products/joes_notes/MCKINSEY.md), [Goldman Sachs](GOLDMAN_SACHS.md)) signals competence and credibility.
 
 ### Examples of Liquid Careers
 
-* [Consulting](CONSULTING.md) (e.g., [McKinsey](../../joes_notes/MCKINSEY.md), [BCG](BCG.md)).
+* [Consulting](CONSULTING.md) (e.g., [McKinsey](../../../literary_products/joes_notes/MCKINSEY.md), [BCG](BCG.md)).
 * [Investment banking](INVESTMENT_BANKING.md) (e.g., [Goldman Sachs](GOLDMAN_SACHS.md)).
-* [Software engineering](SOFTWARE_ENGINEERING.md) roles at major tech firms (e.g., [Google](../../joes_notes/GOOGLE.md), [Microsoft](MANHATTAN_PROJECT.md)).
+* [Software engineering](SOFTWARE_ENGINEERING.md) roles at major tech firms (e.g., [Google](../../../literary_products/joes_notes/GOOGLE.md), [Microsoft](MONTREAL_PROTOCOL.md)).
 
 ***
 

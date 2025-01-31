@@ -7,11 +7,11 @@ Humanity’s ability to manage climate change has evolved significantly over tim
 ### **Early Awareness and Scientific Discoveries**
 
 1. **19th Century**:
-   * Scientists like [**John Tyndall**](IAC.md) and [**Svante Arrhenius**](TRANSLATING_TARGETED_THERAPIES_IN_COMBINATION_WITH_RADIOTHERAPY.md) identified the greenhouse effect and its role in regulating Earth's temperature.
+   * Scientists like [**John Tyndall**](LIECHTENSTEIN.md) and [**Svante Arrhenius**](ZERO_POINT_ENERGY.md) identified the greenhouse effect and its role in regulating Earth's temperature.
 2. **1985**:
-   * Discovery of the [**ozone hole**](OUTCOMES.md) above Antarctica, linked to chlorofluorocarbons (CFCs), led to the adoption of the [**Montreal Protocol**](MEDICAL_AND_HEALTH_SCIENCES.md) in 1987.
+   * Discovery of the [**ozone hole**](PAUL_BENNEWITZ.md) above Antarctica, linked to chlorofluorocarbons (CFCs), led to the adoption of the [**Montreal Protocol**](NASA.md) in 1987.
 3. **1988**:
-   * Establishment of the [**Intergovernmental Panel on Climate Change (IPCC)**](HYBRID_INFRASTRUCTURE.md) to provide scientific assessments and guide policymaking.
+   * Establishment of the [**Intergovernmental Panel on Climate Change (IPCC)**](LAS_VEGAS.md) to provide scientific assessments and guide policymaking.
 
 ### **Key Milestones in Global Action**
 
@@ -26,7 +26,7 @@ Humanity’s ability to manage climate change has evolved significantly over tim
 
 ### **Mitigation Strategies**
 
-1. [**Renewable Energy Transition**](REQUIREMENTS_IN_HEALTH_STUDIES.md):
+1. [**Renewable Energy Transition**](ROMANIA.md):
    * Adoption of solar, wind, hydroelectric, and geothermal energy sources to replace fossil fuels.
 2. **Carbon Capture and Storage (CCS)**:
    * Technologies that capture CO2 emissions from industrial processes and store them underground.

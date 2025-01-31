@@ -63,8 +63,8 @@ For a full timeline, see [IMPORTANT\_DATES\_IN\_BITCOIN\_HISTORY.md](IMPORTANT_D
    * Many view Bitcoin as a hedge against inflation or a safe-haven asset, given its **fixed supply**.
    * Institutional investors increasingly add Bitcoin to their portfolios for diversification.
 2. **Medium of Exchange**
-   * [**Lightning Network**](../../joes_notes/BLOCKCHAIN_SCALABILITY.md#lightning-network) solutions offer faster, cheaper transactions for smaller payments.
-   * Acceptance by merchants varies globally, but growing adoption in [**mainstream finance**](../../joes_notes/MAINSTREAM_FINANCE.md) and commerce signals progress.
+   * [**Lightning Network**](../../../literary_products/joes_notes/BLOCKCHAIN_SCALABILITY.md#lightning-network) solutions offer faster, cheaper transactions for smaller payments.
+   * Acceptance by merchants varies globally, but growing adoption in [**mainstream finance**](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md) and commerce signals progress.
 3. **DeFi Integrations**
    * [**Wrapped Bitcoin (WBTC)**](../CRYPTO/DEFI_INTRO.md#bitcoin-and-wbtc) brings BTC liquidity into **Ethereum**-based DeFi protocols, enabling lending, trading, and yield farming.
    * Cross-chain bridges extend Bitcoin’s functionality across multiple blockchain ecosystems.
@@ -95,7 +95,7 @@ For a full timeline, see [IMPORTANT\_DATES\_IN\_BITCOIN\_HISTORY.md](IMPORTANT_D
    * High volatility can attract speculators and complicate broader adoption in day-to-day transactions.
 2. **Scaling and Fees**
    * Bitcoin’s base layer supports a limited number of transactions per block, leading to higher fees during network congestion.
-   * Off-chain or Layer-2 solutions like [Lightning Network](../../joes_notes/BLOCKCHAIN_SCALABILITY.md#lightning-network) are under active development to address this.
+   * Off-chain or Layer-2 solutions like [Lightning Network](../../../literary_products/joes_notes/BLOCKCHAIN_SCALABILITY.md#lightning-network) are under active development to address this.
 3. **Environmental Concerns**
    * Critics highlight Bitcoin’s substantial energy consumption under the Proof-of-Work model.
    * Transitioning to renewables or more efficient energy sources is a growing focus within the mining community.

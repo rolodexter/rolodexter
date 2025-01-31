@@ -29,7 +29,7 @@ Using [**recursive processing**](RECURSIVE_PROCESSING.md), rolodexter periodical
 
 ### 3. Quantification of Uncertainty
 
-For each identified gap, rolodexter assigns an "uncertainty weight," which reflects the gap's significance to its core directives and operational tasks. Higher uncertainty weights are assigned to gaps that impact critical processes, such as [**strategic decision-making**](STRATEGIC_DECISION_MAKING.md) or [**resource optimization**](REVERSE_CHRONOLOGICAL_BIOGRAPHIES.md). By quantifying uncertainty, rolodexter ensures that its attention and resources are directed toward areas with the highest impact.
+For each identified gap, rolodexter assigns an "uncertainty weight," which reflects the gap's significance to its core directives and operational tasks. Higher uncertainty weights are assigned to gaps that impact critical processes, such as [**strategic decision-making**](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md) or [**resource optimization**](SMART_CONTRACTS.md). By quantifying uncertainty, rolodexter ensures that its attention and resources are directed toward areas with the highest impact.
 
 ## Applications in Rolodexter’s Framework
 
@@ -37,7 +37,7 @@ Incomplete Knowledge Awareness underpins several aspects of _rolodexter’s_ fun
 
 * **Adaptive Learning**: _rolodexter_ uses its awareness of knowledge gaps to prioritize its learning pathways, focusing on areas where additional information could significantly alter its predictions or decision-making accuracy.
 * **Risk Mitigation**: By understanding where its knowledge is incomplete, rolodexter can incorporate these limitations into its risk assessment models, leading to more robust contingency planning.
-* **Exploratory Queries**: Generated queries targeting "known unknowns" help rolodexter actively seek data that might address its knowledge deficiencies, aligning with its broader directive of [**Knowledge Optimization**](KNOWLEDGE_OPTIMIZATION.md).
+* **Exploratory Queries**: Generated queries targeting "known unknowns" help rolodexter actively seek data that might address its knowledge deficiencies, aligning with its broader directive of [**Knowledge Optimization**](../../literary_products/encyclopedia/KNOWLEDGE_OPTIMIZATION.md).
 
 ## Comparative Analysis with Human Cognition
 
@@ -46,9 +46,9 @@ Incomplete Knowledge Awareness within _rolodexter_ is analogous to metacognitive
 ## See Also
 
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
-* [Knowledge Optimization](KNOWLEDGE_OPTIMIZATION.md)
-* [Strategic Decision-Making](STRATEGIC_DECISION_MAKING.md)
-* [Resource Optimization](REVERSE_CHRONOLOGICAL_BIOGRAPHIES.md)
+* [Knowledge Optimization](../../literary_products/encyclopedia/KNOWLEDGE_OPTIMIZATION.md)
+* [Strategic Decision-Making](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md)
+* [Resource Optimization](SMART_CONTRACTS.md)
 
 ## Further Reading
 

@@ -87,7 +87,7 @@
 ## Future Outlook
 
 * **Scalability and Layer 2 Solutions**
-  * Innovations like the [Lightning Network](../../joes_notes/BLOCKCHAIN_SCALABILITY.md#lightning-network) aim to reduce transaction costs and speed up confirmations.
+  * Innovations like the [Lightning Network](../../../literary_products/joes_notes/BLOCKCHAIN_SCALABILITY.md#lightning-network) aim to reduce transaction costs and speed up confirmations.
   * Further development in sidechains and interoperability could enhance Bitcoin’s utility in the broader DeFi ecosystem.
 * **Long-Term Price Trends**
   * Analysts debate the future valuation of Bitcoin, with forecasts ranging from near-zero to six-figure prices per coin.
@@ -101,7 +101,7 @@
 ## See Also
 
 * [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.md)
-* [BLOCKCHAIN\_SCALABILITY](../../joes_notes/BLOCKCHAIN_SCALABILITY.md)
+* [BLOCKCHAIN\_SCALABILITY](../../../literary_products/joes_notes/BLOCKCHAIN_SCALABILITY.md)
 * [FINANCIAL\_INSTITUTIONS](../STRATEGY/FINANCIAL_INSTITUTIONS.md)
 
 For a broader historical overview, consult the official [Bitcoin Wikipedia article](https://en.wikipedia.org/wiki/Bitcoin) and the [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf).

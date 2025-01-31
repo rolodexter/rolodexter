@@ -65,7 +65,7 @@
 
 ### Forward-Looking Perspectives
 
-* As [**Web3**](../../joes_notes/WEB3.md) matures, we may witness **communication standards** that inherently include **payment logic**—an **SMTP 2.0** or **HTTP 2.0** with crypto rails for subscription and micropayment capabilities.
+* As [**Web3**](../../../literary_products/joes_notes/WEB3.md) matures, we may witness **communication standards** that inherently include **payment logic**—an **SMTP 2.0** or **HTTP 2.0** with crypto rails for subscription and micropayment capabilities.
 * **Programmable money** and **cross-chain interoperability** could expand the scope of self-sustaining networks, allowing **global, permissionless** resource exchanges and collaborative funding.
 
 ***

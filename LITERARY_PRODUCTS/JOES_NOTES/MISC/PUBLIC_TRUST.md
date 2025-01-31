@@ -49,7 +49,7 @@
 
 1. **Cybersecurity Threats**
    * A single high-profile breach or exploit can erode years of trust-building.
-   * Continuous [**security audits**](../../joes_notes/BLOCKCHAIN_SECURITY.md), patch management, and user education are essential.
+   * Continuous [**security audits**](../../../literary_products/joes_notes/BLOCKCHAIN_SECURITY.md), patch management, and user education are essential.
 2. **Complexity and Accessibility**
    * Citizens may find **blockchain** or **DeFi** solutions too technical or confusing, undermining engagement.
    * User-friendly interfaces, plain-language communication, and robust support channels can help bridge the gap.

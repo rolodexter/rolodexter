@@ -151,7 +151,7 @@
 
 1. **Agile Innovation Labs**
    * Dedicated R\&D units focusing on **blockchain pilots**, AI research, or DeFi integrations.
-   * Collaborations with [**fintech disruptors**](../../joes_notes/FINTECH_INNOVATORS.md) accelerate proof-of-concepts and culture shifts.
+   * Collaborations with [**fintech disruptors**](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md) accelerate proof-of-concepts and culture shifts.
 2. **Ethical and Responsible AI**
    * Implement robust data governance, bias detection, and ethical guidelines for AI algorithms.
    * Transparent disclosures of automated decision-making processes reinforce [**public trust**](../MISC/PUBLIC_TRUST.md).
@@ -167,7 +167,7 @@
 ## See Also
 
 * [FINANCIAL\_SYSTEMS](FINANCIAL_SYSTEMS.md)
-* [FINTECH\_INNOVATORS](../../joes_notes/FINTECH_INNOVATORS.md)
+* [FINTECH\_INNOVATORS](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md)
 * [REGULATORY\_FRAMEWORKS](../MISC/REGULATORY_FRAMEWORKS.md)
 * [PUBLIC\_AGENCIES](../MISC/PUBLIC_AGENCIES.md)
 

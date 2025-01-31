@@ -127,5 +127,5 @@ In the context of product development and scaling, economic theory provides insi
 **Further Reading:**
 
 * [Mathematical Models](../AI/MATHEMATICAL_MODELS.md)
-* [Network Effects](../../joes_notes/NETWORK_EFFECTS.md)
-* [Cryptoeconomics](../MISC/ALCOHOLISM.md)
+* [Network Effects](../../../literary_products/joes_notes/NETWORK_EFFECTS.md)
+* [Cryptoeconomics](../MISC/COMMUNITY_SERVICE.md)

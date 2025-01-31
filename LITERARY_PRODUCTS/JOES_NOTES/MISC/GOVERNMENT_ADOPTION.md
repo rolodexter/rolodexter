@@ -14,14 +14,14 @@ The **adoption of** [**Bitcoin**](BITCOIN.md) **by governments** is emerging as 
 ## Key Drivers
 
 1. **Economic Diversification**
-   * Governments facing inflationary pressures or currency volatility may view Bitcoin as a [hedge against inflation](../../joes_notes/SPECULATIVE_ASSETS.md#inflation-hedge).
+   * Governments facing inflationary pressures or currency volatility may view Bitcoin as a [hedge against inflation](../../../literary_products/joes_notes/SPECULATIVE_ASSETS.md#inflation-hedge).
    * A portion of national or municipal reserves allocated to Bitcoin can potentially diversify risk, although it also introduces new forms of volatility and market exposure.
 2. **Blockchain-Based Services**
    * From [public record-keeping](PUBLIC_SERVICES.md#record-keeping) to [tax collection](../AI/GOVERNANCE_MODELS.md#tax-collection-reform), blockchain provides a foundation for transparent and tamper-evident data management.
    * Smart contracts can automate processes like disbursing benefits or validating digital identities.
 3. **Technological Modernization**
    * Governments seeking to remain competitive in a digital global economy are turning to decentralized systems.
-   * Investment in [blockchain interoperability](../../joes_notes/BLOCKCHAIN_INTEROPERABILITY.md) and [scalability solutions](../../joes_notes/BLOCKCHAIN_SCALABILITY.md) helps future-proof infrastructure against obsolescence.
+   * Investment in [blockchain interoperability](../../../literary_products/joes_notes/BLOCKCHAIN_INTEROPERABILITY.md) and [scalability solutions](../../../literary_products/joes_notes/BLOCKCHAIN_SCALABILITY.md) helps future-proof infrastructure against obsolescence.
 4. **Citizens’ Demand**
    * Younger, tech-savvy populations increasingly call for transparent governance and fintech innovations.
    * Grassroots movements advocate for decentralized systems as tools for civic engagement.
@@ -51,7 +51,7 @@ The **adoption of** [**Bitcoin**](BITCOIN.md) **by governments** is emerging as 
    * Sharp price fluctuations can complicate budget forecasts and balance-sheet stability.
    * Hedging strategies and stablecoin adoption are potential approaches to counter volatility.
 3. **Public-Private Partnerships**
-   * Governments often collaborate with [fintech disruptors](../../joes_notes/FINTECH_INNOVATORS.md) and established [financial institutions](../STRATEGY/FINANCIAL_INSTITUTIONS.md) to implement crypto-friendly infrastructure.
+   * Governments often collaborate with [fintech disruptors](../../../literary_products/joes_notes/FINTECH_INNOVATORS.md) and established [financial institutions](../STRATEGY/FINANCIAL_INSTITUTIONS.md) to implement crypto-friendly infrastructure.
    * Joint ventures can address skill gaps, streamline technology integration, and share risks.
 
 ***
@@ -74,7 +74,7 @@ The **adoption of** [**Bitcoin**](BITCOIN.md) **by governments** is emerging as 
 
 * **Scaling Solutions**
   * Innovations like the **Lightning Network** can mitigate transaction bottlenecks, making everyday public-sector usage more feasible.
-  * Layer-2 protocols and cross-chain interoperability could pave the way for seamless [DeFi in public services](../../joes_notes/DEFI_BASICS.md).
+  * Layer-2 protocols and cross-chain interoperability could pave the way for seamless [DeFi in public services](../../../literary_products/joes_notes/DEFI_BASICS.md).
 * **Mainstreaming and Normalization**
   * As more governments explore partial or full-scale Bitcoin adoption, the asset may solidify its place alongside traditional reserves like gold.
   * Clarity on tax, accounting, and governance rules will spur mainstream acceptance across multiple jurisdictions.
@@ -87,7 +87,7 @@ The **adoption of** [**Bitcoin**](BITCOIN.md) **by governments** is emerging as 
 ## See Also
 
 * [PUBLIC\_SECTOR\_ENGAGEMENT](PUBLIC_SECTOR_ENGAGEMENT.md)
-* [BLOCKCHAIN\_REGULATIONS](../../joes_notes/BLOCKCHAIN_REGULATIONS.md)
+* [BLOCKCHAIN\_REGULATIONS](../../../literary_products/joes_notes/BLOCKCHAIN_REGULATIONS.md)
 * [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.md)
 * [IMPORTANT\_DATES\_IN\_BITCOIN\_HISTORY](IMPORTANT_DATES_IN_BITCOIN_HISTORY.md)
 

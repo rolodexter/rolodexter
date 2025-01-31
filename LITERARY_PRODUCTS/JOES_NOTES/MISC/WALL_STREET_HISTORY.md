@@ -116,7 +116,7 @@
 ## Future Outlook
 
 1. **Continued Digital Transformation**
-   * Electronification of bond markets, tokenized equities, and AI-driven trading will further blur lines between [**mainstream finance**](../../joes_notes/MAINSTREAM_FINANCE.md) and **DeFi**.
+   * Electronification of bond markets, tokenized equities, and AI-driven trading will further blur lines between [**mainstream finance**](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md) and **DeFi**.
    * Heightened algorithmic complexity demands robust oversight to safeguard market integrity.
 2. **Decentralization vs. Centralization**
    * Traditional clearinghouses may integrate blockchain elements for real-time settlement.
@@ -134,7 +134,7 @@
 
 * [FINANCIAL\_INSTITUTIONS](../STRATEGY/FINANCIAL_INSTITUTIONS.md)
 * [FINANCIAL\_INNOVATION](../STRATEGY/FINANCIAL_INNOVATION.md)
-* [MAINSTREAM\_FINANCE](../../joes_notes/MAINSTREAM_FINANCE.md)
+* [MAINSTREAM\_FINANCE](../../../literary_products/joes_notes/MAINSTREAM_FINANCE.md)
 * [REGULATORY\_FRAMEWORKS](REGULATORY_FRAMEWORKS.md)
 
 For further exploration, consider historical texts (e.g., _Reminiscences of a Stock Operator_ by Edwin Lefèvre), modern accounts (e.g., _Too Big to Fail_ by Andrew Ross Sorkin), and official resources from the [New York Stock Exchange](https://www.nyse.com/) and [SEC](https://www.sec.gov/).

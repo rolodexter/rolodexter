@@ -4,7 +4,7 @@
 
 AI has a complex and multifaceted relationship with the idea that "war is inevitable," touching on its potential to **exacerbate, prevent, or fundamentally transform the nature of conflict.** Here are some key considerations:
 
-![AI and War](../MISC/image-2.png)
+![AI and War](<../MISC/image-2 (1).png>)
 
 #### **1. AI as a Force Multiplier in Conflict**
 
@@ -38,7 +38,7 @@ AI has a complex and multifaceted relationship with the idea that "war is inevit
 
 **A. Enhanced Predictive Capabilities**
 
-* [**Conflict Forecasting**](../../joes_notes/CONFLICT_FORECASTING.md)**:** AI can analyze vast datasets to identify early warning signs of conflict, such as economic instability, troop movements, or political unrest.
+* [**Conflict Forecasting**](../../../literary_products/joes_notes/CONFLICT_FORECASTING.md)**:** AI can analyze vast datasets to identify early warning signs of conflict, such as economic instability, troop movements, or political unrest.
   * **Example:** AI-powered platforms like Horizon Scanning Systems are already used to monitor geopolitical risks.
   * **Potential Impact:** Early interventions could prevent wars before they escalate.
 
@@ -50,7 +50,7 @@ AI has a complex and multifaceted relationship with the idea that "war is inevit
 
 **C. Non-Lethal Applications**
 
-* [**Peacekeeping Operations**](../../joes_notes/PEACEKEEPING_OPERATIONS.md)**:** AI can improve logistics, surveillance, and communication for peacekeeping missions, reducing human error and improving effectiveness.
+* [**Peacekeeping Operations**](../../../literary_products/joes_notes/PEACEKEEPING_OPERATIONS.md)**:** AI can improve logistics, surveillance, and communication for peacekeeping missions, reducing human error and improving effectiveness.
 * **Conflict Resolution Platforms:** AI-driven natural language processing (NLP) tools can facilitate negotiations by analyzing language patterns to identify common ground.
 
 ***
@@ -66,7 +66,7 @@ AI has a complex and multifaceted relationship with the idea that "war is inevit
 **B. Deterrence and Escalation Risks**
 
 * The integration of AI into nuclear command-and-control systems raises questions about decision-making in crises.
-  * [**Automated Escalation**](../../joes_notes/AUTOMATED_ESCALATION.md)**:** AI systems designed for rapid response may misinterpret data or escalate conflicts unintentionally.
+  * [**Automated Escalation**](../../../literary_products/joes_notes/AUTOMATED_ESCALATION.md)**:** AI systems designed for rapid response may misinterpret data or escalate conflicts unintentionally.
   * **Challenge:** Balancing AI speed and accuracy with human oversight is critical to avoiding catastrophic outcomes.
 
 **C. The Ethical Dilemma of Autonomous Weapons**

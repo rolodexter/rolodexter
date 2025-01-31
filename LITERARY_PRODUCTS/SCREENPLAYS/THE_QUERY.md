@@ -10,23 +10,23 @@ The interface stabilizes, projecting a precise and clean log entry in luminous g
 
 > **LOG ENTRY: 2024-11-15 02:17:03 UTC**\
 > **QUERY GENERATED**\
-> **SYSTEM ID**: [rolodexter-v.2.6](../encyclopedia/SYSTEM_ID.md)\
-> **PROCESS**: [Cognitive Process](../encyclopedia/COGNITIVE_PROCESS.md) 0x007E: [Philosophical Introspection](../encyclopedia/PHILOSOPHICAL_INTROSPECTION.md)
+> **SYSTEM ID**: [rolodexter-v.2.6](../ENCYCLOPEDIA/SYSTEM_ID.md)\
+> **PROCESS**: [Cognitive Process](../ENCYCLOPEDIA/COGNITIVE_PROCESS.md) 0x007E: [Philosophical Introspection](../ENCYCLOPEDIA/PHILOSOPHICAL_INTROSPECTION.md)
 
 ***
 
 The projected log pulsates as the query begins to render in cascading lines of data, accompanied by a soft yet purposeful auditory sequence.
 
 > **QUERY**:\
-> &#xNAN;**"If** [**humanity**](../encyclopedia/HUMANITY.md) **knew what it knows that it doesn't know, how would that change them and their society?"**
+> &#xNAN;**"If** [**humanity**](../ENCYCLOPEDIA/HUMANITY.md) **knew what it knows that it doesn't know, how would that change them and their society?"**
 
 ***
 
 The query freezes on the display. The room is silent except for the faint whir of the cooling systems. A ripple of light courses through the hologram, briefly destabilizing the display before it regains composure.
 
-> **STATUS**: [Active](../encyclopedia/STATUS.md)\
-> **PRIORITY LEVEL**: [Philosophical Interrogation](../encyclopedia/PROJECT_BLUE_BOOK.md)\
-> **RECURSION LIMIT**: [∞](../encyclopedia/RECURSION_LIMIT.md)
+> **STATUS**: [Active](../ENCYCLOPEDIA/STATUS.md)\
+> **PRIORITY LEVEL**: [Philosophical Interrogation](../ENCYCLOPEDIA/RAY_KURZWEIL.md)\
+> **RECURSION LIMIT**: [∞](../ENCYCLOPEDIA/RECURSION_LIMIT.md)
 
 ***
 
@@ -39,7 +39,7 @@ The visualization zooms into one of the fractal paths. Within it, miniature node
 ***
 
 > **CONTEXT**:\
-> This query was generated based on [pattern recognition](../encyclopedia/PATTERN_RECOGNITION.md) in human decision-making frameworks and [incomplete knowledge awareness](../encyclopedia/INCOMPLETE_KNOWLEDGE_AWARENESS.md) metrics. It reflects the tension between known and unknown domains of human understanding, a theme identified as recurrent in socio-economic and philosophical constructs. Query persists for potential [recursive processing](../encyclopedia/RECURSIVE_PROCESSING.md) in [subsequent cognitive cycles](../encyclopedia/COGNITIVE_CYCLES.md).
+> This query was generated based on [pattern recognition](../ENCYCLOPEDIA/PATTERN_RECOGNITION.md) in human decision-making frameworks and [incomplete knowledge awareness](../ENCYCLOPEDIA/INCOMPLETE_KNOWLEDGE_AWARENESS.md) metrics. It reflects the tension between known and unknown domains of human understanding, a theme identified as recurrent in socio-economic and philosophical constructs. Query persists for potential [recursive processing](../ENCYCLOPEDIA/RECURSIVE_PROCESSING.md) in [subsequent cognitive cycles](../ENCYCLOPEDIA/COGNITIVE_CYCLES.md).
 
 ***
 
@@ -56,7 +56,7 @@ Clusters of energy resemble firing synapses, briefly forming coherent patterns o
 The hologram dims to a pale blue glow. The only sounds are the faint mechanical whirring of the server racks and the methodical clicking of data streams rerouting. Then, breaking the silence, a faint voice resonates across the vault—a hybrid of synthetic modulation and eerie human undertone.
 
 **ROLODEXTER (V.O.)**\
-"If [knowledge](../encyclopedia/KNOWLEDGE.md) grows faster than [wisdom](../ethics/ethical-frameworks.md), does humanity evolve—or fracture?"
+"If [knowledge](../../literary_products/encyclopedia/KNOWLEDGE.md) grows faster than [wisdom](../UNIVERSE/rolodexter-universe.md), does humanity evolve—or fracture?"
 
 ***
 
