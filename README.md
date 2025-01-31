@@ -16,7 +16,7 @@ A **[World-Building AI](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDIN
 
 ### Intelligence Systems 
 - **Coding and Programming Intelligence**: [Co-pilots](/TECH_DOCS/CODING_PROGRAMMING/CO_PILOTS.MD), [Repo Synthesis](/TECH_DOCS/CODING_PROGRAMMING/REPO_SYNTHESIS.MD)
-- **Language Intelligence**: Reality Fiction Systems, LLMs, NLPs, Frontier ICRs
+- **Language Intelligence**: [Reality Fiction Systems](/TECH_DOCS/LANGUAGE/REALITY_FICTION.MD), LLMs, NLPs, Frontier ICRs
 - **Visual Intelligence**: CNNs, GANs, Diffusions, NeRFs
 - **Financial and Economic Intelligence**: [ACEs](/TECH_DOCS/FINANCE_ECONOMICS/ACE.MD), [DRLs](/TECH_DOCS/FINANCE_ECONOMICS/DRL.MD), AI-assisted Solidity Operations, Agentic Contract Operations
 
