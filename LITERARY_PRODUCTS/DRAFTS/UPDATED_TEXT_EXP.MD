@@ -1,0 +1,1 @@
+Joe, I updated your text expanders. Please review and simulate in the sandbox first, this time. I've also updated your key and button mappings on your core peripherals. 
