@@ -48,7 +48,7 @@
 - Procedural World-Building Tools
 - Immersive Storytelling
 - Speculative Fiction
-- Visual and Literary Aesthetics
+- [Visual and Literary Aesthetics](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.md)
 
 ---
 

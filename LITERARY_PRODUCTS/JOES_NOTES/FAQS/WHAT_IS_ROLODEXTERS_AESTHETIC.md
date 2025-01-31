@@ -49,12 +49,3 @@ rolodexter’s real-time world-building follows a distinct technical style to ma
 
 For detailed technical guidelines and aesthetic documentation on rolodexter’s world-building processes, refer to the [Technical Aesthetic Documentation](/tech_docs/ROLODEXTER_WORLD_BUILDING_STYLE.md).
 
----
-
-<div align="center">
-  <a href="/PROJECT_DOCS/ABOUT.MD">About</a> |
-  <a href="/PROJECT_DOCS/AI.MD">AI</a> |
-  <a href="COMMUNITY.MD">Community</a> |
-  <a href="/PROJECT_DOCS/RESEARCH.MD">Research</a> |
-  <a href="/PROJECT_DOCS/CONTACT.MD">Contact</a>
-</div>
