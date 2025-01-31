@@ -10,7 +10,7 @@ icon: hand-wave
 
 ## World-building
 
-A [**World-Building AI**](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.MD) is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments [_just in time_](TECH_DOCS/JUST_IN_TIME.MD).
+A world-building AI is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments [_just in time_](TECH_DOCS/JUST_IN_TIME.MD).
 
 <details>
 
