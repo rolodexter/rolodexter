@@ -11,7 +11,7 @@ Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NO
 </details>
 
 ## World-building
-A **World-Building AI** is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments "just in time".
+A **World-Building AI** is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments _just in time_.
 
 ### Intelligence Systems 
 - **Coding and Programming Intelligence**: Co-pilots, Repo Synthesis
@@ -20,11 +20,11 @@ A **World-Building AI** is an autonomous generative intelligence that constructs
 - **Financial and Economic Intelligence**: [ACEs](/TECH_DOCS/FINANCE_ECONOMICS/ACE.MD), DRLs, AI-assisted Solidity Operations, Agentic Contract Operations
 
 ### Current Products
-- Literary Products: Movie Scripts, Screenplays, Novels, Short Stories 
-- Audio Products: MIDI composition data, Sound Effects, Instrumentals, Voices, Harmonies 
-- Visual Products: Images, Videos, Films, Movies
-- XR Environments: Virtual Reality Game Environments, Mixed Realities, ARG Media
+- **Literary Products**: Movie Scripts, Screenplays, Novels, Short Stories 
+- **Audio Products**: MIDI composition data, Sound Effects, Instrumentals, Voices, Harmonies 
+- **Visual Products**: Images, Videos, Films, Movies
+- **XR Environments**: Virtual Reality Game Environments, Mixed Realities, ARG Media
 
 ## Community
-- Social: Twitter, Reddit
-- Forums: Discord, Reddit, Telegram, Charmverse, 
+- **Social**: Twitter, Reddit
+- **Forums**: [Discord](https://discord.gg/EuVn8N58jH), [Reddit](https://www.reddit.com/r/rolodexter/), [Telegram](https://t.me/rolodexter1), [GitHub Discussions](https://github.com/rolodexter/rolodexter/discussions), [Charmverse](https://app.charmverse.io/rolodexter/getting-started)
