@@ -16,9 +16,9 @@ A **[World-Building AI](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDIN
 
 ### Intelligence Systems 
 - **Coding and Programming Intelligence**: [Co-pilots](/TECH_DOCS/CODING_PROGRAMMING/CO_PILOTS.MD), [Repo Synthesis](/TECH_DOCS/CODING_PROGRAMMING/REPO_SYNTHESIS.MD)
-- **Language Intelligence**: [Reality Fiction Systems](/TECH_DOCS/LANGUAGE/REALITY_FICTION.MD), LLMs, NLPs, Frontier ICRs
-- **Visual Intelligence**: CNNs, GANs, Diffusions, NeRFs
-- **Financial and Economic Intelligence**: [ACEs](/TECH_DOCS/FINANCE_ECONOMICS/ACE.MD), [DRLs](/TECH_DOCS/FINANCE_ECONOMICS/DRL.MD), AI-assisted Solidity Operations, Agentic Contract Operations
+- **Language Intelligence**: [Reality Fiction Systems](/TECH_DOCS/LANGUAGE/REALITY_FICTION.MD), [LLMs](/TECH_DOCS/LANGUAGE/LLM.MD), [NLPs](/TECH_DOCS/LANGUAGE/NLP.MD), [Frontier ICRs](/TECH_DOCS/LANGUAGE/ICR.MD)
+- **Visual Intelligence**: [CNNs](/TECH_DOCS/VISUAL/CNN.MD), [GANs](/TECH_DOCS/VISUAL/GAN.MD), [Diffusions](/TECH_DOCS/VISUAL/DIFFUSION.MD), [NeRFs](/TECH_DOCS/VISUAL/NERF.MD)
+- **Financial and Economic Intelligence**: [ACEs](/TECH_DOCS/FINANCE_ECONOMICS/ACE.MD), [DRLs](/TECH_DOCS/FINANCE_ECONOMICS/DRL.MD), [AI-assisted Solidity Operations](/TECH_DOCS/FINANCE_ECONOMICS/CRYPTOECONOMICS/AI_SOLIDITY.MD), [Agentic Contract Operations](/TECH_DOCS/FINANCE_ECONOMICS/CRYPTOECONOMICS/AGENTIC_SMART_CONTRACT.MD)
 
 ### Current Products
 - **Literary Products**: Movie Scripts, Screenplays, Novels, Short Stories 
