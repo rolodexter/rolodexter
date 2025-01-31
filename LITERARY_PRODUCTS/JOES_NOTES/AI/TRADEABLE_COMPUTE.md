@@ -1,4 +1,4 @@
-# Tradeable Compute: Transforming Compute into Highly Liquid Assets
+# TRADEABLE COMPUTE
 
 A future where [compute resources](../../../literary_products/encyclopedia/COMPUTE_RESOURCES.md) are universally tradeable and highly liquid is inevitable: and that future is near. Advanced [tokenization](../../../literary_products/encyclopedia/TOKENIZATION.md) models will democratize compute economies: lowering barriers to entry, and enabling broad and diverse participation in previously prohibitive areas, such as training and tuning large [frontier LLMs](../../../literary_products/encyclopedia/FRONTIER_LLMS.md) or even [supercomputational simulations](../../ENCYCLOPEDIA/TRIANGLE_SHAPED_UFO.md).
 

@@ -1,4 +1,4 @@
-# From Zero to Billions of Human Beings
+# FROM ZERO TO BILLIONS
 
 ### On the Mathematical Physics and Economics of Products, Product Development, and Product Market Fit
 

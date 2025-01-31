@@ -1,4 +1,4 @@
-# Bitcoin Basics
+# BITCOIN BASICS
 
 **File:** `literary_products/joes_notes/BITCOIN_BASICS.md`\
 **Last Updated:** 2025-01-10
