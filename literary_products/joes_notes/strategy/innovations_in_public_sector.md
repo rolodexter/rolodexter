@@ -24,7 +24,7 @@
    * [**Regulatory frameworks**](../governance/regulatory_frameworks.md) evolve to encourage experimentation (e.g., sandboxes for government-led blockchain initiatives).
 4. **Efficiency and Cost-Reduction Mandates**
    * Budget constraints push agencies to minimize overhead, adopt automated solutions, and reduce error-prone manual processes.
-   * Innovations in [**service delivery models**](../ai/service_delivery_models.md) free up staff for strategic decision-making rather than routine tasks.
+   * Innovations in [**service delivery models**](../AI/service_delivery_models.md) free up staff for strategic decision-making rather than routine tasks.
 
 ***
 
@@ -125,7 +125,7 @@
    * Supranational bodies exploring cross-border digital IDs, interoperable stablecoins, and collaborative DeFi networks.
    * Harmonized standards reduce friction for international trade, migration, and environmental initiatives.
 4. **DAO-Driven Municipalities**
-   * Local governments adopting [**liquid democracy**](../ai/governance_models.md#liquid-democracy) or DAO-like frameworks for budget proposals, legislation, and project funding.
+   * Local governments adopting [**liquid democracy**](../AI/governance_models.md#liquid-democracy) or DAO-like frameworks for budget proposals, legislation, and project funding.
    * Fosters a new era of direct civic engagement, aligning government outputs more closely with community needs.
 
 ***
@@ -134,7 +134,7 @@
 
 * [PUBLIC\_AGENCIES](../misc/public_agencies.md)
 * [SLED\_VERTICES](../misc/sled_vertices.md)
-* [SERVICE\_DELIVERY\_MODELS](../ai/service_delivery_models.md)
+* [SERVICE\_DELIVERY\_MODELS](../AI/service_delivery_models.md)
 * [GOVERNMENT\_ADOPTION](../misc/government_adoption.md)
 
 For deeper insights, consult resources from the [World Bank](https://www.worldbank.org/) and the [UN’s Department of Economic and Social Affairs](https://www.un.org/development/desa/) on public-sector innovation and digital governance frameworks.

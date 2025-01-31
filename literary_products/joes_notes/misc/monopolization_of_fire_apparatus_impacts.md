@@ -18,7 +18,7 @@ The monopolization of emergency services is pushing [fire departments](fire_depa
 
 **The Manipulation of Supply Chains**
 
-Consolidated control over the production and supply of fire apparatus has created opportunities for monopolistic firms to manipulate [supply chains](../ai/supply_chains.md) to their advantage. These entities have restricted capacity and imposed exorbitant pricing models, using scarcity as leverage during emergencies. Such practices, especially during overlapping crises like [wildfires](../environment/wildfires.md) and pandemics, have led to municipalities competing against each other for limited resources. This competition has fostered inefficiencies and vulnerabilities in disaster preparedness and response, with devastating consequences.
+Consolidated control over the production and supply of fire apparatus has created opportunities for monopolistic firms to manipulate [supply chains](../AI/supply_chains.md) to their advantage. These entities have restricted capacity and imposed exorbitant pricing models, using scarcity as leverage during emergencies. Such practices, especially during overlapping crises like [wildfires](../environment/wildfires.md) and pandemics, have led to municipalities competing against each other for limited resources. This competition has fostered inefficiencies and vulnerabilities in disaster preparedness and response, with devastating consequences.
 
 **Systemic Risks in Complex Emergencies**
 

@@ -47,7 +47,7 @@
 #### **7. AGI as a Continuation of Foundational AI Dreams**
 
 * [**AGI’s Philosophical Roots**](agi_history.md): AGI isn’t a new concept but rather a continuation of the foundational dreams of AI pioneers to create thinking, decision-making machines. The distinction between narrow AI and AGI lies in the scope and generalizability of tasks AI can handle.
-* **Agentic AI and Natural Interactions**: The rise of [agentic AI](../../../LITERARY_PRODUCTS/JOES_NOTES/AI/AGENTIC_AI.MD)—machines that can autonomously act and collaborate with humans—brings us closer to the original vision of AI as an extension of human cognition and capability.
+* **Agentic AI and Natural Interactions**: The rise of [agentic AI](AGENTIC_AI.MD)—machines that can autonomously act and collaborate with humans—brings us closer to the original vision of AI as an extension of human cognition and capability.
 
 ***
 

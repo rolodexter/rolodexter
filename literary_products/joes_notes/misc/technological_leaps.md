@@ -32,7 +32,7 @@ A **technological leap** occurs when a new discovery, innovation, or breakthroug
 
 1. **Blockchain and Decentralization**
    * Proliferation of [**Bitcoin**](../crypto_economics/bitcoin_basics.md), [**Ethereum**](https://en.wikipedia.org/wiki/Ethereum), and **DeFi** platforms has transformed finance from centralized to community-driven ecosystems.
-   * **Immutable ledgers** and **smart contracts** open new paradigms for [**service delivery models**](../ai/service_delivery_models.md) in the public sector.
+   * **Immutable ledgers** and **smart contracts** open new paradigms for [**service delivery models**](../AI/service_delivery_models.md) in the public sector.
 2. **Machine Learning and AI**
    * Self-learning algorithms power predictive analytics, personalization, and automation across industries.
    * In government, AI-driven insights help optimize resource allocation, detect fraud, and enhance crisis response.

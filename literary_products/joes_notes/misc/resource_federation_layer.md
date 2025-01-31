@@ -1,6 +1,6 @@
 # Resource Federation Layer (RFL)
 
-The Resource Federation Layer (RFL) is a critical component of the [Exabits Protocol](../EXABITS_PROTOCOL.md), designed to optimize the allocation and utilization of diverse computational resources across a [decentralized network](../governance/decentralization.md). This layer plays a crucial role in enabling efficient [distributed computing](../DISTRIBUTED_DEVELOPMENT.md) for [AI](european_union.md) and [AGI](../ai/agi.md) development.
+The Resource Federation Layer (RFL) is a critical component of the [Exabits Protocol](../EXABITS_PROTOCOL.md), designed to optimize the allocation and utilization of diverse computational resources across a [decentralized network](../governance/decentralization.md). This layer plays a crucial role in enabling efficient [distributed computing](../DISTRIBUTED_DEVELOPMENT.md) for [AI](european_union.md) and [AGI](../AI/agi.md) development.
 
 [![Spotify Episode](https://img.shields.io/badge/Spotify-Episode-1DB954?style=for-the-badge\&logo=spotify\&logoColor=white)](https://open.spotify.com/episode/4lRZs9HKg4gj032NV0CAfr?si=-SrO2htQQdi_vngAIEz8FQ)
 
@@ -23,7 +23,7 @@ Where:
 * $$P(r_i)$$ is the [performance metric](../PERFORMANCE_METRICS.md) of resource $$r_i$$
 * $$U_{opt}(r_i)$$ is the [optimal utilization rate](../OPTIMAL_UTILIZATION.md) of resource $$r_i$$
 
-This metric is integrated into the [Price Per Compute](../ai/price_per_compute.md) model to incentivize efficient resource utilization.
+This metric is integrated into the [Price Per Compute](../AI/price_per_compute.md) model to incentivize efficient resource utilization.
 
 ## Integration with Tokenomics
 

@@ -48,7 +48,7 @@
 ## Modernizing Public Agencies
 
 1. **Administrative Efficiency**
-   * [**Service delivery models**](../ai/service_delivery_models.md) powered by blockchain can reduce paperwork, automate workflows, and create transparent audit trails.
+   * [**Service delivery models**](../AI/service_delivery_models.md) powered by blockchain can reduce paperwork, automate workflows, and create transparent audit trails.
    * [**Innovation in the public sector**](../strategy/innovations_in_public_sector.md) helps agencies adapt to citizen expectations of faster, on-demand services.
 2. **Cross-Sector Collaboration**
    * Partnerships with [**financial institutions**](../strategy/financial_institutions.md), [**tech startups**](../FINTECH_INNOVATORS.md), and [**university initiatives**](university_initiatives.md) accelerate pilot projects, R\&D, and knowledge transfer.
@@ -82,7 +82,7 @@
 ## Future Directions
 
 1. **Decentralized Governance Models**
-   * [**DAOs**](../ai/governance_models.md#decentralized-autonomous-organizations-daos) or **liquid democracy** mechanisms could reshape how agencies allocate budgets and manage public resources.
+   * [**DAOs**](../AI/governance_models.md#decentralized-autonomous-organizations-daos) or **liquid democracy** mechanisms could reshape how agencies allocate budgets and manage public resources.
    * Citizens might vote on proposals or legislation via secure digital platforms, increasing transparency and engagement.
 2. **Digital Twin Cities and Infrastructure**
    * Virtual replicas of roads, utilities, and public structures could inform real-time decision-making and predictive maintenance.

@@ -4,7 +4,7 @@
 
 #### Dear Exabits Leadership,
 
-My name is Joe Maristela, and I'm writing to express my interest in joining the [Exabits](https://drive.google.com/drive/u/0/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE) team. I [believe that humanity's](tenets.md) most essential resource— compute—can _only_ be [coordinated](../COORDINATION_FAILURE.md) at the [scale necessary to achieve AGI](../ai/agi_compute_threshold.md) through the kind of [compute financialization](henry_ford_assembly_line.md) that Exabits seems to be pursuing.
+My name is Joe Maristela, and I'm writing to express my interest in joining the [Exabits](https://drive.google.com/drive/u/0/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE) team. I [believe that humanity's](tenets.md) most essential resource— compute—can _only_ be [coordinated](../COORDINATION_FAILURE.md) at the [scale necessary to achieve AGI](../AI/agi_compute_threshold.md) through the kind of [compute financialization](henry_ford_assembly_line.md) that Exabits seems to be pursuing.
 
 > _This letter's attachments on_ [_Google Drive_](https://drive.google.com/drive/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE?usp=drive_link)
 
@@ -14,7 +14,7 @@ Based on the limited information I have as an outsider, and acknowledging that t
 
 ![Compute Access](../../../IMAGES/COMPUTE_ACCESS.png)
 
-1. [**Financialization Frameworks for Tradeable Compute**](../ai/tradeable_compute.md): I propose developing comprehensive frameworks that transform compute resources into financial instruments, making them tradeable assets. This approach not only broadens liquidity and accessibility across the global compute economy but also generates new liquidity processes and opportunities.
+1. [**Financialization Frameworks for Tradeable Compute**](../AI/tradeable_compute.md): I propose developing comprehensive frameworks that transform compute resources into financial instruments, making them tradeable assets. This approach not only broadens liquidity and accessibility across the global compute economy but also generates new liquidity processes and opportunities.
 2. [**SLA Modularization Framework for Universally Tradeable Compute**](exabits_sla_module.md): I envision creating a modular framework for [Service Level Agreements (SLAs)](broken-reference) that enables compute resources to be highly tradeable. This involves [standardizing SLA components](../STANDARDIZING_SLAs.md) such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs.
 3. [**Balancing Near-term AI-enabled Insights with Long-term Goals**](../PATH_DEPENDENCE_PRIORITIZATION.md): It's crucial to distinguish between insights that can be achieved quickly with AI and those that require long-term investment. This balance will help us align immediate objectives with strategic, long-term goals.
 4. [**Digital Transformations and Big-data Generation Events**](../DIGITAL_TRANSFORMATIONS.md): Monitoring radical digital transformations and the subsequent big-data generation is essential for understanding and predicting compute demand. By doing so, we can better allocate resources and anticipate market needs.

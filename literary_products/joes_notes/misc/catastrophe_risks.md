@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Catastrophe risks, including wildfires, floods, and earthquakes, have created a significant strain on California’s homeowners insurance market. The increasing frequency and severity of these disasters have rendered traditional risk models inadequate, leading insurers to withdraw from high-risk areas. This has left many homeowners vulnerable, driving the need for innovative approaches such as decentralized insurance platforms like [Chainproof](../ai/chainproof.md). By leveraging blockchain technology and parametric insurance models, catastrophe risks can be managed with greater efficiency and transparency.
+Catastrophe risks, including wildfires, floods, and earthquakes, have created a significant strain on California’s homeowners insurance market. The increasing frequency and severity of these disasters have rendered traditional risk models inadequate, leading insurers to withdraw from high-risk areas. This has left many homeowners vulnerable, driving the need for innovative approaches such as decentralized insurance platforms like [Chainproof](../AI/chainproof.md). By leveraging blockchain technology and parametric insurance models, catastrophe risks can be managed with greater efficiency and transparency.
 
 ***
 
@@ -106,4 +106,4 @@ Catastrophe risks, including wildfires, floods, and earthquakes, have created a 
 
 ## Conclusion
 
-The growing threat of catastrophe risks demands a paradigm shift in how insurance markets operate. Platforms like [Chainproof](../ai/chainproof.md) offer innovative solutions by leveraging blockchain technology, parametric insurance models, and decentralized risk pools. These approaches not only address the immediate challenges of affordability and accessibility but also incentivize proactive risk mitigation. Through collaboration with regulators, stakeholders, and communities, California can build a resilient insurance ecosystem capable of managing its evolving catastrophe risks.
+The growing threat of catastrophe risks demands a paradigm shift in how insurance markets operate. Platforms like [Chainproof](../AI/chainproof.md) offer innovative solutions by leveraging blockchain technology, parametric insurance models, and decentralized risk pools. These approaches not only address the immediate challenges of affordability and accessibility but also incentivize proactive risk mitigation. Through collaboration with regulators, stakeholders, and communities, California can build a resilient insurance ecosystem capable of managing its evolving catastrophe risks.

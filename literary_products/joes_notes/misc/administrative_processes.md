@@ -42,7 +42,7 @@
    * Time-stamped, tamper-evident digital records stored on-chain (e.g., property titles, academic certificates, licenses).
    * Reduces fraud and streamlines verification for [**public services**](public_services.md).
 2. **Procurement and Contract Management**
-   * Automated tender processes that enforce [**governance models**](../ai/governance_models.md) through smart contracts.
+   * Automated tender processes that enforce [**governance models**](../AI/governance_models.md) through smart contracts.
    * Minimize corruption risks, accelerate supplier onboarding, and integrate with payment systems.
 3. **Identity and Access Management**
    * Decentralized identifiers (DIDs) and identity frameworks eliminate redundant data entry across multiple agencies.
@@ -66,7 +66,7 @@
    * Address data privacy, compliance, and sovereignty concerns—particularly if [**financial systems**](../strategy/financial_systems.md) and [**asset classes**](asset_classes.md) are involved.
 4. **Pilot Projects**
    * Test new platforms in controlled settings (e.g., a single department or municipality) to gather performance data.
-   * Scale successful pilots and integrate them with [**service delivery models**](../ai/service_delivery_models.md) across the organization.
+   * Scale successful pilots and integrate them with [**service delivery models**](../AI/service_delivery_models.md) across the organization.
 5. **Ongoing Evaluation and Improvement**
    * Continuously measure outcomes (time savings, error reduction, user satisfaction) to justify further investment in [**blockchain-based systems**](../crypto_economics/bitcoin_basics.md).
    * Evolve policy and technology stacks to stay current with emerging [**financial innovation**](../strategy/financial_innovation.md) trends.
@@ -100,10 +100,10 @@
 
 ## See Also
 
-* [GOVERNANCE\_MODELS](../ai/governance_models.md)
+* [GOVERNANCE\_MODELS](../AI/governance_models.md)
 * [PUBLIC\_AGENCIES](public_agencies.md)
 * [BLOCKCHAIN\_REGULATIONS](../BLOCKCHAIN_REGULATIONS.md)
-* [SERVICE\_DELIVERY\_MODELS](../ai/service_delivery_models.md)
+* [SERVICE\_DELIVERY\_MODELS](../AI/service_delivery_models.md)
 
 For best practices and case studies, explore resources from organizations like the [World Bank](https://www.worldbank.org/) and the [OECD](https://www.oecd.org/) on e-governance and digital public administration.
 

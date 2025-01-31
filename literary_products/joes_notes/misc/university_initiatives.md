@@ -15,7 +15,7 @@
 
 1. **Curriculum Development and Research**
    * Universities are creating specialized courses on **blockchain architecture**, **smart contract programming**, and **DeFi protocol design**.
-   * Interdisciplinary research (e.g., combining economics, law, and computer science) yields valuable insights for [**governance models**](../ai/governance_models.md) and regulatory considerations.
+   * Interdisciplinary research (e.g., combining economics, law, and computer science) yields valuable insights for [**governance models**](../AI/governance_models.md) and regulatory considerations.
 2. **Startup Incubation and Accelerators**
    * Many universities host **entrepreneurial labs** and **incubator programs** that help blockchain-focused startups refine business models and connect with industry mentors.
    * Access to top-tier faculty and student talent fosters a culture of continuous innovation.
@@ -38,7 +38,7 @@
    * Capstone projects might focus on [**public services**](public_services.md) use cases, from decentralized voting to supply chain audits.
 3. **Research Collaborations**
    * Faculty-led teams partnering with industry or government sponsors to study large-scale **blockchain adoption**, **DeFi integration**, and potential **privacy enhancements**.
-   * Findings often contribute to new [**innovations in the public sector**](../strategy/innovations_in_public_sector.md) and guide future [**service delivery models**](../ai/service_delivery_models.md).
+   * Findings often contribute to new [**innovations in the public sector**](../strategy/innovations_in_public_sector.md) and guide future [**service delivery models**](../AI/service_delivery_models.md).
 4. **Hackathons and Competitions**
    * University-hosted events that bring together students, startups, and corporate sponsors to prototype solutions using [**Bitcoin**](../crypto_economics/bitcoin_basics.md) or other blockchain platforms.
    * Winning teams may receive funding or join incubator programs to refine their concepts further.
@@ -95,7 +95,7 @@
 * [SLED\_VERTICES](sled_vertices.md)
 * [PUBLIC\_SECTOR\_ENGAGEMENT](../governance/public_sector_engagement.md)
 * [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../strategy/innovations_in_public_sector.md)
-* [GOVERNANCE\_MODELS](../ai/governance_models.md)
+* [GOVERNANCE\_MODELS](../AI/governance_models.md)
 
 For real-world insights, explore university-led blockchain initiatives at [MIT Media Lab](https://www.media.mit.edu/groups/digital-currency-initiative/overview/), [Stanford Center for Blockchain Research](https://cbr.stanford.edu/), or [UC Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/).
 

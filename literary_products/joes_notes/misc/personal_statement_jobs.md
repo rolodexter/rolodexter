@@ -14,15 +14,15 @@ I'm actively seeking to pivot my career from executive leadership and management
 
 This shift allows me to apply my [systems science perspective](systems_mindset.md) and [interdisciplinary approach](interdisciplinary_connections.md) to tackle complex challenges from a new angle, combining my strategic insights with practical, technical expertise.
 
-My career blends [technical expertise](engineering.md), [strategic leadership](strategic_leadership.md), and a [systems science perspective](systems_mindset.md) to tackle complex challenges. With a proven ability to [connect interdisciplinary dots](interdisciplinary_connections.md), I deliver innovative, high-impact results across industries, from [blockchain technology](../ai/blockchain_experience.md) to [AI automation](../ai/ai_automation.md).
+My career blends [technical expertise](engineering.md), [strategic leadership](strategic_leadership.md), and a [systems science perspective](systems_mindset.md) to tackle complex challenges. With a proven ability to [connect interdisciplinary dots](interdisciplinary_connections.md), I deliver innovative, high-impact results across industries, from [blockchain technology](../AI/blockchain_experience.md) to [AI automation](../AI/ai_automation.md).
 
 ![Operational Excellence](../../../IMAGES/OPERATIONAL.png)
 
 ### Value
 
-* **Transformative Leadership**: Directed [cryptoeconomic governance models](../ai/cryptoeconomic_models.md), driving community engagement by 40%.
+* **Transformative Leadership**: Directed [cryptoeconomic governance models](../AI/cryptoeconomic_models.md), driving community engagement by 40%.
 * **Operational Excellence**: Designed and deployed [workflow automation](workflow_automation.md) frameworks, reducing inefficiencies by 25%.
-* **Innovative Solutions**: Applied [AI-driven automation](../ai/ai_automation.md) to streamline operations, increasing team productivity by measurable metrics.
+* **Innovative Solutions**: Applied [AI-driven automation](../AI/ai_automation.md) to streamline operations, increasing team productivity by measurable metrics.
 
 > See also: [_Motivations_](motivation.md)
 

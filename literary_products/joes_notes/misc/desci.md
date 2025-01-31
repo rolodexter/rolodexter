@@ -21,7 +21,7 @@ Below are highlights of notable activities and advancements in DeSci over the pa
    * **Global Participation**: Crowdfunding from diverse geographies and demographics bypasses traditional barriers (e.g., academic grants), accelerating the pace of research funding.
 3. **Development of Data Infrastructure**
    * **Federated Learning & Privacy-Preserving Tech**: Projects increasingly use [zero-knowledge proofs](../technology/zero_knowledge_proofs.md) and [homomorphic encryption](../HOMOMORPHIC_ENCRYPTION.md) to handle sensitive [patient](../strategy/economic_threshold.md) and genomic data, ensuring compliance with regulations (e.g., [GDPR](../GDPR.md), [HIPAA](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act)).
-   * **Universal Citation & Data Linking**: Multiple initiatives aim to create a decentralized [citation chain](../ai/citation_chain.md) for peer-reviewed studies, open data sets, and community-driven preprints.
+   * **Universal Citation & Data Linking**: Multiple initiatives aim to create a decentralized [citation chain](../AI/citation_chain.md) for peer-reviewed studies, open data sets, and community-driven preprints.
 4. **Integration with Traditional Academia**
    * **Hybrid Models**: Universities and research institutes increasingly explore bridging [DeFi](../crypto/defi.md) and DeSci. Some labs experiment with token-based membership to fund expansions or scholarship programs.
    * **Institutional Interest**: [Pension funds](pension_funds.md) and [sovereign wealth funds](broken-reference) show early-stage curiosity in DeSci, though legal and [regulatory environments](../governance/regulatory_environments.md) remain a major consideration.

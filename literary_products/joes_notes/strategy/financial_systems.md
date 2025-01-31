@@ -77,7 +77,7 @@
 
 1. **Public Agencies**
    * [**Public agencies**](../misc/public_agencies.md) now evaluate whether to integrate blockchain-based solutions for payments, recordkeeping, and citizen services.
-   * Adoption influences [**governance**](../ai/governance_models.md) models, promoting greater transparency and accountability.
+   * Adoption influences [**governance**](../AI/governance_models.md) models, promoting greater transparency and accountability.
 2. **Regulatory Developments**
    * As [**blockchain regulations**](../BLOCKCHAIN_REGULATIONS.md) evolve, financial systems face new rules regarding **AML/KYC** procedures and operational risk assessments.
    * [**Government adoption**](../misc/government_adoption.md) of digital assets prompts debate on monetary sovereignty, macroeconomic policy, and cross-border finance.

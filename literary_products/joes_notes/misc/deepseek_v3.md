@@ -2,7 +2,7 @@
 
 [**DeepSeek V3**](deepseek_v3.md), a cutting-edge [**artificial intelligence (AI)**](https://en.wikipedia.org/wiki/Artificial_intelligence) model developed by a Chinese company, has raised significant concerns regarding its potential implications for \[**national security**]NATIONAL\_SECURITY.mdd). While the model offers impressive capabilities in \[**language generation**]LANGUAGE\_GENERATION.mdd), \[**machine learning**]MACHINE\_LEARNING.mdd), and \[**autonomous systems**]AUTONOMOUS\_SYSTEMS.mdd), it also presents a series of risks that could undermine \[**U.S. security**]US\_SECURITY.mdd) and \[**global stability**]GLOBAL\_STABILITY.mdd).
 
-In this document, we examine the broader threats posed by [**DeepSeek**](deepseek_v3.md) and similar [**large language models (LLMs)**](../ai/large_language_models.md), particularly in terms of [**cybersecurity**](../security/cybersecurity.md), [**information warfare**](../security/information_warfare.md), [**economic espionage**](../strategy/economic_espionage.md), and [**data sovereignty**](data_sovereignty.md).
+In this document, we examine the broader threats posed by [**DeepSeek**](deepseek_v3.md) and similar [**large language models (LLMs)**](../AI/large_language_models.md), particularly in terms of [**cybersecurity**](../security/cybersecurity.md), [**information warfare**](../security/information_warfare.md), [**economic espionage**](../strategy/economic_espionage.md), and [**data sovereignty**](data_sovereignty.md).
 
 ## **Overview of DeepSeek V3**
 

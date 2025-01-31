@@ -109,5 +109,5 @@ Key principles include:
 **Further Reading:**
 
 * [Products as Interfaces](../misc/products_as_interfaces.md)
-* [Mathematical Models](../ai/mathematical_models.md)
+* [Mathematical Models](../AI/mathematical_models.md)
 * [Market Networks](../misc/market_networks.md)

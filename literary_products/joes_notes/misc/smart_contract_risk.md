@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Smart contracts are foundational to decentralized insurance solutions, enabling automated, transparent, and efficient processes for policy issuance, claims handling, and fund management. However, the security and reliability of smart contracts are paramount, particularly in high-stakes environments like California’s insurance market, where wildfire risks and regulatory complexities create significant challenges. [Chainproof](../ai/chainproof.md) addresses these challenges by combining blockchain technology, advanced cryptography, and rigorous smart contract auditing. The integration of actuarial science ensures that decentralized insurance models are both secure and financially sustainable, with global implications for risk management.
+Smart contracts are foundational to decentralized insurance solutions, enabling automated, transparent, and efficient processes for policy issuance, claims handling, and fund management. However, the security and reliability of smart contracts are paramount, particularly in high-stakes environments like California’s insurance market, where wildfire risks and regulatory complexities create significant challenges. [Chainproof](../AI/chainproof.md) addresses these challenges by combining blockchain technology, advanced cryptography, and rigorous smart contract auditing. The integration of actuarial science ensures that decentralized insurance models are both secure and financially sustainable, with global implications for risk management.
 
 ***
 
@@ -129,4 +129,4 @@ Smart contracts are foundational to decentralized insurance solutions, enabling 
 
 ## Conclusion
 
-Smart contract risk management is critical for the success of decentralized insurance models, particularly in high-risk markets like California. By leveraging blockchain, advanced cryptography, and actuarial science, [Chainproof](../ai/chainproof.md) provides secure, transparent, and scalable solutions that redefine risk management. These innovations address immediate challenges while setting a precedent for global insurance modernization.
+Smart contract risk management is critical for the success of decentralized insurance models, particularly in high-risk markets like California. By leveraging blockchain, advanced cryptography, and actuarial science, [Chainproof](../AI/chainproof.md) provides secure, transparent, and scalable solutions that redefine risk management. These innovations address immediate challenges while setting a precedent for global insurance modernization.

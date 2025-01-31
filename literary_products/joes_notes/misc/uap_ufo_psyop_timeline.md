@@ -24,7 +24,7 @@ This timeline illustrates how the U.S. government's engagement with UAPs and UFO
 
 ## **1980s**
 
-* **1981**: The [**Bennewitz Affair**](../ai/bennewitz_affair.md) occurs, where the U.S. Air Force Office of Special Investigations (AFOSI) engages in a targeted psyop against Paul Bennewitz, feeding him false information about extraterrestrial activity and secret military projects to divert his attention from actual classified operations.
+* **1981**: The [**Bennewitz Affair**](../AI/bennewitz_affair.md) occurs, where the U.S. Air Force Office of Special Investigations (AFOSI) engages in a targeted psyop against Paul Bennewitz, feeding him false information about extraterrestrial activity and secret military projects to divert his attention from actual classified operations.
 
 ## **1990s**
 

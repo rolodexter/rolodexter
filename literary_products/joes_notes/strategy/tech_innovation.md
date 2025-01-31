@@ -102,7 +102,7 @@
    * Immersive virtual environments overlaid with tokenized assets and DeFi services.
    * Raises questions about identity, property rights, and cross-platform interoperability.
 2. **DAO-Governed Platforms**
-   * [**Decentralized autonomous organizations (DAOs)**](../ai/governance_models.md#decentralized-autonomous-organizations-daos) expand beyond fintech, managing social communities, supply chains, and possibly entire municipalities.
+   * [**Decentralized autonomous organizations (DAOs)**](../AI/governance_models.md#decentralized-autonomous-organizations-daos) expand beyond fintech, managing social communities, supply chains, and possibly entire municipalities.
    * Could reshape traditional hierarchical governance structures in both public and private spheres.
 3. **Post-Quantum Security**
    * As quantum computing matures, cryptographic standards must adapt.
@@ -117,7 +117,7 @@
 
 * [CRYPTOGRAPHY\_BASICS](../crypto/cryptography_basics.md)
 * [FINANCIAL\_SYSTEMS](financial_systems.md)
-* [GOVERNANCE\_MODELS](../ai/governance_models.md)
+* [GOVERNANCE\_MODELS](../AI/governance_models.md)
 * [INNOVATIONS\_IN\_PUBLIC\_SECTOR](innovations_in_public_sector.md)
 
 For further insights, consider exploring the [OECD's innovation policy studies](https://www.oecd.org/innovation/) or the [MIT Technology Review](https://www.technologyreview.com/) for regular analysis on emerging tech trends.

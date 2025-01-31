@@ -152,4 +152,4 @@ Marc Andreessen famously described PMF as:
 
 * [Network Effects](../NETWORK_EFFECTS.md)
 * [Market Networks](market_networks.md)
-* [Mathematical Models](../ai/mathematical_models.md)
+* [Mathematical Models](../AI/mathematical_models.md)

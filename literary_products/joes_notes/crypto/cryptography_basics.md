@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Cryptography** is the science of securing information by transforming it into an unintelligible format (encryption) that can only be read or processed by intended recipients (decryption). In the context of [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**decentralized finance (DeFi)**](../DEFI_BASICS.md), cryptography underpins the trustless environment—ensuring data integrity, transaction authenticity, and protection against unauthorized access. Modern cryptographic systems combine **mathematical** and **computational** techniques to safeguard digital assets, enable [**governance models**](../ai/governance_models.md), and support advanced features like **zero-knowledge proofs**.
+**Cryptography** is the science of securing information by transforming it into an unintelligible format (encryption) that can only be read or processed by intended recipients (decryption). In the context of [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**decentralized finance (DeFi)**](../DEFI_BASICS.md), cryptography underpins the trustless environment—ensuring data integrity, transaction authenticity, and protection against unauthorized access. Modern cryptographic systems combine **mathematical** and **computational** techniques to safeguard digital assets, enable [**governance models**](../AI/governance_models.md), and support advanced features like **zero-knowledge proofs**.
 
 ***
 
@@ -63,7 +63,7 @@
    * **Zero-Knowledge** technology allows transactions or identity checks to be verified without disclosing sensitive data.
    * Facilitates compliance in regulatory-heavy sectors (e.g., healthcare, government) while protecting individual privacy.
 4. **Decentralized Governance Models**
-   * [**DAOs**](../ai/governance_models.md#decentralized-autonomous-organizations-daos) often employ cryptographic voting systems to decide protocol upgrades or fund allocations.
+   * [**DAOs**](../AI/governance_models.md#decentralized-autonomous-organizations-daos) often employ cryptographic voting systems to decide protocol upgrades or fund allocations.
    * Direct democracy approaches like **liquid democracy** also rely on secure key pairs and cryptographic proofs.
 
 ***
@@ -98,7 +98,7 @@
 * [BITCOIN\_BASICS](../crypto_economics/bitcoin_basics.md)
 * [DEFI\_BASICS](../DEFI_BASICS.md)
 * [FINANCIAL\_SYSTEMS](../strategy/financial_systems.md)
-* [GOVERNANCE\_MODELS](../ai/governance_models.md)
+* [GOVERNANCE\_MODELS](../AI/governance_models.md)
 
 Additional resources can be found in the [NIST Computer Security Resource Center](https://csrc.nist.gov/) and the [IACR (International Association for Cryptologic Research)](https://www.iacr.org/).
 

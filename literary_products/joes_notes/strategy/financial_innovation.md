@@ -103,7 +103,7 @@
 
 1. **Programmable Money**
    * Smart contracts attached to digital currencies (e.g., CBDCs) can automate everything from tax collection to consumer rebates.
-   * Could reshape public finance, [**governance models**](../ai/governance_models.md), and compliance enforcement.
+   * Could reshape public finance, [**governance models**](../AI/governance_models.md), and compliance enforcement.
 2. **Cross-Chain Liquidity**
    * Interoperable blockchains enable seamless flow of assets and data, unlocking globally unified capital markets.
    * Higher liquidity leads to more stable markets, tighter spreads, and broader participation.

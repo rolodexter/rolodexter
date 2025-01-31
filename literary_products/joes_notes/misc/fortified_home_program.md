@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Fortified Home Program, developed by the Insurance Institute for Business & Home Safety (IBHS), is a critical initiative aimed at reducing property damage from natural disasters through resilient building practices. While effective, its impact has been limited by the challenges of scaling, incentivizing adoption, and integrating with traditional insurance models. [Chainproof](../ai/chainproof.md) can revolutionize the program by leveraging blockchain, cryptography, and zero-knowledge proofs (ZKPs) to create transparent, scalable, and incentivized insurance alternatives. This approach addresses California’s insurance crisis while establishing a replicable framework with global implications.
+The Fortified Home Program, developed by the Insurance Institute for Business & Home Safety (IBHS), is a critical initiative aimed at reducing property damage from natural disasters through resilient building practices. While effective, its impact has been limited by the challenges of scaling, incentivizing adoption, and integrating with traditional insurance models. [Chainproof](../AI/chainproof.md) can revolutionize the program by leveraging blockchain, cryptography, and zero-knowledge proofs (ZKPs) to create transparent, scalable, and incentivized insurance alternatives. This approach addresses California’s insurance crisis while establishing a replicable framework with global implications.
 
 ***
 
@@ -145,4 +145,4 @@ The Fortified Home Program, developed by the Insurance Institute for Business & 
 
 ## Conclusion
 
-The Fortified Home Program is a critical initiative for enhancing resilience in disaster-prone areas, but its full potential remains untapped. By integrating blockchain, cryptography, and zero-knowledge proofs, [Chainproof](../ai/chainproof.md) transforms the program into a scalable, incentivized, and transparent model. These advancements address immediate challenges in California’s insurance market while establishing a blueprint for global climate adaptation and disaster resilience.
+The Fortified Home Program is a critical initiative for enhancing resilience in disaster-prone areas, but its full potential remains untapped. By integrating blockchain, cryptography, and zero-knowledge proofs, [Chainproof](../AI/chainproof.md) transforms the program into a scalable, incentivized, and transparent model. These advancements address immediate challenges in California’s insurance market while establishing a blueprint for global climate adaptation and disaster resilience.

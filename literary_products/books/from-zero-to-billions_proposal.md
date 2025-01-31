@@ -10,7 +10,7 @@
 
 ### **Book Hook**
 
-How do some products grow from obscure prototypes to become indispensable to billions of people? This book reveals how [**products are interfaces between human beings**](../joes_notes/misc/products_as_interfaces.md), designed to solve problems, create connections, and facilitate interactions. It also explores how [**markets**](../joes_notes/misc/market_networks.md) function as graph-theoretical and social networking schemas that distribute these interfaces across populations. By combining insights from [**physics**](../joes_notes/physics/physics_inspired_management.md), [**mathematics**](../joes_notes/ai/mathematical_models.md), and [**economics**](../joes_notes/strategy/economic_theory.md), _From Zero to Billions of Human Beings_ provides a rigorous yet accessible framework for understanding product development, scaling, and achieving [**product-market fit (PMF)**](../joes_notes/misc/product_market_fit.md).
+How do some products grow from obscure prototypes to become indispensable to billions of people? This book reveals how [**products are interfaces between human beings**](../joes_notes/misc/products_as_interfaces.md), designed to solve problems, create connections, and facilitate interactions. It also explores how [**markets**](../joes_notes/misc/market_networks.md) function as graph-theoretical and social networking schemas that distribute these interfaces across populations. By combining insights from [**physics**](../joes_notes/physics/physics_inspired_management.md), [**mathematics**](../JOES_NOTES/AI/mathematical_models.md), and [**economics**](../joes_notes/strategy/economic_theory.md), _From Zero to Billions of Human Beings_ provides a rigorous yet accessible framework for understanding product development, scaling, and achieving [**product-market fit (PMF)**](../joes_notes/misc/product_market_fit.md).
 
 ### **Brief Description**
 
@@ -22,7 +22,7 @@ In _From Zero to Billions of Human Beings_, Joe Maristela introduces a groundbre
 
 The book also introduces the **commodification curve**, which illustrates how products evolve from differentiation to commodification as markets mature. This framework reveals strategies to escape stagnation through disruptive innovation, ecosystem building, and network-driven growth.
 
-Drawing on Maristela’s expertise in [**cryptoeconomics**](../joes_notes/misc/global_stocktake.md), [**mathematical modeling**](../joes_notes/ai/mathematical_models.md), and decentralized systems, the book demystifies the journey from a single user to billions—offering actionable insights for [**entrepreneurs**](../joes_notes/ENTREPRENEURSHIP.md), engineers, investors, and academics.
+Drawing on Maristela’s expertise in [**cryptoeconomics**](../joes_notes/misc/global_stocktake.md), [**mathematical modeling**](../JOES_NOTES/AI/mathematical_models.md), and decentralized systems, the book demystifies the journey from a single user to billions—offering actionable insights for [**entrepreneurs**](../joes_notes/ENTREPRENEURSHIP.md), engineers, investors, and academics.
 
 ***
 
@@ -44,7 +44,7 @@ Drawing on Maristela’s expertise in [**cryptoeconomics**](../joes_notes/misc/g
 
 ### **Why This Book Fills a Gap**
 
-Most product-development books focus either on anecdotal advice or academic theory. _From Zero to Billions_ bridges this gap by showing how formal principles of [**physics-like laws**](../joes_notes/physics/physics_inspired_management.md), [**mathematical modeling**](../joes_notes/ai/mathematical_models.md), and [**economic frameworks**](../joes_notes/strategy/economic_theory.md) can directly inform [**lean startup methodologies**](../joes_notes/LEAN_STARTUP.md), [**PMF**](../joes_notes/misc/product_market_fit.md) strategies, and navigating the **commodification curve**.
+Most product-development books focus either on anecdotal advice or academic theory. _From Zero to Billions_ bridges this gap by showing how formal principles of [**physics-like laws**](../joes_notes/physics/physics_inspired_management.md), [**mathematical modeling**](../JOES_NOTES/AI/mathematical_models.md), and [**economic frameworks**](../joes_notes/strategy/economic_theory.md) can directly inform [**lean startup methodologies**](../joes_notes/LEAN_STARTUP.md), [**PMF**](../joes_notes/misc/product_market_fit.md) strategies, and navigating the **commodification curve**.
 
 ***
 

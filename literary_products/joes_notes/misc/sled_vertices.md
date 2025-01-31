@@ -55,7 +55,7 @@ With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockc
    * Municipal or district-level **bond issuance** via decentralized finance platforms can lower costs and democratize investment opportunities.
    * [**Bitcoin adoption**](../BITCOIN_ADOPTION.md) in treasury management could act as a hedge or a novel funding mechanism for public projects.
 3. **Interoperability and Shared Services**
-   * SLED agencies can collaborate on shared IT infrastructure (e.g., a common identity framework), reducing overhead and [**service delivery**](../ai/service_delivery_models.md) complexities.
+   * SLED agencies can collaborate on shared IT infrastructure (e.g., a common identity framework), reducing overhead and [**service delivery**](../AI/service_delivery_models.md) complexities.
    * Joint procurement strategies benefit from bulk discounts and standardized technology implementations.
 4. **Educational Transformation**
    * [**Education institutions**](university_initiatives.md) can adopt blockchain-based credentialing, making it easier to verify degrees and transcripts.
@@ -81,7 +81,7 @@ With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockc
    * Start with small-scale pilots before extending solutions across multiple departments or districts.
    * Gather feedback and refine systems iteratively to ensure stakeholder buy-in.
 2. **Policy Alignment**
-   * Work closely with [**governance**](../ai/governance_models.md) bodies to establish frameworks that protect data privacy and comply with existing regulations.
+   * Work closely with [**governance**](../AI/governance_models.md) bodies to establish frameworks that protect data privacy and comply with existing regulations.
    * Advocate for new legislation when needed to accommodate **emerging technologies**.
 3. **Cross-Agency Collaboration**
    * Foster alliances between different levels of government (e.g., county, city, school district) to share resources and knowledge.

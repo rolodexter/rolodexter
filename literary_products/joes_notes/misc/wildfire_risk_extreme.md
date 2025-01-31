@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Wildfires in California, particularly in high-risk areas such as Los Angeles, demand advanced risk assessment tools to address the escalating homeowners insurance crisis. The _Wildfire Risk Extreme_ (WRE) database is a conceptual framework for integrating real-time data with blockchain-based systems to enable dynamic, transparent, and actionable wildfire risk management. This database could serve as a cornerstone for decentralized insurance models, like those offered by [Chainproof](../ai/chainproof.md), to support innovative alternatives to traditional insurance products.
+Wildfires in California, particularly in high-risk areas such as Los Angeles, demand advanced risk assessment tools to address the escalating homeowners insurance crisis. The _Wildfire Risk Extreme_ (WRE) database is a conceptual framework for integrating real-time data with blockchain-based systems to enable dynamic, transparent, and actionable wildfire risk management. This database could serve as a cornerstone for decentralized insurance models, like those offered by [Chainproof](../AI/chainproof.md), to support innovative alternatives to traditional insurance products.
 
 ***
 
