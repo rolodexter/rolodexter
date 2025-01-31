@@ -1,2 +1,0 @@
-# LITERARY\_PRODUCTS
-
