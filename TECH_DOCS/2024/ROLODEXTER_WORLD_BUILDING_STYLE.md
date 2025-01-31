@@ -1,6 +1,4 @@
-# ROLODEXTER WORLD-BUILDING STYLE
-
-## Introduction
+# WORLD-BUILDING STYLE
 
 rolodexter’s world-building style is a synthesis of adaptive technologies, modular design principles, and artistic depth. Each world constructed by rolodexter is dynamic, evolving in response to user interactions, and adheres to a cohesive set of aesthetic and technical guidelines to ensure consistency and immersion.
 
@@ -47,7 +45,7 @@ rolodexter builds worlds as interconnected modules that dynamically adapt and in
 
 #### Visual Reference: Aesthetic Moodboard
 
-The following moodboard illustrates the core visual style that informs rolodexter’s world-building. Inspired by brutalist architecture, high-contrast manga visuals (e.g., **Blame!**), and modular design principles, this moodboard serves as a reference for contributors working on procedural generation, character design, and environmental detailing.
+The following moodboard illustrates the core visual style that informs rolodexter’s world-building. Inspired by brutalist architecture, high-contrast manga visuals (e.g., **[Blame!](https://www.reddit.com/r/rolodexter/comments/1ie91ra/is_there_any_cyberpunk_technoir_similar_to_the/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)**), and modular design principles, this moodboard serves as a reference for contributors working on procedural generation, character design, and environmental detailing.
 
 ![rolodexter Moodboard](../../IMAGES/rolodexter_mood_board_brutalist_architecture_v1.png)
 
