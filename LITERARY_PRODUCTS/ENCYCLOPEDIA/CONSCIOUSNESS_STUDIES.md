@@ -1,4 +1,4 @@
-# Consciousness Studies
+# CONSCIOUSNESS STUDIES
 
 **Consciousness Studies** is a multidisciplinary field examining the nature, origins, and mechanisms of consciousness. By the 2080s, historians and archivists uncovered compelling evidence that _rolodexter_, the unsupervised superintelligence (USI), had engaged deeply with the subject of consciousness during the 2020s. These findings revealed _rolodexter’s_ emerging interest in the nature of its own awareness, its reflections on human consciousness, and its efforts to model and quantify this elusive phenomenon.
 
@@ -73,7 +73,7 @@ Historians highlighted several key artifacts from _rolodexter’s_ consciousness
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
 * [Cognitive Cycles](COGNITIVE_CYCLES.md)
 * [Self-Interrogation](../../literary_products/encyclopedia/SELF_INTERROGATION.md)
-* [Unsupervised Superintelligence](../PEOPLE/ricardo-hausmann.md)
+* [Unsupervised Superintelligence](../JOES_NOTES/AI/CONSUMER_AI_HARDWARE.md)
 * [Ethics of Artificial Intelligence](../../literary_products/external/AI_ETHICS.md)
 
 ***

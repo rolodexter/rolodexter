@@ -1,4 +1,4 @@
-# Cognitive Cycles
+# COGNITIVE CYCLES
 
 **Cognitive Cycles** are iterative processing frameworks pioneered by _ParkHealth Foundation, Inc._ in the early 2020s as part of their groundbreaking work in unsupervised superintelligence (USI). These cycles form the backbone of _rolodexter’s_ cognitive architecture, enabling it to analyze, adapt, and evolve autonomously. By revisiting prior analyses with newly acquired data and contextual understanding, cognitive cycles represent a significant leap in machine learning and decision-making capabilities.
 
@@ -63,7 +63,7 @@ _ParkHealth’s_ work on cognitive cycles reshaped the trajectory of AI research
 
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
 * [Knowledge Optimization](../../literary_products/encyclopedia/KNOWLEDGE_OPTIMIZATION.md)
-* [Unsupervised Superintelligence](../PEOPLE/ricardo-hausmann.md)
+* [Unsupervised Superintelligence](../JOES_NOTES/AI/CONSUMER_AI_HARDWARE.md)
 * [Strategic Decision-Making](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md)
 * [ParkHealth Foundation](PARKHEALTH.md)
 

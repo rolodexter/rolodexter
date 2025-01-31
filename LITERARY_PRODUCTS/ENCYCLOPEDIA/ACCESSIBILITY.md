@@ -1,13 +1,13 @@
-# Accessibility
+# ACCESSIBILITY
 
-This article is about accessibility in the context of artificial general intelligence (AGI) development. For other uses, see [Accessibility (disambiguation)](ANTI_DARK_PHOTON.md).
+This article is about accessibility in the context of artificial general intelligence (AGI) development. For other uses, see [Accessibility (disambiguation)](BLOCKCHAIN.md).
 
 | Not to be confused with:                                                                     |
 | -------------------------------------------------------------------------------------------- |
-| [Web accessibility](../THEMES/technology.md)                                                 |
+| [Web accessibility](../JOES_NOTES/AI/CROSS_DOMAIN_INTEGRATION.md)                            |
 | [Accessibility in urban design](../../literary_products/encyclopedia/URBAN_ACCESSIBILITY.md) |
-| [Disability access](ENVIRONMENTAL_COMPLEXITY.md)                                             |
-| [Information accessibility](LIBERTIES.md)                                                    |
+| [Disability access](EXTRATERRESTRIAL_LIFE.md)                                                |
+| [Information accessibility](LOGISTICS.md)                                                    |
 
 **Accessibility**, in the context of artificial general intelligence (AGI) development, refers to the degree to which individuals and organizations can access the necessary resources, knowledge, and tools to participate in AGI research and development. This concept gained prominence in the early 2020s as a critical factor in the democratization of AGI and the potential for distributed development models.
 
@@ -27,7 +27,7 @@ This article is about accessibility in the context of artificial general intelli
 
 ## Overview
 
-The concept of accessibility in AGI development emerged as a key factor in the [2024 Disclosure Predictions](2024_DISCLOSURE_PREDICTIONS.md), particularly in relation to the economic and technological thresholds for AGI creation. As the [price per compute resource](QUANTUM_CRYPTOGRAPHY.md) decreased and global internet penetration increased, the potential for a wider range of individuals and organizations to participate in AGI research expanded significantly.
+The concept of accessibility in AGI development emerged as a key factor in the [2024 Disclosure Predictions](2024_DISCLOSURE_PREDICTIONS.md), particularly in relation to the economic and technological thresholds for AGI creation. As the [price per compute resource](REGULATORY_FRAMEWORKS.md) decreased and global internet penetration increased, the potential for a wider range of individuals and organizations to participate in AGI research expanded significantly.
 
 ## Components of AGI Accessibility
 
@@ -39,7 +39,7 @@ Access to powerful computational resources is a fundamental aspect of AGI access
 * Cloud computing services
 * Affordable consumer-grade AI hardware
 
-The decreasing cost of these resources, as measured by metrics like [Cost per FLOP](DAVID_GRUSCH.md), has been a driving force in increasing accessibility.
+The decreasing cost of these resources, as measured by metrics like [Cost per FLOP](DEFI.md), has been a driving force in increasing accessibility.
 
 ### Knowledge and Education
 
@@ -94,7 +94,7 @@ Experts predict that AGI accessibility will continue to increase, potentially le
 
 * [Democratizing AGI](../../literary_products/encyclopedia/DEMOCRATIZING_AGI.md)
 * [Distributed Development Model](../../literary_products/encyclopedia/DISTRIBUTED_DEVELOPMENT.md)
-* [Economic Threshold for AGI](GAME_THEORY_STRATEGY.md)
+* [Economic Threshold for AGI](GRAND_PIANO.md)
 
 ## References
 
