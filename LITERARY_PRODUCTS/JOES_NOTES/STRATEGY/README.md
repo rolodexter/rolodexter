@@ -1,2 +1,2 @@
-# STRATEGY
+# strategy
 
