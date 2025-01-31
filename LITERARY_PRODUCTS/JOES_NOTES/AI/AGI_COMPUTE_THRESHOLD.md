@@ -17,7 +17,7 @@ The [economic threshold](../MISC/DISC_SHAPED_UFO.md) for AGI development is heav
 The scale component of the threshold refers to the percentage of the human population that has access to the necessary compute resources at the target price point. This is a critical factor in [democratizing AGI development](../MISC/COST_OF_LIVING_ADJUSTMENT.md) and can be measured by:
 
 * [**Global Internet Penetration**](../MISC/FUSION.md): As more people gain access to high-speed internet, the potential pool of AGI researchers and developers expands.
-* [**Availability of Consumer-Grade AI Hardware**](../MISC/AARO.md): The proliferation of AI-capable hardware in consumer devices increases the potential for distributed AGI development.
+* [**Availability of Consumer-Grade AI Hardware**](../MISC/AARO.MD): The proliferation of AI-capable hardware in consumer devices increases the potential for distributed AGI development.
 * [**Education and Skill Distribution**](../MISC/DISINFORMATION.md): The number of individuals with the necessary skills to work on AGI projects is growing globally.
 
 ### Implications of This Refined Threshold Concept

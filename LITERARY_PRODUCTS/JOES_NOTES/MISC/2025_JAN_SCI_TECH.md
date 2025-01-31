@@ -12,7 +12,7 @@ The [United Nations](../STRATEGY/ECONOMICS.md) has declared 2025 as the [Interna
 
 ## Consumer Electronics Show (CES) 2025
 
-[CES 2025](AATIP.md), one of the world's largest and most influential technology events, is scheduled for January 7-10, 2025, in [Las Vegas, Nevada](LIFESTYLE_FACTORS.md). This event typically showcases cutting-edge innovations across various tech sectors.
+[CES 2025](AATIP.MD), one of the world's largest and most influential technology events, is scheduled for January 7-10, 2025, in [Las Vegas, Nevada](LIFESTYLE_FACTORS.md). This event typically showcases cutting-edge innovations across various tech sectors.
 
 ## Medical Advancements
 
@@ -23,7 +23,7 @@ The [U.S. Food and Drug Administration (FDA)](EVOLUTIONARY_LEAP.md) is expected 
 Several important scientific conferences are scheduled for January 2025:
 
 1. [Advanced Therapies Week 2025](../AI/CROSS_DOMAIN_INTEGRATION.md) (January 20-23, 2025, in [Dallas, Texas](CONSCIOUSNESS.md))
-2. [Translating Targeted Therapies in Combination with Radiotherapy](../PHYSICS/QUANTUM_VACUUM.md) (January 26-29, 2025, in [San Diego, California](../../../literary_products/joes_notes/SAN_DIEGO.md))
+2. [Translating Targeted Therapies in Combination with Radiotherapy](../PHYSICS/QUANTUM_VACUUM.MD) (January 26-29, 2025, in [San Diego, California](../../../literary_products/joes_notes/SAN_DIEGO.md))
 
 These conferences will likely showcase the latest advancements in their respective fields.
 

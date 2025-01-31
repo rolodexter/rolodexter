@@ -34,7 +34,7 @@ Where $$D$$ represents the degree of decentralization in each aspect.
 Exabits' platform demonstrates several elements that contribute to the decentralization makeup:
 
 1. [**Hybrid Infrastructure**](HYBRID_INFRASTRUCTURE.md): Combining enterprise-grade GPUs in Tier-3/4 data centers with consumer-grade GPUs at edge nodes\[1].
-2. [**Tokenization**](../PHYSICS/QUANTUM_FIELD_EXTRACTION.md): EGPU tokens enable fractional ownership of compute resources, broadening participation\[3].
+2. [**Tokenization**](../PHYSICS/QUANTUM_FIELD.MD): EGPU tokens enable fractional ownership of compute resources, broadening participation\[3].
 3. [**Global Network**](../../../literary_products/joes_notes/GLOBAL_NETWORK.md): Integration of over 65,000 GPUs worldwide during private beta, indicating geographic dispersion\[1].
 4. [**Resource Federation Layer (RFL)**](RESOURCE_FEDERATION_LAYER.md): Bridges diverse hardware types, promoting architectural diversity\[2].
 5. [**DAO Governance**](../../../literary_products/joes_notes/DAO_GOVERNANCE.md): Stakeholders participate in decision-making through on-chain voting mechanisms\[4].
@@ -48,7 +48,7 @@ Exabits' platform demonstrates several elements that contribute to the decentral
 
 ### Challenges and Considerations
 
-1. [**Coordination Complexity**](ALCOHOLISM.md): Highly decentralized systems may face challenges in coordinating large-scale AGI projects.
+1. [**Coordination Complexity**](ALCOHOLISM.MD): Highly decentralized systems may face challenges in coordinating large-scale AGI projects.
 2. [**Performance Trade-offs**](../../../literary_products/joes_notes/PERFORMANCE_TRADEOFFS.md): Balancing decentralization with the need for high-performance compute clusters required for advanced AI models.
 3. [**Regulatory Navigation**](../../../literary_products/joes_notes/REGULATORY_NAVIGATION.md): Decentralized systems must navigate varying regulatory landscapes across different jurisdictions.
 4. [**Security Concerns**](../../../literary_products/joes_notes/SECURITY_CONCERNS.md): Ensuring the integrity and security of AGI development in a decentralized environment presents unique challenges.

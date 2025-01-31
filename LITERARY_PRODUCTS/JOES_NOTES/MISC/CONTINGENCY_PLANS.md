@@ -1,6 +1,6 @@
 # CONTINGENCY\_PLANS
 
-Contingency planning is a critical component of my personal and professional life. It involves preparing for unforeseen events and ensuring that I can respond effectively to challenges that may arise. By practicing [contingency planning](ADVANCED_THERAPIES_WEEK.md), I not only safeguard my immediate interests but also create a framework for [resilience](SCHUMPETER.md) throughout my lifetime.
+Contingency planning is a critical component of my personal and professional life. It involves preparing for unforeseen events and ensuring that I can respond effectively to challenges that may arise. By practicing [contingency planning](ADVANCED_THERAPIES_WEEK.MD), I not only safeguard my immediate interests but also create a framework for [resilience](SCHUMPETER.md) throughout my lifetime.
 
 #### Daily Contingency Planning
 
@@ -50,7 +50,7 @@ Long-term financial planning is essential for ensuring stability throughout my l
 Contingency planning also extends to how I wish to be remembered and the impact I want to leave behind:
 
 * **Estate Planning**: Creating a will and discussing my wishes with loved ones to ensure that my assets are managed according to my intentions.
-* **Community Engagement**: Involving myself in [community service](../CRYPTO/TOKENIZATION.md) or mentorship programs, contributing positively to society while building a legacy of support and knowledge-sharing.
+* **Community Engagement**: Involving myself in [community service](../CRYPTO/TOKENIZATION.MD) or mentorship programs, contributing positively to society while building a legacy of support and knowledge-sharing.
 
 #### The Importance of Contingency Planning
 
