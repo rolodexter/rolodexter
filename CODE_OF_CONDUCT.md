@@ -8,11 +8,11 @@ This Code of Conduct outlines the principles and expectations that all contribut
 
 <summary>FAQs</summary>
 
-1. [What is World-Building AI?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.md)
-2. [Who or what is rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.md)
-3. [How is rolodexter being used today?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.md)
-4. [Who is building rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.md)
-5. [What is rolodexter’s literary and visual aesthetic?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.md)
+1. [What is World-Building AI?](literary_products/joes_notes/faqs/what_is_world_building_ai.md)
+2. [Who or what is rolodexter?](literary_products/joes_notes/faqs/what_is_rolodexter.md)
+3. [How is rolodexter being used today?](literary_products/joes_notes/faqs/how_is_rolodexter_being_used.md)
+4. [Who is building rolodexter?](literary_products/joes_notes/faqs/who_is_building_rolodexter.md)
+5. [What is rolodexter’s literary and visual aesthetic?](literary_products/joes_notes/faqs/what_is_rolodexters_aesthetic.md)
 
 </details>
 
@@ -50,6 +50,6 @@ rolodexter is an experiment in the fusion of AI, storytelling, and decentralized
 
 <summary>Learn More</summary>
 
-[About](LITERARY_PRODUCTS/DATA/vehicle-accidents.md) | [AI](PROJECT_DOCS/) | [Community](LITERARY_PRODUCTS/ENCYCLOPEDIA/AI.md) | [Research](LITERARY_PRODUCTS/ENCYCLOPEDIA/AI_AVATAR_INTERACTIONS.md) | [Contact](LITERARY_PRODUCTS/ENCYCLOPEDIA/AI_AND_BIG_DATA.md)
+[About](broken-reference) | [AI](PROJECT_DOCS/) | [Community](broken-reference) | [Research](broken-reference) | [Contact](broken-reference)
 
 </details>
