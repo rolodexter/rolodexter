@@ -1,2 +1,0 @@
-# NUCLEAR\_POWER
-

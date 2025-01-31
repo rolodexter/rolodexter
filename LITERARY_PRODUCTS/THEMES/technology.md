@@ -1,2 +1,0 @@
-# WEB\_ACCESSIBILITY
-

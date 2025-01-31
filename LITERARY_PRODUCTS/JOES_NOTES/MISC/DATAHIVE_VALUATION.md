@@ -1,2 +1,0 @@
-# DISC\_SHAPED\_UFO
-

@@ -1,2 +1,0 @@
-# THE\_MEANING\_OF\_BITCOIN
-

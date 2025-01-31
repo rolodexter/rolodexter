@@ -1,2 +1,0 @@
-# PAUL\_BENNEWITZ
-

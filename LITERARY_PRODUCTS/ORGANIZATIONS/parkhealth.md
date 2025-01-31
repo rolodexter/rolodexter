@@ -1,2 +1,0 @@
-# UNLIT\_FIREPLACE
-

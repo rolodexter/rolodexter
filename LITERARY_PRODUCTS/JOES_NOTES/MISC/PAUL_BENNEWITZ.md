@@ -1,2 +1,0 @@
-# OZONE\_HOLE
-

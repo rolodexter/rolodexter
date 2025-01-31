@@ -1,2 +1,0 @@
-# CLOUD\_PROVIDERS
-

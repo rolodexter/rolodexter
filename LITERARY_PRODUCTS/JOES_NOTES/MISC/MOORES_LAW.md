@@ -1,2 +1,0 @@
-# MICROSOFT\_AZURE
-

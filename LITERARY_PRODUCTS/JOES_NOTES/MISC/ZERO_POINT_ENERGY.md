@@ -1,2 +1,0 @@
-# SVANTE\_ARRHENIUS
-

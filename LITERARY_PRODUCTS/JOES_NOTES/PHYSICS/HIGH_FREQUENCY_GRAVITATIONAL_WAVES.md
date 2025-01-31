@@ -1,2 +1,0 @@
-# TECHNICAL\_WRITING
-

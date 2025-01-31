@@ -1,2 +1,0 @@
-# EUROPEAN\_UNION
-

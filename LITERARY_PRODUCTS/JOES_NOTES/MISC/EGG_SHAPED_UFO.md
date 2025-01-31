@@ -1,2 +1,0 @@
-# ELECTRIC\_VEHICLES
-

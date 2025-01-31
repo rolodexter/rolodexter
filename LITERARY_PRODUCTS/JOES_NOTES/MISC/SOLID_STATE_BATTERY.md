@@ -1,2 +1,0 @@
-# SCALABLE\_SYSTEMS
-

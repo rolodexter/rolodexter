@@ -1,2 +1,0 @@
-# SCIENCE\_LANDSCAPE
-
