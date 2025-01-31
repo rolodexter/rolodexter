@@ -44,7 +44,7 @@ A [personbyte](personbyte.md), a concept introduced by [César Hidalgo](../JOES_
 
 [**Coordination Solutions**](../systems/coordination-solutions.md)
 
-* Enables [collective intelligence](collective-intelligence.md) emergence
+* Enables [collective intelligence](COLLECTIVE_INTELLIGENCE.MD) emergence
 * Supports [complementary skill development](complementary-skills.md)
 * Optimizes [group learning dynamics](group-learning.md)
 

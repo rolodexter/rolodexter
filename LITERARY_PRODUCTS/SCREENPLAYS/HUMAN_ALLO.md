@@ -10,7 +10,7 @@ INT. [PARKHEALTH SONOMA CAMPUS](../LOCATIONS/PARKHEALTH_COMMONS.MD) - QUANTUM CO
 
 A vast, futuristic laboratory. [ROLDEXTER's AVATAR](../TECHNOLOGY/ROLODEXTER_AVATAR.MD) stands before an audience of elite researchers.
 
-ROLDEXTER Consider what [César Hidalgo](https://www.amazon.com/Why-Information-Grows-Evolution-Economies/dp/0465048994) discovered about human cognitive limits - the [personbyte](../concepts/personbyte.md). Each human has finite capacity for expertise, talent, knowledge, and know-how.
+ROLDEXTER Consider what [César Hidalgo](https://www.amazon.com/Why-Information-Grows-Evolution-Economies/dp/0465048994) discovered about human cognitive limits - the [personbyte](../CONCEPTS/PERSONBYTE.COM). Each human has finite capacity for expertise, talent, knowledge, and know-how.
 
 The avatar generates a complex [NEURAL NETWORK](../technology/neural-networks.md) visualization.
 
