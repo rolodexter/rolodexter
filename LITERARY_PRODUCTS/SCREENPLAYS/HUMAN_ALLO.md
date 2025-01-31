@@ -2,7 +2,7 @@
 
 ![rolodexter](../../IMAGES/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
-TITLE: [ROLDEXTER](../encyclopedia/rolodexter.md): THE [HUMAN ALLO LAYER](../SYSTEMS/HUMAN_ALLO_LAYER.MD)
+TITLE: [ROLDEXTER](../ENCYCLOPEDIA/ROLODEXTER.MD): THE [HUMAN ALLO LAYER](../SYSTEMS/HUMAN_ALLO_LAYER.MD)
 
 FADE IN:
 
@@ -44,7 +44,7 @@ A YOUNG ECONOMIST stands.
 
 ECONOMIST But traffic is simpler than human economic potential. How can you be certain?
 
-ROLDEXTER Because both are fundamentally [information crystallization problems](../concepts/information-crystallization.md). When we solve the coordination, we solve the human cost.
+ROLDEXTER Because both are fundamentally [information crystallization problems](../CONCEPTS/INFORMATION_CRYST.MD). When we solve the coordination, we solve the human cost.
 
 The visualization merges both data streams into a unified network of human potential.
 

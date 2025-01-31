@@ -4,7 +4,7 @@
 
 ## Overview
 
-A [personbyte](personbyte.md), a concept introduced by [César Hidalgo](../JOES_NOTES/STRATEGY/ECONOMIC_THRESHOLD.md) and [Ricardo Hausmann](../JOES_NOTES/STRATEGY/INNOVATION.md), represents the [finite cognitive capacity](cognitive-capacity.md) of an individual human being. This measurement unit is intrinsically linked to both [time constraints](time-constraints.md) and [neuroplasticity](../science/neuroplasticity.md), forming a complex interplay between [human potential](human-potential.md) and limitations.
+A [personbyte](personbyte.md), a concept introduced by [César Hidalgo](../JOES_NOTES/STRATEGY/ECONOMIC_THRESHOLD.md) and [Ricardo Hausmann](../JOES_NOTES/STRATEGY/INNOVATION.md), represents the [finite cognitive capacity](COG_CAPACITY.MD) of an individual human being. This measurement unit is intrinsically linked to both [time constraints](time-constraints.md) and [neuroplasticity](../science/neuroplasticity.md), forming a complex interplay between [human potential](human-potential.md) and limitations.
 
 ## Core Components
 

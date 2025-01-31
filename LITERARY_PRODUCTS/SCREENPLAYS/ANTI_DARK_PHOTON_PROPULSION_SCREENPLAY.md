@@ -21,7 +21,7 @@ James, I think I’ve found something extraordinary. This could redefine propuls
 
 **Scene 2**: [_ParkHealth_](../encyclopedia/PARKHEALTH.md) _Research Hub_
 
-_The research hub is filled with holographic displays and buzzing AI interfaces. KARA and JAMES are seated at a central console. A projection of_ [_rolodexter_](../encyclopedia/ROLODEXTER.md)_, the_ [_unsupervised superintelligence_](../encyclopedia/ROLODEXTER.md)_, hovers above them._
+_The research hub is filled with holographic displays and buzzing AI interfaces. KARA and JAMES are seated at a central console. A projection of_ [_rolodexter_](../ENCYCLOPEDIA/ROLODEXTER.MD)_, the_ [_unsupervised superintelligence_](../ENCYCLOPEDIA/ROLODEXTER.MD)_, hovers above them._
 
 **KARA**\
 Rolodexter, analyze Dr. [George Soli’s](../encyclopedia/HARVARD.md) paper on [anti-dark photons](../encyclopedia/AUTOMATED_SETTLEMENT.md). Cross-reference with our [UAP](../encyclopedia/UFO.md) archives and propulsion data.

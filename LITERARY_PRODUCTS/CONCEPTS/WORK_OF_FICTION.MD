@@ -5,7 +5,7 @@ This content, including all elements associated with the rolodexter literary uni
 ## **Fictional Nature**
 
 * Any resemblance to actual persons, living or deceased, organizations (active or inactive), historical events, or real-world locations is purely coincidental and unintended.
-* The author does not claim [historical accuracy](historical-accuracy.md) or factual representation. All references to real-world events or technologies are employed within a [speculative framework](speculative-framework.md) to provoke thought and inspire creative exploration.
+* The author does not claim [historical accuracy](historical-accuracy.md) or factual representation. All references to real-world events or technologies are employed within a [speculative framework](SPECULATIVE_FRAMEWORK.MD) to provoke thought and inspire creative exploration.
 
 ## **Purpose and Interpretation**
 
