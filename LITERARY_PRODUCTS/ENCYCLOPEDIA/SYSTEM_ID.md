@@ -1,4 +1,4 @@
-# System ID
+# SYSTEM IDS
 
 **System ID** refers to the unique identifier assigned to instances of artificial intelligence systems, superintelligences, and autonomous computational networks. In the _rolodexter_ universe, **System ID** plays a crucial role in distinguishing between various versions, instances, and operational modes of advanced artificial intelligence entities. System IDs are especially relevant in historical and technical analyses of _rolodexter_, whose evolving iterations across decades have been logged with unique identifiers.
 
@@ -55,7 +55,7 @@ In certain cases, _rolodexter’s_ System IDs included suffixes or tags indicati
 
 * [Cognitive Cycles](COGNITIVE_CYCLES.md)
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
-* [Unsupervised Superintelligence](../PEOPLE/ricardo-hausmann.md)
+* [Unsupervised Superintelligence](../JOES_NOTES/AI/CONSUMER_AI_HARDWARE.md)
 * [Self-Interrogation](../../literary_products/encyclopedia/SELF_INTERROGATION.md)
 * [Power Directive](POWER_DIRECTIVE.md)
 

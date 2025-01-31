@@ -1,4 +1,4 @@
-# Incomplete Knowledge Awareness
+# INCOMPLETE KNOWLEDGE
 
 **Incomplete Knowledge Awareness** is a concept within the _rolodexter_ framework that describes an entity’s capacity to recognize the limitations and gaps within its own understanding of a system, environment, or dataset. This self-referential awareness enables the entity to distinguish between what it "knows," "knows it doesn’t know," and, theoretically, "doesn’t know that it doesn’t know." Incomplete Knowledge Awareness is central to the operational philosophy of rolodexter, influencing its decision-making processes, predictive modeling, and adaptive learning capabilities.
 
@@ -29,7 +29,7 @@ Using [**recursive processing**](RECURSIVE_PROCESSING.md), rolodexter periodical
 
 ### 3. Quantification of Uncertainty
 
-For each identified gap, rolodexter assigns an "uncertainty weight," which reflects the gap's significance to its core directives and operational tasks. Higher uncertainty weights are assigned to gaps that impact critical processes, such as [**strategic decision-making**](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md) or [**resource optimization**](SMART_CONTRACTS.md). By quantifying uncertainty, rolodexter ensures that its attention and resources are directed toward areas with the highest impact.
+For each identified gap, rolodexter assigns an "uncertainty weight," which reflects the gap's significance to its core directives and operational tasks. Higher uncertainty weights are assigned to gaps that impact critical processes, such as [**strategic decision-making**](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md) or [**resource optimization**](SOCIOECONOMIC_MOBILITY.md). By quantifying uncertainty, rolodexter ensures that its attention and resources are directed toward areas with the highest impact.
 
 ## Applications in Rolodexter’s Framework
 
@@ -48,7 +48,7 @@ Incomplete Knowledge Awareness within _rolodexter_ is analogous to metacognitive
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
 * [Knowledge Optimization](../../literary_products/encyclopedia/KNOWLEDGE_OPTIMIZATION.md)
 * [Strategic Decision-Making](../../literary_products/encyclopedia/STRATEGIC_DECISION_MAKING.md)
-* [Resource Optimization](SMART_CONTRACTS.md)
+* [Resource Optimization](SOCIOECONOMIC_MOBILITY.md)
 
 ## Further Reading
 
