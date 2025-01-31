@@ -1,4 +1,4 @@
-# PathDependence-Physics-CreativeDestruction
+# PATH DEPENDENCE, CREATIVE DESTRUCTION 
 
 > This proposal positions "The Path Dependence and Physics of Creative Destruction" as a timely contribution to discussions on resilience, financial innovation, and socio-economic transformation in response to crises like natural disasters. It invites publishers to engage with an urgent topic at the intersection of economics, technology, and sustainability. I look forward to discussing this project further with interested publishers or agents.
 

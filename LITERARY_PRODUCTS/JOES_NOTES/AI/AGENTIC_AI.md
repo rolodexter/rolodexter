@@ -1,4 +1,4 @@
-# Agentic AI: The Next Evolution in Artificial Intelligence
+# AGENTIC AI
 
 **Agentic AI** refers to artificial intelligence systems capable of autonomous action, decision-making, and goal-oriented behaviors in dynamic environments. By imbuing AI with agency, these systems transition from passive tools to active collaborators, significantly expanding their potential applications while raising critical ethical and technical challenges.
 

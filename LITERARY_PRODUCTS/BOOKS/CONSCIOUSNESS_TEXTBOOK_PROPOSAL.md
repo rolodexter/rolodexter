@@ -1,4 +1,4 @@
-# Foundations and Frontiers of Consciousness: A Comprehensive Curriculum
+# FOUNDATIONS AND FRONTIERS OF CONSCIOUSNESS
 
 **Author:**  
 Joe Maristela  

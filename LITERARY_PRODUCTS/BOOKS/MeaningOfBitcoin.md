@@ -1,4 +1,4 @@
-# The Meaning of Bitcoin
+# MEANING OF BITCOIN
 
 Through _The Meaning of Bitcoin_, public-sector leaders, educators, technologists, and investors can gain both **tactical knowledge** and **strategic foresight** to harness Bitcoin’s potential effectively. The book’s timely insights and comprehensive scope position it as an **indispensable resource** for anyone committed to guiding the next era of decentralized, transparent, and innovative public services.
 
