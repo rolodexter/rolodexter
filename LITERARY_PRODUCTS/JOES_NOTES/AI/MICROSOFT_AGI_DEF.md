@@ -18,7 +18,7 @@ The agreement between [Microsoft](../MISC/MONTREAL_PROTOCOL.md) and [OpenAI](../
 
 [OpenAI](../MISC/OVERTIME_ELIGIBILITY.md) faces significant obstacles in reaching the $100 billion profit benchmark:
 
-* Current Revenue Status: The company's [2023](C3_AI.md) projected annual revenue was approximately $1 billion, primarily from [ChatGPT](../../../literary_products/joes_notes/CHATGPT.md) and [API](../../../literary_products/joes_notes/API.md) services
+* Current Revenue Status: The company's [2023](C3_AI.MD) projected annual revenue was approximately $1 billion, primarily from [ChatGPT](../../../literary_products/joes_notes/CHATGPT.md) and [API](../../../literary_products/joes_notes/API.md) services
 * Market Challenges: Intense competition in the [AI](ARTIFICIAL_INTELLIGENCE.md) market and substantial development costs
 * Strategic Balance: Need to maintain equilibrium between research ambitions and sustainable growth
 * Operational Considerations: Managing development costs while addressing ethical and regulatory requirements
