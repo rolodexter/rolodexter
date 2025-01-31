@@ -67,7 +67,7 @@ The belief that war is inevitable is rooted in a combination of [**scientific re
 While many philosophers and military scientists argue for the inevitability of war, others reject this:
 
 * [**Liberalism in International Relations**](LIBERALISM_IR.md) argues that cooperation, institutions, and interdependence can mitigate or prevent war.
-* [**Constructivist Theories**](../../../literary_products/joes_notes/misc/2024.md) suggest that war is a social construct, not an inevitability, and can be reshaped by changing norms and identities.
+* [**Constructivist Theories**](2024.md) suggest that war is a social construct, not an inevitability, and can be reshaped by changing norms and identities.
 * [**Pacifism and Humanistic Philosophy**](../../../literary_products/joes_notes/PACIFISM_HUMANISTIC.md) emphasize moral progress and the capacity of humanity to transcend violence through reason and ethics.
 
 ***

@@ -4,7 +4,7 @@
 
 The vast, empty grand hall of the [Atherton estate](../ENCYCLOPEDIA/CONSENT_NODES.md) looms in silence. [Vaulted ceilings](../../literary_products/encyclopedia/VAULTED_CEILINGS.md) stretch overhead, their shadows deepening the room's eerie and oppressive grandeur.
 
-In the center, a [grand piano](../ENCYCLOPEDIA/INFORMATION_ACCESSIBILITY.md) rests under a faint sliver of moonlight streaming through tall windows. Plush chairs and sofas encircle a [cold, unlit fireplace](../../literary_products/organizations/parkhealth.md), untouched and shrouded in dust—a relic of a bygone era. Particles of dust drift lazily in the dim light, settling onto the surfaces of forgotten opulence.
+In the center, a [grand piano](../ENCYCLOPEDIA/INFORMATION_ACCESSIBILITY.md) rests under a faint sliver of moonlight streaming through tall windows. Plush chairs and sofas encircle a [cold, unlit fireplace](../ORGANIZATIONS/parkhealth.md), untouched and shrouded in dust—a relic of a bygone era. Particles of dust drift lazily in the dim light, settling onto the surfaces of forgotten opulence.
 
 ![Atherton Estate Interior](../../IMAGES/ATHERTON_ESTATE_INTERIOR.png)
 

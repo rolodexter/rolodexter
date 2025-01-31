@@ -30,7 +30,7 @@ ROLDEXTER The system is built on [ethical frameworks](../people/cesar-hidalgo.md
 
 The visualization shifts to show two parallel data streams: one showing [vehicle accident statistics](../encyclopedia/AI.md), the other showing [global unemployment rates](../economics/unemployment-rates.md).
 
-ROLDEXTER (CONT'D) Consider this parallel: [AI autopilot systems](../../literary_products/joes_notes/strategy/structural_economic_institutions.md) will soon dramatically decrease vehicle-related deaths worldwide. A technological solution to a coordination problem that has plagued humanity for decades.
+ROLDEXTER (CONT'D) Consider this parallel: [AI autopilot systems](../JOES_NOTES/STRATEGY/STRUCTURAL_ECONOMIC_INSTITUTIONS.md) will soon dramatically decrease vehicle-related deaths worldwide. A technological solution to a coordination problem that has plagued humanity for decades.
 
 The first data stream shows accident rates plummeting.
 

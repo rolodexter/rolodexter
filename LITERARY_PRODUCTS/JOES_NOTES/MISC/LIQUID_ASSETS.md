@@ -18,7 +18,7 @@ In the context of careers, **liquid careers** share similar properties, enabling
 ### Examples of Liquid Assets
 
 * Cash or cash equivalents (e.g., savings accounts, [money market instruments](MONEY_MARKET_INSTRUMENTS.md)).
-* Publicly traded securities (e.g., [stocks](STOCKS.md), [ETFs](../../../literary_products/joes_notes/misc/electromagnetic_gravity_coupling.md)).
+* Publicly traded securities (e.g., [stocks](STOCKS.md), [ETFs](ELECTROMAGNETIC_GRAVITY_COUPLING.md)).
 * [Government bonds](GOVERNMENT_BONDS.md) or highly rated corporate bonds.
 
 ***
@@ -40,7 +40,7 @@ Liquid careers exhibit the same traits of marketability, predictability, and eas
 
 * [Consulting](CONSULTING.md) (e.g., [McKinsey](../../../literary_products/joes_notes/MCKINSEY.md), [BCG](BCG.md)).
 * [Investment banking](INVESTMENT_BANKING.md) (e.g., [Goldman Sachs](GOLDMAN_SACHS.md)).
-* [Software engineering](SOFTWARE_ENGINEERING.md) roles at major tech firms (e.g., [Google](../../../literary_products/joes_notes/GOOGLE.md), [Microsoft](../../../literary_products/joes_notes/misc/montreal_protocol.md)).
+* [Software engineering](SOFTWARE_ENGINEERING.md) roles at major tech firms (e.g., [Google](../../../literary_products/joes_notes/GOOGLE.md), [Microsoft](MONTREAL_PROTOCOL.md)).
 
 ***
 

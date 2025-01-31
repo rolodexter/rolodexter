@@ -5,14 +5,14 @@ This timeline illustrates how the U.S. government's engagement with UAPs and UFO
 ## **1940s**
 
 * **1947**:
-  * [**Roswell Incident**](../../../literary_products/joes_notes/misc/slas.md): An object crashes in New Mexico, initially reported by the military as a "flying disc." The subsequent retraction, claiming it was a weather balloon, serves as an early example of government [**disinformation**](../../../literary_products/joes_notes/misc/decentralized_infrastructure.md) aimed at managing public perception.
-* **1948**: The U.S. Air Force initiates [**Project Sign**](../../../literary_products/joes_notes/misc/pyramid_shaped_ufo.md) to investigate UFO sightings, which includes an internal report suggesting some sightings may indicate extraterrestrial origins. The report is dismissed, reflecting a pattern of minimizing public concern.
+  * [**Roswell Incident**](SLAs.md): An object crashes in New Mexico, initially reported by the military as a "flying disc." The subsequent retraction, claiming it was a weather balloon, serves as an early example of government [**disinformation**](DECENTRALIZED_INFRASTRUCTURE.md) aimed at managing public perception.
+* **1948**: The U.S. Air Force initiates [**Project Sign**](PYRAMID_SHAPED_UFO.md) to investigate UFO sightings, which includes an internal report suggesting some sightings may indicate extraterrestrial origins. The report is dismissed, reflecting a pattern of minimizing public concern.
 
 ## **1950s**
 
 * **1952**:
-  * [**Washington D.C. UFO Incident**](broken-reference): Multiple sightings lead to heightened public interest and concern. The CIA's [**Robertson Panel**](../../../literary_products/joes_notes/misc/security.md) advises debunking UFO reports to prevent mass hysteria, marking a strategic use of disinformation.
-* **1953**: The CIA encourages the Air Force to use [**Project Blue Book**](../../../literary_products/joes_notes/misc/psychology.md) as a means of publicly discrediting UFO sightings while simultaneously covering up advanced military projects.
+  * [**Washington D.C. UFO Incident**](broken-reference): Multiple sightings lead to heightened public interest and concern. The CIA's [**Robertson Panel**](SECURITY.md) advises debunking UFO reports to prevent mass hysteria, marking a strategic use of disinformation.
+* **1953**: The CIA encourages the Air Force to use [**Project Blue Book**](PSYCHOLOGY.md) as a means of publicly discrediting UFO sightings while simultaneously covering up advanced military projects.
 
 ## **1960s**
 
@@ -32,7 +32,7 @@ This timeline illustrates how the U.S. government's engagement with UAPs and UFO
 
 ## **2000s**
 
-* **2007**: The establishment of the [**Advanced Aerospace Threat Identification Program (AATIP)**](../../../literary_products/joes_notes/ai/consumer_ai_hardware.md) reflects ongoing government interest in UAPs but also suggests continued secrecy and potential disinformation regarding the nature of these phenomena.
+* **2007**: The establishment of the [**Advanced Aerospace Threat Identification Program (AATIP)**](../AI/CONSUMER_AI_HARDWARE.md) reflects ongoing government interest in UAPs but also suggests continued secrecy and potential disinformation regarding the nature of these phenomena.
 
 ## **2010s**
 
@@ -43,7 +43,7 @@ This timeline illustrates how the U.S. government's engagement with UAPs and UFO
 * **2021**:
   * The Office of the Director of National Intelligence (ODNI) releases a preliminary assessment on UAPs, acknowledging numerous sightings but failing to provide conclusive evidence or transparency about their origins.
 * **2022**:
-  * The establishment of the [**All-domain Anomaly Resolution Office (AARO)**](../../../literary_products/joes_notes/ai/compute_finance.md) aims to consolidate UAP investigations across military branches but faces criticism for lack of transparency and ongoing disinformation practices.
+  * The establishment of the [**All-domain Anomaly Resolution Office (AARO)**](../AI/COMPUTE_FINANCE.md) aims to consolidate UAP investigations across military branches but faces criticism for lack of transparency and ongoing disinformation practices.
 * **2023**:
   * Whistleblower [**David Grusch**](../../../literary_products/joes_notes/DAVID_GRUSCH.md) testifies before Congress alleging that the government possesses non-human spacecraft and has engaged in reverse-engineering efforts. His claims highlight ongoing concerns about disinformation campaigns aimed at managing public belief in extraterrestrial life.
   * Reports indicate that government officials continue to dismiss credible witness accounts while promoting narratives that align with established psyops strategies.

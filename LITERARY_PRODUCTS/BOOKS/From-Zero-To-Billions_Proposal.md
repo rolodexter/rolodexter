@@ -16,13 +16,13 @@ How do some products grow from obscure prototypes to become indispensable to bil
 
 In _From Zero to Billions of Human Beings_, Joe Maristela introduces a groundbreaking interdisciplinary approach to product development. The book synthesizes three powerful perspectives:
 
-1. **Physics-like process management:** Understanding bottlenecks, throughput, and constraints in [**product creation**](../../literary_products/joes_notes/misc/protocol_openness.md) as analogous to physical systems governed by laws like [**Little’s Law**](../../literary_products/joes_notes/LITTLES_LAW.md) and [**Kingman’s Formula**](../../literary_products/joes_notes/KINGMANS_FORMULA.md).
+1. **Physics-like process management:** Understanding bottlenecks, throughput, and constraints in [**product creation**](../JOES_NOTES/MISC/PROTOCOL_OPENNESS.md) as analogous to physical systems governed by laws like [**Little’s Law**](../../literary_products/joes_notes/LITTLES_LAW.md) and [**Kingman’s Formula**](../../literary_products/joes_notes/KINGMANS_FORMULA.md).
 2. **Mathematical modeling:** Using tools like [**Quality Function Deployment (QFD)**](../../literary_products/joes_notes/QUALITY_FUNCTION_DEPLOYMENT.md), graph theory, and predictive analytics to optimize [**product design**](../../literary_products/joes_notes/PRODUCT_DESIGN.md) and distribution.
 3. **Economics and market dynamics:** Viewing [**markets**](../../literary_products/joes_notes/MARKET_DYNAMICS.md) as dynamic graphs where products propagate through nodes (people) and edges (transactions), leveraging [**network effects**](../../literary_products/joes_notes/NETWORK_EFFECTS.md) to scale interfaces globally.
 
 The book also introduces the **commodification curve**, which illustrates how products evolve from differentiation to commodification as markets mature. This framework reveals strategies to escape stagnation through disruptive innovation, ecosystem building, and network-driven growth.
 
-Drawing on Maristela’s expertise in [**cryptoeconomics**](../../literary_products/joes_notes/misc/community_service.md), [**mathematical modeling**](../JOES_NOTES/AI/MATHEMATICAL_MODELS.md), and decentralized systems, the book demystifies the journey from a single user to billions—offering actionable insights for [**entrepreneurs**](../../literary_products/joes_notes/ENTREPRENEURSHIP.md), engineers, investors, and academics.
+Drawing on Maristela’s expertise in [**cryptoeconomics**](../JOES_NOTES/MISC/COMMUNITY_SERVICE.md), [**mathematical modeling**](../JOES_NOTES/AI/MATHEMATICAL_MODELS.md), and decentralized systems, the book demystifies the journey from a single user to billions—offering actionable insights for [**entrepreneurs**](../../literary_products/joes_notes/ENTREPRENEURSHIP.md), engineers, investors, and academics.
 
 ***
 
@@ -50,7 +50,7 @@ Most product-development books focus either on anecdotal advice or academic theo
 
 ## 3. Author Bio
 
-**Joe Maristela** is an entrepreneur, investor, and writer whose interdisciplinary work spans [**mathematics**](../../literary_products/joes_notes/MATHEMATICS.md), [**cryptoeconomics**](../../literary_products/joes_notes/misc/community_service.md), decentralized systems, and technology. His contributions include:
+**Joe Maristela** is an entrepreneur, investor, and writer whose interdisciplinary work spans [**mathematics**](../../literary_products/joes_notes/MATHEMATICS.md), [**cryptoeconomics**](../JOES_NOTES/MISC/COMMUNITY_SERVICE.md), decentralized systems, and technology. His contributions include:
 
 * [**Blockchain & Cryptoeconomics Publications**](../../literary_products/joes_notes/BLOCKCHAIN_AND_CRYPTOECONOMICS.md)**:** Articles for [CoinDesk](https://www.coindesk.com) exploring [**token incentives**](../../literary_products/joes_notes/TOKEN_INCENTIVES.md) and decentralized technologies in business models.
 * **Academic Research:** SSRN papers such as “[Mathematical Modeling in UFO Disclosure](../../literary_products/joes_notes/MATHEMATICAL_MODELING.md),” which demonstrate his expertise in applying rigorous frameworks to novel topics.

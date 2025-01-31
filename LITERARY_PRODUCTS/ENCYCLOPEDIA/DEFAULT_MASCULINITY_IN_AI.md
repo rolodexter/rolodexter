@@ -61,7 +61,7 @@ By the mid-2030s, efforts to reform the language used to describe _rolodexter_ g
 * [Androcentrism](CODE.md)
 * [Gender-Neutral Language](HUGGING_FACE_DATASETS.md)
 * [Anthropomorphism in AI](COMPUTE.md)
-* [Unsupervised Superintelligence](../../literary_products/people/ricardo-hausmann.md)
+* [Unsupervised Superintelligence](../PEOPLE/ricardo-hausmann.md)
 * [Ethics of Artificial Intelligence](CIGAR_SHAPED_UFO.md)
 
 ## Further Reading

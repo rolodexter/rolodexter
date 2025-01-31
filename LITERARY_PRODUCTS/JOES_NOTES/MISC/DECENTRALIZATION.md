@@ -8,13 +8,13 @@ Decentralization refers to the process of distributing and delegating decision-m
 
 Decentralized systems enable more efficient information flow by reducing bottlenecks and single points of failure. Key aspects include:
 
-1. [**Distributed Decision-Making**](../../../literary_products/joes_notes/misc/global_stocktake.md):
+1. [**Distributed Decision-Making**](GLOBAL_STOCKTAKE.md):
    * Decisions are made locally or by smaller groups rather than relying on a central authority.
    * This reduces latency in communication and allows for faster responses to dynamic conditions.
-2. [**Redundancy and Parallelism**](../../../literary_products/joes_notes/misc/solid_state_battery.md):
+2. [**Redundancy and Parallelism**](SOLID_STATE_BATTERY.md):
    * Information flows through multiple pathways, ensuring that no single node becomes a critical failure point.
    * Parallel processing in decentralized computational systems mirrors this principle.
-3. [**Resilience to Disruptions**](../../../literary_products/joes_notes/misc/schumpeter.md):
+3. [**Resilience to Disruptions**](SCHUMPETER.md):
    * Decentralized systems can continue functioning even if parts of the network fail, as information can reroute through alternative paths.
 4. [**Emergent Behavior**](../../../literary_products/joes_notes/EMERGENT_BEHAVIOR.md):
    * Decentralized networks often exhibit emergent properties where the collective intelligence of the system exceeds the sum of its parts.

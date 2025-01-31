@@ -1,0 +1,2 @@
+# GLOBAL\_STOCKTAKE
+

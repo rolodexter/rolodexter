@@ -4,18 +4,18 @@
 
 #### Dear Exabits Leadership,
 
-My name is Joe Maristela, and I'm writing to express my interest in joining the [Exabits](https://drive.google.com/drive/u/0/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE) team. I [believe that humanity's](TENETS.md) most essential resource— compute—can _only_ be [coordinated](../../../literary_products/joes_notes/COORDINATION_FAILURE.md) at the [scale necessary to achieve AGI](../AI/AGI_COMPUTE_THRESHOLD.md) through the kind of [compute financialization](../../../literary_products/joes_notes/history/eastern_philosophy.md) that Exabits seems to be pursuing.
+My name is Joe Maristela, and I'm writing to express my interest in joining the [Exabits](https://drive.google.com/drive/u/0/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE) team. I [believe that humanity's](TENETS.md) most essential resource— compute—can _only_ be [coordinated](../../../literary_products/joes_notes/COORDINATION_FAILURE.md) at the [scale necessary to achieve AGI](../AI/AGI_COMPUTE_THRESHOLD.md) through the kind of [compute financialization](../HISTORY/EASTERN_PHILOSOPHY.md) that Exabits seems to be pursuing.
 
 > _This letter's attachments on_ [_Google Drive_](https://drive.google.com/drive/folders/1nbLRwyCevzyEmSCQI8qgCXTrx_TmudVE?usp=drive_link)
 
-I hope to contribute to Exabits' growth by supporting their [node sale](../../../literary_products/joes_notes/EXABITS_NODE_SALE.md) and [TGE](../../../literary_products/joes_notes/misc/evolutionary_imperative.md) initiatives in the near-term, then expanding its enterprise and public sector businesses ("[Exabits Federal](DATAHIVE_FEDERAL.md)") over the long-term.
+I hope to contribute to Exabits' growth by supporting their [node sale](../../../literary_products/joes_notes/EXABITS_NODE_SALE.md) and [TGE](EVOLUTIONARY_IMPERATIVE.md) initiatives in the near-term, then expanding its enterprise and public sector businesses ("[Exabits Federal](DATAHIVE_FEDERAL.md)") over the long-term.
 
 Based on the limited information I have as an outsider, and acknowledging that this involves some generalizations and assumptions, several high-level concepts and frameworks come to mind that could support Exabits' "near-term" missions:
 
 ![Compute Access](../../../IMAGES/COMPUTE_ACCESS.png)
 
 1. [**Financialization Frameworks for Tradeable Compute**](../AI/TRADEABLE_COMPUTE.md): I propose developing comprehensive frameworks that transform compute resources into financial instruments, making them tradeable assets. This approach not only broadens liquidity and accessibility across the global compute economy but also generates new liquidity processes and opportunities.
-2. [**SLA Modularization Framework for Universally Tradeable Compute**](EXABITS_SLA_MODULE.md): I envision creating a modular framework for [Service Level Agreements (SLAs)](../../../literary_products/joes_notes/misc/suzetrigine.md) that enables compute resources to be highly tradeable. This involves [standardizing SLA components](../../../literary_products/joes_notes/STANDARDIZING_SLAs.md) such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs.
+2. [**SLA Modularization Framework for Universally Tradeable Compute**](EXABITS_SLA_MODULE.md): I envision creating a modular framework for [Service Level Agreements (SLAs)](SUZETRIGINE.md) that enables compute resources to be highly tradeable. This involves [standardizing SLA components](../../../literary_products/joes_notes/STANDARDIZING_SLAs.md) such as uptime guarantees and latency benchmarks, which can be tailored to specific workloads or enterprise needs.
 3. [**Balancing Near-term AI-enabled Insights with Long-term Goals**](../../../literary_products/joes_notes/PATH_DEPENDENCE_PRIORITIZATION.md): It's crucial to distinguish between insights that can be achieved quickly with AI and those that require long-term investment. This balance will help us align immediate objectives with strategic, long-term goals.
 4. [**Digital Transformations and Big-data Generation Events**](../../../literary_products/joes_notes/DIGITAL_TRANSFORMATIONS.md): Monitoring radical digital transformations and the subsequent big-data generation is essential for understanding and predicting compute demand. By doing so, we can better allocate resources and anticipate market needs.
 
@@ -44,9 +44,9 @@ Based on the limited information I have as an outsider, and acknowledging that t
 
 In 2024, I served as DataHive's Chief Strategy Officer. Initially, I engaged as a consultant (1099), transitioning to a W2 to qualify for DataHive's ESOP. I designed [DataHive's core protocol](https://github.com/datahiv3/Core-Protocol), mid-level [smart contract architecture](https://docs.google.com/document/d/1WYE5i-4UJOUmDWNEUC-6QCD1NwRpCeqs/edit?usp=drive_link\&ouid=111669319430294495371\&rtpof=true\&sd=true) (links to docs are drafts and left deliberately vague), and a DataHive SDK leveraging our testnet on OP Sepolia. This allowed enterprise customers to "test drive" our vision for the mainnet. Additionally, I:
 
-1. Designed, deployed [DataHive's protocol and overall node architecture](../../../literary_products/joes_notes/misc/consumer_electronics_show.md); designed [DataHive's node sale operational framework](DATAHIVE_NODE_SALE.md)
-2. Designed, deployed [foundational intelligence and knowledge models](../../../literary_products/joes_notes/misc/constructivist_theories.md)
-3. Established an [overarching valuation framework](../../../literary_products/joes_notes/misc/contingency_planning.md) that spans a diverse set of opportunity themes.
+1. Designed, deployed [DataHive's protocol and overall node architecture](CONSUMER_ELECTRONICS_SHOW.md); designed [DataHive's node sale operational framework](DATAHIVE_NODE_SALE.md)
+2. Designed, deployed [foundational intelligence and knowledge models](CONSTRUCTIVIST_THEORIES.md)
+3. Established an [overarching valuation framework](CONTINGENCY_PLANNING.md) that spans a diverse set of opportunity themes.
 4. Created an [internal cPanel for managing commnunity growth](../../../literary_products/joes_notes/DATAHIVE_COMMUNITY.md) across all communication and social platforms.
 
 From 2020 to 2024, I also:

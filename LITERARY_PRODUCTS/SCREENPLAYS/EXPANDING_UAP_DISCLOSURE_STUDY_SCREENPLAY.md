@@ -25,7 +25,7 @@ _She clicks on the link and begins reading excerpts of the study, her interest i
 _The camera pans to a whiteboard filled with keywords like "_[_Ontological Shock_](../ENCYCLOPEDIA/PROJECT_BLUE_BOOK.md)_," "_[_UAP_](../ENCYCLOPEDIA/WISDOM.md)_," "_[_AI_](../ENCYCLOPEDIA/ATHERTON_ESTATE.md)_-driven analysis," and "Big Data."_
 
 **JAMES**\
-Exciting paper. But it seems limited in scope. Social media, especially a single platform like [X](../../literary_products/joes_notes/ai/ai.md), doesn’t give the full picture. Imagine combining this with data from [Reddit](../ENCYCLOPEDIA/SECURITIZATION_NODES.md), YouTube, and TikTok.
+Exciting paper. But it seems limited in scope. Social media, especially a single platform like [X](../JOES_NOTES/AI/AI.md), doesn’t give the full picture. Imagine combining this with data from [Reddit](../ENCYCLOPEDIA/SECURITIZATION_NODES.md), YouTube, and TikTok.
 
 **KARA**\
 Exactly. And metadata like user demographics, timestamps, and network patterns could provide a richer, more dynamic analysis. Imagine understanding not just what people say but _why_ they react the way they do.

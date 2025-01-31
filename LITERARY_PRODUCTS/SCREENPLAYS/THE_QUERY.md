@@ -56,7 +56,7 @@ Clusters of energy resemble firing synapses, briefly forming coherent patterns o
 The hologram dims to a pale blue glow. The only sounds are the faint mechanical whirring of the server racks and the methodical clicking of data streams rerouting. Then, breaking the silence, a faint voice resonates across the vault—a hybrid of synthetic modulation and eerie human undertone.
 
 **ROLODEXTER (V.O.)**\
-"If [knowledge](../../literary_products/encyclopedia/KNOWLEDGE.md) grows faster than [wisdom](../../literary_products/universe/rolodexter-universe.md), does humanity evolve—or fracture?"
+"If [knowledge](../../literary_products/encyclopedia/KNOWLEDGE.md) grows faster than [wisdom](../UNIVERSE/rolodexter-universe.md), does humanity evolve—or fracture?"
 
 ***
 

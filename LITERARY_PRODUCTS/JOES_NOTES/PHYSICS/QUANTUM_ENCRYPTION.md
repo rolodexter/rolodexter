@@ -1,6 +1,6 @@
 # Quantum Encryption
 
-[Quantum encryption](QUANTUM_ENCRYPTION.md), also known as [quantum cryptography](../../../literary_products/joes_notes/QUANTUM_CRYPTOGRAPHY.md), represents a revolutionary approach to securing information by leveraging the principles of [quantum mechanics](../../../literary_products/joes_notes/QUANTUM_MECHANICS.md). This technology stands at the intersection of [quantum computing](../../../literary_products/joes_notes/misc/renewable_energy.md), [information security](../../../literary_products/joes_notes/INFORMATION_SECURITY.md), and [military communications](../../../literary_products/joes_notes/MILITARY_COMMUNICATIONS.md).
+[Quantum encryption](QUANTUM_ENCRYPTION.md), also known as [quantum cryptography](../../../literary_products/joes_notes/QUANTUM_CRYPTOGRAPHY.md), represents a revolutionary approach to securing information by leveraging the principles of [quantum mechanics](../../../literary_products/joes_notes/QUANTUM_MECHANICS.md). This technology stands at the intersection of [quantum computing](../MISC/RENEWABLE_ENERGY.md), [information security](../../../literary_products/joes_notes/INFORMATION_SECURITY.md), and [military communications](../../../literary_products/joes_notes/MILITARY_COMMUNICATIONS.md).
 
 ## Core Principles
 
@@ -117,7 +117,7 @@
 
 ## See Also
 
-* [Quantum Computing](../../../literary_products/joes_notes/misc/renewable_energy.md)
+* [Quantum Computing](../MISC/RENEWABLE_ENERGY.md)
 * [Military Communications](../../../literary_products/joes_notes/MILITARY_COMMUNICATIONS.md)
 * [Cryptographic Warfare](../../../literary_products/joes_notes/CRYPTOGRAPHIC_WARFARE.md)
 * [Information Security](../../../literary_products/joes_notes/INFORMATION_SECURITY.md)

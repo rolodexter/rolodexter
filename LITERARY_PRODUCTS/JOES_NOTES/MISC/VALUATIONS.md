@@ -5,7 +5,7 @@
 ### 1. Institutional Catalysts
 
 1. **Integration with Pension & Sovereign Funds**
-   * Institutional giants like [**pension funds**](PENSION_FUNDS.md) and [**sovereign wealth funds**](../../../literary_products/joes_notes/misc/the_meaning_of_bitcoin.md) command vast capital reserves.
+   * Institutional giants like [**pension funds**](PENSION_FUNDS.md) and [**sovereign wealth funds**](THE_MEANING_OF_BITCOIN.md) command vast capital reserves.
    * If **DeSci tokens** become recognized as an investable asset class—similar to equities or bonds—these large-scale institutions might allocate a portion of their **multitrillion-dollar** portfolios to support DeSci initiatives.
 2. **Regulatory Green Lights**
    * Clear guidelines from bodies like the **SEC** or other [**regulatory environments**](REGULATORY_ENVIRONMENTS.md) would allow banks and custodial firms to offer secure DeSci token products.

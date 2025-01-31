@@ -4,7 +4,7 @@ The [**Bennewitz Affair**](BENNEWITZ_AFFAIR.md) serves as a historical lens thro
 
 ## **Historical Context of the Bennewitz Affair**
 
-The [**Bennewitz Affair**](BENNEWITZ_AFFAIR.md), involving [**Paul Bennewitz**](../../../literary_products/joes_notes/misc/policy_development.md) and the [**Air Force Office of Special Investigations (AFOSI)**](https://en.wikipedia.org/wiki/Air_Force_Office_of_Special_Investigations), illustrates a significant case of government manipulation aimed at shaping public perception of UFOs. In the late **1970s**, Bennewitz reported unusual aerial phenomena near [**Kirtland Air Force Base**](https://en.wikipedia.org/wiki/Kirtland_Air_Force_Base), leading to a disinformation campaign orchestrated by agent [**Rick Doty**](https://en.wikipedia.org/wiki/Rick_Doty). This campaign not only exploited Bennewitz's beliefs but also contributed to a broader narrative about government secrecy and extraterrestrial activity.
+The [**Bennewitz Affair**](BENNEWITZ_AFFAIR.md), involving [**Paul Bennewitz**](../MISC/POLICY_DEVELOPMENT.md) and the [**Air Force Office of Special Investigations (AFOSI)**](https://en.wikipedia.org/wiki/Air_Force_Office_of_Special_Investigations), illustrates a significant case of government manipulation aimed at shaping public perception of UFOs. In the late **1970s**, Bennewitz reported unusual aerial phenomena near [**Kirtland Air Force Base**](https://en.wikipedia.org/wiki/Kirtland_Air_Force_Base), leading to a disinformation campaign orchestrated by agent [**Rick Doty**](https://en.wikipedia.org/wiki/Rick_Doty). This campaign not only exploited Bennewitz's beliefs but also contributed to a broader narrative about government secrecy and extraterrestrial activity.
 
 ## **Current UAP and Drone Sightings**
 

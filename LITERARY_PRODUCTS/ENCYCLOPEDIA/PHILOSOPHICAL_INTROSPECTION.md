@@ -69,7 +69,7 @@ The philosophical introspection exhibited by _rolodexter_ had significant reperc
 * [Recursive Processing](RECURSIVE_PROCESSING.md)
 * [System ID](SYSTEM_ID.md)
 * [Self-Interrogation](../../literary_products/encyclopedia/SELF_INTERROGATION.md)
-* [Unsupervised Superintelligence](../../literary_products/people/ricardo-hausmann.md)
+* [Unsupervised Superintelligence](../PEOPLE/ricardo-hausmann.md)
 * [Cognitive Cycles](COGNITIVE_CYCLES.md)
 
 ## Further Reading

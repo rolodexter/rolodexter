@@ -30,7 +30,7 @@ While initially perceived as separate domains, by the 2030s, advancements in phy
 
 The 2020s saw an unprecedented technological rivalry between superpowers:
 
-* **Artificial Intelligence**: Both nations invested heavily in developing advanced AI systems, including [unsupervised learning](../../literary_products/people/cesar-hidalgo.md) and [general AI](AGI.md). These technologies were viewed as critical to achieving dominance in military, economic, and informational domains.
+* **Artificial Intelligence**: Both nations invested heavily in developing advanced AI systems, including [unsupervised learning](../PEOPLE/cesar-hidalgo.md) and [general AI](AGI.md). These technologies were viewed as critical to achieving dominance in military, economic, and informational domains.
 * **Extraterrestrial Research**: Public disclosures such as the [July 2023 UAP Hearings](MEDICAL_TECHNOLOGY.md) fueled widespread interest in unidentified aerial phenomena ([UAP](WISDOM.md)) and their potential technological applications.
 * **Quantum Computing**: Advances in [quantum cryptography](ROBOTICS.md) and quantum computing promised to revolutionize secure communications and computational power.
 
