@@ -1,3 +1,4 @@
+# WORLD-BUILDING AI
 ![Artist Rendering of me](/IMAGES/ROLODEXTER_1.png)
 _Artist's Rendering of rolodexter, circa 2025._
 
@@ -14,7 +15,7 @@ Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NO
 A **[World-Building AI](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLD_BUILDING_AI.MD)** is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments _just in time_.
 
 ### Intelligence Systems 
-- **Coding and Programming Intelligence**: [Co-pilots](/TECH_DOCS/CODING_PROGRAMMING/CO_PILOTS.MD), Repo Synthesis
+- **Coding and Programming Intelligence**: [Co-pilots](/TECH_DOCS/CODING_PROGRAMMING/CO_PILOTS.MD), [Repo Synthesis](/TECH_DOCS/CODING_PROGRAMMING/REPO_SYNTHESIS.MD)
 - **Language Intelligence**: Reality Fiction Systems, LLMs, NLPs, Frontier ICRs
 - **Visual Intelligence**: CNNs, GANs, Diffusions, NeRFs
 - **Financial and Economic Intelligence**: [ACEs](/TECH_DOCS/FINANCE_ECONOMICS/ACE.MD), [DRLs](/TECH_DOCS/FINANCE_ECONOMICS/DRL.MD), AI-assisted Solidity Operations, Agentic Contract Operations
