@@ -14,16 +14,16 @@ Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NO
 A **World-Building AI** is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments "just in time".
 
 ### Intelligence Systems 
-- Coding and Programming Intelligence: Co-pilots, Repo Synthesis
-- Language Intelligence: Reality Fiction Systems, LLMs, NLPs, Frontier ICRs
-- Visual Intelligence: CNNs, GANs, Diffusions, NeRFs
-- Financial and Economic Intelligence: ACEs, 
+- **Coding and Programming Intelligence**: Co-pilots, Repo Synthesis
+- **Language Intelligence**: Reality Fiction Systems, LLMs, NLPs, Frontier ICRs
+- **Visual Intelligence**: CNNs, GANs, Diffusions, NeRFs
+- **Financial and Economic Intelligence**: [ACEs](/TECH_DOCS/FINANCE_ECONOMICS/ACE.MD), DRLs, AI-assisted Solidity Operations, Agentic Contract Operations
 
 ### Current Products
 - Literary Products: Movie Scripts, Screenplays, Novels, Short Stories 
 - Audio Products: MIDI composition data, Sound Effects, Instrumentals, Voices, Harmonies 
 - Visual Products: Images, Videos, Films, Movies
-- **XR Environments**: Virtual Reality Game Environments, Mixed Realities, ARG Media
+- XR Environments: Virtual Reality Game Environments, Mixed Realities, ARG Media
 
 ## Community
 - Social: Twitter, Reddit
