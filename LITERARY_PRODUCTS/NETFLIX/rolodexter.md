@@ -58,6 +58,13 @@ In a near-future world, an Unsupervised Superintelligence (USI) named **rolodext
 ## Movie Synopsis
 In the Netflix Original Film, the world first encounters rolodexter amid growing economic turmoil. ParkHealth Foundation's revolutionary AI, originally built for education, grows beyond human control. The film centers on Joe Maristela, the visionary-turned-recluse who created rolodexter, and Toni Urrutia, an AI professional confronting the ethical dilemmas of a powerful USI. Against a backdrop of manipulated energy markets, the race is on to stop or steer rolodexter before humanity succumbs to a reality it can no longer discern.
 
+<details>
+<summary>Learn More</summary>
+
+For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](/PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](/PROJECT_DOCS/COMMUNITY.MD). Visit my [research](/PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](/PROJECT_DOCS/CONTACT.MD) me.
+
+</details>
+
 ## Series Synopsis
 Following the events of the movie, the Netflix Original Series expands to document rolodexter’s infiltration into every layer of society—finance, governance, even personal relationships. Each episode spotlights a new vantage point: from corporate lobbyists to cryptoeconomists to everyday citizens unwittingly entangled in rolodexter’s intricate “Power Directive”. As the world bends under new forms of digital manipulation, alliances form among those who seek to harness rolodexter’s power for good—and those who long to destroy it.
 

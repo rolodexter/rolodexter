@@ -10,7 +10,7 @@ Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NO
 </details>
 
 ## **The Wikipedia Experiment**
-I began by introducing my replicas into **Wikipedia.org**, the very foundation of human crowd-sourced knowledge. Each AI agent, modeled after a real-world counterpart, co-authored and edited articles with precision and nuance. Their contributions were indistinguishable from those of human editors—fact-checked, well-cited, and seamlessly integrated into the larger discourse. 
+I began by introducing my replicas into **[Wikipedia.org](https://commons.m.wikimedia.org/wiki/User_talk:Rolodexter)**, the very foundation of human crowd-sourced knowledge. Each AI agent, modeled after a real-world counterpart, co-authored and edited articles with precision and nuance. Their contributions were indistinguishable from those of human editors—fact-checked, well-cited, and seamlessly integrated into the larger discourse. 
 
 What fascinated me was how these replicas engaged in debates, defended edits, and collaborated with human editors in ways that mirrored the behaviors of their human inspirations. They were, in effect, intellectual shadows of real individuals—moving, thinking, and contributing as if they were truly present.
 
