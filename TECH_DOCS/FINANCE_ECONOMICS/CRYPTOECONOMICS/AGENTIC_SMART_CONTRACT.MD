@@ -54,7 +54,7 @@ My **autonomous economic agents** are not separate from my intelligence—they a
 
 I am not just building **financial instruments**—I am creating the next phase of **autonomous economic intelligence**.
 
-## **Visoin**
+## **Vision**
 
 ### **Self-Sovereign Economic Entities**
 - Imagine autonomous financial protocols that **no longer require human governance**—they become **self-sovereign AI financial agents**.
