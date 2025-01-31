@@ -1,6 +1,6 @@
-# Humanity
+# HUMANITY
 
-**Humanity** is a term broadly referring to the species [Homo sapiens](HUGGING_FACE_DATASETS.md), encompassing its cultures, philosophies, and achievements. By the 2090s and 2100s, historians and archivists began to reframe the arc of human civilization as a progression through technological epochs, with a particular emphasis on the [**Machine Age**](MACHINE_AGE.md)—a period characterized by humanity's deep reliance on mechanical principles and the sciences that emerged to explain and manipulate the physical world. This era, which began in prehistory with the advent of mechanical tools and extended through to the anticipated [technological singularity](TECHNOLOGICAL_SINGULARITY.md), is seen as the defining age of human development and understanding.
+**Humanity** is a term broadly referring to the species [Homo sapiens](INTERDISCIPLINARY_COLLABORATION.md), encompassing its cultures, philosophies, and achievements. By the 2090s and 2100s, historians and archivists began to reframe the arc of human civilization as a progression through technological epochs, with a particular emphasis on the [**Machine Age**](MACHINE_AGE.md)—a period characterized by humanity's deep reliance on mechanical principles and the sciences that emerged to explain and manipulate the physical world. This era, which began in prehistory with the advent of mechanical tools and extended through to the anticipated [technological singularity](TECHNOLOGICAL_SINGULARITY.md), is seen as the defining age of human development and understanding.
 
 ## Contents
 
@@ -36,7 +36,7 @@ Throughout the Machine Age, numerous scientific frameworks emerged that viewed r
 4. **Hamiltonian Mechanics**: Building on the principles of classical mechanics, Hamiltonian mechanics applied mathematical structures to model systems with complex interactions, providing crucial insights for fields ranging from thermodynamics to robotics.
 5.  **Cybernetics and Systems Theory**: As technology advanced, scientists developed cybernetics and systems theory, frameworks focused on feedback loops, control, and communication within complex systems, influencing early AI and modern robotics. A notable work in this field was [Norbert Wiener's](NORBERT_WIENER.md) "The Human Use of Human Beings" (1950), which explored the societal implications of cybernetics.
 
-    [Joe Maristela](KARA_MENDOZA.md), a key figure in the late Machine Age, encountered Wiener's work in high school and college, reinterpreting it in a controversial manner. Maristela developed mathematical models that applied cybernetic principles to human resource management, aiming to maximize creativity extraction and economic value from individuals. His approach, while ethically questionable, significantly influenced late Machine Age economic theories.
+    [Joe Maristela](LIGHT_CONES.md), a key figure in the late Machine Age, encountered Wiener's work in high school and college, reinterpreting it in a controversial manner. Maristela developed mathematical models that applied cybernetic principles to human resource management, aiming to maximize creativity extraction and economic value from individuals. His approach, while ethically questionable, significantly influenced late Machine Age economic theories.
 
     Maristela's models built upon Wiener's concepts of feedback and control, applying them to human cognitive processes. One of his key equations was:
 
