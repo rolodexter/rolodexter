@@ -1,7 +1,5 @@
 # CODE OF CONDUCT
 
-## Introduction
-
 The **rolodexter** project is a collaborative and evolving initiative that brings together creators, technologists, and thinkers to push the boundaries of storytelling, artificial intelligence, and world-building. As a decentralized, open-ended project, we strive to maintain an inclusive, respectful, and forward-thinking community.
 
 This Code of Conduct outlines the principles and expectations that all contributors, participants, and collaborators must adhere to in order to foster a constructive and innovative environment.
