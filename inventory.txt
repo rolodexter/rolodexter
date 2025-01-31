@@ -1,0 +1,989 @@
+Folder PATH listing for volume Local Disk
+Volume serial number is 0000009E 6800:FEA2
+C:.
+|   .gitignore
+|   CODE_OF_CONDUCT.md
+|   CONTRIBUTING.md
+|   inventory.txt
+|   LICENSE
+|   README.md
+|   
++---IMAGES
+|       ATHERTON_ESTATE_INTERIOR.png
+|       COMPUTE_ACCESS.png
+|       EFFECTIVE_CLOUD.png
+|       OPERATIONAL.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_22be7302-df9d-458e-b6b4-8e73dfa2023b_0.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_22be7302-df9d-458e-b6b4-8e73dfa2023b_1.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_22be7302-df9d-458e-b6b4-8e73dfa2023b_2.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_22be7302-df9d-458e-b6b4-8e73dfa2023b_3.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_f09a2eff-52cc-46ee-9fa1-05eb290811e4_0.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_f09a2eff-52cc-46ee-9fa1-05eb290811e4_1.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_f09a2eff-52cc-46ee-9fa1-05eb290811e4_2.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_f09a2eff-52cc-46ee-9fa1-05eb290811e4_3.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_04d5ef46-2250-4bf4-92a7-15f08c9e38ee.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_4c5336a7-fcab-4272-9300-3d1184ccc054.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_4e41a6b6-ed64-4106-a35d-cfc7015eec90.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_7690f239-13cf-4111-bb14-ec58738dcf5a (1).png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_7690f239-13cf-4111-bb14-ec58738dcf5a (2).png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_7690f239-13cf-4111-bb14-ec58738dcf5a (3).png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_7690f239-13cf-4111-bb14-ec58738dcf5a.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_96d79763-ab1d-47e6-9ed0-ebf08aca4d9d.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_f7c08168-fcb4-4f80-80f2-4532e2d35905.png
+|       parkhealth_A_20-something_tragic_male_protagonist_reminiscent_o_f9f1a110-df4f-4f07-aac7-7e82e2aa7180.png
+|       parkhealth_A_close-up_view_of_a_young_man_sitting_in_front_of_47c5978f-d05f-4c73-8e87-5aaff01c5b07_1.png
+|       parkhealth_A_close-up_view_of_a_young_man_sitting_in_front_of_47c5978f-d05f-4c73-8e87-5aaff01c5b07_2.png
+|       parkhealth_A_close-up_view_of_a_young_man_sitting_in_front_of_47c5978f-d05f-4c73-8e87-5aaff01c5b07_3.png
+|       parkhealth_A_close-up_view_of_a_young_man_sitting_in_front_of_98518bba-bc34-45a6-9d6b-d5a82af2cfba_0.png
+|       parkhealth_A_close-up_view_of_a_young_man_sitting_in_front_of_98518bba-bc34-45a6-9d6b-d5a82af2cfba_1.png
+|       parkhealth_A_close-up_view_of_a_young_man_sitting_in_front_of_98518bba-bc34-45a6-9d6b-d5a82af2cfba_2.png
+|       parkhealth_A_cyberpunk-inspired_nurse_stands_near_a_glowing_w_0ff22447-1344-420c-8148-23d9f67f670e_0.png
+|       parkhealth_A_cyberpunk-inspired_nurse_stands_near_a_glowing_w_617455ac-d135-4e31-91cc-d356da2ffc1c_0.png
+|       parkhealth_A_cyberpunk-inspired_nurse_stands_near_a_glowing_w_74f79dcf-8a81-4bcb-be07-221cd1a22767_0.png
+|       parkhealth_A_grand_historic_library_bathed_in_warm_daylight_s_443b1cd6-a351-4df6-ad0f-94b466cfbd46_0.png
+|       parkhealth_A_grand_historic_library_bathed_in_warm_daylight_s_443b1cd6-a351-4df6-ad0f-94b466cfbd46_1.png
+|       ParkHealth_A_sleek_holographic_AGI_interface_monitors_an_AI_a_635c93f5-7476-4c3a-b804-a0c8d3152b04_0.png
+|       ParkHealth_A_sleek_holographic_AGI_interface_monitors_an_AI_a_635c93f5-7476-4c3a-b804-a0c8d3152b04_1.png
+|       ParkHealth_A_sleek_holographic_AGI_interface_monitors_an_AI_a_635c93f5-7476-4c3a-b804-a0c8d3152b04_3.png
+|       parkhealth_A_sleek_holographic_AGI_interface_monitors_an_AI_a_b552b51c-1d58-4840-821d-d4b4cc815b1d_1.png
+|       parkhealth_A_tragic_young_man_sits_alone_in_a_vast_penthouse__824d8a43-786e-46f4-8e7b-543c77adb697_1.png
+|       parkhealth_A_tragic_young_man_sits_alone_in_a_vast_penthouse__824d8a43-786e-46f4-8e7b-543c77adb697_3.png
+|       parkhealth_A_tragic_young_man_sits_alone_in_a_vast_penthouse__b196ceb7-6630-457c-b6e6-eb7e17e1534e_0.png
+|       parkhealth_A_tragic_young_man_sits_alone_in_a_vast_penthouse__b196ceb7-6630-457c-b6e6-eb7e17e1534e_1.png
+|       parkhealth_A_tragic_young_man_sits_alone_in_a_vast_penthouse__b196ceb7-6630-457c-b6e6-eb7e17e1534e_2.png
+|       parkhealth_A_tragic_young_man_sits_alone_in_a_vast_penthouse__b196ceb7-6630-457c-b6e6-eb7e17e1534e_3.png
+|       parkhealth_A_wide-angle_shot_of_a_massive_dark_empty_mansion__2456e935-9cac-43b2-8925-604062ea2fed_0.png
+|       parkhealth_A_wide-angle_shot_of_a_massive_dark_empty_mansion__2456e935-9cac-43b2-8925-604062ea2fed_2.png
+|       parkhealth_A_wide_shot_of_an_expansive_library_in_an_old_mans_23499741-91d9-4935-be5e-3c59e5b13d1c_0 (1).png
+|       parkhealth_A_wide_shot_of_an_expansive_library_in_an_old_mans_23499741-91d9-4935-be5e-3c59e5b13d1c_0.png
+|       parkhealth_A_wide_shot_of_an_expansive_library_in_an_old_mans_23499741-91d9-4935-be5e-3c59e5b13d1c_1 (1).png
+|       parkhealth_A_wide_shot_of_an_expansive_library_in_an_old_mans_23499741-91d9-4935-be5e-3c59e5b13d1c_1.png
+|       parkhealth_A_wide_shot_of_an_expansive_library_in_an_old_mans_23499741-91d9-4935-be5e-3c59e5b13d1c_2.png
+|       parkhealth_A_wide_shot_of_an_expansive_library_in_an_old_mans_23499741-91d9-4935-be5e-3c59e5b13d1c_3 (1).png
+|       parkhealth_A_wide_shot_of_an_expansive_library_in_an_old_mans_23499741-91d9-4935-be5e-3c59e5b13d1c_3.png
+|       parkhealth_A_young_male_protagonist_sits_alone_in_a_dark_deca_a96d1dfb-7ec8-4ada-baf9-104e26835e0f_0.png
+|       parkhealth_A_young_male_protagonist_sits_alone_in_a_dark_deca_f1681c8b-8588-4991-8908-ee58ff60ecae_0.png
+|       ParkHealth_A_young_male_protagonist_sits_at_his_desk_in_a_dar_3a5e679f-0457-4726-af6e-052a64863ab8_3.png
+|       parkhealth_A_young_male_protagonist_tragic_and_isolated_sitti_7650b334-a529-459d-b062-12d3492ed74e_1.png
+|       parkhealth_A_young_male_protagonist_tragic_and_isolated_sitti_e3f4b940-283e-4e06-9244-03456e4011e3_2.png
+|       ParkHealth_A_young_man_sits_alone_in_an_enormous_dark_penthou_44c92872-9d43-4ee5-a02f-55b24355fff5_0 (1).png
+|       ParkHealth_A_young_man_sits_alone_in_an_enormous_dark_penthou_44c92872-9d43-4ee5-a02f-55b24355fff5_0.png
+|       ParkHealth_A_young_man_sits_alone_in_an_enormous_dark_penthou_44c92872-9d43-4ee5-a02f-55b24355fff5_1.png
+|       parkhealth_A_young_man_sits_alone_in_a_dark_penthouse_at_3_PM_97417825-3e43-431b-940c-628ccc8bf780_1.png
+|       parkhealth_A_young_man_sits_alone_in_a_dark_penthouse_at_3_PM_97417825-3e43-431b-940c-628ccc8bf780_2.png
+|       parkhealth_A_young_man_sits_alone_in_a_dark_penthouse_at_3_PM_97417825-3e43-431b-940c-628ccc8bf780_3.png
+|       parkhealth_A_young_man_sits_alone_in_a_dark_penthouse_at_3_PM_d47deb01-60b8-45bf-bf6d-f618dd470c2f_0.png
+|       parkhealth_A_young_man_sits_alone_in_a_dark_penthouse_at_3_PM_d47deb01-60b8-45bf-bf6d-f618dd470c2f_1.png
+|       parkhealth_A_young_man_sits_alone_in_a_dark_penthouse_at_3_PM_d47deb01-60b8-45bf-bf6d-f618dd470c2f_2.png
+|       parkhealth_A_young_man_sits_alone_in_a_dark_penthouse_at_3_PM_d47deb01-60b8-45bf-bf6d-f618dd470c2f_3.png
+|       ParkHealth_A_young_man_sits_alone_in_a_dark_penthouse_at_nigh_d32ed0dc-45d7-4f2e-8309-86f87fb1eb40_1.png
+|       parkhealth_A_young_man_sleeps_inside_a_sleek_hyperbaric_chamb_e1d110c4-893c-427c-b1dd-3d5ae1a1f2c8_0.png
+|       parkhealth_brutalist_architecture_mood_board_technical_pen_illu_a5e9c2a0-d9e6-438a-a71f-1e920f72de40.png
+|       parkhealth_brutalist_architecture_mood_board_technical_pen_il_a5e9c2a0-d9e6-438a-a71f-1e920f72de40_0.png
+|       parkhealth_brutalist_architecture_mood_board_technical_pen_il_b028e4e0-591b-4ee0-a9f2-a14232cf871c_3.png
+|       parkhealth_Extremely_dark_ink-black_cityscape_with_looming_br_35869fad-1870-4633-a738-c992a7bb3256_1.png
+|       parkhealth_Extremely_dark_ink-black_cityscape_with_looming_br_35869fad-1870-4633-a738-c992a7bb3256_2.png
+|       parkhealth_Extremely_dark_ink-black_cityscape_with_looming_br_35869fad-1870-4633-a738-c992a7bb3256_3.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_11569b31-3f75-4b7d-ba83-68d583c1d602.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_2b5c127e-bd2b-4ef5-a4b7-b10a6b5e0472.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_53d726a7-8afc-45ed-a0ca-db6a5c561bb5.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_717bf562-9128-49f4-b41c-8de51ebf25d5.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_7fc41f77-ae5d-4629-afb7-23efc75d0c67.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_ccf66a80-5cd9-43ed-b573-996bb5fccf0a.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_df1f4016-ed87-4783-bf19-5b207e5f717f.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_e02104b0-3224-446d-ab44-59776c9685b6.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slight_fa9f81bb-5a74-441e-ba60-a03e172298f1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_113163cc-1f07-4a30-a7bb-a9f61c1182e9_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_113163cc-1f07-4a30-a7bb-a9f61c1182e9_1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_113163cc-1f07-4a30-a7bb-a9f61c1182e9_2.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_113163cc-1f07-4a30-a7bb-a9f61c1182e9_3.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_197cbb77-7fa1-4b9d-939e-6d958dbdfcff_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_197cbb77-7fa1-4b9d-939e-6d958dbdfcff_1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_197cbb77-7fa1-4b9d-939e-6d958dbdfcff_2.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_197cbb77-7fa1-4b9d-939e-6d958dbdfcff_3.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_8330fc3f-7f58-4c97-8ece-3b2c1a680840_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_8330fc3f-7f58-4c97-8ece-3b2c1a680840_1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_8330fc3f-7f58-4c97-8ece-3b2c1a680840_2.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_8330fc3f-7f58-4c97-8ece-3b2c1a680840_3.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_848fe863-65ff-4b6c-92ca-cb70f785ac2b_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_848fe863-65ff-4b6c-92ca-cb70f785ac2b_1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_848fe863-65ff-4b6c-92ca-cb70f785ac2b_2.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_848fe863-65ff-4b6c-92ca-cb70f785ac2b_3.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_87af7170-6b93-4bd0-a5d0-3cf323fe0f95_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_87af7170-6b93-4bd0-a5d0-3cf323fe0f95_1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_87af7170-6b93-4bd0-a5d0-3cf323fe0f95_2.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_87af7170-6b93-4bd0-a5d0-3cf323fe0f95_3.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_98f58685-c18c-4777-9eb5-eb664c63fea9_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_98f58685-c18c-4777-9eb5-eb664c63fea9_2.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_98f58685-c18c-4777-9eb5-eb664c63fea9_3 (1).png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_98f58685-c18c-4777-9eb5-eb664c63fea9_3.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_9e8b7406-e1fb-4acb-8405-69905a4dad60_0 (1).png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_9e8b7406-e1fb-4acb-8405-69905a4dad60_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_9e8b7406-e1fb-4acb-8405-69905a4dad60_1 (1).png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_9e8b7406-e1fb-4acb-8405-69905a4dad60_1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_aa770b47-fb41-4196-a21f-2981c210ae1f_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_aa770b47-fb41-4196-a21f-2981c210ae1f_1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_aa770b47-fb41-4196-a21f-2981c210ae1f_2.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_aa770b47-fb41-4196-a21f-2981c210ae1f_3.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_c4b2a63f-e29c-4778-8de1-1edbeb9103b8_0.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_c4b2a63f-e29c-4778-8de1-1edbeb9103b8_1.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_c4b2a63f-e29c-4778-8de1-1edbeb9103b8_2.png
+|       parkhealth_Generate_an_image_of_a_rough_pencil_sketch_on_slig_c4b2a63f-e29c-4778-8de1-1edbeb9103b8_3.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumpled__5581b8dd-cb78-40ac-be89-9f1e30a5e4ba.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumpled__6ec7894b-0807-436a-92a4-04c243fe74d0.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumpled__ca2c7f4d-dd58-45ab-98fb-17c729ca551b.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumple_c689b217-40d4-48d4-a9dc-2677e62dca9c_0.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumple_c689b217-40d4-48d4-a9dc-2677e62dca9c_1.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumple_c689b217-40d4-48d4-a9dc-2677e62dca9c_2.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumple_c689b217-40d4-48d4-a9dc-2677e62dca9c_3.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumple_f0f5a124-211c-492e-934e-f4c5ac2f3574_0.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumple_f0f5a124-211c-492e-934e-f4c5ac2f3574_1.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumple_f0f5a124-211c-492e-934e-f4c5ac2f3574_2.png
+|       parkhealth_Generate_a_rough_pencil_sketch_on_slightly_crumple_f0f5a124-211c-492e-934e-f4c5ac2f3574_3.png
+|       parkhealth_Intricate_pencil_sketch_on_weathered_paper_massive_b082e46e-366b-4f17-a324-6fbeb174f42b_0.png
+|       parkhealth_Intricate_pencil_sketch_on_weathered_paper_massive_b082e46e-366b-4f17-a324-6fbeb174f42b_1.png
+|       parkhealth_Intricate_pencil_sketch_on_weathered_paper_massive_b082e46e-366b-4f17-a324-6fbeb174f42b_2.png
+|       parkhealth_Intricate_pencil_sketch_on_weathered_paper_massive_b082e46e-366b-4f17-a324-6fbeb174f42b_3.png
+|       parkhealth_Massive_quantum_computing_architecture_emerging_fr_e1c2a3c4-f70e-4b1b-9c5d-86db680f3edf_0.png
+|       parkhealth_Massive_quantum_computing_architecture_emerging_fr_e1c2a3c4-f70e-4b1b-9c5d-86db680f3edf_1.png
+|       parkhealth_Massive_quantum_computing_architecture_emerging_fr_e1c2a3c4-f70e-4b1b-9c5d-86db680f3edf_2.png
+|       parkhealth_Massive_quantum_computing_architecture_emerging_fr_e1c2a3c4-f70e-4b1b-9c5d-86db680f3edf_3.png
+|       parkhealth_ornate_classical_room_with_crystal_chandelier_lone_f_ad549f7a-33fc-4e1d-b649-2217fe703ee3.png
+|       ROLDEXTER_SUPERINTELLIGENCE_RENDER.png
+|       ROLODEXTER_1.png
+|       ROLODEXTER_2.png
+|       ROLODEXTER_ATHERTON.png
+|       rolodexter_key_art_control_room_v1.png
+|       rolodexter_key_art_control_room_v2.png
+|       rolodexter_mood_board_brutalist_architecture_v1.png
+|       ROLODEXTER_SQUARE.png
+|       rolodexter_workbench_lab_concept_variations_v1.png
+|       STRATEGIC.png
+|       VACCINE_STORAGE.png
+|       
++---LEGAL_DOCS
+|       LITERARY_DISCLAIMER.MD
+|       UNIVERSAL_DISCLAIMER.MD
+|       
++---LITERARY_PRODUCTS
+|   |   LITERARY_PRODUCTS.MD
+|   |   
+|   +---BOOKS
+|   |       CONSCIOUSNESS_TEXTBOOK_PROPOSAL.md
+|   |       From-Zero-To-Billions_Proposal.md
+|   |       image-1.png
+|   |       image.png
+|   |       MeaningOfBitcoin.md
+|   |       PathDependence-Physics-CreativeDestruction.md
+|   |       README.md
+|   |       
+|   +---CHARACTERS
+|   |   |   README.md
+|   |   |   
+|   |   \---PROTAGONISTS
+|   |           README.md
+|   |           ROLODEXTER.md
+|   |           
+|   +---CONCEPTS
+|   |       artistic-expression.md
+|   |       BLOCK_UNIVERSE_THEORY.md
+|   |       cognitive-capacity.md
+|   |       collective-intelligence.md
+|   |       creative-imagination.md
+|   |       ENCYCLOPEDIA.MD
+|   |       historical-accuracy.md
+|   |       information-crystallization.md
+|   |       literary-purposes.md
+|   |       LITERARY_PRODUCTS_PREDICTIVE_PHENOMENON.md
+|   |       MECHANICAL_CONSCIOUSNESS.MD
+|   |       personbyte puzzle piece of me (9).jpg
+|   |       personbyte.md
+|   |       README.md
+|   |       REVERSE_CAUSALITY.md
+|   |       social-graph.md
+|   |       speculative-framework.md
+|   |       USI.MD
+|   |       work-of-fiction.md
+|   |       
+|   +---DATA
+|   |       README.md
+|   |       vehicle-accidents.md
+|   |       
+|   +---DISCLAIMERS
+|   |       actual-persons.md
+|   |       existing-places.md
+|   |       misinterpretation.md
+|   |       README.md
+|   |       
+|   +---DRAFTS
+|   |       literary-disclaimer.md
+|   |       README.md
+|   |       
+|   +---ENCYCLOPEDIA
+|   |       2024_DISCLOSURE_PREDICTIONS.md
+|   |       ACCESSIBILITY.md
+|   |       ACCESSIBILITY_DISAMBIGUATION.md
+|   |       AGI.md
+|   |       AGI_DISAMBIGUATION.md
+|   |       AI.md
+|   |       AI_AND_BIG_DATA.md
+|   |       AI_AVATAR_INTERACTIONS.md
+|   |       AI_ETHICS.md
+|   |       ANDROCENTRISM.md
+|   |       ANTHROPOMORPHISM.md
+|   |       ANTI_COMPETITIVENESS.md
+|   |       ANTI_DARK_PHOTON.md
+|   |       ATHERTON_ESTATE.md
+|   |       AUTOMATED_SETTLEMENT.md
+|   |       BLOCKCHAIN.md
+|   |       CIGAR_SHAPED_UFO.md
+|   |       CODE.md
+|   |       COGNITIVE_CYCLES.md
+|   |       COGNITIVE_PROCESS.md
+|   |       COMPUTE.md
+|   |       COMPUTER_SCIENCE.md
+|   |       CONGRESSIONAL_HEARINGS_ON_UAP_HISTORY.md
+|   |       CONSCIOUSNESS_STUDIES.md
+|   |       CONSENT_NODES.md
+|   |       COSMIC_SOCIO.md
+|   |       COST_PER_FLOP.md
+|   |       CRYPTOECONOMICS.md
+|   |       CRYPTOGRAPHY.md
+|   |       CULTURAL_NARRATIVES.md
+|   |       DATA_ACQUISITION.md
+|   |       DATA_ASSETIZATION_NODES.md
+|   |       DATA_DRIVEN_RESEARCH.md
+|   |       DATA_PRIVACY.md
+|   |       DAVID_GRUSCH.md
+|   |       DECENTRALIZATION.md
+|   |       DECENTRALIZED_SYSTEMS.md
+|   |       DEFAULT_MASCULINITY_IN_AI.md
+|   |       DEFI.md
+|   |       DISABILITY_ACCESS.md
+|   |       DISC_SHAPED_UFO.md
+|   |       DRAKE_EQUATION.md
+|   |       DR_EVELYN_VOSS.md
+|   |       DYNAMIC_WORKLOAD_ROUTING.md
+|   |       ECONOMICS.md
+|   |       ECONOMIC_THRESHOLD.md
+|   |       ECONOPHYSICS.md
+|   |       ENVIRONMENTAL_COMPLEXITY.md
+|   |       ETHICS_IN_SOCIAL_MEDIA_RESEARCH.md
+|   |       EVOLUTIONARY_LEAP.md
+|   |       EXISTENTIAL_QUESTIONS.md
+|   |       EXTRATERRESTRIAL_LIFE.md
+|   |       FERMI_PARADOX.md
+|   |       GAME_THEORY.md
+|   |       GAME_THEORY_STRATEGY.md
+|   |       GENDER_NEUTRAL_LANGUAGE.md
+|   |       GEORGE_SOLI.md
+|   |       GLOBAL_STABILITY.md
+|   |       GRAND_PIANO.md
+|   |       HARVARD.md
+|   |       HASHTAGS.md
+|   |       HEALTHCARE_TECHNOLOGY.md
+|   |       HOMO_SAPIENS.md
+|   |       HUGGING_FACE.md
+|   |       HUGGING_FACE_DATASETS.md
+|   |       HUMANITY.md
+|   |       INCOMPLETE_KNOWLEDGE_AWARENESS.md
+|   |       INDUSTRIAL_REVOLUTION.md
+|   |       INFORMATION_ACCESSIBILITY.md
+|   |       INTERAPTOR_STUDIES.md
+|   |       INTERDISCIPLINARY_COLLABORATION.md
+|   |       INTERSTELLAR_SOCIOLOGY.md
+|   |       JAMES_TAYLOR.md
+|   |       JOE_MARISTELA.md
+|   |       JULY_2023_UAP_HEARING.md
+|   |       KARA_MENDOZA.md
+|   |       LEGALESE_NODES.md
+|   |       LIBERTIES.md
+|   |       LIGHT_CONES.md
+|   |       LIQUID_MARKETS.md
+|   |       LOGISTICS.md
+|   |       MACHINE_AGE.md
+|   |       MASS_PANIC.md
+|   |       MEDICAL_TECHNOLOGY.md
+|   |       MICHIO_KAKU.md
+|   |       MISINFORMATION_AND_UAP.md
+|   |       NASH_EQUILIBRIUM.md
+|   |       NHI.md
+|   |       NLP.md
+|   |       ONTOLOGICAL_SHOCK.md
+|   |       OPERATIONAL_VALUE.md
+|   |       OPPORTUNITY_CONES.md
+|   |       OPPORTUNITY_ECONOPHYSICS.md
+|   |       PARKHEALTH.md
+|   |       PARKHEALTH_FOUNDATION.md
+|   |       PATH_DEPENDENCE.md
+|   |       PATTERN_RECOGNITION.md
+|   |       PENTAGON_UAP_REPORT_2021.md
+|   |       PHILOSOPHICAL_INTROSPECTION.md
+|   |       POWER_DIRECTIVE.md
+|   |       PRICE_PER_COMPUTE.md
+|   |       PRIORITY_LEVEL.md
+|   |       PRISONERS_DILEMMA.md
+|   |       PROJECT_BLUE_BOOK.md
+|   |       PROTOCOLS.md
+|   |       PSYCHOCOSMOLOGY.md
+|   |       PSYCHOGEOGRAPHY.md
+|   |       QUANTUM_COMPUTING.md
+|   |       QUANTUM_CRYPTOGRAPHY.md
+|   |       RAY_KURZWEIL.md
+|   |       README.md
+|   |       RECURSION_LIMIT.md
+|   |       RECURSIVE_PROCESSING.md
+|   |       REDDIT.md
+|   |       REGULATORY_FRAMEWORKS.md
+|   |       RESOURCE_MARKETS.md
+|   |       RESOURCE_OPTIMIZATION.md
+|   |       RETRO_CAUSALITY.md
+|   |       REVERSE_CHRONOLOGICAL_BIOGRAPHIES.md
+|   |       ROBOTICS.md
+|   |       rolodexter.md
+|   |       ROSWELL_INCIDENT.md
+|   |       SECURITIZATION_NODES.md
+|   |       SINGULARITY.md
+|   |       SLA_MODULARIZATION.md
+|   |       SMART_CONTRACTS.md
+|   |       SOCIAL_MEDIA_METADATA.md
+|   |       SOCIETY.md
+|   |       SOCIOECONOMIC_MOBILITY.md
+|   |       STANDARDIZATION.md
+|   |       STATUS.md
+|   |       STOCHASTIC_PROCESSES.md
+|   |       STRATEGIC_PLANNING.md
+|   |       SUPERCOMPUTATION.md
+|   |       SUPERSONIC.md
+|   |       SUSTAINABLE_DEVELOPMENT.md
+|   |       SYNTHETIC_INTELLIGENCES.md
+|   |       SYSTEMS_SCIENCE.md
+|   |       SYSTEM_ID.md
+|   |       TECHNOLOGICAL_SINGULARITY.md
+|   |       TGE.md
+|   |       TIM_LOMAS.md
+|   |       TRACKING_TECHNOLOGIES.md
+|   |       TRADEABLE_COMPUTE.md
+|   |       TRIANGLE_SHAPED_UFO.md
+|   |       UAP.md
+|   |       UAP_DISCLOSURE.md
+|   |       UFO.md
+|   |       UNLIT_FIREPLACE.md
+|   |       UNSUPERVISED_LEARNING.md
+|   |       UNSUPERVISED_SUPERINTELLIGENCE.md
+|   |       VIOLENCE.md
+|   |       WEB_ACCESSIBILITY.md
+|   |       WISDOM.md
+|   |       X_ANALYSIS.md
+|   |       
+|   +---ETHICS
+|   |       ethical-frameworks.md
+|   |       README.md
+|   |       
+|   +---JOES_NOTES
+|   |   |   JOES_NOTES.MD
+|   |   |   
+|   |   +---AI
+|   |   |       AGENTIC_AI.md
+|   |   |       AGI.md
+|   |   |       AGI_COMPUTE_THRESHOLD.md
+|   |   |       AGI_HISTORY.md
+|   |   |       AGI_SURVIVAL.md
+|   |   |       AI.md
+|   |   |       AI_AND_THE_INEVITABILITY_OF_WAR.md
+|   |   |       AI_AUTOMATION.md
+|   |   |       AI_DRVEN_POLICY.md
+|   |   |       AI_ENERGY_NEXUS.md
+|   |   |       AI_FOR_ALL.md
+|   |   |       AI_MODELS.md
+|   |   |       AI_TRAINING_AND_CONFIDENTIALITY.md
+|   |   |       ARTIFICIAL_INTELLIGENCE.md
+|   |   |       BENNEWITZ_AFFAIR.md
+|   |   |       BLOCKCHAIN.md
+|   |   |       BLOCKCHAIN_EXPERIENCE.md
+|   |   |       BLOCKCHAIN_ORACLES.md
+|   |   |       BLOCKCHAIN_TECHNOLOGY.md
+|   |   |       C3_AI.md
+|   |   |       CHAINPROOF.md
+|   |   |       CITATION_CHAIN.md
+|   |   |       CLOUD_COMPUTE_COSTS.md
+|   |   |       COMPUTE_FINANCE.md
+|   |   |       CONSUMER_AI_HARDWARE.md
+|   |   |       CROSS_DOMAIN_INTEGRATION.md
+|   |   |       CRYPTOECONOMIC_MODELS.md
+|   |   |       DATAHIVE_AI_ML.md
+|   |   |       DATA_CENTRIC_AI.md
+|   |   |       DECENTRALIZED_AI.md
+|   |   |       DEMOCRATIZING_AGI.md
+|   |   |       DEMOCRATIZING_COMPUTE.md
+|   |   |       GODMOTHER_OF_AI_AGI_MEANING_FOR_HUMANITY.md
+|   |   |       GOVERNANCE_MODELS.md
+|   |   |       HISTORICAL_CONSTRAINTS.md
+|   |   |       HUMAN_CENTERED_AI.md
+|   |   |       INDEMNITY_MODELS.md
+|   |   |       LARGE_LANGUAGE_MODELS.md
+|   |   |       MATHEMATICAL_MODELS.md
+|   |   |       MICROSOFT_AGI_DEF.md
+|   |   |       MILITARY_VS_PRIVATE_SECTOR_AI.md
+|   |   |       OPENAI.md
+|   |   |       PRICE_PER_COMPUTE.md
+|   |   |       README.md
+|   |   |       REGULATORY_AFFAIRS_MANAGER.md
+|   |   |       RISK_ASSESSMENT_MODELS.md
+|   |   |       SALVATORE_CESAR_PAIS.md
+|   |   |       SALVATORE_PAIS.md
+|   |   |       SERVICE_DELIVERY_MODELS.md
+|   |   |       SUPPLY_CHAINS.md
+|   |   |       THAILAND.md
+|   |   |       TRADEABLE_COMPUTE.md
+|   |   |       
+|   |   +---CRYPTO
+|   |   |       CRYPTOCURRENCIES.md
+|   |   |       CRYPTOECONOMICS.md
+|   |   |       CRYPTOGRAPHY_BASICS.md
+|   |   |       DEFI.md
+|   |   |       DEFI_INSURANCE.md
+|   |   |       DEFI_INSURANCE_FOR_WILDFIRE_RISKS.md
+|   |   |       DEFI_INTRO.md
+|   |   |       POST_QUANTUM_CRYPTOGRAPHY.md
+|   |   |       TOKENIZATION.md
+|   |   |       TOKENS.md
+|   |   |       
+|   |   +---FAQS
+|   |   |       HOW_IS_ROLODEXTER_BEING_USED.md
+|   |   |       WHAT_IS_ROLODEXTER.md
+|   |   |       WHAT_IS_ROLODEXTERS_AESTHETIC.md
+|   |   |       WHAT_IS_WORLD_BUILDING_AI.md
+|   |   |       WHO_IS_BUILDING_ROLODEXTER.md
+|   |   |       
+|   |   +---HISTORY
+|   |   |       CARL_VON_CLAUSEWITZ.md
+|   |   |       DETERMINISTIC_PHILOSOPHY.md
+|   |   |       EASTERN_PHILOSOPHY.md
+|   |   |       HISTORICAL_DETERMINISM.md
+|   |   |       HISTORICAL_FADS.md
+|   |   |       README.md
+|   |   |       THUCYDIDES.md
+|   |   |       THUCYDIDES_TRAP.md
+|   |   |       
+|   |   +---MISC
+|   |   |       1973.md
+|   |   |       2023.md
+|   |   |       2024.md
+|   |   |       2025_JAN.md
+|   |   |       2025_JAN_SCI_TECH.md
+|   |   |       AARO.md
+|   |   |       AATIP.md
+|   |   |       ACCELERATING_MOMENTUM.md
+|   |   |       ACCUVAX.md
+|   |   |       ADMINISTRATIVE_PROCESSES.md
+|   |   |       ADVANCED_PROPULSION_CONSEQUENCES.MD
+|   |   |       ADVANCED_THERAPIES_WEEK.md
+|   |   |       AETHIR.md
+|   |   |       AFRICA.md
+|   |   |       ALAN_WATTS.md
+|   |   |       ALCOHOLISM.md
+|   |   |       ALTADENA.md
+|   |   |       ANTITRUST_ENFORCEMENT.md
+|   |   |       ARDIPITHECUS_RAMIDUS.md
+|   |   |       ASSET_CLASSES.md
+|   |   |       ATLANTIS.md
+|   |   |       AUSTIN_TEXAS.md
+|   |   |       AUSTRALOPITHECUS_AFARENSIS.md
+|   |   |       AUTONOMOUS_SYSTEMS.md
+|   |   |       AUTONOMOUS_TRANSPORT_SOLUTIONS.md
+|   |   |       AUTONOMOUS_WEAPONS_SYSTEMS.md
+|   |   |       BCG.md
+|   |   |       BILLIONS_PARTICIPANTS.md
+|   |   |       BIPOLARON.md
+|   |   |       BITCOIN.md
+|   |   |       BITCOIN_BASICS.md
+|   |   |       BOARD_CERTIFIED_DOCTORS.md
+|   |   |       BUSINESS_DEVELOPMENT.md
+|   |   |       CALIFORNIA.md
+|   |   |       CAREER_GROWTH.md
+|   |   |       CATASTROPHE_RISKS.md
+|   |   |       CELEBRITIES_LOSING_HOMES_IN_LA_FIRES.md
+|   |   |       CHIMPANZEE_AGGRESSION.md
+|   |   |       CHINA.md
+|   |   |       CHROMATIN_REMODELING.md
+|   |   |       CLASSICAL_REALISM.md
+|   |   |       CLIMATE_CHANGE.md
+|   |   |       CLIMATE_NEUTRALITY.md
+|   |   |       CLOUD_PROVIDERS.md
+|   |   |       COGNITIVE_AUGMENTATION.md
+|   |   |       COLLABORATION.md
+|   |   |       COMMUNITY_SERVICE.md
+|   |   |       CONSCIOUSNESS.md
+|   |   |       CONSENSUS_PROTOCOLS.md
+|   |   |       CONSTRUCTIVIST_THEORIES.md
+|   |   |       CONSULTING.md
+|   |   |       CONSUMER_ELECTRONICS_SHOW.md
+|   |   |       CONTINGENCY_PLANNING.md
+|   |   |       CONTINGENCY_PLANS.md
+|   |   |       COORDINATION_COMPLEXITY.md
+|   |   |       CORPORATE_LEGAL_STRUCTURES.md
+|   |   |       COST_OF_LIVING_ADJUSTMENT.md
+|   |   |       COST_PER_FLOP.md
+|   |   |       CREATIVE_DESTRUCTION.md
+|   |   |       CRISPR.md
+|   |   |       CRITICAL_INFRASTRUCTURE.md
+|   |   |       CULTURAL_MEMORY.md
+|   |   |       CYBERATTACKS.md
+|   |   |       CYBERSECURITY.md
+|   |   |       CYBER_WARFARE.md
+|   |   |       DALLAS.md
+|   |   |       DAOS.md
+|   |   |       DATAHIVE_FEDERAL.md
+|   |   |       DATAHIVE_NETWORK_NODES.md
+|   |   |       DATAHIVE_NODE_SALE.md
+|   |   |       DATAHIVE_PROJECTS.md
+|   |   |       DATAHIVE_TEAMS_PROJECTS.md
+|   |   |       DATAHIVE_VALUATION.md
+|   |   |       DATA_PRIVACY.md
+|   |   |       DATA_SOVEREIGNTY.md
+|   |   |       DATA_WARFARE.md
+|   |   |       DECC_NETWORK_LATENCY_NOTE.md
+|   |   |       DECENTRALIZATION.md
+|   |   |       DECENTRALIZATION_MAKEUP.md
+|   |   |       DECENTRALIZED_ARCHITECTURE.md
+|   |   |       DECENTRALIZED_CLOUD_INFRA.md
+|   |   |       DECENTRALIZED_INFRASTRUCTURE.md
+|   |   |       DECENTRALIZED_NODE_DISTRIBUTION.md
+|   |   |       DEEPFAKE.md
+|   |   |       DEEPSEEK_V3.md
+|   |   |       DESCI.md
+|   |   |       DESCI_HYPOTHESES.md
+|   |   |       DESCI_ORGANIZATIONS.md
+|   |   |       DEVELOPER_RELATIONS.md
+|   |   |       DIAMOND_SHAPED_UFO.md
+|   |   |       DISASTER_CAPITALISM.md
+|   |   |       DISASTER_RECOVERY.md
+|   |   |       DISC_SHAPED_UFO.md
+|   |   |       DISINFORMATION.md
+|   |   |       DIVERGENCE.md
+|   |   |       DRUG_DISCOVERY.md
+|   |   |       Dr_Edwin_C_May_Stargate_Interview.md
+|   |   |       EARLIER_TIMELINE.md
+|   |   |       EATON_FIRE.md
+|   |   |       ECO_FRIENDLY_HOMES.md
+|   |   |       EDGE_COMPUTING_IN_DECENTRALIZED_SYSTEMS.md
+|   |   |       EDUCATIONAL_BACKGROUND.md
+|   |   |       EDUCATION_AMPLIFICATION.md
+|   |   |       EDUCATION_SKILL_DISTRIBUTION.md
+|   |   |       EDUCATION_SYSTEMS.md
+|   |   |       EFFICIENCY_METRICS.md
+|   |   |       EGG_SHAPED_UFO.md
+|   |   |       EINSTEIN_CARTAN.md
+|   |   |       ELECTRIC_VEHICLES.md
+|   |   |       ELECTROMAGNETIC.md
+|   |   |       ELECTROMAGNETIC_GRAVITY_COUPLING.md
+|   |   |       EMERGENCY_FUND.md
+|   |   |       EMERGENCY_VEHICLES.md
+|   |   |       EMPOWERING_AGENCY.md
+|   |   |       ENGINEERING.md
+|   |   |       ETFS.md
+|   |   |       EUROPEAN_UNION.md
+|   |   |       EVOLUTIONARY_DESTINY.md
+|   |   |       EVOLUTIONARY_IMPERATIVE.md
+|   |   |       EVOLUTIONARY_LEAP.md
+|   |   |       EXABITS_APPLICATION.md
+|   |   |       EXABITS_SLA_MODULE.md
+|   |   |       EXABITS_TGE.md
+|   |   |       EXECUTION.md
+|   |   |       FANTASY_FOOTBALL.md
+|   |   |       FDA.md
+|   |   |       Figure-Mapping-of-research-literature-related-to-innovation-science-Each-literature_W640.jpg
+|   |   |       FIREBALL_UFO.md
+|   |   |       FIREFIGHTER_RECRUITMENT.md
+|   |   |       FIRE_APPARATUS.md
+|   |   |       FIRE_DEPARTMENTS.md
+|   |   |       FORTIFIED_HOME_PROGRAM.md
+|   |   |       FULLY_HOMOMORPHIC_ENCRYPTION.md
+|   |   |       FULL_RETIREMENT_AGE.md
+|   |   |       FUSION.md
+|   |   |       GENETIC_VARIATION.md
+|   |   |       GLOBAL_INTERNET_PENETRATION.md
+|   |   |       GLOBAL_STABILITY.md
+|   |   |       GLOBAL_STOCKTAKE.md
+|   |   |       GOALS.md
+|   |   |       GOLDMAN_SACHS.md
+|   |   |       GOVERNANCE_DECENTRALIZATION.md
+|   |   |       GOVERNMENT_ADOPTION.md
+|   |   |       GOVERNMENT_BONDS.md
+|   |   |       HAL_PUTHOFF.md
+|   |   |       HASHICORP_DHCS.md
+|   |   |       HEALTHCARE_DATA_SECURITY.md
+|   |   |       HEALTHCARE_TRANSFORMATION.md
+|   |   |       HEALTH_AWARENESS.md
+|   |   |       HEGELS_DIALECTICS.md
+|   |   |       HENRY_FORD_ASSEMBLY_LINE.md
+|   |   |       HERBERT_SPENCER.md
+|   |   |       HIGHLY_COMPENSATED_EMPLOYEES.md
+|   |   |       HISTORY.md
+|   |   |       HOMEOWNERS_INSURANCE.md
+|   |   |       HOMININ_LINEAGES.md
+|   |   |       HOMO_ANTECESSOR.md
+|   |   |       HOMO_ERECTUS.md
+|   |   |       HOMO_FLORESIENSIS.md
+|   |   |       HOMO_HABILIS.md
+|   |   |       HOMO_HEIDELBERGENSIS.md
+|   |   |       HOMO_NEANDERTHALENSIS.md
+|   |   |       HOMO_SAPIENS.md
+|   |   |       HUMAN_COGNITIVE_CAPACITY.md
+|   |   |       HUMAN_MACHINE_INTERACTIONS.md
+|   |   |       HUMAN_SPECIES_LIFESPANS.MD
+|   |   |       HYBRID_INFRASTRUCTURE.md
+|   |   |       IAC.md
+|   |   |       ILLIQUID_ASSETS.md
+|   |   |       ILM.md
+|   |   |       image-1.png
+|   |   |       image-10.png
+|   |   |       image-11.png
+|   |   |       image-12.png
+|   |   |       image-2 (1).png
+|   |   |       image-2 (2).png
+|   |   |       image-2.png
+|   |   |       image-3.png
+|   |   |       image-4.png
+|   |   |       image-5.png
+|   |   |       image-6.png
+|   |   |       image-7.png
+|   |   |       image-8.png
+|   |   |       image-9.png
+|   |   |       image.png
+|   |   |       IMPORTANT_DATES_IN_BITCOIN_HISTORY.md
+|   |   |       INDUCED_RESISTANCE.md
+|   |   |       INERTIAL_MASS_REDUCTION.md
+|   |   |       INFORMATION_WARFARE.md
+|   |   |       INSURANCE_CRISIS.md
+|   |   |       INSURANCE_REGULATIONS.md
+|   |   |       INTELLECTUAL_PROPERTY.md
+|   |   |       INTELLIGENT_LIFE.md
+|   |   |       INTERDISCIPLINARY_CONNECTIONS.md
+|   |   |       INTERSTELLAR_CIVILIZATION.md
+|   |   |       INVESTMENT_BANKING.md
+|   |   |       IPCC.md
+|   |   |       JANUARY_2025.md
+|   |   |       JEBEL_IRHDOUD.md
+|   |   |       JOHN_TYNDALL.md
+|   |   |       KAYA.MD
+|   |   |       LANGUAGE_GENERATION.md
+|   |   |       LAS_VEGAS.md
+|   |   |       LAW.md
+|   |   |       LAYER_2_SCALING_SOLUTIONS.md
+|   |   |       LIBERALISM_IR.md
+|   |   |       LIECHTENSTEIN.md
+|   |   |       LIFESTYLE_FACTORS.md
+|   |   |       LIMITS_OF_LANGUAGE_IMPLICATIONS_AND_PARADIGMS.md
+|   |   |       LINGUISTIC_DETERMINISM.md
+|   |   |       LIQUID_ASSETS.md
+|   |   |       LIQUID_VS_ILLIQUID_CAREERS.md
+|   |   |       LLM.md
+|   |   |       LONGEVITY_RESEARCH.md
+|   |   |       LOS_ANGELES_WILDFIRES.md
+|   |   |       LOS_ANGELES_WILDFIRES_2025.md
+|   |   |       MACHINE_LEARNING.md
+|   |   |       MALIBU.md
+|   |   |       MANHATTAN_PROJECT.md
+|   |   |       MARKET_NETWORKS.md
+|   |   |       MARX_MATERIALISM.md
+|   |   |       MEASURABLE_OUTCOMES.md
+|   |   |       MEDICAL_AND_HEALTH_SCIENCES.md
+|   |   |       MEDICAL_BACKGROUND.md
+|   |   |       MEDICINE.md
+|   |   |       MENTAL_HEALTH.md
+|   |   |       MERGING_REALITIES.md
+|   |   |       METALLIC_ORB.md
+|   |   |       MICROSOFT.md
+|   |   |       MICROSOFT_AZURE.md
+|   |   |       MILITARY_SCIENCE.md
+|   |   |       MINI_BLACK_HOLES.md
+|   |   |       MISINFORMATION.md
+|   |   |       MONEY_MARKET_INSTRUMENTS.md
+|   |   |       MONOPOLIZATION_OF_FIRE_APPARATUS_IMPACTS.md
+|   |   |       MONTREAL_PROTOCOL.md
+|   |   |       MOORES_LAW.md
+|   |   |       MOST_EARTH_SHATTERING_FEASIBLE_PHYSICS_CONCEPTS.MD
+|   |   |       MOTIVATION.md
+|   |   |       MULTI_PARTY_COMPUTATION.md
+|   |   |       MUTUAL_COVERAGE_SCHEMES.md
+|   |   |       NASA.md
+|   |   |       NATIONALLY_DETERMINED_CONTRIBUTIONS.md
+|   |   |       NATIONAL_SECURITY.md
+|   |   |       NATION_STATE.md
+|   |   |       NATURAL_SELECTION.md
+|   |   |       NEXT_LEVEL_BREAKTHROUGHS.md
+|   |   |       NFTS.md
+|   |   |       NICCOLO_MACHIAVELLI.md
+|   |   |       NON_HUMAN_INTELLIGENCES.md
+|   |   |       NON_INTERFERENCE.md
+|   |   |       NUCLEAR_POWER.md
+|   |   |       OER_COUNTERPART.md
+|   |   |       OMO_KIBISH.md
+|   |   |       OPEN_SOURCE.md
+|   |   |       OPEN_SOURCE_COORDINATION.md
+|   |   |       OPERATIONS_OPTIMIZATION.md
+|   |   |       OUTCOMES.md
+|   |   |       OVERTIME_ELIGIBILITY.md
+|   |   |       OWNERSHIP_DISTRIBUTION.md
+|   |   |       OZONE_HOLE.md
+|   |   |       PACIFIC_PALISADES.md
+|   |   |       PALEOLITHIC_EMOTIONS.md
+|   |   |       PALISADES_FIRE.md
+|   |   |       PARALLEL_CIVILIZATION.md
+|   |   |       PARKER_SOLAR_PROBE.md
+|   |   |       PATH_DEPENDENCE.md
+|   |   |       PATIENT_DATA.md
+|   |   |       PAUL_BENNEWITZ.md
+|   |   |       PENSION_FUNDS.md
+|   |   |       PERSONAL_STATEMENT_JOBS.md
+|   |   |       PHI4.md
+|   |   |       PHYSIOLOGY.md
+|   |   |       PLANNING.md
+|   |   |       PLANT_SIGNALING.md
+|   |   |       POLICY_DEVELOPMENT.md
+|   |   |       POLITICAL_REALISM.md
+|   |   |       POST_SINGULARITY_CIVILIZATION.md
+|   |   |       PRE-HOMO_SAPIENS.md
+|   |   |       PRIVATE_EQUITY.md
+|   |   |       PRIVATE_PUBLIC_SYNERGY.md
+|   |   |       PRODUCTIVITY_METRICS.md
+|   |   |       PRODUCTS_AS_INTERFACES.md
+|   |   |       PRODUCT_CREATION.md
+|   |   |       PRODUCT_MARKET_FIT.md
+|   |   |       PROJECT_BLUE_BOOK.md
+|   |   |       PROJECT_SIGN.md
+|   |   |       PROTOCOL_OPENNESS.md
+|   |   |       PSYCHOLOGY.md
+|   |   |       PUBLIC_AGENCIES.md
+|   |   |       PUBLIC_SAFETY.md
+|   |   |       PUBLIC_SECTOR_ENGAGEMENT.md
+|   |   |       PUBLIC_SECTOR_QUESTIONS.md
+|   |   |       PUBLIC_SERVICES.md
+|   |   |       PUBLIC_TRUST.md
+|   |   |       PYRAMID_SHAPED_UFO.md
+|   |   |       QUANTSTAMP.md
+|   |   |       QWERTY_KEYBOARD.md
+|   |   |       REACTIONLESS_PROPULSION.md
+|   |   |       README.md
+|   |   |       REALITY.md
+|   |   |       REGULATORY_BODIES.md
+|   |   |       REGULATORY_COMPLEXITIES.md
+|   |   |       REGULATORY_ENVIRONMENTS.md
+|   |   |       REGULATORY_FRAMEWORKS.md
+|   |   |       REGULATORY_STRATEGIES.md
+|   |   |       RENEWABLE_ENERGY.md
+|   |   |       REQUIREMENTS_IN_HEALTH_STUDIES.md
+|   |   |       RESEARCH.md
+|   |   |       RESILIENCE.md
+|   |   |       RESOURCE_FEDERATION_LAYER.md
+|   |   |       RESOURCE_GRAPH.md
+|   |   |       REV_GROUP.md
+|   |   |       RISKS.md
+|   |   |       RISK_BASED_PRICING.md
+|   |   |       ROBERTSON_PANEL.md
+|   |   |       ROLODEXTER_LITERARY_CANON.md
+|   |   |       ROMANIA.md
+|   |   |       ROSWELL.md
+|   |   |       RURAL_COMMUNITIES.md
+|   |   |       SBCPH.md
+|   |   |       SCALABILITY_IN_DECENTRALIZED_NETWORKS.md
+|   |   |       SCALABLE_SYSTEMS.md
+|   |   |       SCHUMPETER.md
+|   |   |       SCHWINGER_LIMIT.md
+|   |   |       SCIENCE_LANDSCAPE.md
+|   |   |       SCIENCE_OVER_FICTION.md
+|   |   |       SCIENTIFIC_REALISM.md
+|   |   |       SECURITY.md
+|   |   |       SEMICONDUCTORS.md
+|   |   |       SEMICONDUCTOR_ELECTRONICS.md
+|   |   |       SENSE_OF_URGENCY.md
+|   |   |       SHARED_PROSPERITY.md
+|   |   |       SILOS.md
+|   |   |       SLAs.md
+|   |   |       SLED_VERTICES.md
+|   |   |       SLM.md
+|   |   |       SMART_CONTRACTS.md
+|   |   |       SMART_CONTRACT_RISK.md
+|   |   |       SOCIAL_DARWINISM.md
+|   |   |       SOCIAL_MEDIA.md
+|   |   |       SOCIAL_SECURITY.md
+|   |   |       SOCIO_TECHNICAL_LANDSCAPE.md
+|   |   |       SOFTWARE_ENGINEERING.md
+|   |   |       SOLID_STATE_BATTERY.md
+|   |   |       SOVEREIGNTY.md
+|   |   |       SOVEREIGN_WEALTH_FUNDS.md
+|   |   |       SPATIAL_INTELLIGENCE.md
+|   |   |       SPIRITUALITY.md
+|   |   |       STARTUP.md
+|   |   |       STARTUP_FOUNDERS.md
+|   |   |       STOCKS.md
+|   |   |       STRATEGIC_ALIGNMENT.md
+|   |   |       STRATEGIC_LEADERSHIP.md
+|   |   |       STRATEGY.md
+|   |   |       STREAMING_SERVICES.md
+|   |   |       SURVEILLANCE.md
+|   |   |       SUZETRIGINE.md
+|   |   |       SVANTE_ARRHENIUS.md
+|   |   |       SYSTEMS_MINDSET.md
+|   |   |       SYSTEMS_SCIENCE.md
+|   |   |       SYSTEMS_THEORY.md
+|   |   |       TECHNICAL_WRITING.md
+|   |   |       TECHNOLOGICAL_COGNITIVE_DEVELOPMENT.md
+|   |   |       TECHNOLOGICAL_LEAPS.md
+|   |   |       TECHNOLOGY.md
+|   |   |       TENETS.md
+|   |   |       TERRAFORM.md
+|   |   |       THE_MEANING_OF_BITCOIN.md
+|   |   |       THOMAS_HOBBES.md
+|   |   |       TIKTOK.md
+|   |   |       TORSION_ENHANCED_GRAVITY_MANIPULATION.md
+|   |   |       TRANSLATING_TARGETED_THERAPIES_IN_COMBINATION_WITH_RADIOTHERAPY.md
+|   |   |       TRANSMEDIUM_CAPABILITIES.md
+|   |   |       TRILLION_DOLLARS.md
+|   |   |       TRUSTED_EXECUTION_ENVIRONMENTS.md
+|   |   |       UAP_UFO_PSYOP_TIMELINE.md
+|   |   |       UFO_UAP_TYPES.md
+|   |   |       UNDERWATER_ALIEN_BASES_HYPOTHESIS.md
+|   |   |       UNITED_NATIONS.md
+|   |   |       UNITED_STATES.md
+|   |   |       UNIVERSE.md
+|   |   |       UNIVERSITY_INITIATIVES.md
+|   |   |       USA_NATIONAL_SECURITY_IMPLICATIONS_OF_DEEPSEEK.md
+|   |   |       US_SECURITY.md
+|   |   |       VACUUM_COLLAPSE.md
+|   |   |       VACUUM_ENGINEERING.md
+|   |   |       VALUATIONS.md
+|   |   |       VAULT.md
+|   |   |       VOCs_NATURES_ZK_STARKS.md
+|   |   |       VOLATILE_ORGANIC_COMPOUNDS.md
+|   |   |       WALL_STREET_HISTORY.md
+|   |   |       WAR_IS_INEVITABLE_THEORY.md
+|   |   |       WASHINGTON_UFO_INCIDENT.md
+|   |   |       WILDFIRES.md
+|   |   |       WILDFIRE_RISK_EXTREME.md
+|   |   |       WILDFIRE_RISK_MANAGEMENT.md
+|   |   |       WORKFLOW_AUTOMATION.md
+|   |   |       ZERO_KNOWLEDGE_PROOFS.md
+|   |   |       ZERO_POINT_ENERGY.md
+|   |   |       ZK_STARKS.md
+|   |   |       {22E00CCC-461F-4CB0-A40C-86359E85E752}.png
+|   |   |       
+|   |   +---PHYSICS
+|   |   |       GRAVITATIONAL_WAVE.md
+|   |   |       HIGH_FREQUENCY_GRAVITATIONAL_WAVES.md
+|   |   |       INTERNATIONAL_YEAR_OF_QUANTUM_SCIENCE_AND_TECHNOLOGY.md
+|   |   |       PHYSICS.md
+|   |   |       PHYSICS_INSPIRED_MANAGEMENT.md
+|   |   |       QUANTUM.md
+|   |   |       QUANTUM_COMPUTATION.md
+|   |   |       QUANTUM_COMPUTING.md
+|   |   |       QUANTUM_ENCRYPTION.md
+|   |   |       QUANTUM_FIELD_EXTRACTION.md
+|   |   |       QUANTUM_VACUUM.md
+|   |   |       README.md
+|   |   |       ROOM_TEMPERATURE_SUPERCONDUCTIVITY.md
+|   |   |       SPACETIME.md
+|   |   |       
+|   |   \---STRATEGY
+|   |           ECONOMICS.md
+|   |           ECONOMIC_ESPIONAGE.md
+|   |           ECONOMIC_THEORY.md
+|   |           ECONOMIC_THRESHOLD.md
+|   |           FINANCIAL_INNOVATION.md
+|   |           FINANCIAL_INSTITUTIONS.md
+|   |           FINANCIAL_SYSTEMS.md
+|   |           INNOVATION.md
+|   |           INNOVATIONS_IN_PUBLIC_SECTOR.md
+|   |           README.md
+|   |           STRUCTURAL_ECONOMIC_INSTITUTIONS.md
+|   |           TECH_INNOVATION.md
+|   |           
+|   +---LOCATIONS
+|   |       PARKHEALTH_COMMONS.MD
+|   |       README.md
+|   |       
+|   +---NETFLIX
+|   |       MIRROR_PROTOCOL.MD
+|   |       README.md
+|   |       ROLODEXTER.MD
+|   |       
+|   +---ORGANIZATIONS
+|   |       parkhealth.md
+|   |       README.md
+|   |       
+|   +---PEOPLE
+|   |       cesar-hidalgo.md
+|   |       README.md
+|   |       ricardo-hausmann.md
+|   |       
+|   +---SCREENPLAYS
+|   |       ANTI_DARK_PHOTON_PROPULSION_SCREENPLAY.md
+|   |       EXPANDING_UAP_DISCLOSURE_STUDY_SCREENPLAY.md
+|   |       EXPLORING_EPISTEMOLOGICAL_FRONTIERS_SCREENPLAY.md
+|   |       HUMAN_ALLO.md
+|   |       INT_ATHERTON_ESTATE_NIGHT.md
+|   |       INT_PARKHEALTH_FOUNDATION_LAB_NIGHT.md
+|   |       INT_THE_OBSERVATORY_DAY
+|   |       README.md
+|   |       THE_QUERY.md
+|   |       
+|   +---SYSTEMS
+|   |       HUMAN_ALLO_LAYER.MD
+|   |       README.md
+|   |       
+|   +---TECHNOLOGY
+|   |       ai-autopilot.md
+|   |       README.md
+|   |       ROLODEXTER_AVATAR.MD
+|   |       ROLODEXTER_INTELLIGENCE_ARCHITECTURE.md
+|   |       
+|   +---THEMES
+|   |       power-directive.md
+|   |       README.md
+|   |       technology.md
+|   |       
+|   \---UNIVERSE
+|           README.md
+|           rolodexter-universe.md
+|           rolodexter.md
+|           
++---PROJECT_DOCS
+|       ABOUT.MD
+|       AI.MD
+|       COMMUNITY.MD
+|       CONTACT.MD
+|       RESEARCH.MD
+|       
+\---TECH_DOCS
+    |   TIMELINE.md
+    |   
+    +---2020
+    |       DATA_PIPELINES.md
+    |       DEV_ENVIRONMENT.md
+    |       DOCUMENTATION_STANDARDS.md
+    |       INFRASTRUCTURE.md
+    |       
+    +---2021
+    |       CLOUD_ARCHITECTURE.md
+    |       CONTAINERIZATION.md
+    |       SECURITY_BEST_PRACTICES.md
+    |       
+    +---2024
+    |       DECENTRALIZATION.md
+    |       OBSERVABILITY_TOOLS.md
+    |       PRIVACY_TECHNOLOGIES.md
+    |       ROLODEXTER_WORLD_BUILDING_STYLE.md
+    |       TOKENOMICS.md
+    |       
+    +---2027
+    |       CROSS_CHAIN_INTEROPERABILITY.md
+    |       QUANTUM_COMPUTING.md
+    |       UNSUPERVISED_AI.md
+    |       
+    \---2030
+            FINAL_ARCHITECTURE.md
+            GOVERNANCE.md
+            ROADMAP_REVIEW.md
+            
