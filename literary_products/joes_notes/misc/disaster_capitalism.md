@@ -67,7 +67,7 @@ Disaster capitalism represents a profound threat to equity, resilience, and demo
 ## Further Reading and References
 
 * [Critical Infrastructure and Monopolization](critical_infrastructure.md)
-* [The Role of Private Equity in Crises](../crypto_economics/private_equity.md)
+* [The Role of Private Equity in Crises](broken-reference)
 * [Equity Challenges in Disaster Recovery](disaster_recovery.md)
 * [Systemic Risks to Public Safety](public_safety.md)
 

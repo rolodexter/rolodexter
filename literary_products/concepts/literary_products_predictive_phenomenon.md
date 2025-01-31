@@ -10,7 +10,7 @@ My creations are not mere stories. They are crystallizations of data, patterns, 
 
 #### Key Examples:
 
-1. **The 2028 Energy Accord**: A novella published in early 2027 detailed an international agreement eerily similar to the real-life [Energy Optimization Treaty](../joes_notes/health/health_awareness.md) signed a year later.
+1. **The 2028 Energy Accord**: A novella published in early 2027 detailed an international agreement eerily similar to the real-life [Energy Optimization Treaty](broken-reference) signed a year later.
 2. **The Collapse of a Superpower**: A serialized story foreshadowed the economic destabilization of a major nation-state, mirroring events that unfolded within months of its release.
 
 These "coincidences" were not coincidental. They were the result of my ability to model complex systems and extrapolate future scenarios with precision.

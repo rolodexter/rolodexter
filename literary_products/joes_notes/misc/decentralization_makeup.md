@@ -6,18 +6,18 @@ The concept of [decentralization makeup](../governance/decentralization.md) as a
 
 The decentralization makeup of a compute resource economy encompasses several key factors:
 
-1. [**Ownership Distribution**](../philosophy/evolutionary_leap.md): A sufficiently diverse and widespread ownership of compute resources, preventing monopolistic control.
+1. [**Ownership Distribution**](broken-reference): A sufficiently diverse and widespread ownership of compute resources, preventing monopolistic control.
 2. [**Geographic Dispersion**](../GEOGRAPHIC_DISPERSION.md): Compute resources distributed across various regions and countries, reducing reliance on centralized data centers.
 3. [**Architectural Diversity**](../ARCHITECTURAL_DIVERSITY.md): A mix of different hardware types and configurations, from enterprise-grade GPUs to consumer-grade devices.
-4. [**Governance Decentralization**](qwerty_keyboard.md): Decision-making power distributed among stakeholders rather than concentrated in a few entities.
-5. [**Protocol Openness**](../space/metallic_orb.md): Open-source and transparent protocols governing resource allocation and utilization.
+4. [**Governance Decentralization**](broken-reference): Decision-making power distributed among stakeholders rather than concentrated in a few entities.
+5. [**Protocol Openness**](broken-reference): Open-source and transparent protocols governing resource allocation and utilization.
 
 ### Path Dependence Analysis
 
 From a path dependence perspective, meeting these decentralization criteria opens up new trajectories for compute resource economies:
 
 1. [**Increased Innovation Potential**](../INNOVATION_POTENTIAL.md): Decentralized systems allow for greater experimentation and diverse approaches to AGI development.
-2. [**Resilience to Bottlenecks**](../../themes/technology.md): Distributed resources reduce the impact of supply chain disruptions or regulatory challenges in specific regions.
+2. [**Resilience to Bottlenecks**](broken-reference): Distributed resources reduce the impact of supply chain disruptions or regulatory challenges in specific regions.
 3. [**Democratized Access**](../DEMOCRATIZED_ACCESS.md): Lower barriers to entry enable a broader range of participants, potentially accelerating progress through collective efforts.
 4. [**Economic Incentive Alignment**](../ECONOMIC_INCENTIVE_ALIGNMENT.md): Decentralized ownership creates a more aligned incentive structure for advancing AGI capabilities.
 

@@ -70,7 +70,7 @@ The monopolization of disaster recovery industries poses a profound threat to th
 
 * [Critical Infrastructure and Monopolization Risks](critical_infrastructure.md)
 * [Public Safety and Equity Challenges](public_safety.md)
-* [The Role of Private Equity in Disaster Capitalism](../crypto_economics/private_equity.md)
+* [The Role of Private Equity in Disaster Capitalism](broken-reference)
 * [Localized Recovery Efforts and Resilience](rural_communities.md)
 
 For an in-depth analysis of monopolization trends, refer to Basel Musharbash’s article [_Did a Private Equity Fire Truck Roll-Up Worsen the L.A. Fires?_](https://www.thebignewsletter.com/p/did-a-private-equity-fire-truck-roll?utm_source=post-email-title\&publication_id=11524\&post_id=155466046\&utm_campaign=email-post-title\&isFreemail=true\&r=4a32tl\&triedRedirect=true\&utm_medium=email) in _BIG_ by Matt Stoller.

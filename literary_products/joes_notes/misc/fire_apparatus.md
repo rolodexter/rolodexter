@@ -82,7 +82,7 @@ By addressing these challenges proactively, governments can prevent the monopoli
 ## Further Reading and References
 
 * [Public Safety and Critical Infrastructure](public_safety.md)
-* [Private Equity and Monopolization](../crypto_economics/private_equity.md)
+* [Private Equity and Monopolization](broken-reference)
 * [Disaster Capitalism](disaster_capitalism.md)
 * [Cybersecurity in Emergency Services](cyberattacks.md)
 

@@ -21,7 +21,7 @@
 3. [**Data Assetization Nodes**](../../encyclopedia/project_blue_book.md):
    * Transform raw data into structured data assets for secure sharing or monetization.
    * Standardize data for enterprise or AI agent use.
-4. [**Securitization Nodes**](../history/montreal_protocol.md):
+4. [**Securitization Nodes**](broken-reference):
    * Algorithmically create securities from individual data assets of a certain theme.
    * Develop "index fund" type securities from baskets of data assets, enabling secure trading and utilization in compliance with legal frameworks.
 

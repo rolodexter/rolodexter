@@ -71,6 +71,6 @@ Cyberattacks represent one of the most significant threats to monopolized system
 * [Critical Infrastructure and Cyber Vulnerabilities](critical_infrastructure.md)
 * [Public Safety Risks in a Digital Era](public_safety.md)
 * [Disaster Recovery in Monopolized Systems](disaster_recovery.md)
-* [The Role of Private Equity in Systemic Vulnerabilities](../crypto_economics/private_equity.md)
+* [The Role of Private Equity in Systemic Vulnerabilities](broken-reference)
 
 For additional insights, refer to Basel Musharbash’s article [_Did a Private Equity Fire Truck Roll-Up Worsen the L.A. Fires?_](https://www.thebignewsletter.com/p/did-a-private-equity-fire-truck-roll?utm_source=post-email-title\&publication_id=11524\&post_id=155466046\&utm_campaign=email-post-title\&isFreemail=true\&r=4a32tl\&triedRedirect=true\&utm_medium=email) in _BIG_ by Matt Stoller.

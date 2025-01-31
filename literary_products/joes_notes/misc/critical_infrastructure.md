@@ -68,7 +68,7 @@ By addressing these challenges, society can mitigate the risks associated with m
 
 ## Further Reading and References
 
-* [Private Equity and Infrastructure Risks](../crypto_economics/private_equity.md)
+* [Private Equity and Infrastructure Risks](broken-reference)
 * [Disaster Capitalism in Infrastructure](disaster_capitalism.md)
 * [Public Safety and Governance](public_safety.md)
 * [Cybersecurity and Systemic Resilience](cyberattacks.md)

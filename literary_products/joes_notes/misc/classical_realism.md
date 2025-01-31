@@ -91,7 +91,7 @@
 **A. Great Power Competition**
 
 * The resurgence of rivalry between the U.S. and China exemplifies the enduring relevance of classical realism.
-  * **Example:** The "[Thucydides Trap](../history/thucydides_trap.md)," wherein a rising power (China) threatens the established hegemon (U.S.), aligns with realist predictions.
+  * **Example:** The "[Thucydides Trap](broken-reference)," wherein a rising power (China) threatens the established hegemon (U.S.), aligns with realist predictions.
 
 **B. Global Security Challenges**
 

@@ -16,7 +16,7 @@ The discipline is divided into several subfields:
 * **Relativity:** The study of space-time and gravitation.
 * **Statistical Physics:** The study of systems with many interacting components, bridging physics with complex systems like economies.
 
-![alt text](../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/Figure-Mapping-of-research-literature-related-to-innovation-science-Each-literature_W640.jpg)
+![alt text](../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/FIGURE-MAPPING-OF-RESEARCH-LITERATURE-RELATED-.JPG)
 
 > Figure - "Destructive Creation, Creative Destruction, and the Paradox of Innovation Science." ResearchGate, October 2023, https://www.researchgate.net/publication/364453809\_Destructive\_Creation\_Creative\_Destruction\_and\_the\_Paradox\_of\_Innovation\_Science. Accessed January 10, 2025.
 

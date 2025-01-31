@@ -1,6 +1,6 @@
 # OPPORTUNITY CONES
 
-**Opportunity Cones and Opportunity Econophysics** refer to a theoretical framework in economic and decision sciences that combines concepts from [**econophysics**](roswell_incident.md), [**path dependence**](../joes_notes/ai/democratizing_agi.md), and [**consciousness studies**](consciousness_studies.md). This framework examines how decisions shape the range of future possibilities within socio-economic systems. The central idea is that decisions create "cones" of opportunities, much like how [**light cones**](web_accessibility.md) in physics define causal boundaries in spacetime. Opportunity Econophysics extends this analogy, exploring how conscious decisions, resource distribution, and economic constraints influence complex systems.
+**Opportunity Cones and Opportunity Econophysics** refer to a theoretical framework in economic and decision sciences that combines concepts from [**econophysics**](roswell_incident.md), [**path dependence**](../../tech_docs/visual/vr_game_environments.md), and [**consciousness studies**](consciousness_studies.md). This framework examines how decisions shape the range of future possibilities within socio-economic systems. The central idea is that decisions create "cones" of opportunities, much like how [**light cones**](web_accessibility.md) in physics define causal boundaries in spacetime. Opportunity Econophysics extends this analogy, exploring how conscious decisions, resource distribution, and economic constraints influence complex systems.
 
 ## Contents
 
@@ -18,7 +18,7 @@
 
 ## Background
 
-The idea of [**Opportunity Cones**](../joes_notes/ai/decentralized_ai.md) draws inspiration from [_light cones_](web_accessibility.md) in cosmology, which define the causal boundaries of events in spacetime. In a similar way, Opportunity Cones map the boundaries of potential future outcomes in decision-making environments. The framework was developed to understand how decisions, once made, influence future choices and outcomes, creating paths that expand or contract over time. The concept has applications in [**economics**](reverse_chronological_biographies.md), [**strategic planning**](../joes_notes/misc/community_service.md), and socio-economic policy.
+The idea of [**Opportunity Cones**](../../tech_docs/visual/videos.md) draws inspiration from [_light cones_](web_accessibility.md) in cosmology, which define the causal boundaries of events in spacetime. In a similar way, Opportunity Cones map the boundaries of potential future outcomes in decision-making environments. The framework was developed to understand how decisions, once made, influence future choices and outcomes, creating paths that expand or contract over time. The concept has applications in [**economics**](reverse_chronological_biographies.md), [**strategic planning**](../joes_notes/misc/community_service.md), and socio-economic policy.
 
 [**Opportunity Econophysics**](opportunity_econophysics.md) is the interdisciplinary study that combines **econophysics**, [**graph theory**](GRAPH_THEORY.md), [**optimization**](OPTIMIZATION.md), and [**stochastic processes**](../joes_notes/misc/collaboration.md) to model the probabilistic nature of decision impacts within economic systems. It is primarily concerned with the interactions between [**Conscious Agents**](CONSCIOUS_AGENTS.md), **Opportunity Cones**, and [**spatiomatter**](SPATIOMATTER.md) (the distribution of resources and constraints within a system).
 
@@ -26,7 +26,7 @@ The idea of [**Opportunity Cones**](../joes_notes/ai/decentralized_ai.md) draws 
 
 ### Opportunity Cones
 
-[**Opportunity Cones**](../joes_notes/ai/decentralized_ai.md) represent the range of future possibilities that arise from a single decision point. As decisions are made, they shape the structure of the Opportunity Cone, expanding or contracting the range of possible outcomes based on the flexibility or constraints introduced by each choice. Opportunity Cones provide a visual model for understanding [_path dependence_](../joes_notes/ai/democratizing_agi.md)—how each choice influences subsequent options.
+[**Opportunity Cones**](../../tech_docs/visual/videos.md) represent the range of future possibilities that arise from a single decision point. As decisions are made, they shape the structure of the Opportunity Cone, expanding or contracting the range of possible outcomes based on the flexibility or constraints introduced by each choice. Opportunity Cones provide a visual model for understanding [_path dependence_](../../tech_docs/visual/vr_game_environments.md)—how each choice influences subsequent options.
 
 ### Conscious Agents
 

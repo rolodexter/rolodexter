@@ -110,7 +110,7 @@ The roots of Cosmic Sociology lie in the study of interstellar communication, [g
 
 **7.1 Game Theory**
 
-* Strategies from game theory, such as the [Prisoner’s Dilemma](../joes_notes/ai/salvatore_cesar_pais.md), are reflected in interstellar decision-making.
+* Strategies from game theory, such as the [Prisoner’s Dilemma](broken-reference), are reflected in interstellar decision-making.
 
 **7.2 Cold War Deterrence**
 
@@ -158,4 +158,4 @@ Cosmic Sociology has influenced policies on space exploration and interstellar c
 * [Drake Equation](resource_markets.md)
 * [Astrobiology](https://en.wikipedia.org/wiki/Astrobiology)
 * [Exoplanet Exploration](https://exoplanets.nasa.gov/)
-* [Nash Equilibrium](../joes_notes/ai/cloud_compute_costs.md)
+* [Nash Equilibrium](../technology/ai_autopilot.md)

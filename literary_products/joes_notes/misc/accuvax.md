@@ -1,6 +1,6 @@
 # Vaccine Storage System Development
 
-I played a critical role in bringing the [AccuVax](../ai/ai.md) vaccine storage system from concept to commercial deployment. This experience demonstrated my ability to navigate complex technological and healthcare ecosystems, a skill directly relevant to transforming computational infrastructure.
+I played a critical role in bringing the [AccuVax](../physics/high_frequency_waves.md) vaccine storage system from concept to commercial deployment. This experience demonstrated my ability to navigate complex technological and healthcare ecosystems, a skill directly relevant to transforming computational infrastructure.
 
 ## Technical Challenges and Innovative Solutions
 
@@ -11,7 +11,7 @@ I played a critical role in bringing the [AccuVax](../ai/ai.md) vaccine storage 
 I approached the AccuVax project with a multidisciplinary perspective, bridging critical gaps between:
 
 * [Medical infrastructure requirements](../../encyclopedia/sustainable_development.md)
-* [Robotic engineering specifications](../history/eastern_philosophy.md)
+* [Robotic engineering specifications](broken-reference)
 * Regulatory compliance standards
 
 ### **Advanced Tracking Methodology**
@@ -37,7 +37,7 @@ Developed a **multi-layered tracking system** that captured:
 
 ### **Regulatory Navigation**
 
-Successfully guided the project through complex [FDA approval processes](../governance/governance_decentralization.md) by:
+Successfully guided the project through complex [FDA approval processes](broken-reference) by:
 
 * Developing comprehensive documentation
 * Creating rigorous testing protocols

@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Decentralized Finance (DeFi)** refers to a collection of financial services and platforms built on [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**cryptographic**](cryptography_basics.md) protocols that operate without relying on traditional intermediaries like banks or brokerages. Instead of centralized authorities managing transactions and overseeing operations, users interact with **smart contracts**—self-executing code that defines the rules and execution of financial transactions. By leveraging these decentralized protocols, DeFi aims to democratize access to financial tools such as **lending**, **borrowing**, **trading**, and **insurance** on a global scale.
+**Decentralized Finance (DeFi)** refers to a collection of financial services and platforms built on [**blockchain**](broken-reference) and [**cryptographic**](cryptography_basics.md) protocols that operate without relying on traditional intermediaries like banks or brokerages. Instead of centralized authorities managing transactions and overseeing operations, users interact with **smart contracts**—self-executing code that defines the rules and execution of financial transactions. By leveraging these decentralized protocols, DeFi aims to democratize access to financial tools such as **lending**, **borrowing**, **trading**, and **insurance** on a global scale.
 
 ***
 
@@ -21,7 +21,7 @@
    * No single entity holds user funds, reducing counterparty risk while imposing new responsibilities for **private key** management.
 3. **Transparency and Auditability**
    * All transactions occur on **public ledgers**, ensuring accountability and real-time verifiability of system integrity.
-   * [**Immutable**](../crypto_economics/bitcoin_basics.md#immutability) records help minimize fraud, bolster [**public trust**](../misc/public_trust.md), and simplify compliance checks.
+   * [**Immutable**](broken-reference) records help minimize fraud, bolster [**public trust**](../misc/public_trust.md), and simplify compliance checks.
 4. **Interoperability**
    * DeFi protocols often interact seamlessly with each other, forming a growing ecosystem of composable “money Legos.”
    * Users can stack services—borrowing from one protocol, staking in another, and exchanging on a third—without leaving the decentralized environment.
@@ -69,7 +69,7 @@ While much of DeFi development has occurred on **smart-contract-capable blockcha
    * **Smart contracts** can automate conditional fund releases (e.g., when certain metrics or criteria are met) for [**public services**](../misc/public_services.md).
    * Reduces middlemen, corruption, and distribution delays.
 4. **Compliance and Oversight**
-   * [**Regulatory frameworks**](../governance/regulatory_frameworks.md) need to evolve to accommodate cross-border DeFi activities.
+   * [**Regulatory frameworks**](broken-reference) need to evolve to accommodate cross-border DeFi activities.
    * [**Public agencies**](../misc/public_agencies.md) may require new tools and skill sets to audit smart contract-based transactions and ensure lawful operations.
 
 ***
@@ -113,7 +113,7 @@ While much of DeFi development has occurred on **smart-contract-capable blockcha
 
 ## See Also
 
-* [BITCOIN\_BASICS](../crypto_economics/bitcoin_basics.md)
+* [BITCOIN\_BASICS](broken-reference)
 * [CRYPTOCURRENCIES](cryptocurrencies.md)
 * [FINANCIAL\_SYSTEMS](../strategy/financial_systems.md)
 * [GOVERNMENT\_ADOPTION](../misc/government_adoption.md)

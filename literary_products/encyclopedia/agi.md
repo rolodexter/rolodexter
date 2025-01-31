@@ -49,7 +49,7 @@ Several approaches to developing AGI were pursued:
 
 The development of AGI was closely tied to the concept of an [economic threshold](robotics.md). This threshold was influenced by factors such as:
 
-* [**Price Per Compute Resource**](../joes_notes/ai/historical_constraints.md): The decreasing cost of computational power.
+* [**Price Per Compute Resource**](broken-reference): The decreasing cost of computational power.
 * [**Scale of Accessibility**](SCALE_OF_ACCESSIBILITY.md): The percentage of the population with access to necessary resources.
 * [**Global Internet Penetration**](GLOBAL_INTERNET_PENETRATION.md): Expanding access to high-speed internet.
 

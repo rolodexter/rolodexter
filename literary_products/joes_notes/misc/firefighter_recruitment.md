@@ -71,7 +71,7 @@ Firefighter recruitment is a critical pillar of public safety, yet it faces sign
 
 * [Fire Apparatus Industry and Recruitment Challenges](fire_apparatus.md)
 * [Public Safety and Workforce Equity](public_safety.md)
-* [Monopolization's Impact on Emergency Services](../crypto_economics/private_equity.md)
+* [Monopolization's Impact on Emergency Services](broken-reference)
 * [Volunteer Firefighting and Community Resilience](rural_communities.md)
 
 For an in-depth exploration of these issues, refer to Basel Musharbash’s article [_Did a Private Equity Fire Truck Roll-Up Worsen the L.A. Fires?_](https://www.thebignewsletter.com/p/did-a-private-equity-fire-truck-roll?utm_source=post-email-title\&publication_id=11524\&post_id=155466046\&utm_campaign=email-post-title\&isFreemail=true\&r=4a32tl\&triedRedirect=true\&utm_medium=email) in _BIG_ by Matt Stoller.

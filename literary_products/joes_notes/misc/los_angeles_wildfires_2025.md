@@ -23,7 +23,7 @@ The **Los Angeles wildfires of January 2025** have been described as the most de
 
 ## Insurance Crisis
 
-The wildfires have intensified California's ongoing [insurance crisis](../health/insurance_crisis.md). Many residents in high-risk areas like Pacific Palisades report being unable to secure property insurance as major insurers withdraw from these markets due to unsustainable losses.
+The wildfires have intensified California's ongoing [insurance crisis](broken-reference). Many residents in high-risk areas like Pacific Palisades report being unable to secure property insurance as major insurers withdraw from these markets due to unsustainable losses.
 
 ### Implications for Traditional Insurance
 

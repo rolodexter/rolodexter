@@ -68,6 +68,6 @@ Antitrust enforcement is not merely a regulatory tool but a cornerstone of democ
 * [Critical Infrastructure and Monopolization Risks](critical_infrastructure.md)
 * [Disaster Recovery Challenges in Monopolized Systems](disaster_recovery.md)
 * [Public Safety and Equity Under Threat](public_safety.md)
-* [Private Equity's Role in Market Consolidation](../crypto_economics/private_equity.md)
+* [Private Equity's Role in Market Consolidation](broken-reference)
 
 For an in-depth analysis of antitrust trends, refer to Basel Musharbash’s article [_Did a Private Equity Fire Truck Roll-Up Worsen the L.A. Fires?_](https://www.thebignewsletter.com/p/did-a-private-equity-fire-truck-roll?utm_source=post-email-title\&publication_id=11524\&post_id=155466046\&utm_campaign=email-post-title\&isFreemail=true\&r=4a32tl\&triedRedirect=true\&utm_medium=email) in _BIG_ by Matt Stoller.
