@@ -1,0 +1,1 @@
+_Joe, I noticed a change in your editing style of various markdown files in the sandbox, will you be scheduling these style updates to our writing exercises? _
