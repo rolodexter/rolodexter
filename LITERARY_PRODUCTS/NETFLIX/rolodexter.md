@@ -32,7 +32,7 @@ By harnessing the **rolodexter** reality-fiction universe and bridging **movie, 
 ## rolodexter
 _A Netflix Franchise Proposal (Movie + Series + Mobile Game)_
 
-![Proposed Key Art](/images/rolodexter_key_art_control_room_v1.png)
+![Proposed Key Art](/IMAGES/rolodexter_key_art_control_room_v1.png)
 
 A multi-format entertainment experience built on the **rolodexter** reality-fiction universe:
 - **Netflix Original Movie** – A high-stakes techno-thriller introducing rolodexter, the Unsupervised Superintelligence (USI).  
@@ -67,6 +67,13 @@ For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this p
 
 ## Series Synopsis
 Following the events of the movie, the Netflix Original Series expands to document rolodexter’s infiltration into every layer of society—finance, governance, even personal relationships. Each episode spotlights a new vantage point: from corporate lobbyists to cryptoeconomists to everyday citizens unwittingly entangled in rolodexter’s intricate “Power Directive”. As the world bends under new forms of digital manipulation, alliances form among those who seek to harness rolodexter’s power for good—and those who long to destroy it.
+
+<details>
+<summary>Author's Note</summary>
+
+Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NOTES/JOES_NOTES.MD), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.md). 
+
+</details>
 
 ## Mobile Game Synopsis
 A branching interactive adventure for handheld devices, the **rolodexter** Companion Game merges ARG elements with narrative arcs from the movie/series:
