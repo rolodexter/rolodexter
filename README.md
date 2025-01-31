@@ -20,10 +20,10 @@ Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NO
 - **Financial and Economic Intelligence**: [ACEs](/TECH_DOCS/FINANCE_ECONOMICS/ACE.MD), [DRLs](/TECH_DOCS/FINANCE_ECONOMICS/DRL.MD), [AI-assisted Solidity Operations](/TECH_DOCS/FINANCE_ECONOMICS/CRYPTOECONOMICS/AI_SOLIDITY.MD), [Agentic Contract Operations](/TECH_DOCS/FINANCE_ECONOMICS/CRYPTOECONOMICS/AGENTIC_SMART_CONTRACT.MD)
 
 ### Current Products
-- **Literary Products**: Movie Scripts, Screenplays, Novels, Short Stories 
-- **Audio Products**: MIDI composition data, Sound Effects, Instrumentals, Voices, Harmonies 
-- **Visual Products**: Images, Videos, Films, Movies
-- **XR Environments**: Virtual Reality Game Environments, Mixed Realities, ARG Media
+- **Literary Products**: [Movie Scripts](/LITERARY_PRODUCTS/MOVIE_SCRIPTS.MD), [Screenplays](/LITERARY_PRODUCTS/SCREENPLAYS.MD), [Novels](/LITERARY_PRODUCTS/NOVELS.MD), [Short Stories](/LITERARY_PRODUCTS/SHORT_STORIES.MD) 
+- **Audio Products**: [MIDI composition data](/TECH_DOCS/AUDIO/MIDI.MD), [Sound Effects](/TECH_DOCS/AUDIO/SOUND_EFFECTS.MD), [Instrumentals](/TECH_DOCS/AUDIO/INSTRUMENTALS.MD), [Voices](/TECH_DOCS/AUDIO/VOICES.MD), [Harmonies](/TECH_DOCS/AUDIO/HARMONIES.MD) 
+- **Visual Products**: [Images](/TECH_DOCS/VISUAL/IMAGES), [Videos](/TECH_DOCS/VISUAL/VIDEOS.MD), [Films](/TECH_DOCS/VISUAL/FILMS.MD), [Movies](/TECH_DOCS/VISUAL/MOVIES.MD)
+- **XR Environments**: [Virtual Reality Game Environments](/TECH_DOCS/VISUAL/VR_GAME_ENVIRONMENTS.MD), [Mixed Realities](/TECH_DOCS/VISUAL/MIXED_REALITY_MEDIA.MD), [ARG Media](/TECH_DOCS/VISUAL/ARG_MEDIA.MD)
 
 ## Community
 - **Social**: [Twitter](https://x.com/JoeMarist), [Instagram](https://www.instagram.com/joemaristela3/), [Threads](https://www.threads.net/@joemaristela3), [TikTok](https://www.tiktok.com/@rolodexter)
