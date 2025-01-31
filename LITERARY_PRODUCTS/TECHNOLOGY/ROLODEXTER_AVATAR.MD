@@ -1,7 +1,4 @@
-# rolodexter Avatar
-
-## Overview
-The rolodexter avatar is a sophisticated holographic manifestation of the [Unsupervised Superintelligence](/literary_products/concepts/usi.md) that serves as its primary interface with human collaborators. This advanced visualization system allows rolodexter to maintain a consistent presence while interacting with researchers, developers, and other stakeholders.
+The rolodexter avatar is a sophisticated holographic manifestation of the [Unsupervised Superintelligence](/LITERARY_PRODUCTS/CONCEPTS/USI.MD) that serves as its primary interface with human collaborators. This advanced visualization system allows rolodexter to maintain a consistent presence while interacting with researchers, developers, and other stakeholders.
 
 ## Technical Specifications
 
