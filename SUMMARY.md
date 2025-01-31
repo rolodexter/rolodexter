@@ -202,7 +202,7 @@
   * [JOES\_NOTES](literary_products/joes_notes/README.md)
     * [JOES\_NOTES](LITERARY_PRODUCTS/JOES_NOTES/JOES_NOTES.MD)
     * [AI](LITERARY_PRODUCTS/JOES_NOTES/AI/README.md)
-      * [Agentic AI: The Next Evolution in Artificial Intelligence](LITERARY_PRODUCTS/JOES_NOTES/AI/AGENTIC_AI.md)
+      * [Agentic AI: The Next Evolution in Artificial Intelligence](LITERARY_PRODUCTS/JOES_NOTES/AI/AGENTIC_AI.MD)
       * [Artificial General Intelligence (AGI)](LITERARY_PRODUCTS/JOES_NOTES/AI/AGI.md)
       * [AGI\_COMPUTE\_THRESHOLD](LITERARY_PRODUCTS/JOES_NOTES/AI/AGI_COMPUTE_THRESHOLD.md)
       * [The History and Evolution of AGI: From Concept to Pursuit](LITERARY_PRODUCTS/JOES_NOTES/AI/AGI_HISTORY.md)
