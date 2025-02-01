@@ -16,7 +16,7 @@
   * [BOOKS](literary_products/books/README.md)
     * [Foundations and Frontiers of Consciousness: A Comprehensive Curriculum](LITERARY_PRODUCTS/BOOKS/CONSCIOUSNESS.MD
     * [From Zero to Billions of Human Beings](literary_products/books/from-zero-to-billions_proposal.md)
-    * [The Meaning of Bitcoin](literary_products/books/meaningofbitcoin.md)
+    * [The Meaning of Bitcoin](LITERARY_PRODUCTS/BOOKS/MEANING_OF_BITCOIN.MDMD)
     * [PathDependence-Physics-CreativeDestruction](literary_products/books/pathdependence-physics-creativedestruction.md)
   * [CHARACTERS](LITERARY_PRODUCTS/CHARACTERS/README.md)
     * [PROTAGONISTS](LITERARY_PRODUCTS/CHARACTERS/protagonists/README.md)
@@ -234,7 +234,7 @@
       * [CITATION\_CHAIN](literary_products/joes_notes/ai/citation_chain.md)
       * [SOCIAL\_SECURITY](literary_products/joes_notes/ai/social_security.md)
       * [SOLID\_STATE\_BATTERY](literary_products/joes_notes/ai/solid_state_battery.md)
-      * [REALITY](literary_products/joes_notes/ai/reality.md)
+      * [REALITY](LITERARY_PRODUCTS/JOES_NOTES/AI/REALITY.MD)
       * [REGULATORY STRATEGIES](literary_products/joes_notes/ai/regulatory-strategies.md)
       * [Cryptoeconomic Models](literary_products/joes_notes/ai/cryptoeconomic-models.md)
       * [RENEWABLE ENERGY](literary_products/joes_notes/ai/renewable-energy.md)
