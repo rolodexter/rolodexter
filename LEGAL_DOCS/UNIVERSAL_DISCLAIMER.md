@@ -31,7 +31,7 @@ For the full master disclaimer, please visit:\
 ***
 
 **Professional Affiliation:**\
-I, Joe Maristela, engage in various professional roles, particularly in decentralized systems, [data sovereignty](https://www.researchgate.net/publication/384976529_Transforming_Data_Liabilities_into_Data_Assets?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjpudWxsfX0), [cryptoeconomics](../LITERARY_PRODUCTS/JOES_NOTES/MISC/ALCOHOLISM.md), and other interdisciplinary fields. While I often share insights from my expertise, all opinions, posts, and statements made on this profile are strictly my own. They do not reflect the views, policies, or positions of any employer, affiliated organization, academic institution, or [open-source research group](https://www.researchgate.net/profile/Joe-Maristela-2).
+I, Joe Maristela, engage in various professional roles, particularly in decentralized systems, [data sovereignty](https://www.researchgate.net/publication/384976529_Transforming_Data_Liabilities_into_Data_Assets?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjpudWxsfX0), [cryptoeconomics](../LITERARY_PRODUCTS/JOES_NOTES/MISC/ALCOHOLISM.MD), and other interdisciplinary fields. While I often share insights from my expertise, all opinions, posts, and statements made on this profile are strictly my own. They do not reflect the views, policies, or positions of any employer, affiliated organization, academic institution, or [open-source research group](https://www.researchgate.net/profile/Joe-Maristela-2).
 
 ***
 

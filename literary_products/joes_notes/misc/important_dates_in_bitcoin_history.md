@@ -7,7 +7,7 @@
 
 ## Overview
 
-[Bitcoin](../crypto_economics/bitcoin.md) has followed a remarkable trajectory since its inception, marked by key moments that have shaped its evolution. Below is a chronological summary of the most pivotal dates and events, providing context for Bitcoin’s journey from a niche cryptographic concept to a globally recognized digital asset.
+[Bitcoin](../CRYPTO/CRYPTO_ECONOMICS/bitcoin.md) has followed a remarkable trajectory since its inception, marked by key moments that have shaped its evolution. Below is a chronological summary of the most pivotal dates and events, providing context for Bitcoin’s journey from a niche cryptographic concept to a globally recognized digital asset.
 
 ***
 
@@ -19,7 +19,7 @@
 * **Event:** An individual (or group) using the pseudonym **Satoshi Nakamoto** publishes _"_[_Bitcoin: A Peer-to-Peer Electronic Cash System_](https://bitcoin.org/bitcoin.pdf)_"_.
 * **Significance:** Laid out the theoretical groundwork for a decentralized, trustless currency system.
 * **Related Files:**
-  * [BITCOIN](../crypto_economics/bitcoin.md)
+  * [BITCOIN](../CRYPTO/CRYPTO_ECONOMICS/bitcoin.md)
   * [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.MD)
 
 ***
@@ -108,7 +108,7 @@ These dates illustrate how rapidly and dramatically Bitcoin can evolve—somethi
 
 ## See Also
 
-* [BITCOIN](../crypto_economics/bitcoin.md)
+* [BITCOIN](../CRYPTO/CRYPTO_ECONOMICS/bitcoin.md)
 * [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.MD)
 * [REGULATORY\_FRAMEWORKS](broken-reference)
 * [PUBLIC\_SECTOR\_ENGAGEMENT](broken-reference)

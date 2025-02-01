@@ -30,7 +30,7 @@ Risk-based pricing is a fundamental approach in the insurance industry, allowing
 ### 1. **Dynamic Pricing via Blockchain**
 
 * **Mechanism:**
-  * Real-time data integration from sources such as [Wildfire Risk Extreme](wildfire_risk_extreme.md) and IoT sensors.
+  * Real-time data integration from sources such as [Wildfire Risk Extreme](../MISC/wildfire_risk_extreme.md) and IoT sensors.
   * Blockchain stores risk metrics and policyholder data securely, enabling instant adjustments.
 * **Benefits:**
   * Allows insurers to respond to evolving risks without manual intervention.

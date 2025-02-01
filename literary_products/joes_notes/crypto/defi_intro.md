@@ -50,7 +50,7 @@
 
 ## DeFi and Bitcoin
 
-While much of DeFi development has occurred on **smart-contract-capable blockchains** (e.g., Ethereum, Solana), [**Bitcoin**](../crypto_economics/bitcoin.md) is also exploring innovations through **Layer-2 solutions** and cross-chain protocols:
+While much of DeFi development has occurred on **smart-contract-capable blockchains** (e.g., Ethereum, Solana), [**Bitcoin**](CRYPTO_ECONOMICS/bitcoin.md) is also exploring innovations through **Layer-2 solutions** and cross-chain protocols:
 
 * **Wrapped Bitcoin (WBTC)**: Brings BTC liquidity into DeFi ecosystems, enabling Bitcoin holders to participate in decentralized lending, staking, or liquidity provision.
 * **Lightning Network**: Facilitates faster, cheaper transactions for Bitcoin, paving the way for [**public agencies**](../misc/public_agencies.md) and enterprises to adopt BTC in everyday use cases without high fees or slow confirmations.

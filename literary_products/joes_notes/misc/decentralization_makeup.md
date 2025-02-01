@@ -48,7 +48,7 @@ Exabits' platform demonstrates several elements that contribute to the decentral
 
 ### Challenges and Considerations
 
-1. [**Coordination Complexity**](../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/ALCOHOLISM.MD): Highly decentralized systems may face challenges in coordinating large-scale AGI projects.
+1. [**Coordination Complexity**](ALCOHOLISM.MDallenges in coordinating large-scale AGI projects.
 2. [**Performance Trade-offs**](../PERFORMANCE_TRADEOFFS.md): Balancing decentralization with the need for high-performance compute clusters required for advanced AI models.
 3. [**Regulatory Navigation**](../REGULATORY_NAVIGATION.md): Decentralized systems must navigate varying regulatory landscapes across different jurisdictions.
 4. [**Security Concerns**](../SECURITY_CONCERNS.md): Ensuring the integrity and security of AGI development in a decentralized environment presents unique challenges.

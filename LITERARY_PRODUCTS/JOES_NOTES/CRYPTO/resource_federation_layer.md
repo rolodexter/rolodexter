@@ -1,6 +1,6 @@
 # Resource Federation Layer (RFL)
 
-The Resource Federation Layer (RFL) is a critical component of the [Exabits Protocol](../EXABITS_PROTOCOL.md), designed to optimize the allocation and utilization of diverse computational resources across a [decentralized network](../governance/decentralization.md). This layer plays a crucial role in enabling efficient [distributed computing](../DISTRIBUTED_DEVELOPMENT.md) for [AI](european_union.md) and [AGI](../AI/agi.md) development.
+The Resource Federation Layer (RFL) is a critical component of the [Exabits Protocol](../EXABITS_PROTOCOL.md), designed to optimize the allocation and utilization of diverse computational resources across a [decentralized network](../governance/decentralization.md). This layer plays a crucial role in enabling efficient [distributed computing](../DISTRIBUTED_DEVELOPMENT.md) for [AI](../MISC/european_union.md) and [AGI](../AI/AGI.MD) development.
 
 [![Spotify Episode](https://img.shields.io/badge/Spotify-Episode-1DB954?style=for-the-badge\&logo=spotify\&logoColor=white)](https://open.spotify.com/episode/4lRZs9HKg4gj032NV0CAfr?si=-SrO2htQQdi_vngAIEz8FQ)
 
@@ -35,7 +35,7 @@ The RFL is closely tied to the [tokenomics](../TOKENOMICS.md) of the Exabits eco
 
 ## Impact on AGI Development
 
-By optimizing resource allocation and utilization, the RFL significantly contributes to lowering the [economic threshold](patient_data.md) for AGI development. It enables researchers and developers to access a global pool of compute resources efficiently, accelerating progress towards AGI.
+By optimizing resource allocation and utilization, the RFL significantly contributes to lowering the [economic threshold](../MISC/patient_data.md) for AGI development. It enables researchers and developers to access a global pool of compute resources efficiently, accelerating progress towards AGI.
 
 [![Spotify Episode](https://img.shields.io/badge/Spotify-Episode-1DB954?style=for-the-badge\&logo=spotify\&logoColor=white)](https://open.spotify.com/episode/1uzotV5ZlWsBTVGjdVV6hT?si=OTu9IhqfS0OMqRWF2Eaebg)
 

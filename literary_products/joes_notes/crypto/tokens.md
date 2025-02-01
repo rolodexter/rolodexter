@@ -32,7 +32,7 @@
 [**Decentralized Science (DeSci)**](../misc/desci.md) initiatives harness tokens to coordinate research funding, data sharing, and **innovation** across global biotech, pharmaceutical, and academic communities. The trajectory toward multi-trillion dollar valuations involves:
 
 1. **Robust Token Utility**
-   * DeSci tokens underpin **research DAOs**, **data marketplaces**, and **IP tokenization**—all crucial pillars that can see explosive growth if mainstream institutions and [**pension funds**](../misc/pension_funds.md) recognize their value (see also [**Valuations**](../crypto_economics/valuations.md) for a deeper dive).
+   * DeSci tokens underpin **research DAOs**, **data marketplaces**, and **IP tokenization**—all crucial pillars that can see explosive growth if mainstream institutions and [**pension funds**](../misc/pension_funds.md) recognize their value (see also [**Valuations**](CRYPTO_ECONOMICS/valuations.md) for a deeper dive).
 2. **Institutional Endorsements**
    * Like Bitcoin, major adoption signals (e.g., large pharma companies, hospital systems, or academic consortia integrating DeSci) will legitimize DeSci tokens.
    * Pension and sovereign wealth funds may channel billions into DeSci protocols, ramping up overall market caps.
@@ -60,7 +60,7 @@
 * [Regulatory Environments](../governance/regulatory_environments.md)
 * [Decentralized Science (DeSci)](../misc/desci.md)
 * [Pension Funds](../misc/pension_funds.md)
-* [Valuations](../crypto_economics/valuations.md)
+* [Valuations](CRYPTO_ECONOMICS/valuations.md)
 * [Trump Signs Crypto Executive Order (Bankrate)](https://www.bankrate.com/investing/trump-signs-crypto-executive-order-what-investors-need-to-know/)
 
 ***

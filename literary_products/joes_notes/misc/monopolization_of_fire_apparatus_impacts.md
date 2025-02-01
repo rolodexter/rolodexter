@@ -46,7 +46,7 @@ The monopolization of emergency services aligns with broader trends of "[disaste
 
 **The Failure of Antitrust Enforcement**
 
-The unchecked consolidation of the fire apparatus industry highlights systemic failures in [antitrust enforcement](antitrust_enforcement.md). Continued inaction risks eroding public trust in regulatory institutions and could lead to political unrest. As citizens perceive governments as complicit in corporate exploitation, the rise of populist movements demanding structural reforms becomes increasingly likely. Without robust antitrust enforcement, critical infrastructure could become monopolized across multiple sectors, leading to a dystopian future where access to basic services is contingent on allegiance to corporate power.
+The unchecked consolidation of the fire apparatus industry highlights systemic failures in [antitrust enforcement](ANTITRUST_ENFORCEMENT.MD). Continued inaction risks eroding public trust in regulatory institutions and could lead to political unrest. As citizens perceive governments as complicit in corporate exploitation, the rise of populist movements demanding structural reforms becomes increasingly likely. Without robust antitrust enforcement, critical infrastructure could become monopolized across multiple sectors, leading to a dystopian future where access to basic services is contingent on allegiance to corporate power.
 
 #### **Reimagining Public Goods Management**
 

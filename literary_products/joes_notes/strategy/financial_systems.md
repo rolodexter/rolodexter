@@ -53,7 +53,7 @@
 ### Emergence of DeFi
 
 * Decentralized finance ecosystems leveraging **smart contracts** and **blockchain** to provide lending, borrowing, trading, and yield generation without traditional intermediaries.
-* [**Bitcoin**](../crypto_economics/bitcoin.md) and other [**cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.MD) introduced a global, trust-minimized monetary network, challenging historical conceptions of [**asset classes**](../CRYPTO/asset_classes.mdmd).
+* [**Bitcoin**](../CRYPTO/CRYPTO_ECONOMICS/bitcoin.md) and other [**cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.MD) introduced a global, trust-minimized monetary network, challenging historical conceptions of [**asset classes**](../CRYPTO/asset_classes.mdmd).
 
 ***
 

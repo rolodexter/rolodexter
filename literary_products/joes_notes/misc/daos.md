@@ -76,7 +76,7 @@ Despite the hype, **DAOs have yet to realize their full potential** for high-spe
 * [DeSci](desci.md)
 * [Tokens](../CRYPTO/tokens.md)
 * [Regulatory Environments](../governance/regulatory_environments.md)
-* [Valuations & Potential Scale of DeSci](../crypto_economics/valuations.md)
+* [Valuations & Potential Scale of DeSci](../CRYPTO/CRYPTO_ECONOMICS/valuations.md)
 
 ***
 

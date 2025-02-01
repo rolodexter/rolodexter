@@ -22,7 +22,7 @@
 
 1. **Robust Institutional Infrastructure**
    * **Custodial solutions** and **compliant trading platforms** will be key for pension funds to invest in tokens. These must be on par with the safeguards provided by custodians for equities, bonds, and other **traditional assets**.
-   * Partnerships with **major banks** (e.g., **Bank of America**, which has expressed interest in [**crypto readiness**](../crypto_economics/valuations.md)) could provide the necessary compliance and insurance frameworks.
+   * Partnerships with **major banks** (e.g., **Bank of America**, which has expressed interest in [**crypto readiness**](../CRYPTO/CRYPTO_ECONOMICS/valuations.md)) could provide the necessary compliance and insurance frameworks.
 2. **Ecosystem Maturity**
    * [**DeSci organizations**](non_human_intelligences.md) focusing on **large-scale clinical trials**, **tokenized IP**, and **open research** must demonstrate **stable governance** (e.g., via [**DAOs**](daos.md)) and **tangible milestones** (patents, marketable treatments).
    * Once these metrics become verifiable, pension funds can justify investing billions of dollars, mirroring their approach to biotech stocks—**valuations** could then ratchet up to the multi-trillion level as more institutional capital floods in.
@@ -41,7 +41,7 @@
    * Large biotech/pharma companies might **co-fund** DeSci projects, de-risking the investment. Pension funds often follow **big-name** lead investors to ensure robust due diligence.
    * **Joint ventures** between DeSci protocols and established healthcare players can yield high **valuation** scenarios if successful drug or therapeutic pipelines are tokenized.
 3. **Future: Dominant Asset Class**
-   * If [**DeSci**](desci.md) becomes a cornerstone of global research and [**multi-trillion dollar valuations**](../crypto_economics/valuations.md) emerge, pension funds may treat these tokens as **mainstay** holdings—on par with major tech or healthcare stocks.
+   * If [**DeSci**](desci.md) becomes a cornerstone of global research and [**multi-trillion dollar valuations**](../CRYPTO/CRYPTO_ECONOMICS/valuations.md) emerge, pension funds may treat these tokens as **mainstay** holdings—on par with major tech or healthcare stocks.
    * Sizable, stable yields derived from **royalties**, **data marketplaces**, or **protocol fees** could anchor the **risk-reward** profile.
 
 ***
@@ -73,7 +73,7 @@
 ### References
 
 * [Decentralized Science (DeSci)](desci.md)
-* [Valuations in DeSci](../crypto_economics/valuations.md)
+* [Valuations in DeSci](../CRYPTO/CRYPTO_ECONOMICS/valuations.md)
 * [Regulatory Environments](../governance/regulatory_environments.md)
 * [DAOs and Governance](daos.md)
 * [DeFi Essentials](../CRYPTO/DEFI.MD)

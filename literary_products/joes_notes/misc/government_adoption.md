@@ -7,7 +7,7 @@
 
 ## Overview
 
-The **adoption of** [**Bitcoin**](../crypto_economics/bitcoin.md) **by governments** is emerging as one of the most significant trends in the broader cryptocurrency landscape. While early Bitcoin usage was driven largely by retail investors and tech enthusiasts, the past few years have seen a growing number of public institutions recognize Bitcoin's potential as a store of value, a means of payment, or even—though rare—as **legal tender**. This shift is fueled by evolving [regulatory frameworks](../governance/regulatory_frameworks.md), greater institutional endorsement, and a need for **transparent, efficient, and secure** mechanisms within government operations.
+The **adoption of** [**Bitcoin**](../CRYPTO/CRYPTO_ECONOMICS/bitcoin.md) **by governments** is emerging as one of the most significant trends in the broader cryptocurrency landscape. While early Bitcoin usage was driven largely by retail investors and tech enthusiasts, the past few years have seen a growing number of public institutions recognize Bitcoin's potential as a store of value, a means of payment, or even—though rare—as **legal tender**. This shift is fueled by evolving [regulatory frameworks](../governance/regulatory_frameworks.md), greater institutional endorsement, and a need for **transparent, efficient, and secure** mechanisms within government operations.
 
 ***
 

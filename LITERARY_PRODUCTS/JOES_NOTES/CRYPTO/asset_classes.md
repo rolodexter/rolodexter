@@ -7,7 +7,7 @@
 
 ## Overview
 
-An **asset class** typically refers to a group of financial instruments that exhibit similar characteristics, behave similarly in the marketplace, and are subject to similar laws and regulations. Traditional examples include **equities**, **bonds**, **real estate**, and **commodities**. However, the rise of [**Bitcoin**](../crypto_economics/bitcoin.md) and other [**cryptocurrencies**](CRYPTOCURRENCIES.MD) has led to the emergence of entirely new digital asset classes that challenge long-held assumptions about **store of value** and **monetary policy**.
+An **asset class** typically refers to a group of financial instruments that exhibit similar characteristics, behave similarly in the marketplace, and are subject to similar laws and regulations. Traditional examples include **equities**, **bonds**, **real estate**, and **commodities**. However, the rise of [**Bitcoin**](CRYPTO_ECONOMICS/bitcoin.md) and other [**cryptocurrencies**](CRYPTOCURRENCIES.MD) has led to the emergence of entirely new digital asset classes that challenge long-held assumptions about **store of value** and **monetary policy**.
 
 ***
 
@@ -48,7 +48,7 @@ An **asset class** typically refers to a group of financial instruments that exh
 
 ## Bitcoin as an Asset Class
 
-[Bitcoin](../crypto_economics/bitcoin.md) has often been compared to **gold** as a potential **store of value**. Its **fixed supply**, **global liquidity**, and **decentralized** nature have led some institutional investors to consider it a **hedge against inflation**—especially in times of economic uncertainty. On the other hand, critics point to its **price volatility**, **regulatory ambiguities**, and **environmental concerns** tied to mining.
+[Bitcoin](CRYPTO_ECONOMICS/bitcoin.md) has often been compared to **gold** as a potential **store of value**. Its **fixed supply**, **global liquidity**, and **decentralized** nature have led some institutional investors to consider it a **hedge against inflation**—especially in times of economic uncertainty. On the other hand, critics point to its **price volatility**, **regulatory ambiguities**, and **environmental concerns** tied to mining.
 
 * **Inflation Hedge**
   * Bitcoin’s limited supply (21 million coins) and predictable issuance can contrast sharply with the expansionary policies of central banks.
@@ -91,7 +91,7 @@ As [**fintech disruptors**](../FINTECH_INNOVATORS.md) and legacy financial playe
 
 ## See Also
 
-* [BITCOIN](../crypto_economics/bitcoin.md)
+* [BITCOIN](CRYPTO_ECONOMICS/bitcoin.md)
 * [CRYPTOCURRENCIES](CRYPTOCURRENCIES.MD)
 * [FINANCIAL\_INSTITUTIONS](../STRATEGY/financial_institutions.md)
 * [GOVERNMENT\_ADOPTION](../MISC/government_adoption.md)

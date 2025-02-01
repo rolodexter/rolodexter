@@ -11,14 +11,14 @@ In the context of careers, **liquid careers** share similar properties, enabling
 ## Characteristics of Liquid Assets
 
 1. **High Marketability**: Assets that can be bought or sold quickly without significant price variation.
-2. **Clear Valuation**: The value of a liquid asset is transparent and widely understood (e.g., [stocks](../crypto_economics/stocks.md) or [government bonds](broken-reference)).
+2. **Clear Valuation**: The value of a liquid asset is transparent and widely understood (e.g., [stocks](../CRYPTO/CRYPTO_ECONOMICS/stocks.md) or [government bonds](broken-reference)).
 3. **Predictability**: Their market behavior is stable and predictable, reducing the risk for holders.
 4. **Ease of Transfer**: Ownership or control can be transferred seamlessly with minimal effort.
 
 ### Examples of Liquid Assets
 
 * Cash or cash equivalents (e.g., savings accounts, [money market instruments](broken-reference)).
-* Publicly traded securities (e.g., [stocks](../crypto_economics/stocks.md), [ETFs](broken-reference)).
+* Publicly traded securities (e.g., [stocks](../CRYPTO/CRYPTO_ECONOMICS/stocks.md), [ETFs](broken-reference)).
 * [Government bonds](broken-reference) or highly rated corporate bonds.
 
 ***

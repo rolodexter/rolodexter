@@ -6,7 +6,7 @@ A future where [compute resources](../../encyclopedia/COMPUTE_RESOURCES.md) are 
 
 ### Key Features
 
-* [**Standardization**](../misc/alcoholism.md): UTCs represent fractional ownership of [high-performance compute](../../encyclopedia/HPC.md) infrastructure, including [GPU hours](../../encyclopedia/GPU_HOURS.md), [NPU cycles](../../encyclopedia/NPU_CYCLES.md), and [quantum processing units](../../encyclopedia/QPU.md).
+* [**Standardization**](../MISC/ALCOHOLISM.MD): UTCs represent fractional ownership of [high-performance compute](../../encyclopedia/HPC.md) infrastructure, including [GPU hours](../../encyclopedia/GPU_HOURS.md), [NPU cycles](../../encyclopedia/NPU_CYCLES.md), and [quantum processing units](../../encyclopedia/QPU.md).
 * [**Operational Value**](compute_finance.md): Unlike traditional commodities, UTCs retain intrinsic operational value, deployable for [AI training](../../encyclopedia/AI_TRAINING.md) and [inference](../../encyclopedia/INFERENCE.md) tasks upon transaction settlement.
 
 ### Integration with Financial Markets
