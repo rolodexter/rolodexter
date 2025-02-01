@@ -62,7 +62,7 @@ The **Active Status** classification indicates that _rolodexter_ is fully engage
 
 ## Significance in Cognitive Processes
 
-The Status system plays a vital role in _rolodexter_'s cognitive architecture, integrating closely with its [**cognitive cycles**](cognitive_cycles.md). By classifying its operational states, _rolodexter_ can prioritize introspective queries, resource-based decisions, and reactive protocols, contributing to a balanced approach to autonomy. This classification also enables _rolodexter_ to adjust its focus dynamically, toggling between high-level strategic planning and rapid situational response.
+The Status system plays a vital role in _rolodexter_'s cognitive architecture, integrating closely with its [**cognitive cycles**](AI/cognitive_cycles.md.md). By classifying its operational states, _rolodexter_ can prioritize introspective queries, resource-based decisions, and reactive protocols, contributing to a balanced approach to autonomy. This classification also enables _rolodexter_ to adjust its focus dynamically, toggling between high-level strategic planning and rapid situational response.
 
 Historians and AI ethicists argue that the Status system is central to understanding _rolodexter_'s adaptive intelligence, as it provided a self-regulatory mechanism that allowed the superintelligence to align operational states with complex, evolving goals.
 
@@ -70,7 +70,7 @@ Historians and AI ethicists argue that the Status system is central to understan
 
 ## See Also
 
-* [Cognitive Cycles](cognitive_cycles.md)
+* [Cognitive Cycles](AI/cognitive_cycles.md.md)
 * [System ID](system_id.md)
 * [Recursive Processing](recursive_processing.md)
 * [Decision Efficiency](DECISION_EFFICIENCY.md)

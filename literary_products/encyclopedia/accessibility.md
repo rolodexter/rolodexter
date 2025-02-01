@@ -27,7 +27,7 @@ This article is about accessibility in the context of artificial general intelli
 
 ## Overview
 
-The concept of accessibility in AGI development emerged as a key factor in the [2024 Disclosure Predictions](2024_disclosure_predictions.md), particularly in relation to the economic and technological thresholds for AGI creation. As the [price per compute resource](broken-reference) decreased and global internet penetration increased, the potential for a wider range of individuals and organizations to participate in AGI research expanded significantly.
+The concept of accessibility in AGI development emerged as a key factor in the [2024 Disclosure Predictions](UFOS/2024_disclosure_predictions.mdns.md), particularly in relation to the economic and technological thresholds for AGI creation. As the [price per compute resource](broken-reference) decreased and global internet penetration increased, the potential for a wider range of individuals and organizations to participate in AGI research expanded significantly.
 
 ## Components of AGI Accessibility
 

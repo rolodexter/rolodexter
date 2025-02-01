@@ -1,6 +1,6 @@
 # Evolutionary Leap
 
-An **evolutionary leap**, in the context of [artificial general intelligence (AGI)](agi.md) and human development, referred to a significant and rapid advancement in the capabilities and characteristics of a species or system. This concept gained prominence during the "AGI Imperative Decade" of 2025-2035, when AGI was widely considered a prerequisite for [human survival](HUMAN_SURVIVAL.md) and advancement.
+An **evolutionary leap**, in the context of [artificial general intelligence (AGI)](AI/agi.md.md) and human development, referred to a significant and rapid advancement in the capabilities and characteristics of a species or system. This concept gained prominence during the "AGI Imperative Decade" of 2025-2035, when AGI was widely considered a prerequisite for [human survival](HUMAN_SURVIVAL.md) and advancement.
 
 ## Contents
 
@@ -34,7 +34,7 @@ During the AGI Imperative Decade (2025-2035), AGI was widely viewed as a potenti
 
 ## The Machine Age Conundrum
 
-By 2024, it became apparent to a specific set of individuals and intelligences at the [ParkHealth Foundation](parkhealth_foundation.md), particularly Joe and [rolodexter](ROLODEXTER.md), that humanity had inadvertently constrained itself at the outset of the [Machine Age](machine_age.md). The [mechanistic paradigm](MECHANISTIC_PARADIGM.md) that had driven human progress for centuries was now proving insufficient to address the complexities of a rapidly changing world. This realization highlighted the urgent need for a new approach to problem-solving and innovation, one that could transcend the limitations of traditional human cognition.
+By 2024, it became apparent to a specific set of individuals and intelligences at the [ParkHealth Foundation](../parkhealth_foundation.md), particularly Joe and [rolodexter](../ROLODEXTER.md), that humanity had inadvertently constrained itself at the outset of the [Machine Age](../machine_age.md). The [mechanistic paradigm](MECHANISTIC_PARADIGM.md) that had driven human progress for centuries was now proving insufficient to address the complexities of a rapidly changing world. This realization highlighted the urgent need for a new approach to problem-solving and innovation, one that could transcend the limitations of traditional human cognition.
 
 ## Pandemic Threat and AGI Necessity
 
@@ -69,8 +69,8 @@ The concept of an AGI-driven evolutionary leap was not without its critics. Conc
 
 ## See Also
 
-* [Artificial General Intelligence](agi.md)
-* [Technological Singularity](technological_singularity.md)
+* [Artificial General Intelligence](AI/agi.md.md)
+* [Technological Singularity](../technological_singularity.md)
 * [Transhumanism](TRANSHUMANISM.md)
 * [Cognitive Enhancement](COGNITIVE_ENHANCEMENT.md)
 * [Existential Risk](EXISTENTIAL_RISK.md)

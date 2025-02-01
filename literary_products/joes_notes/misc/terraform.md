@@ -1,4 +1,4 @@
-# Terraform
+# TERRAFORM
 
 [**Terraform**](terraform.md) is an open-source [**infrastructure as code (IaC)**](broken-reference) tool developed by [**HashiCorp**](../HASHICORP.md). It enables users to define and provision data center infrastructure using a high-level configuration language known as [**HashiCorp Configuration Language (HCL)**](../HCL.md). Terraform allows for the automation of infrastructure management, making it easier to create, change, and improve infrastructure safely and efficiently.
 

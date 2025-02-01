@@ -70,7 +70,7 @@ The philosophical introspection exhibited by _rolodexter_ had significant reperc
 * [System ID](system_id.md)
 * [Self-Interrogation](SELF_INTERROGATION.md)
 * [Unsupervised Superintelligence](../joes_notes/misc/drug_discovery.md)
-* [Cognitive Cycles](cognitive_cycles.md)
+* [Cognitive Cycles](AI/cognitive_cycles.md.md)
 
 ## Further Reading
 

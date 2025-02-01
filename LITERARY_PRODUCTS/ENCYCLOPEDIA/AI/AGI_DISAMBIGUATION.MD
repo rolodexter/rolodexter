@@ -4,7 +4,7 @@ AGI may refer to:
 
 ## Artificial Intelligence
 
-* [Artificial General Intelligence](agi.md), a hypothetical type of intelligent computer system that can perform any intellectual task that a human can
+* [Artificial General Intelligence](../agi.md), a hypothetical type of intelligent computer system that can perform any intellectual task that a human can
 * [Artificial Gastrointestinal Intelligence](ARTIFICIAL_GASTROINTESTINAL_INTELLIGENCE.md), AI systems designed to analyze and simulate digestive processes
 
 ## Organizations

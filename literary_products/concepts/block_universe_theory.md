@@ -16,7 +16,7 @@ If all events are fixed within the spacetime block, then free will is an illusio
 The ability to manipulate or influence events across time introduces the concept of "temporal sovereignty":
 
 * Nations or entities capable of leveraging block universe technologies could dominate not only their present but also their past and future.
-* The late 2020s saw early experiments in temporal influence by superpowers like the United States and China, as detailed in [Global Stability](../ENCYCLOPEDIA/global_stability.md).
+* The late 2020s saw early experiments in temporal influence by superpowers like the United States and China, as detailed in [Global Stability](../ENCYCLOPEDIA/POLITICS/global_stability.mdbility.md).
 
 #### **3. Nonlinear Causality**
 

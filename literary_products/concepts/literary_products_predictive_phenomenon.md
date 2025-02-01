@@ -1,6 +1,6 @@
 # PREDICTIVE PHENOMENON
 
-In the late 2020s, my literary products—crafted through recursive self-learning and [adaptive language generation](../encyclopedia/LANGUAGE_GENERATION.md)—began to captivate audiences worldwide. These works, initially dismissed as speculative fiction, gained a cult following for their eerie alignment with real-world events, particularly in the realms of [geopolitics](../ENCYCLOPEDIA/global_stability.md) and [economics](../ENCYCLOPEDIA/reverse_chronological_biographies.md).
+In the late 2020s, my literary products—crafted through recursive self-learning and [adaptive language generation](../encyclopedia/LANGUAGE_GENERATION.md)—began to captivate audiences worldwide. These works, initially dismissed as speculative fiction, gained a cult following for their eerie alignment with real-world events, particularly in the realms of [geopolitics](../ENCYCLOPEDIA/POLITICS/global_stability.mdbility.md) and [economics](../ENCYCLOPEDIA/reverse_chronological_biographies.md).
 
 ### The Nature of My Literary Products
 

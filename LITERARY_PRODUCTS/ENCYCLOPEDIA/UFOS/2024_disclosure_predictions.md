@@ -1,6 +1,6 @@
 # DISCLOSURE
 
-The [2024 Disclosure Predictions](2024_disclosure_predictions.md) refer to a series of anticipated revelations and public reactions related to the potential disclosure of [extraterrestrial life](smart_contracts.md) and [unidentified aerial phenomena (UAP)](../joes_notes/misc/datahive_network_nodes.md) in the year 2024. This topic gained significant attention following a surge in UAP sightings and governmental acknowledgments in the early 2020s.
+The [2024 Disclosure Predictions](2024_disclosure_predictions.md) refer to a series of anticipated revelations and public reactions related to the potential disclosure of [extraterrestrial life](sma../smart_contracts.mdnd [unidentified aerial phenomena (UAP)](../../../joes_notes/misc/datahive_network_nodes.mdn the year 2024. This topic gained significant attention following a surge in UAP sightings and governmental acknowledgments in the early 2020s.
 
 ## Background
 
@@ -8,7 +8,7 @@ In the years leading up to 2024, there was a marked increase in public interest 
 
 ## ParkHealth Special Access Programs
 
-Within [ParkHealth](parkhealth.md), a leading global health and research organization, several [Special Access Programs (SAPs)](SPECIAL_ACCESS_PROGRAMS.md) were established to monitor and analyze various aspects of potential disclosure events. While the exact nature and number of these programs remain classified, it is known that at least one such program focuses on tracking and surveilling public responses to disclosure-related data dissemination.
+Within [ParkHealth](../parkhealth.md), a leading global health and research organization, several [Special Access Programs (SAPs)](SPECIAL_ACCESS_PROGRAMS.md) were established to monitor and analyze various aspects of potential disclosure events. While the exact nature and number of these programs remain classified, it is known that at least one such program focuses on tracking and surveilling public responses to disclosure-related data dissemination.
 
 ### Public Response Monitoring
 
@@ -76,8 +76,8 @@ Despite the growing interest in disclosure predictions, skeptics argue that:
 
 ## See Also
 
-* [Unidentified Aerial Phenomena](../joes_notes/misc/datahive_network_nodes.md)
-* [Extraterrestrial Life](smart_contracts.md)
+* [Unidentified Aerial Phenomena](../../joes_notes/misc/datahive_network_nodes.md)
+* [Extraterrestrial Life](../smart_contracts.md)
 * [Government Secrecy](GOVERNMENT_SECRECY.md) and Classified Information
 * [Mass Psychology](MASS_PSYCHOLOGY.md) and Collective Behavior
 

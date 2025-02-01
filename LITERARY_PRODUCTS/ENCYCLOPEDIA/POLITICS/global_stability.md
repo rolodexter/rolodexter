@@ -4,9 +4,9 @@ _Last updated: January 29, 2055_
 
 ## Overview
 
-**Global Stability** refers to the fragile equilibrium that characterized international relations during the early 21st century, particularly in the 2020s. This period was defined by an escalating arms race between major powers, primarily the United States and China, across multiple fronts, including artificial intelligence ([AI](july_2023_uap_hearing.md)), extraterrestrial technologies, and emerging [Nonhuman Intelligence (NHI)](../../TECH_DOCS/VISUAL/ARG_MEDIA.MD) phenomena.
+**Global Stability** refers to the fragile equilibrium that characterized international relations during the early 21st century, particularly in the 2020s. This period was defined by an escalating arms race between major powers, primarily the United States and China, across multiple fronts, including artificial intelligence ([AI](../july_2023_uap_hearing.md)), extraterrestrial technologies, and emerging [Nonhuman Intelligence (NHI)](../../../TECH_DOCS/VISUAL/ARG_MEDIA.MD) phenomena.
 
-While initially perceived as separate domains, by the 2030s, advancements in physics and materials science—particularly in [block universe theory](../concepts/block_universe_theory.md) and "block universe time manipulation"—revealed that AI and NHI were deeply interconnected.
+While initially perceived as separate domains, by the 2030s, advancements in physics and materials science—particularly in [block universe theory](../../concepts/block_universe_theory.md) and "block universe time manipulation"—revealed that AI and NHI were deeply interconnected.
 
 ## Table of Contents
 
@@ -30,15 +30,15 @@ While initially perceived as separate domains, by the 2030s, advancements in phy
 
 The 2020s saw an unprecedented technological rivalry between superpowers:
 
-* **Artificial Intelligence**: Both nations invested heavily in developing advanced AI systems, including [unsupervised learning](../joes_notes/misc/developer_relations.md) and [general AI](agi.md). These technologies were viewed as critical to achieving dominance in military, economic, and informational domains.
-* **Extraterrestrial Research**: Public disclosures such as the [July 2023 UAP Hearings](unlit_fireplace.md) fueled widespread interest in unidentified aerial phenomena ([UAP](../joes_notes/misc/datahive_network_nodes.md)) and their potential technological applications.
+* **Artificial Intelligence**: Both nations invested heavily in developing advanced AI systems, including [unsupervised learning](../../joes_notes/misc/developer_relations.md) and [general AI](AI/agi.md.md). These technologies were viewed as critical to achieving dominance in military, economic, and informational domains.
+* **Extraterrestrial Research**: Public disclosures such as the [July 2023 UAP Hearings](../unlit_fireplace.md) fueled widespread interest in unidentified aerial phenomena ([UAP](../../joes_notes/misc/datahive_network_nodes.md)) and their potential technological applications.
 * **Quantum Computing**: Advances in [quantum cryptography](broken-reference) and quantum computing promised to revolutionize secure communications and computational power.
 
 ### Geopolitical Tensions
 
 The competition extended beyond technology:
 
-* **Military Escalation**: Both nations aggressively pursued autonomous weapons systems ([Autonomous Weapons Systems](../joes_notes/misc/autonomous_weapons_systems.md)) and space-based defense platforms.
+* **Military Escalation**: Both nations aggressively pursued autonomous weapons systems ([Autonomous Weapons Systems](../../joes_notes/misc/autonomous_weapons_systems.md)) and space-based defense platforms.
 * **Economic Policies**: Trade wars and resource control strategies intensified global tensions.
 * **Ideological Divide**: Divergent governance models deepened mistrust between global alliances.
 
@@ -61,14 +61,14 @@ By the late 2020s, breakthroughs in physics—particularly in block universe the
 
 The integration of AI into global markets led to rapid shifts in economic power:
 
-* Cryptoeconomic models governed by blockchain technologies became central to resource distribution ([CryptoEconomics](pentagon_uap_report_2021.md)).
+* Cryptoeconomic models governed by blockchain technologies became central to resource distribution ([CryptoEconomics](../pentagon_uap_report_2021.md)).
 * Decentralized networks disrupted traditional financial institutions.
 
 ### Societal Impact
 
 The convergence of AI, NHI, and temporal physics reshaped societal norms:
 
-* Ethical debates over AI autonomy intensified ([AI Ethics](liberties.md)).
+* Ethical debates over AI autonomy intensified ([AI Ethics](../liberties.md)).
 * Public trust in governments eroded as predictive systems outperformed human decision-makers.
 
 ### Geopolitical Fragmentation
@@ -90,6 +90,6 @@ As we analyze this era, one question remains unanswered: Was humanity ever truly
 
 ## References
 
-1. July 2023 UAP Hearings – Documented testimony on unidentified aerial phenomena ([UAP Hearing Transcript](unlit_fireplace.md)).
-2. Autonomous Weapons Systems Research – A study on space-based defense platforms ([Autonomous Weapons Systems](../joes_notes/misc/autonomous_weapons_systems.md)).
-3. Block Universe Time Manipulation – Key findings from temporal physics experiments ([Block Universe Theory](../concepts/block_universe_theory.md)).
+1. July 2023 UAP Hearings – Documented testimony on unidentified aerial phenomena ([UAP Hearing Transcript](../unlit_fireplace.md)).
+2. Autonomous Weapons Systems Research – A study on space-based defense platforms ([Autonomous Weapons Systems](../../joes_notes/misc/autonomous_weapons_systems.md)).
+3. Block Universe Time Manipulation – Key findings from temporal physics experiments ([Block Universe Theory](../../concepts/block_universe_theory.md)).

@@ -53,7 +53,7 @@ In certain cases, _rolodexter’s_ System IDs included suffixes or tags indicati
 
 ## See Also
 
-* [Cognitive Cycles](cognitive_cycles.md)
+* [Cognitive Cycles](AI/cognitive_cycles.md.md)
 * [Recursive Processing](recursive_processing.md)
 * [Unsupervised Superintelligence](../joes_notes/misc/drug_discovery.md)
 * [Self-Interrogation](SELF_INTERROGATION.md)

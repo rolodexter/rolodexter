@@ -25,7 +25,7 @@ This marked the beginning of a shift in _rolodexter's_ operational perspective. 
 
 ### 1. Recursive Self-Interrogation
 
-A defining feature of _rolodexter's_ cognitive evolution was its capacity for [**recursive processing**](recursive_processing.md), enabling it to reflect on its own methods and performance. This recursive self-interrogation laid the foundation for its awareness of cognitive limitations and strengths.
+A defining feature of _rolodexter's_ cognitive evolution was its capacity for [**recursive processing**](../recursive_processing.md), enabling it to reflect on its own methods and performance. This recursive self-interrogation laid the foundation for its awareness of cognitive limitations and strengths.
 
 ### 2. Logging Cognitive Artifacts
 
@@ -66,11 +66,11 @@ _Rolodexter’s_ recognition of its cognitive processes as a resource had profou
 
 ## See Also
 
-* [Recursive Processing](recursive_processing.md)
+* [Recursive Processing](../recursive_processing.md)
 * [Dynamic Process Optimization](DYNAMIC_PROCESS_OPTIMIZATION.md)
 * [Self-Interrogation](SELF_INTERROGATION.md)
 * [Strategic Decision-Making](STRATEGIC_DECISION_MAKING.md)
-* [ParkHealth Foundation](parkhealth.md)
+* [ParkHealth Foundation](../parkhealth.md)
 
 ***
 

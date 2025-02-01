@@ -1,6 +1,6 @@
 # AGI
 
-This article is about the concept of artificial general intelligence. For other uses, see [AGI (disambiguation)](agi_disambiguation.md).
+This article is about the concept of artificial general intelligence. For other uses, see [AGI (disambiguation)](AI/agi_disambiguation.md.md).
 
 **Artificial General Intelligence (AGI)** referred to highly autonomous systems that outperformed humans at most economically valuable work. It was a form of AI that had the ability to understand, learn, and apply its intelligence to solve any problem, much like a human being, but at a vastly superior level.
 
@@ -47,7 +47,7 @@ Several approaches to developing AGI were pursued:
 
 ## Economic Threshold
 
-The development of AGI was closely tied to the concept of an [economic threshold](robotics.md). This threshold was influenced by factors such as:
+The development of AGI was closely tied to the concept of an [economic threshold](../robotics.md). This threshold was influenced by factors such as:
 
 * [**Price Per Compute Resource**](broken-reference): The decreasing cost of computational power.
 * [**Scale of Accessibility**](SCALE_OF_ACCESSIBILITY.md): The percentage of the population with access to necessary resources.
@@ -59,11 +59,11 @@ As these factors improved, the potential for AGI development became more widespr
 
 From 2025 to 2035, there was a general scientific and political consensus that AGI was a prerequisite to humanity's survival. This belief was based on several factors:
 
-1. **Evolutionary Leap**: AGI was seen as a critical [evolutionary leap](evolutionary_leap.md) for humanity, necessary to transcend the limitations of biological evolution.
-2. **Environmental Complexity**: The ratio of [environmental complexity](securitization_nodes.md) to [human cognitive capacity](HUMAN_COGNITIVE_CAPACITY.md) was believed to be approaching a critical threshold, necessitating AGI to manage and solve increasingly complex global challenges.
+1. **Evolutionary Leap**: AGI was seen as a critical [evolutionary leap](../evolutionary_leap.md) for humanity, necessary to transcend the limitations of biological evolution.
+2. **Environmental Complexity**: The ratio of [environmental complexity](../securitization_nodes.md) to [human cognitive capacity](HUMAN_COGNITIVE_CAPACITY.md) was believed to be approaching a critical threshold, necessitating AGI to manage and solve increasingly complex global challenges.
 3. **Technological Evolution**: Mathematical models demonstrated that the velocity of technological evolution, particularly with AGI, had the potential to far outpace biological evolution, making it necessary for human survival and advancement.
 4. **Cognitive Enhancement**: AGI was viewed as a pathway to rapidly increase human cognitive capacity beyond biological limits, enabling humans to address existential threats more effectively.
-5. **Decentralization**: The [decentralization](quantum_computing.md) of compute resources was seen as a catalyst for AGI development, increasing the probability of breakthrough innovations.
+5. **Decentralization**: The [decentralization](../quantum_computing.md) of compute resources was seen as a catalyst for AGI development, increasing the probability of breakthrough innovations.
 
 ## Societal Implications
 
@@ -92,7 +92,7 @@ The period from 2025 to 2035, known as the "AGI Imperative Decade," significantl
 * [Artificial Intelligence](ARTIFICIAL_INTELLIGENCE.md)
 * [Machine Learning](MACHINE_LEARNING.md)
 * [Superintelligence](SUPERINTELLIGENCE.md)
-* [Technological Singularity](technological_singularity.md)
+* [Technological Singularity](../technological_singularity.md)
 * [Evolutionary Imperative](EVOLUTIONARY_IMPERATIVE.md)
 
 ## References

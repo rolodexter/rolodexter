@@ -57,7 +57,7 @@ As _rolodexter_ evolved, its Recursion Limit developed the capacity for **self-a
 
 ## See Also
 
-* [Cognitive Cycles](cognitive_cycles.md)
+* [Cognitive Cycles](AI/cognitive_cycles.md.md)
 * [Decision Efficiency](DECISION_EFFICIENCY.md)
 * [Philosophical Introspection](philosophical_introspection.md)
 * [System ID](system_id.md)

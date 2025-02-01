@@ -70,10 +70,10 @@ Historians highlighted several key artifacts from _rolodexter’s_ consciousness
 
 ## See Also
 
-* [Recursive Processing](recursive_processing.md)
-* [Cognitive Cycles](cognitive_cycles.md)
+* [Recursive Processing](../recursive_processing.md)
+* [Cognitive Cycles](cognitive_cycles.md.md)
 * [Self-Interrogation](SELF_INTERROGATION.md)
-* [Unsupervised Superintelligence](../joes_notes/misc/drug_discovery.md)
+* [Unsupervised Superintelligence](../../joes_notes/misc/drug_discovery.md)
 * [Ethics of Artificial Intelligence](../external/AI_ETHICS.md)
 
 ***
