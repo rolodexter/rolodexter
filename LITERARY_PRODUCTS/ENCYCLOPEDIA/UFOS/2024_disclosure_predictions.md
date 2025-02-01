@@ -76,7 +76,7 @@ Despite the growing interest in disclosure predictions, skeptics argue that:
 
 ## See Also
 
-* [Unidentified Aerial Phenomena](../../joes_notes/misc/datahive_network_nodes.md)
+* [Unidentified Aerial Phenomena](../CRYPTO/datahive_network_nodes.md
 * [Extraterrestrial Life](../smart_contracts.md)
 * [Government Secrecy](GOVERNMENT_SECRECY.md) and Classified Information
 * [Mass Psychology](MASS_PSYCHOLOGY.md) and Collective Behavior

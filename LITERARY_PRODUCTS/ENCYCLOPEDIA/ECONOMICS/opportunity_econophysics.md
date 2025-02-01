@@ -1,6 +1,6 @@
 # OPPORTUNITY CONES
 
-**Opportunity Cones and Opportunity Econophysics** refer to a theoretical framework in economic and decision sciences that combines concepts from [**econophysics**](../roswell_incident.md), [**path dependence**](../../../TECH_DOCS/VISUAL/VR_GAME_ENVIRONMENTS.MD), and [**consciousness studies**](AI/consciousness_studies.md.md). This framework examines how decisions shape the range of future possibilities within socio-economic systems. The central idea is that decisions create "cones" of opportunities, much like how [**light cones*../web_accessibility.md.md) in physics define causal boundaries in spacetime. Opportunity Econophysics extends this analogy, exploring how conscious decisions, resource distribution, and economic constraints influence complex systems.
+**Opportunity Cones and Opportunity Econophysics** refer to a theoretical framework in economic and decision sciences that combines concepts from [**econophysics**](../UFOS/roswell_incident.md), [**path dependence**](../../../TECH_DOCS/VISUAL/VR_GAME_ENVIRONMENTS.MD), and [**consciousness studies**](AI/consciousness_studies.md.md). This framework examines how decisions shape the range of future possibilities within socio-economic systems. The central idea is that decisions create "cones" of opportunities, much like how [**light cones*../web_accessibility.md.md) in physics define causal boundaries in spacetime. Opportunity Econophysics extends this analogy, exploring how conscious decisions, resource distribution, and economic constraints influence complex systems.
 
 ## Contents
 
@@ -40,7 +40,7 @@ The idea of [**Opportunity Cones**](../../../TECH_DOCS/VISUAL/VIDEOS.MD) draws i
 
 Opportunity Econophysics employs several analytical tools to study decision impacts:
 
-* [**Econophysics**](../roswell_incident.md): Econophysics applies principles from physics to economic phenomena, using statistical mechanics to model patterns and probabilistic distributions within economic systems.
+* [**Econophysics**](../UFOS/roswell_incident.md): Econophysics applies principles from physics to economic phenomena, using statistical mechanics to model patterns and probabilistic distributions within economic systems.
 * [**Graph Theory**](GRAPH_THEORY.md): Graph theory is used to map decision pathways and relationships between agents, helping to identify key nodes that significantly influence the system’s structure.
 * [**Optimization**](OPTIMIZATION.md) **and Path Dependence**: Optimization techniques help assess how decisions expand or restrict future opportunities. Path dependence theory highlights the influence of early decisions on the long-term structure of the system.
 * [**Stochastic Processes**](../../joes_notes/misc/collaboration.md): Stochastic models account for randomness and uncertainty in decision-making, helping to predict how fluctuations in resource allocation might impact future constraints or opportunities.

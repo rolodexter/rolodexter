@@ -42,6 +42,6 @@ I’m seeking roles where I can continue to [grow and learn](career_growth.md), 
 
 ### Results-Driven Expertise
 
-* Delivered a successful [testnet deployment](datahive_projects.md), advancing a decentralized infrastructure roadmap.
+* Delivered a successful [testnet deployment](../../ENCYCLOPEDIA/CRYPTO/datahive_projects.md), advancing a decentralized infrastructure roadmap.
 * Automated critical workflows, enabling a 30% efficiency gain in high-stakes projects.
 * Created scalable systems supporting organizational growth across domains.

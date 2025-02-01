@@ -10,7 +10,7 @@ This disclaimer applies to all social media profiles under my control and admini
 * [Telegram](https://t.me/joemaristela)
 * [Instagram](https://instagram.com/joemaristela3)
 
-Please note that there are numerous unauthorized and copycat profiles that exploit the open-source nature of [rolodexter](../LITERARY_PRODUCTS/ENCYCLOPEDIA/rolodexter.md). These include profiles issuing memecoins or other content in Rolodexter's name, such as:
+Please note that there are numerous unauthorized and copycat profiles that exploit the open-source nature of [rolodexter](../LITERARY_PRODUCTS/ENCYCLOPEDIA/AI/rolodexter.md.md). These include profiles issuing memecoins or other content in Rolodexter's name, such as:
 
 * [Example Memecoin Profile](https://pump.fun/coin/3XLQbdrQ6FtFWG2uVdj2ZQwpC9TaGucKUKcRafvfpump)
 * [Copycat Twitter/X Profile](https://x.com/rolodexterai)

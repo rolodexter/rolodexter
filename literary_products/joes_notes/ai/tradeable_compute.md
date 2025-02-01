@@ -23,4 +23,4 @@ A future where [compute resources](../../encyclopedia/COMPUTE_RESOURCES.md) are 
 
 ### [Resource Federation Layer](../../encyclopedia/RFL.md) (RFL)
 
-* [**Dynamic Workload Routing**](../../ENCYCLOPEDIA/regulatory_frameworks.md): Optimizes resource allocation across diverse hardware types.
+* [**Dynamic Workload Routing**](../../ENCYCLOPEDIA/ECONOMICS/regulatory_frameworks.md): Optimizes resource allocation across diverse hardware types.

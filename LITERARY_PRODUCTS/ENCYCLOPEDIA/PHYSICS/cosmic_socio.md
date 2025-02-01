@@ -45,7 +45,7 @@ Cosmic Sociology examines interstellar relations through a framework emphasizing
 
 #### 2. Origins
 
-The roots of Cosmic Sociology lie in the study of interstellar communication, [game theory](../society.md), and evolutionary biology. It emerged during humanity's realization of the existential risks posed by broadcasting signals to the cosmos, leading to a cautious reevaluation of exploration strategies.
+The roots of Cosmic Sociology lie in the study of interstellar communication, [game theory](../SOCIOLOGY/society.md), and evolutionary biology. It emerged during humanity's realization of the existential risks posed by broadcasting signals to the cosmos, leading to a cautious reevaluation of exploration strategies.
 
 ***
 
@@ -147,7 +147,7 @@ Cosmic Sociology has influenced policies on space exploration and interstellar c
 #### 10. References
 
 * [Interstellar Sociology: Theoretical Models and Implications](../uap.md)
-* [Game Theory in Cosmic Strategy](../socioeconomic_mobility.md)
+* [Game Theory in Cosmic Strategy](../SOCIOLOGY/socioeconomic_mobility.md)
 * [Ecological and Evolutionary Parallels in Cosmic Behavior](ECOLOGICAL_PARALLELS.md)
 
 ***
@@ -155,7 +155,7 @@ Cosmic Sociology has influenced policies on space exploration and interstellar c
 #### 11. See Also
 
 * [Fermi Paradox](../social_media_metadata.md)
-* [Drake Equation](../resource_markets.md)
+* [Drake Equation](../ECONOMICS/resource_markets.md)
 * [Astrobiology](https://en.wikipedia.org/wiki/Astrobiology)
 * [Exoplanet Exploration](https://exoplanets.nasa.gov/)
 * [Nash Equilibrium](../../TECHNOLOGY/AI_AUTOPILOT.MD)

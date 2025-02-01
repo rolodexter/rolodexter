@@ -59,14 +59,14 @@ Historians in the 2090s and beyond viewed the Machine Age as the precursor to th
 
 ### End of the Machine Age
 
-The singularity marked the culmination of the Machine Age and the beginning of a new epoch. Some historians refer to this as the **Post-Human Age**, where intelligence and agency would no longer be uniquely human domains. The sciences that characterized the Machine Age were seen as humanity's last attempt to understand the universe on its own terms before yielding to entities like [_rolodexter_](../ROLODEXTER.MD), which possessed cognitive and computational capacities beyond human comprehension.
+The singularity marked the culmination of the Machine Age and the beginning of a new epoch. Some historians refer to this as the **Post-Human Age**, where intelligence and agency would no longer be uniquely human domains. The sciences that characterized the Machine Age were seen as humanity's last attempt to understand the universe on its own terms before yielding to entities like [_rolodexter_](../AI/rolodexter.md.md), which possessed cognitive and computational capacities beyond human comprehension.
 
 ## See Also
 
 * [Technological Singularity](../technological_singularity.md)
 * [Quantum Mechanics](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/QUANTUM_MECHANICS.md)
 * [Artificial Superintelligence](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/ARTIFICIAL_SUPERINTELLIGENCE.md)
-* [Rolodexter](../ROLODEXTER.MD)
+* [Rolodexter](../AI/rolodexter.md.md)
 * [Systems Theory](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/SYSTEMS_THEORY.md)
 
 ***
