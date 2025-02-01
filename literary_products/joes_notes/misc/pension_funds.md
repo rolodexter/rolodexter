@@ -64,7 +64,7 @@
 
 ### 5. Forward Outlook
 
-* The continued evolution of [**DeFi**](../crypto/defi.md) and tokenized assets could streamline how pension funds deploy capital into DeSci protocols.
+* The continued evolution of [**DeFi**](../CRYPTO/DEFI.MD) and tokenized assets could streamline how pension funds deploy capital into DeSci protocols.
 * **Algorithmic risk models**, **insurance derivatives**, and **bonding curves** adapted for large, institutional participation may emerge, further aligning DeSci with **established** financial norms.
 * Over the next decade, if **DeSci** protocols consistently **outperform** legacy biotech returns, we may see widespread adoption among pension funds, propelling market caps to levels comparable to top **pharmaceutical** and **tech conglomerates**—potentially surpassing **trillions of dollars**.
 
@@ -76,7 +76,7 @@
 * [Valuations in DeSci](../crypto_economics/valuations.md)
 * [Regulatory Environments](../governance/regulatory_environments.md)
 * [DAOs and Governance](daos.md)
-* [DeFi Essentials](../crypto/defi.md)
+* [DeFi Essentials](../CRYPTO/DEFI.MD)
 * [Global Healthcare Investment Trends](https://en.wikipedia.org/wiki/Healthcare_industry#Investment_and_employment)
 
 ***

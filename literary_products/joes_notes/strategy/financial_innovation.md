@@ -7,14 +7,14 @@
 
 ## Overview
 
-**Financial innovation** refers to the introduction of new technologies, business models, products, or services that transform the way financial systems operate. Recent advances—ranging from [**blockchain**](../crypto_economics/bitcoin_basics.md) to [**artificial intelligence**](tech_innovation.md#artificial-intelligence-and-machine-learning)—have catalyzed unprecedented growth in [**decentralized finance (DeFi)**](../crypto/defi_intro.md), digital payments, and automated investment platforms. As [**financial institutions**](financial_institutions.md) adapt to this changing landscape, new opportunities arise for [**public agencies**](../misc/public_agencies.md), **startups**, and established corporations to collaborate on innovative solutions that expand access, reduce transaction costs, and drive economic resilience.
+**Financial innovation** refers to the introduction of new technologies, business models, products, or services that transform the way financial systems operate. Recent advances—ranging from [**blockchain**](../crypto_economics/bitcoin_basics.md) to [**artificial intelligence**](tech_innovation.md#artificial-intelligence-and-machine-learning)—have catalyzed unprecedented growth in [**decentralized finance (DeFi)**](../CRYPTO/DEFI_INTRO.md), digital payments, and automated investment platforms. As [**financial institutions**](financial_institutions.md) adapt to this changing landscape, new opportunities arise for [**public agencies**](../misc/public_agencies.md), **startups**, and established corporations to collaborate on innovative solutions that expand access, reduce transaction costs, and drive economic resilience.
 
 ***
 
 ## Key Drivers of Financial Innovation
 
 1. **Technological Advancements**
-   * [**Cryptography**](../crypto/cryptography_basics.md) breakthroughs enable secure, trustless transactions.
+   * [**Cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) breakthroughs enable secure, trustless transactions.
    * Emergence of **smart contracts** automates traditional banking services (e.g., lending, borrowing).
 2. **Regulatory Shifts**
    * [**Regulatory frameworks**](../governance/regulatory_frameworks.md) evolve in response to fintech, crypto assets, and cross-border digital transactions.
@@ -34,7 +34,7 @@
    * **Security tokens**, **utility tokens**, and **NFTs** redefine ownership and liquidity of assets (e.g., equities, real estate, collectibles).
    * Accelerates capital formation and opens investment opportunities for retail participants worldwide.
 2. **Decentralized Finance (DeFi)**
-   * [**DeFi platforms**](../crypto/defi_intro.md) deliver peer-to-peer lending, yield farming, and decentralized exchanges without centralized intermediaries.
+   * [**DeFi platforms**](../CRYPTO/DEFI_INTRO.md) deliver peer-to-peer lending, yield farming, and decentralized exchanges without centralized intermediaries.
    * Challenges traditional banking by offering 24/7 global markets, instant settlements, and algorithmic interest rates.
 3. **Neobanking and Challenger Banks**
    * Online-only banks adopt tech-centric approaches with user-friendly interfaces, low fees, and innovative product bundles.
@@ -135,7 +135,7 @@
 
 ## See Also
 
-* [DEFI\_INTRO](../crypto/defi_intro.md)
+* [DEFI\_INTRO](../CRYPTO/DEFI_INTRO.md)
 * [FINANCIAL\_SYSTEMS](financial_systems.md)
 * [GOVERNMENT\_ADOPTION](../misc/government_adoption.md)
 * [TECH\_INNOVATION](tech_innovation.md)

@@ -29,7 +29,7 @@
 
 1. **Decentralized Autonomous Organizations (DAOs)**
    * Rules encoded in **smart contracts**, enabling transparent, algorithmic decision-making.
-   * Community stakeholders vote using [**token-based governance**](../crypto/cryptocurrencies.md), influencing proposals without relying on centralized leadership.
+   * Community stakeholders vote using [**token-based governance**](../CRYPTO/CRYPTOCURRENCIES.MD), influencing proposals without relying on centralized leadership.
 2. **Liquid Democracy**
    * Allows individuals to either vote directly on proposals or delegate votes to trusted peers, creating fluid representation.
    * Reduces the need for permanent elected officials by enabling “rolling delegation” tailored to specific expertise.
@@ -102,7 +102,7 @@
    * Some blockchain governance models (e.g., DAOs) can be technically challenging, requiring specialized knowledge to fully participate.
    * Overly complex tokenomics or voting mechanisms may discourage broad, meaningful civic engagement.
 3. **Security Risks**
-   * Exploits in smart contracts or [**consensus algorithms**](../crypto/cryptography_basics.md) could lead to governance manipulation, financial loss, or compromised system integrity.
+   * Exploits in smart contracts or [**consensus algorithms**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) could lead to governance manipulation, financial loss, or compromised system integrity.
    * Continuous audits and rapid patching are essential to sustaining trust.
 4. **Political and Cultural Barriers**
    * Established power structures might resist changes that redistribute decision-making authority.

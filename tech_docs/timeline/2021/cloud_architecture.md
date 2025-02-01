@@ -6,7 +6,7 @@ In the early 2020s, I built preliminary proofs of concept on enterprise cloud in
 
 <summary>Author's Note</summary>
 
-Unless otherwise specified such as with [Joe's Notes](../../../literary_products/joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../../../literary_products/joes_notes/faqs/what_is_rolodexter.md).
+Unless otherwise specified such as with [Joe's Notes](../../../literary_products/joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD).
 
 </details>
 

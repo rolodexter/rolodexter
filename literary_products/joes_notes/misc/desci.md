@@ -1,6 +1,6 @@
 # DESCI
 
-**Decentralized Science (DeSci)** refers to the application of [blockchain](../crypto/cryptocurrencies.md) and decentralized technologies—such as [smart contracts](../technology/smart_contracts.md), [decentralized autonomous organizations (DAOs)](daos.md), and [tokenized incentive structures](../crypto/tokens.md)—to various stages of scientific research. This includes funding, experimentation, data sharing, peer review, and publication.
+**Decentralized Science (DeSci)** refers to the application of [blockchain](../CRYPTO/CRYPTOCURRENCIES.MD) and decentralized technologies—such as [smart contracts](../technology/smart_contracts.md), [decentralized autonomous organizations (DAOs)](daos.md), and [tokenized incentive structures](../CRYPTO/tokens.md)—to various stages of scientific research. This includes funding, experimentation, data sharing, peer review, and publication.
 
 DeSci aims to:
 
@@ -23,7 +23,7 @@ Below are highlights of notable activities and advancements in DeSci over the pa
    * **Federated Learning & Privacy-Preserving Tech**: Projects increasingly use [zero-knowledge proofs](../technology/zero_knowledge_proofs.md) and [homomorphic encryption](../HOMOMORPHIC_ENCRYPTION.md) to handle sensitive [patient](../strategy/economic_threshold.md) and genomic data, ensuring compliance with regulations (e.g., [GDPR](../GDPR.md), [HIPAA](https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act)).
    * **Universal Citation & Data Linking**: Multiple initiatives aim to create a decentralized [citation chain](../AI/citation_chain.md) for peer-reviewed studies, open data sets, and community-driven preprints.
 4. **Integration with Traditional Academia**
-   * **Hybrid Models**: Universities and research institutes increasingly explore bridging [DeFi](../crypto/defi.md) and DeSci. Some labs experiment with token-based membership to fund expansions or scholarship programs.
+   * **Hybrid Models**: Universities and research institutes increasingly explore bridging [DeFi](../CRYPTO/DEFI.MD) and DeSci. Some labs experiment with token-based membership to fund expansions or scholarship programs.
    * **Institutional Interest**: [Pension funds](pension_funds.md) and [sovereign wealth funds](broken-reference) show early-stage curiosity in DeSci, though legal and [regulatory environments](../governance/regulatory_environments.md) remain a major consideration.
 5. **Open Peer Review Protocols**
    * **DAO-Governed Review**: DeSci DAOs experiment with token-based reputation systems, staking mechanisms, and decentralized [peer review](../PEER_REVIEW_PROTOCOLS.md) to reduce bias and reward quality feedback.

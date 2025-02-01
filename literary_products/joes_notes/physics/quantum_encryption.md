@@ -38,7 +38,7 @@
    * Threatens traditional RSA encryption
    * Capable of factoring large numbers exponentially faster
    * Drives development of [quantum-resistant cryptography](../QUANTUM_RESISTANT_CRYPTOGRAPHY.md)
-2. [**Post-Quantum Cryptography**](../crypto/post_quantum_cryptography.md)
+2. [**Post-Quantum Cryptography**](../CRYPTO/post_quantum_cryptography.md)
    * Mathematical approaches resistant to quantum attacks
    * Lattice-based cryptography
    * Hash-based signatures

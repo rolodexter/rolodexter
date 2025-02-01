@@ -75,7 +75,7 @@
    * Citizens and public employees may be wary of new technologies, data security, and job displacement.
    * Comprehensive training and transparent communication are crucial for wide-scale acceptance.
 3. **Technical Complexity**
-   * Implementing advanced solutions (e.g., [**zero-knowledge proofs**](../crypto/cryptography_basics.md#zero-knowledge-proofs-zkps)) can exceed the skill sets of traditional IT departments.
+   * Implementing advanced solutions (e.g., [**zero-knowledge proofs**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD#zero-knowledge-proofs-zkps)) can exceed the skill sets of traditional IT departments.
    * Collaboration with [**fintech innovators**](../FINTECH_INNOVATORS.md) and [**university initiatives**](university_initiatives.md) can address knowledge gaps.
 4. **Cybersecurity Threats**
    * Public-facing blockchains attract malicious actors seeking to exploit vulnerabilities.
@@ -122,7 +122,7 @@
 * [ADMINISTRATIVE\_PROCESSES](administrative_processes.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 * [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../strategy/innovations_in_public_sector.md)
-* [DEFI\_INTRO](../crypto/defi_intro.md)
+* [DEFI\_INTRO](../CRYPTO/DEFI_INTRO.md)
 
 For more in-depth resources, explore publications by the [World Bank](https://www.worldbank.org/) and the [United Nations](https://www.un.org/) on e-governance, digital transformation, and blockchain-based public administration.
 

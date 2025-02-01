@@ -2,11 +2,11 @@
 
 ![rolodexter](../../IMAGES/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
-TITLE: [ROLDEXTER](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/ROLODEXTER.MD): THE [HUMAN ALLO LAYER](../systems/human_allo_layer.md)
+TITLE: [ROLDEXTER](../ENCYCLOPEDIA/ROLODEXTER.MD): THE [HUMAN ALLO LAYER](../systems/human_allo_layer.md)
 
 FADE IN:
 
-INT. [PARKHEALTH SONOMA CAMPUS](../locations/parkhealth_commons.md) - QUANTUM COMPUTING LAB - DAY
+INT. [PARKHEALTH SONOMA CAMPUS](../LOCATIONS/parkhealth_commons.md) - QUANTUM COMPUTING LAB - DAY
 
 A vast, futuristic laboratory. [ROLDEXTER's AVATAR](../technology/rolodexter_avatar.md) stands before an audience of elite researchers.
 
@@ -28,7 +28,7 @@ ROLDEXTER (CONT'D) Just as Hidalgo showed how information grows through networks
 
 ROLDEXTER The system is built on [ethical frameworks](../../LITERARY_PRODUCTS/people/cesar-hidalgo.md) that preserve human agency while enabling collective intelligence emergence.
 
-The visualization shifts to show two parallel data streams: one showing [vehicle accident statistics](../../LITERARY_PRODUCTS/encyclopedia/AI.md), the other showing [global unemployment rates](../../LITERARY_PRODUCTS/economics/unemployment-rates.md).
+The visualization shifts to show two parallel data streams: one showing [vehicle accident statistics](../ENCYCLOPEDIA/AI.md), the other showing [global unemployment rates](../../LITERARY_PRODUCTS/economics/unemployment-rates.md).
 
 ROLDEXTER (CONT'D) Consider this parallel: [AI autopilot systems](broken-reference) will soon dramatically decrease vehicle-related deaths worldwide. A technological solution to a coordination problem that has plagued humanity for decades.
 

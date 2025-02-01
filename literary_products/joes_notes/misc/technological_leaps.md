@@ -7,7 +7,7 @@
 
 ## Overview
 
-A **technological leap** occurs when a new discovery, innovation, or breakthrough significantly alters the trajectory of an industry or society. These leaps often redefine best practices, expose untapped markets, and catalyze wide-scale change in **governance**, **finance**, and **healthcare**, among other domains. Recent examples include the rise of [**blockchain**](../crypto_economics/bitcoin_basics.md), [**cryptography**](../crypto/cryptography_basics.md) advances, and [**decentralized finance (DeFi)**](../crypto/defi_intro.md)—all of which have reshaped norms around trust, transparency, and collaboration. Understanding the forces behind these leaps is essential for [**public agencies**](public_agencies.md), private enterprises, and innovators eager to stay ahead.
+A **technological leap** occurs when a new discovery, innovation, or breakthrough significantly alters the trajectory of an industry or society. These leaps often redefine best practices, expose untapped markets, and catalyze wide-scale change in **governance**, **finance**, and **healthcare**, among other domains. Recent examples include the rise of [**blockchain**](../crypto_economics/bitcoin_basics.md), [**cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) advances, and [**decentralized finance (DeFi)**]../CRYPTO/DEFI_INTRO.mdd)—all of which have reshaped norms around trust, transparency, and collaboration. Understanding the forces behind these leaps is essential for [**public agencies**](public_agencies.md), private enterprises, and innovators eager to stay ahead.
 
 ***
 
@@ -55,7 +55,7 @@ A **technological leap** occurs when a new discovery, innovation, or breakthroug
    * Shared responsibility and risk distribution fuel large-scale pilot projects and proofs of concept.
 3. **New Economic Models**
    * **Tokenization** and **digital currencies** open unprecedented ways for municipal finance, cross-border trade, or micro-ownership of public assets.
-   * [**DeFi**](../crypto/defi_intro.md) solutions integrate seamlessly with government treasuries or social welfare programs, expanding global financial access.
+   * [**DeFi**](../CRYPTO/DEFI_INTRO.md) solutions integrate seamlessly with government treasuries or social welfare programs, expanding global financial access.
 4. **Social and Ethical Considerations**
    * Emerging technologies can introduce privacy trade-offs, ethical dilemmas, and equity concerns.
    * Balanced policies require robust stakeholder input, inclusive design principles, and continuous ethical reviews.
@@ -85,7 +85,7 @@ A **technological leap** occurs when a new discovery, innovation, or breakthroug
    * Rapid automation can displace workers, prompting calls for reskilling programs, universal basic income pilots, or transitional support.
    * Proactive engagement with labor unions and educators helps future-proof the workforce.
 2. **Security and Cyber Threats**
-   * [**Smart contracts**](../crypto/defi_intro.md), AI, and quantum computing each introduce specialized vulnerabilities.
+   * [**Smart contracts**](../CRYPTO/DEFI_INTRO.md), AI, and quantum computing each introduce specialized vulnerabilities.
    * Continuous code audits, **threat modeling**, and **penetration testing** remain vital.
 3. **Ethical Implications**
    * Bias in AI algorithms or exploitative token models can undermine public trust.

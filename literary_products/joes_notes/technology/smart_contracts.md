@@ -23,7 +23,7 @@ Smart contracts are a foundational technology in **Decentralized Finance (DeFi)*
 
 #### Decentralized Finance (DeFi)
 
-Smart contracts are the backbone of [DeFi](../crypto/defi.md) platforms, enabling:
+Smart contracts are the backbone of [DeFi](../CRYPTO/DEFI.MD) platforms, enabling:
 
 * **Lending and Borrowing:** Platforms like Aave automate loan agreements between lenders and borrowers.
 * **Decentralized Exchanges (DEXs):** Uniswap uses smart contracts to facilitate peer-to-peer cryptocurrency trading without intermediaries.
@@ -74,6 +74,6 @@ By leveraging smart contracts, decentralized insurance models can address gaps i
 
 ### Conclusion
 
-Smart contracts represent a transformative innovation that is reshaping industries by automating processes, reducing costs, and increasing transparency. From powering [DeFi](../crypto/defi.md) platforms to addressing crises like the [Los Angeles wildfires](../misc/los_angeles_wildfires_2025.md), their potential applications are vast and far-reaching.
+Smart contracts represent a transformative innovation that is reshaping industries by automating processes, reducing costs, and increasing transparency. From powering [DeFi](../CRYPTO/DEFI.MD) platforms to addressing crises like the [Los Angeles wildfires](../misc/los_angeles_wildfires_2025.md), their potential applications are vast and far-reaching.
 
 As adoption grows, addressing challenges such as security vulnerabilities and regulatory uncertainty will be critical to unlocking their full potential. By combining automation with trustless execution, smart contracts are poised to redefine how we interact with financial systems, supply chains, intellectual property management, and beyond.

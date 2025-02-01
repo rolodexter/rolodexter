@@ -88,7 +88,7 @@ The **adoption of** [**Bitcoin**](../crypto_economics/bitcoin.md) **by governmen
 
 * [PUBLIC\_SECTOR\_ENGAGEMENT](../governance/public_sector_engagement.md)
 * [BLOCKCHAIN\_REGULATIONS](../BLOCKCHAIN_REGULATIONS.md)
-* [CRYPTOCURRENCIES](../crypto/cryptocurrencies.md)
+* [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.MD)
 * [IMPORTANT\_DATES\_IN\_BITCOIN\_HISTORY](important_dates_in_bitcoin_history.md)
 
 For additional context, consider the discussions around [El Salvador’s legal tender adoption](https://en.wikipedia.org/wiki/Bitcoin#El_Salvador) or the [U.S. Federal Reserve’s stance on digital currencies](https://en.wikipedia.org/wiki/Central_bank_digital_currency).

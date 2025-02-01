@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Technological innovation** drives the continual transformation of global industries, governments, and societies by introducing novel solutions that address emerging challenges. In recent years, **blockchain**, **artificial intelligence (AI)**, **Internet of Things (IoT)**, and [**cryptography**](../crypto/cryptography_basics.md) advancements have redefined the boundaries of what's possible—spanning from decentralized financial services to AI-driven healthcare optimizations. Understanding the forces behind tech innovation, and how they intersect with [**public agencies**](../misc/public_agencies.md) and [**mainstream finance**](../MAINSTREAM_FINANCE.md), is critical for anticipating future market opportunities, regulatory evolutions, and societal impacts.
+**Technological innovation** drives the continual transformation of global industries, governments, and societies by introducing novel solutions that address emerging challenges. In recent years, **blockchain**, **artificial intelligence (AI)**, **Internet of Things (IoT)**, and [**cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) advancements have redefined the boundaries of what's possible—spanning from decentralized financial services to AI-driven healthcare optimizations. Understanding the forces behind tech innovation, and how they intersect with [**public agencies**](../misc/public_agencies.md) and [**mainstream finance**](../MAINSTREAM_FINANCE.md), is critical for anticipating future market opportunities, regulatory evolutions, and societal impacts.
 
 ***
 
@@ -15,7 +15,7 @@
 
 1. **Blockchain and Distributed Ledger Technologies (DLT)**
    * Trustless systems enable peer-to-peer transactions without intermediaries.
-   * Power [**decentralized finance (DeFi)**](../crypto/defi_intro.md) solutions, **smart contracts**, and **tokenized assets**.
+   * Power [**decentralized finance (DeFi)**](../CRYPTO/DEFI_INTRO.md) solutions, **smart contracts**, and **tokenized assets**.
 2. **Artificial Intelligence and Machine Learning**
    * Fuel personalized recommendations, predictive analytics, and advanced robotics.
    * Governments and enterprises apply AI to [**public services**](../misc/public_services.md), fraud detection, and strategic decision-making.
@@ -23,7 +23,7 @@
    * Devices gather real-time data at the network’s periphery, reducing latency and bandwidth costs.
    * Accelerate smart infrastructure initiatives (e.g., traffic optimization, environmental monitoring).
 4. **Quantum Computing (Emerging)**
-   * Potentially disrupt existing [**cryptographic**](../crypto/cryptography_basics.md) standards and data security protocols.
+   * Potentially disrupt existing [**cryptographic**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) standards and data security protocols.
    * Ongoing research focuses on **post-quantum** cryptography and specialized hardware.
 
 ***
@@ -31,7 +31,7 @@
 ## Innovation in Finance and Governance
 
 1. **Financial Technologies (FinTech)**
-   * [**Cryptocurrencies**](../crypto/cryptocurrencies.md), digital payment solutions, and robo-advisory tools expand consumer and institutional capabilities.
+   * [**Cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.MD), digital payment solutions, and robo-advisory tools expand consumer and institutional capabilities.
    * [**Investment frameworks**](financial_institutions.md) evolve to include DeFi, stablecoins, and tokenized equities.
 2. **Governmental and SLED Verticals**
    * [**SLED (State, Local, Education, District)**](../misc/sled_vertices.md) entities experiment with blockchain-based records, identity systems, and **liquid democracy** models.
@@ -115,7 +115,7 @@
 
 ## See Also
 
-* [CRYPTOGRAPHY\_BASICS](../crypto/cryptography_basics.md)
+* [CRYPTOGRAPHY\_BASICS](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD)
 * [FINANCIAL\_SYSTEMS](financial_systems.md)
 * [GOVERNANCE\_MODELS](../AI/governance_models.md)
 * [INNOVATIONS\_IN\_PUBLIC\_SECTOR](innovations_in_public_sector.md)

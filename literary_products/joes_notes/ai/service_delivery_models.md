@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Service delivery models** define how [**public services**](../misc/public_services.md) and administrative functions are organized, managed, and made accessible to citizens. In the context of emerging [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**DeFi**](../crypto/defi_intro.md) technologies, service delivery models can undergo dramatic changes—streamlining processes, reducing costs, and improving transparency. From [**state and local governments**](../misc/sled_vertices.md) to national agencies, evolving service delivery models aim to enhance [**public trust**](../misc/public_trust.md) by leveraging automation, cryptography, and user-centered design.
+**Service delivery models** define how [**public services**](../misc/public_services.md) and administrative functions are organized, managed, and made accessible to citizens. In the context of emerging [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**DeFi**](../CRYPTO/DEFI_INTRO.md) technologies, service delivery models can undergo dramatic changes—streamlining processes, reducing costs, and improving transparency. From [**state and local governments**](../misc/sled_vertices.md) to national agencies, evolving service delivery models aim to enhance [**public trust**](../misc/public_trust.md) by leveraging automation, cryptography, and user-centered design.
 
 ***
 
@@ -34,7 +34,7 @@
    * Prioritize clear, intuitive interfaces and processes that citizens can easily navigate.
    * Incorporate feedback loops and pilot programs to refine user experience (UX).
 2. **Data Interoperability**
-   * Standardized formats and **APIs** to enable seamless communication between government databases and [**blockchain networks**](../crypto/cryptography_basics.md).
+   * Standardized formats and **APIs** to enable seamless communication between government databases and [**blockchain networks**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD).
    * Reduces repetitive data entry and opens doors to cross-agency collaboration.
 3. **Process Automation**
    * **Smart contracts** handle routine tasks (e.g., eligibility checks, approvals, disbursements), freeing staff for higher-level decision-making.
@@ -55,7 +55,7 @@
    * Transparent supply chains track goods from vendor to final destination.
 3. **Social Welfare & Subsidies**
    * **Conditional transfers** automatically release funds (e.g., scholarships, welfare benefits) once beneficiaries meet predefined criteria.
-   * [**DeFi-based**](../crypto/defi_intro.md) solutions can significantly lower transaction costs for distributing aid.
+   * [**DeFi-based**](../CRYPTO/DEFI_INTRO.md) solutions can significantly lower transaction costs for distributing aid.
 4. **Public Assets & Infrastructure**
    * **Tokenization** of municipal bonds or utility shares fosters broader investment participation and real-time auditing of fund usage.
    * Potential to break down large infrastructural projects into manageable, trackable chunks for investors.

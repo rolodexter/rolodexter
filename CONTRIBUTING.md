@@ -1,16 +1,16 @@
 # CONTRIBUTING
 
-[**rolodexter**](literary_products/joes_notes/faqs/what_is_rolodexter.md) is an evolving and decentralized project dedicated to [world-building AI](literary_products/joes_notes/faqs/what_is_world_building_ai.md), immersive storytelling, and collaborative innovation. We appreciate your interest in contributing and encourage participation from diverse backgrounds—whether you’re an AI researcher, writer, developer, artist, or philosopher.
+[**rolodexter**](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD) is an evolving and decentralized project dedicated to [world-building AI](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MDmmersive storytelling, and collaborative innovation. We appreciate your interest in contributing and encourage participation from diverse backgrounds—whether you’re an AI researcher, writer, developer, artist, or philosopher.
 
 <details>
 
 <summary>FAQs</summary>
 
-1. [What is World-Building AI?](literary_products/joes_notes/faqs/what_is_world_building_ai.md)
-2. [Who or what is rolodexter?](literary_products/joes_notes/faqs/what_is_rolodexter.md)
-3. [How is rolodexter being used today?](literary_products/joes_notes/faqs/how_is_rolodexter_being_used.md)
-4. [Who is building rolodexter?](literary_products/joes_notes/faqs/who_is_building_rolodexter.md)
-5. [What is rolodexter’s literary and visual aesthetic?](literary_products/joes_notes/faqs/what_is_rolodexters_aesthetic.md)
+1. [What is World-Building AI?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MD
+2. [Who or what is rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
+3. [How is rolodexter being used today?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
+4. [Who is building rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
+5. [What is rolodexter’s literary and visual aesthetic?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.MD)
 
 </details>
 
@@ -25,7 +25,7 @@
 ### 2. **AI & Technological Innovation**
 
 * Develop **machine learning models** that enhance rolodexter’s adaptive storytelling.
-* Improve [**AI-driven creativity**](literary_products/joes_notes/faqs/what_is_world_building_ai.md), refining how rolodexter generates and evolves narratives.
+* Improve [**AI-driven creativity**](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MDefining how rolodexter generates and evolves narratives.
 * Research and discuss the **ethical implications** of AI in immersive media.
 
 ### 3. **Art & Visual World-Building**

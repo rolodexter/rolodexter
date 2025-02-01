@@ -51,7 +51,7 @@ Creative destruction is a cornerstone of capitalist economies, where progress an
 
 The [Los Angeles wildfires of January 2025](los_angeles_wildfires_2025.md) provide a modern example of creative destruction catalyzed by natural disasters. These fires exacerbated California's ongoing [insurance crisis](broken-reference), as major insurers withdrew from high-risk markets due to unsustainable losses.
 
-This crisis has opened opportunities for decentralized finance ([DeFi](../crypto/defi.md)) innovations to disrupt traditional insurance models:
+This crisis has opened opportunities for decentralized finance ([DeFi](../CRYPTO/DEFI.MD)) innovations to disrupt traditional insurance models:
 
 * **Blockchain Insurance:** Peer-to-peer risk-sharing platforms reduce administrative costs and increase transparency.
 * **Smart Contracts:** Automated claims processing ensures efficiency and reduces fraud.

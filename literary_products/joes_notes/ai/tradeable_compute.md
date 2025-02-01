@@ -12,15 +12,15 @@ A future where [compute resources](../../encyclopedia/COMPUTE_RESOURCES.md) are 
 ### Integration with Financial Markets
 
 * [**Smart Contracts**](../history/montreal_protocol.md): Govern [resource allocation](../../encyclopedia/RESOURCE_ALLOCATION.md) and settlement processes, ensuring real-time provisioning of purchased compute resources.
-* [**Liquid Markets**](../../encyclopedia/unsupervised_superintelligence.md): UTCs are tradeable on [decentralized exchanges](../../encyclopedia/DEX.md) (DEXs) and [centralized exchanges](../../encyclopedia/CEX.md) (CEXs), transforming compute resources into liquid financial assets.
+* [**Liquid Markets**](../../ENCYCLOPEDIA/unsupervised_superintelligence.md): UTCs are tradeable on [decentralized exchanges](../../encyclopedia/DEX.md) (DEXs) and [centralized exchanges](../../encyclopedia/CEX.md) (CEXs), transforming compute resources into liquid financial assets.
 
 ## High-Level Operative Components
 
 ### Smart Contract Integration
 
-* [**Automated Settlement**](../../encyclopedia/logistics.md): Ensures instantaneous clearing and dynamic resource allocation post-transaction.
+* [**Automated Settlement**](../../ENCYCLOPEDIA/logistics.md): Ensures instantaneous clearing and dynamic resource allocation post-transaction.
 * [**SLA Modularization Framework**](../history/manhattan_project.md): Decomposes [SLAs](../../encyclopedia/SLA.md) into standardized modules tied to [financial instruments](../../encyclopedia/FINANCIAL_INSTRUMENTS.md), ensuring compliance and performance guarantees.
 
 ### [Resource Federation Layer](../../encyclopedia/RFL.md) (RFL)
 
-* [**Dynamic Workload Routing**](../../encyclopedia/regulatory_frameworks.md): Optimizes resource allocation across diverse hardware types.
+* [**Dynamic Workload Routing**](../../ENCYCLOPEDIA/regulatory_frameworks.md): Optimizes resource allocation across diverse hardware types.

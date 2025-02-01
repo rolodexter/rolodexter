@@ -58,7 +58,7 @@
    * Reduces reliance on centralized intermediaries while maintaining robust security.
 2. **Smart Contract Verification**
    * Cryptography ensures the integrity of code execution and automatically enforces contract conditions.
-   * [**Governance tokens**](cryptocurrencies.md) leverage digital signatures for proposal voting, preventing double-counting and fraud.
+   * [**Governance tokens**](CRYPTOCURRENCIES.MD) leverage digital signatures for proposal voting, preventing double-counting and fraud.
 3. **Privacy-Preserving Protocols**
    * **Zero-Knowledge** technology allows transactions or identity checks to be verified without disclosing sensitive data.
    * Facilitates compliance in regulatory-heavy sectors (e.g., healthcare, government) while protecting individual privacy.

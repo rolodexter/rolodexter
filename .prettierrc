@@ -1,0 +1,28 @@
+{
+    "markdown-it-attrs": {
+      "enabled": true
+    },
+    "markdown-it-footnote": {
+      "enabled": true
+    },
+    "markdown-it-anchor": {
+      "enabled": true
+    },
+    "markdown-it-link-attributes": {
+      "enabled": true,
+      "filter": {
+        "exclude": ["^https?://"]
+      }
+    },
+    "linkFormatter": "relative",
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "consistent",
+    "arrowParens": "always",
+    "trailingComma": "all",
+    "endOfLine": "lf"
+  }
+  

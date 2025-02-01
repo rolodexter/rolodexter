@@ -10,12 +10,12 @@ This disclaimer applies to all social media profiles under my control and admini
 * [Telegram](https://t.me/joemaristela)
 * [Instagram](https://instagram.com/joemaristela3)
 
-Please note that there are numerous unauthorized and copycat profiles that exploit the open-source nature of [rolodexter](../LITERARY_PRODUCTS/encyclopedia/rolodexter.md). These include profiles issuing memecoins or other content in Rolodexter's name, such as:
+Please note that there are numerous unauthorized and copycat profiles that exploit the open-source nature of [rolodexter](../LITERARY_PRODUCTS/ENCYCLOPEDIA/rolodexter.md). These include profiles issuing memecoins or other content in Rolodexter's name, such as:
 
 * [Example Memecoin Profile](https://pump.fun/coin/3XLQbdrQ6FtFWG2uVdj2ZQwpC9TaGucKUKcRafvfpump)
 * [Copycat Twitter/X Profile](https://x.com/rolodexterai)
 
-These profiles have no affiliation with me or my work. To confirm authenticity, you may contact me, Joe Maristela, directly via email at **jmaristela2023@gmail.com** or SMS at **+1 (650) 918-6796**.
+These profiles have no affiliation with me or my work. To confirm authenticity, you may contact me, Joe Maristela, directly via email at **<jmaristela2023@gmail.com>** or SMS at **+1 (650) 918-6796**.
 
 For verified organizational accounts and repositories that I am affiliated with, such as my current role heading strategy at DataHive, please refer to the following:
 

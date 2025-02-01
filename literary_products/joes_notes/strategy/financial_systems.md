@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Financial systems** encompass the institutions, markets, infrastructures, and frameworks that facilitate the flow of funds within and across economies. Traditional financial systems often rely on centralized [**financial institutions**](financial_institutions.md)—such as **commercial banks**, **investment banks**, and **central banks**—to provide essential services like credit allocation, risk management, and payment settlements. However, with the advent of [**cryptocurrencies**](../crypto/cryptocurrencies.md) and [**decentralized finance (DeFi)**](../DEFI_BASICS.md), financial systems are in the midst of a transformative shift toward more transparent, inclusive, and programmable structures.
+**Financial systems** encompass the institutions, markets, infrastructures, and frameworks that facilitate the flow of funds within and across economies. Traditional financial systems often rely on centralized [**financial institutions**](financial_institutions.md)—such as **commercial banks**, **investment banks**, and **central banks**—to provide essential services like credit allocation, risk management, and payment settlements. However, with the advent of [**cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.MD) and [**decentralized finance (DeFi)**](../DEFI_BASICS.md), financial systems are in the midst of a transformative shift toward more transparent, inclusive, and programmable structures.
 
 ***
 
@@ -53,7 +53,7 @@
 ### Emergence of DeFi
 
 * Decentralized finance ecosystems leveraging **smart contracts** and **blockchain** to provide lending, borrowing, trading, and yield generation without traditional intermediaries.
-* [**Bitcoin**](../crypto_economics/bitcoin.md) and other [**cryptocurrencies**](../crypto/cryptocurrencies.md) introduced a global, trust-minimized monetary network, challenging historical conceptions of [**asset classes**](../misc/asset_classes.md).
+* [**Bitcoin**](../crypto_economics/bitcoin.md) and other [**cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.MD) introduced a global, trust-minimized monetary network, challenging historical conceptions of [**asset classes**](../misc/asset_classes.md).
 
 ***
 

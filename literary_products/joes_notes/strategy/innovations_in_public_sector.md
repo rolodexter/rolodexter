@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Innovations in the public sector** encompass transformative ideas, strategies, and technologies that enhance the quality, efficiency, and transparency of governmental services. Over the past decade, breakthroughs in [**blockchain**](../crypto_economics/bitcoin_basics.md), [**DeFi**](../crypto/defi_intro.md), and [**cryptographic**](../crypto/cryptography_basics.md) applications have paved new paths for [**public agencies**](../misc/public_agencies.md) to optimize [**administrative processes**](../misc/administrative_processes.md) and foster higher levels of [**public trust**](../misc/public_trust.md). Simultaneously, AI-driven systems, digital identity frameworks, and collaborative governance models are reshaping the way governments address everything from resource allocation to citizen engagement.
+**Innovations in the public sector** encompass transformative ideas, strategies, and technologies that enhance the quality, efficiency, and transparency of governmental services. Over the past decade, breakthroughs in [**blockchain**](../crypto_economics/bitcoin_basics.md), [**DeFi**](../CRYPTO/DEFI_INTRO.md), and [**cryptographic**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) applications have paved new paths for [**public agencies**](../misc/public_agencies.md) to optimize [**administrative processes**](../misc/administrative_processes.md) and foster higher levels of [**public trust**](../misc/public_trust.md). Simultaneously, AI-driven systems, digital identity frameworks, and collaborative governance models are reshaping the way governments address everything from resource allocation to citizen engagement.
 
 ***
 
@@ -18,7 +18,7 @@
    * New solutions offer higher data accuracy, faster service delivery, and cost-effective administrative workflows.
 2. **Citizen Demands for Transparency**
    * Public sentiment increasingly favors open governance, digital access, and real-time policy feedback loops.
-   * [**Immutable ledgers**](../crypto/cryptography_basics.md) and smart contracts heighten visibility into budgeting, procurement, and service deployment.
+   * [**Immutable ledgers**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) and smart contracts heighten visibility into budgeting, procurement, and service deployment.
 3. **Global Policy Shifts**
    * International organizations (e.g., UN, OECD) promote **e-governance** standards and best practices.
    * [**Regulatory frameworks**](../governance/regulatory_frameworks.md) evolve to encourage experimentation (e.g., sandboxes for government-led blockchain initiatives).
@@ -35,7 +35,7 @@
    * **Land registries**, **healthcare records**, and **social welfare** disbursements on secure, tamper-proof ledgers.
 2. **AI and Data Analytics**
    * Predictive models for improving infrastructure, resource planning, and crisis response.
-   * Real-time dashboards integrate [**DeFi**](../crypto/defi_intro.md) metrics, population data, and departmental outputs for evidence-based policymaking.
+   * Real-time dashboards integrate [**DeFi**](../CRYPTO/DEFI_INTRO.md) metrics, population data, and departmental outputs for evidence-based policymaking.
 3. **Smart City and IoT Initiatives**
    * Sensor networks monitoring traffic, pollution, and energy usage, feeding insights into automated governance systems.
    * **Edge computing** at local hubs to reduce latency and dynamically adjust public services on the fly.
@@ -85,7 +85,7 @@
    * Legacy systems, diverse data formats, and jurisdiction-specific rules complicate integration.
    * **APIs, standardized protocols,** and consistent data governance rules are vital for cohesive rollouts.
 2. **Privacy and Security**
-   * Public data, particularly in healthcare or identity management, demands robust [**cryptographic**](../crypto/cryptography_basics.md) safeguards.
+   * Public data, particularly in healthcare or identity management, demands robust [**cryptographic**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) safeguards.
    * Overexposing sensitive information under the guise of “transparency” can erode **public trust**.
 3. **Skill Gaps and Cultural Resistance**
    * Government staff may resist rapid digital transformations, fearing job displacement or complexity.

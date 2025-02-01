@@ -78,7 +78,7 @@ Careers where skills and contributions are harder to measure, like [illiquid ass
 
 ## Securitizing and Assetizing Professional Experience
 
-An emerging idea in the context of liquid and illiquid careers is the **securitization of professional experience** and the **assetization of a professional portfolio**. This would involve transforming one’s career into a [**DeFi**](../crypto/defi.md) **(Decentralized Finance) asset**, enabling individuals to tokenize their skills, achievements, and potential, which can then be traded, bid on, or staked.
+An emerging idea in the context of liquid and illiquid careers is the **securitization of professional experience** and the **assetization of a professional portfolio**. This would involve transforming one’s career into a [**DeFi**](../CRYPTO/DEFI.MD) **(Decentralized Finance) asset**, enabling individuals to tokenize their skills, achievements, and potential, which can then be traded, bid on, or staked.
 
 This concept draws parallels to [**fantasy football**](fantasy_football.md) markets, where players are drafted, traded, and valued based on their performance metrics. Similarly, in this career model:
 

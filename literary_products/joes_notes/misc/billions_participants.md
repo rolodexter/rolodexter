@@ -13,7 +13,7 @@ Imagine conducting **clinical trials** or **public health studies** at a **truly
    * **Pandemic Preparedness**: A near-instant global sampling can track disease spread, variants, and efficacy of interventions.
    * **Chronic Disease Management**: Large, continuous data streams enable improved monitoring and response to conditions like diabetes, cardiovascular diseases, and emerging public health threats.
 3. **Community-Driven Collaboration**
-   * **Incentives & Engagement**: [**Tokens**](../crypto/tokens.md) and **rewards** can motivate participants to share data, whether via wearables, smartphone apps, or local health check-ins.
+   * **Incentives & Engagement**: [**Tokens**](../CRYPTO/tokens.md) and **rewards** can motivate participants to share data, whether via wearables, smartphone apps, or local health check-ins.
    * **DAO Governance**: [**DAOs**](daos.md) can coordinate these data-collection initiatives transparently, incentivizing global communities to contribute and benefit.
 
 ***
@@ -27,7 +27,7 @@ Imagine conducting **clinical trials** or **public health studies** at a **truly
    * **Cross-Border Standards**: Coordinating with [**GDPR, HIPAA**](../governance/regulatory_environments.md), and other frameworks is crucial for lawful, ethical data usage.
    * **Incentivized Compliance**: Token-based ecosystems can embed regulatory compliance at the protocol level—encouraging participants and research teams to follow best practices.
 3. **Open-Source Collaboration & Funding**
-   * Crowdsourcing resources from [**pension funds**](pension_funds.md), **philanthropies**, and global contributors in a [**DeFi**](../crypto/defi.md) environment ensures continuous support for large-scale research.
+   * Crowdsourcing resources from [**pension funds**](pension_funds.md), **philanthropies**, and global contributors in a [**DeFi**](../CRYPTO/DEFI.MD) environment ensures continuous support for large-scale research.
    * **Micro-payments** or **bounties** to data providers, analysts, and peer reviewers keep participants engaged in a self-sustaining manner.
 
 ***
@@ -87,7 +87,7 @@ Reaching **billions of participants** in **clinical trials** or **public health 
 
 * [Decentralized Science (DeSci)](desci.md)
 * [DAOs](daos.md)
-* [Tokens](../crypto/tokens.md)
+* [Tokens](../CRYPTO/tokens.md)
 * [Regulatory Environments](../governance/regulatory_environments.md)
 
 ***

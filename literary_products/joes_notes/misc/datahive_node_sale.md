@@ -12,13 +12,13 @@
 
 #### Core Node Types
 
-1. [**Legalese Nodes**](../../encyclopedia/unsupervised_superintelligence.md):
+1. [**Legalese Nodes**](../../ENCYCLOPEDIA/unsupervised_superintelligence.md):
    * Focus on legal data indexing and curation within the DataHive network.
    * Utilize AI-driven insights to process and store legal documents securely.
-2. [**Consent Nodes**](../../encyclopedia/opportunity_cones.md):
+2. [**Consent Nodes**](../../ENCYCLOPEDIA/opportunity_cones.md):
    * Manage user permissions and consent across the ecosystem.
    * Ensure compliance with global privacy regulations like [GDPR](../../encyclopedia/GDPR.md).
-3. [**Data Assetization Nodes**](../../encyclopedia/project_blue_book.md):
+3. [**Data Assetization Nodes**](../../ENCYCLOPEDIA/project_blue_book.md):
    * Transform raw data into structured data assets for secure sharing or monetization.
    * Standardize data for enterprise or AI agent use.
 4. [**Securitization Nodes**](broken-reference):

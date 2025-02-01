@@ -7,14 +7,14 @@
 
 ## Overview
 
-A **sense of urgency** is a driving force that compels individuals, organizations, and governments to act swiftly in the face of emerging challenges or significant opportunities. In the realm of [**blockchain**](broken-reference), [**decentralized finance (DeFi)**](../crypto/defi_intro.md), and other transformative technologies, establishing urgency is essential to avoid falling behind in innovation, regulatory adaptation, and economic growth. Rapid technological advances, shifting [**financial systems**](../strategy/financial_systems.md), and evolving [**public sector engagement**](broken-reference) make timely decision-making critical.
+A **sense of urgency** is a driving force that compels individuals, organizations, and governments to act swiftly in the face of emerging challenges or significant opportunities. In the realm of [**blockchain**](broken-reference), [**decentralized finance (DeFi)**](../CRYPTO/DEFI_INTRO.md), and other transformative technologies, establishing urgency is essential to avoid falling behind in innovation, regulatory adaptation, and economic growth. Rapid technological advances, shifting [**financial systems**](../strategy/financial_systems.md), and evolving [**public sector engagement**](broken-reference) make timely decision-making critical.
 
 ***
 
 ## Key Factors Driving Urgency
 
 1. **Technological Acceleration**
-   * Innovations in [**cryptography**](../crypto/cryptography_basics.md), **AI**, and **blockchain** can quickly render traditional models obsolete.
+   * Innovations in [**cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD), **AI**, and **blockchain** can quickly render traditional models obsolete.
    * Organizations risk losing competitive advantage if they hesitate to explore or adopt these emerging solutions.
 2. **Regulatory Shifts**
    * Governments worldwide are redefining [**regulatory frameworks**](broken-reference) in real time, influencing cross-border transactions and digital asset classifications.
@@ -100,7 +100,7 @@ A **sense of urgency** is a driving force that compels individuals, organization
 
 * **High-Stakes Reforms**: Critical areas (e.g., digital identity, healthcare, pension disbursements) necessitate immediate modernization to keep pace with global benchmarks.
 * **Global Competition**: Nations or cities championing quick adoption of [**government-led blockchain**](government_adoption.md) or DeFi frameworks can become tech magnets, influencing broader policy direction.
-* **Post-Quantum Frontiers**: Preparing now for [**quantum-resistant cryptography**](../crypto/cryptography_basics.md#quantum-readiness) averts major vulnerabilities as hardware capabilities advance.
+* **Post-Quantum Frontiers**: Preparing now for [**quantum-resistant cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD#quantum-readiness) averts major vulnerabilities as hardware capabilities advance.
 
 ***
 

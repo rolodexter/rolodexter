@@ -85,7 +85,7 @@ Despite the growing interest in disclosure predictions, skeptics argue that:
 
 1. U.S. Department of Defense. (2023). "Unidentified Aerial Phenomena Task Force: Annual Report."
 2. ParkHealth Internal Memo. (2024). "Special Access Programs Overview." \[Classified]
-3. Peck, J. (2023). "Projecting a Critical Threshold in UFO Disclosure." ResearchGate. https://www.researchgate.net/publication/370418085\_Projecting\_a\_Critical\_Threshold\_in\_UFO\_Disclosure
+3. Peck, J. (2023). "Projecting a Critical Threshold in UFO Disclosure." ResearchGate. <https://www.researchgate.net/publication/370418085\_Projecting\_a\_Critical\_Threshold\_in\_UFO\_Disclosure>
 
 ## External Links
 

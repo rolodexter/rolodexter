@@ -10,7 +10,7 @@ I played a critical role in bringing the [AccuVax](../physics/high_frequency_wav
 
 I approached the AccuVax project with a multidisciplinary perspective, bridging critical gaps between:
 
-* [Medical infrastructure requirements](../../encyclopedia/sustainable_development.md)
+* [Medical infrastructure requirements](../../ENCYCLOPEDIA/sustainable_development.md)
 * [Robotic engineering specifications](broken-reference)
 * Regulatory compliance standards
 
@@ -50,7 +50,7 @@ Successfully guided the project through complex [FDA approval processes](broken-
 Developed a modular approach to vaccine storage emphasizing:
 
 * Precision temperature control
-* [Automated inventory management](../../encyclopedia/x_analysis.md)
+* [Automated inventory management](../../ENCYCLOPEDIA/x_analysis.md)
 * Real-time tracking capabilities
 
 ## Strategic Value Proposition
@@ -85,7 +85,7 @@ Showcased capacity to:
 
 The AccuVax project mirrors core innovation principles of:
 
-* [Democratizing access to critical infrastructure](../../encyclopedia/accessibility.md)
+* [Democratizing access to critical infrastructure](../../ENCYCLOPEDIA/accessibility.md)
 * Creating scalable, efficient technological solutions
 * Breaking down barriers to entry in specialized markets
 

@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Wall Street** has long been synonymous with **American finance**, hosting the headquarters of major investment banks, brokerages, and exchanges like the **New York Stock Exchange (NYSE)**. Over the centuries, Wall Street has been shaped by **regulatory reforms**, **technological shifts**, and major **economic cycles**. Today, it remains a core hub for global capital markets—though new paradigms such as [**blockchain**](broken-reference) and [**decentralized finance (DeFi)**](../crypto/defi_intro.md) challenge the traditional, centralized model of trading and asset management.
+**Wall Street** has long been synonymous with **American finance**, hosting the headquarters of major investment banks, brokerages, and exchanges like the **New York Stock Exchange (NYSE)**. Over the centuries, Wall Street has been shaped by **regulatory reforms**, **technological shifts**, and major **economic cycles**. Today, it remains a core hub for global capital markets—though new paradigms such as [**blockchain**](broken-reference) and [**decentralized finance (DeFi)**](../CRYPTO/DEFI_INTRO.md) challenge the traditional, centralized model of trading and asset management.
 
 ***
 
@@ -66,7 +66,7 @@
 
 1. **Securities and Exchange Commission (SEC)**
    * Created under **FDR’s New Deal**, the SEC enforces federal securities laws and monitors corporate disclosures to protect investors.
-   * Recent focus includes **SPACs**, digital-asset offerings, and the conflation of [**DeFi**](../crypto/defi_intro.md) platforms with traditional securities rules.
+   * Recent focus includes **SPACs**, digital-asset offerings, and the conflation of [**DeFi**](../CRYPTO/DEFI_INTRO.md) platforms with traditional securities rules.
 2. **Commodities Futures Trading Commission (CFTC)**
    * Oversees derivatives markets, including futures and options on commodities, currencies, and financial indices.
    * Engages with crypto derivatives under its purview, tackling how tokens or stablecoins may qualify as commodities.

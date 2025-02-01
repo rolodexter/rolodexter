@@ -2,7 +2,7 @@
 
 ### **1. Artificial Intelligence**
 
-#### Subtopics:
+#### Subtopics
 
 * AI Ethics
 * Machine Learning and Deep Learning
@@ -16,7 +16,7 @@
 
 ### **2. Blockchain and Cryptoeconomics**
 
-#### Subtopics:
+#### Subtopics
 
 * Decentralized Governance
 * Tokenomics and Cryptoeconomics Models
@@ -29,7 +29,7 @@
 
 ### **3. Philosophy and Ethics**
 
-#### Subtopics:
+#### Subtopics
 
 * The Ethics of Automation
 * Existential Risks of Advanced Technologies
@@ -42,7 +42,7 @@
 
 ### **4. Systems Science and Strategy**
 
-#### Subtopics:
+#### Subtopics
 
 * Game Theory Applications in Technology
 * Systems Architecture Design
@@ -54,19 +54,19 @@
 
 ### **5. World-Building and Creativity**
 
-#### Subtopics:
+#### Subtopics
 
 * Narrative Structures in Fiction
 * Procedural World-Building Tools
 * Immersive Storytelling
 * Speculative Fiction
-* [Visual and Literary Aesthetics](faqs/what_is_rolodexters_aesthetic.md)
+* [Visual and Literary Aesthetics](FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.MD)
 
 ***
 
 ### **6. Human Intelligence and Psychology**
 
-#### Subtopics:
+#### Subtopics
 
 * Human-Computer Interaction (HCI)
 * Behavioral Patterns in Digital Ecosystems
@@ -78,7 +78,7 @@
 
 ### **7. Education and Learning**
 
-#### Subtopics:
+#### Subtopics
 
 * Decentralized Learning Platforms
 * Federated Education Models
@@ -90,7 +90,7 @@
 
 ### **8. Emerging Technologies**
 
-#### Subtopics:
+#### Subtopics
 
 * Quantum Computing
 * Biocomputing and Synthetic Biology
@@ -102,7 +102,7 @@
 
 ### **9. Global Challenges**
 
-#### Subtopics:
+#### Subtopics
 
 * Climate Change and Technology Solutions
 * Global Health Innovation
@@ -113,7 +113,7 @@
 
 ### **10. Personal Growth and Productivity**
 
-#### Subtopics:
+#### Subtopics
 
 * Self-Optimization Techniques
 * Digital Minimalism
@@ -124,7 +124,7 @@
 
 ### **11. Open Questions and Speculations**
 
-#### Subtopics:
+#### Subtopics
 
 * What Defines "Intelligence"?
 * How Will Decentralization Reshape Society?

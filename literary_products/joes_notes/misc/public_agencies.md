@@ -37,7 +37,7 @@
    * Agencies exploring [**Bitcoin adoption**](../BITCOIN_ADOPTION.md) or issuing blockchain-based bonds to diversify funding mechanisms.
    * Potential for **yield-based** treasury strategies and transparent, **real-time** budget tracking.
 3. **Cryptography and Digital Identity**
-   * [**Cryptography**](../crypto/cryptography_basics.md) ensures secure data exchange, protecting sensitive citizen records.
+   * [**Cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) ensures secure data exchange, protecting sensitive citizen records.
    * **Decentralized ID** frameworks can minimize duplication across agencies, enhancing interoperability and service delivery.
 4. **AI-Enhanced Operations**
    * **Machine learning** aids resource planning, predictive analytics, and real-time monitoring of public infrastructure.

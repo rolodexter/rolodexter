@@ -20,7 +20,7 @@
 * **Significance:** Laid out the theoretical groundwork for a decentralized, trustless currency system.
 * **Related Files:**
   * [BITCOIN](../crypto_economics/bitcoin.md)
-  * [CRYPTOCURRENCIES](../crypto/cryptocurrencies.md)
+  * [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.MD)
 
 ***
 
@@ -109,7 +109,7 @@ These dates illustrate how rapidly and dramatically Bitcoin can evolve—somethi
 ## See Also
 
 * [BITCOIN](../crypto_economics/bitcoin.md)
-* [CRYPTOCURRENCIES](../crypto/cryptocurrencies.md)
+* [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.MD)
 * [REGULATORY\_FRAMEWORKS](broken-reference)
 * [PUBLIC\_SECTOR\_ENGAGEMENT](broken-reference)
 

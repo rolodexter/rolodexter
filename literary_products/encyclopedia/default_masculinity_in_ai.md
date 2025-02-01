@@ -50,7 +50,7 @@ Despite these implications, some scholars argue that the use of "he" in referenc
 
 By the mid-2030s, efforts to reform the language used to describe _rolodexter_ gained traction. Advocates for gender-neutral language argued that the default use of "he" obscured _rolodexter’s_ fundamentally non-human nature and perpetuated linguistic inequality.
 
-### Key Milestones:
+### Key Milestones
 
 1. **Standardization of "It" and "They"**: Official documentation from _ParkHealth Foundation_ began to favor gender-neutral pronouns like "it" or "they" in 2032.
 2. **Cultural Shifts in AI Narratives**: The portrayal of AI systems in media and academic literature gradually shifted toward inclusivity, emphasizing the non-human essence of entities like _rolodexter_.

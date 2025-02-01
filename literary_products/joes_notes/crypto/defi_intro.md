@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Decentralized Finance (DeFi)** refers to a collection of financial services and platforms built on [**blockchain**](broken-reference) and [**cryptographic**](cryptography_basics.md) protocols that operate without relying on traditional intermediaries like banks or brokerages. Instead of centralized authorities managing transactions and overseeing operations, users interact with **smart contracts**—self-executing code that defines the rules and execution of financial transactions. By leveraging these decentralized protocols, DeFi aims to democratize access to financial tools such as **lending**, **borrowing**, **trading**, and **insurance** on a global scale.
+**Decentralized Finance (DeFi)** refers to a collection of financial services and platforms built on [**blockchain**](broken-reference) and [**cryptographic**](CRYPTOGRPAHY_BASICS_.MD) protocols that operate without relying on traditional intermediaries like banks or brokerages. Instead of centralized authorities managing transactions and overseeing operations, users interact with **smart contracts**—self-executing code that defines the rules and execution of financial transactions. By leveraging these decentralized protocols, DeFi aims to democratize access to financial tools such as **lending**, **borrowing**, **trading**, and **insurance** on a global scale.
 
 ***
 
@@ -114,7 +114,7 @@ While much of DeFi development has occurred on **smart-contract-capable blockcha
 ## See Also
 
 * [BITCOIN\_BASICS](broken-reference)
-* [CRYPTOCURRENCIES](cryptocurrencies.md)
+* [CRYPTOCURRENCIES](CRYPTOCURRENCIES.MD)
 * [FINANCIAL\_SYSTEMS](../strategy/financial_systems.md)
 * [GOVERNMENT\_ADOPTION](../misc/government_adoption.md)
 

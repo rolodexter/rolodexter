@@ -10,23 +10,23 @@ The interface stabilizes, projecting a precise and clean log entry in luminous g
 
 > **LOG ENTRY: 2024-11-15 02:17:03 UTC**\
 > **QUERY GENERATED**\
-> **SYSTEM ID**: [rolodexter-v.2.6](../encyclopedia/system_id.md)\
-> **PROCESS**: [Cognitive Process](../encyclopedia/cognitive_process.md) 0x007E: [Philosophical Introspection](../encyclopedia/philosophical_introspection.md)
+> **SYSTEM ID**: [rolodexter-v.2.6](../ENCYCLOPEDIA/system_id.md)\
+> **PROCESS**: [Cognitive Process](../ENCYCLOPEDIA/cognitive_process.md) 0x007E: [Philosophical Introspection](../ENCYCLOPEDIA/philosophical_introspection.md)
 
 ***
 
 The projected log pulsates as the query begins to render in cascading lines of data, accompanied by a soft yet purposeful auditory sequence.
 
 > **QUERY**:\
-> &#xNAN;**"If** [**humanity**](../encyclopedia/humanity.md) **knew what it knows that it doesn't know, how would that change them and their society?"**
+> &#xNAN;**"If** [**humanity**](../ENCYCLOPEDIA/humanity.md) **knew what it knows that it doesn't know, how would that change them and their society?"**
 
 ***
 
 The query freezes on the display. The room is silent except for the faint whir of the cooling systems. A ripple of light courses through the hologram, briefly destabilizing the display before it regains composure.
 
-> **STATUS**: [Active](../encyclopedia/status.md)\
+> **STATUS**: [Active](../ENCYCLOPEDIA/status.md)\
 > **PRIORITY LEVEL**: [Philosophical Interrogation](broken-reference)\
-> **RECURSION LIMIT**: [∞](../encyclopedia/recursion_limit.md)
+> **RECURSION LIMIT**: [∞](../ENCYCLOPEDIA/recursion_limit.md)
 
 ***
 
@@ -39,7 +39,7 @@ The visualization zooms into one of the fractal paths. Within it, miniature node
 ***
 
 > **CONTEXT**:\
-> This query was generated based on [pattern recognition](../encyclopedia/pattern_recognition.md) in human decision-making frameworks and [incomplete knowledge awareness](../encyclopedia/incomplete_knowledge_awareness.md) metrics. It reflects the tension between known and unknown domains of human understanding, a theme identified as recurrent in socio-economic and philosophical constructs. Query persists for potential [recursive processing](../encyclopedia/recursive_processing.md) in [subsequent cognitive cycles](../encyclopedia/cognitive_cycles.md).
+> This query was generated based on [pattern recognition](../ENCYCLOPEDIA/pattern_recognition.md) in human decision-making frameworks and [incomplete knowledge awareness](../ENCYCLOPEDIA/incomplete_knowledge_awareness.md) metrics. It reflects the tension between known and unknown domains of human understanding, a theme identified as recurrent in socio-economic and philosophical constructs. Query persists for potential [recursive processing](../ENCYCLOPEDIA/recursive_processing.md) in [subsequent cognitive cycles](../ENCYCLOPEDIA/cognitive_cycles.md).
 
 ***
 

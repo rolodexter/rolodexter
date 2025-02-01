@@ -45,7 +45,7 @@ In economics, systems science helps analyze market dynamics, supply chains, and 
 
 Technological networks like the internet or blockchain ecosystems are studied using systems science principles:
 
-* Examining the resilience of decentralized networks like [DeFi](../crypto/defi.md).
+* Examining the resilience of decentralized networks like [DeFi](../CRYPTO/DEFI.MD).
 * Understanding how feedback loops drive innovation in emerging technologies.
 
 ### Social Systems
@@ -73,7 +73,7 @@ The [Los Angeles wildfires of January 2025](los_angeles_wildfires_2025.md) illus
 
 1. **Environmental Feedback Loops:** The fires were fueled by climate-driven feedback loops, including prolonged droughts and extreme wind patterns.
 2. **Insurance Crisis as a Systemic Failure:** The withdrawal of major insurers from high-risk areas highlights vulnerabilities in economic systems reliant on centralized institutions.
-3. **Decentralized Solutions:** Blockchain-based insurance models leverage self-organizing principles to create resilient financial systems ([DeFi](../crypto/defi.md)).
+3. **Decentralized Solutions:** Blockchain-based insurance models leverage self-organizing principles to create resilient financial systems ([DeFi](../CRYPTO/DEFI.MD)).
 
 ***
 
@@ -120,4 +120,4 @@ The [Los Angeles wildfires of January 2025](los_angeles_wildfires_2025.md) illus
 
 Systems science provides a powerful framework for understanding complexity across diverse domains, from environmental sustainability to technological innovation. By emphasizing holism, feedback loops, and emergent properties, it equips researchers and practitioners with tools to navigate uncertainty and design resilient solutions.
 
-As demonstrated by its applications in [creative destruction](creative_destruction.md), [DeFi](../crypto/defi.md), and crises like the [Los Angeles wildfires](los_angeles_wildfires_2025.md), systems science bridges disciplines to address some of humanity's most pressing challenges while fostering innovation and adaptability.
+As demonstrated by its applications in [creative destruction](creative_destruction.md), [DeFi](../CRYPTO/DEFI.MD), and crises like the [Los Angeles wildfires](los_angeles_wildfires_2025.md), systems science bridges disciplines to address some of humanity's most pressing challenges while fostering innovation and adaptability.

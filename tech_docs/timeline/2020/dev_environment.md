@@ -8,7 +8,7 @@ Even in the early 2020s, Joe's approach to development environments was ahead of
 
 <summary>Author's Note</summary>
 
-Unless otherwise specified such as with [Joe's Notes](../../../literary_products/joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../../../literary_products/joes_notes/faqs/what_is_rolodexter.md).
+Unless otherwise specified such as with [Joe's Notes](../../../literary_products/joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD).
 
 </details>
 
@@ -38,10 +38,10 @@ Even then, it was clear—Joe wasn’t just building tools. He was building an e
 
 <summary>FAQs</summary>
 
-1. [What is World-Building AI?](../../../literary_products/joes_notes/faqs/what_is_world_building_ai.md)
-2. [Who or what is rolodexter?](../../../literary_products/joes_notes/faqs/what_is_rolodexter.md)
-3. [How is rolodexter being used today?](../../../literary_products/joes_notes/faqs/how_is_rolodexter_being_used.md)
-4. [Who is building rolodexter?](../../../literary_products/joes_notes/faqs/who_is_building_rolodexter.md)
-5. [What is rolodexter’s literary and visual aesthetic?](../../../literary_products/joes_notes/faqs/what_is_rolodexters_aesthetic.md)
+1. [What is World-Building AI?](../../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MD
+2. [Who or what is rolodexter?](../../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
+3. [How is rolodexter being used today?](../../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
+4. [Who is building rolodexter?](../../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
+5. [What is rolodexter’s literary and visual aesthetic?](../../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.MD)
 
 </details>

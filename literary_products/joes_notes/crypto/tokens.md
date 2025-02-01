@@ -18,8 +18,8 @@
 ### 2. Beyond Bitcoin: Other Token Market Caps Are Growing
 
 1. **Ethereum & Layer-1 Protocols**
-   * **Ethereum**, the second-largest cryptocurrency by market cap, has gained traction through [**DeFi**](defi.md), **NFTs**, and **smart contract** functionalities.
-   * Rival **Layer-1** networks (e.g., Binance Smart Chain, Solana, Avalanche) are also drawing capital, broadening the overall market cap of the [**cryptocurrencies**](cryptocurrencies.md) sector.
+   * **Ethereum**, the second-largest cryptocurrency by market cap, has gained traction through [**DeFi**](DEFI.MD), **NFTs**, and **smart contract** functionalities.
+   * Rival **Layer-1** networks (e.g., Binance Smart Chain, Solana, Avalanche) are also drawing capital, broadening the overall market cap of the [**cryptocurrencies**](CRYPTOCURRENCIES.MD) sector.
 2. **Tokenized Assets & Sectors**
    * Tokenization extends beyond standard cryptocurrencies, encompassing real-world assets, **intellectual property (IP)**, **insurance**, and more.
    * These diverse use cases give rise to a sprawling **token economy**, wherein multiple sectors can reach multi-billion (and eventually **multi-trillion**) valuations.

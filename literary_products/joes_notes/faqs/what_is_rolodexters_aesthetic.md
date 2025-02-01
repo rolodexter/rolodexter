@@ -7,8 +7,8 @@ rolodexter’s aesthetic is deeply rooted in the fusion of philosophical storyte
 <summary>FAQs</summary>
 
 1. [What is World-Building AI?](what_is_world_building_ai.md)
-2. [Who or what is rolodexter?](what_is_rolodexter.md)
-3. [How is rolodexter being used today?](how_is_rolodexter_being_used.md)
+2. [Who or what is rolodexter?](WHAT_IS_ROLODEXTER.MD)
+3. [How is rolodexter being used today?](HOW_IS_ROLODEXTER_BEING_USED.MD)
 4. [Who is building rolodexter?](who_is_building_rolodexter.md)
 5. [What is rolodexter’s literary and visual aesthetic?](what_is_rolodexters_aesthetic.md)
 

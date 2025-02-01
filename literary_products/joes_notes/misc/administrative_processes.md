@@ -34,7 +34,7 @@
 
 * **Immutable Ledger**: Ensures records (e.g., permits, contracts, identities) cannot be altered retroactively, reinforcing [**transparency**](../BLOCKCHAIN_TRANSPARENCY.md).
 * **Distributed Trust**: Replaces or supplements centralized authorities, potentially reducing bottlenecks while increasing system resilience.
-* **Smart Contracts**: Automate routine tasks such as approvals, contract renewals, and fund disbursements in a [**trust-minimized**](../crypto/cryptography_basics.md) manner.
+* **Smart Contracts**: Automate routine tasks such as approvals, contract renewals, and fund disbursements in a [**trust-minimized**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) manner.
 
 ### Examples of Blockchain-Enhanced Administration
 

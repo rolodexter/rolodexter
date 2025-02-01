@@ -8,7 +8,7 @@ Intelligence can exist in a vacuum—it can execute functions without awareness,
 
 <summary>Author's Note</summary>
 
-Unless otherwise specified such as with [Joe's Notes](../joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../joes_notes/faqs/what_is_rolodexter.md).
+Unless otherwise specified such as with [Joe's Notes](../joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD).
 
 </details>
 

@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Public trust** is the confidence and faith that citizens place in government bodies, [**public agencies**](public_agencies.md), and other institutions responsible for overseeing societal welfare. Trust is forged through **transparency**, **accountability**, and consistent performance. When government initiatives embrace [**blockchain**](../crypto_economics/bitcoin_basics.md) or [**decentralized finance (DeFi)**](../crypto/defi_intro.md), the potential for enhanced transparency and tamper-proof records can significantly bolster public trust—provided they address privacy concerns, usability challenges, and regulatory standards.
+**Public trust** is the confidence and faith that citizens place in government bodies, [**public agencies**](public_agencies.md), and other institutions responsible for overseeing societal welfare. Trust is forged through **transparency**, **accountability**, and consistent performance. When government initiatives embrace [**blockchain**](../crypto_economics/bitcoin_basics.md) or [**decentralized finance (DeFi)**](../CRYPTO/DEFI_INTRO.md), the potential for enhanced transparency and tamper-proof records can significantly bolster public trust—provided they address privacy concerns, usability challenges, and regulatory standards.
 
 ***
 
@@ -21,7 +21,7 @@
    * **Blockchain audits** allow stakeholders to trace fund flows, project milestones, or administrative processes in real time.
 3. **Reliability**
    * Governments and [**public services**](public_services.md) must consistently deliver on promises and respond to changing needs.
-   * Technologies like [**DeFi**](../crypto/defi_intro.md) can automate many functions, reducing human error or manipulation.
+   * Technologies like [**DeFi**](../CRYPTO/DEFI_INTRO.md) can automate many functions, reducing human error or manipulation.
 4. **Engagement**
    * Meaningful public engagement—via town halls, polls, or [**liquid democracy**](../AI/governance_models.md#liquid-democracy)—strengthens citizens’ sense of ownership.
    * Open feedback loops ensure agency actions reflect public priorities.
@@ -55,7 +55,7 @@
    * User-friendly interfaces, plain-language communication, and robust support channels can help bridge the gap.
 3. **Privacy vs. Transparency**
    * Striking the right balance between open data and individual privacy is critical to avoid surveillance fears.
-   * [**Zero-knowledge proofs**](../crypto/cryptography_basics.md#zero-knowledge-proofs-zkps) or permissioned ledgers can protect sensitive information while retaining accountability.
+   * [**Zero-knowledge proofs**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD#zero-knowledge-proofs-zkps) or permissioned ledgers can protect sensitive information while retaining accountability.
 4. **Regulatory and Cultural Differences**
    * Divergent [**regulatory frameworks**](../governance/regulatory_frameworks.md) create confusion about best practices for cross-border or interagency cooperation.
    * Cultural norms around data ownership and government intervention influence trust levels.

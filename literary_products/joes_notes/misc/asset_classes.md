@@ -7,7 +7,7 @@
 
 ## Overview
 
-An **asset class** typically refers to a group of financial instruments that exhibit similar characteristics, behave similarly in the marketplace, and are subject to similar laws and regulations. Traditional examples include **equities**, **bonds**, **real estate**, and **commodities**. However, the rise of [**Bitcoin**](../crypto_economics/bitcoin.md) and other [**cryptocurrencies**](../crypto/cryptocurrencies.md) has led to the emergence of entirely new digital asset classes that challenge long-held assumptions about **store of value** and **monetary policy**.
+An **asset class** typically refers to a group of financial instruments that exhibit similar characteristics, behave similarly in the marketplace, and are subject to similar laws and regulations. Traditional examples include **equities**, **bonds**, **real estate**, and **commodities**. However, the rise of [**Bitcoin**](../crypto_economics/bitcoin.md) and other [**cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.MD) has led to the emergence of entirely new digital asset classes that challenge long-held assumptions about **store of value** and **monetary policy**.
 
 ***
 
@@ -92,7 +92,7 @@ As [**fintech disruptors**](../FINTECH_INNOVATORS.md) and legacy financial playe
 ## See Also
 
 * [BITCOIN](../crypto_economics/bitcoin.md)
-* [CRYPTOCURRENCIES](../crypto/cryptocurrencies.md)
+* [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.MD)
 * [FINANCIAL\_INSTITUTIONS](../strategy/financial_institutions.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 

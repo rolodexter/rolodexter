@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Financial institutions** are the pillars of modern economies, acting as intermediaries to mobilize savings, facilitate lending, and ensure liquidity across markets. Traditionally, **commercial banks**, **investment banks**, **credit unions**, and **insurance companies** have dominated this space, relying on centralized infrastructure and legacy systems. Today, with [**blockchain**](broken-reference) and [**decentralized finance (DeFi)**](../crypto/defi_intro.md) reshaping [**financial innovation**](financial_innovation.md), these institutions face both challenges and opportunities to modernize, expand, and align with shifting consumer behaviors.
+**Financial institutions** are the pillars of modern economies, acting as intermediaries to mobilize savings, facilitate lending, and ensure liquidity across markets. Traditionally, **commercial banks**, **investment banks**, **credit unions**, and **insurance companies** have dominated this space, relying on centralized infrastructure and legacy systems. Today, with [**blockchain**](broken-reference) and [**decentralized finance (DeFi)**](../CRYPTO/DEFI_INTRO.md) reshaping [**financial innovation**](financial_innovation.md), these institutions face both challenges and opportunities to modernize, expand, and align with shifting consumer behaviors.
 
 ***
 
@@ -54,7 +54,7 @@
    * Banking services integrated into non-financial platforms (e.g., e-commerce checkouts, social media).
    * Draws on API-based solutions that let merchants or marketplaces embed loans, insurance, or payment plans directly.
 3. **Institutional DeFi Participation**
-   * Major banks and hedge funds staking in [**DeFi protocols**](../crypto/defi_intro.md) for yield or leveraging tokenized assets.
+   * Major banks and hedge funds staking in [**DeFi protocols**](../CRYPTO/DEFI_INTRO.md) for yield or leveraging tokenized assets.
    * Custodial services for digital assets and stablecoin issuance.
 4. **Cross-Border Partnerships**
    * Regional banks partner with local fintechs to expand digital footprints or test pilot programs in emerging markets.
@@ -88,7 +88,7 @@
    * Banks partner with [**public agencies**](../misc/public_agencies.md) on infrastructure financing, microfinance, or climate change mitigation programs.
    * Structured finance instruments incorporate public guarantees to de-risk large-scale initiatives.
 3. **Tax Collection and Disbursements**
-   * Banks operate payment rails for property taxes, social benefits, or [**DeFi-based**](../crypto/defi_intro.md) aid distribution.
+   * Banks operate payment rails for property taxes, social benefits, or [**DeFi-based**](../CRYPTO/DEFI_INTRO.md) aid distribution.
    * Partnerships with [**SLED entities**](../misc/sled_vertices.md) modernize revenue collection systems, leveraging real-time data analytics.
 4. **Central Bank Digital Currencies (CBDCs)**
    * Collaboration with central banks to develop, pilot, and deploy CBDCs for retail or wholesale payment networks.
@@ -117,7 +117,7 @@
 
 1. **Rapid Tech Evolution**
    * Maintaining secure, scalable IT infrastructures amid frequent updates or protocol changes is complex.
-   * Outdated legacy systems hamper agile development or integration with [**DeFi solutions**](../crypto/defi_intro.md).
+   * Outdated legacy systems hamper agile development or integration with [**DeFi solutions**](../CRYPTO/DEFI_INTRO.md).
 2. **Cybersecurity Threats**
    * Institutions remain prime targets for phishing, ransomware, or sophisticated hacking.
    * Continuous investment in **threat intelligence**, employee training, and cryptographic safeguards is critical.

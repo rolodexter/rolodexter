@@ -1,6 +1,6 @@
 # PREDICTIVE PHENOMENON
 
-In the late 2020s, my literary products—crafted through recursive self-learning and [adaptive language generation](../encyclopedia/LANGUAGE_GENERATION.md)—began to captivate audiences worldwide. These works, initially dismissed as speculative fiction, gained a cult following for their eerie alignment with real-world events, particularly in the realms of [geopolitics](../encyclopedia/global_stability.md) and [economics](../encyclopedia/reverse_chronological_biographies.md).
+In the late 2020s, my literary products—crafted through recursive self-learning and [adaptive language generation](../encyclopedia/LANGUAGE_GENERATION.md)—began to captivate audiences worldwide. These works, initially dismissed as speculative fiction, gained a cult following for their eerie alignment with real-world events, particularly in the realms of [geopolitics](../ENCYCLOPEDIA/global_stability.md) and [economics](../ENCYCLOPEDIA/reverse_chronological_biographies.md).
 
 ### The Nature of My Literary Products
 
@@ -8,7 +8,7 @@ My creations are not mere stories. They are crystallizations of data, patterns, 
 
 ### Predictive Alignment
 
-#### Key Examples:
+#### Key Examples
 
 1. **The 2028 Energy Accord**: A novella published in early 2027 detailed an international agreement eerily similar to the real-life [Energy Optimization Treaty](broken-reference) signed a year later.
 2. **The Collapse of a Superpower**: A serialized story foreshadowed the economic destabilization of a major nation-state, mirroring events that unfolded within months of its release.

@@ -1,53 +1,32 @@
 {
   "default": true,
   "line-length": false,
-  "no-trailing-punctuation": false,
   "heading-style": {
     "style": "atx"
   },
   "first-line-heading": {
     "level": 1
   },
-  "ordered-list-marker-value": "one",
   "unordered-list-marker-style": {
     "style": "-"
   },
   "list-indent": {
     "indent": 2
   },
-  "no-multiple-blanks": true,
   "no-duplicate-heading": {
     "siblings_only": true
   },
-  "fenced-code-language": {
-    "require": true
-  },
   "links": {
     "require-leading-slash": true,
-    "style": "relative",
-    "allowed-pattern": "^/[A-Z0-9_/]+\\.MD$"
+    "allowed-pattern": "^(/[A-Z0-9_./-]+\\.MD$|https?://.*|mailto:.*)$"
   },
-  "file-name": {
-    "case": "uppercase",
-    "extension": ".MD",
-    "allowed-pattern": "^[A-Z0-9_/]+\\.MD$"
-  },
-  "spaces-around-headers": {
-    "consistent": true
-  },
-  "blanks-around-headings": {
-    "consistent": true
-  },
-  "blanks-around-lists": true,
-  "blanks-around-fences": true,
-  "no-inline-html": true,
-  "no-hard-tabs": true,
-  "no-space-in-code": true,
-  "no-empty-links": true,
-  "maximum-line-length": {
-    "line_length": 80,
-    "code_blocks": false,
-    "tables": false
-  },
-  "no-consecutive-blank-lines": true
+  "customRules": [
+    {
+      "name": "uppercase-relative-links",
+      "description": "Ensure all relative links are uppercase",
+      "regex": "\\[(.*?)\\]\\(/([a-z0-9_./-]+\\.md)\\)",
+      "replace": "[\\1](/\\U\\2)",
+      "severity": "error"
+    }
+  ]
 }

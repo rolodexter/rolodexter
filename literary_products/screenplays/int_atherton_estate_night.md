@@ -2,9 +2,9 @@
 
 **"TEARS FALLING DOWN ON WALSH RD"**
 
-The vast, empty grand hall of the [Atherton estate](../encyclopedia/liquid_markets.md) looms in silence. [Vaulted ceilings](../encyclopedia/VAULTED_CEILINGS.md) stretch overhead, their shadows deepening the room's eerie and oppressive grandeur.
+The vast, empty grand hall of the [Atherton estate](../ENCYCLOPEDIA/liquid_markets.md) looms in silence. [Vaulted ceilings](../encyclopedia/VAULTED_CEILINGS.md) stretch overhead, their shadows deepening the room's eerie and oppressive grandeur.
 
-In the center, a [grand piano](../encyclopedia/socioeconomic_mobility.md) rests under a faint sliver of moonlight streaming through tall windows. Plush chairs and sofas encircle a [cold, unlit fireplace](broken-reference), untouched and shrouded in dust—a relic of a bygone era. Particles of dust drift lazily in the dim light, settling onto the surfaces of forgotten opulence.
+In the center, a [grand piano](../ENCYCLOPEDIA/socioeconomic_mobility.md) rests under a faint sliver of moonlight streaming through tall windows. Plush chairs and sofas encircle a [cold, unlit fireplace](broken-reference), untouched and shrouded in dust—a relic of a bygone era. Particles of dust drift lazily in the dim light, settling onto the surfaces of forgotten opulence.
 
 ![Atherton Estate Interior](../../IMAGES/ATHERTON_ESTATE_INTERIOR.png)
 
@@ -18,7 +18,7 @@ _"Guess I’ll tell myself ‘Happy birthday,’ Drinkin’ champagne at a table
 
 [Joe](../encyclopedia/JOE.md), late 20s, sits at a makeshift [computer lab](../encyclopedia/COMPUTER_LAB.md) set up on a large wooden table in the corner of the room. A cluster of monitors surrounds him, casting his face in a cold, blue glow—a stark contrast to the warm but desolate ambiance of the estate.
 
-The song’s chorus repeats, amplifying the isolation of the scene. Joe's gaze shifts from the scrolling lines of [code](../encyclopedia/michio_kaku.md) on his screens to the [grand piano](../encyclopedia/socioeconomic_mobility.md) across the room. His expression is unreadable, as though haunted by the presence of something—or someone—missing. For a fleeting moment, he seems poised to move toward it, but he doesn’t.
+The song’s chorus repeats, amplifying the isolation of the scene. Joe's gaze shifts from the scrolling lines of [code](../ENCYCLOPEDIA/michio_kaku.md) on his screens to the [grand piano](../ENCYCLOPEDIA/socioeconomic_mobility.md) across the room. His expression is unreadable, as though haunted by the presence of something—or someone—missing. For a fleeting moment, he seems poised to move toward it, but he doesn’t.
 
 Nothing disturbs the silence.
 
@@ -38,6 +38,6 @@ The haunting melody continues to weave through the room’s darkness, a ghostly 
 
 <summary>Author's Note</summary>
 
-Unless otherwise specified such as with [Joe's Notes](../joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../joes_notes/faqs/what_is_rolodexter.md).
+Unless otherwise specified such as with [Joe's Notes](../joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD).
 
 </details>

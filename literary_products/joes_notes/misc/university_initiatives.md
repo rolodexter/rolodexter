@@ -7,7 +7,7 @@
 
 ## Overview
 
-**University initiatives** encompass a broad spectrum of **research**, **education**, and **community outreach** programs undertaken by higher education institutions. In the context of [**blockchain**](../crypto_economics/bitcoin_basics.md), [**DeFi**](../DEFI_BASICS.md), and emerging [**financial systems**](../strategy/financial_systems.md), universities play a pivotal role in nurturing talent, fostering innovation, and validating use cases through **applied research**. From incubating the next generation of startups to embedding [**cryptography**](../crypto/cryptography_basics.md) into the standard curriculum, academic institutions are uniquely positioned to accelerate [**public-sector engagement**](../governance/public_sector_engagement.md) with cutting-edge technologies.
+**University initiatives** encompass a broad spectrum of **research**, **education**, and **community outreach** programs undertaken by higher education institutions. In the context of [**blockchain**](../crypto_economics/bitcoin_basics.md), [**DeFi**](../DEFI_BASICS.md), and emerging [**financial systems**](../strategy/financial_systems.md), universities play a pivotal role in nurturing talent, fostering innovation, and validating use cases through **applied research**. From incubating the next generation of startups to embedding [**cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) into the standard curriculum, academic institutions are uniquely positioned to accelerate [**public-sector engagement**](../governance/public_sector_engagement.md) with cutting-edge technologies.
 
 ***
 

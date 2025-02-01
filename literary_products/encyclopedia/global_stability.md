@@ -4,7 +4,7 @@ _Last updated: January 29, 2055_
 
 ## Overview
 
-**Global Stability** refers to the fragile equilibrium that characterized international relations during the early 21st century, particularly in the 2020s. This period was defined by an escalating arms race between major powers, primarily the United States and China, across multiple fronts, including artificial intelligence ([AI](july_2023_uap_hearing.md)), extraterrestrial technologies, and emerging [Nonhuman Intelligence (NHI)](../../tech_docs/visual/arg_media.md) phenomena.
+**Global Stability** refers to the fragile equilibrium that characterized international relations during the early 21st century, particularly in the 2020s. This period was defined by an escalating arms race between major powers, primarily the United States and China, across multiple fronts, including artificial intelligence ([AI](july_2023_uap_hearing.md)), extraterrestrial technologies, and emerging [Nonhuman Intelligence (NHI)](../../TECH_DOCS/VISUAL/ARG_MEDIA.MD) phenomena.
 
 While initially perceived as separate domains, by the 2030s, advancements in physics and materials science—particularly in [block universe theory](../concepts/block_universe_theory.md) and "block universe time manipulation"—revealed that AI and NHI were deeply interconnected.
 

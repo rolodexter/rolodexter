@@ -18,13 +18,13 @@ The discipline is divided into several subfields:
 
 ![alt text](../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/FIGURE-MAPPING-OF-RESEARCH-LITERATURE-RELATED-.JPG)
 
-> Figure - "Destructive Creation, Creative Destruction, and the Paradox of Innovation Science." ResearchGate, October 2023, https://www.researchgate.net/publication/364453809\_Destructive\_Creation\_Creative\_Destruction\_and\_the\_Paradox\_of\_Innovation\_Science. Accessed January 10, 2025.
+> Figure - "Destructive Creation, Creative Destruction, and the Paradox of Innovation Science." ResearchGate, October 2023, <https://www.researchgate.net/publication/364453809\_Destructive\_Creation\_Creative\_Destruction\_and\_the\_Paradox\_of\_Innovation\_Science>. Accessed January 10, 2025.
 
 ## The Role of Physics in Creative Destruction
 
 Physics plays a significant role in understanding and modeling processes of [creative destruction](../misc/creative_destruction.md), a concept originally coined by economist Joseph Schumpeter. The principles of physics—particularly those related to energy transformation, entropy, and systems dynamics—help explain how innovation disrupts existing structures to create new opportunities.
 
-### Examples:
+### Examples
 
 1. **Thermodynamics of Innovation:**
    * In physics, entropy measures disorder in a system. Similarly, innovation often emerges from "disordered" or unstable conditions in economic or social systems. This mirrors the second law of thermodynamics: systems evolve toward states of higher entropy unless acted upon by external forces.
@@ -39,7 +39,7 @@ Physics plays a significant role in understanding and modeling processes of [cre
 
 Physics-based industries contribute significantly to global economies by driving innovation in technology, manufacturing, and energy. According to the Institute of Physics (IOP), physics-based businesses in the UK alone contribute £177 billion annually to gross value added (GVA), accounting for 10% of GDP ([source](https://www.iop.org/sites/default/files/2019-04/role-of-physics-in-supporting-economic-growth.pdf)).
 
-### Applications:
+### Applications
 
 1. **Renewable Energy Technologies:**
    * Advances in solar panels (photovoltaics) and wind turbines rely on quantum mechanics and fluid dynamics.
@@ -52,7 +52,7 @@ Physics-based industries contribute significantly to global economies by driving
 
 ## Physics in Decentralized Finance (DeFi)
 
-Physics also informs innovations in [Decentralized Finance (DeFi)](../crypto/defi.md), particularly through concepts like entropy and system stability:
+Physics also informs innovations in [Decentralized Finance (DeFi)](../CRYPTO/DEFI.MD), particularly through concepts like entropy and system stability:
 
 1. **Blockchain Dynamics:**
    * Blockchain networks can be modeled as complex systems that self-organize under constraints like computational power or energy consumption.
