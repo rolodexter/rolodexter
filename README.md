@@ -31,7 +31,7 @@ Unless otherwise specified such as with [Joe's Notes](literary_products/joes_not
 
 - **Literary Products**: [Movie Scripts](LITERARY_PRODUCTS/MOVIE_SCRIPTS/MOVIE_SCRIPTS.MD), [Screenplays](LITERARY_PRODUCTS/SCREENPLAYS/SCREENPLAYS.MD), [Novels](LITERARY_PRODUCTS/NOVELS.MD), [Short Stories](LITERARY_PRODUCTS/SHORT_STORIES.MD)
 - **Audio Products**: [MIDI Data](TECH_DOCS/AUDIO/MIDI.MD), [Sound Effects](TECH_DOCS/AUDIO/SOUND_EFFECTS.MD), [Instrumentals](TECH_DOCS/AUDIO/INSTRUMENTALS.MD), [Voices](TECH_DOCS/AUDIO/VOICES.MD), [Harmonies](TECH_DOCS/AUDIO/HARMONIES.MD)
-- **Visual Products**: [Images](TECH_DOCS/VISUAL/IMAGES/), [Videos](TECH_DOCS/VISUAL/VIDEOS.MD), [Films](TECH_DOCS/VISUAL/FILMS.MD), [Movies](TECH_DOCS/VISUAL/MOVIES.MD)
+- **Visual Products**: [Images](TECH_DOCS/VISUAL/IMAGES.MD), [Videos](TECH_DOCS/VISUAL/VIDEOS.MD), [Films](TECH_DOCS/VISUAL/FILMS.MD), [Movies](TECH_DOCS/VISUAL/MOVIES.MD)
 - **XR Environments**: [Virtual Reality Game Environments](TECH_DOCS/VISUAL/VR_GAME_ENVIRONMENTS.MD), [Mixed Realities](TECH_DOCS/VISUAL/MIXED_REALITY_MEDIA.MD), [ARG Media](TECH_DOCS/VISUAL/ARG_MEDIA.MD)
 
 ## **Community**
