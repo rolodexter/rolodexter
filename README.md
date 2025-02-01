@@ -29,7 +29,7 @@ Unless otherwise specified such as with [Joe's Notes](literary_products/joes_not
 
 ### Current Products
 
-* **Literary Products**: [Movie Scripts](broken-reference/), [Screenplays](broken-reference/), [Novels](broken-reference/), [Short Stories](broken-reference/)
+* **Literary Products**: [Movie Scripts](/LITERARY_PRODUCTS/MOVIE_SCRIPTS/MOVIE_SCRIPTS.MD), [Screenplays](/LITERARY_PRODUCTS/SCREENPLAYS/SCREENPLAYS.MD), [Novels](/LITERARY_PRODUCTS/NOVELS.MD), [Short Stories](/LITERARY_PRODUCTS/SHORT_STORIES.MD)
 * **Audio Products**: [MIDI Data](tech_docs/audio/midi.md), [Sound Effects](tech_docs/audio/sound_effects.md), [Instrumentals](tech_docs/audio/instrumentals.md), [Voices](tech_docs/audio/voices.md), [Harmonies](tech_docs/audio/harmonies.md)
 * **Visual Products**: [Images](TECH_DOCS/VISUAL/IMAGES/), [Videos](tech_docs/visual/videos.md), [Films](tech_docs/visual/films.md), [Movies](tech_docs/visual/movies.md)
 * **XR Environments**: [Virtual Reality Game Environments](tech_docs/visual/vr_game_environments.md), [Mixed Realities](tech_docs/visual/mixed_reality_media.md), [ARG Media](tech_docs/visual/arg_media.md)
