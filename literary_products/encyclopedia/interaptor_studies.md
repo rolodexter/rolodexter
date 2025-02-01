@@ -2,7 +2,7 @@
 
 #### **Interaptor Studies**
 
-**Interaptor Studies** is an interdisciplinary academic field dedicated to the study and application of technologies, systems, and methodologies aimed at bridging technological, cultural, and infrastructural divides. The discipline focuses on the integration of advanced technologies, such as [blockchain](misinformation_and_uap.md), [quantum computing](../joes_notes/environment/climate_neutrality.md), and [decentralized systems](quantum_cryptography.md), into underdeveloped or incompatible ecosystems while addressing foundational challenges in areas like governance, economics, and social equity.
+**Interaptor Studies** is an interdisciplinary academic field dedicated to the study and application of technologies, systems, and methodologies aimed at bridging technological, cultural, and infrastructural divides. The discipline focuses on the integration of advanced technologies, such as [blockchain](misinformation_and_uap.md), [quantum computing](broken-reference), and [decentralized systems](quantum_cryptography.md), into underdeveloped or incompatible ecosystems while addressing foundational challenges in areas like governance, economics, and social equity.
 
 ***
 
@@ -35,7 +35,7 @@ Key areas of study include:
 
 The concept of **Interaptor Studies** was formalized in the early 2020s by scholars and technologists seeking to address the challenges posed by rapid technological advancements in a globally unequal landscape. Initial frameworks were inspired by [systems science](systems_science.md), which emphasized interconnectedness and holistic problem-solving.
 
-The discipline gained traction with the rise of [blockchain technologies](misinformation_and_uap.md) and [decentralized finance (De-Fi)](ray_kurzweil.md), which highlighted the potential for technology to bypass traditional barriers and empower underserved communities. Subsequent advancements in [quantum computing](../joes_notes/environment/climate_neutrality.md), [cryptography](price_per_compute.md), and artificial intelligence further enriched the scope of **Interaptor Studies**.
+The discipline gained traction with the rise of [blockchain technologies](misinformation_and_uap.md) and [decentralized finance (De-Fi)](ray_kurzweil.md), which highlighted the potential for technology to bypass traditional barriers and empower underserved communities. Subsequent advancements in [quantum computing](broken-reference), [cryptography](price_per_compute.md), and artificial intelligence further enriched the scope of **Interaptor Studies**.
 
 ***
 
@@ -57,7 +57,7 @@ Understanding local customs, values, and traditions is crucial for developing te
 
 Technical expertise in secure communication, data management, and algorithmic efficiency is fundamental to implementing scalable solutions.
 
-[**Quantum and Supercomputing**](../joes_notes/environment/climate_neutrality.md)
+[**Quantum and Supercomputing**](broken-reference)
 
 Advanced computing technologies are explored for their potential to solve complex problems and optimize resource allocation.
 
@@ -109,7 +109,7 @@ Several universities have introduced undergraduate and graduate programs in **In
 Research in **Interaptor Studies** spans topics such as:
 
 * Designing blockchain systems for resource-constrained environments.
-* Exploring the impact of [quantum cryptography](../joes_notes/environment/electric_vehicles.md) on data sovereignty.
+* Exploring the impact of [quantum cryptography](broken-reference) on data sovereignty.
 * Modeling the social implications of decentralized governance.
 
 ***
@@ -131,8 +131,8 @@ Graduates of **Interaptor Studies** pursue careers in:
 * [Cryptoeconomics](pentagon_uap_report_2021.md)
 * [Blockchain Technology](misinformation_and_uap.md)
 * [Decentralized Finance (De-Fi)](ray_kurzweil.md)
-* [Sustainable Development](../joes_notes/misc/contingency_planning.md)
-* [Path Dependence](../joes_notes/ai/democratizing_agi.md)
+* [Sustainable Development](broken-reference)
+* [Path Dependence](../../tech_docs/visual/vr_game_environments.md)
 
 ***
 

@@ -25,7 +25,7 @@ Career progression in investment banking typically follows a standardized ladder
 
 ### 3. **Brand Recognition**
 
-Top-tier firms like [Goldman Sachs](../crypto_economics/goldman_sachs.md), Morgan Stanley, and J.P. Morgan have significant brand value that signals competence and professionalism, enhancing career liquidity.
+Top-tier firms like [Goldman Sachs](broken-reference), Morgan Stanley, and J.P. Morgan have significant brand value that signals competence and professionalism, enhancing career liquidity.
 
 ***
 

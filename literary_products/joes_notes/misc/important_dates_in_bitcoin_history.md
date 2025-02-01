@@ -47,7 +47,7 @@
 * **Date:** March 28, 2013
 * **Event:** Bitcoin’s total market capitalization surpasses **$1 billion** for the first time.
 * **Significance:** Garnered substantial media attention and validated Bitcoin’s growing economic impact.
-* **Context:** Set the stage for wider adoption and intensified scrutiny from [regulatory frameworks](../governance/regulatory_frameworks.md).
+* **Context:** Set the stage for wider adoption and intensified scrutiny from [regulatory frameworks](broken-reference).
 
 ***
 
@@ -110,8 +110,8 @@ These dates illustrate how rapidly and dramatically Bitcoin can evolve—somethi
 
 * [BITCOIN](../crypto_economics/bitcoin.md)
 * [CRYPTOCURRENCIES](../crypto/cryptocurrencies.md)
-* [REGULATORY\_FRAMEWORKS](../governance/regulatory_frameworks.md)
-* [PUBLIC\_SECTOR\_ENGAGEMENT](../governance/public_sector_engagement.md)
+* [REGULATORY\_FRAMEWORKS](broken-reference)
+* [PUBLIC\_SECTOR\_ENGAGEMENT](broken-reference)
 
 For a deeper dive into Bitcoin’s technical underpinnings, consult the official [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf) or visit the comprehensive [Bitcoin Wikipedia article](https://en.wikipedia.org/wiki/Bitcoin).
 

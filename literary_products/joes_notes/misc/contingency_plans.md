@@ -1,6 +1,6 @@
 # CONTINGENCY\_PLANS
 
-Contingency planning is a critical component of my personal and professional life. It involves preparing for unforeseen events and ensuring that I can respond effectively to challenges that may arise. By practicing [contingency planning](../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/ADVANCED_THERAPIES_WEEK.MD), I not only safeguard my immediate interests but also create a framework for [resilience](../../themes/technology.md) throughout my lifetime.
+Contingency planning is a critical component of my personal and professional life. It involves preparing for unforeseen events and ensuring that I can respond effectively to challenges that may arise. By practicing [contingency planning](../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/ADVANCED_THERAPIES_WEEK.MD), I not only safeguard my immediate interests but also create a framework for [resilience](broken-reference) throughout my lifetime.
 
 #### Daily Contingency Planning
 
@@ -8,7 +8,7 @@ In my daily life, I integrate contingency planning into various aspects, from ma
 
 **1. Identifying Potential Risks**
 
-I regularly assess potential [risks](../../universe/rolodexter-universe.md) that could disrupt my daily activities. This might include:
+I regularly assess potential [risks](broken-reference) that could disrupt my daily activities. This might include:
 
 * **Health Issues**: Preparing for sudden illness by maintaining a healthy lifestyle and having necessary medications on hand.
 * **Financial Setbacks**: Creating an [emergency fund](nuclear_power.md) to cover unexpected expenses, such as car repairs or medical bills.
@@ -33,7 +33,7 @@ Beyond daily practices, I also consider the long-term implications of contingenc
 
 **1. Life Goals and Milestones**
 
-I set long-term [goals](psychology.md)—both personal and professional—and develop contingency plans to navigate potential obstacles along the way:
+I set long-term [goals](broken-reference)—both personal and professional—and develop contingency plans to navigate potential obstacles along the way:
 
 * **Career Development**: Preparing for shifts in the job market by continuously updating my skills and networking within my industry.
 * **Personal Relationships**: Establishing open communication with family and friends to foster support networks during challenging times.

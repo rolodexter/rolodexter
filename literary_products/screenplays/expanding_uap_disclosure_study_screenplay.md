@@ -6,7 +6,7 @@
 
 **Scene 1**: [_ParkHealth_](../encyclopedia/parkhealth.md) _Office, Modern Workspace_
 
-_A_ [_ParkHealth_](../encyclopedia/parkhealth.md) _research associate,_ [_Kara Mendoza_](../encyclopedia/uap_disclosure.md)_, leans over her desk, scrolling through a tablet. She stops abruptly at the_ [_ResearchGate_](../encyclopedia/RESEARCHGATE.md) _page featuring Dr._ [_Tim Lomas_](../joes_notes/misc/contingency_planning.md)_' paper: "_[_Unidentified Anomalous Phenomena (UAP)_](../joes_notes/misc/cost_per_flop.md) _Disclosure as Ontological Shock?" The page displays the link:_ [_ResearchGate - Full Article_](https://www.researchgate.net/publication/380859422_Unidentified_Anomalous_Phenomena_UAP_disclosure_as_ontological_shock_Exploring_diversity_among_social_media_responses_to_a_congressional_UAP_hearing)_. Kara’s face lights up with curiosity._
+_A_ [_ParkHealth_](../encyclopedia/parkhealth.md) _research associate,_ [_Kara Mendoza_](../encyclopedia/uap_disclosure.md)_, leans over her desk, scrolling through a tablet. She stops abruptly at the_ [_ResearchGate_](../encyclopedia/RESEARCHGATE.md) _page featuring Dr._ [_Tim Lomas_](broken-reference)_' paper: "_[_Unidentified Anomalous Phenomena (UAP)_](../joes_notes/misc/cost_per_flop.md) _Disclosure as Ontological Shock?" The page displays the link:_ [_ResearchGate - Full Article_](https://www.researchgate.net/publication/380859422_Unidentified_Anomalous_Phenomena_UAP_disclosure_as_ontological_shock_Exploring_diversity_among_social_media_responses_to_a_congressional_UAP_hearing)_. Kara’s face lights up with curiosity._
 
 **KARA**\
 (to herself)\
@@ -22,10 +22,10 @@ _She clicks on the link and begins reading excerpts of the study, her interest i
 
 **Scene 2**: _Kara and James’ brainstorming session_
 
-_The camera pans to a whiteboard filled with keywords like "_[_Ontological Shock_](../joes_notes/ai/cloud_compute_costs.md)_," "_[_UAP_](../joes_notes/misc/cost_per_flop.md)_," "_[_AI_](../encyclopedia/interstellar_sociology.md)_-driven analysis," and "Big Data."_
+_The camera pans to a whiteboard filled with keywords like "_[_Ontological Shock_](../technology/ai_autopilot.md)_," "_[_UAP_](../joes_notes/misc/cost_per_flop.md)_," "_[_AI_](../encyclopedia/interstellar_sociology.md)_-driven analysis," and "Big Data."_
 
 **JAMES**\
-Exciting paper. But it seems limited in scope. Social media, especially a single platform like [X](../../LITERARY_PRODUCTS/JOES_NOTES/AI/AI.MD), doesn’t give the full picture. Imagine combining this with data from [Reddit](../joes_notes/environment/climate_neutrality.md), YouTube, and TikTok.
+Exciting paper. But it seems limited in scope. Social media, especially a single platform like [X](../../LITERARY_PRODUCTS/JOES_NOTES/AI/AI.MD), doesn’t give the full picture. Imagine combining this with data from [Reddit](broken-reference), YouTube, and TikTok.
 
 **KARA**\
 Exactly. And metadata like user demographics, timestamps, and network patterns could provide a richer, more dynamic analysis. Imagine understanding not just what people say but _why_ they react the way they do.
@@ -34,14 +34,14 @@ Exactly. And metadata like user demographics, timestamps, and network patterns c
 
 ## **ACT TWO**
 
-**Scene 3**: _Email Exchange Between Kara and Dr._ [_Tim Lomas_](../joes_notes/misc/contingency_planning.md)
+**Scene 3**: _Email Exchange Between Kara and Dr._ [_Tim Lomas_](broken-reference)
 
 _Kara types up an email late at night, illuminated only by her laptop screen._
 
 **KARA (V.O.)**\
 Dear Dr. Lomas,
 
-I recently read your groundbreaking study on [UAP](../joes_notes/misc/cost_per_flop.md) disclosure and its potential to induce [Ontological Shock](../joes_notes/ai/cloud_compute_costs.md). Your analysis resonated deeply with our ongoing work at [ParkHealth](../encyclopedia/parkhealth.md). I’d love to discuss extending your research by incorporating [AI](../encyclopedia/interstellar_sociology.md)-driven Big Data analysis, enabling us to map reactions across multiple platforms and explore demographic trends.
+I recently read your groundbreaking study on [UAP](../joes_notes/misc/cost_per_flop.md) disclosure and its potential to induce [Ontological Shock](../technology/ai_autopilot.md). Your analysis resonated deeply with our ongoing work at [ParkHealth](../encyclopedia/parkhealth.md). I’d love to discuss extending your research by incorporating [AI](../encyclopedia/interstellar_sociology.md)-driven Big Data analysis, enabling us to map reactions across multiple platforms and explore demographic trends.
 
 Looking forward to your thoughts.\
 Warm regards,\
@@ -51,7 +51,7 @@ _She hits "Send" and leans back, hopeful but nervous._
 
 ***
 
-**Scene 4**: [_Harvard_](../encyclopedia/standardization.md) _Office of Dr._ [_Tim Lomas_](../joes_notes/misc/contingency_planning.md)
+**Scene 4**: [_Harvard_](../encyclopedia/standardization.md) _Office of Dr._ [_Tim Lomas_](broken-reference)
 
 _Dr. Lomas sits in his ivy-clad office, reading Kara's email on his desktop monitor. A smile slowly spreads across his face. He clicks on his own ResearchGate article, glancing at the title and abstract before picking up his phone to dial Kara._
 
@@ -67,15 +67,15 @@ Dr. Lomas, that’s wonderful to hear. We’ve outlined some preliminary steps t
 
 ## **ACT THREE**
 
-**Scene 5**: _Virtual Meeting Between_ [_ParkHealth_](../encyclopedia/parkhealth.md) _and Dr._ [_Tim Lomas_](../joes_notes/misc/contingency_planning.md)
+**Scene 5**: _Virtual Meeting Between_ [_ParkHealth_](../encyclopedia/parkhealth.md) _and Dr._ [_Tim Lomas_](broken-reference)
 
 _Split screen:_ [_ParkHealth_](../encyclopedia/parkhealth.md)_’s modern office setup contrasts with Dr. Lomas’ academic office filled with books and research papers._
 
 **KARA**\
-Our goal is to create an exhaustive, multi-platform dataset using web crawlers and scrapers, integrated into [Hugging Face](../encyclopedia/supersonic.md) for advanced [NLP](../joes_notes/ai/c3_ai.md) analysis. This would allow us to automate theme extraction, analyze sentiment shifts over time, and even simulate “what if” scenarios for future disclosure events.
+Our goal is to create an exhaustive, multi-platform dataset using web crawlers and scrapers, integrated into [Hugging Face](../encyclopedia/supersonic.md) for advanced [NLP](../joes_notes/physics/quantum_field.md) analysis. This would allow us to automate theme extraction, analyze sentiment shifts over time, and even simulate “what if” scenarios for future disclosure events.
 
 **DR. LOMAS**\
-Brilliant. And by incorporating demographic metadata, we can finally address the question of whether [Ontological Shock](../joes_notes/ai/cloud_compute_costs.md) varies across age, location, or cultural background.
+Brilliant. And by incorporating demographic metadata, we can finally address the question of whether [Ontological Shock](../technology/ai_autopilot.md) varies across age, location, or cultural background.
 
 **JAMES**\
 Not to mention mapping out information spread within social media networks. We could track how opinions cluster, diverge, or shift in response to major [UAP](../joes_notes/misc/cost_per_flop.md)-related events.
@@ -88,7 +88,7 @@ _Montage: The team sets up crawlers, processes vast datasets, and trains_ [_AI_]
 
 **JAMES**\
 (to Kara)\
-This model predicts that the next Congressional hearing could lead to a 40% increase in public belief in [NHI](../joes_notes/ai/ai_models.md), but with a 20% spike in skepticism from younger demographics.
+This model predicts that the next Congressional hearing could lead to a 40% increase in public belief in [NHI](../joes_notes/physics/international_year_of_quantum_science.md), but with a 20% spike in skepticism from younger demographics.
 
 **KARA**\
 Now we’re not just documenting reactions—we’re predicting the societal pulse.
@@ -102,7 +102,7 @@ Now we’re not just documenting reactions—we’re predicting the societal pul
 _Dr. Lomas and_ [_ParkHealth_](../encyclopedia/parkhealth.md) _present their initial findings at an academic conference._
 
 **KARA**\
-The diversity of reactions to [UAP](../joes_notes/misc/cost_per_flop.md) disclosure—what Dr. Lomas aptly calls “[Ontological Fracturing](../joes_notes/ai/cloud_compute_costs.md)”—is even more complex than initially thought. Our [AI](../encyclopedia/interstellar_sociology.md)-driven analysis shows how emotions like hope, fear, and indifference interplay dynamically within different communities.
+The diversity of reactions to [UAP](../joes_notes/misc/cost_per_flop.md) disclosure—what Dr. Lomas aptly calls “[Ontological Fracturing](../technology/ai_autopilot.md)”—is even more complex than initially thought. Our [AI](../encyclopedia/interstellar_sociology.md)-driven analysis shows how emotions like hope, fear, and indifference interplay dynamically within different communities.
 
 **DR. LOMAS**\
 This collaboration has unlocked a new dimension of understanding. The implications extend far beyond [UAP](../joes_notes/misc/cost_per_flop.md), offering insights into how societies grapple with transformative revelations.

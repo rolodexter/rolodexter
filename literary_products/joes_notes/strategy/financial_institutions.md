@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Financial institutions** are the pillars of modern economies, acting as intermediaries to mobilize savings, facilitate lending, and ensure liquidity across markets. Traditionally, **commercial banks**, **investment banks**, **credit unions**, and **insurance companies** have dominated this space, relying on centralized infrastructure and legacy systems. Today, with [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**decentralized finance (DeFi)**](../crypto/defi_intro.md) reshaping [**financial innovation**](financial_innovation.md), these institutions face both challenges and opportunities to modernize, expand, and align with shifting consumer behaviors.
+**Financial institutions** are the pillars of modern economies, acting as intermediaries to mobilize savings, facilitate lending, and ensure liquidity across markets. Traditionally, **commercial banks**, **investment banks**, **credit unions**, and **insurance companies** have dominated this space, relying on centralized infrastructure and legacy systems. Today, with [**blockchain**](broken-reference) and [**decentralized finance (DeFi)**](../crypto/defi_intro.md) reshaping [**financial innovation**](financial_innovation.md), these institutions face both challenges and opportunities to modernize, expand, and align with shifting consumer behaviors.
 
 ***
 
@@ -65,7 +65,7 @@
 ## Regulatory Landscape
 
 1. **Compliance with Local and Global Standards**
-   * Institutions adhere to **anti-money laundering (AML)**, **know-your-customer (KYC)**, and [**regulatory frameworks**](../governance/regulatory_frameworks.md) that vary by jurisdiction.
+   * Institutions adhere to **anti-money laundering (AML)**, **know-your-customer (KYC)**, and [**regulatory frameworks**](broken-reference) that vary by jurisdiction.
    * Increased scrutiny on stablecoins, crypto custody, and tokenized securities.
 2. **Capital Requirements**
    * Basel accords stipulate minimum reserves, influencing lending capacity and liquidity.
@@ -168,7 +168,7 @@
 
 * [FINANCIAL\_SYSTEMS](financial_systems.md)
 * [FINTECH\_INNOVATORS](../FINTECH_INNOVATORS.md)
-* [REGULATORY\_FRAMEWORKS](../governance/regulatory_frameworks.md)
+* [REGULATORY\_FRAMEWORKS](broken-reference)
 * [PUBLIC\_AGENCIES](../misc/public_agencies.md)
 
 For ongoing perspectives, consult the [Bank for International Settlements (BIS)](https://www.bis.org/), [International Monetary Fund (IMF)](https://www.imf.org/), and private-sector advisories from consulting firms like McKinsey or Deloitte.

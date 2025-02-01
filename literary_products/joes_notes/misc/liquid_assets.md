@@ -11,15 +11,15 @@ In the context of careers, **liquid careers** share similar properties, enabling
 ## Characteristics of Liquid Assets
 
 1. **High Marketability**: Assets that can be bought or sold quickly without significant price variation.
-2. **Clear Valuation**: The value of a liquid asset is transparent and widely understood (e.g., [stocks](../crypto_economics/stocks.md) or [government bonds](../crypto_economics/government_bonds.md)).
+2. **Clear Valuation**: The value of a liquid asset is transparent and widely understood (e.g., [stocks](../crypto_economics/stocks.md) or [government bonds](broken-reference)).
 3. **Predictability**: Their market behavior is stable and predictable, reducing the risk for holders.
 4. **Ease of Transfer**: Ownership or control can be transferred seamlessly with minimal effort.
 
 ### Examples of Liquid Assets
 
-* Cash or cash equivalents (e.g., savings accounts, [money market instruments](../crypto_economics/money_market_instruments.md)).
-* Publicly traded securities (e.g., [stocks](../crypto_economics/stocks.md), [ETFs](reactionless_propulsion.md)).
-* [Government bonds](../crypto_economics/government_bonds.md) or highly rated corporate bonds.
+* Cash or cash equivalents (e.g., savings accounts, [money market instruments](broken-reference)).
+* Publicly traded securities (e.g., [stocks](../crypto_economics/stocks.md), [ETFs](broken-reference)).
+* [Government bonds](broken-reference) or highly rated corporate bonds.
 
 ***
 
@@ -34,13 +34,13 @@ Liquid careers exhibit the same traits of marketability, predictability, and eas
 1. **Market Clarity**: Skills and qualifications are widely recognized and understood (e.g., degrees from prestigious institutions, [certifications](../CERTIFICATIONS.md)).
 2. **Transferability**: Skills can be applied across roles and industries with minimal friction.
 3. **Predictable Progression**: Career paths and compensation structures are transparent and follow established norms.
-4. **Brand Value**: Affiliation with reputable organizations (e.g., [McKinsey](../MCKINSEY.md), [Goldman Sachs](../crypto_economics/goldman_sachs.md)) signals competence and credibility.
+4. **Brand Value**: Affiliation with reputable organizations (e.g., [McKinsey](../MCKINSEY.md), [Goldman Sachs](broken-reference)) signals competence and credibility.
 
 ### Examples of Liquid Careers
 
 * [Consulting](consulting.md) (e.g., [McKinsey](../MCKINSEY.md), [BCG](bcg.md)).
-* [Investment banking](investment_banking.md) (e.g., [Goldman Sachs](../crypto_economics/goldman_sachs.md)).
-* [Software engineering](../technology/software_engineering.md) roles at major tech firms (e.g., [Google](../GOOGLE.md), [Microsoft](../philosophy/evolutionary_leap.md)).
+* [Investment banking](investment_banking.md) (e.g., [Goldman Sachs](broken-reference)).
+* [Software engineering](../technology/software_engineering.md) roles at major tech firms (e.g., [Google](../GOOGLE.md), [Microsoft](broken-reference)).
 
 ***
 

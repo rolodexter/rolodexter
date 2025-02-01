@@ -1,6 +1,6 @@
 # Quantum Encryption
 
-[Quantum encryption](quantum_encryption.md), also known as [quantum cryptography](../QUANTUM_CRYPTOGRAPHY.md), represents a revolutionary approach to securing information by leveraging the principles of [quantum mechanics](../QUANTUM_MECHANICS.md). This technology stands at the intersection of [quantum computing](../../../TECH_DOCS/VISUAL/MOVIES.MD), [information security](../INFORMATION_SECURITY.md), and [military communications](../MILITARY_COMMUNICATIONS.md).
+[Quantum encryption](quantum_encryption.md), also known as [quantum cryptography](../QUANTUM_CRYPTOGRAPHY.md), represents a revolutionary approach to securing information by leveraging the principles of [quantum mechanics](../QUANTUM_MECHANICS.md). This technology stands at the intersection of [quantum computing](broken-reference), [information security](../INFORMATION_SECURITY.md), and [military communications](../MILITARY_COMMUNICATIONS.md).
 
 ## Core Principles
 
@@ -117,7 +117,7 @@
 
 ## See Also
 
-* [Quantum Computing](../../../TECH_DOCS/VISUAL/MOVIES.MD)
+* [Quantum Computing](broken-reference)
 * [Military Communications](../MILITARY_COMMUNICATIONS.md)
 * [Cryptographic Warfare](../CRYPTOGRAPHIC_WARFARE.md)
 * [Information Security](../INFORMATION_SECURITY.md)

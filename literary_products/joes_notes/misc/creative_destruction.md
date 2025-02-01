@@ -11,7 +11,7 @@ Creative destruction is a cornerstone of capitalist economies, where progress an
 ## Key Principles of Creative Destruction
 
 1. **Innovation as a Driving Force**\
-   Innovation lies at the heart of creative destruction. New technologies, products, or processes disrupt existing markets by offering superior alternatives. For example, [Henry Ford's assembly line](slm.md) revolutionized automobile manufacturing, rendering older methods obsolete.
+   Innovation lies at the heart of creative destruction. New technologies, products, or processes disrupt existing markets by offering superior alternatives. For example, [Henry Ford's assembly line](broken-reference) revolutionized automobile manufacturing, rendering older methods obsolete.
 2. **Competition and Market Dynamics**\
    Creative destruction thrives in competitive environments. As new entrants introduce disruptive innovations, established firms must either adapt or face obsolescence. This cycle fosters continuous improvement and economic growth.
 3. **Winners and Losers**\
@@ -49,7 +49,7 @@ Creative destruction is a cornerstone of capitalist economies, where progress an
 
 ## The Los Angeles Wildfires: A Contemporary Case Study
 
-The [Los Angeles wildfires of January 2025](los_angeles_wildfires_2025.md) provide a modern example of creative destruction catalyzed by natural disasters. These fires exacerbated California's ongoing [insurance crisis](../health/insurance_crisis.md), as major insurers withdrew from high-risk markets due to unsustainable losses.
+The [Los Angeles wildfires of January 2025](los_angeles_wildfires_2025.md) provide a modern example of creative destruction catalyzed by natural disasters. These fires exacerbated California's ongoing [insurance crisis](broken-reference), as major insurers withdrew from high-risk markets due to unsustainable losses.
 
 This crisis has opened opportunities for decentralized finance ([DeFi](../crypto/defi.md)) innovations to disrupt traditional insurance models:
 

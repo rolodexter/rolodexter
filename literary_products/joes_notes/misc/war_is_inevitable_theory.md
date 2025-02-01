@@ -2,7 +2,7 @@
 
 The belief that war is inevitable is rooted in a combination of [**scientific realism**](scientific_realism.md), military strategy, and philosophical perspectives on human nature and history. This school of thought does not have a single name but is often associated with [**classical realism**](classical_realism.md) in international relations and elements of [**deterministic philosophy**](../history/deterministic_philosophy.md).
 
-![alt text](<../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/image-2 (1) (2).png>)
+![alt text](<../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/IMAGE-2_(1) (2).PNG>)
 
 #### **1. Philosophical Foundations**
 
@@ -11,8 +11,8 @@ The belief that war is inevitable is rooted in a combination of [**scientific re
 * [**Classical Realism**](classical_realism.md) posits that war is a natural outcome of the anarchic international system, where no central authority exists to prevent conflict between sovereign states.
 * Influential Thinkers:
   * [**Thucydides**](../history/thucydides.md)**:** His work, [_The History of the Peloponnesian War_](https://en.wikipedia.org/wiki/History_of_the_Peloponnesian_War), emphasizes power dynamics and the inevitability of war driven by fear, honor, and interest.
-  * [**Niccolò Machiavelli**](../history/niccolo_machiavelli.md)**:** Advocated for the preparation and readiness for war as a necessity for maintaining power.
-  * [**Thomas Hobbes**](../history/thomas_hobbes.md)**:** Argued that the "state of nature" between individuals and states is a state of war, only mitigated by power structures like sovereign governments.
+  * [**Niccolò Machiavelli**](broken-reference)**:** Advocated for the preparation and readiness for war as a necessity for maintaining power.
+  * [**Thomas Hobbes**](broken-reference)**:** Argued that the "state of nature" between individuals and states is a state of war, only mitigated by power structures like sovereign governments.
 * Key Idea: Human nature (self-interest, competition, and mistrust) and structural anarchy make war unavoidable.
 
 **B. Deterministic Philosophy**
@@ -54,11 +54,11 @@ The belief that war is inevitable is rooted in a combination of [**scientific re
 **B. The "War Trap" Hypothesis**
 
 * War is seen as a structural inevitability when powers rise and fall:
-  * Example: [**The Thucydides Trap**](../history/thucydides_trap.md) theorizes that when a rising power threatens an established power, war is likely.
+  * Example: [**The Thucydides Trap**](broken-reference) theorizes that when a rising power threatens an established power, war is likely.
 
 **C. Clausewitzian Thought**
 
-* [**Carl von Clausewitz**](../history/carl_von_clausewitz.md), in [_On War_](https://en.wikipedia.org/wiki/On_War), described war as the continuation of politics by other means. For him, war was a persistent element of human existence due to the political nature of societies.
+* [**Carl von Clausewitz**](broken-reference), in [_On War_](https://en.wikipedia.org/wiki/On_War), described war as the continuation of politics by other means. For him, war was a persistent element of human existence due to the political nature of societies.
 
 ***
 

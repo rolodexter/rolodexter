@@ -7,7 +7,7 @@
 
 ## Overview
 
-A **sense of urgency** is a driving force that compels individuals, organizations, and governments to act swiftly in the face of emerging challenges or significant opportunities. In the realm of [**blockchain**](../crypto_economics/bitcoin_basics.md), [**decentralized finance (DeFi)**](../crypto/defi_intro.md), and other transformative technologies, establishing urgency is essential to avoid falling behind in innovation, regulatory adaptation, and economic growth. Rapid technological advances, shifting [**financial systems**](../strategy/financial_systems.md), and evolving [**public sector engagement**](../governance/public_sector_engagement.md) make timely decision-making critical.
+A **sense of urgency** is a driving force that compels individuals, organizations, and governments to act swiftly in the face of emerging challenges or significant opportunities. In the realm of [**blockchain**](broken-reference), [**decentralized finance (DeFi)**](../crypto/defi_intro.md), and other transformative technologies, establishing urgency is essential to avoid falling behind in innovation, regulatory adaptation, and economic growth. Rapid technological advances, shifting [**financial systems**](../strategy/financial_systems.md), and evolving [**public sector engagement**](broken-reference) make timely decision-making critical.
 
 ***
 
@@ -17,7 +17,7 @@ A **sense of urgency** is a driving force that compels individuals, organization
    * Innovations in [**cryptography**](../crypto/cryptography_basics.md), **AI**, and **blockchain** can quickly render traditional models obsolete.
    * Organizations risk losing competitive advantage if they hesitate to explore or adopt these emerging solutions.
 2. **Regulatory Shifts**
-   * Governments worldwide are redefining [**regulatory frameworks**](../governance/regulatory_frameworks.md) in real time, influencing cross-border transactions and digital asset classifications.
+   * Governments worldwide are redefining [**regulatory frameworks**](broken-reference) in real time, influencing cross-border transactions and digital asset classifications.
    * Delaying policy or compliance measures could lead to legal ambiguities, fines, or missed international partnerships.
 3. **Market Volatility and Opportunity**
    * Cryptocurrencies and DeFi protocols can exhibit rapid price swings, making timely entry or strategic planning essential for capturing gains or mitigating losses.
@@ -40,7 +40,7 @@ A **sense of urgency** is a driving force that compels individuals, organization
    * Over-reliance on legacy systems increases the **cost** and **complexity** of eventual modernization.
    * Swift pilot programs and iterative rollouts help agencies and businesses develop in-house expertise before the tech landscape evolves further.
 4. **Addressing Global Challenges**
-   * Leveraging [**blockchain**](../crypto_economics/bitcoin_basics.md) for supply chain transparency, public health coordination, or climate data can’t wait in a rapidly changing world.
+   * Leveraging [**blockchain**](broken-reference) for supply chain transparency, public health coordination, or climate data can’t wait in a rapidly changing world.
    * Urgent action ensures high-stakes initiatives (e.g., vaccine tracking, carbon credits) align with real-time needs.
 
 ***
@@ -106,7 +106,7 @@ A **sense of urgency** is a driving force that compels individuals, organization
 
 ## See Also
 
-* [PUBLIC\_SECTOR\_ENGAGEMENT](../governance/public_sector_engagement.md)
+* [PUBLIC\_SECTOR\_ENGAGEMENT](broken-reference)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 * [FINANCIAL\_INNOVATION](../strategy/financial_innovation.md)
 * [TECH\_INNOVATION](../strategy/tech_innovation.md)

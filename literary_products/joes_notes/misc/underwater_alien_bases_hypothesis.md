@@ -20,7 +20,7 @@ These bases could indicate the existence of a [parallel civilization](parallel_c
 
 #### Strategic and Environmental Advantages
 
-From a strategic standpoint, Earth's oceans, which cover over 70% of the planet, offer an ideal location for concealed operations. These bases might serve as staging grounds for [surveillance](../security/surveillance.md), experimentation, or even broader extraterrestrial endeavors. Their presence could be linked to reports of crafts with [transmedium capabilities](../space/transmedium_capabilities.md), which might be launching and recovering from these hidden locations. The oceans' unexplored depths could also provide access to rare materials, geothermal energy, or unique biological resources that are essential for alien technologies or economies. This choice of location may reflect a calculated strategy to operate under the radar while leveraging Earth’s natural resources to advance their goals.
+From a strategic standpoint, Earth's oceans, which cover over 70% of the planet, offer an ideal location for concealed operations. These bases might serve as staging grounds for [surveillance](broken-reference), experimentation, or even broader extraterrestrial endeavors. Their presence could be linked to reports of crafts with [transmedium capabilities](broken-reference), which might be launching and recovering from these hidden locations. The oceans' unexplored depths could also provide access to rare materials, geothermal energy, or unique biological resources that are essential for alien technologies or economies. This choice of location may reflect a calculated strategy to operate under the radar while leveraging Earth’s natural resources to advance their goals.
 
 ### Post-Singularity Civilization Hypothesis
 
@@ -28,7 +28,7 @@ If these beings are indeed present, they might represent a [post-singularity civ
 
 #### Connections to History and Mythology
 
-The implications of underwater alien bases would ripple through [history](../history/history.md), potentially explaining myths of aquatic deities, lost underwater cities like [Atlantis](atlantis.md), or legendary sea monsters. These myths could reflect humanity’s ancestral awareness of such phenomena, preserved through storytelling and [cultural memory](cultural_memory.md). Anomalous events like unexplained sounds or unusual sonar readings might also find their origins in alien activity, retroactively reframing human experiences as fleeting interactions with an unseen intelligence.
+The implications of underwater alien bases would ripple through [history](broken-reference), potentially explaining myths of aquatic deities, lost underwater cities like [Atlantis](atlantis.md), or legendary sea monsters. These myths could reflect humanity’s ancestral awareness of such phenomena, preserved through storytelling and [cultural memory](cultural_memory.md). Anomalous events like unexplained sounds or unusual sonar readings might also find their origins in alien activity, retroactively reframing human experiences as fleeting interactions with an unseen intelligence.
 
 ![alt text](../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/image-11.png)
 

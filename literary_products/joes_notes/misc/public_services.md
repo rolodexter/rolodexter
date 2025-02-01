@@ -53,7 +53,7 @@
 
 1. **Local Coin Initiatives**
    * Cities launch their own tokens for community-based projects, incentivizing volunteer work or sustainable behavior (e.g., recycling).
-   * Often used alongside [**public-sector engagement**](../governance/public_sector_engagement.md) events to fund localized improvements.
+   * Often used alongside [**public-sector engagement**](broken-reference) events to fund localized improvements.
 2. **Blockchain-Based Voting**
    * Implemented in select pilot programs, enabling citizens to cast votes securely from remote locations.
    * Transparency of results reduces election fraud allegations; immutability ensures that votes cannot be retroactively altered.
@@ -69,7 +69,7 @@
 ## Challenges
 
 1. **Regulatory Hurdles**
-   * Many [**regulatory frameworks**](../governance/regulatory_frameworks.md) are not yet equipped to handle blockchain-based public services, creating legal uncertainties.
+   * Many [**regulatory frameworks**](broken-reference) are not yet equipped to handle blockchain-based public services, creating legal uncertainties.
    * Projects may require special approvals or legislative changes before deployment.
 2. **Cultural Resistance and Stakeholder Buy-In**
    * Citizens and public employees may be wary of new technologies, data security, and job displacement.

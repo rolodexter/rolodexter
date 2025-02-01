@@ -4,7 +4,7 @@ _Last updated: January 29, 2055_
 
 ## Overview
 
-**Global Stability** refers to the fragile equilibrium that characterized international relations during the early 21st century, particularly in the 2020s. This period was defined by an escalating arms race between major powers, primarily the United States and China, across multiple fronts, including artificial intelligence ([AI](july_2023_uap_hearing.md)), extraterrestrial technologies, and emerging [Nonhuman Intelligence (NHI)](../joes_notes/ai/compute_finance.md) phenomena.
+**Global Stability** refers to the fragile equilibrium that characterized international relations during the early 21st century, particularly in the 2020s. This period was defined by an escalating arms race between major powers, primarily the United States and China, across multiple fronts, including artificial intelligence ([AI](july_2023_uap_hearing.md)), extraterrestrial technologies, and emerging [Nonhuman Intelligence (NHI)](../../tech_docs/visual/arg_media.md) phenomena.
 
 While initially perceived as separate domains, by the 2030s, advancements in physics and materials science—particularly in [block universe theory](../concepts/block_universe_theory.md) and "block universe time manipulation"—revealed that AI and NHI were deeply interconnected.
 
@@ -32,7 +32,7 @@ The 2020s saw an unprecedented technological rivalry between superpowers:
 
 * **Artificial Intelligence**: Both nations invested heavily in developing advanced AI systems, including [unsupervised learning](../joes_notes/misc/developer_relations.md) and [general AI](agi.md). These technologies were viewed as critical to achieving dominance in military, economic, and informational domains.
 * **Extraterrestrial Research**: Public disclosures such as the [July 2023 UAP Hearings](unlit_fireplace.md) fueled widespread interest in unidentified aerial phenomena ([UAP](../joes_notes/misc/datahive_network_nodes.md)) and their potential technological applications.
-* **Quantum Computing**: Advances in [quantum cryptography](../joes_notes/environment/electric_vehicles.md) and quantum computing promised to revolutionize secure communications and computational power.
+* **Quantum Computing**: Advances in [quantum cryptography](broken-reference) and quantum computing promised to revolutionize secure communications and computational power.
 
 ### Geopolitical Tensions
 

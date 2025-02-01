@@ -22,7 +22,7 @@ The ability to manipulate or influence events across time introduces the concept
 
 The block universe framework redefines causality as bidirectional or even cyclical:
 
-* Future events can retroactively influence past states through mechanisms such as quantum entanglement ([Retro-Causality](../joes_notes/history/2023.md)).
+* Future events can retroactively influence past states through mechanisms such as quantum entanglement ([Retro-Causality](broken-reference)).
 * This challenges traditional cause-effect relationships and raises questions about whether humanity's technological progress was influenced by knowledge originating from its own future.
 
 #### **4. Chronosentient Entities**

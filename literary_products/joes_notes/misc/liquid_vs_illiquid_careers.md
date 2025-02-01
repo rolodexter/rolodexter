@@ -12,7 +12,7 @@ Careers that are **easily transferable and quantifiable**, similar to [liquid as
 
 ### Examples
 
-* Roles at firms like [McKinsey](../MCKINSEY.md), [BCG](bcg.md), or [Goldman Sachs](../crypto_economics/goldman_sachs.md).
+* Roles at firms like [McKinsey](../MCKINSEY.md), [BCG](bcg.md), or [Goldman Sachs](broken-reference).
 * Jobs in well-defined industries like [software engineering](../technology/software_engineering.md) or [law](law.md).
 
 ### Advantages
@@ -61,7 +61,7 @@ Careers where skills and contributions are harder to measure, like [illiquid ass
 
 ### 1. Liquidity of Skills
 
-* **Liquid**: Clearly defined and easily testable (e.g., [board-certified doctors](../health/board_certified_doctors.md), CPAs, or software engineers with certifications).
+* **Liquid**: Clearly defined and easily testable (e.g., [board-certified doctors](broken-reference), CPAs, or software engineers with certifications).
 * **Illiquid**: Ambiguous or unconventional (e.g., self-taught skills, entrepreneurial experience, or undefined job roles).
 
 ### 2. Risk Tolerance

@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Wall Street** has long been synonymous with **American finance**, hosting the headquarters of major investment banks, brokerages, and exchanges like the **New York Stock Exchange (NYSE)**. Over the centuries, Wall Street has been shaped by **regulatory reforms**, **technological shifts**, and major **economic cycles**. Today, it remains a core hub for global capital markets—though new paradigms such as [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**decentralized finance (DeFi)**](../crypto/defi_intro.md) challenge the traditional, centralized model of trading and asset management.
+**Wall Street** has long been synonymous with **American finance**, hosting the headquarters of major investment banks, brokerages, and exchanges like the **New York Stock Exchange (NYSE)**. Over the centuries, Wall Street has been shaped by **regulatory reforms**, **technological shifts**, and major **economic cycles**. Today, it remains a core hub for global capital markets—though new paradigms such as [**blockchain**](broken-reference) and [**decentralized finance (DeFi)**](../crypto/defi_intro.md) challenge the traditional, centralized model of trading and asset management.
 
 ***
 
@@ -57,7 +57,7 @@
    * Off-exchange venues emerged for large block trades, minimizing market impact.
    * These private platforms handle a growing share of total equity volume, influencing price discovery outside traditional exchanges.
 4. **Digital Assets and Crypto Trading**
-   * [**Bitcoin**](../crypto_economics/bitcoin_basics.md) and subsequent cryptocurrencies introduced new asset classes, initially dismissed by many on Wall Street as speculative.
+   * [**Bitcoin**](broken-reference) and subsequent cryptocurrencies introduced new asset classes, initially dismissed by many on Wall Street as speculative.
    * Evolving acceptance now sees major banks offering crypto-related services and institutional investors exploring **DeFi** yields.
 
 ***
@@ -72,7 +72,7 @@
    * Engages with crypto derivatives under its purview, tackling how tokens or stablecoins may qualify as commodities.
 3. **Federal Reserve and Other Banking Regulators**
    * The Federal Reserve wields influence over banks’ capital adequacy, monetary policy, and short-term interest rates (e.g., fed funds).
-   * [**Regulatory frameworks**](../governance/regulatory_frameworks.md) like Basel III set capital and liquidity standards for globally systemic banks.
+   * [**Regulatory frameworks**](broken-reference) like Basel III set capital and liquidity standards for globally systemic banks.
 4. **Dodd-Frank Act (2010)**
    * Post-2008 reforms enhanced consumer protections, regulated swap markets, and created resolution mechanisms for failing institutions.
    * Introduced the **Volcker Rule**, limiting banks’ proprietary trading and hedge fund ownership.
@@ -135,7 +135,7 @@
 * [FINANCIAL\_INSTITUTIONS](../strategy/financial_institutions.md)
 * [FINANCIAL\_INNOVATION](../strategy/financial_innovation.md)
 * [MAINSTREAM\_FINANCE](../MAINSTREAM_FINANCE.md)
-* [REGULATORY\_FRAMEWORKS](../governance/regulatory_frameworks.md)
+* [REGULATORY\_FRAMEWORKS](broken-reference)
 
 For further exploration, consider historical texts (e.g., _Reminiscences of a Stock Operator_ by Edwin Lefèvre), modern accounts (e.g., _Too Big to Fail_ by Andrew Ross Sorkin), and official resources from the [New York Stock Exchange](https://www.nyse.com/) and [SEC](https://www.sec.gov/).
 

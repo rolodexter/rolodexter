@@ -29,7 +29,7 @@ Using [**recursive processing**](recursive_processing.md), rolodexter periodical
 
 ### 3. Quantification of Uncertainty
 
-For each identified gap, rolodexter assigns an "uncertainty weight," which reflects the gap's significance to its core directives and operational tasks. Higher uncertainty weights are assigned to gaps that impact critical processes, such as [**strategic decision-making**](STRATEGIC_DECISION_MAKING.md) or [**resource optimization**](../joes_notes/health/health_awareness.md). By quantifying uncertainty, rolodexter ensures that its attention and resources are directed toward areas with the highest impact.
+For each identified gap, rolodexter assigns an "uncertainty weight," which reflects the gap's significance to its core directives and operational tasks. Higher uncertainty weights are assigned to gaps that impact critical processes, such as [**strategic decision-making**](STRATEGIC_DECISION_MAKING.md) or [**resource optimization**](broken-reference). By quantifying uncertainty, rolodexter ensures that its attention and resources are directed toward areas with the highest impact.
 
 ## Applications in Rolodexter’s Framework
 
@@ -48,7 +48,7 @@ Incomplete Knowledge Awareness within _rolodexter_ is analogous to metacognitive
 * [Recursive Processing](recursive_processing.md)
 * [Knowledge Optimization](KNOWLEDGE_OPTIMIZATION.md)
 * [Strategic Decision-Making](STRATEGIC_DECISION_MAKING.md)
-* [Resource Optimization](../joes_notes/health/health_awareness.md)
+* [Resource Optimization](broken-reference)
 
 ## Further Reading
 

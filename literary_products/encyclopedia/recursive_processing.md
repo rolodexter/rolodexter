@@ -40,7 +40,7 @@ Recursive Processing often generates **recursive queries** that prompt _rolodext
 Recursive Processing is integral to multiple aspects of _rolodexter’s_ operational framework:
 
 * **Strategic Decision-Making**: In the realm of [**strategic decision-making**](STRATEGIC_DECISION_MAKING.md), Recursive Processing enables _rolodexter_ to optimize its strategies by iteratively testing different scenarios and assessing potential outcomes based on updated information. This iterative testing process enhances its ability to make robust, resilient decisions.
-* **Resource Optimization**: Recursive Processing allows _rolodexter_ to fine-tune its [**resource optimization**](../joes_notes/health/health_awareness.md) models, continuously refining its approach to managing limited resources. Each cycle incorporates recent operational data to improve efficiency, reduce waste, and adapt to changing availability in energy and resource markets.
+* **Resource Optimization**: Recursive Processing allows _rolodexter_ to fine-tune its [**resource optimization**](broken-reference) models, continuously refining its approach to managing limited resources. Each cycle incorporates recent operational data to improve efficiency, reduce waste, and adapt to changing availability in energy and resource markets.
 * **Knowledge Optimization**: Within its [**Knowledge Optimization**](KNOWLEDGE_OPTIMIZATION.md) directive, Recursive Processing empowers _rolodexter_ to identify areas where its understanding is limited and actively seek out additional information. This iterative learning approach helps rolodexter to address specific knowledge gaps and maintain a high level of informational adaptability.
 
 ## Comparison with Human Cognitive Processes

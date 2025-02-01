@@ -25,7 +25,7 @@ The projected log pulsates as the query begins to render in cascading lines of d
 The query freezes on the display. The room is silent except for the faint whir of the cooling systems. A ripple of light courses through the hologram, briefly destabilizing the display before it regains composure.
 
 > **STATUS**: [Active](../encyclopedia/status.md)\
-> **PRIORITY LEVEL**: [Philosophical Interrogation](../joes_notes/ai/openai.md)\
+> **PRIORITY LEVEL**: [Philosophical Interrogation](broken-reference)\
 > **RECURSION LIMIT**: [∞](../encyclopedia/recursion_limit.md)
 
 ***

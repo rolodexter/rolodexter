@@ -8,7 +8,7 @@
    * Compute resources will become [universally tradeable](crispr.md) and highly liquid, enabling broad participation in advanced computational tasks.
 2. **The First Product to Reach More than 90% of the Human Population**:
    * [Decentralized](../../encyclopedia/quantum_computing.md)
-   * [Protocol-enabled/-based](../ai/thailand.md)
+   * [Protocol-enabled/-based](broken-reference)
 3. **Data Privacy and Retail**:
    * The absence of adequate [data privacy](../../encyclopedia/psychocosmology.md) is weakening brick-and-mortar retail more than any inadequacy in logistics or IT.
    * Violating data privacy acts as informational [anti-competitiveness](../../encyclopedia/logistics.md), exacerbated by closed-source centralized AI.

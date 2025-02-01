@@ -70,7 +70,7 @@ By addressing these challenges, governments can reduce the risks associated with
 
 ## Further Reading and References
 
-* [Private Equity and Infrastructure Risks](../crypto_economics/private_equity.md)
+* [Private Equity and Infrastructure Risks](broken-reference)
 * [Critical Infrastructure Monopolization](critical_infrastructure.md)
 * [Public Safety in Monopolized Systems](public_safety.md)
 * [Systemic Risks in Fire Apparatus Consolidation](fire_apparatus.md)

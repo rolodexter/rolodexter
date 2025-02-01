@@ -67,7 +67,7 @@ The monopolization of public safety infrastructure poses significant risks to so
 ## Further Reading and References
 
 * [Critical Infrastructure and Public Safety Risks](critical_infrastructure.md)
-* [Private Equity and Monopolization](../crypto_economics/private_equity.md)
+* [Private Equity and Monopolization](broken-reference)
 * [Disaster Capitalism in Public Safety](disaster_capitalism.md)
 * [Systemic Risks in Fire Apparatus Consolidation](fire_apparatus.md)
 

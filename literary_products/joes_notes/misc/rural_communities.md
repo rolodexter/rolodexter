@@ -68,7 +68,7 @@ The monopolization of critical industries poses an existential threat to rural c
 
 * [Critical Infrastructure Risks](critical_infrastructure.md)
 * [Fire Apparatus and Public Safety](fire_apparatus.md)
-* [Private Equity and Rural Economies](../crypto_economics/private_equity.md)
+* [Private Equity and Rural Economies](broken-reference)
 * [Public Safety Desertification](public_safety.md)
 
 For an in-depth exploration of these issues, refer to Basel Musharbash’s article [_Did a Private Equity Fire Truck Roll-Up Worsen the L.A. Fires?_](https://www.thebignewsletter.com/p/did-a-private-equity-fire-truck-roll?utm_source=post-email-title\&publication_id=11524\&post_id=155466046\&utm_campaign=email-post-title\&isFreemail=true\&r=4a32tl\&triedRedirect=true\&utm_medium=email) in _BIG_ by Matt Stoller.
