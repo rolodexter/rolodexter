@@ -4,9 +4,7 @@
 
 ## **ACT ONE**
 
-**Scene 1**: [_ParkHealth_](../ENCYCLOPEDIA/PARKHEALTH.md) _Research Facility - Day_
-
-_A sleek, modern research facility hums with activity. DR._ [_KARA MENDOZA_](../ENCYCLOPEDIA/LIBERTIES.md)_, a senior physicist at_ [_ParkHealth_](../ENCYCLOPEDIA/PARKHEALTH.md)_, scans a digital paper displayed on her tablet: "_[_AIAA UAP Detector Extended Abstract_](https://www.researchgate.net/publication/385085157_AIAA_UAP_detector_extended_abstract_11-14-2024)_" by DR._ \[_GEORGE SOLI_]../encyclopedia/HARVARD.mdd)_. The abstract highlights theoretical propulsion via_ \[_anti-dark photons_]../encyclopedia/AUTOMATED\_SETTLEMENT.mdd)_._
+**Scene 1**: [_ParkHealth_](/ENCYCLOPEDIA/PARKHEALTH.MD) _Research Facility - Day_
 
 **KARA**\
 (to herself, reading aloud)\
@@ -63,7 +61,7 @@ _He types a quick reply, agreeing to a virtual meeting._
 _Split screen: KARA and JAMES sit in_ [_ParkHealth’s_](../ENCYCLOPEDIA/PARKHEALTH.md) _conference room, while DR._ [_GEORGE SOLI_](../ENCYCLOPEDIA/HARVARD.md) _appears from his lab._
 
 **KARA**\
-Dr. Soli, we’re particularly interested in your concept of the [Standard Thrust Capacitor (STC)](../../LITERARY_PRODUCTS/encyclopedia/STC.md). Could you elaborate on how it generates../ENCYCLOPEDIA/AUTOMATED_SETTLEMENT.mdTOMATED_SETTLEMENT.md)?
+Dr. Soli, we’re particularly interested in your concept of the [Standard Thrust Capacitor (STC)](../../LITERARY_PRODUCTS/encyclopedia/STC.md). Could you elaborate?
 
 **DR. SOLI**\
 It’s all about electron tunneling. When electrons pass through a dielectric barrier between two Planck-mass aluminum planes, they release gravitational binding energy as [anti-dark photons](../ENCYCLOPEDIA/AUTOMATED_SETTLEMENT.md).

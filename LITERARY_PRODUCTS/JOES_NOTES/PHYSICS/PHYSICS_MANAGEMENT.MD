@@ -1,4 +1,4 @@
-# Physics-Inspired Management
+# PHYSICS-INSPIRED MANAGEMENT
 
 **Physics-inspired management** applies principles and mathematical models from physics to optimize processes, systems, and decision-making in organizational contexts. By treating workflows, resources, and constraints as analogous to physical systems, this approach offers tools to enhance efficiency, manage bottlenecks, and predict system behavior.
 

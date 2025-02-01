@@ -1,6 +1,6 @@
 # Vaccine Storage System Development
 
-I played a critical role in bringing the [AccuVax](../physics/high_frequency_waves.md) vaccine storage system from concept to commercial deployment. This experience demonstrated my ability to navigate complex technological and healthcare ecosystems, a skill directly relevant to transforming computational infrastructure.
+I played a critical role in bringing the [AccuVax](../PHYSICS/HIGH_FREQUENCY_WAVES.MD) vaccine storage system from concept to commercial deployment. This experience demonstrated my ability to navigate complex technological and healthcare ecosystems, a skill directly relevant to transforming computational infrastructure.
 
 ## Technical Challenges and Innovative Solutions
 

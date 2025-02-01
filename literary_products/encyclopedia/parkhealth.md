@@ -40,7 +40,7 @@ ParkHealth’s leadership spans polymathic luminaries, including:
 
 ParkHealth remains a symbol of humanity’s pursuit of knowledge balanced with ethical responsibility. Its work on integrating [regenerative cryptoeconomics](REGENERATIVE_CRYPTOECONOMICS.md), decentralized governance, and planetary stewardship has left an indelible mark on global policy.
 
-The Foundation's influence extends beyond academia and research. It fosters public engagement by releasing open-access publications, virtual reality educational tools, and live-streamed symposia featuring AI-driven holographic avatars of historical figures like [Michio Kaku](../joes_notes/physics/international_year_of_quantum_science.md) and [Ray Kurzweil](broken-reference).
+The Foundation's influence extends beyond academia and research. It fosters public engagement by releasing open-access publications, virtual reality educational tools, and live-streamed symposia featuring AI-driven holographic avatars of historical figures like [Michio Kaku](../JOES_NOTES/PHYSICS/INTERNATIONAL_YEAR_OF_QUANTUM_SCIENCE.MD) and [Ray Kurzweil](broken-reference).
 
 ## **Future Vision**
 
