@@ -14,7 +14,7 @@
   * [CONTACT](PROJECT_DOCS/CONTACT.MD)
 * [LITERARY\_PRODUCTS](literary_products/README.md)
   * [BOOKS](literary_products/books/README.md)
-    * [Foundations and Frontiers of Consciousness: A Comprehensive Curriculum](literary_products/books/consciousness_textbook_proposal.md)
+    * [Foundations and Frontiers of Consciousness: A Comprehensive Curriculum](LITERARY_PRODUCTS/BOOKS/CONSCIOUSNESS.MD
     * [From Zero to Billions of Human Beings](literary_products/books/from-zero-to-billions_proposal.md)
     * [The Meaning of Bitcoin](literary_products/books/meaningofbitcoin.md)
     * [PathDependence-Physics-CreativeDestruction](literary_products/books/pathdependence-physics-creativedestruction.md)
