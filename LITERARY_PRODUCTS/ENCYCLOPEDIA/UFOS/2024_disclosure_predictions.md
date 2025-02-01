@@ -8,7 +8,7 @@ In the years leading up to 2024, there was a marked increase in public interest 
 
 ## ParkHealth Special Access Programs
 
-Within [ParkHealth](../parkhealth.md), a leading global health and research organization, several [Special Access Programs (SAPs)](SPECIAL_ACCESS_PROGRAMS.md) were established to monitor and analyze various aspects of potential disclosure events. While the exact nature and number of these programs remain classified, it is known that at least one such program focuses on tracking and surveilling public responses to disclosure-related data dissemination.
+Within [ParkHealth](../AI/parkhealth.md.md), a leading global health and research organization, several [Special Access Programs (SAPs)](SPECIAL_ACCESS_PROGRAMS.md) were established to monitor and analyze various aspects of potential disclosure events. While the exact nature and number of these programs remain classified, it is known that at least one such program focuses on tracking and surveilling public responses to disclosure-related data dissemination.
 
 ### Public Response Monitoring
 

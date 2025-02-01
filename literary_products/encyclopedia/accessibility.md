@@ -1,6 +1,6 @@
 # ACCESSIBILITY
 
-This article is about accessibility in the context of artificial general intelligence (AGI) development. For other uses, see [Accessibility (disambiguation)](joe_maristela.md).
+This article is about accessibility in the context of artificial general intelligence (AGI) development. For other uses, see [Accessibility (disambiguation)](MISC/joe_maristela.md).
 
 | Not to be confused with:                                                |
 | ----------------------------------------------------------------------- |
@@ -39,7 +39,7 @@ Access to powerful computational resources is a fundamental aspect of AGI access
 * Cloud computing services
 * Affordable consumer-grade AI hardware
 
-The decreasing cost of these resources, as measured by metrics like [Cost per FLOP](path_dependence.md), has been a driving force in increasing accessibility.
+The decreasing cost of these resources, as measured by metrics like [Cost per FLOP](SCIENCE/path_dependence.md), has been a driving force in increasing accessibility.
 
 ### Knowledge and Education
 

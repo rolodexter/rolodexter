@@ -36,7 +36,7 @@ Below are highlights of notable activities and advancements in DeSci over the pa
 
 ### Future Outlook
 
-* **Scaling to Billions**: There is significant momentum to incorporate [billions of patient participants](billions_participants.md) in global digital therapeutics studies, leveraging blockchain for secure data sharing and compensation.
+* **Scaling to Billions**: There is significant momentum to incorporate [billions of patient participants](../HUMANS/billions_participants.mdcipants.md) in global digital therapeutics studies, leveraging blockchain for secure data sharing and compensation.
 * **Regulatory Pathways**: As DeSci projects mature, they must navigate evolving securities and health-data regulations. Early positioning can facilitate future partnerships with large-scale institutions.
 * **AI Collaboration**: The integration of advanced [AI models](evolutionary_destiny.md) with open, decentralized scientific databases may enable automated hypothesis generation and more efficient meta-analyses.
 

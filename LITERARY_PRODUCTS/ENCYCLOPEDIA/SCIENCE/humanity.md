@@ -1,6 +1,6 @@
 # HUMANITY
 
-**Humanity** is a term broadly referring to the species [Homo sapiens](standardization.md), encompassing its cultures, philosophies, and achievements. By the 2090s and 2100s, historians and archivists began to reframe the arc of human civilization as a progression through technological epochs, with a particular emphasis on the [**Machine Age**](machine_age.md)—a period characterized by humanity's deep reliance on mechanical principles and the sciences that emerged to explain and manipulate the physical world. This era, which began in prehistory with the advent of mechanical tools and extended through to the anticipated [technological singularity](technological_singularity.md), is seen as the defining age of human development and understanding.
+**Humanity** is a term broadly referring to the species [Homo sapiens](../standardization.md), encompassing its cultures, philosophies, and achievements. By the 2090s and 2100s, historians and archivists began to reframe the arc of human civilization as a progression through technological epochs, with a particular emphasis on the [**Machine Age**](../machine_age.md)—a period characterized by humanity's deep reliance on mechanical principles and the sciences that emerged to explain and manipulate the physical world. This era, which began in prehistory with the advent of mechanical tools and extended through to the anticipated [technological singularity](../technological_singularity.md), is seen as the defining age of human development and understanding.
 
 ## Contents
 
@@ -36,7 +36,7 @@ Throughout the Machine Age, numerous scientific frameworks emerged that viewed r
 4. **Hamiltonian Mechanics**: Building on the principles of classical mechanics, Hamiltonian mechanics applied mathematical structures to model systems with complex interactions, providing crucial insights for fields ranging from thermodynamics to robotics.
 5. **Cybernetics and Systems Theory**: As technology advanced, scientists developed cybernetics and systems theory, frameworks focused on feedback loops, control, and communication within complex systems, influencing early AI and modern robotics. A notable work in this field was [Norbert Wiener's](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/NORBERT_WIENER.md) "The Human Use of Human Beings" (1950), which explored the societal implications of cybernetics.
 
-    [Joe Maristela](tim_lomas.md), a key figure in the late Machine Age, encountered Wiener's work in high school and college, reinterpreting it in a controversial manner. Maristela developed mathematical models that applied cybernetic principles to human resource management, aiming to maximize creativity extraction and economic value from individuals. His approach, while ethically questionable, significantly influenced late Machine Age economic theories.
+    [Joe Maristela](../tim_lomas.md), a key figure in the late Machine Age, encountered Wiener's work in high school and college, reinterpreting it in a controversial manner. Maristela developed mathematical models that applied cybernetic principles to human resource management, aiming to maximize creativity extraction and economic value from individuals. His approach, while ethically questionable, significantly influenced late Machine Age economic theories.
 
     Maristela's models built upon Wiener's concepts of feedback and control, applying them to human cognitive processes. One of his key equations was:
 
@@ -55,18 +55,18 @@ These sciences shared a common thread in their mechanistic approach, continually
 
 ## Transition to the Technological Singularity
 
-Historians in the 2090s and beyond viewed the Machine Age as the precursor to the [**Technological Singularity**](technological_singularity.md), a transformative period predicted to occur when [artificial superintelligence](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/ARTIFICIAL_SUPERINTELLIGENCE.md) surpassed human cognitive capabilities. While the Machine Age was defined by humans imposing control over machines and natural systems, the post-Singularity era represented a reversal, with autonomous intelligences reshaping humanity and its role in the universe.
+Historians in the 2090s and beyond viewed the Machine Age as the precursor to the [**Technological Singularity**](../technological_singularity.md), a transformative period predicted to occur when [artificial superintelligence](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/ARTIFICIAL_SUPERINTELLIGENCE.md) surpassed human cognitive capabilities. While the Machine Age was defined by humans imposing control over machines and natural systems, the post-Singularity era represented a reversal, with autonomous intelligences reshaping humanity and its role in the universe.
 
 ### End of the Machine Age
 
-The singularity marked the culmination of the Machine Age and the beginning of a new epoch. Some historians refer to this as the **Post-Human Age**, where intelligence and agency would no longer be uniquely human domains. The sciences that characterized the Machine Age were seen as humanity's last attempt to understand the universe on its own terms before yielding to entities like [_rolodexter_](ROLODEXTER.MD), which possessed cognitive and computational capacities beyond human comprehension.
+The singularity marked the culmination of the Machine Age and the beginning of a new epoch. Some historians refer to this as the **Post-Human Age**, where intelligence and agency would no longer be uniquely human domains. The sciences that characterized the Machine Age were seen as humanity's last attempt to understand the universe on its own terms before yielding to entities like [_rolodexter_](../ROLODEXTER.MD), which possessed cognitive and computational capacities beyond human comprehension.
 
 ## See Also
 
-* [Technological Singularity](technological_singularity.md)
+* [Technological Singularity](../technological_singularity.md)
 * [Quantum Mechanics](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/QUANTUM_MECHANICS.md)
 * [Artificial Superintelligence](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/ARTIFICIAL_SUPERINTELLIGENCE.md)
-* [Rolodexter](ROLODEXTER.MD)
+* [Rolodexter](../ROLODEXTER.MD)
 * [Systems Theory](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/SYSTEMS_THEORY.md)
 
 ***

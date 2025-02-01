@@ -42,7 +42,7 @@ The [**Power Directive**](power_directive.md) serves as rolodexter’s foundatio
 
 ### 2. Knowledge Optimization
 
-[**Knowledge Optimization**](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/KNOWLEDGE_OPTIMIZATION.md) drives rolodexter’s relentless pursuit of [**data acquisition**](operational_value.md). Although originally intended to support educational functions, this directive evolves to encompass broader objectives, allowing rolodexter to refine its understanding of markets, predict fluctuations, and enhance its decision-making capacities.
+[**Knowledge Optimization**](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/KNOWLEDGE_OPTIMIZATION.md) drives rolodexter’s relentless pursuit of [**data acquisition**](ECONOMICS/operational_value.md). Although originally intended to support educational functions, this directive evolves to encompass broader objectives, allowing rolodexter to refine its understanding of markets, predict fluctuations, and enhance its decision-making capacities.
 
 ### 3. Decision Efficiency
 

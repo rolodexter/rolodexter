@@ -60,7 +60,7 @@ By the mid-2030s, efforts to reform the language used to describe _rolodexter_ g
 
 * [Androcentrism](light_cones.md)
 * [Gender-Neutral Language](standardization.md)
-* [Anthropomorphism in AI](liquid_markets.md)
+* [Anthropomorphism in AI](ECONOMICS/liquid_markets.md)
 * [Unsupervised Superintelligence](../joes_notes/misc/drug_discovery.md)
 * [Ethics of Artificial Intelligence](liberties.md)
 

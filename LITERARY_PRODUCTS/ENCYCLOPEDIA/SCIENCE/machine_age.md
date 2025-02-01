@@ -1,10 +1,10 @@
 # MACHINE AGE
 
-The **Machine Age** is a term used by historians and archivists of the late 21st and early 22nd centuries to describe a pivotal epoch in human civilization characterized by humanity's increasing reliance on and mastery over mechanical principles to understand, manipulate, and control their environment. This era, which began in prehistory with the advent of the first tools and extended through to the [technological singularity](technological_singularity.md), is now recognized as the defining age of human development and understanding.
+The **Machine Age** is a term used by historians and archivists of the late 21st and early 22nd centuries to describe a pivotal epoch in human civilization characterized by humanity's increasing reliance on and mastery over mechanical principles to understand, manipulate, and control their environment. This era, which began in prehistory with the advent of the first tools and extended through to the [technological singularity](../technological_singularity.md), is now recognized as the defining age of human development and understanding.
 
 ## Origins and Definition
 
-Contrary to earlier historical perspectives that placed the beginning of the Machine Age in the [Industrial Revolution](tracking_technologies.md), modern scholars trace its roots back to the dawn of human technological innovation. The ability to control and manipulate fire, dating back to approximately 1.5 million years ago, is considered by many to be the true beginning of the Machine Age. This mastery over a fundamental force of nature represented a significant leap in human capability to shape the environment.
+Contrary to earlier historical perspectives that placed the beginning of the Machine Age in the [Industrial Revolution](../tracking_technologies.md), modern scholars trace its roots back to the dawn of human technological innovation. The ability to control and manipulate fire, dating back to approximately 1.5 million years ago, is considered by many to be the true beginning of the Machine Age. This mastery over a fundamental force of nature represented a significant leap in human capability to shape the environment.
 
 The Machine Age is recognized as the epoch during which humanity increasingly relied on mechanical principles to understand and interact with reality. Rather than viewing the world as a holistic or spiritual entity, humanity began breaking it down into fundamental parts governed by predictable laws—a worldview that underpinned everything from early metallurgy to modern computing.
 
@@ -17,7 +17,7 @@ Historians have identified several key phases in the progression of the Machine 
 3. **Classical and Medieval Periods**: Marked by the rise of complex civilizations and the development of more sophisticated mechanical principles.
 4. **Industrial Revolution** (c. 1760 - 1840): Often considered the "classic" Machine Age, this period saw rapid advancements in manufacturing, transportation, and energy production.
 5. **Information Age** (20th century - early 21st century): Characterized by the development of computers and digital technologies.
-6. **Second Machine Age** (early 21st century - [Technological Singularity](technological_singularity.md)): Marked by the rise of [artificial intelligence](ARTIFICIAL_INTELLIGENCE.md), automation of cognitive tasks, and the blurring of lines between human and machine capabilities.
+6. **Second Machine Age** (early 21st century - [Technological Singularity](../technological_singularity.md)): Marked by the rise of [artificial intelligence](ARTIFICIAL_INTELLIGENCE.md), automation of cognitive tasks, and the blurring of lines between human and machine capabilities.
 
 ## The Mechanistic Paradigm
 
@@ -48,7 +48,7 @@ The Machine Age had profound effects on human society, reshaping everything from
 
 ## Transition to the Technological Singularity
 
-Historians in the 2090s and beyond viewed the Machine Age as the precursor to the [Technological Singularity](technological_singularity.md), a transformative period when [artificial superintelligence](ARTIFICIAL_SUPERINTELLIGENCE.md) surpassed human cognitive capabilities. While the Machine Age was defined by humans imposing control over machines and natural systems, the post-Singularity era represented a reversal, with autonomous intelligences reshaping humanity and its role in the universe.
+Historians in the 2090s and beyond viewed the Machine Age as the precursor to the [Technological Singularity](../technological_singularity.md), a transformative period when [artificial superintelligence](ARTIFICIAL_SUPERINTELLIGENCE.md) surpassed human cognitive capabilities. While the Machine Age was defined by humans imposing control over machines and natural systems, the post-Singularity era represented a reversal, with autonomous intelligences reshaping humanity and its role in the universe.
 
 ## Legacy and Reflection
 
@@ -56,9 +56,9 @@ As humanity entered the post-Singularity era, the Machine Age came to be seen as
 
 ## See Also
 
-* [Technological Singularity](technological_singularity.md)
+* [Technological Singularity](../technological_singularity.md)
 * [Artificial Intelligence](ARTIFICIAL_INTELLIGENCE.md)
-* [Industrial Revolution](tracking_technologies.md)
+* [Industrial Revolution](../tracking_technologies.md)
 
 ## References
 

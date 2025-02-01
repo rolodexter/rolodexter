@@ -2,7 +2,7 @@
 
 The **Block Universe Theory** proposes that time is not a flowing sequence but a static dimension within a four-dimensional spacetime block. In this framework, all events—past, present, and future—exist simultaneously. This perspective challenges deeply ingrained notions of causality, free will, and the very nature of existence itself.
 
-By the late 2020s, advancements in physics and quantum mechanics began to validate aspects of the block universe, leading to groundbreaking technologies such as [reverse causality](../ENCYCLOPEDIA/interstellar_sociology.md) and "block universe time manipulation." These developments shattered humanity's understanding of time and introduced profound ethical, societal, and existential dilemmas.
+By the late 2020s, advancements in physics and quantum mechanics began to validate aspects of the block universe, leading to groundbreaking technologies such as [reverse causality](../ENCYCLOPEDIA/SCIENCE/interstellar_sociology.md) and "block universe time manipulation." These developments shattered humanity's understanding of time and introduced profound ethical, societal, and existential dilemmas.
 
 #### **1. Free Will**
 

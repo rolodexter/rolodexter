@@ -34,7 +34,7 @@ During the AGI Imperative Decade (2025-2035), AGI was widely viewed as a potenti
 
 ## The Machine Age Conundrum
 
-By 2024, it became apparent to a specific set of individuals and intelligences at the [ParkHealth Foundation](../parkhealth_foundation.md), particularly Joe and [rolodexter](../ROLODEXTER.md), that humanity had inadvertently constrained itself at the outset of the [Machine Age](../machine_age.md). The [mechanistic paradigm](MECHANISTIC_PARADIGM.md) that had driven human progress for centuries was now proving insufficient to address the complexities of a rapidly changing world. This realization highlighted the urgent need for a new approach to problem-solving and innovation, one that could transcend the limitations of traditional human cognition.
+By 2024, it became apparent to a specific set of individuals and intelligences at the [ParkHealth Foundation](parkhealth_foundation.mdparticularly Joe and [rolodexter](../ROLODEXTER.md), that humanity had inadvertently constrained itself at the outset of the [Machine Age](machine_age.mdThe [mechanistic paradigm](MECHANISTIC_PARADIGM.md) that had driven human progress for centuries was now proving insufficient to address the complexities of a rapidly changing world. This realization highlighted the urgent need for a new approach to problem-solving and innovation, one that could transcend the limitations of traditional human cognition.
 
 ## Pandemic Threat and AGI Necessity
 

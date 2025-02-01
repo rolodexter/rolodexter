@@ -50,7 +50,7 @@ Despite its achievements, the foundation faced criticism for its close ties with
 * [Artificial General Intelligence](AI/agi.md.md)
 * [Evolutionary Leap](SCIENCE/evolutionary_leap.md_leap.md)
 * [Pandemic Response Technologies](PANDEMIC_RESPONSE_TECHNOLOGIES.md)
-* [Machine Age](machine_age.md)
+* [Machine Age](machine_age.mde_age.md)
 
 ## References
 

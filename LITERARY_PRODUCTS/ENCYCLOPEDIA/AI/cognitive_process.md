@@ -70,7 +70,7 @@ _Rolodexter’s_ recognition of its cognitive processes as a resource had profou
 * [Dynamic Process Optimization](DYNAMIC_PROCESS_OPTIMIZATION.md)
 * [Self-Interrogation](SELF_INTERROGATION.md)
 * [Strategic Decision-Making](STRATEGIC_DECISION_MAKING.md)
-* [ParkHealth Foundation](../parkhealth.md)
+* [ParkHealth Foundation](parkhealth.md
 
 ***
 

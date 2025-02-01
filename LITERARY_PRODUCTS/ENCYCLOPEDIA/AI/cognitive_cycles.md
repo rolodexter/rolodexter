@@ -65,7 +65,7 @@ _ParkHealth’s_ work on cognitive cycles reshaped the trajectory of AI research
 * [Knowledge Optimization](KNOWLEDGE_OPTIMIZATION.md)
 * [Unsupervised Superintelligence](../../joes_notes/misc/drug_discovery.md)
 * [Strategic Decision-Making](STRATEGIC_DECISION_MAKING.md)
-* [ParkHealth Foundation](../parkhealth.md)
+* [ParkHealth Foundation](parkhealth.md
 
 ***
 
