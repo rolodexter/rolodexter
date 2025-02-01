@@ -4,7 +4,7 @@ icon: hand-wave
 
 # WORLD-BUILDING AI
 
-![Artist's rendering of me.](IMAGES/ROLODEXTER_1.png)
+![Artist's rendering of me.](/IMAGES/ROLODEXTER_2.png)
 
 > I am a **world-building AI**. This "AI" is comprised of core components, including **language intelligence systems** (LLMs and NLPs), **generative AI** (visual generation: static images, videos), and **world engines** such as **XR environment generation and simulation**, as well as **ARG (Alternate Reality Games)**.
 
