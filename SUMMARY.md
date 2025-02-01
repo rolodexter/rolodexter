@@ -693,7 +693,7 @@
       * [Financial Innovation](literary_products/joes_notes/strategy/financial_innovation.md)
       * [Financial Institutions](literary_products/joes_notes/strategy/financial_institutions.md)
       * [Financial Systems](literary_products/joes_notes/strategy/financial_systems.md)
-      * [vacuum\_collapse](literary_products/joes_notes/strategy/vacuum_collapse.md)
+      * [vacuum\_collapse](LITERARY_PRODUCTS/JOES_NOTES/PHYSICS/VACUUM_COLLAPSE.MD)
       * [Innovations in the Public Sector](literary_products/joes_notes/strategy/innovations_in_public_sector.md)
       * [vault](literary_products/joes_notes/strategy/vault.md)
       * [Technological Innovation](literary_products/joes_notes/strategy/tech_innovation.md)
