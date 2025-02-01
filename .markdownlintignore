@@ -1,0 +1,20 @@
+# Ignore system directories
+.git/
+.github/
+node_modules/
+build/
+dist/
+.vscode/
+.idea/
+
+# Ignore non-Markdown files
+*.json
+*.yml
+*.yaml
+*.xml
+*.js
+*.css
+*.html
+*.sh
+*.exe
+*.dll

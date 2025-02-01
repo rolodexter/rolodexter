@@ -1,50 +1,53 @@
 {
-    "default": true,
-  
-    // Enforce first-level headings in ALL CAPS (max 30 characters)
-    "MD025": false,  // Allow multiple first-level headings if needed
-    "MD041": true,   // Require first-level heading
-    "MD003": { "style": "atx" },  // Use `#` for headings
-    "MD018": true,   // No space before `#` in headings
-  
-    // Subheadings must be in sentence case (max 50 characters)
-    "MD026": false,  // Allow punctuation in headers
-    "MD032": true,   // Ensure list spacing consistency
-  
-    // File and folder naming rules
-    "MD004": { "style": "dash" }, // Enforce `-` for unordered lists
-    "MD007": { "indent": 2 },     // Enforce 2-space indentation for lists
-    "MD009": false,  // Allow long line lengths (no max)
-    "MD010": true,   // No hard tabs allowed
-    "MD012": false,  // Allow consecutive blank lines if needed
-    "MD013": false,  // Ignore line length enforcement
-  
-    // Formatting and structure
-    "MD014": true,   // No dollar signs before commands in code blocks
-    "MD022": true,   // Headings should be surrounded by blank lines
-    "MD024": true,   // No multiple top-level headers
-    "MD027": true,   // No multiple spaces after blockquote symbols
-    "MD028": true,   // No blank line inside blockquotes
-  
-    // Ensure links are correctly formatted
-    "MD034": true,   // No bare URLs (must be in `<...>` or `[text](...)`)
-    "MD039": true,   // No spaces inside link text
-    "MD042": false,  // Allow files without titles
-  
-    // Ensure images follow correct formatting
-    "MD033": true,   // Disallow inline HTML (use Markdown for images)
-    "MD045": true,   // Images should have alt text
-  
-    // Ensure lists are correctly formatted
-    "MD029": { "style": "ordered" }, // Ordered lists must start with `1.`
-    "MD030": { "ul_single": 1, "ol_single": 1 }, // Single blank line around lists
-  
-    // Trailing whitespace and extra spaces
-    "MD037": true,   // No spaces inside emphasis markers
-    "MD038": true,   // No spaces inside code blocks
-    "MD047": false,  // Allow files without titles
-  
-    // Custom rule enforcement
-    "MD999": { "description": "Ensure all .md file links are uppercase with underscores" }
-  }
-  
+  "default": true,
+  "line-length": false,
+  "no-trailing-punctuation": false,
+  "heading-style": {
+    "style": "atx"
+  },
+  "first-line-heading": {
+    "level": 1
+  },
+  "ordered-list-marker-value": "one",
+  "unordered-list-marker-style": {
+    "style": "-"
+  },
+  "list-indent": {
+    "indent": 2
+  },
+  "no-multiple-blanks": true,
+  "no-duplicate-heading": {
+    "siblings_only": true
+  },
+  "fenced-code-language": {
+    "require": true
+  },
+  "links": {
+    "require-leading-slash": true,
+    "style": "relative",
+    "allowed-pattern": "^/[A-Z0-9_/]+\\.MD$"
+  },
+  "file-name": {
+    "case": "uppercase",
+    "extension": ".MD",
+    "allowed-pattern": "^[A-Z0-9_/]+\\.MD$"
+  },
+  "spaces-around-headers": {
+    "consistent": true
+  },
+  "blanks-around-headings": {
+    "consistent": true
+  },
+  "blanks-around-lists": true,
+  "blanks-around-fences": true,
+  "no-inline-html": true,
+  "no-hard-tabs": true,
+  "no-space-in-code": true,
+  "no-empty-links": true,
+  "maximum-line-length": {
+    "line_length": 80,
+    "code_blocks": false,
+    "tables": false
+  },
+  "no-consecutive-blank-lines": true
+}
