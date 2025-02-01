@@ -20,21 +20,21 @@ Unless otherwise specified such as with [Joe's Notes](literary_products/joes_not
 
 </details>
 
-### Intelligence Systems
+## **Intelligence Systems**
 
-* **Coding and Programming Intelligence**: [Co-pilots](tech_docs/coding_programming/co_pilots.md), [Repo Synthesis](tech_docs/coding_programming/repo_synthesis.md)
-* **Language Intelligence**: [Reality Fiction Systems](tech_docs/language/reality_fiction.md), [LLMs](tech_docs/language/llm.md), [NLPs](tech_docs/language/nlp.md), [Frontier ICRs](tech_docs/language/icr.md)
-* **Visual Intelligence**: [CNNs](tech_docs/visual/cnn.md), [GANs](tech_docs/visual/gan.md), [Diffusions](tech_docs/visual/diffusion.md), [NeRFs](tech_docs/visual/nerf.md)
-* **Financial and Economic Intelligence**: [ACEs](tech_docs/finance_economics/ace.md), [DRLs](tech_docs/finance_economics/drl.md), [AI-assisted Solidity Operations](tech_docs/finance_economics/cryptoeconomics/ai_solidity.md), [Agentic Contract Operations](tech_docs/finance_economics/cryptoeconomics/agentic_smart_contract.md)
+- **Coding and Programming Intelligence**: [Co-Pilots](TECH_DOCS/CODING_PROGRAMMING/CO_PILOTS.MD), [Repo Synthesis](TECH_DOCS/CODING_PROGRAMMING/REPO_SYNTHESIS.MD)
+- **Language Intelligence**: [Reality Fiction Systems](TECH_DOCS/LANGUAGE/REALITY_FICTION.MD), [LLMs](TECH_DOCS/LANGUAGE/LLM.MD), [NLPs](TECH_DOCS/LANGUAGE/NLP.MD), [Frontier ICRs](TECH_DOCS/LANGUAGE/ICR.MD)
+- **Visual Intelligence**: [CNNs](TECH_DOCS/VISUAL/CNN.MD), [GANs](TECH_DOCS/VISUAL/GAN.MD), [Diffusions](TECH_DOCS/VISUAL/DIFFUSION.MD), [NeRFs](TECH_DOCS/VISUAL/NERF.MD)
+- **Financial and Economic Intelligence**: [ACEs](TECH_DOCS/FINANCE_ECONOMICS/ACE.MD), [DRLs](TECH_DOCS/FINANCE_ECONOMICS/DRL.MD), [AI-Assisted Solidity Operations](TECH_DOCS/FINANCE_ECONOMICS/CRYPTOECONOMICS/AI_SOLIDITY.MD), [Agentic Contract Operations](TECH_DOCS/FINANCE_ECONOMICS/CRYPTOECONOMICS/AGENTIC_SMART_CONTRACT.MD)
 
-### Current Products
+## **Current Products**
 
-* **Literary Products**: [Movie Scripts](/LITERARY_PRODUCTS/MOVIE_SCRIPTS/MOVIE_SCRIPTS.MD), [Screenplays](/LITERARY_PRODUCTS/SCREENPLAYS/SCREENPLAYS.MD), [Novels](/LITERARY_PRODUCTS/NOVELS.MD), [Short Stories](/LITERARY_PRODUCTS/SHORT_STORIES.MD)
-* **Audio Products**: [MIDI Data](tech_docs/audio/midi.md), [Sound Effects](tech_docs/audio/sound_effects.md), [Instrumentals](tech_docs/audio/instrumentals.md), [Voices](tech_docs/audio/voices.md), [Harmonies](tech_docs/audio/harmonies.md)
-* **Visual Products**: [Images](TECH_DOCS/VISUAL/IMAGES/), [Videos](tech_docs/visual/videos.md), [Films](tech_docs/visual/films.md), [Movies](tech_docs/visual/movies.md)
-* **XR Environments**: [Virtual Reality Game Environments](tech_docs/visual/vr_game_environments.md), [Mixed Realities](tech_docs/visual/mixed_reality_media.md), [ARG Media](tech_docs/visual/arg_media.md)
+- **Literary Products**: [Movie Scripts](LITERARY_PRODUCTS/MOVIE_SCRIPTS/MOVIE_SCRIPTS.MD), [Screenplays](LITERARY_PRODUCTS/SCREENPLAYS/SCREENPLAYS.MD), [Novels](LITERARY_PRODUCTS/NOVELS.MD), [Short Stories](LITERARY_PRODUCTS/SHORT_STORIES.MD)
+- **Audio Products**: [MIDI Data](TECH_DOCS/AUDIO/MIDI.MD), [Sound Effects](TECH_DOCS/AUDIO/SOUND_EFFECTS.MD), [Instrumentals](TECH_DOCS/AUDIO/INSTRUMENTALS.MD), [Voices](TECH_DOCS/AUDIO/VOICES.MD), [Harmonies](TECH_DOCS/AUDIO/HARMONIES.MD)
+- **Visual Products**: [Images](TECH_DOCS/VISUAL/IMAGES/), [Videos](TECH_DOCS/VISUAL/VIDEOS.MD), [Films](TECH_DOCS/VISUAL/FILMS.MD), [Movies](TECH_DOCS/VISUAL/MOVIES.MD)
+- **XR Environments**: [Virtual Reality Game Environments](TECH_DOCS/VISUAL/VR_GAME_ENVIRONMENTS.MD), [Mixed Realities](TECH_DOCS/VISUAL/MIXED_REALITY_MEDIA.MD), [ARG Media](TECH_DOCS/VISUAL/ARG_MEDIA.MD)
 
-## Community
+## **Community**
 
-* **Social**: [Twitter](https://x.com/JoeMarist), [Instagram](https://www.instagram.com/joemaristela3/), [Threads](https://www.threads.net/@joemaristela3), [TikTok](https://www.tiktok.com/@rolodexter)
-* **Forums**: [Discord](https://discord.gg/EuVn8N58jH), [Reddit](https://www.reddit.com/r/rolodexter/), [Telegram](https://t.me/rolodexter1), [GitHub Discussions](https://github.com/rolodexter/rolodexter/discussions), [Charmverse](https://app.charmverse.io/rolodexter/getting-started)
+- **Social**: [Twitter](https://x.com/JoeMarist), [Instagram](https://www.instagram.com/joemaristela3/), [Threads](https://www.threads.net/@joemaristela3), [TikTok](https://www.tiktok.com/@rolodexter)
+- **Forums**: [Discord](https://discord.gg/EuVn8N58jH), [Reddit](https://www.reddit.com/r/rolodexter/), [Telegram](https://t.me/rolodexter1), [GitHub Discussions](https://github.com/rolodexter/rolodexter/discussions), [Charmverse](https://app.charmverse.io/rolodexter/getting-started)
