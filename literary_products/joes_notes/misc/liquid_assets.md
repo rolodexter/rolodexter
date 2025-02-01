@@ -40,7 +40,7 @@ Liquid careers exhibit the same traits of marketability, predictability, and eas
 
 * [Consulting](consulting.md) (e.g., [McKinsey](../MCKINSEY.md), [BCG](bcg.md)).
 * [Investment banking](investment_banking.md) (e.g., [Goldman Sachs](broken-reference)).
-* [Software engineering](../technology/software_engineering.md) roles at major tech firms (e.g., [Google](../GOOGLE.md), [Microsoft](broken-reference)).
+* [Software engineering](../TECHNOLOGY/software_engineering.md) roles at major tech firms (e.g., [Google](../GOOGLE.md), [Microsoft](broken-reference)).
 
 ***
 

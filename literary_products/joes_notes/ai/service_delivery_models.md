@@ -91,7 +91,7 @@
    * Real-time updates on service status, quicker resolution of citizen inquiries, and faster adaptation to changing regulations or community needs.
    * Minimizes bureaucratic inertia.
 4. **Innovation Catalyst**
-   * Lays the foundation for further [**tech innovation**](../strategy/tech_innovation.md) in AI-driven analytics, IoT integrations, or advanced robotics in the public sector.
+   * Lays the foundation for further [**tech innovation**](../STRATEGY/tech_innovation.md) in AI-driven analytics, IoT integrations, or advanced robotics in the public sector.
    * Sparks cross-sector collaborations that unlock novel business models.
 
 ***
@@ -133,7 +133,7 @@
 ## Future Outlook
 
 1. **AI-Assisted Governance**
-   * Real-time data analytics integrated with [**blockchain transactions**](../strategy/financial_systems.md) for predictive resource allocation.
+   * Real-time data analytics integrated with [**blockchain transactions**](../STRATEGY/financial_systems.md) for predictive resource allocation.
    * Could further reduce service wait times and optimize routing in areas like healthcare or emergency services.
 2. **Meta-Governance and DAOs**
    * Some municipalities may explore [**DAO-based governance**](governance_models.md#decentralized-autonomous-organizations-daos) to decentralize decision-making, letting citizens vote on policy or budget proposals.
@@ -151,7 +151,7 @@
 
 * [PUBLIC\_SERVICES](../misc/public_services.md)
 * [PUBLIC\_AGENCIES](../misc/public_agencies.md)
-* [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../strategy/innovations_in_public_sector.md)
+* [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../STRATEGY/innovations_in_public_sector.md)
 * [GOVERNANCE\_MODELS](governance_models.md)
 
 For more comprehensive insights, refer to publications by the [OECD](https://www.oecd.org/gov/digital-government/) or the [World Bank](https://www.worldbank.org/en/topic/governance) discussing e-government and service delivery modernization trends.

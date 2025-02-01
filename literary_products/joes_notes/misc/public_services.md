@@ -106,7 +106,7 @@
    * Test blockchain-based public services in a single department or region to refine processes.
    * Validate ROI and gather feedback before scaling across broader agencies.
 2. **Public-Private Partnerships**
-   * Collaborate with established [**financial institutions**](../strategy/financial_institutions.md), [**tech startups**](../FINTECH_INNOVATORS.md), and **university labs** to leverage expertise.
+   * Collaborate with established [**financial institutions**](../STRATEGY/financial_institutions.md), [**tech startups**](../FINTECH_INNOVATORS.md), and **university labs** to leverage expertise.
    * Shared responsibility for risk management and cost investment fosters faster progress.
 3. **Regulatory Sandboxes**
    * Temporary exemptions or experimental frameworks let agencies trial novel solutions while minimizing legal risk.
@@ -121,7 +121,7 @@
 
 * [ADMINISTRATIVE\_PROCESSES](administrative_processes.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
-* [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../strategy/innovations_in_public_sector.md)
+* [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../STRATEGY/innovations_in_public_sector.md)
 * [DEFI\_INTRO](../CRYPTO/DEFI_INTRO.md)
 
 For more in-depth resources, explore publications by the [World Bank](https://www.worldbank.org/) and the [United Nations](https://www.un.org/) on e-governance, digital transformation, and blockchain-based public administration.

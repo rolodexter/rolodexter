@@ -38,7 +38,7 @@
    * Smart contracts automate interest rates, repayment schedules, and liquidation triggers.
 3. **Stablecoins**
    * Cryptocurrencies pegged to stable assets (e.g., fiat, commodities) to reduce volatility.
-   * Essential for bridging the gap between [**traditional financial systems**](../strategy/financial_systems.md) and DeFi, facilitating trading, lending, and everyday transactions.
+   * Essential for bridging the gap between [**traditional financial systems**](../STRATEGY/financial_systems.md) and DeFi, facilitating trading, lending, and everyday transactions.
 4. **Yield Farming and Liquidity Mining**
    * Users provide liquidity to DeFi protocols in exchange for token rewards, often leading to higher yields but also increased risk.
    * Fosters rapid capital inflows that help protocols grow liquidity and user adoption.
@@ -115,7 +115,7 @@ While much of DeFi development has occurred on **smart-contract-capable blockcha
 
 * [BITCOIN\_BASICS](broken-reference)
 * [CRYPTOCURRENCIES](CRYPTOCURRENCIES.MD)
-* [FINANCIAL\_SYSTEMS](../strategy/financial_systems.md)
+* [FINANCIAL\_SYSTEMS](../STRATEGY/financial_systems.md)
 * [GOVERNMENT\_ADOPTION](../misc/government_adoption.md)
 
 For those interested in exploring deeper DeFi applications, check out platforms like [Aave](https://aave.com/) or [Compound](https://compound.finance/), as well as the [Ethereum Wikipedia article](https://en.wikipedia.org/wiki/Ethereum) for broader context on smart contract functionality.

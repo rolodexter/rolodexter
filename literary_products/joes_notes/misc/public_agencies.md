@@ -49,9 +49,9 @@
 
 1. **Administrative Efficiency**
    * [**Service delivery models**](../AI/service_delivery_models.md) powered by blockchain can reduce paperwork, automate workflows, and create transparent audit trails.
-   * [**Innovation in the public sector**](../strategy/innovations_in_public_sector.md) helps agencies adapt to citizen expectations of faster, on-demand services.
+   * [**Innovation in the public sector**](../STRATEGY/innovations_in_public_sector.md) helps agencies adapt to citizen expectations of faster, on-demand services.
 2. **Cross-Sector Collaboration**
-   * Partnerships with [**financial institutions**](../strategy/financial_institutions.md), [**tech startups**](../FINTECH_INNOVATORS.md), and [**university initiatives**](university_initiatives.md) accelerate pilot projects, R\&D, and knowledge transfer.
+   * Partnerships with [**financial institutions**](../STRATEGY/financial_institutions.md), [**tech startups**](../FINTECH_INNOVATORS.md), and [**university initiatives**](university_initiatives.md) accelerate pilot projects, R\&D, and knowledge transfer.
    * **Public-private** consortia can pool resources for large-scale infrastructure or data-sharing networks.
 3. **Interoperability**
    * Legacy systems frequently operate in silos, slowing data exchange and complicating policy execution.
@@ -101,7 +101,7 @@
 * [SLED\_VERTICES](sled_vertices.md)
 * [ADMINISTRATIVE\_PROCESSES](administrative_processes.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
-* [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../strategy/innovations_in_public_sector.md)
+* [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../STRATEGY/innovations_in_public_sector.md)
 
 For practical frameworks and case studies, consult organizations like the [National Association of State Chief Information Officers (NASCIO)](https://www.nascio.org/) and the [Government Blockchain Association (GBA)](https://gbaglobal.org/).
 

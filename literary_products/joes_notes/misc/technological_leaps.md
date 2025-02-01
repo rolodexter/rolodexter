@@ -99,7 +99,7 @@ A **technological leap** occurs when a new discovery, innovation, or breakthroug
 ## Looking Ahead: Next Wave of Leaps
 
 1. **Post-Quantum Blockchains**
-   * Secure ledger systems resistant to quantum attacks will reshape [**financial innovation**](../strategy/financial_innovation.md) and digital identity.
+   * Secure ledger systems resistant to quantum attacks will reshape [**financial innovation**](../STRATEGY/financial_innovation.md) and digital identity.
    * Maintaining backward compatibility with existing infrastructure is a crucial challenge.
 2. **AI-Blockchain Fusion**
    * Automated governance, real-time fraud detection, and dynamic resource allocation could transform entire public service ecosystems.
@@ -132,8 +132,8 @@ A **technological leap** occurs when a new discovery, innovation, or breakthroug
 
 ## See Also
 
-* [TECH\_INNOVATION](../strategy/tech_innovation.md)
-* [FINANCIAL\_INNOVATION](../strategy/financial_innovation.md)
+* [TECH\_INNOVATION](../STRATEGY/tech_innovation.md)
+* [FINANCIAL\_INNOVATION](../STRATEGY/financial_innovation.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 * [SENSE\_OF\_URGENCY](sense_of_urgency.md)
 

@@ -93,7 +93,7 @@ As [**fintech disruptors**](../FINTECH_INNOVATORS.md) and legacy financial playe
 
 * [BITCOIN](../crypto_economics/bitcoin.md)
 * [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.MD)
-* [FINANCIAL\_INSTITUTIONS](../strategy/financial_institutions.md)
+* [FINANCIAL\_INSTITUTIONS](../STRATEGY/financial_institutions.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 
 For an in-depth discussion on traditional vs. digital assets, consult the [Investopedia entry on asset classes](https://www.investopedia.com/terms/a/assetclasses.asp) and the [Bitcoin Wikipedia article](https://en.wikipedia.org/wiki/Bitcoin).

@@ -57,7 +57,7 @@ Physics also informs innovations in [Decentralized Finance (DeFi)](../CRYPTO/DEF
 1. **Blockchain Dynamics:**
    * Blockchain networks can be modeled as complex systems that self-organize under constraints like computational power or energy consumption.
 2. **Smart Contracts:**
-   * The automation of financial agreements via [smart contracts](../technology/smart_contracts.md) reflects deterministic principles akin to those in classical mechanics.
+   * The automation of financial agreements via [smart contracts](../TECHNOLOGY/smart_contracts.md) reflects deterministic principles akin to those in classical mechanics.
 
 ***
 

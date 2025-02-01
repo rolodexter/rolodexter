@@ -2,13 +2,13 @@
 
 [**DeepSeek V3**](deepseek_v3.md), a cutting-edge [**artificial intelligence (AI)**](https://en.wikipedia.org/wiki/Artificial_intelligence) model developed by a Chinese company, has raised significant concerns regarding its potential implications for \[**national security**]NATIONAL\_SECURITY.mdd). While the model offers impressive capabilities in \[**language generation**]LANGUAGE\_GENERATION.mdd), \[**machine learning**]MACHINE\_LEARNING.mdd), and \[**autonomous systems**]AUTONOMOUS\_SYSTEMS.mdd), it also presents a series of risks that could undermine \[**U.S. security**]US\_SECURITY.mdd) and \[**global stability**]GLOBAL\_STABILITY.mdd).
 
-In this document, we examine the broader threats posed by [**DeepSeek**](deepseek_v3.md) and similar [**large language models (LLMs)**](../AI/large_language_models.md), particularly in terms of [**cybersecurity**](../security/cybersecurity.md), [**information warfare**](../security/information_warfare.md), [**economic espionage**](../strategy/economic_espionage.md), and [**data sovereignty**](data_sovereignty.md).
+In this document, we examine the broader threats posed by [**DeepSeek**](deepseek_v3.md) and similar [**large language models (LLMs)**](../AI/large_language_models.md), particularly in terms of [**cybersecurity**](../security/cybersecurity.md), [**information warfare**](../security/information_warfare.md), [**economic espionage**](../STRATEGY/economic_espionage.md), and [**data sovereignty**](data_sovereignty.md).
 
 ## **Overview of DeepSeek V3**
 
 **DeepSeek V3** is a sophisticated **AI language model** utilizing a **Mixture-of-Experts (MoE)** architecture, consisting of **671 billion parameters**, of which **37 billion parameters** are activated for each token during processing. This model was trained on **14.8 trillion tokens**, and its ability to process **60 tokens per second** makes it three times faster than its predecessors. Released under an **open-source** license, it is available for widespread use, modification, and deployment, including **commercial applications**.
 
-### Key Features:
+### Key Features
 
 * **Machine Learning**: Capable of learning and adapting from vast datasets, DeepSeek can generate human-like text and assist in tasks ranging from **predictive analytics** to **autonomous decision-making**.
 * **Autonomy**: DeepSeek can be integrated into **fully autonomous systems**, such as vehicles, drones, and weapons, adding a new layer of complexity to national security threats.

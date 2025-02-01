@@ -22,7 +22,7 @@ _She clicks on the link and begins reading excerpts of the study, her interest i
 
 **Scene 2**: _Kara and James’ brainstorming session_
 
-_The camera pans to a whiteboard filled with keywords like "_[_Ontological Shock_](../technology/ai_autopilot.md)_," "_[_UAP_](../joes_notes/misc/cost_per_flop.md)_," "_[_AI_](../ENCYCLOPEDIA/interstellar_sociology.md)_-driven analysis," and "Big Data."_
+_The camera pans to a whiteboard filled with keywords like "_[_Ontological Shock_](../TECHNOLOGY/AI_AUTOPILOT.MD)_," "_[_UAP_](../joes_notes/misc/cost_per_flop.md)_," "_[_AI_](../ENCYCLOPEDIA/interstellar_sociology.md)_-driven analysis," and "Big Data."_
 
 **JAMES**\
 Exciting paper. But it seems limited in scope. Social media, especially a single platform like [X](../../LITERARY_PRODUCTS/JOES_NOTES/AI/AI.MD), doesn’t give the full picture. Imagine combining this with data from [Reddit](broken-reference), YouTube, and TikTok.
@@ -41,7 +41,7 @@ _Kara types up an email late at night, illuminated only by her laptop screen._
 **KARA (V.O.)**\
 Dear Dr. Lomas,
 
-I recently read your groundbreaking study on [UAP](../joes_notes/misc/cost_per_flop.md) disclosure and its potential to induce [Ontological Shock](../technology/ai_autopilot.md). Your analysis resonated deeply with our ongoing work at [ParkHealth](../ENCYCLOPEDIA/parkhealth.md). I’d love to discuss extending your research by incorporating [AI](../ENCYCLOPEDIA/interstellar_sociology.md)-driven Big Data analysis, enabling us to map reactions across multiple platforms and explore demographic trends.
+I recently read your groundbreaking study on [UAP](../joes_notes/misc/cost_per_flop.md) disclosure and its potential to induce [Ontological Shock](../TECHNOLOGY/AI_AUTOPILOT.MD). Your analysis resonated deeply with our ongoing work at [ParkHealth](../ENCYCLOPEDIA/parkhealth.md). I’d love to discuss extending your research by incorporating [AI](../ENCYCLOPEDIA/interstellar_sociology.md)-driven Big Data analysis, enabling us to map reactions across multiple platforms and explore demographic trends.
 
 Looking forward to your thoughts.\
 Warm regards,\
@@ -75,7 +75,7 @@ _Split screen:_ [_ParkHealth_](../ENCYCLOPEDIA/parkhealth.md)_’s modern office
 Our goal is to create an exhaustive, multi-platform dataset using web crawlers and scrapers, integrated into [Hugging Face](../ENCYCLOPEDIA/supersonic.md) for advanced [NLP](../joes_notes/physics/quantum_field.md) analysis. This would allow us to automate theme extraction, analyze sentiment shifts over time, and even simulate “what if” scenarios for future disclosure events.
 
 **DR. LOMAS**\
-Brilliant. And by incorporating demographic metadata, we can finally address the question of whether [Ontological Shock](../technology/ai_autopilot.md) varies across age, location, or cultural background.
+Brilliant. And by incorporating demographic metadata, we can finally address the question of whether [Ontological Shock](../TECHNOLOGY/AI_AUTOPILOT.MD) varies across age, location, or cultural background.
 
 **JAMES**\
 Not to mention mapping out information spread within social media networks. We could track how opinions cluster, diverge, or shift in response to major [UAP](../joes_notes/misc/cost_per_flop.md)-related events.
@@ -102,7 +102,7 @@ Now we’re not just documenting reactions—we’re predicting the societal pul
 _Dr. Lomas and_ [_ParkHealth_](../ENCYCLOPEDIA/parkhealth.md) _present their initial findings at an academic conference._
 
 **KARA**\
-The diversity of reactions to [UAP](../joes_notes/misc/cost_per_flop.md) disclosure—what Dr. Lomas aptly calls “[Ontological Fracturing](../technology/ai_autopilot.md)”—is even more complex than initially thought. Our [AI](../ENCYCLOPEDIA/interstellar_sociology.md)-driven analysis shows how emotions like hope, fear, and indifference interplay dynamically within different communities.
+The diversity of reactions to [UAP](../joes_notes/misc/cost_per_flop.md) disclosure—what Dr. Lomas aptly calls “[Ontological Fracturing](../TECHNOLOGY/AI_AUTOPILOT.MD)”—is even more complex than initially thought. Our [AI](../ENCYCLOPEDIA/interstellar_sociology.md)-driven analysis shows how emotions like hope, fear, and indifference interplay dynamically within different communities.
 
 **DR. LOMAS**\
 This collaboration has unlocked a new dimension of understanding. The implications extend far beyond [UAP](../joes_notes/misc/cost_per_flop.md), offering insights into how societies grapple with transformative revelations.

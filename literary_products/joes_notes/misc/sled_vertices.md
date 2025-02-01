@@ -9,7 +9,7 @@
 
 **SLED** stands for **State, Local, Education, and District**—a collective term used to categorize the [**public institutions**](../PUBLIC_INSTITUTIONS.md) and agencies that function within these levels of government and academic systems. These entities significantly impact the lives of citizens by providing everyday services (e.g., policing, waste management), overseeing large-scale infrastructure (e.g., schools, libraries, roads), and shaping the [**administrative processes**](administrative_processes.md) critical for social and economic well-being.
 
-With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockchain solutions**, and other [**innovations in the public sector**](../strategy/innovations_in_public_sector.md), SLED organizations stand at the forefront of adopting new technologies that can enhance transparency, reduce operational costs, and build greater [**public trust**](public_trust.md).
+With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockchain solutions**, and other [**innovations in the public sector**](../STRATEGY/innovations_in_public_sector.md), SLED organizations stand at the forefront of adopting new technologies that can enhance transparency, reduce operational costs, and build greater [**public trust**](public_trust.md).
 
 ***
 
@@ -71,7 +71,7 @@ With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockc
 * **Blockchain in Public Records**
   * Some states pilot systems for **vital records** (birth, marriage, death certificates) on tamper-proof ledgers, improving security and accessibility.
 * **SLED Collaborations with Private Sector**
-  * Partnerships with [**fintech innovators**](../FINTECH_INNOVATORS.md) and [**financial institutions**](../strategy/financial_institutions.md) accelerate digital transformation by combining domain expertise with advanced tech solutions.
+  * Partnerships with [**fintech innovators**](../FINTECH_INNOVATORS.md) and [**financial institutions**](../STRATEGY/financial_institutions.md) accelerate digital transformation by combining domain expertise with advanced tech solutions.
 
 ***
 

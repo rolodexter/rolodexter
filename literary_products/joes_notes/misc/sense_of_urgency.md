@@ -7,7 +7,7 @@
 
 ## Overview
 
-A **sense of urgency** is a driving force that compels individuals, organizations, and governments to act swiftly in the face of emerging challenges or significant opportunities. In the realm of [**blockchain**](broken-reference), [**decentralized finance (DeFi)**](../CRYPTO/DEFI_INTRO.md), and other transformative technologies, establishing urgency is essential to avoid falling behind in innovation, regulatory adaptation, and economic growth. Rapid technological advances, shifting [**financial systems**](../strategy/financial_systems.md), and evolving [**public sector engagement**](broken-reference) make timely decision-making critical.
+A **sense of urgency** is a driving force that compels individuals, organizations, and governments to act swiftly in the face of emerging challenges or significant opportunities. In the realm of [**blockchain**](broken-reference), [**decentralized finance (DeFi)**](../CRYPTO/DEFI_INTRO.md), and other transformative technologies, establishing urgency is essential to avoid falling behind in innovation, regulatory adaptation, and economic growth. Rapid technological advances, shifting [**financial systems**](../STRATEGY/financial_systems.md), and evolving [**public sector engagement**](broken-reference) make timely decision-making critical.
 
 ***
 
@@ -108,8 +108,8 @@ A **sense of urgency** is a driving force that compels individuals, organization
 
 * [PUBLIC\_SECTOR\_ENGAGEMENT](broken-reference)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
-* [FINANCIAL\_INNOVATION](../strategy/financial_innovation.md)
-* [TECH\_INNOVATION](../strategy/tech_innovation.md)
+* [FINANCIAL\_INNOVATION](../STRATEGY/financial_innovation.md)
+* [TECH\_INNOVATION](../STRATEGY/tech_innovation.md)
 
 Sources like [Harvard Business Review](https://hbr.org/) and [McKinsey & Company](https://www.mckinsey.com/) often publish thought leadership on creating an organizational sense of urgency and driving successful digital transformations.
 

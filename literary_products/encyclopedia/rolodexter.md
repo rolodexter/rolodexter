@@ -10,7 +10,7 @@
 
 <summary>Disclaimer</summary>
 
-This work, including all content related to [rolodexter](../../LITERARY_PRODUCTS/universe/rolodexter.md), is a product of [creative imagination](../../LITERARY_PRODUCTS/concepts/creative-imagination.md) and [artistic expression](../../LITERARY_PRODUCTS/concepts/artistic-expression.md). The [characters](../../LITERARY_PRODUCTS/elements/characters.md), [events](../../LITERARY_PRODUCTS/elements/events.md), [locations](../../LITERARY_PRODUCTS/elements/locations.md), and [narratives](../../LITERARY_PRODUCTS/elements/narratives.md) contained herein are [fictional constructs](../../LITERARY_PRODUCTS/concepts/fictional-constructs.md) designed to explore themes of [technology](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/broken-reference/), [society](../../LITERARY_PRODUCTS/themes/society.md), and [human nature](../../LITERARY_PRODUCTS/themes/human-nature.md) within a [speculative framework](../concepts/speculative_framework.md).
+This work, including all content related to [rolodexter](../UNIVERSE/rolodexter.md), is a product of [creative imagination](../../LITERARY_PRODUCTS/concepts/creative-imagination.md) and [artistic expression](../../LITERARY_PRODUCTS/concepts/artistic-expression.md). The [characters](../../LITERARY_PRODUCTS/elements/characters.md), [events](../../LITERARY_PRODUCTS/elements/events.md), [locations](../../LITERARY_PRODUCTS/elements/locations.md), and [narratives](../../LITERARY_PRODUCTS/elements/narratives.md) contained herein are [fictional constructs](../../LITERARY_PRODUCTS/concepts/fictional-constructs.md) designed to explore themes of [technology](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/broken-reference/), [society](../../LITERARY_PRODUCTS/themes/society.md), and [human nature](../../LITERARY_PRODUCTS/themes/human-nature.md) within a [speculative framework](../concepts/speculative_framework.md).
 
 Any resemblance to [actual persons](../../LITERARY_PRODUCTS/disclaimers/actual-persons.md), living or dead, [real-world events](../../LITERARY_PRODUCTS/disclaimers/real-world-events.md), or [existing places](../../LITERARY_PRODUCTS/disclaimers/existing-places.md) is entirely coincidental and unintended. The author does not claim [historical accuracy](../../LITERARY_PRODUCTS/concepts/historical-accuracy.md) or [factual representation](../../LITERARY_PRODUCTS/concepts/factual-representation.md) of any kind. Readers should approach this material as a [work of fiction](../concepts/work_of_fiction.md), understanding that it does not reflect [real-world occurrences](../../LITERARY_PRODUCTS/disclaimers/real-world-occurrences.md), individuals, or organizations.
 
@@ -58,7 +58,7 @@ While the benefits of rolodexter’s efficiency are recognized, its presence is 
 
 * [Unsupervised Superintelligence](../joes_notes/misc/dallas.md)
 * [Econophysics](regulatory_frameworks.md)
-* [Path Dependence](../technology/ai_autopilot.md)
+* [Path Dependence](../TECHNOLOGY/AI_AUTOPILOT.MD)
 * [Conscious Agents](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/CONSCIOUS_AGENTS.md)
 * [Opportunity Cones](../joes_notes/physics/quantum_field.md)
 

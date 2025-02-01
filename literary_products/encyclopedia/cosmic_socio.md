@@ -158,4 +158,4 @@ Cosmic Sociology has influenced policies on space exploration and interstellar c
 * [Drake Equation](resource_markets.md)
 * [Astrobiology](https://en.wikipedia.org/wiki/Astrobiology)
 * [Exoplanet Exploration](https://exoplanets.nasa.gov/)
-* [Nash Equilibrium](../technology/ai_autopilot.md)
+* [Nash Equilibrium](../TECHNOLOGY/AI_AUTOPILOT.MD)

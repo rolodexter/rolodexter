@@ -35,7 +35,7 @@
    * Reduces the need for permanent elected officials by enabling “rolling delegation” tailored to specific expertise.
 3. **Federated and Consortium Models**
    * Multiple entities cooperate under a shared blockchain network, each maintaining equal or proportional authority over the ledger.
-   * Commonly seen in [**public sector consortia**](../strategy/innovations_in_public_sector.md), supply chain alliances, or academic collaborations.
+   * Commonly seen in [**public sector consortia**](../STRATEGY/innovations_in_public_sector.md), supply chain alliances, or academic collaborations.
 4. **Hybrid Approaches**
    * Combine **traditional bureaucracy** with **decentralized structures** to address regulatory requirements while fostering innovation.
    * May involve “governance tokens” for smaller-scale decisions (like budget increments) and legislative processes for significant policy shifts.
@@ -85,7 +85,7 @@
    * DAOs for [**university initiatives**](../misc/university_initiatives.md) let students and faculty vote on funding for research or campus improvements.
    * Transparent on-chain credentialing lowers the risk of diploma fraud and simplifies inter-institutional recognition.
 3. **Local Government and Infrastructure**
-   * Municipal governments can adopt [**public financial management**](../strategy/financial_systems.md) dashboards, where budget proposals are locked in via smart contracts after token-holder approvals.
+   * Municipal governments can adopt [**public financial management**](../STRATEGY/financial_systems.md) dashboards, where budget proposals are locked in via smart contracts after token-holder approvals.
    * Real-time audits on public infrastructure projects (e.g., roads, water systems) reduce corruption and enhance service quality.
 4. **International Alliances and NGOs**
    * Cross-border NGOs could establish consortium-based governance for global humanitarian projects, distributing funds and resources based on transparent, consensus-driven protocols.

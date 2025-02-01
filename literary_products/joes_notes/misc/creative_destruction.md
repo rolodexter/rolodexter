@@ -38,7 +38,7 @@ Creative destruction is a cornerstone of capitalist economies, where progress an
 
 ### Technology
 
-* **Blockchain and Decentralized Finance (DeFi):** Blockchain technology exemplifies creative destruction in finance by challenging traditional banking and insurance models through innovations like [smart contracts](../technology/smart_contracts.md) and peer-to-peer risk sharing.
+* **Blockchain and Decentralized Finance (DeFi):** Blockchain technology exemplifies creative destruction in finance by challenging traditional banking and insurance models through innovations like [smart contracts](../TECHNOLOGY/smart_contracts.md) and peer-to-peer risk sharing.
 * **Artificial Intelligence (AI):** AI-driven tools are reshaping industries from healthcare to logistics by automating processes and enhancing decision-making.
 
 ### Sustainability

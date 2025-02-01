@@ -7,7 +7,7 @@
 
 ## Overview
 
-**University initiatives** encompass a broad spectrum of **research**, **education**, and **community outreach** programs undertaken by higher education institutions. In the context of [**blockchain**](../crypto_economics/bitcoin_basics.md), [**DeFi**](../DEFI_BASICS.md), and emerging [**financial systems**](../strategy/financial_systems.md), universities play a pivotal role in nurturing talent, fostering innovation, and validating use cases through **applied research**. From incubating the next generation of startups to embedding [**cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) into the standard curriculum, academic institutions are uniquely positioned to accelerate [**public-sector engagement**](../governance/public_sector_engagement.md) with cutting-edge technologies.
+**University initiatives** encompass a broad spectrum of **research**, **education**, and **community outreach** programs undertaken by higher education institutions. In the context of [**blockchain**](../crypto_economics/bitcoin_basics.md), [**DeFi**](../DEFI_BASICS.md), and emerging [**financial systems**](../STRATEGY/financial_systems.md), universities play a pivotal role in nurturing talent, fostering innovation, and validating use cases through **applied research**. From incubating the next generation of startups to embedding [**cryptography**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) into the standard curriculum, academic institutions are uniquely positioned to accelerate [**public-sector engagement**](../governance/public_sector_engagement.md) with cutting-edge technologies.
 
 ***
 
@@ -20,7 +20,7 @@
    * Many universities host **entrepreneurial labs** and **incubator programs** that help blockchain-focused startups refine business models and connect with industry mentors.
    * Access to top-tier faculty and student talent fosters a culture of continuous innovation.
 3. **Industry Partnerships and Consortia**
-   * Collaborative initiatives with [**financial institutions**](../strategy/financial_institutions.md), tech firms, and [**public agencies**](public_agencies.md) facilitate real-world testbeds for blockchain and DeFi solutions.
+   * Collaborative initiatives with [**financial institutions**](../STRATEGY/financial_institutions.md), tech firms, and [**public agencies**](public_agencies.md) facilitate real-world testbeds for blockchain and DeFi solutions.
    * Joint ventures can accelerate **proof-of-concept** implementations and scale-up potential.
 4. **Policy and Public Engagement**
    * Through public seminars and advisory boards, universities can shape [**regulatory frameworks**](../governance/regulatory_frameworks.md) by sharing evidence-based research with legislators and policymakers.
@@ -38,7 +38,7 @@
    * Capstone projects might focus on [**public services**](public_services.md) use cases, from decentralized voting to supply chain audits.
 3. **Research Collaborations**
    * Faculty-led teams partnering with industry or government sponsors to study large-scale **blockchain adoption**, **DeFi integration**, and potential **privacy enhancements**.
-   * Findings often contribute to new [**innovations in the public sector**](../strategy/innovations_in_public_sector.md) and guide future [**service delivery models**](../AI/service_delivery_models.md).
+   * Findings often contribute to new [**innovations in the public sector**](../STRATEGY/innovations_in_public_sector.md) and guide future [**service delivery models**](../AI/service_delivery_models.md).
 4. **Hackathons and Competitions**
    * University-hosted events that bring together students, startups, and corporate sponsors to prototype solutions using [**Bitcoin**](../crypto_economics/bitcoin_basics.md) or other blockchain platforms.
    * Winning teams may receive funding or join incubator programs to refine their concepts further.
@@ -94,7 +94,7 @@
 
 * [SLED\_VERTICES](sled_vertices.md)
 * [PUBLIC\_SECTOR\_ENGAGEMENT](../governance/public_sector_engagement.md)
-* [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../strategy/innovations_in_public_sector.md)
+* [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../STRATEGY/innovations_in_public_sector.md)
 * [GOVERNANCE\_MODELS](../AI/governance_models.md)
 
 For real-world insights, explore university-led blockchain initiatives at [MIT Media Lab](https://www.media.mit.edu/groups/digital-currency-initiative/overview/), [Stanford Center for Blockchain Research](https://cbr.stanford.edu/), or [UC Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/).

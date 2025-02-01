@@ -51,7 +51,7 @@ The **adoption of** [**Bitcoin**](../crypto_economics/bitcoin.md) **by governmen
    * Sharp price fluctuations can complicate budget forecasts and balance-sheet stability.
    * Hedging strategies and stablecoin adoption are potential approaches to counter volatility.
 3. **Public-Private Partnerships**
-   * Governments often collaborate with [fintech disruptors](../FINTECH_INNOVATORS.md) and established [financial institutions](../strategy/financial_institutions.md) to implement crypto-friendly infrastructure.
+   * Governments often collaborate with [fintech disruptors](../FINTECH_INNOVATORS.md) and established [financial institutions](../STRATEGY/financial_institutions.md) to implement crypto-friendly infrastructure.
    * Joint ventures can address skill gaps, streamline technology integration, and share risks.
 
 ***

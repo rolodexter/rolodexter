@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Administrative processes** refer to the workflows, procedures, and governance rules that guide how [**public agencies**](public_agencies.md) and private organizations manage resources, documents, regulatory compliance, and day-to-day operations. In the public sector—especially within [**SLED verticals**](sled_vertices.md)—administrative processes are critical for maintaining accountability, operational efficiency, and [**public trust**](public_trust.md). As [**technology innovation**](../strategy/tech_innovation.md) accelerates, emerging tools like [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**DeFi**](../DEFI_BASICS.md) frameworks offer new opportunities to optimize and decentralize these administrative mechanisms.
+**Administrative processes** refer to the workflows, procedures, and governance rules that guide how [**public agencies**](public_agencies.md) and private organizations manage resources, documents, regulatory compliance, and day-to-day operations. In the public sector—especially within [**SLED verticals**](sled_vertices.md)—administrative processes are critical for maintaining accountability, operational efficiency, and [**public trust**](public_trust.md). As [**technology innovation**](../STRATEGY/tech_innovation.md) accelerates, emerging tools like [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**DeFi**](../DEFI_BASICS.md) frameworks offer new opportunities to optimize and decentralize these administrative mechanisms.
 
 ***
 
@@ -24,7 +24,7 @@
    * Delays in information-sharing can erode public confidence and hinder [**economic resilience**](../ECONOMIC_RESILIENCE.md).
 4. **Resource Allocation Constraints**
    * Tight budgets mean fewer resources for modernizing infrastructure or training staff on new technologies.
-   * Prioritizing [**innovation in the public sector**](../strategy/innovations_in_public_sector.md) can be politically challenging.
+   * Prioritizing [**innovation in the public sector**](../STRATEGY/innovations_in_public_sector.md) can be politically challenging.
 
 ***
 
@@ -63,13 +63,13 @@
    * Provide staff with necessary training on new tools (e.g., cryptographic basics, smart contract scripting).
 3. **Regulatory and Policy Frameworks**
    * Establish clear guidelines for [**government adoption of blockchain**](government_adoption.md) and digital signatures.
-   * Address data privacy, compliance, and sovereignty concerns—particularly if [**financial systems**](../strategy/financial_systems.md) and [**asset classes**](asset_classes.md) are involved.
+   * Address data privacy, compliance, and sovereignty concerns—particularly if [**financial systems**](../STRATEGY/financial_systems.md) and [**asset classes**](asset_classes.md) are involved.
 4. **Pilot Projects**
    * Test new platforms in controlled settings (e.g., a single department or municipality) to gather performance data.
    * Scale successful pilots and integrate them with [**service delivery models**](../AI/service_delivery_models.md) across the organization.
 5. **Ongoing Evaluation and Improvement**
    * Continuously measure outcomes (time savings, error reduction, user satisfaction) to justify further investment in [**blockchain-based systems**](../crypto_economics/bitcoin_basics.md).
-   * Evolve policy and technology stacks to stay current with emerging [**financial innovation**](../strategy/financial_innovation.md) trends.
+   * Evolve policy and technology stacks to stay current with emerging [**financial innovation**](../STRATEGY/financial_innovation.md) trends.
 
 ***
 

@@ -56,7 +56,7 @@
 * **Date:** February 2014
 * **Event:** The once-dominant **Mt. Gox** exchange files for bankruptcy after losing hundreds of thousands of BTC.
 * **Significance:** Highlighted the risks associated with centralized exchanges and contributed to increased calls for [transparency](../BLOCKCHAIN_TRANSPARENCY.md) and better security practices.
-* **Impact:** Sparked debates around industry standards, paving the way for more robust [financial institutions](../strategy/financial_institutions.md) to enter the crypto ecosystem.
+* **Impact:** Sparked debates around industry standards, paving the way for more robust [financial institutions](../STRATEGY/financial_institutions.md) to enter the crypto ecosystem.
 
 ***
 

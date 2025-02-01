@@ -2,19 +2,19 @@
 
 ![rolodexter](../../IMAGES/ROLDEXTER_SUPERINTELLIGENCE_RENDER.png)
 
-TITLE: [ROLDEXTER](../ENCYCLOPEDIA/ROLODEXTER.MD): THE [HUMAN ALLO LAYER](../systems/human_allo_layer.md)
+TITLE: [ROLDEXTER](../ENCYCLOPEDIA/ROLODEXTER.MD): THE [HUMAN ALLO LAYER](../SYSTEMS/human_allo_layer.md)
 
 FADE IN:
 
 INT. [PARKHEALTH SONOMA CAMPUS](../LOCATIONS/parkhealth_commons.md) - QUANTUM COMPUTING LAB - DAY
 
-A vast, futuristic laboratory. [ROLDEXTER's AVATAR](../technology/rolodexter_avatar.md) stands before an audience of elite researchers.
+A vast, futuristic laboratory. [ROLDEXTER's AVATAR](../TECHNOLOGY/ROLODEXTER_AVATAR.MD) stands before an audience of elite researchers.
 
 ROLDEXTER Consider what [César Hidalgo](https://www.amazon.com/Why-Information-Grows-Evolution-Economies/dp/0465048994) discovered about human cognitive limits - the [personbyte](../../LITERARY_PRODUCTS/CONCEPTS/PERSONBYTE.COM). Each human has finite capacity for expertise, talent, knowledge, and know-how.
 
 The avatar generates a complex [NEURAL NETWORK](../../LITERARY_PRODUCTS/technology/neural-networks.md) visualization.
 
-ROLDEXTER (CONT'D) But the [Human Allo layer](../systems/human_allo_layer.md) transcends these individual limits. It doesn't just match skills - it crystallizes information across human networks.
+ROLDEXTER (CONT'D) But the [Human Allo layer](../SYSTEMS/human_allo_layer.md) transcends these individual limits. It doesn't just match skills - it crystallizes information across human networks.
 
 A SKEPTICAL RESEARCHER stands.
 

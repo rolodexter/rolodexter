@@ -6,14 +6,14 @@
 
 #### **Feasibility**
 
-DeCC is a technically ambitious but feasible concept, leveraging the convergence of advanced cryptographic techniques and decentralized frameworks. Key technologies like [**Trusted Execution Environments (TEEs)**](trusted_execution_environments.md), [**Multi-Party Computation (MPC)**](multi_party_computation.md), [**Zero-Knowledge Proofs (ZKPs)**](../technology/zero_knowledge_proofs.md), and [**Fully Homomorphic Encryption (FHE)**](../technology/fully_homomorphic_encryption.md) already exist and are being actively developed. Here’s an analysis of its feasibility:
+DeCC is a technically ambitious but feasible concept, leveraging the convergence of advanced cryptographic techniques and decentralized frameworks. Key technologies like [**Trusted Execution Environments (TEEs)**](trusted_execution_environments.md), [**Multi-Party Computation (MPC)**](multi_party_computation.md), [**Zero-Knowledge Proofs (ZKPs)**](../TECHNOLOGY/zero_knowledge_proofs.md), and [**Fully Homomorphic Encryption (FHE)**](../TECHNOLOGY/fully_homomorphic_encryption.md) already exist and are being actively developed. Here’s an analysis of its feasibility:
 
 **Advantages:**
 
 1. **Existing Building Blocks:**
    * [**TEEs**](trusted_execution_environments.md) (e.g., Intel SGX, ARM TrustZone) are already used in applications like [**blockchain oracles**](../AI/blockchain_oracles.md) and confidential smart contracts.
-   * [**ZKPs**](../technology/zero_knowledge_proofs.md) and [**MPC**](multi_party_computation.md) are deployed in privacy-preserving protocols like zk-SNARKs and secure auctions.
-   * [**FHE**](../technology/fully_homomorphic_encryption.md) has demonstrated steady progress, with libraries like Microsoft SEAL and IBM HELib enabling encrypted computation.
+   * [**ZKPs**](../TECHNOLOGY/zero_knowledge_proofs.md) and [**MPC**](multi_party_computation.md) are deployed in privacy-preserving protocols like zk-SNARKs and secure auctions.
+   * [**FHE**](../TECHNOLOGY/fully_homomorphic_encryption.md) has demonstrated steady progress, with libraries like Microsoft SEAL and IBM HELib enabling encrypted computation.
 2. **Decentralized Networks:**
    * [**Blockchain**](../AI/blockchain.md) and peer-to-peer architectures provide a resilient infrastructure for distributing computational tasks.
    * Token incentives align participants to contribute computational resources.
@@ -23,7 +23,7 @@ DeCC is a technically ambitious but feasible concept, leveraging the convergence
 **Challenges:**
 
 1. [**Scalability**](scalability_in_decentralized_networks.md)**:**
-   * [**MPC**](multi_party_computation.md) and [**FHE**](../technology/fully_homomorphic_encryption.md) are computationally expensive, often orders of magnitude slower than plaintext computation.
+   * [**MPC**](multi_party_computation.md) and [**FHE**](../TECHNOLOGY/fully_homomorphic_encryption.md) are computationally expensive, often orders of magnitude slower than plaintext computation.
    * [**TEEs**](trusted_execution_environments.md) can face hardware limitations and vulnerabilities (e.g., Spectre, Meltdown attacks).
 2. **Complexity of Integration:**
    * Combining multiple cryptographic technologies into a decentralized network increases complexity, leading to potential attack surfaces.
@@ -45,7 +45,7 @@ Latency is one of the most significant challenges for decentralized networks, es
 3. [**Data Replication**](../DATA_REPLICATION_IN_BLOCKCHAIN.md)**:**
    * Data must often be replicated across nodes for reliability and fault tolerance, increasing bandwidth and latency requirements.
 4. **Cryptographic Overheads:**
-   * Technologies like [**ZKPs**](../technology/zero_knowledge_proofs.md) and [**FHE**](../technology/fully_homomorphic_encryption.md) add computation and communication overhead, amplifying latency.
+   * Technologies like [**ZKPs**](../TECHNOLOGY/zero_knowledge_proofs.md) and [**FHE**](../TECHNOLOGY/fully_homomorphic_encryption.md) add computation and communication overhead, amplifying latency.
 
 **Mitigation Strategies:**
 

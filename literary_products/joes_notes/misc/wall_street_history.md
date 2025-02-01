@@ -132,8 +132,8 @@
 
 ## See Also
 
-* [FINANCIAL\_INSTITUTIONS](../strategy/financial_institutions.md)
-* [FINANCIAL\_INNOVATION](../strategy/financial_innovation.md)
+* [FINANCIAL\_INSTITUTIONS](../STRATEGY/financial_institutions.md)
+* [FINANCIAL\_INNOVATION](../STRATEGY/financial_innovation.md)
 * [MAINSTREAM\_FINANCE](../MAINSTREAM_FINANCE.md)
 * [REGULATORY\_FRAMEWORKS](broken-reference)
 

@@ -6,7 +6,7 @@ Path dependence is a concept that emphasizes how historical events and decisions
 
 **Understanding Historical Constraints**
 
-One of the primary motivations for my research in path dependence is to grasp how [historical constraints](broken-reference) affect decision-making processes. By exploring how past events create frameworks that limit current options, I aim to uncover insights that can inform better strategic choices in various fields, from [technology](../technology/technology.md) to [policy-making](broken-reference).
+One of the primary motivations for my research in path dependence is to grasp how [historical constraints](broken-reference) affect decision-making processes. By exploring how past events create frameworks that limit current options, I aim to uncover insights that can inform better strategic choices in various fields, from [technology](../TECHNOLOGY/technology.md) to [policy-making](broken-reference).
 
 * **Historical Context**: Recognizing that "history matters" allows us to appreciate the complexities of contemporary issues. For instance, the persistence of certain technologies, like the [QWERTY keyboard](broken-reference), despite their inefficiencies, illustrates how initial conditions can lock systems into specific trajectories.
 

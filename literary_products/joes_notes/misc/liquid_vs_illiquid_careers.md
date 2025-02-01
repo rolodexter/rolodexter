@@ -13,7 +13,7 @@ Careers that are **easily transferable and quantifiable**, similar to [liquid as
 ### Examples
 
 * Roles at firms like [McKinsey](../MCKINSEY.md), [BCG](bcg.md), or [Goldman Sachs](broken-reference).
-* Jobs in well-defined industries like [software engineering](../technology/software_engineering.md) or [law](law.md).
+* Jobs in well-defined industries like [software engineering](../TECHNOLOGY/software_engineering.md) or [law](law.md).
 
 ### Advantages
 
