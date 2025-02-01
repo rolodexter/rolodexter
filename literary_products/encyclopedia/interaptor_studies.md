@@ -132,7 +132,7 @@ Graduates of **Interaptor Studies** pursue careers in:
 * [Blockchain Technology](misinformation_and_uap.md)
 * [Decentralized Finance (De-Fi)](ray_kurzweil.md)
 * [Sustainable Development](broken-reference)
-* [Path Dependence](../../tech_docs/visual/vr_game_environments.md)
+* [Path Dependence](../../TECH_DOCS/VISUAL/VR_GAME_ENVIRONMENTS.MD)
 
 ***
 

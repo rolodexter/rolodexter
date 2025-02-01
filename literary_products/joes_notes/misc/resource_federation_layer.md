@@ -6,7 +6,7 @@ The Resource Federation Layer (RFL) is a critical component of the [Exabits Prot
 
 ## Key Features
 
-1. [**Resource Abstraction**](../RESOURCE_ABSTRACTION.md): RFL provides a unified interface for heterogeneous compute resources, including [GPUs](../GPU.md), [TPUs](../TPU.md), and [quantum processors](../../../tech_docs/visual/movies.md).
+1. [**Resource Abstraction**](../RESOURCE_ABSTRACTION.md): RFL provides a unified interface for heterogeneous compute resources, including [GPUs](../GPU.md), [TPUs](../TPU.md), and [quantum processors](../../../TECH_DOCS/VISUAL/MOVIES.MD).
 2. [**Dynamic Allocation**](../DYNAMIC_ALLOCATION.md): Implements intelligent algorithms to allocate tasks to the most suitable resources based on performance requirements and current network conditions.
 3. [**Load Balancing**](../LOAD_BALANCING.md): Ensures optimal distribution of computational workloads across the network to maximize efficiency and minimize latency.
 4. [**Fault Tolerance**](../FAULT_TOLERANCE.md): Incorporates mechanisms to handle node failures and network disruptions, ensuring task completion and data integrity.
