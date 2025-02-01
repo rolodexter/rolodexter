@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Innovations in the public sector** encompass transformative ideas, strategies, and technologies that enhance the quality, efficiency, and transparency of governmental services. Over the past decade, breakthroughs in [**blockchain**](../crypto_economics/bitcoin_basics.md), [**DeFi**](../CRYPTO/DEFI_INTRO.md), and [**cryptographic**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) applications have paved new paths for [**public agencies**](../misc/public_agencies.md) to optimize [**administrative processes**](../misc/administrative_processes.md) and foster higher levels of [**public trust**](../misc/public_trust.md). Simultaneously, AI-driven systems, digital identity frameworks, and collaborative governance models are reshaping the way governments address everything from resource allocation to citizen engagement.
+**Innovations in the public sector** encompass transformative ideas, strategies, and technologies that enhance the quality, efficiency, and transparency of governmental services. Over the past decade, breakthroughs in [**blockchain**](../crypto_economics/bitcoin_basics.md), [**DeFi**](../CRYPTO/DEFI_INTRO.md), and [**cryptographic**](../CRYPTO/CRYPTOGRPAHY_BASICS_.MD) applications have paved new paths for [**public agencies**](../misc/public_agencies.md) to optimize [**administrative processes**](../BUSINESS/administrative_processes.mds.md) and foster higher levels of [**public trust**](../misc/public_trust.md). Simultaneously, AI-driven systems, digital identity frameworks, and collaborative governance models are reshaping the way governments address everything from resource allocation to citizen engagement.
 
 ***
 

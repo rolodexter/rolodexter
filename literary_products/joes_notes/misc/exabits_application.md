@@ -44,14 +44,14 @@ Based on the limited information I have as an outsider, and acknowledging that t
 
 In 2024, I served as DataHive's Chief Strategy Officer. Initially, I engaged as a consultant (1099), transitioning to a W2 to qualify for DataHive's ESOP. I designed [DataHive's core protocol](https://github.com/datahiv3/Core-Protocol), mid-level [smart contract architecture](https://docs.google.com/document/d/1WYE5i-4UJOUmDWNEUC-6QCD1NwRpCeqs/edit?usp=drive_link\&ouid=111669319430294495371\&rtpof=true\&sd=true) (links to docs are drafts and left deliberately vague), and a DataHive SDK leveraging our testnet on OP Sepolia. This allowed enterprise customers to "test drive" our vision for the mainnet. Additionally, I:
 
-1. Designed, deployed [DataHive's protocol and overall node architecture](microsoft.md); designed [DataHive's node sale operational framework](../../ENCYCLOPEDIA/CRYPTO/datahive_node_sale.mdYPTO/datahive_node_sale.md)
+1. Designed, deployed [DataHive's protocol and overall node architecture](../../TECHNOLOGY/microsoft.mdLOGY/microsoft.md); designed [DataHive's node sale operational framework](../../ENCYCLOPEDIA/CRYPTO/datahive_node_sale.mdYPTO/datahive_node_sale.md)
 2. Designed, deployed [foundational intelligence and knowledge models](medical_and_health_sciences.md)
-3. Established an [overarching valuation framework](microsoft_azure.md) that spans a diverse set of opportunity themes.
+3. Established an [overarching valuation framework](../../TECHNOLOGY/microsoft_azure.mdicrosoft_azure.md) that spans a diverse set of opportunity themes.
 4. Created an [internal cPanel for managing commnunity growth](../DATAHIVE_COMMUNITY.md) across all communication and social platforms.
 
 From 2020 to 2024, I also:
 
-1. Assisted [Mark](AETHIR.MD) with various technical documentation and strategy development at [Aethir](AETHIR.MD)
+1. Assisted [Mark](../CRYPTO/AETHIR.MD/AETHIR.MD) with various technical documentation and strategy development at../CRYPTO/AETHIR.MD(../CRYPTO/AETHIR.MD)
 2. Consulted with/for with the [Linux Foundation](../LINUX.md) and its hardware ISA partner, the [RISC-V Foundation](../RISCV.md)
 3. Contributed to various [DePIN projects](../DePIN.md), including [CivilAirspace's core protocol](https://github.com/rolodexter/CivilAirspace)
 

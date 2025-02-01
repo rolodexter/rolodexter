@@ -5,7 +5,7 @@ Here is a comprehensive table summarizing the celebrities who have lost their ho
 | **Celebrity**                 | **Location**                              | **Details**                                                                                                              |
 | ----------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Paris Hilton                  | [Malibu](malibu.md)                       | Lost her beach mansion; witnessed the destruction live on TV.                                                            |
-| Mandy Moore                   | [Altadena](altadena.md)                   | Home severely damaged by the [Eaton Fire](eaton_fire.md); her children's school and favorite restaurants also destroyed. |
+| Mandy Moore                   | [Altadena](../CURRENT_AFFAIRS/ALTADENA.MD)                   | Home severely damaged by the [Eaton Fire](eaton_fire.md); her children's school and favorite restaurants also destroyed. |
 | Billy Crystal                 | [Pacific Palisades](pacific_palisades.md) | Lost his family home of 45 years where he raised his children and grandchildren.                                         |
 | Cameron Mathison              | Altadena                                  | Home destroyed by the [Eaton Fire](eaton_fire.md); managed to retrieve some personal documents before evacuation.        |
 | Anna Faris                    | Pacific Palisades                         | Lost her [eco-friendly home](eco_friendly_homes.md); family safely evacuated.                                            |
@@ -20,7 +20,7 @@ Here is a comprehensive table summarizing the celebrities who have lost their ho
 | Adam Brody & Leighton Meester | Pacific Palisades                         | Their £7 million home was destroyed; no public comments made yet.                                                        |
 | Miles Teller & Keleigh Teller | Not specified                             | Their £7.5 million dream home was reduced to ashes.                                                                      |
 | Milo Ventimiglia              | Malibu                                    | Lost his home; wife is nine months pregnant, adding to the challenges of evacuation.                                     |
-| Mel Gibson                    | Malibu                                    | Home destroyed while he was working in [Austin, Texas](austin_texas.md).                                                 |
+| Mel Gibson                    | Malibu                                    | Home destroyed while he was working in [Austin, Texas](../CURRENT_AFFAIRS/austin_texas.mdIRS/austin_texas.md).                                                 |
 | Jeff Bridges                  | Malibu                                    | Lost his residence in the [Palisades Fire](palisades_fire.md).                                                           |
 | Sandra Lee                    | Malibu                                    | Evacuated as flames approached her cherished home; its status remains unclear but likely destroyed.                      |
 | Ricki Lake                    | Malibu                                    | Lost her "dream home," which she described as a place of deep emotional significance.                                    |

@@ -1,6 +1,6 @@
 # CONTINGENCY\_PLANS
 
-Contingency planning is a critical component of my personal and professional life. It involves preparing for unforeseen events and ensuring that I can respond effectively to challenges that may arise. By practicing [contingency planning](../../../LITERARY_PRODUCTS/JOES_NOTES/MISC/ADVANCED_THERAPIES_WEEK.MD), I not only safeguard my immediate interests but also create a framework for [resilience](broken-reference) throughout my lifetime.
+Contingency planning is a critical component of my personal and professional life. It involves preparing for unforeseen events and ensuring that I can respond effectively to challenges that may arise. By practicing [contingency planning](ADVANCED_THERAPIES_WEEK.MDsts but also create a framework for [resilience](broken-reference) throughout my lifetime.
 
 #### Daily Contingency Planning
 

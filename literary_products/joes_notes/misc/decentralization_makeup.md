@@ -36,7 +36,7 @@ Exabits' platform demonstrates several elements that contribute to the decentral
 1. [**Hybrid Infrastructure**](robertson_panel.md): Combining enterprise-grade GPUs in Tier-3/4 data centers with consumer-grade GPUs at edge nodes\[1].
 2. [**Tokenization**](broken-reference): EGPU tokens enable fractional ownership of compute resources, broadening participation\[3].
 3. [**Global Network**](../GLOBAL_NETWORK.md): Integration of over 65,000 GPUs worldwide during private beta, indicating geographic dispersion\[1].
-4. [**Resource Federation Layer (RFL)**](resource_federation_layer.md): Bridges diverse hardware types, promoting architectural diversity\[2].
+4. [**Resource Federation Layer (RFL)**](../CRYPTO/resource_federation_layer.mdn_layer.md): Bridges diverse hardware types, promoting architectural diversity\[2].
 5. [**DAO Governance**](../DAO_GOVERNANCE.md): Stakeholders participate in decision-making through on-chain voting mechanisms\[4].
 
 ### Implications for AGI Development
