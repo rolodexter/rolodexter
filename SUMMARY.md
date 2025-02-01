@@ -216,9 +216,9 @@
       * [The History and Evolution of AGI: From Concept to Pursuit](literary_products/joes_notes/ai/the-history-and-evolution-of-agi-from-concept-to-pursuit.md)
       * [AGI as a Prerequisite for Human Survival](literary_products/joes_notes/ai/agi-as-a-prerequisite-for-human-survival.md)
       * [SILOS](literary_products/joes_notes/ai/silos.md)
-      * [AI\_AND\_THE\_INEVITABILITY\_OF\_WAR](literary_products/joes_notes/ai/ai_and_the_inevitability_of_war.md)
+      * [AI\_AND\_THE\_INEVITABILITY\_OF\_WAR](LITERARY_PRODUCTS/JOES_NOTES/AI/AI_INEVITABILITY_WAR.MD
       * [AI Automation in Personal Productivity](literary_products/joes_notes/ai/ai-automation-in-personal-productivity.md)
-      * [AI\_DRVEN\_POLICY](literary_products/joes_notes/ai/ai_drven_policy.md)
+      * [AI\_DRVEN\_POLICY](LITERARY_PRODUCTS/JOES_NOTES/AI/AI_DRIVEN_POLICY.MDD)
       * [AI-Energy Nexus: Revolutionizing Energy Systems with Artificial Intelligence](literary_products/joes_notes/ai/ai-energy-nexus-revolutionizing-energy-systems-with-artificial-intelligence.md)
       * [AI for All: Democratizing Artificial Intelligence](literary_products/joes_notes/ai/ai-for-all-democratizing-artificial-intelligence.md)
       * [SLAs](literary_products/joes_notes/ai/slas.md)
