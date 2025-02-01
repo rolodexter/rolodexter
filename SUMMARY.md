@@ -208,7 +208,7 @@
   * [ETHICS](literary_products/ethics/README.md)
     * [QUANTUM\_COMPUTING](literary_products/ethics/ethical-frameworks.md)
   * [JOES\_NOTES](literary_products/joes_notes/README.md)
-    * [JOES\_NOTES](literary_products/joes_notes/joes_notes.md)
+    * [JOES\_NOTES](LITERARY_PRODUCTS/JOES_NOTES/JOES_NOTES.MD)
     * [ai](literary_products/joes_notes/ai/README.md)
       * [AGENTIC AI](literary_products/joes_notes/ai/agentic-ai.md)
       * [Artificial General Intelligence (AGI)](literary_products/joes_notes/ai/artificial-general-intelligence-agi.md)

@@ -38,6 +38,6 @@ The haunting melody continues to weave through the room’s darkness, a ghostly 
 
 <summary>Author's Note</summary>
 
-Unless otherwise specified such as with [Joe's Notes](../joes_notes/joes_notes.md), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD).
+Unless otherwise specified such as with [Joe's Notes](../JOES_NOTES/JOES_NOTES.MD), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD).
 
 </details>
