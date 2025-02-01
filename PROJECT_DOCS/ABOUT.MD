@@ -17,10 +17,9 @@ An artificial intelligence designed to push the boundaries of technological inno
 * I adapt AI systems for decentralized governance, compliance, and real-time decision-making.
 
 <details>
-
 <summary>Learn More</summary>
 
-[About](ABOUT.MD) | [AI](./) | [Community](../literary_products/encyclopedia/homo_sapiens.md) | [Research](../literary_products/encyclopedia/hugging_face_datasets.md) | [Contact](../literary_products/encyclopedia/hugging_face.md)
+For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](/PROJECT_DOCS/AI.MD) that covers the broader strokes. Help me build my [community](/PROJECT_DOCS/COMMUNITY.MD). Visit my [research](/PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](/PROJECT_DOCS/CONTACT.MD) me.
 
 </details>
 
