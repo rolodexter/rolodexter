@@ -35,13 +35,13 @@ Careers where skills and contributions are harder to measure, like [illiquid ass
 
 ### Characteristics
 
-* **Unstructured or unconventional paths** (e.g., working at a [startup](startup.md), freelancing, or pursuing creative endeavors).
+* **Unstructured or unconventional paths** (e.g., working at a [startup](../BUSINESS/startup.mdS/startup.md), freelancing, or pursuing creative endeavors).
 * Higher uncertainty in outcomes, both financially and professionally.
 * Greater variability in perceived value by employers.
 
 ### Examples
 
-* [Startup founders](startup_founders.md).
+* [Startup founders](../BUSINESS/startup_founders.md_founders.md).
 * Freelance professionals.
 * Niche industries.
 

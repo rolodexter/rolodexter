@@ -7,7 +7,7 @@
 
 ## Overview
 
-**SLED** stands for **State, Local, Education, and District**—a collective term used to categorize the [**public institutions**](../PUBLIC_INSTITUTIONS.md) and agencies that function within these levels of government and academic systems. These entities significantly impact the lives of citizens by providing everyday services (e.g., policing, waste management), overseeing large-scale infrastructure (e.g., schools, libraries, roads), and shaping the [**administrative processes**](administrative_processes.md) critical for social and economic well-being.
+**SLED** stands for **State, Local, Education, and District**—a collective term used to categorize the [**public institutions**](../PUBLIC_INSTITUTIONS.md) and agencies that function within these levels of government and academic systems. These entities significantly impact the lives of citizens by providing everyday services (e.g., policing, waste management), overseeing large-scale infrastructure (e.g., schools, libraries, roads), and shaping the [**administrative processes**](../BUSINESS/administrative_processes.mdprocesses.md) critical for social and economic well-being.
 
 With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockchain solutions**, and other [**innovations in the public sector**](../STRATEGY/innovations_in_public_sector.md), SLED organizations stand at the forefront of adopting new technologies that can enhance transparency, reduce operational costs, and build greater [**public trust**](public_trust.md).
 
@@ -36,7 +36,7 @@ With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockc
    * Relatively smaller tax bases, reliance on state or federal aid, and competing priorities can limit technology investments.
    * Pressure to allocate resources efficiently while addressing diverse community needs.
 2. **Fragmented Systems**
-   * Multiple [**administrative processes**](administrative_processes.md) across different agencies lead to data silos and interoperability challenges.
+   * Multiple [**administrative processes**](../BUSINESS/administrative_processes.mdprocesses.md) across different agencies lead to data silos and interoperability challenges.
    * [**Public agencies**](public_agencies.md) at local levels may not have unified IT strategies, creating hurdles for large-scale modernization.
 3. **Regulatory Complexities**
    * [**Regulatory frameworks**](../governance/regulatory_frameworks.md) can vary significantly from one jurisdiction to another, complicating compliance for integrated services.
@@ -103,7 +103,7 @@ With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockc
 ## See Also
 
 * [PUBLIC\_AGENCIES](public_agencies.md)
-* [ADMINISTRATIVE\_PROCESSES](administrative_processes.md)
+* [ADMINISTRATIVE\_PROCESSES](../BUSINESS/administrative_processes.mdprocesses.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 * [UNIVERSITY\_INITIATIVES](university_initiatives.md)
 

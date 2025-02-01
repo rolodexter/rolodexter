@@ -11,7 +11,7 @@ Catastrophe risks, including wildfires, floods, and earthquakes, have created a 
 ### 1. **Wildfires**
 
 * **Escalating Impact:**
-  * [Wildfires](los_angeles_wildfires.md) have increased in frequency and intensity due to [climate change](https://en.wikipedia.org/wiki/Climate_change) and prolonged droughts.
+  * [Wildfires](../MISC/los_angeles_wildfires.md) have increased in frequency and intensity due to [climate change](https://en.wikipedia.org/wiki/Climate_change) and prolonged droughts.
   * Examples include the [Woolsey Fire (2018)](https://en.wikipedia.org/wiki/Woolsey_Fire) and [Thomas Fire (2017)](https://en.wikipedia.org/wiki/Thomas_Fire), which caused billions in damages.
 * **Challenges for Insurers:**
   * High claims costs and unpredictable risk models.
@@ -56,7 +56,7 @@ Catastrophe risks, including wildfires, floods, and earthquakes, have created a 
 
 ### 1. **Dynamic Risk Assessment Using Blockchain**
 
-* **Integration:** Chainproof could leverage tools like the [Wildfire Risk Extreme](wildfire_risk_extreme.md) database to provide real-time data for dynamic risk assessment.
+* **Integration:** Chainproof could leverage tools like the [Wildfire Risk Extreme](../MISC/wildfire_risk_extreme.md) database to provide real-time data for dynamic risk assessment.
 * **Applications:**
   * Adjust premiums and coverage limits based on evolving risk metrics such as weather conditions, seismic activity, or flood projections.
 

@@ -142,6 +142,6 @@ In the context of product development and scaling, mathematical models enable th
 
 **Further Reading:**
 
-* [Physics-Inspired Management](../physics/physics_inspired_management.md)
+* [Physics-Inspired Management](../PHYSICS/PHYSICS_MANAGEMENT.MD
 * [Products as Interfaces](../misc/products_as_interfaces.md)
 * [Network Effects](../NETWORK_EFFECTS.md)

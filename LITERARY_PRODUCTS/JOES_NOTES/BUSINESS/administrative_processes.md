@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Administrative processes** refer to the workflows, procedures, and governance rules that guide how [**public agencies**](public_agencies.md) and private organizations manage resources, documents, regulatory compliance, and day-to-day operations. In the public sector—especially within [**SLED verticals**](sled_vertices.md)—administrative processes are critical for maintaining accountability, operational efficiency, and [**public trust**](public_trust.md). As [**technology innovation**](../STRATEGY/tech_innovation.md) accelerates, emerging tools like [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**DeFi**](../DEFI_BASICS.md) frameworks offer new opportunities to optimize and decentralize these administrative mechanisms.
+**Administrative processes** refer to the workflows, procedures, and governance rules that guide how [**public agencies**](../MISC/public_agencies.md) and private organizations manage resources, documents, regulatory compliance, and day-to-day operations. In the public sector—especially within [**SLED verticals**](../MISC/sled_vertices.md)—administrative processes are critical for maintaining accountability, operational efficiency, and [**public trust**](../MISC/public_trust.md). As [**technology innovation**](../STRATEGY/tech_innovation.md) accelerates, emerging tools like [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**DeFi**](../DEFI_BASICS.md) frameworks offer new opportunities to optimize and decentralize these administrative mechanisms.
 
 ***
 
@@ -40,7 +40,7 @@
 
 1. **Document Authentication**
    * Time-stamped, tamper-evident digital records stored on-chain (e.g., property titles, academic certificates, licenses).
-   * Reduces fraud and streamlines verification for [**public services**](public_services.md).
+   * Reduces fraud and streamlines verification for [**public services**](../MISC/public_services.md).
 2. **Procurement and Contract Management**
    * Automated tender processes that enforce [**governance models**](../AI/governance_models.md) through smart contracts.
    * Minimize corruption risks, accelerate supplier onboarding, and integrate with payment systems.
@@ -57,13 +57,13 @@
 
 1. **Assessment and Strategy**
    * Conduct thorough evaluations of current workflows, pain points, and security gaps.
-   * Align modernization goals with [**technological leaps**](technological_leaps.md) and stakeholder needs.
+   * Align modernization goals with [**technological leaps**](../MISC/technological_leaps.md) and stakeholder needs.
 2. **Digital Infrastructure and Training**
    * Upgrade legacy systems to interoperable, [**scalable**](../BLOCKCHAIN_SCALABILITY.md) platforms.
    * Provide staff with necessary training on new tools (e.g., cryptographic basics, smart contract scripting).
 3. **Regulatory and Policy Frameworks**
-   * Establish clear guidelines for [**government adoption of blockchain**](government_adoption.md) and digital signatures.
-   * Address data privacy, compliance, and sovereignty concerns—particularly if [**financial systems**](../STRATEGY/financial_systems.md) and [**asset classes**](asset_classes.md) are involved.
+   * Establish clear guidelines for [**government adoption of blockchain**](../MISC/government_adoption.md) and digital signatures.
+   * Address data privacy, compliance, and sovereignty concerns—particularly if [**financial systems**](../STRATEGY/financial_systems.md) and [**asset classes**](../CRYPTO/asset_classes.mdclasses.md) are involved.
 4. **Pilot Projects**
    * Test new platforms in controlled settings (e.g., a single department or municipality) to gather performance data.
    * Scale successful pilots and integrate them with [**service delivery models**](../AI/service_delivery_models.md) across the organization.
@@ -101,7 +101,7 @@
 ## See Also
 
 * [GOVERNANCE\_MODELS](../AI/governance_models.md)
-* [PUBLIC\_AGENCIES](public_agencies.md)
+* [PUBLIC\_AGENCIES](../MISC/public_agencies.md)
 * [BLOCKCHAIN\_REGULATIONS](../BLOCKCHAIN_REGULATIONS.md)
 * [SERVICE\_DELIVERY\_MODELS](../AI/service_delivery_models.md)
 

@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Governance models** define the frameworks, rules, and decision-making processes used by [**public agencies**](../misc/public_agencies.md), private corporations, and **decentralized communities** to regulate operations, allocate resources, and shape organizational objectives. In the context of [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**decentralized finance (DeFi)**](../DEFI_BASICS.md), governance models can range from traditional hierarchical structures to fully **liquid democracy** or **DAO-based** frameworks. Understanding and selecting the right governance model is crucial for [**public-sector engagement**](../governance/public_sector_engagement.md) with emerging technologies, particularly when navigating [**administrative processes**](../misc/administrative_processes.md) and [**regulatory frameworks**](../governance/regulatory_frameworks.md).
+**Governance models** define the frameworks, rules, and decision-making processes used by [**public agencies**](../misc/public_agencies.md), private corporations, and **decentralized communities** to regulate operations, allocate resources, and shape organizational objectives. In the context of [**blockchain**](../crypto_economics/bitcoin_basics.md) and [**decentralized finance (DeFi)**](../DEFI_BASICS.md), governance models can range from traditional hierarchical structures to fully **liquid democracy** or **DAO-based** frameworks. Understanding and selecting the right governance model is crucial for [**public-sector engagement**](../governance/public_sector_engagement.md) with emerging technologies, particularly when navigating [**administrative processes**](../BUSINESS/administrative_processes.mds.md) and [**regulatory frameworks**](../governance/regulatory_frameworks.md).
 
 ***
 
@@ -20,7 +20,7 @@
    * Citizens elect lawmakers to represent their interests; policymaking is conducted in legislative bodies.
    * Offers procedural checks and balances to maintain [**public trust**](../misc/public_trust.md) and transparency.
 3. **Bureaucratic Structures**
-   * [**Administrative processes**](../misc/administrative_processes.md) can be complex and multi-layered, often seen in [**SLED (State, Local, Education, District)**](../misc/sled_vertices.md) contexts.
+   * [**Administrative processes**](../BUSINESS/administrative_processes.mds.md) can be complex and multi-layered, often seen in [**SLED (State, Local, Education, District)**](../misc/sled_vertices.md) contexts.
    * Can slow innovation due to rigid regulations, risk aversion, and siloed decision-making.
 
 ***
@@ -51,7 +51,7 @@
    * **Participatory budgeting** through **token-voting** could involve citizens directly in financial decisions (e.g., municipal improvements).
    * Engaging community members promotes inclusivity and aligns public expenditures with localized priorities.
 3. **Policy Compliance**
-   * Smart contracts can automate compliance checks in [**tax collection**](../misc/administrative_processes.md#tax-collection-reform), **procurement**, or **fund disbursement**—reducing human error and bureaucratic delay.
+   * Smart contracts can automate compliance checks in [**tax collection**](../BUSINESS/administrative_processes.mds.md#tax-collection-reform), **procurement**, or **fund disbursement**—reducing human error and bureaucratic delay.
    * [**Regulatory frameworks**](../governance/regulatory_frameworks.md) must adapt to these new governance processes to ensure legal validity.
 4. **Scalability and Interoperability**
    * Governance models must handle growing user bases and integrate multiple organizations or agencies.

@@ -117,7 +117,7 @@
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 * [PUBLIC\_AGENCIES](public_agencies.md)
 * [SENSE\_OF\_URGENCY](sense_of_urgency.md)
-* [ADMINISTRATIVE\_PROCESSES](administrative_processes.md)
+* [ADMINISTRATIVE\_PROCESSES](../BUSINESS/administrative_processes.mdprocesses.md)
 
 For further reading, explore resources from [OECD](https://www.oecd.org/governance/) and [Transparency International](https://www.transparency.org/) for global perspectives on promoting integrity, open governance, and sustained public trust.
 

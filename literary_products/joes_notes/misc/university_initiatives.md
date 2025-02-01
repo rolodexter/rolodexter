@@ -24,7 +24,7 @@
    * Joint ventures can accelerate **proof-of-concept** implementations and scale-up potential.
 4. **Policy and Public Engagement**
    * Through public seminars and advisory boards, universities can shape [**regulatory frameworks**](../governance/regulatory_frameworks.md) by sharing evidence-based research with legislators and policymakers.
-   * Partnerships with [**SLED verticals**](sled_vertices.md) enable data-driven decision-making in areas like identity management, digital credentials, and [**administrative processes**](administrative_processes.md).
+   * Partnerships with [**SLED verticals**](sled_vertices.md) enable data-driven decision-making in areas like identity management, digital credentials, and [**administrative processes**](../BUSINESS/administrative_processes.mdprocesses.md).
 
 ***
 

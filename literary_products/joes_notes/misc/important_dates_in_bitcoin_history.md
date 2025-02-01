@@ -64,7 +64,7 @@
 
 * **Date:** December 2017
 * **Event:** Bitcoin’s price surpasses **$20,000** on some exchanges, capping a year of exponential growth.
-* **Significance:** Catalyzes global interest in Bitcoin as both an investment vehicle and a [store of value](asset_classes.md#store-of-value).
+* **Significance:** Catalyzes global interest in Bitcoin as both an investment vehicle and a [store of value](../CRYPTO/asset_classes.mdclasses.md#store-of-value).
 * **Aftermath:** Led to heightened volatility and amplified discussions about the sustainability of rapid price gains.
 
 ***

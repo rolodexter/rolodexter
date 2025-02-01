@@ -15,7 +15,7 @@
 
 1. **Policy Implementation**
    * Enforce statutes, regulations, and executive directives—often managing cross-agency collaboration.
-   * Oversee [**administrative processes**](administrative_processes.md) (e.g., licensing, permitting) to ensure accountability and [**public trust**](public_trust.md).
+   * Oversee [**administrative processes**](../BUSINESS/administrative_processes.mdprocesses.md) (e.g., licensing, permitting) to ensure accountability and [**public trust**](public_trust.md).
 2. **Service Delivery**
    * Provide core services such as public health, education, transportation, waste management, and utilities.
    * Manage community engagement channels to respond to citizen needs effectively.
@@ -99,7 +99,7 @@
 ## See Also
 
 * [SLED\_VERTICES](sled_vertices.md)
-* [ADMINISTRATIVE\_PROCESSES](administrative_processes.md)
+* [ADMINISTRATIVE\_PROCESSES](../BUSINESS/administrative_processes.mdprocesses.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 * [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../STRATEGY/innovations_in_public_sector.md)
 

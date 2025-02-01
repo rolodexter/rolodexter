@@ -39,7 +39,7 @@
    * Citizens can track how funds are allocated, fostering [**public trust**](public_trust.md).
 2. **Efficiency and Cost Reduction**
    * Reduces the need for manual paperwork; smart contracts automate routine tasks like approvals and benefit disbursements.
-   * [**Administrative processes**](administrative_processes.md) become more streamlined, freeing up human resources for higher-value work.
+   * [**Administrative processes**](../BUSINESS/administrative_processes.mdprocesses.md) become more streamlined, freeing up human resources for higher-value work.
 3. **Fraud Prevention**
    * Replaces easily altered paper documents with cryptographically secured records.
    * Minimized risk of duplicative benefits, identity theft, or tampered official documents.
@@ -119,7 +119,7 @@
 
 ## See Also
 
-* [ADMINISTRATIVE\_PROCESSES](administrative_processes.md)
+* [ADMINISTRATIVE\_PROCESSES](../BUSINESS/administrative_processes.mdprocesses.md)
 * [GOVERNMENT\_ADOPTION](government_adoption.md)
 * [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../STRATEGY/innovations_in_public_sector.md)
 * [DEFI\_INTRO](../CRYPTO/DEFI_INTRO.md)

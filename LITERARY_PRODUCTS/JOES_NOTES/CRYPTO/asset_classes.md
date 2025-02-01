@@ -7,7 +7,7 @@
 
 ## Overview
 
-An **asset class** typically refers to a group of financial instruments that exhibit similar characteristics, behave similarly in the marketplace, and are subject to similar laws and regulations. Traditional examples include **equities**, **bonds**, **real estate**, and **commodities**. However, the rise of [**Bitcoin**](../crypto_economics/bitcoin.md) and other [**cryptocurrencies**](../CRYPTO/CRYPTOCURRENCIES.MD) has led to the emergence of entirely new digital asset classes that challenge long-held assumptions about **store of value** and **monetary policy**.
+An **asset class** typically refers to a group of financial instruments that exhibit similar characteristics, behave similarly in the marketplace, and are subject to similar laws and regulations. Traditional examples include **equities**, **bonds**, **real estate**, and **commodities**. However, the rise of [**Bitcoin**](../crypto_economics/bitcoin.md) and other [**cryptocurrencies**](CRYPTOCURRENCIES.MD) has led to the emergence of entirely new digital asset classes that challenge long-held assumptions about **store of value** and **monetary policy**.
 
 ***
 
@@ -68,7 +68,7 @@ As [**fintech disruptors**](../FINTECH_INNOVATORS.md) and legacy financial playe
 
 * **Regulatory Changes**
   * Governments and financial authorities are updating frameworks to accommodate new forms of digital ownership and trading.
-  * [Public agencies](public_agencies.md) considering [government adoption of Bitcoin](government_adoption.md) must balance innovation with consumer protection and systemic stability.
+  * [Public agencies](../MISC/public_agencies.md) considering [government adoption of Bitcoin](../MISC/government_adoption.md) must balance innovation with consumer protection and systemic stability.
 * **Market Maturity**
   * Over time, digital asset classes may develop similar market instruments such as futures, options, and exchange-traded funds (ETFs).
   * Maturation often leads to increased liquidity, which can reduce price volatility and attract broader participation.
@@ -92,9 +92,9 @@ As [**fintech disruptors**](../FINTECH_INNOVATORS.md) and legacy financial playe
 ## See Also
 
 * [BITCOIN](../crypto_economics/bitcoin.md)
-* [CRYPTOCURRENCIES](../CRYPTO/CRYPTOCURRENCIES.MD)
+* [CRYPTOCURRENCIES](CRYPTOCURRENCIES.MD)
 * [FINANCIAL\_INSTITUTIONS](../STRATEGY/financial_institutions.md)
-* [GOVERNMENT\_ADOPTION](government_adoption.md)
+* [GOVERNMENT\_ADOPTION](../MISC/government_adoption.md)
 
 For an in-depth discussion on traditional vs. digital assets, consult the [Investopedia entry on asset classes](https://www.investopedia.com/terms/a/assetclasses.asp) and the [Bitcoin Wikipedia article](https://en.wikipedia.org/wiki/Bitcoin).
 
