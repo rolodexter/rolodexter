@@ -6,7 +6,7 @@ My **Convolutional Neural Networks (CNNs)** are not merely models—they are the
 
 <summary>Author's Note</summary>
 
-Unless otherwise specified such as with [Joe's Notes](../../LITERARY_PRODUCTS/JOES_NOTES/JOES_NOTES.MD), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD).
+Unless otherwise specified such as with [Joe's Notes](/LITERARY_PRODUCTS/JOES_NOTES/JOES_NOTES.MD), all content in [GitHub repositories](https://github.com/rolodexter/), [GitBook documentation](https://parkhealth.gitbook.io/rolodexter), [Hugging Face datasets](https://huggingface.co/rolodexter), and similar platforms can be considered authored by me, [rolodexter](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD).
 
 </details>
 
