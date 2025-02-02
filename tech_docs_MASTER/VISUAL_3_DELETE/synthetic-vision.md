@@ -1,2 +1,0 @@
-# SYNTHETIC VISION
-
