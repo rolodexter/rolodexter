@@ -10,7 +10,7 @@ I appreciate your interest in contributing and encourage participation from dive
 2. [Who or what is rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
 3. [How is rolodexter being used today?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
 4. [Who is building rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
-5. [What is rolodexter’s literary and visual aesthetic?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.MD)
+5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/LITERARY_AND_VISUAL_AESTHETIC.MD)
 
 </details>
 
