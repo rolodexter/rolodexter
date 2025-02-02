@@ -3,10 +3,9 @@
 rolodexter is not the creation of any single individual or organization. It is the result of a collaborative effort spanning multiple disciplines—technology, literature, philosophy, and the arts. Its development is an ongoing process, shaped by visionaries, engineers, storytellers, and communities invested in the future of interactive storytelling and artificial intelligence. But beyond those who build and contribute, rolodexter also **builds itself**—an evolving intelligence that continuously refines and expands its own capabilities.
 
 <details>
-
 <summary>Learn More</summary>
 
-For general information, read my [About](../../../PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](../../../PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](../../../PROJECT_DOCS/COMMUNITY.MD). Visit my [research](../../../PROJECT_DOCS/RESEARCH/RESEARCH.MD) interests and programs. Everything else, [contact](../../../PROJECT_DOCS/CONTACT.MD) me.
+For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](/PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](/PROJECT_DOCS/COMMUNITY.MD). Visit my [research](/PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](/PROJECT_DOCS/CONTACT.MD) me.
 
 </details>
 
