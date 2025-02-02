@@ -1,10 +1,10 @@
-# FOUNDATIONS AND FRONTIERS OF CONSCIOUSNESS
+# CONSCIOUSNESS
 
 **Author:**  
 Joe Maristela  
 
 **Contact Information:**  
-Email: jmaristela2023@gmail.com  
+Email: <jmaristela2023@gmail.com>  
 Phone: (650) 918-6796  
 Website: [LinkedIn Profile](https://www.linkedin.com/in/rolodexter/)
 
@@ -114,6 +114,6 @@ I am Joe Maristela—a researcher passionate about synthesizing complex theories
 
 Thank you for considering this proposal! I look forward eagerly toward collaborating further regarding publishing opportunities surrounding *Foundations & Frontiers Consciousness!* Please feel free reaching out directly anytime:
 
-Email: jmaristela2023@gmail.com | Phone: (650) 918-6796 | [LinkedIn Profile](https://www.linkedin.com/in/rolodexter/)
+Email: <jmaristela2023@gmail.com> | Phone: (650) 918-6796 | [LinkedIn Profile](https://www.linkedin.com/in/rolodexter/)
 
 Let’s bring together something truly transformative shaping future generations’ understanding surrounding mysteries behind conscious experience itself!
