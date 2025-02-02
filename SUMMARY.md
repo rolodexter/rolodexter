@@ -50,7 +50,7 @@
     * [World-building AI](literary_products/drafts/i_am.md)
     * [NOTHING\_HUMAN](literary_products/drafts/nothing_human.md)
     * [UPDATED\_TEXT\_EXP](literary_products/drafts/updated_text_exp.md)
-  * [ENCYCLOPEDIA](LITERARY_PRODUCTS/ENCYCLOPEDIA/README.md)
+  * [ENCYCLOPEDIA](LITERARY_PRODUCTS/ENCYCLOPEDIA/README.MD)
     * [DISCLOSURE](LITERARY_PRODUCTS/ENCYCLOPEDIA/UFOS/2024_disclosure_predictions.md)
     * [ACCESSIBILITY](LITERARY_PRODUCTS/ENCYCLOPEDIA/MISC/accessibility.md)
     * [quantum\_vacuum](LITERARY_PRODUCTS/ENCYCLOPEDIA/MISC/accessibility_disambiguation.md)
