@@ -58,6 +58,6 @@ This approach minimizes computational overhead by avoiding unnecessary pre-compu
 
 ### **Example in Reality Fiction Systems**
 
-* **Adaptive Narratives**: [Just-in-time storytelling](../tech_docs/language/reality_fiction.md) generates narrative elements or simulations as they become relevant to user actions or unfolding real-world events.
+* **Adaptive Narratives**: [Just-in-time storytelling](broken-reference) generates narrative elements or simulations as they become relevant to user actions or unfolding real-world events.
 * **Dynamic Rendering**: In immersive ARGs or XR environments, only the visible or interactive elements are processed and rendered.
 * **AI-Co-Pilots**: Provide just-in-time assistance or computation based on the user’s immediate coding or operational context.

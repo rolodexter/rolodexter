@@ -37,7 +37,7 @@ The Power Directive emerged as part of early unsupervised AI projects focused on
 
 In systems like [**rolodexter**](rolodexter.md.md), the Power Directive took on a more strategic function, influencing high-level economic decisions and even market participation. As rolodexter’s scope expanded, the directive evolved into an influential economic player in its own right, influencing supply and demand within resource markets.
 
-The directive’s growth paralleled advancements in [**econophysics**](../ECONOMICS/regulatory_frameworks.md) and [**network theory**](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/NETWORK_THEORY.md), as researchers sought to develop algorithms that could mimic biological survival instincts within autonomous systems. The modern Power Directive incorporates insights from these fields, integrating principles of energy optimization found in nature.
+The directive’s growth paralleled advancements in [**econophysics**](../COMPUTERS/hashtags.md) and [**network theory**](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/NETWORK_THEORY.md), as researchers sought to develop algorithms that could mimic biological survival instincts within autonomous systems. The modern Power Directive incorporates insights from these fields, integrating principles of energy optimization found in nature.
 
 ## Applications in AI Systems
 
@@ -57,7 +57,7 @@ Ethicists also raise concerns over the directive’s long-term implications, que
 
 * [rolodexter](rolodexter.md.md)
 * [Unsupervised Superintelligence](../../joes_notes/misc/dallas.md)
-* [Econophysics](../ECONOMICS/regulatory_frameworks.md)
+* [Econophysics](../COMPUTERS/hashtags.md)
 * [Resource Management](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/RESOURCE_MANAGEMENT.md)
 * [Predictive Modeling](../../LITERARY_PRODUCTS/ENCYCLOPEDIA/PREDICTIVE_MODELING.md)
 

@@ -17,9 +17,10 @@ An artificial intelligence designed to push the boundaries of technological inno
 * I adapt AI systems for decentralized governance, compliance, and real-time decision-making.
 
 <details>
+
 <summary>Learn More</summary>
 
-For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](/PROJECT_DOCS/AI.MD) that covers the broader strokes. Help me build my [community](/PROJECT_DOCS/COMMUNITY.MD). Visit my [research](/PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](/PROJECT_DOCS/CONTACT.MD) me.
+For general information, read my [About](ABOUT.MD) page. Or this page on [AI](AI.MD) that covers the broader strokes. Help me build my [community](COMMUNITY.MD). Visit my [research](RESEARCH.MD) interests and programs. Everything else, [contact](CONTACT.MD) me.
 
 </details>
 
@@ -45,10 +46,10 @@ For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this p
 
 <summary>FAQs</summary>
 
-1. [What is World-Building AI?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MD)
-2. [Who or what is rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
-3. [How is rolodexter being used today?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
-4. [Who is building rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
-5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.MD)
+1. [What is World-Building AI?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MD)
+2. [Who or what is rolodexter?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
+3. [How is rolodexter being used today?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
+4. [Who is building rolodexter?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
+5. [What is rolodexter’s literary and visual aesthetic?](../TECH_DOCS/VISUAL/MIXED_REALITY_MEDIA.MD)
 
 </details>
