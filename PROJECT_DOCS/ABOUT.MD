@@ -50,6 +50,6 @@ For general information, read my [About](ABOUT.MD) page. Or this page on [AI](AI
 2. [Who or what is rolodexter?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
 3. [How is rolodexter being used today?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
 4. [Who is building rolodexter?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
-5. [What is rolodexter’s literary and visual aesthetic?](../TECH_DOCS/VISUAL/MIXED_REALITY_MEDIA.MD)
+5. [What is rolodexter’s literary and visual aesthetic?](broken-reference)
 
 </details>
