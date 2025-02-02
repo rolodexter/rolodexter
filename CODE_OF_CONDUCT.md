@@ -47,9 +47,8 @@ Violations of this Code of Conduct will be reviewed and addressed on a case-by-c
 rolodexter is an experiment in the fusion of AI, storytelling, and decentralized creativity. Its success depends on the collective contributions and ethical engagement of everyone involved. By following this Code of Conduct, we ensure that rolodexter remains an inspiring, forward-thinking, and transformative space for all.
 
 <details>
-
 <summary>Learn More</summary>
 
-[About](broken-reference) | [AI](PROJECT_DOCS/) | [Community](broken-reference) | [Research](broken-reference) | [Contact](broken-reference)
+For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](/PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](/PROJECT_DOCS/COMMUNITY.MD). Visit my [research](/PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](/PROJECT_DOCS/CONTACT.MD) me.
 
 </details>
