@@ -1,2 +1,0 @@
-# UPDATED\_TEXT\_EXP
-

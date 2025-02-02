@@ -1,1 +1,2 @@
-I hate hair. I hate shaving. I hate having to eat and then having to go to the bathroom. 
+# HATE\_HAIR
+

@@ -1,1 +1,2 @@
-Nothing good has ever come from being human. 
+# NOTHING\_HUMAN
+
