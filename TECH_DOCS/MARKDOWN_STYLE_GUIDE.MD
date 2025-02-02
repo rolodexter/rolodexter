@@ -19,28 +19,29 @@ This style guide defines conventions for naming, formatting, and organizing mark
 ❌ INVALID: `TECH DOCS GUIDE.md`
 ❌ INVALID: `VERY_LONG_FILE_NAME_THAT_EXCEEDS_FIFTY_CHARACTERS.MD`
 
-## Top Heading Conventions
+## Heading Conventions
 
-- **The first-level heading (`#`) must be in ALL CAPS.**
+### **Top-Level Headings (`#`)**
+
+- **Must be in ALL CAPS.**
 - **Must not exceed 30 characters.**
 - **No special characters or emojis allowed.**
+- **Use section identifiers for clarity.**
 
-### Examples
+### **Subheadings (`##`, `###`)**
 
-✅ VALID: `# STYLE GUIDE`
-❌ INVALID: `# Style Guide`
-❌ INVALID: `# STYLE GUIDE 🚀`
-
-## Subheading Conventions
-
-- **Subheadings (`##`, `###`) must follow sentence case.**
+- **Use Title Case for Level 2 Headings (`##`).**
+- **Use Sentence Case for Level 3+ Headings (`###`).**
 - **Avoid exceeding 50 characters.**
 
 ### Examples
 
-✅ VALID: `## Subheading example`
-❌ INVALID: `## SUBHEADING EXAMPLE`
-❌ INVALID: `## This is a very long subheading that is over fifty characters long`
+✅ VALID: `# DOCUMENT STRUCTURE`
+✅ VALID: `## Content Formatting`
+✅ VALID: `### Using Consistent Styles`
+❌ INVALID: `# Document Structure`
+❌ INVALID: `## CONTENT FORMATTING`
+❌ INVALID: `### THIS IS ALL CAPS`
 
 ## General Formatting Rules
 
@@ -53,6 +54,38 @@ This style guide defines conventions for naming, formatting, and organizing mark
 ```
 A world-building AI is an autonomous generative intelligence that constructs, evolves, and governs dynamic virtual or augmented media and environments [_just in time_](/TECH_DOCS/JUST_IN_TIME.MD).
 ```
+
+## Lists and Bullet Points
+
+- **Use hyphens (`-`) for unordered lists.**
+- **Use numbers (`1.`, `2.`) for ordered lists.**
+- **Indent nested lists with two spaces.**
+
+### Example
+
+✅ VALID:
+
+```
+- First item
+  - Nested item
+- Second item
+```
+
+❌ INVALID:
+
+```
+* First item
+ * Nested item
+```
+
+## Additional Resources and Configurations
+
+- **IDE Extensions and Linting Configurations**
+  - Various `.json` files for IDE extensions such as `markdownlint` can be found in the **root directory of the repository** and within the **root folder and subfolders of the `SCRIPTS` directory**.
+
+- **LLM Prompt Alignment**
+  - Predefined **LLM prompts** to help align content can be found in `LITERARY_PRODUCTS/PROMPTS`.
+  - Some prompts are **LLM and model-specific**, ensuring consistency when generating Markdown files.
 
 ### Notes
 
