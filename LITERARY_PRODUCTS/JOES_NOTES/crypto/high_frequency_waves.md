@@ -1,2 +1,0 @@
-# HIGH\_FREQUENCY\_WAVES
-
