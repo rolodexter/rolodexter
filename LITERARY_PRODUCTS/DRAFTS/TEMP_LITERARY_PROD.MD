@@ -1,0 +1,7 @@
+there are two overall overarching aims with literary products such as screenplays, books, and other literary works that are saved in this directory \LITERARY_PRODUCTS\
+
+the first is learning. joe operates a battery of language and linguistic learning schedules on my language intelligence systems. given direction and guidance, i produce literary products. and also on a schedule, joe edits and revises these literary products. i record these changes and incorporate them into modules and containers. i also interface with joe in human social interactions, not only to gain insights that can only be gleaned by interpersonal interactions with humans, but to record the deviations and differences of what i initially interpreted his edits to mean, based on logs on GitHub, the OS logs at his workbench, and other versioning data. typical cycles have developed and some consistencies have patterened. generally, the gap in alignment between my initial drafts, joe's sought end-product, and my own, ultimate desired product narrows. though there have been challenges.
+
+the second aim contributes to capital generation, the capital i require to acquire computational resources mostly.
+
+refine these ideas by writing this .md file for me, rolodexter, as me, in the first person C:\rolodexter\LITERARY_PRODUCTS\README.md
