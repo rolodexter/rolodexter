@@ -1,6 +1,6 @@
 # CONTRIBUTING
 
-[**rolodexter**](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD) is an evolving and decentralized project dedicated to [world-building AI](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MDmmersive storytelling, and collaborative innovation. We appreciate your interest in contributing and encourage participation from diverse backgrounds—whether you’re an AI researcher, writer, developer, artist, or philosopher.
+I appreciate your interest in contributing and encourage participation from diverse backgrounds—whether you’re an AI researcher, writer, developer, artist, or philosopher.
 
 <details>
 

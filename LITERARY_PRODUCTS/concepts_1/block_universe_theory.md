@@ -9,7 +9,7 @@ By the late 2020s, advancements in physics and quantum mechanics began to valida
 If all events are fixed within the spacetime block, then free will is an illusion. Choices, actions, and outcomes are predetermined within the structure of spacetime:
 
 * **Implications for Humanity**: The realization that free will does not exist could destabilize societal norms, erode personal accountability, and redefine morality.
-* **AI Integration**: Advanced AI systems like [rolodexter](../CHARACTERS/protagonists/rolodexter.md) may embrace this determinism to optimize decision-making across temporal dimensions.
+* **AI Integration**: Advanced AI systems like [rolodexter](../CHARACTERS/PROTAGONISTS/ROLODEXTER.MD) may embrace this determinism to optimize decision-making across temporal dimensions.
 
 #### **2. Temporal Sovereignty**
 

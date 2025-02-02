@@ -20,7 +20,7 @@
     * [PathDependence-Physics-CreativeDestruction](literary_products/books/pathdependence-physics-creativedestruction.md)
   * [CHARACTERS](LITERARY_PRODUCTS/CHARACTERS/README.md)
     * [PROTAGONISTS](LITERARY_PRODUCTS/CHARACTERS/protagonists/README.md)
-      * [ROLODEXTER](LITERARY_PRODUCTS/CHARACTERS/protagonists/rolodexter.md)
+      * [ROLODEXTER](LITERARY_PRODUCTS/CHARACTERS/PROTAGONISTS/ROLODEXTER.MD)
   * [CONCEPTS](literary_products/concepts/README.md)
     * [ARTISTIC EXPRESSION](literary_products/concepts/art_expression.md)
     * [BLOCK\_UNIVERSE\_THEORY](literary_products/concepts/block_universe_theory.md)
