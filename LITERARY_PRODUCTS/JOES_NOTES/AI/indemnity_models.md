@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Indemnity insurance models, which provide compensation based on actual losses incurred, have long been a cornerstone of the insurance industry. However, these models face significant challenges in California due to the escalating frequency and severity of wildfires and other catastrophes. Traditional indemnity processes are often slow, opaque, and expensive, leaving policyholders vulnerable during critical moments. [Chainproof](chainproof.md) offers an alternative by integrating blockchain technology, cryptography, and zero-knowledge proofs (ZKPs) to create transparent, efficient, and scalable indemnity solutions. The implications of these innovations extend far beyond California, influencing global insurance markets.
+Indemnity insurance models, which provide compensation based on actual losses incurred, have long been a cornerstone of the insurance industry. However, these models face significant challenges in California due to the escalating frequency and severity of wildfires and other catastrophes. Traditional indemnity processes are often slow, opaque, and expensive, leaving policyholders vulnerable during critical moments. [Chainproof](../CRYPTO/chainproof.md) offers an alternative by integrating blockchain technology, cryptography, and zero-knowledge proofs (ZKPs) to create transparent, efficient, and scalable indemnity solutions. The implications of these innovations extend far beyond California, influencing global insurance markets.
 
 ***
 
@@ -141,4 +141,4 @@ Indemnity insurance models, which provide compensation based on actual losses in
 
 ## Conclusion
 
-Indemnity models are critical to providing financial stability in times of crisis, but traditional approaches are ill-suited to the challenges of California’s evolving risk landscape. By leveraging blockchain, cryptography, and zero-knowledge proofs, [Chainproof](chainproof.md) offers scalable, efficient, and privacy-compliant alternatives that redefine indemnity insurance. The innovations pioneered in California will have far-reaching implications, shaping the future of insurance markets globally.
+Indemnity models are critical to providing financial stability in times of crisis, but traditional approaches are ill-suited to the challenges of California’s evolving risk landscape. By leveraging blockchain, cryptography, and zero-knowledge proofs, [Chainproof](../CRYPTO/chainproof.md) offers scalable, efficient, and privacy-compliant alternatives that redefine indemnity insurance. The innovations pioneered in California will have far-reaching implications, shaping the future of insurance markets globally.

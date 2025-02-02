@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Mutual coverage schemes, where members pool resources to share risks, offer a promising alternative to traditional insurance models. In California’s ongoing homeowners insurance crisis, driven by escalating wildfire risks, such schemes can provide cost-effective, transparent, and community-focused solutions. [Chainproof](../AI/chainproof.md) enhances mutual coverage schemes by integrating blockchain technology, cryptographic security, and zero-knowledge proofs (ZKPs). These innovations ensure privacy, efficiency, and scalability, setting a new standard for decentralized insurance globally.
+Mutual coverage schemes, where members pool resources to share risks, offer a promising alternative to traditional insurance models. In California’s ongoing homeowners insurance crisis, driven by escalating wildfire risks, such schemes can provide cost-effective, transparent, and community-focused solutions. [Chainproof](../CRYPTO/chainproof.md) enhances mutual coverage schemes by integrating blockchain technology, cryptographic security, and zero-knowledge proofs (ZKPs). These innovations ensure privacy, efficiency, and scalability, setting a new standard for decentralized insurance globally.
 
 ***
 
@@ -122,4 +122,4 @@ Mutual coverage schemes, where members pool resources to share risks, offer a pr
 
 ## Conclusion
 
-Mutual coverage schemes provide a viable alternative to traditional insurance models, particularly in high-risk markets like California. By integrating blockchain technology, cryptography, and zero-knowledge proofs, [Chainproof](../AI/chainproof.md) offers scalable, efficient, and privacy-compliant solutions. These innovations not only address California’s immediate needs but also set a precedent for global insurance modernization, fostering resilience in an increasingly volatile world.
+Mutual coverage schemes provide a viable alternative to traditional insurance models, particularly in high-risk markets like California. By integrating blockchain technology, cryptography, and zero-knowledge proofs, [Chainproof](../CRYPTO/chainproof.md) offers scalable, efficient, and privacy-compliant solutions. These innovations not only address California’s immediate needs but also set a precedent for global insurance modernization, fostering resilience in an increasingly volatile world.

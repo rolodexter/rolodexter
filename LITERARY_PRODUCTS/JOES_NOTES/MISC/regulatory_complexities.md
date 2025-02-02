@@ -2,7 +2,7 @@
 
 ## Introduction
 
-California’s homeowners insurance market is constrained by stringent regulations, which pose significant challenges for innovation in risk management and insurance products. Platforms like [Chainproof](../AI/chainproof.md) offer an opportunity to overcome these complexities by leveraging blockchain technology, cryptographic methods, and decentralized systems. By integrating advanced cryptography, such as zero-knowledge proofs (ZKPs), Chainproof can provide transparent, compliant, and efficient insurance solutions tailored to California’s evolving regulatory environment.
+California’s homeowners insurance market is constrained by stringent regulations, which pose significant challenges for innovation in risk management and insurance products. Platforms like [Chainproof](../CRYPTO/chainproof.md) offer an opportunity to overcome these complexities by leveraging blockchain technology, cryptographic methods, and decentralized systems. By integrating advanced cryptography, such as zero-knowledge proofs (ZKPs), Chainproof can provide transparent, compliant, and efficient insurance solutions tailored to California’s evolving regulatory environment.
 
 ***
 

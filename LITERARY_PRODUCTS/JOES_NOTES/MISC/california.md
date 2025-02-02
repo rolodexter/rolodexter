@@ -2,7 +2,7 @@
 
 ## Introduction
 
-California’s escalating insurance crisis, driven by wildfires and other climate-related catastrophes, highlights the urgent need for innovative solutions. The challenges faced in California have downstream implications for the rest of the United States and even global markets, given the state’s role as an economic and policy leader. Platforms like [Chainproof](../AI/chainproof.md) leverage blockchain technology, cryptography, and zero-knowledge proofs (ZKPs) to reimagine insurance models. By integrating actuarial science into decentralized frameworks, Chainproof offers scalable, transparent, and privacy-compliant alternatives to traditional insurance.
+California’s escalating insurance crisis, driven by wildfires and other climate-related catastrophes, highlights the urgent need for innovative solutions. The challenges faced in California have downstream implications for the rest of the United States and even global markets, given the state’s role as an economic and policy leader. Platforms like [Chainproof](../CRYPTO/chainproof.md) leverage blockchain technology, cryptography, and zero-knowledge proofs (ZKPs) to reimagine insurance models. By integrating actuarial science into decentralized frameworks, Chainproof offers scalable, transparent, and privacy-compliant alternatives to traditional insurance.
 
 ***
 
@@ -124,4 +124,4 @@ California’s escalating insurance crisis, driven by wildfires and other climat
 
 ## Conclusion
 
-California’s insurance crisis represents both a significant challenge and an opportunity to innovate. By leveraging blockchain technology, cryptography, and zero-knowledge proofs, [Chainproof](../AI/chainproof.md) offers solutions that address the immediate needs of California while setting a precedent for global insurance markets. As the state continues to grapple with climate-related risks, the innovations pioneered here will undoubtedly shape the future of insurance worldwide.
+California’s insurance crisis represents both a significant challenge and an opportunity to innovate. By leveraging blockchain technology, cryptography, and zero-knowledge proofs, [Chainproof](../CRYPTO/chainproof.md) offers solutions that address the immediate needs of California while setting a precedent for global insurance markets. As the state continues to grapple with climate-related risks, the innovations pioneered here will undoubtedly shape the future of insurance worldwide.

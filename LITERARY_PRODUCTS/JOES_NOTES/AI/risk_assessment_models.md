@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Risk assessment models are critical in insurance for evaluating potential hazards and calculating premiums. However, traditional models often fall short in addressing dynamic, high-risk environments like California’s wildfire-prone regions. [Chainproof](chainproof.md) leverages blockchain technology, advanced cryptography, and zero-knowledge circuit design to create innovative alternatives to conventional risk assessment methods. By integrating actuarial science into a decentralized framework, Chainproof can enhance precision, transparency, and scalability in risk evaluation.
+Risk assessment models are critical in insurance for evaluating potential hazards and calculating premiums. However, traditional models often fall short in addressing dynamic, high-risk environments like California’s wildfire-prone regions. [Chainproof](../CRYPTO/chainproof.md) leverages blockchain technology, advanced cryptography, and zero-knowledge circuit design to create innovative alternatives to conventional risk assessment methods. By integrating actuarial science into a decentralized framework, Chainproof can enhance precision, transparency, and scalability in risk evaluation.
 
 ***
 
@@ -126,4 +126,4 @@ Risk assessment models are critical in insurance for evaluating potential hazard
 
 ## Conclusion
 
-Risk assessment models are at the core of effective insurance operations, and their transformation is essential to address challenges in high-risk markets like California. By integrating blockchain technology, zero-knowledge proofs, and actuarial science, [Chainproof](chainproof.md) can redefine how risks are evaluated and managed. This innovative approach not only enhances transparency and efficiency but also aligns with modern privacy standards, ensuring a resilient future for the insurance industry.
+Risk assessment models are at the core of effective insurance operations, and their transformation is essential to address challenges in high-risk markets like California. By integrating blockchain technology, zero-knowledge proofs, and actuarial science, [Chainproof](../CRYPTO/chainproof.md) can redefine how risks are evaluated and managed. This innovative approach not only enhances transparency and efficiency but also aligns with modern privacy standards, ensuring a resilient future for the insurance industry.

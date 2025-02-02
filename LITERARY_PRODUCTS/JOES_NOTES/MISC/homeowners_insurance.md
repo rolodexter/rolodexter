@@ -2,7 +2,7 @@
 
 ## Introduction
 
-California’s homeowners insurance market is in turmoil, with escalating wildfire risks driving traditional insurers to retreat from high-risk areas. This has left many homeowners underinsured or without coverage entirely. To address these challenges, innovative solutions such as decentralized insurance models powered by platforms like [Chainproof](../AI/chainproof.md) offer new opportunities for bridging gaps in the current system. By leveraging blockchain technology, parametric insurance models, and decentralized risk pools, homeowners insurance can become more accessible, efficient, and responsive to the unique risks posed by wildfires.
+California’s homeowners insurance market is in turmoil, with escalating wildfire risks driving traditional insurers to retreat from high-risk areas. This has left many homeowners underinsured or without coverage entirely. To address these challenges, innovative solutions such as decentralized insurance models powered by platforms like [Chainproof](../CRYPTO/chainproof.md) offer new opportunities for bridging gaps in the current system. By leveraging blockchain technology, parametric insurance models, and decentralized risk pools, homeowners insurance can become more accessible, efficient, and responsive to the unique risks posed by wildfires.
 
 ***
 
@@ -33,7 +33,7 @@ California’s homeowners insurance market is in turmoil, with escalating wildfi
 * **Benefits:**
   * Faster payouts reduce delays and disputes.
   * Transparent and automated processes ensure consistency and trust.
-* **Application:** Platforms like [Chainproof](../AI/chainproof.md) could leverage parametric models to offer scalable, wildfire-specific insurance solutions.
+* **Application:** Platforms like [Chainproof](../CRYPTO/chainproof.md) could leverage parametric models to offer scalable, wildfire-specific insurance solutions.
 
 ### 2. **Decentralized Risk Pools**
 
@@ -97,4 +97,4 @@ California’s homeowners insurance market is in turmoil, with escalating wildfi
 
 ## Conclusion
 
-California’s homeowners insurance crisis demands innovative solutions that go beyond traditional models. By adopting decentralized technologies and leveraging blockchain-powered platforms like [Chainproof](../AI/chainproof.md), the industry can create accessible, transparent, and efficient insurance products tailored to wildfire-prone regions. Collaboration between regulators, communities, and technology providers will be critical to building a resilient insurance ecosystem capable of addressing the unique challenges posed by California’s evolving risk landscape.
+California’s homeowners insurance crisis demands innovative solutions that go beyond traditional models. By adopting decentralized technologies and leveraging blockchain-powered platforms like [Chainproof](../CRYPTO/chainproof.md), the industry can create accessible, transparent, and efficient insurance products tailored to wildfire-prone regions. Collaboration between regulators, communities, and technology providers will be critical to building a resilient insurance ecosystem capable of addressing the unique challenges posed by California’s evolving risk landscape.

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Risk-based pricing is a fundamental approach in the insurance industry, allowing premiums to be adjusted based on the specific risks associated with each policyholder. However, in California, regulatory constraints and escalating risks from wildfires have exposed the limitations of traditional models. [Chainproof](../AI/chainproof.md) offers a next-generation alternative by leveraging blockchain technology, cryptography, and zero-knowledge proofs (ZKPs) to enable dynamic, transparent, and privacy-compliant pricing models. These innovations not only address California’s insurance crisis but also set a precedent for the global insurance landscape.
+Risk-based pricing is a fundamental approach in the insurance industry, allowing premiums to be adjusted based on the specific risks associated with each policyholder. However, in California, regulatory constraints and escalating risks from wildfires have exposed the limitations of traditional models. [Chainproof](chainproof.md) offers a next-generation alternative by leveraging blockchain technology, cryptography, and zero-knowledge proofs (ZKPs) to enable dynamic, transparent, and privacy-compliant pricing models. These innovations not only address California’s insurance crisis but also set a precedent for the global insurance landscape.
 
 ***
 
@@ -146,4 +146,4 @@ Risk-based pricing is a fundamental approach in the insurance industry, allowing
 
 ## Conclusion
 
-Risk-based pricing is at the heart of modern insurance, but traditional models are ill-equipped to address the dynamic challenges of California’s crisis. By integrating blockchain, cryptography, and zero-knowledge proofs, [Chainproof](../AI/chainproof.md) provides a transparent, efficient, and privacy-compliant alternative. The innovations pioneered in California will ripple across national and global markets, shaping the future of insurance in an increasingly risk-prone world.
+Risk-based pricing is at the heart of modern insurance, but traditional models are ill-equipped to address the dynamic challenges of California’s crisis. By integrating blockchain, cryptography, and zero-knowledge proofs, [Chainproof](chainproof.md) provides a transparent, efficient, and privacy-compliant alternative. The innovations pioneered in California will ripple across national and global markets, shaping the future of insurance in an increasingly risk-prone world.

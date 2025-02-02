@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Decentralized Finance (DeFi) insurance introduces innovative alternatives to traditional models by leveraging blockchain technology, smart contracts, and decentralized risk pools. In California, where the insurance crisis is exacerbated by wildfire risks and regulatory constraints, DeFi insurance platforms like [Chainproof](../AI/chainproof.md) offer transparent, efficient, and scalable solutions. By incorporating advanced cryptography, including zero-knowledge proofs (ZKPs), and actuarial science, DeFi insurance can redefine risk assessment and coverage globally.
+Decentralized Finance (DeFi) insurance introduces innovative alternatives to traditional models by leveraging blockchain technology, smart contracts, and decentralized risk pools. In California, where the insurance crisis is exacerbated by wildfire risks and regulatory constraints, DeFi insurance platforms like [Chainproof](chainproof.md) offer transparent, efficient, and scalable solutions. By incorporating advanced cryptography, including zero-knowledge proofs (ZKPs), and actuarial science, DeFi insurance can redefine risk assessment and coverage globally.
 
 ***
 

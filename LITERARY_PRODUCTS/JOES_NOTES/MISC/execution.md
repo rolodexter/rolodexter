@@ -46,7 +46,7 @@ In my role within [business development](business_development.md), I have design
 
 **Technical Projects**
 
-Managing technical projects has allowed me to apply my execution philosophy effectively. For instance, I led the deployment of [blockchain networks](../AI/blockchain_experience.md), ensuring seamless node integration while maintaining stability throughout the process.
+Managing technical projects has allowed me to apply my execution philosophy effectively. For instance, I led the deployment of [blockchain networks](../CRYPTO/blockchain_experience.md), ensuring seamless node integration while maintaining stability throughout the process.
 
 **Organizational Leadership**
 

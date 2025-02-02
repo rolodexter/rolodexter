@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Wildfire risk management is a critical challenge in California’s insurance market, as increasing wildfire frequency and intensity strain traditional models. [Chainproof](../AI/chainproof.md) offers blockchain-enabled solutions that address these challenges through transparency, scalability, and efficiency. By integrating cryptography, zero-knowledge proofs (ZKPs), and actuarial science, Chainproof redefines wildfire risk management while creating globally scalable frameworks for disaster resilience.
+Wildfire risk management is a critical challenge in California’s insurance market, as increasing wildfire frequency and intensity strain traditional models. [Chainproof](../CRYPTO/chainproof.md) offers blockchain-enabled solutions that address these challenges through transparency, scalability, and efficiency. By integrating cryptography, zero-knowledge proofs (ZKPs), and actuarial science, Chainproof redefines wildfire risk management while creating globally scalable frameworks for disaster resilience.
 
 ## The State of Wildfire Risk in California
 
@@ -110,4 +110,4 @@ Wildfire risk management is a critical challenge in California’s insurance mar
 
 ## Conclusion
 
-Wildfire risk management requires innovative solutions to address the challenges of California’s insurance market. By leveraging blockchain, zero-knowledge proofs, and actuarial science, [Chainproof](../AI/chainproof.md) transforms how risks are assessed, managed, and mitigated. These advancements not only address immediate needs but also set a precedent for global resilience in the face of climate-related disasters.
+Wildfire risk management requires innovative solutions to address the challenges of California’s insurance market. By leveraging blockchain, zero-knowledge proofs, and actuarial science, [Chainproof](../CRYPTO/chainproof.md) transforms how risks are assessed, managed, and mitigated. These advancements not only address immediate needs but also set a precedent for global resilience in the face of climate-related disasters.

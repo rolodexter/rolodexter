@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Regulatory bodies play a crucial role in shaping the future of the insurance industry, particularly in addressing crises like California’s escalating homeowners insurance challenges. [Chainproof](../AI/chainproof.md) offers blockchain-enabled solutions that align with regulatory standards while fostering innovation. By integrating advanced cryptography, including zero-knowledge proofs (ZKPs), and actuarial science, Chainproof provides privacy-compliant, transparent, and efficient alternatives to traditional insurance models. California’s approach to regulation will have ripple effects, influencing national and global insurance frameworks.
+Regulatory bodies play a crucial role in shaping the future of the insurance industry, particularly in addressing crises like California’s escalating homeowners insurance challenges. [Chainproof](../CRYPTO/chainproof.md) offers blockchain-enabled solutions that align with regulatory standards while fostering innovation. By integrating advanced cryptography, including zero-knowledge proofs (ZKPs), and actuarial science, Chainproof provides privacy-compliant, transparent, and efficient alternatives to traditional insurance models. California’s approach to regulation will have ripple effects, influencing national and global insurance frameworks.
 
 ***
 
@@ -130,4 +130,4 @@ Regulatory bodies play a crucial role in shaping the future of the insurance ind
 
 ## Conclusion
 
-Regulatory bodies hold the key to enabling transformative insurance solutions in California and beyond. By leveraging blockchain, cryptography, and zero-knowledge proofs, [Chainproof](../AI/chainproof.md) aligns with stringent regulatory standards while fostering innovation. These advancements not only address immediate challenges but also pave the way for resilient and adaptive insurance models worldwide.
+Regulatory bodies hold the key to enabling transformative insurance solutions in California and beyond. By leveraging blockchain, cryptography, and zero-knowledge proofs, [Chainproof](../CRYPTO/chainproof.md) aligns with stringent regulatory standards while fostering innovation. These advancements not only address immediate challenges but also pave the way for resilient and adaptive insurance models worldwide.

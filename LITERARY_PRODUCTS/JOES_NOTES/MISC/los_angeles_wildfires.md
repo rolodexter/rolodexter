@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The increasing frequency and intensity of wildfires in Los Angeles and across California have catalyzed a homeowners insurance crisis. Traditional insurers are retreating from high-risk areas, leaving homeowners without viable options for coverage. This crisis underscores the need for innovative solutions like decentralized finance (DeFi)-powered insurance models, such as those pioneered by [Chainproof](../AI/chainproof.md). By leveraging blockchain technology and parametric insurance principles, alternatives to traditional insurance products can address the unique challenges posed by wildfire risks.
+The increasing frequency and intensity of wildfires in Los Angeles and across California have catalyzed a homeowners insurance crisis. Traditional insurers are retreating from high-risk areas, leaving homeowners without viable options for coverage. This crisis underscores the need for innovative solutions like decentralized finance (DeFi)-powered insurance models, such as those pioneered by [Chainproof](../CRYPTO/chainproof.md). By leveraging blockchain technology and parametric insurance principles, alternatives to traditional insurance products can address the unique challenges posed by wildfire risks.
 
 ***
 

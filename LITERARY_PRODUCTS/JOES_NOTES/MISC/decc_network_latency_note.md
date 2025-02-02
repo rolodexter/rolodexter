@@ -11,11 +11,11 @@ DeCC is a technically ambitious but feasible concept, leveraging the convergence
 **Advantages:**
 
 1. **Existing Building Blocks:**
-   * [**TEEs**](trusted_execution_environments.md) (e.g., Intel SGX, ARM TrustZone) are already used in applications like [**blockchain oracles**](../AI/blockchain_oracles.md) and confidential smart contracts.
+   * [**TEEs**](trusted_execution_environments.md) (e.g., Intel SGX, ARM TrustZone) are already used in applications like [**blockchain oracles**](../CRYPTO/blockchain_oracles.md) and confidential smart contracts.
    * [**ZKPs**](../TECHNOLOGY/zero_knowledge_proofs.md) and [**MPC**](multi_party_computation.md) are deployed in privacy-preserving protocols like zk-SNARKs and secure auctions.
    * [**FHE**](../TECHNOLOGY/fully_homomorphic_encryption.md) has demonstrated steady progress, with libraries like Microsoft SEAL and IBM HELib enabling encrypted computation.
 2. **Decentralized Networks:**
-   * [**Blockchain**](../AI/blockchain.md) and peer-to-peer architectures provide a resilient infrastructure for distributing computational tasks.
+   * [**Blockchain**](../CRYPTO/blockchain.md) and peer-to-peer architectures provide a resilient infrastructure for distributing computational tasks.
    * Token incentives align participants to contribute computational resources.
 3. **Privacy Enhancements:**
    * DeCC combines transparency with confidentiality, crucial for privacy-critical applications (e.g., [**healthcare**](healthcare_data_security.md), finance, AI training).
@@ -41,7 +41,7 @@ Latency is one of the most significant challenges for decentralized networks, es
 1. [**Geographical Distribution**](decentralized_node_distribution.md)**:**
    * Nodes in decentralized networks are often distributed globally, increasing propagation delays.
 2. [**Consensus Mechanisms**](consensus_protocols.md)**:**
-   * [**Blockchain**](../AI/blockchain.md) networks use consensus protocols (e.g., Proof of Stake, PBFT) that introduce additional overhead compared to centralized systems.
+   * [**Blockchain**](../CRYPTO/blockchain.md) networks use consensus protocols (e.g., Proof of Stake, PBFT) that introduce additional overhead compared to centralized systems.
 3. [**Data Replication**](../DATA_REPLICATION_IN_BLOCKCHAIN.md)**:**
    * Data must often be replicated across nodes for reliability and fault tolerance, increasing bandwidth and latency requirements.
 4. **Cryptographic Overheads:**
@@ -66,4 +66,4 @@ Latency is one of the most significant challenges for decentralized networks, es
 
 While DeCC is technically possible, it requires a careful balance between privacy, security, scalability, and performance. [**Network latency**](../NETWORK_LATENCY_IN_BLOCKCHAIN.md) remains a key bottleneck, but leveraging strategies like [**edge computing**](edge_computing_in_decentralized_systems.md), [**Layer 2 solutions**](layer_2_scaling_solutions.md), and efficient cryptographic implementations can mitigate many challenges.
 
-In the near term, DeCC is best suited for privacy-critical applications that can tolerate slightly higher latencies, such as [**privacy-preserving DeFi**](../DEFI_AND_PRIVACY.md), [**confidential AI training**](../AI/ai_training_and_confidentiality.md), and [**healthcare data analysis**](healthcare_data_security.md). Longer-term, advancements in cryptography (e.g., [**post-quantum algorithms**](../CRYPTO/post_quantum_cryptography.md)) and decentralized infrastructure will make real-time, low-latency DeCC systems more practical.
+In the near term, DeCC is best suited for privacy-critical applications that can tolerate slightly higher latencies, such as [**privacy-preserving DeFi**](../DEFI_AND_PRIVACY.md), [**confidential AI training**](../AI/AI_CONFIDENTIALITY.MD), and [**healthcare data analysis**](healthcare_data_security.md). Longer-term, advancements in cryptography (e.g., [**post-quantum algorithms**](../CRYPTO/post_quantum_cryptography.md)) and decentralized infrastructure will make real-time, low-latency DeCC systems more practical.
