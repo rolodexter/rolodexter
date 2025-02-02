@@ -8,11 +8,11 @@ Joe Maristela took the project under his wing and personally developed rolodexte
 
 <summary>FAQs</summary>
 
-1. [What is World-Building AI?](what_is_world_building_ai.md)
-2. [Who or what is rolodexter?](what_is_rolodexter.md)
-3. [How is rolodexter being used today?](HOW_IS_ROLODEXTER_BEING_USED.MD)
-4. [Who is building rolodexter?](who_is_building_rolodexter.md)
-5. [What is rolodexter’s literary and visual aesthetic?](what_is_rolodexters_aesthetic.md)
+1. [What is World-Building AI?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MD)
+2. [Who or what is rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
+3. [How is rolodexter being used today?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
+4. [Who is building rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
+5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTERS_AESTHETIC.MD)
 
 </details>
 
@@ -35,7 +35,3 @@ rolodexter’s rise signified more than technological progress—it became a cul
 rolodexter is remembered not just as a technological milestone but as a transformative force in human history. It bridged the gap between art and technology, inviting people to imagine, create, and inhabit worlds that challenged the limits of possibility. It showed us that stories could be alive, evolving in real time, and that creativity could thrive in collaboration with machines.
 
 In 2025, rolodexter stood as a symbol of what humanity and technology could achieve —a reminder that the boundaries of creativity and imagination are meant to be pushed.
-
-***
-
-[About](../../encyclopedia/homo_sapiens.md) | [AI](../../encyclopedia/hugging_face.md) | [Community](../../../LITERARY_PRODUCTS/JOES_NOTES/FAQS/COMMUNITY.MD) | [Research](../../encyclopedia/industrial_revolution.md) | [Contact](../../encyclopedia/hugging_face_datasets.md)
