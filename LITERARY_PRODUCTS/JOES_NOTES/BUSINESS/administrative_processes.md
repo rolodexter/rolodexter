@@ -42,7 +42,7 @@
    * Time-stamped, tamper-evident digital records stored on-chain (e.g., property titles, academic certificates, licenses).
    * Reduces fraud and streamlines verification for [**public services**](../MISC/public_services.md).
 2. **Procurement and Contract Management**
-   * Automated tender processes that enforce [**governance models**](../AI/governance_models.md) through smart contracts.
+   * Automated tender processes that enforce [**governance models**](../CRYPTO/GOVERNANCE_MODELS.MDS.MD) through smart contracts.
    * Minimize corruption risks, accelerate supplier onboarding, and integrate with payment systems.
 3. **Identity and Access Management**
    * Decentralized identifiers (DIDs) and identity frameworks eliminate redundant data entry across multiple agencies.
@@ -100,7 +100,7 @@
 
 ## See Also
 
-* [GOVERNANCE\_MODELS](../AI/governance_models.md)
+* [GOVERNANCE\_MODELS](../CRYPTO/GOVERNANCE_MODELS.MDS.MD)
 * [PUBLIC\_AGENCIES](../MISC/public_agencies.md)
 * [BLOCKCHAIN\_REGULATIONS](../BLOCKCHAIN_REGULATIONS.md)
 * [SERVICE\_DELIVERY\_MODELS](../AI/service_delivery_models.md)

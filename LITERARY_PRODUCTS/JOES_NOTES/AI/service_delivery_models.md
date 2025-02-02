@@ -21,9 +21,9 @@
    * **Improvements**: Reduced paperwork, faster service requests, initial steps toward data standardization.
 3. **Blockchain-Enhanced Delivery**
    * **Key Features**: **Immutable ledgers**, automated disbursements via **smart contracts**, cryptographically verified records.
-   * **Benefits**: Boosts efficiency, transparency, and trust in processes like [**voting**](governance_models.md#blockchain-based-voting), permit issuance, and social welfare distribution.
+   * **Benefits**: Boosts efficiency, transparency, and trust in processes like [**voting**](../CRYPTO/GOVERNANCE_MODELS.MD_MODELS.MD#blockchain-based-voting), permit issuance, and social welfare distribution.
 4. **Decentralized / DAO-Style Models**
-   * **Key Features**: Community-driven governance, token-based decision-making, [**liquid democracy**](governance_models.md#liquid-democracy).
+   * **Key Features**: Community-driven governance, token-based decision-making, [**liquid democracy**](../CRYPTO/GOVERNANCE_MODELS.MD_MODELS.MD#liquid-democracy).
    * **Potential**: Real-time feedback from citizens, fluid policy adaptations, minimized bureaucratic overhead.
 
 ***
@@ -71,7 +71,7 @@
    * Digital divides may exclude those lacking internet connectivity or tech literacy.
    * **Public agencies** can collaborate with NGOs, libraries, or [**university initiatives**](../misc/university_initiatives.md) to deliver training and hardware support.
 3. **Public Engagement**
-   * Solicit citizen feedback through [**liquid democracy**](governance_models.md#liquid-democracy) portals or open comment periods.
+   * Solicit citizen feedback through [**liquid democracy**](../CRYPTO/GOVERNANCE_MODELS.MD_MODELS.MD#liquid-democracy) portals or open comment periods.
    * Gamified incentives (e.g., local tokens) encourage residents to participate in city improvement projects.
 4. **Compliance and Auditing**
    * **Smart contracts** embed compliance rules, automatically rejecting invalid transactions.
@@ -136,7 +136,7 @@
    * Real-time data analytics integrated with [**blockchain transactions**](../STRATEGY/financial_systems.md) for predictive resource allocation.
    * Could further reduce service wait times and optimize routing in areas like healthcare or emergency services.
 2. **Meta-Governance and DAOs**
-   * Some municipalities may explore [**DAO-based governance**](governance_models.md#decentralized-autonomous-organizations-daos) to decentralize decision-making, letting citizens vote on policy or budget proposals.
+   * Some municipalities may explore [**DAO-based governance**](../CRYPTO/GOVERNANCE_MODELS.MD_MODELS.MD#decentralized-autonomous-organizations-daos) to decentralize decision-making, letting citizens vote on policy or budget proposals.
    * Potentially transforms accountability and public trust through direct, ongoing participation.
 3. **Cross-Border Public Services**
    * Nations might standardize certain documents (e.g., e-Visas, e-Residency) on a shared **blockchain** platform, easing global travel and commerce.
@@ -152,7 +152,7 @@
 * [PUBLIC\_SERVICES](../misc/public_services.md)
 * [PUBLIC\_AGENCIES](../misc/public_agencies.md)
 * [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../STRATEGY/innovations_in_public_sector.md)
-* [GOVERNANCE\_MODELS](governance_models.md)
+* [GOVERNANCE\_MODELS](../CRYPTO/GOVERNANCE_MODELS.MD_MODELS.MD)
 
 For more comprehensive insights, refer to publications by the [OECD](https://www.oecd.org/gov/digital-government/) or the [World Bank](https://www.worldbank.org/en/topic/governance) discussing e-government and service delivery modernization trends.
 

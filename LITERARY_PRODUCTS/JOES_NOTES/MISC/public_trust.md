@@ -23,7 +23,7 @@
    * Governments and [**public services**](public_services.md) must consistently deliver on promises and respond to changing needs.
    * Technologies like [**DeFi**](../CRYPTO/DEFI_INTRO.md) can automate many functions, reducing human error or manipulation.
 4. **Engagement**
-   * Meaningful public engagement—via town halls, polls, or [**liquid democracy**](../AI/governance_models.md#liquid-democracy)—strengthens citizens’ sense of ownership.
+   * Meaningful public engagement—via town halls, polls, or [**liquid democracy**](../CRYPTO/GOVERNANCE_MODELS.MDS.MD#liquid-democracy)—strengthens citizens’ sense of ownership.
    * Open feedback loops ensure agency actions reflect public priorities.
 
 ***
@@ -72,7 +72,7 @@
    * Shared responsibility fosters transparency throughout planning, deployment, and oversight phases.
 3. **Clear Legal and Ethical Frameworks**
    * Develop comprehensive policies covering data usage, confidentiality, and **citizen redress** mechanisms.
-   * Alignment with existing [**governance models**](../AI/governance_models.md) ensures technology adoption respects local contexts.
+   * Alignment with existing [**governance models**](../CRYPTO/GOVERNANCE_MODELS.MDS.MD) ensures technology adoption respects local contexts.
 4. **Iterative Pilot Programs**
    * Roll out **blockchain** or **DeFi** solutions in small-scale pilots, gathering feedback for iterative improvements.
    * Demonstrable success fosters trust in larger projects, reducing the risk of abrupt policy reversals or public backlash.
@@ -104,7 +104,7 @@
    * Transnational **public trust** initiatives might harmonize standards for digital identity, cross-border payments, or environmental data tracking.
    * Partnerships with [international organizations](https://www.un.org/) or multinational NGO coalitions expand best practices for trust-building.
 3. **Dynamic Governance**
-   * Systems like [**liquid democracy**](../AI/governance_models.md#liquid-democracy) or continuous referendums may reshape how citizens interact with government policies.
+   * Systems like [**liquid democracy**](../CRYPTO/GOVERNANCE_MODELS.MDS.MD#liquid-democracy) or continuous referendums may reshape how citizens interact with government policies.
    * Transparent, near-instant feedback loops redefine accountability and open possibilities for decentralized oversight.
 4. **Innovation and Social Equity**
    * Equitable distribution of new benefits (e.g., DeFi yields, token rewards) can strengthen community bonds.

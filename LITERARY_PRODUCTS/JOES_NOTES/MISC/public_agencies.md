@@ -82,7 +82,7 @@
 ## Future Directions
 
 1. **Decentralized Governance Models**
-   * [**DAOs**](../AI/governance_models.md#decentralized-autonomous-organizations-daos) or **liquid democracy** mechanisms could reshape how agencies allocate budgets and manage public resources.
+   * [**DAOs**](../CRYPTO/GOVERNANCE_MODELS.MDS.MD#decentralized-autonomous-organizations-daos) or **liquid democracy** mechanisms could reshape how agencies allocate budgets and manage public resources.
    * Citizens might vote on proposals or legislation via secure digital platforms, increasing transparency and engagement.
 2. **Digital Twin Cities and Infrastructure**
    * Virtual replicas of roads, utilities, and public structures could inform real-time decision-making and predictive maintenance.

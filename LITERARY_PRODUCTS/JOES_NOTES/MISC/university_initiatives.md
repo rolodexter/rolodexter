@@ -15,7 +15,7 @@
 
 1. **Curriculum Development and Research**
    * Universities are creating specialized courses on **blockchain architecture**, **smart contract programming**, and **DeFi protocol design**.
-   * Interdisciplinary research (e.g., combining economics, law, and computer science) yields valuable insights for [**governance models**](../AI/governance_models.md) and regulatory considerations.
+   * Interdisciplinary research (e.g., combining economics, law, and computer science) yields valuable insights for [**governance models**](../CRYPTO/GOVERNANCE_MODELS.MDS.MD) and regulatory considerations.
 2. **Startup Incubation and Accelerators**
    * Many universities host **entrepreneurial labs** and **incubator programs** that help blockchain-focused startups refine business models and connect with industry mentors.
    * Access to top-tier faculty and student talent fosters a culture of continuous innovation.
@@ -95,7 +95,7 @@
 * [SLED\_VERTICES](sled_vertices.md)
 * [PUBLIC\_SECTOR\_ENGAGEMENT](../governance/public_sector_engagement.md)
 * [INNOVATIONS\_IN\_PUBLIC\_SECTOR](../STRATEGY/innovations_in_public_sector.md)
-* [GOVERNANCE\_MODELS](../AI/governance_models.md)
+* [GOVERNANCE\_MODELS](../CRYPTO/GOVERNANCE_MODELS.MDS.MD)
 
 For real-world insights, explore university-led blockchain initiatives at [MIT Media Lab](https://www.media.mit.edu/groups/digital-currency-initiative/overview/), [Stanford Center for Blockchain Research](https://cbr.stanford.edu/), or [UC Berkeley Blockchain Xcelerator](https://xcelerator.berkeley.edu/).
 

@@ -17,7 +17,7 @@ The **adoption of** [**Bitcoin**](../CRYPTO/CRYPTO_ECONOMICS/bitcoin.md) **by go
    * Governments facing inflationary pressures or currency volatility may view Bitcoin as a [hedge against inflation](../SPECULATIVE_ASSETS.md#inflation-hedge).
    * A portion of national or municipal reserves allocated to Bitcoin can potentially diversify risk, although it also introduces new forms of volatility and market exposure.
 2. **Blockchain-Based Services**
-   * From [public record-keeping](public_services.md#record-keeping) to [tax collection](../AI/governance_models.md#tax-collection-reform), blockchain provides a foundation for transparent and tamper-evident data management.
+   * From [public record-keeping](public_services.md#record-keeping) to [tax collection](../CRYPTO/GOVERNANCE_MODELS.MDS.MD#tax-collection-reform), blockchain provides a foundation for transparent and tamper-evident data management.
    * Smart contracts can automate processes like disbursing benefits or validating digital identities.
 3. **Technological Modernization**
    * Governments seeking to remain competitive in a digital global economy are turning to decentralized systems.

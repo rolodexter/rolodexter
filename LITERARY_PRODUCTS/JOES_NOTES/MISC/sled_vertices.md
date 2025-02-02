@@ -81,7 +81,7 @@ With the rise of [**decentralized finance (DeFi)**](../DEFI_BASICS.md), **blockc
    * Start with small-scale pilots before extending solutions across multiple departments or districts.
    * Gather feedback and refine systems iteratively to ensure stakeholder buy-in.
 2. **Policy Alignment**
-   * Work closely with [**governance**](../AI/governance_models.md) bodies to establish frameworks that protect data privacy and comply with existing regulations.
+   * Work closely with [**governance**](../CRYPTO/GOVERNANCE_MODELS.MDS.MD) bodies to establish frameworks that protect data privacy and comply with existing regulations.
    * Advocate for new legislation when needed to accommodate **emerging technologies**.
 3. **Cross-Agency Collaboration**
    * Foster alliances between different levels of government (e.g., county, city, school district) to share resources and knowledge.
