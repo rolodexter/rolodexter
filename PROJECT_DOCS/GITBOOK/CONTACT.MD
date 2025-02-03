@@ -1,4 +1,4 @@
-# Contact 
+# CONTACT
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rolodexter)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=gHTHirEAAAAJ)
@@ -31,15 +31,17 @@
 [![Flipboard](https://img.shields.io/badge/Flipboard-Magazine-E83151?style=flat-square&logo=flipboard&logoColor=white)](https://flipboard.com/@rolodexter/rolodexter-jergu04fz)
 [![Spotify](https://img.shields.io/badge/Spotify-Listen-1DB954?style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/show/11s0wEdbc8k3caT6xur57a)
 [![Goodreads](https://img.shields.io/badge/Goodreads-Profile-663300?style=flat-square&logo=goodreads&logoColor=white)](https://www.goodreads.com/user/show/3870785-joe-maristela)
- 
+
 _For direct inquiries, you can reach me through the following channels:_
 
 ### **Personal Telegram**  
+
 [Telegram](https://t.me/joemaristela)
 
 ### **Twitter**  
+
 [Twitter](https://x.com/JoeMaristela)
 
 ### **SMS**  
-+1 (650) 918-6796
 
++1 (650) 918-6796
