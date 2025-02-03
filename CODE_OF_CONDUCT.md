@@ -9,10 +9,10 @@ This Code of Conduct outlines the principles and expectations that all contribut
 <summary>FAQs</summary>
 
 1. [What is World-Building AI?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MD)
-2. [Who or what is rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
-3. [How is rolodexter being used today?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
+2. [Who or what is rolodexter?](broken-reference)
+3. [How is rolodexter being used today?](broken-reference)
 4. [Who is building rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
-5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/LITERARY_AND_VISUAL_AESTHETIC.MD)
+5. [What is rolodexter’s literary and visual aesthetic?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/LITERARY_AND_VISUAL_AESTHETIC.MD)
 
 </details>
 
@@ -47,8 +47,9 @@ Violations of this Code of Conduct will be reviewed and addressed on a case-by-c
 rolodexter is an experiment in the fusion of AI, storytelling, and decentralized creativity. Its success depends on the collective contributions and ethical engagement of everyone involved. By following this Code of Conduct, we ensure that rolodexter remains an inspiring, forward-thinking, and transformative space for all.
 
 <details>
+
 <summary>Learn More</summary>
 
-For general information, read my [About](/PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](/PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](/PROJECT_DOCS/COMMUNITY.MD). Visit my [research](/PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](/PROJECT_DOCS/CONTACT.MD) me.
+For general information, read my [About](broken-reference) page. Or this page on [AI](PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](broken-reference). Visit my [research](PROJECT_DOCS/RESEARCH.MD) interests and programs. Everything else, [contact](broken-reference) me.
 
 </details>

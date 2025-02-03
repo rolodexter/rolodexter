@@ -7,10 +7,10 @@ I appreciate your interest in contributing and encourage participation from dive
 <summary>FAQs</summary>
 
 1. [What is World-Building AI?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MD)
-2. [Who or what is rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
-3. [How is rolodexter being used today?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
-4. [Who is building rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
-5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/LITERARY_AND_VISUAL_AESTHETIC.MD)
+2. [Who or what is rolodexter?](broken-reference)
+3. [How is rolodexter being used today?](broken-reference)
+4. [Who is building rolodexter?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
+5. [What is rolodexter’s literary and visual aesthetic?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/LITERARY_AND_VISUAL_AESTHETIC.MD)
 
 </details>
 
@@ -18,14 +18,14 @@ I appreciate your interest in contributing and encourage participation from dive
 
 ### 1. **Writing & Story Development**
 
-* Contribute to **[literary products](/TECH_DOCS/LANGUAGE/REALITY_FICTION.MD)**, including world-building lore, interactive narratives, and philosophical essays.
-* Expand the **[encyclopedia](/LITERARY_PRODUCTS/ENCYCLOPEDIA/README.md)**, defining key terms, historical context, and speculative concepts.
+* Contribute to [**literary products**](broken-reference), including world-building lore, interactive narratives, and philosophical essays.
+* Expand the [**encyclopedia**](LITERARY_PRODUCTS/ENCYCLOPEDIA/), defining key terms, historical context, and speculative concepts.
 * Propose **new storytelling formats** that push the boundaries of traditional narratives.
 
 ### 2. **AI & Technological Innovation**
 
 * Develop **machine learning models** that enhance rolodexter’s adaptive storytelling.
-* Improve [**AI-driven creativity**](/TECH_DOCS/LANGUAGE/REALITY_FICTION.MD), defining how rolodexter generates and evolves narratives.
+* Improve [**AI-driven creativity**](broken-reference), defining how rolodexter generates and evolves narratives.
 * Research and discuss the **ethical implications** of AI in immersive media.
 
 ### 3. **Art & Visual World-Building**

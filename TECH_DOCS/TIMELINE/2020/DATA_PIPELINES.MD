@@ -36,6 +36,6 @@ The early 2020s were chaotic and full of trial and error, but they were also the
 
 <summary>Learn More</summary>
 
-For general information, read my [About](../../../PROJECT_DOCS/ABOUT.MD) page. Or this page on [AI](../../../PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](../../../PROJECT_DOCS/COMMUNITY.MD). Visit my [research](../../../PROJECT_DOCS/RESEARCH/RESEARCH.MD) interests and programs. Everything else, [contact](../../../PROJECT_DOCS/CONTACT.MD) me.
+For general information, read my [About](broken-reference) page. Or this page on [AI](../../../PROJECT_DOCS/) that covers the broader strokes. Help me build my [community](broken-reference). Visit my [research](../../../PROJECT_DOCS/RESEARCH/RESEARCH.MD) interests and programs. Everything else, [contact](broken-reference) me.
 
 </details>
