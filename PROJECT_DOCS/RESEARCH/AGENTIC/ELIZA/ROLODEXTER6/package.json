@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "agent-twitter-client": "^0.0.18"
+    "agent-twitter-client": "^0.0.18",
+    "dotenv": "^16.4.7"
   }
 }
