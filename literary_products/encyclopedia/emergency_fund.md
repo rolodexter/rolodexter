@@ -1,2 +1,0 @@
-# EMERGENCY\_FUND
-

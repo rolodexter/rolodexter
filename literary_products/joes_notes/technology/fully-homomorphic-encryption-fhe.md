@@ -1,2 +1,0 @@
-# Fully Homomorphic Encryption (FHE)
-

@@ -1,2 +1,0 @@
-# Boston Consulting Group (BCG)
-

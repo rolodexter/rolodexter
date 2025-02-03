@@ -1,2 +1,0 @@
-# Educational Background
-

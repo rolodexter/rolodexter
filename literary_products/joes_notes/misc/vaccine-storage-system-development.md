@@ -1,2 +1,0 @@
-# Vaccine Storage System Development
-

@@ -1,2 +1,0 @@
-# Strategic Leadership
-

@@ -1,2 +1,0 @@
-# Resource Federation Layer (RFL)
-

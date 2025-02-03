@@ -1,2 +1,0 @@
-# POWER DIRECTIVE
-

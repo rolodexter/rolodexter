@@ -1,2 +1,0 @@
-# LEGAL\_DOCS
-

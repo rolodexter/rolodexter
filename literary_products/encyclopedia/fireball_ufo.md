@@ -1,2 +1,0 @@
-# FIREBALL\_UFO
-

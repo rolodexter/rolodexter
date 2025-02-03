@@ -1,2 +1,0 @@
-# SMART\_CONTRACTS
-

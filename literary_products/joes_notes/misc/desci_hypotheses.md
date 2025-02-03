@@ -1,2 +1,0 @@
-# DESCI\_HYPOTHESES
-

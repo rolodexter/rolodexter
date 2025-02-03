@@ -1,2 +1,0 @@
-# MOORES\_LAW
-

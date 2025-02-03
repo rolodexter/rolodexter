@@ -1,2 +1,0 @@
-# The Meaning of Bitcoin
-

@@ -1,2 +1,0 @@
-# HUMAN ALLO LAYER
-

@@ -1,2 +1,0 @@
-# ZERO\_POINT\_ENERGY
-

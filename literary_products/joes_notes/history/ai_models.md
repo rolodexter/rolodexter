@@ -1,2 +1,0 @@
-# ai\_models
-

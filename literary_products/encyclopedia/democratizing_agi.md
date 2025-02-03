@@ -1,2 +1,0 @@
-# DEMOCRATIZING\_AGI
-

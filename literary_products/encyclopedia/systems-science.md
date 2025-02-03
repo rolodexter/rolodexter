@@ -1,2 +1,0 @@
-# SYSTEMS SCIENCE
-

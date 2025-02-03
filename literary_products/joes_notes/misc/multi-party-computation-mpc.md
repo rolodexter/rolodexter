@@ -1,2 +1,0 @@
-# Multi-Party Computation (MPC)
-

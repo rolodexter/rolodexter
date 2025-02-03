@@ -1,2 +1,0 @@
-# svante\_arrhenius
-

@@ -1,2 +1,0 @@
-# NATURAL\_SELECTION
-

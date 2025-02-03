@@ -1,2 +1,0 @@
-# vacuum\_collapse
-

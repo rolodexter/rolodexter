@@ -1,2 +1,0 @@
-# Government Adoption of Bitcoin
-

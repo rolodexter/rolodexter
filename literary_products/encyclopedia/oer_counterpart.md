@@ -1,2 +1,0 @@
-# OER\_COUNTERPART
-

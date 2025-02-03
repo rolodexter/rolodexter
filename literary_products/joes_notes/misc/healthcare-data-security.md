@@ -1,2 +1,0 @@
-# Healthcare Data Security
-

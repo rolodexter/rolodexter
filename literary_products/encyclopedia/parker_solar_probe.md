@@ -1,2 +1,0 @@
-# PARKER\_SOLAR\_PROBE
-

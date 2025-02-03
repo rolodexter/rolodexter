@@ -1,2 +1,0 @@
-# EARLIER\_TIMELINE
-

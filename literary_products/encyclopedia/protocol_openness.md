@@ -1,2 +1,0 @@
-# PROTOCOL\_OPENNESS
-

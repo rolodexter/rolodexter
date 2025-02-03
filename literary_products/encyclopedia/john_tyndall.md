@@ -1,2 +1,0 @@
-# JOHN\_TYNDALL
-
