@@ -1,2 +1,0 @@
-# ICR AND CODEX
-
