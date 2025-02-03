@@ -1,2 +1,0 @@
-# constructivist\_theories
-

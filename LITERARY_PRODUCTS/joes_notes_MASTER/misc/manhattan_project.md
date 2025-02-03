@@ -1,2 +1,0 @@
-# manhattan\_project
-

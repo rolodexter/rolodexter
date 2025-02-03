@@ -1,2 +1,0 @@
-# DataHive Teams & Projects
-

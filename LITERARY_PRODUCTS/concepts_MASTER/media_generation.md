@@ -1,2 +1,0 @@
-# MEDIA\_GENERATION
-

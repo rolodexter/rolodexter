@@ -1,2 +1,0 @@
-# Interdisciplinary Connections
-

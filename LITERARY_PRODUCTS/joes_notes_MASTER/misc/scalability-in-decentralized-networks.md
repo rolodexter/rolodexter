@@ -1,2 +1,0 @@
-# Scalability in Decentralized Networks
-

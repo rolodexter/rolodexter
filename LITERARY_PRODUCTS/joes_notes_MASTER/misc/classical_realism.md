@@ -1,2 +1,0 @@
-# CLASSICAL\_REALISM
-

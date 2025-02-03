@@ -1,2 +1,0 @@
-# VOCS\_NATURES\_ZK\_STARKS.md
-

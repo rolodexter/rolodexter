@@ -1,2 +1,0 @@
-# Wall Street History
-

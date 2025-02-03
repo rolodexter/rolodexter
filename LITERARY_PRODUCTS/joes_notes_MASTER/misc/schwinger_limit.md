@@ -1,2 +1,0 @@
-# SCHWINGER\_LIMIT
-

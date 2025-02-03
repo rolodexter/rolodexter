@@ -1,2 +1,0 @@
-# Palisades Fire
-

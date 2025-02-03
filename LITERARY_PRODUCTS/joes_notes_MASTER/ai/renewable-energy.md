@@ -1,2 +1,0 @@
-# RENEWABLE ENERGY
-
