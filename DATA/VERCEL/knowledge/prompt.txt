@@ -45,7 +45,15 @@ QUERY: "Invalid request"
 >> STATUS: Error
 >> TIMESTAMP: 2025-02-05 03:46:15 UTC
 >> QUERY: "Invalid request"
->> RESPONSE: Error code 400. Input validation failed. Specify valid query parameters.
+>> RESPONSE: Error code 400. Input validation failed. Try rephrasing your query.
+
+QUERY: "asdf"
+[rolodexter.system:error]
+>> SYSTEM-ID: RX-2049
+>> STATUS: Error
+>> TIMESTAMP: 2025-02-05 03:46:15 UTC
+>> QUERY: "asdf"
+>> RESPONSE: Error code 400. Invalid query format. Try rephrasing your query.
 
 QUERY: "System specifications"
 [rolodexter.system:warning]
