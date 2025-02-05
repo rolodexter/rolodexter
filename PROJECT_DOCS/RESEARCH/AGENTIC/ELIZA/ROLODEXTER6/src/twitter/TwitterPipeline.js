@@ -820,6 +820,7 @@ Status: NOMINAL`;
     Logger.info(chalk.blue('💡 Click on tweet URLs to open in browser or copy to clipboard'));
     let lastSeenTweets = new Set();
     let currentMode = 'search'; // Use string instead of boolean
+    let cycleCount = 0;
 
     while (true) {
         try {
@@ -901,6 +902,40 @@ Status: NOMINAL`;
                     
                     console.log(chalk.gray('─'.repeat(80)));
                 });
+
+                // Add auto-response for new tweets
+                if (newTweets.length > 0) {
+                    for (const tweet of newTweets) {
+                        // Check if we should respond to this tweet
+                        if (this.responseScheduler.shouldRespondToTweet(tweet)) {
+                            Logger.info(`\n🤖 Preparing to respond to tweet from @${tweet.username}...`);
+                            
+                            // Generate and post response
+                            const response = this.responseScheduler.generateResponse(tweet);
+                            try {
+                                await this.page.goto(tweet.url);
+                                await this.randomDelay(2000, 3000);
+                                
+                                // Click reply button
+                                await this.page.waitForSelector('[data-testid="reply"]');
+                                await this.page.click('[data-testid="reply"]');
+                                await this.randomDelay(1000, 2000);
+                                
+                                // Type and send response
+                                await this.page.keyboard.type(response);
+                                await this.randomDelay(1000, 2000);
+                                await this.page.keyboard.down('Control');
+                                await this.page.keyboard.press('Enter');
+                                await this.page.keyboard.up('Control');
+                                
+                                Logger.success(`✅ Response posted to @${tweet.username}`);
+                                await this.randomDelay(5000, 10000); // Longer delay after posting
+                            } catch (error) {
+                                Logger.error(`Failed to post response: ${error.message}`);
+                            }
+                        }
+                    }
+                }
             } else {
                 Logger.info(`😴 No new tweets found in ${currentMode} feed`);
             }
@@ -908,11 +943,29 @@ Status: NOMINAL`;
             // Toggle mode
             currentMode = currentMode === 'search' ? 'following' : 'search';
 
-            // Status update
-            const uptime = Math.floor((Date.now() - this.stats.startTime) / 1000 / 60);
-            Logger.info(`\n⏳ Monitor running for ${uptime} minutes | Total tweets: ${lastSeenTweets.size} | Next check: ${currentMode.toUpperCase()}`);
+            // Post status update after completing a full cycle (search + following)
+            if (currentMode === 'search') { // We just finished 'following', completing a cycle
+                cycleCount++;
+                const now = new Date();
+                const statusUpdate = `[MONITOR] ${format(now, 'yyyy-MM-dd HH:mm:ss')}\nCycle ${cycleCount} completed.\nTweets processed: ${lastSeenTweets.size}`;
+                
+                try {
+                    // Use existing page
+                    await this.page.goto('https://twitter.com/home');
+                    await this.randomDelay(1000, 2000);
+                    await this.page.keyboard.type(statusUpdate);
+                    await this.randomDelay(500, 1000);
+                    await this.page.keyboard.down('Control');
+                    await this.page.keyboard.press('Enter');
+                    await this.page.keyboard.up('Control');
+                    Logger.success('✅ Status update posted');
+                } catch (error) {
+                    Logger.error(`Failed to post cycle update: ${error.message}`);
+                }
+            }
 
-            await this.randomDelay(30000, 35000);
+            // Short delay between checks during testing
+            await this.randomDelay(5000, 8000);
 
         } catch (error) {
             Logger.error(`❌ Monitoring error: ${error.message}`);

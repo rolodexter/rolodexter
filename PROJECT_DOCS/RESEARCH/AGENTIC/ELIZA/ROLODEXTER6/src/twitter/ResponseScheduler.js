@@ -4,7 +4,8 @@ import { format } from "date-fns";
 class ResponseScheduler {
     constructor() {
         this.lastResponseTime = new Date();
-        this.responseInterval = 30 * 60 * 1000; // 30 minutes in milliseconds
+        // Reduce interval to 2 minutes for testing (from 30 minutes)
+        this.responseInterval = 2 * 60 * 1000;
         this.processedTweets = new Set();
     }
 
@@ -32,8 +33,8 @@ class ResponseScheduler {
     }
 
     generateResponse(tweet) {
-        // Very basic response template - you can enhance this
-        return `Thanks for mentioning RolodexterAI! We're actively monitoring conversations about AI development and digital identity. Would love to hear more about your thoughts on this topic.`;
+        const timestamp = format(new Date(), 'yyyy-MM-dd HH:mm:ss');
+        return `[INGEST] ${timestamp}\nTweet received for processing.`;
     }
 
     // Cleanup old processed tweets to prevent memory bloat
