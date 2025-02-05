@@ -819,6 +819,7 @@ Status: NOMINAL`;
     Logger.info('🔍 Starting live tweet monitoring...');
     Logger.info(chalk.blue('💡 Click on tweet URLs to open in browser or copy to clipboard'));
     let lastSeenTweets = new Set();
+    let respondedTweets = new Set(); // Track tweets we've replied to
     let currentMode = 'search'; // Use string instead of boolean
     let cycleCount = 0;
 
@@ -849,6 +850,13 @@ Status: NOMINAL`;
                             const tweetLink = tweet.querySelector('a[href*="/status/"]')?.href || '';
                             if (!tweetLink) return null;
 
+                            // Check if there's already a reply from rolodexter6
+                            const replies = Array.from(tweet.parentElement.querySelectorAll('article'));
+                            const hasRolodexterReply = replies.some(reply => {
+                                const username = reply.querySelector('div[dir="ltr"] span')?.textContent || '';
+                                return username.toLowerCase() === 'rolodexter6';
+                            });
+
                             return {
                                 id: tweetLink.split('/status/')[1]?.split('?')[0] || '',
                                 username: tweet.querySelector('div[dir="ltr"] span')?.textContent || '',
@@ -856,6 +864,7 @@ Status: NOMINAL`;
                                 time: tweet.querySelector('time')?.getAttribute('datetime') || '',
                                 url: tweetLink,
                                 source: mode,
+                                hasRolodexterReply,
                                 metrics: {
                                     likes: tweet.querySelector('[data-testid="like"]')?.textContent || '0',
                                     retweets: tweet.querySelector('[data-testid="retweet"]')?.textContent || '0',
@@ -881,90 +890,56 @@ Status: NOMINAL`;
             // Log results
             if (newTweets.length > 0) {
                 Logger.info(`\n📢 Found ${newTweets.length} new tweets from ${currentMode.toUpperCase()}:\n`);
-                newTweets.forEach(tweet => {
+                
+                // Find tweets we haven't responded to yet
+                const unrespondedTweets = newTweets.filter(tweet => 
+                    !respondedTweets.has(tweet.id) && 
+                    !tweet.hasRolodexterReply &&
+                    tweet.username.toLowerCase() !== 'rolodexter6'
+                );
+                
+                for (const tweet of unrespondedTweets) {
                     const date = new Date(tweet.time).toLocaleString();
-                    const sourceColor = tweet.source === 'search' ? chalk.yellow : chalk.green;
                     
-                    // Make the tweet URL stand out and more accessible
-                    const tweetUrlDisplay = chalk.bold.underline.blue(`➜ ${tweet.url}`);
-                    
+                    // Log tweet details
                     console.log(chalk.cyan(`\n@${tweet.username}`) + chalk.gray(` • ${date}`));
                     console.log(chalk.white(tweet.text));
-                    console.log(tweetUrlDisplay);  // More prominent URL display
-                    console.log(sourceColor(`Source: ${tweet.source}`));
-                    console.log(chalk.gray(`❤️  ${tweet.metrics.likes} • 🔁 ${tweet.metrics.retweets} • 💬 ${tweet.metrics.replies}`));
+                    console.log(chalk.bold.blue(`➜ ${tweet.url}`));
                     
-                    // Add response hint if tweet is recent (< 6 hours old)
-                    const tweetAge = Date.now() - new Date(tweet.time).getTime();
-                    if (tweetAge < 6 * 60 * 60 * 1000) {
-                        console.log(chalk.green('✨ Recent tweet - Consider responding!'));
-                    }
-                    
-                    console.log(chalk.gray('─'.repeat(80)));
-                });
-
-                // Add auto-response for new tweets
-                if (newTweets.length > 0) {
-                    for (const tweet of newTweets) {
-                        // Check if we should respond to this tweet
-                        if (this.responseScheduler.shouldRespondToTweet(tweet)) {
-                            Logger.info(`\n🤖 Preparing to respond to tweet from @${tweet.username}...`);
-                            
-                            // Generate and post response
-                            const response = this.responseScheduler.generateResponse(tweet);
-                            try {
-                                await this.page.goto(tweet.url);
-                                await this.randomDelay(2000, 3000);
-                                
-                                // Click reply button
-                                await this.page.waitForSelector('[data-testid="reply"]');
-                                await this.page.click('[data-testid="reply"]');
-                                await this.randomDelay(1000, 2000);
-                                
-                                // Type and send response
-                                await this.page.keyboard.type(response);
-                                await this.randomDelay(1000, 2000);
-                                await this.page.keyboard.down('Control');
-                                await this.page.keyboard.press('Enter');
-                                await this.page.keyboard.up('Control');
-                                
-                                Logger.success(`✅ Response posted to @${tweet.username}`);
-                                await this.randomDelay(5000, 10000); // Longer delay after posting
-                            } catch (error) {
-                                Logger.error(`Failed to post response: ${error.message}`);
-                            }
-                        }
+                    // Try to respond to this tweet
+                    try {
+                        await this.page.goto(tweet.url);
+                        await this.randomDelay(2000, 3000);
+                        
+                        // Click reply button
+                        await this.page.waitForSelector('[data-testid="reply"]');
+                        await this.page.click('[data-testid="reply"]');
+                        await this.randomDelay(1000, 2000);
+                        
+                        // Generate and post response
+                        const response = `[INGEST] ${format(new Date(), 'yyyy-MM-dd HH:mm:ss')}\nTweet received for processing.`;
+                        await this.page.keyboard.type(response);
+                        await this.randomDelay(1000, 2000);
+                        
+                        await this.page.keyboard.down('Control');
+                        await this.page.keyboard.press('Enter');
+                        await this.page.keyboard.up('Control');
+                        
+                        // Mark as responded
+                        respondedTweets.add(tweet.id);
+                        Logger.success(`✅ Posted response to @${tweet.username}`);
+                        
+                        // Exit after first response
+                        break;
+                    } catch (error) {
+                        Logger.error(`Failed to respond to tweet: ${error.message}`);
+                        continue;
                     }
                 }
-            } else {
-                Logger.info(`😴 No new tweets found in ${currentMode} feed`);
             }
 
-            // Toggle mode
+            // Toggle mode and wait
             currentMode = currentMode === 'search' ? 'following' : 'search';
-
-            // Post status update after completing a full cycle (search + following)
-            if (currentMode === 'search') { // We just finished 'following', completing a cycle
-                cycleCount++;
-                const now = new Date();
-                const statusUpdate = `[MONITOR] ${format(now, 'yyyy-MM-dd HH:mm:ss')}\nCycle ${cycleCount} completed.\nTweets processed: ${lastSeenTweets.size}`;
-                
-                try {
-                    // Use existing page
-                    await this.page.goto('https://twitter.com/home');
-                    await this.randomDelay(1000, 2000);
-                    await this.page.keyboard.type(statusUpdate);
-                    await this.randomDelay(500, 1000);
-                    await this.page.keyboard.down('Control');
-                    await this.page.keyboard.press('Enter');
-                    await this.page.keyboard.up('Control');
-                    Logger.success('✅ Status update posted');
-                } catch (error) {
-                    Logger.error(`Failed to post cycle update: ${error.message}`);
-                }
-            }
-
-            // Short delay between checks during testing
             await this.randomDelay(5000, 8000);
 
         } catch (error) {

@@ -8,6 +8,7 @@ import fs from "fs/promises";
 import Logger from "./Logger.js";
 import DataOrganizer from "./DataOrganizer.js";
 import TweetFilter from "./TweetFilter.js";
+import ResponseScheduler from './ResponseScheduler.js';
 
 // agent-twitter-client
 import { Scraper, SearchMode } from "agent-twitter-client";
@@ -28,6 +29,7 @@ class TwitterPipeline {
     this.dataOrganizer = new DataOrganizer("pipeline", username);
     this.paths = this.dataOrganizer.getPaths();
     this.tweetFilter = new TweetFilter();
+    this.responseScheduler = new ResponseScheduler();
 
     // Update cookie path to be in top-level cookies directory
     this.paths.cookies = path.join(
@@ -609,25 +611,53 @@ async saveCookies() {
 }
 
 async loginToTwitter(page) {
-    Logger.info('🔄 Logging into Twitter...');
-    await page.goto('https://twitter.com/i/flow/login', { 
-        waitUntil: 'networkidle2',
-        timeout: 60000 
-    });
+    try {
+        Logger.info('🔄 Logging into Twitter...');
+        
+        // Go to login page and wait for it to load
+        await page.goto('https://twitter.com/i/flow/login', { 
+            waitUntil: 'networkidle2',
+            timeout: 60000 
+        });
+        await this.randomDelay(3000, 5000);
 
-    await page.waitForSelector('input[autocomplete="username"]', { visible: true });
-    await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME);
-    await page.keyboard.press('Enter');
-    await this.randomDelay(3000, 5000);
+        // Type username and explicitly press Enter
+        Logger.info('Entering username...');
+        await page.waitForSelector('input[autocomplete="username"]', { visible: true });
+        await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME);
+        await this.randomDelay(1000, 2000);
+        await page.keyboard.press('Enter');
+        
+        // Wait for password field with better error handling
+        Logger.info('Waiting for password field...');
+        await page.waitForSelector('input[name="password"]', { 
+            visible: true,
+            timeout: 10000 
+        });
+        
+        // Type password and submit
+        Logger.info('Entering password...');
+        await page.type('input[name="password"]', process.env.TWITTER_PASSWORD);
+        await this.randomDelay(1000, 2000);
+        await page.keyboard.press('Enter');
 
-    await page.waitForSelector('input[type="password"]', { visible: true });
-    await page.type('input[type="password"]', process.env.TWITTER_PASSWORD);
-    await this.randomDelay(1000, 2000);
-    await page.keyboard.press('Enter');
+        // Wait for navigation and verify login
+        await Promise.race([
+            page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 60000 }),
+            page.waitForSelector('[data-testid="AppTabBar_Home_Link"]', { timeout: 60000 })
+        ]);
 
-    await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 60000 });
-    await this.randomDelay(5000, 8000);
-    Logger.success('✅ Logged in successfully');
+        Logger.success('✅ Logged in successfully');
+        return true;
+
+    } catch (error) {
+        Logger.error(`Failed to log in: ${error.message}`);
+        await page.screenshot({ 
+            path: `login-error-${Date.now()}.png`,
+            fullPage: true 
+        });
+        throw error;
+    }
 }
 
 async resetSession() {
@@ -787,8 +817,11 @@ Status: NOMINAL`;
 
     // Start monitoring loop
     Logger.info('🔍 Starting live tweet monitoring...');
+    Logger.info(chalk.blue('💡 Click on tweet URLs to open in browser or copy to clipboard'));
     let lastSeenTweets = new Set();
+    let respondedTweets = new Set(); // Track tweets we've replied to
     let currentMode = 'search'; // Use string instead of boolean
+    let cycleCount = 0;
 
     while (true) {
         try {
@@ -849,28 +882,53 @@ Status: NOMINAL`;
             // Log results
             if (newTweets.length > 0) {
                 Logger.info(`\n📢 Found ${newTweets.length} new tweets from ${currentMode.toUpperCase()}:\n`);
-                newTweets.forEach(tweet => {
+                
+                // Find tweets we haven't responded to yet
+                const unrespondedTweets = newTweets.filter(tweet => !respondedTweets.has(tweet.id));
+                
+                for (const tweet of unrespondedTweets) {
                     const date = new Date(tweet.time).toLocaleString();
-                    const sourceColor = tweet.source === 'search' ? chalk.yellow : chalk.green;
+                    
+                    // Log tweet details
                     console.log(chalk.cyan(`\n@${tweet.username}`) + chalk.gray(` • ${date}`));
                     console.log(chalk.white(tweet.text));
-                    console.log(chalk.blue(tweet.url));
-                    console.log(sourceColor(`Source: ${tweet.source}`));
-                    console.log(chalk.gray(`❤️  ${tweet.metrics.likes} • 🔁 ${tweet.metrics.retweets} • 💬 ${tweet.metrics.replies}`));
-                    console.log(chalk.gray('─'.repeat(80)));
-                });
-            } else {
-                Logger.info(`😴 No new tweets found in ${currentMode} feed`);
+                    console.log(chalk.bold.blue(`➜ ${tweet.url}`));
+                    
+                    // Try to respond to this tweet
+                    try {
+                        await this.page.goto(tweet.url);
+                        await this.randomDelay(2000, 3000);
+                        
+                        // Click reply button
+                        await this.page.waitForSelector('[data-testid="reply"]');
+                        await this.page.click('[data-testid="reply"]');
+                        await this.randomDelay(1000, 2000);
+                        
+                        // Generate and post response
+                        const response = `[INGEST] ${format(new Date(), 'yyyy-MM-dd HH:mm:ss')}\nTweet received for processing.`;
+                        await this.page.keyboard.type(response);
+                        await this.randomDelay(1000, 2000);
+                        
+                        await this.page.keyboard.down('Control');
+                        await this.page.keyboard.press('Enter');
+                        await this.page.keyboard.up('Control');
+                        
+                        // Mark as responded
+                        respondedTweets.add(tweet.id);
+                        Logger.success(`✅ Posted response to @${tweet.username}`);
+                        
+                        // Exit after first response
+                        break;
+                    } catch (error) {
+                        Logger.error(`Failed to respond to tweet: ${error.message}`);
+                        continue;
+                    }
+                }
             }
 
-            // Toggle mode
+            // Toggle mode and wait
             currentMode = currentMode === 'search' ? 'following' : 'search';
-
-            // Status update
-            const uptime = Math.floor((Date.now() - this.stats.startTime) / 1000 / 60);
-            Logger.info(`\n⏳ Monitor running for ${uptime} minutes | Total tweets: ${lastSeenTweets.size} | Next check: ${currentMode.toUpperCase()}`);
-
-            await this.randomDelay(30000, 35000);
+            await this.randomDelay(5000, 8000);
 
         } catch (error) {
             Logger.error(`❌ Monitoring error: ${error.message}`);
