@@ -12,7 +12,7 @@ Pipeline for generating AI character files and training datasets by scraping pub
    npm install
    ```
 
-2. Copy the `.env.example` into a `.env` file:
+2. Copy the `.env.example` into a `.env` file and fill in the required values:
 
    ```properties
    # (Required) Twitter Authentication
@@ -35,7 +35,7 @@ Pipeline for generating AI character files and training datasets by scraping pub
 ### Twitter Collection
 
 ```bash
-npm run twitter -- rolodexter6
+npm run twitter -- username
 ```
 
 Example: `npm run twitter -- rolodexter6`
@@ -49,7 +49,7 @@ npm run blog
 ### Generate Character
 
 ```bash
-npm run character -- rolodexter6
+npm run character -- username
 ```
 
 Example: `npm run character -- rolodexter6`
@@ -76,8 +76,8 @@ Run this after Twitter Collection step
 npm run generate-virtuals -- username date 
 ```
 
-Example: `npm run generate-virtuals -- pmarca 2024-11-29`
-Example without date: `npm run generate-virtuals -- pmarca`
+Example: `npm run generate-virtuals -- rolodexter6 2025-02-05`
+Example without date: `npm run generate-virtuals -- rolodexter6`
 
 The generated character file will be in the `pipeline/[username]/[date]/character/character.json` directory.
 The generated tweet dataset file will be in `pipeline/[username]/[date]/raw/tweets.json`.

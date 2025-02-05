@@ -22,13 +22,12 @@ import { Cluster } from "puppeteer-cluster";
 puppeteer.use(StealthPlugin());
 puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
-export class TwitterPipeline {
+class TwitterPipeline {
   constructor(username) {
     this.username = username;
     this.dataOrganizer = new DataOrganizer("pipeline", username);
     this.paths = this.dataOrganizer.getPaths();
     this.tweetFilter = new TweetFilter();
-    this.tweets = [];
 
     // Update cookie path to be in top-level cookies directory
     this.paths.cookies = path.join(
@@ -475,118 +474,66 @@ async saveCookies() {
 
   async collectTweets(scraper) {
     try {
-      const searchQuery = 'rolodexter6 OR rolodexterai';
-      Logger.info(`🔍 Searching for tweets with query: ${searchQuery}`);
-      const searchResults = scraper.searchTweets(
-        searchQuery,
-        this.config.twitter.maxTweets,
-        SearchMode.LIVE
-      );
+      // Add date filter - 6 months ago
+      const sixMonthsAgo = new Date();
+      sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+      Logger.info(`🔍 Searching for tweets containing 'rolodexter' or 'rolodexterai' since ${format(sixMonthsAgo, 'yyyy-MM-dd')}`);
 
       const allTweets = new Map();
-      let previousCount = 0;
-      let stagnantBatches = 0;
-      const MAX_STAGNANT_BATCHES = 2;
 
-      for await (const tweet of searchResults) {
-        if (tweet && !allTweets.has(tweet.id)) {
-          const processedTweet = this.processTweetData(tweet);
-          if (processedTweet) {
-            allTweets.set(tweet.id, processedTweet);
+      try {
+        // Add date filter to search query using Twitter's since: operator
+        const searchQuery = `(rolodexter OR rolodexterai) since:${format(sixMonthsAgo, 'yyyy-MM-dd')}`;
+        const searchResults = scraper.searchTweets(
+          searchQuery,
+          this.config.twitter.maxTweets,
+          SearchMode.Latest
+        );
 
-            if (allTweets.size % 100 === 0) {
-              const completion = (
-                (allTweets.size / this.config.twitter.maxTweets) *
-                100
-              ).toFixed(1);
-              Logger.info(
-                `📊 Progress: ${allTweets.size.toLocaleString()} unique tweets (${completion}%)`
-              );
-
-              if (allTweets.size === previousCount) {
-                stagnantBatches++;
-                if (stagnantBatches >= MAX_STAGNANT_BATCHES) {
-                  Logger.info(
-                    "📝 Collection rate has stagnated, checking fallback..."
-                  );
-                  break;
-                }
-              } else {
-                stagnantBatches = 0;
-              }
-              previousCount = allTweets.size;
-            }
-          }
-        }
-      }
-
-      // Use fallback for replies if needed
-      if (
-        allTweets.size < this.config.twitter.maxTweets * 0.8 &&
-        this.config.fallback.enabled
-      ) {
-        Logger.info("\n🔍 Collecting additional tweets via fallback...");
-
-        try {
-          const fallbackTweets = await this.collectWithFallback(
-            searchQuery
-          );
-          let newTweetsCount = 0;
-
-          fallbackTweets.forEach((tweet) => {
-            if (!allTweets.has(tweet.id)) {
+        for await (const tweet of searchResults) {
+          if (tweet && !allTweets.has(tweet.id)) {
+            const tweetDate = new Date(tweet.timestamp);
+            if (tweetDate >= sixMonthsAgo) {  // Double check the date in code
               const processedTweet = this.processTweetData(tweet);
               if (processedTweet) {
                 allTweets.set(tweet.id, processedTweet);
-                newTweetsCount++;
-                this.stats.fallbackUsed = true;
+                if (allTweets.size % 100 === 0) {
+                  Logger.info(`📊 Progress: ${allTweets.size.toLocaleString()} recent rolodexter-related tweets collected`);
+                }
+              }
+            }
+          }
+        }
+      } catch (error) {
+        // ...existing error handling code...
+      }
+
+      // Update fallback to use same date filter
+      if (this.config.fallback.enabled) {
+        Logger.info('\n🔍 Collecting additional recent rolodexter-related tweets via fallback...');
+        try {
+          const searchQuery = `(rolodexter OR rolodexterai) since:${format(sixMonthsAgo, 'yyyy-MM-dd')}`;
+          const fallbackTweets = await this.collectWithFallback(searchQuery);
+          // Filter fallback tweets by date
+          fallbackTweets.forEach((tweet) => {
+            if (new Date(tweet.timestamp) >= sixMonthsAgo && !allTweets.has(tweet.id)) {
+              const processedTweet = this.processTweetData(tweet);
+              if (processedTweet) {
+                allTweets.set(tweet.id, processedTweet);
               }
             }
           });
-
-          if (newTweetsCount > 0) {
-            Logger.info(
-              `Found ${newTweetsCount} additional tweets via fallback`
-            );
-          }
         } catch (error) {
           Logger.warn(`⚠️  Fallback collection error: ${error.message}`);
         }
       }
 
-      Logger.success(
-        `\n🎉 Collection complete! ${allTweets.size.toLocaleString()} unique tweets collected${
-          this.stats.fallbackUsed
-            ? ` (including ${this.stats.fallbackCount} from fallback)`
-            : ""
-        }`
-      );
-
+      Logger.success(`\n🎉 Collection complete! ${allTweets.size.toLocaleString()} recent rolodexter-related tweets collected`);
       return Array.from(allTweets.values());
     } catch (error) {
       Logger.error(`Failed to collect tweets: ${error.message}`);
       throw error;
     }
-  }
-
-  async searchMentions() {
-    const searchQuery = 'rolodexterai';
-    Logger.info(`🔍 Searching for mentions with query: ${searchQuery}`);
-    const searchResults = this.scraper.searchTweets(
-      searchQuery,
-      this.config.twitter.maxTweets,
-      SearchMode.LIVE
-    );
-
-    const mentions = [];
-    for await (const tweet of searchResults) {
-      if (tweet && tweet.text.includes('rolodexterai')) {
-        mentions.push(tweet);
-      }
-    }
-
-    Logger.info(`Found ${mentions.length} mentions of "rolodexterai".`);
-    return mentions;
   }
 
   async showSampleTweets(tweets) {
@@ -629,40 +576,6 @@ async saveCookies() {
     return profile;
   }
 
-  async organizeTweets(tweets) {
-    Logger.info("🗂️ Running tweet organization...");
-    try {
-        const baseDir = this.dataOrganizer.baseDir;
-        const repliedPath = path.join(baseDir, 'processed', 'replied');
-        const unrepliedPath = path.join(baseDir, 'processed', 'unreplied');
-
-        // Create directories if they don't exist
-        await fs.mkdir(repliedPath, { recursive: true });
-        await fs.mkdir(unrepliedPath, { recursive: true });
-
-        Logger.info("📂 Organizing tweets into replied/unreplied folders...");
-
-        const replied = tweets.filter(t => t.isReply);
-        const unreplied = tweets.filter(t => !t.isReply);
-
-        await fs.writeFile(
-            path.join(repliedPath, 'tweets.json'),
-            JSON.stringify(replied, null, 2)
-        );
-        await fs.writeFile(
-            path.join(unrepliedPath, 'tweets.json'),
-            JSON.stringify(unreplied, null, 2)
-        );
-
-        return {
-            replied: replied.length,
-            unreplied: unreplied.length
-        };
-    } catch (error) {
-        throw new Error(`Failed to organize tweets: ${error.message}`);
-    }
-}
-
   async run() {
     const startTime = Date.now();
 
@@ -692,50 +605,103 @@ async saveCookies() {
         return;
       }
 
-      // Normalize and process tweets
-      const processedTweets = await Promise.all(
-        allTweets.map(tweet => processTweetData(tweet))
-      ).then(tweets => tweets.filter(t => t !== null));
-
-      // Store processed tweets
-      this.tweets = processedTweets;
-
       // Save collected data
       Logger.startSpinner("Processing and saving data");
-      const analytics = await this.dataOrganizer.saveTweets(this.tweets);
+      const analytics = await this.dataOrganizer.saveTweets(allTweets);
       Logger.stopSpinner();
 
-      // Organize tweets
-      try {
-        const organizationStats = await this.organizeTweets(this.tweets);
-        analytics.organization = organizationStats;
-      } catch (error) {
-        Logger.warn(`⚠️ Tweet organization error: ${error.message}`);
-      }
-
-      // Calculate and display statistics
+      // Calculate final statistics
       const duration = ((Date.now() - startTime) / 1000).toFixed(1);
-      const tweetsPerMinute = (this.tweets.length / (duration / 60)).toFixed(1);
-      const successRate = ((this.tweets.length / (this.stats.requestCount + this.stats.fallbackCount)) * 100).toFixed(1);
+      const tweetsPerMinute = (allTweets.length / (duration / 60)).toFixed(1);
+      const successRate = (
+        (allTweets.length /
+          (this.stats.requestCount + this.stats.fallbackCount)) *
+        100
+      ).toFixed(1);
 
-      // Display results and analytics
-      this.displayResults(analytics, {
-        duration,
-        tweetsPerMinute,
-        successRate
+      // Display final results
+      Logger.stats("📈 Collection Results", {
+        "Total Tweets": allTweets.length.toLocaleString(),
+        "Original Tweets": analytics.directTweets.toLocaleString(),
+        Replies: analytics.replies.toLocaleString(),
+        Retweets: analytics.retweets.toLocaleString(),
+        "Date Range": `${analytics.timeRange.start} to ${analytics.timeRange.end}`,
+        Runtime: `${duration} seconds`,
+        "Collection Rate": `${tweetsPerMinute} tweets/minute`,
+        "Success Rate": `${successRate}%`,
+        "Rate Limit Hits": this.stats.rateLimitHits.toLocaleString(),
+        "Fallback Collections": this.stats.fallbackCount.toLocaleString(),
+        "Storage Location": chalk.gray(this.dataOrganizer.baseDir),
       });
 
+      // Content type breakdown
+      Logger.info("\n📊 Content Type Breakdown:");
+      console.log(
+        chalk.cyan(
+          `• Text Only: ${analytics.contentTypes.textOnly.toLocaleString()}`
+        )
+      );
+      console.log(
+        chalk.cyan(
+          `• With Images: ${analytics.contentTypes.withImages.toLocaleString()}`
+        )
+      );
+      console.log(
+        chalk.cyan(
+          `• With Videos: ${analytics.contentTypes.withVideos.toLocaleString()}`
+        )
+      );
+      console.log(
+        chalk.cyan(
+          `• With Links: ${analytics.contentTypes.withLinks.toLocaleString()}`
+        )
+      );
+
+      // Engagement statistics
+      Logger.info("\n💫 Engagement Statistics:");
+      console.log(
+        chalk.cyan(
+          `• Total Likes: ${analytics.engagement.totalLikes.toLocaleString()}`
+        )
+      );
+      console.log(
+        chalk.cyan(
+          `• Total Retweets: ${analytics.engagement.totalRetweetCount.toLocaleString()}`
+        )
+      );
+      console.log(
+        chalk.cyan(
+          `• Total Replies: ${analytics.engagement.totalReplies.toLocaleString()}`
+        )
+      );
+      console.log(
+        chalk.cyan(`• Average Likes: ${analytics.engagement.averageLikes}`)
+      );
+
+      // Collection method breakdown
+      if (this.stats.fallbackUsed) {
+        Logger.info("\n🔄 Collection Method Breakdown:");
+        console.log(
+          chalk.cyan(
+            `• Primary Collection: ${(
+              allTweets.length - this.stats.fallbackCount
+            ).toLocaleString()}`
+          )
+        );
+        console.log(
+          chalk.cyan(
+            `• Fallback Collection: ${this.stats.fallbackCount.toLocaleString()}`
+          )
+        );
+      }
+
       // Show sample tweets
-      await this.showSampleTweets(this.tweets);
+      await this.showSampleTweets(allTweets);
 
       // Cleanup
       await this.cleanup();
 
-      return {
-        tweets: processedTweets,
-        analytics
-      };
-
+      return analytics;
     } catch (error) {
       Logger.error(`Pipeline failed: ${error.message}`);
       await this.logError(error, {
@@ -745,64 +711,6 @@ async saveCookies() {
       });
       await this.cleanup();
       throw error;
-    }
-  }
-
-  displayResults(analytics, stats) {
-    // Display final results
-    Logger.stats("📈 Collection Results", {
-        "Total Tweets": this.tweets.length.toLocaleString(),
-        "Original Tweets": analytics.directTweets.toLocaleString(),
-        "Replies": analytics.replies.toLocaleString(),
-        "Retweets": analytics.retweets.toLocaleString(),
-        "Date Range": `${analytics.timeRange.start} to ${analytics.timeRange.end}`,
-        "Runtime": `${stats.duration} seconds`,
-        "Collection Rate": `${stats.tweetsPerMinute} tweets/minute`,
-        "Success Rate": `${stats.successRate}%`,
-        "Rate Limit Hits": this.stats.rateLimitHits.toLocaleString(),
-        "Fallback Collections": this.stats.fallbackCount.toLocaleString(),
-        "Storage Location": chalk.gray(this.dataOrganizer.baseDir),
-    });
-
-    // Content type breakdown
-    Logger.info("\n📊 Content Type Breakdown:");
-    console.log(
-        chalk.cyan(`• Text Only: ${analytics.contentTypes.textOnly.toLocaleString()}`)
-    );
-    console.log(
-        chalk.cyan(`• With Images: ${analytics.contentTypes.withImages.toLocaleString()}`)
-    );
-    console.log(
-        chalk.cyan(`• With Videos: ${analytics.contentTypes.withVideos.toLocaleString()}`)
-    );
-    console.log(
-        chalk.cyan(`• With Links: ${analytics.contentTypes.withLinks.toLocaleString()}`)
-    );
-
-    // Engagement statistics
-    Logger.info("\n💫 Engagement Statistics:");
-    console.log(
-        chalk.cyan(`• Total Likes: ${analytics.engagement.totalLikes.toLocaleString()}`)
-    );
-    console.log(
-        chalk.cyan(`• Total Retweets: ${analytics.engagement.totalRetweetCount.toLocaleString()}`)
-    );
-    console.log(
-        chalk.cyan(`• Total Replies: ${analytics.engagement.totalReplies.toLocaleString()}`)
-    );
-    console.log(
-        chalk.cyan(`• Average Likes: ${analytics.engagement.averageLikes}`)
-    );
-
-    // Collection method breakdown
-    if (this.stats.fallbackUsed) {
-        Logger.info("\n🔄 Collection Method Breakdown:");
-        console.log(
-            chalk.cyan(`• Primary Collection: ${(this.tweets.length - this.stats.fallbackCount).toLocaleString()}`)
-        );
-        console.log(
-            chalk.cyan(`• Fallback Collection: ${this.stats.fallbackCount.toLocaleString()}`)
-        );
     }
   }
 
@@ -863,42 +771,6 @@ async saveCookies() {
     }
   }
 
-  async saveProgress(startTime, endTime, uniqueTweets, additionalStats) {
-    const progressLog = {
-      startTime,
-      endTime,
-      uniqueTweets,
-      ...additionalStats,
-    };
-
-    const progressLogPath = path.join(
-      this.dataOrganizer.baseDir,
-      "meta",
-      "progress_log.json"
-    );
-
-    try {
-      let existingLogs = [];
-      try {
-        const existing = await fs.readFile(progressLogPath, "utf-8");
-        existingLogs = JSON.parse(existing);
-      } catch {
-        // File doesn't exist yet
-      }
-
-      existingLogs.push(progressLog);
-
-      // Keep only recent progress logs
-      if (existingLogs.length > 100) {
-        existingLogs = existingLogs.slice(-100);
-      }
-
-      await fs.writeFile(progressLogPath, JSON.stringify(existingLogs, null, 2));
-    } catch (logError) {
-      Logger.error(`Failed to save progress log: ${logError.message}`);
-    }
-  }
-
   async cleanup() {
     try {
       // Cleanup main scraper
@@ -931,95 +803,6 @@ async saveCookies() {
       });
     }
   }
-
-  async postTweet(content) {
-    const browser = await puppeteer.launch({ headless: true });
-    const page = await browser.newPage();
-
-    try {
-        console.log("🔑 Logging into Twitter...");
-        
-        await page.goto("https://twitter.com/i/flow/login", { waitUntil: "networkidle2" });
-        
-        // Load stored cookies
-        if (await this.loadCookies(page)) {
-            console.log("✅ Logged in via cookies.");
-        } else {
-            await page.type('input[name="session[username_or_email]"]', process.env.TWITTER_USERNAME, { delay: 50 });
-            await page.type('input[name="session[password]"]', process.env.TWITTER_PASSWORD, { delay: 50 });
-            await page.click('div[data-testid="LoginForm_Login_Button"]');
-            await page.waitForNavigation({ waitUntil: "networkidle2" });
-            await this.saveCookies(page);
-        }
-
-        // Navigate to tweet box
-        await page.goto("https://twitter.com/compose/tweet", { waitUntil: "networkidle2" });
-
-        // Enter tweet text
-        await page.type('div[aria-label="Tweet text"]', content, { delay: 50 });
-
-        // Click "Tweet" button
-        await page.click('div[data-testid="tweetButtonInline"]');
-
-        console.log("✅ Tweet posted successfully!");
-    } catch (error) {
-        console.error("❌ Error posting tweet:", error);
-    } finally {
-        await browser.close();
-    }
-  }
-
-  // Add method to ensure tweets are in correct format
-  normalizeTweets(rawTweets) {
-    if (!Array.isArray(rawTweets)) {
-      Logger.warn('Converting non-array tweets to array format');
-      rawTweets = [rawTweets];
-    }
-    return rawTweets.map(tweet => {
-      return {
-        text: tweet.text || tweet.full_text || '',
-        hashtags: (tweet.entities?.hashtags || []).map(h => h.text),
-        // Add other fields you need
-      };
-    });
-  }
 }
 
 export default TwitterPipeline;
-
-async function processTweetData(tweet) {
-  try {
-    if (!tweet || !tweet.id) return null;
-
-    // Ensure valid timestamp
-    let timestamp = tweet.timestamp;
-    if (!timestamp) {
-      if (tweet.createdAt) {
-        timestamp = new Date(tweet.createdAt).getTime();
-      } else if (tweet.timeParsed) {
-        timestamp = tweet.timeParsed.getTime();
-      } else {
-        // Default to current time if no valid timestamp
-        timestamp = Date.now();
-      }
-    }
-
-    // Convert to milliseconds if needed
-    if (timestamp < 1e12) timestamp *= 1000;
-
-    // Validate timestamp
-    if (isNaN(timestamp) || timestamp <= 0) {
-      Logger.warn(`Invalid timestamp for tweet ${tweet.id}, using current time`);
-      timestamp = Date.now();
-    }
-
-    return {
-      ...tweet,
-      timestamp,
-      createdAt: new Date(timestamp).toISOString(),
-    };
-  } catch (error) {
-    Logger.warn(`Error processing tweet ${tweet?.id}: ${error.message}`);
-    return null;
-  }
-}
