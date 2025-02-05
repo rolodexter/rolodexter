@@ -568,80 +568,87 @@ async saveCookies() {
   async postStatusUpdate(stats) {
     Logger.info('📝 Preparing to post status update...');
     
+    // Launch visible browser with debug options
     const browser = await puppeteer.launch({
-      headless: "new",
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
-      defaultViewport: { width: 1280, height: 800 }
+      headless: false,  // Make browser visible
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-blink-features=AutomationControlled',
+        '--start-maximized'  // Start with maximized window
+      ],
+      defaultViewport: null,  // Allow full screen
+      ignoreDefaultArgs: ['--enable-automation']  // Hide automation
     });
 
     try {
       const page = await browser.newPage();
       
-      // Increase timeouts
-      await page.setDefaultNavigationTimeout(60000);
-      await page.setDefaultTimeout(60000);
+      // Enable request interception for debugging
+      await page.setRequestInterception(true);
+      page.on('request', request => {
+        Logger.debug(`🌐 Network request: ${request.method()} ${request.url()}`);
+        request.continue();
+      });
+
+      // Set a more realistic user agent
+      await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
       
-      // Login flow with explicit waiting
+      Logger.info('🔄 Navigating to Twitter login...');
       await page.goto('https://twitter.com/i/flow/login', {
         waitUntil: 'networkidle0',
         timeout: 60000
       });
       
-      // Wait for and fill username
+      Logger.info('⌨️ Entering credentials...');
       await page.waitForSelector('input[autocomplete="username"]', { visible: true });
       await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME, { delay: 100 });
       await new Promise(resolve => setTimeout(resolve, 1000));
       
-      // Find and click the "Next" button
-      const nextButton = await page.waitForSelector('div[role="button"]', { visible: true });
+      const nextButton = await page.$('div[role="button"]:has-text("Next")');
+      if (!nextButton) throw new Error('Next button not found');
       await nextButton.click();
+      
       await new Promise(resolve => setTimeout(resolve, 2000));
+      await page.waitForSelector('input[name="password"]', { visible: true });
+      await page.type('input[name="password"]', process.env.TWITTER_PASSWORD, { delay: 100 });
       
-      // Wait for and fill password
-      await page.waitForSelector('input[type="password"]', { visible: true });
-      await page.type('input[type="password"]', process.env.TWITTER_PASSWORD, { delay: 100 });
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Find and click the login button
-      const loginButton = await page.waitForSelector('div[data-testid="LoginForm_Login_Button"]', { visible: true });
+      const loginButton = await page.$('div[data-testid="LoginForm_Login_Button"]');
+      if (!loginButton) throw new Error('Login button not found');
       await loginButton.click();
       
-      // Wait for navigation to complete
-      await page.waitForNavigation({ waitUntil: 'networkidle0', timeout: 60000 });
+      Logger.info('🔄 Waiting for login completion...');
+      await page.waitForNavigation({ waitUntil: 'networkidle0' });
       
-      // Go to home and wait for complete load
-      await page.goto('https://twitter.com/home', { 
-        waitUntil: 'networkidle0',
-        timeout: 60000 
-      });
-      
-      // Wait for tweet box with longer timeout
-      await page.waitForSelector('[data-testid="tweetTextarea_0"]', { 
-        visible: true,
-        timeout: 60000 
-      });
-      
-      // Click and type with delays
-      await page.click('[data-testid="tweetTextarea_0"]');
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
+      Logger.info('📝 Composing tweet...');
       const statusUpdate = this.generateStatusUpdate(stats);
-      await page.keyboard.type(statusUpdate, { delay: 50 });
-      await new Promise(resolve => setTimeout(resolve, 2000));
       
-      // Click the tweet button instead of using keyboard shortcuts
-      const tweetButton = await page.waitForSelector('[data-testid="tweetButton"]', { visible: true });
-      await tweetButton.click();
+      // Click compose tweet button
+      await page.waitForSelector('a[href="/compose/tweet"]', { visible: true });
+      await page.click('a[href="/compose/tweet"]');
+      
+      // Type tweet
+      await page.waitForSelector('div[data-testid="tweetTextarea_0"]', { visible: true });
+      await page.type('div[data-testid="tweetTextarea_0"]', statusUpdate, { delay: 50 });
+      
+      Logger.info('📤 Posting tweet...');
+      await page.waitForSelector('div[data-testid="tweetButton"]', { visible: true });
+      await page.click('div[data-testid="tweetButton"]');
       
       // Wait for tweet to be posted
       await new Promise(resolve => setTimeout(resolve, 5000));
-      
       Logger.success('✅ Status update posted successfully');
 
     } catch (error) {
       Logger.error(`Failed to post status update: ${error.message}`);
+      Logger.debug(`Full error: ${error.stack}`);
     } finally {
-      await browser.close();
+      // Keep browser open for debugging if there was an error
+      if (process.env.DEBUG === 'true') {
+        Logger.info('🔍 Debug mode: keeping browser open for inspection');
+      } else {
+        await browser.close();
+      }
     }
   }
 
@@ -655,37 +662,68 @@ Status: NOMINAL
 #RolodexterAI #SystemStatus`;
   }
 
+  async shouldSkipScraping() {
+    const { skipScraping } = await inquirer.prompt([
+      {
+        type: 'confirm',
+        name: 'skipScraping',
+        message: 'Do you want to skip the scraper and go straight to posting a tweet?',
+        default: false
+      }
+    ]);
+    return skipScraping;
+  }
+
   async run() {
     const startTime = Date.now();
 
     console.log("\n" + chalk.bold.blue("🐦 Twitter Data Collection Pipeline"));
-    // Remove username-specific messaging since we're searching globally
-    console.log(chalk.bold(`Searching for rolodexter-related tweets\n`));
-
+    
     try {
       await this.validateEnvironment();
-      const scraperInitialized = await this.initializeScraper();
-      // ...existing initialization code...
-
-      // Start collection - remove username from spinner text
-      Logger.startSpinner(`Collecting rolodexter-related tweets`);
-      const allTweets = await this.collectTweets(this.scraper);
       
-      // Post status update after collection
+      // Ask if we should skip scraping
+      const skipScraping = await this.shouldSkipScraping();
+      
+      let allTweets = [];
+      if (!skipScraping) {
+        const scraperInitialized = await this.initializeScraper();
+        if (!scraperInitialized) {
+          throw new Error("Failed to initialize scraper");
+        }
+
+        Logger.startSpinner(`Collecting rolodexter-related tweets`);
+        allTweets = await this.collectTweets(this.scraper);
+        Logger.stopSpinner();
+      }
+
+      // Prepare stats for status update
       const stats = {
         totalTweets: allTweets.length,
-        matchingTweets: allTweets.filter(t => 
+        matchingTweets: skipScraping ? 0 : allTweets.filter(t => 
           t.text.toLowerCase().includes('rolodexter') || 
           t.text.toLowerCase().includes('rolodexterai')
         ).length,
-        tweetsPerMinute: Math.round(allTweets.length / ((Date.now() - this.stats.startTime) / 60000))
+        tweetsPerMinute: skipScraping ? 0 : Math.round(allTweets.length / ((Date.now() - startTime) / 60000))
       };
       
+      // Post status update
       await this.postStatusUpdate(stats);
       
-      // ...rest of run method...
+      if (!skipScraping) {
+        // Only save tweets if we didn't skip scraping
+        return this.dataOrganizer.saveTweets(allTweets);
+      }
+      
     } catch (error) {
-      // ...existing error handling...
+      Logger.error(`Pipeline failed: ${error.message}`);
+      await this.logError(error, {
+        stage: 'pipeline_execution',
+        runtime: (Date.now() - startTime) / 1000,
+      });
+      throw error;
+    } finally {
+      await this.cleanup();
     }
   }
 
@@ -748,34 +786,16 @@ Status: NOMINAL
 
   async cleanup() {
     try {
-      // Cleanup main scraper
       if (this.scraper) {
         await this.scraper.logout();
         Logger.success("🔒 Logged out of primary system");
       }
-
-      // Cleanup fallback system
       if (this.cluster) {
         await this.cluster.close();
         Logger.success("🔒 Cleaned up fallback system");
       }
-
-      await this.saveProgress(null, null, this.stats.uniqueTweets, {
-        completed: true,
-        endTime: new Date().toISOString(),
-        fallbackUsed: this.stats.fallbackUsed,
-        fallbackCount: this.stats.fallbackCount,
-        rateLimitHits: this.stats.rateLimitHits,
-      });
-
-      Logger.success("✨ Cleanup complete");
     } catch (error) {
       Logger.warn(`⚠️  Cleanup error: ${error.message}`);
-      await this.saveProgress(null, null, this.stats.uniqueTweets, {
-        completed: true,
-        endTime: new Date().toISOString(),
-        error: error.message,
-      });
     }
   }
 }
