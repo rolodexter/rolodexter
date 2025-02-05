@@ -22,7 +22,7 @@ import { Cluster } from "puppeteer-cluster";
 puppeteer.use(StealthPlugin());
 puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
-class TwitterPipeline {
+export class TwitterPipeline {
   constructor(username) {
     this.username = username;
     this.dataOrganizer = new DataOrganizer("pipeline", username);
@@ -629,6 +629,40 @@ async saveCookies() {
     return profile;
   }
 
+  async organizeTweets(tweets) {
+    Logger.info("🗂️ Running tweet organization...");
+    try {
+        const baseDir = this.dataOrganizer.baseDir;
+        const repliedPath = path.join(baseDir, 'processed', 'replied');
+        const unrepliedPath = path.join(baseDir, 'processed', 'unreplied');
+
+        // Create directories if they don't exist
+        await fs.mkdir(repliedPath, { recursive: true });
+        await fs.mkdir(unrepliedPath, { recursive: true });
+
+        Logger.info("📂 Organizing tweets into replied/unreplied folders...");
+
+        const replied = tweets.filter(t => t.isReply);
+        const unreplied = tweets.filter(t => !t.isReply);
+
+        await fs.writeFile(
+            path.join(repliedPath, 'tweets.json'),
+            JSON.stringify(replied, null, 2)
+        );
+        await fs.writeFile(
+            path.join(unrepliedPath, 'tweets.json'),
+            JSON.stringify(unreplied, null, 2)
+        );
+
+        return {
+            replied: replied.length,
+            unreplied: unreplied.length
+        };
+    } catch (error) {
+        throw new Error(`Failed to organize tweets: ${error.message}`);
+    }
+}
+
   async run() {
     const startTime = Date.now();
 
@@ -671,90 +705,25 @@ async saveCookies() {
       const analytics = await this.dataOrganizer.saveTweets(this.tweets);
       Logger.stopSpinner();
 
-      // Calculate final statistics
+      // Organize tweets
+      try {
+        const organizationStats = await this.organizeTweets(this.tweets);
+        analytics.organization = organizationStats;
+      } catch (error) {
+        Logger.warn(`⚠️ Tweet organization error: ${error.message}`);
+      }
+
+      // Calculate and display statistics
       const duration = ((Date.now() - startTime) / 1000).toFixed(1);
       const tweetsPerMinute = (this.tweets.length / (duration / 60)).toFixed(1);
-      const successRate = (
-        (this.tweets.length /
-          (this.stats.requestCount + this.stats.fallbackCount)) *
-        100
-      ).toFixed(1);
+      const successRate = ((this.tweets.length / (this.stats.requestCount + this.stats.fallbackCount)) * 100).toFixed(1);
 
-      // Display final results
-      Logger.stats("📈 Collection Results", {
-        "Total Tweets": this.tweets.length.toLocaleString(),
-        "Original Tweets": analytics.directTweets.toLocaleString(),
-        Replies: analytics.replies.toLocaleString(),
-        Retweets: analytics.retweets.toLocaleString(),
-        "Date Range": `${analytics.timeRange.start} to ${analytics.timeRange.end}`,
-        Runtime: `${duration} seconds`,
-        "Collection Rate": `${tweetsPerMinute} tweets/minute`,
-        "Success Rate": `${successRate}%`,
-        "Rate Limit Hits": this.stats.rateLimitHits.toLocaleString(),
-        "Fallback Collections": this.stats.fallbackCount.toLocaleString(),
-        "Storage Location": chalk.gray(this.dataOrganizer.baseDir),
+      // Display results and analytics
+      this.displayResults(analytics, {
+        duration,
+        tweetsPerMinute,
+        successRate
       });
-
-      // Content type breakdown
-      Logger.info("\n📊 Content Type Breakdown:");
-      console.log(
-        chalk.cyan(
-          `• Text Only: ${analytics.contentTypes.textOnly.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Images: ${analytics.contentTypes.withImages.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Videos: ${analytics.contentTypes.withVideos.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Links: ${analytics.contentTypes.withLinks.toLocaleString()}`
-        )
-      );
-
-      // Engagement statistics
-      Logger.info("\n💫 Engagement Statistics:");
-      console.log(
-        chalk.cyan(
-          `• Total Likes: ${analytics.engagement.totalLikes.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• Total Retweets: ${analytics.engagement.totalRetweetCount.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• Total Replies: ${analytics.engagement.totalReplies.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(`• Average Likes: ${analytics.engagement.averageLikes}`)
-      );
-
-      // Collection method breakdown
-      if (this.stats.fallbackUsed) {
-        Logger.info("\n🔄 Collection Method Breakdown:");
-        console.log(
-          chalk.cyan(
-            `• Primary Collection: ${(
-              this.tweets.length - this.stats.fallbackCount
-            ).toLocaleString()}`
-          )
-        );
-        console.log(
-          chalk.cyan(
-            `• Fallback Collection: ${this.stats.fallbackCount.toLocaleString()}`
-          )
-        );
-      }
 
       // Show sample tweets
       await this.showSampleTweets(this.tweets);
@@ -764,9 +733,7 @@ async saveCookies() {
 
       return {
         tweets: processedTweets,
-        analytics: {
-          // ...your analytics data
-        }
+        analytics
       };
 
     } catch (error) {
@@ -778,6 +745,64 @@ async saveCookies() {
       });
       await this.cleanup();
       throw error;
+    }
+  }
+
+  displayResults(analytics, stats) {
+    // Display final results
+    Logger.stats("📈 Collection Results", {
+        "Total Tweets": this.tweets.length.toLocaleString(),
+        "Original Tweets": analytics.directTweets.toLocaleString(),
+        "Replies": analytics.replies.toLocaleString(),
+        "Retweets": analytics.retweets.toLocaleString(),
+        "Date Range": `${analytics.timeRange.start} to ${analytics.timeRange.end}`,
+        "Runtime": `${stats.duration} seconds`,
+        "Collection Rate": `${stats.tweetsPerMinute} tweets/minute`,
+        "Success Rate": `${stats.successRate}%`,
+        "Rate Limit Hits": this.stats.rateLimitHits.toLocaleString(),
+        "Fallback Collections": this.stats.fallbackCount.toLocaleString(),
+        "Storage Location": chalk.gray(this.dataOrganizer.baseDir),
+    });
+
+    // Content type breakdown
+    Logger.info("\n📊 Content Type Breakdown:");
+    console.log(
+        chalk.cyan(`• Text Only: ${analytics.contentTypes.textOnly.toLocaleString()}`)
+    );
+    console.log(
+        chalk.cyan(`• With Images: ${analytics.contentTypes.withImages.toLocaleString()}`)
+    );
+    console.log(
+        chalk.cyan(`• With Videos: ${analytics.contentTypes.withVideos.toLocaleString()}`)
+    );
+    console.log(
+        chalk.cyan(`• With Links: ${analytics.contentTypes.withLinks.toLocaleString()}`)
+    );
+
+    // Engagement statistics
+    Logger.info("\n💫 Engagement Statistics:");
+    console.log(
+        chalk.cyan(`• Total Likes: ${analytics.engagement.totalLikes.toLocaleString()}`)
+    );
+    console.log(
+        chalk.cyan(`• Total Retweets: ${analytics.engagement.totalRetweetCount.toLocaleString()}`)
+    );
+    console.log(
+        chalk.cyan(`• Total Replies: ${analytics.engagement.totalReplies.toLocaleString()}`)
+    );
+    console.log(
+        chalk.cyan(`• Average Likes: ${analytics.engagement.averageLikes}`)
+    );
+
+    // Collection method breakdown
+    if (this.stats.fallbackUsed) {
+        Logger.info("\n🔄 Collection Method Breakdown:");
+        console.log(
+            chalk.cyan(`• Primary Collection: ${(this.tweets.length - this.stats.fallbackCount).toLocaleString()}`)
+        );
+        console.log(
+            chalk.cyan(`• Fallback Collection: ${this.stats.fallbackCount.toLocaleString()}`)
+        );
     }
   }
 
@@ -958,147 +983,6 @@ async saveCookies() {
       };
     });
   }
-
-  async run() {
-    const startTime = Date.now();
-
-    console.log("\n" + chalk.bold.blue("🐦 Twitter Data Collection Pipeline"));
-    console.log(
-      chalk.bold(`Target Account: ${chalk.cyan("@" + this.username)}\n`)
-    );
-
-    try {
-      await this.validateEnvironment();
-
-      // Initialize main scraper
-      const scraperInitialized = await this.initializeScraper();
-      if (!scraperInitialized && !this.config.fallback.enabled) {
-        throw new Error(
-          "Failed to initialize scraper and fallback is disabled"
-        );
-      }
-
-      // Start collection
-      Logger.startSpinner(`Collecting tweets from @${this.username}`);
-      const allTweets = await this.collectTweets(this.scraper);
-      Logger.stopSpinner();
-
-      if (allTweets.length === 0) {
-        Logger.warn("⚠️  No tweets collected");
-        return;
-      }
-
-      // Normalize tweets before returning
-      this.tweets = this.normalizeTweets(allTweets);
-
-      // Save collected data
-      Logger.startSpinner("Processing and saving data");
-      const analytics = await this.dataOrganizer.saveTweets(this.tweets);
-      Logger.stopSpinner();
-
-      // Calculate final statistics
-      const duration = ((Date.now() - startTime) / 1000).toFixed(1);
-      const tweetsPerMinute = (this.tweets.length / (duration / 60)).toFixed(1);
-      const successRate = (
-        (this.tweets.length /
-          (this.stats.requestCount + this.stats.fallbackCount)) *
-        100
-      ).toFixed(1);
-
-      // Display final results
-      Logger.stats("📈 Collection Results", {
-        "Total Tweets": this.tweets.length.toLocaleString(),
-        "Original Tweets": analytics.directTweets.toLocaleString(),
-        Replies: analytics.replies.toLocaleString(),
-        Retweets: analytics.retweets.toLocaleString(),
-        "Date Range": `${analytics.timeRange.start} to ${analytics.timeRange.end}`,
-        Runtime: `${duration} seconds`,
-        "Collection Rate": `${tweetsPerMinute} tweets/minute`,
-        "Success Rate": `${successRate}%`,
-        "Rate Limit Hits": this.stats.rateLimitHits.toLocaleString(),
-        "Fallback Collections": this.stats.fallbackCount.toLocaleString(),
-        "Storage Location": chalk.gray(this.dataOrganizer.baseDir),
-      });
-
-      // Content type breakdown
-      Logger.info("\n📊 Content Type Breakdown:");
-      console.log(
-        chalk.cyan(
-          `• Text Only: ${analytics.contentTypes.textOnly.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Images: ${analytics.contentTypes.withImages.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Videos: ${analytics.contentTypes.withVideos.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Links: ${analytics.contentTypes.withLinks.toLocaleString()}`
-        )
-      );
-
-      // Engagement statistics
-      Logger.info("\n💫 Engagement Statistics:");
-      console.log(
-        chalk.cyan(
-          `• Total Likes: ${analytics.engagement.totalLikes.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• Total Retweets: ${analytics.engagement.totalRetweetCount.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• Total Replies: ${analytics.engagement.totalReplies.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(`• Average Likes: ${analytics.engagement.averageLikes}`)
-      );
-
-      // Collection method breakdown
-      if (this.stats.fallbackUsed) {
-        Logger.info("\n🔄 Collection Method Breakdown:");
-        console.log(
-          chalk.cyan(
-            `• Primary Collection: ${(
-              this.tweets.length - this.stats.fallbackCount
-            ).toLocaleString()}`
-          )
-        );
-        console.log(
-          chalk.cyan(
-            `• Fallback Collection: ${this.stats.fallbackCount.toLocaleString()}`
-          )
-        );
-      }
-
-      // Show sample tweets
-      await this.showSampleTweets(this.tweets);
-
-      // Cleanup
-      await this.cleanup();
-
-      return analytics;
-    } catch (error) {
-      Logger.error(`Pipeline failed: ${error.message}`);
-      await this.logError(error, {
-        stage: "pipeline_execution",
-        runtime: (Date.now() - startTime) / 1000,
-        stats: this.stats,
-      });
-      await this.cleanup();
-      throw error;
-    }
-  }
 }
 
 export default TwitterPipeline;
@@ -1139,31 +1023,3 @@ async function processTweetData(tweet) {
     return null;
   }
 }
-
-async run() {
-  // ...existing code...
-  
-  try {
-    // ...existing code...
-
-    // Normalize and process tweets
-    const processedTweets = await Promise.all(
-      allTweets.map(tweet => processTweetData(tweet))
-    ).then(tweets => tweets.filter(t => t !== null));
-
-    // Store processed tweets
-    this.tweets = processedTweets;
-
-    return {
-      tweets: processedTweets,
-      analytics: {
-        // ...your analytics data
-      }
-    };
-
-  } catch (error) {
-    // ...existing error handling...
-  }
-}
-
-// ...existing code...
