@@ -568,98 +568,76 @@ async saveCookies() {
   async postStatusUpdate(stats) {
     Logger.info('📝 Preparing to post status update...');
     
-    // Launch visible browser with debug options
     const browser = await puppeteer.launch({
-      headless: false,  // Make browser visible
-      args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--disable-blink-features=AutomationControlled',
-        '--start-maximized'  // Start with maximized window
-      ],
-      defaultViewport: null,  // Allow full screen
-      ignoreDefaultArgs: ['--enable-automation']  // Hide automation
+        headless: false,
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox'
+        ]
     });
 
     try {
-      const page = await browser.newPage();
-      
-      // Enable request interception for debugging
-      await page.setRequestInterception(true);
-      page.on('request', request => {
-        Logger.debug(`🌐 Network request: ${request.method()} ${request.url()}`);
-        request.continue();
-      });
+        const page = await browser.newPage();
 
-      // Set a more realistic user agent
-      await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-      
-      Logger.info('🔄 Navigating to Twitter login...');
-      await page.goto('https://twitter.com/i/flow/login', {
-        waitUntil: 'networkidle0',
-        timeout: 60000
-      });
-      
-      Logger.info('⌨️ Entering credentials...');
-      await page.waitForSelector('input[autocomplete="username"]', { visible: true });
-      await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME, { delay: 100 });
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      const nextButton = await page.$('div[role="button"]:has-text("Next")');
-      if (!nextButton) throw new Error('Next button not found');
-      await nextButton.click();
-      
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      await page.waitForSelector('input[name="password"]', { visible: true });
-      await page.type('input[name="password"]', process.env.TWITTER_PASSWORD, { delay: 100 });
-      
-      const loginButton = await page.$('div[data-testid="LoginForm_Login_Button"]');
-      if (!loginButton) throw new Error('Login button not found');
-      await loginButton.click();
-      
-      Logger.info('🔄 Waiting for login completion...');
-      await page.waitForNavigation({ waitUntil: 'networkidle0' });
-      
-      Logger.info('📝 Composing tweet...');
-      const statusUpdate = this.generateStatusUpdate(stats);
-      
-      // Click compose tweet button
-      await page.waitForSelector('a[href="/compose/tweet"]', { visible: true });
-      await page.click('a[href="/compose/tweet"]');
-      
-      // Type tweet
-      await page.waitForSelector('div[data-testid="tweetTextarea_0"]', { visible: true });
-      await page.type('div[data-testid="tweetTextarea_0"]', statusUpdate, { delay: 50 });
-      
-      Logger.info('📤 Posting tweet...');
-      await page.waitForSelector('div[data-testid="tweetButton"]', { visible: true });
-      await page.click('div[data-testid="tweetButton"]');
-      
-      // Wait for tweet to be posted
-      await new Promise(resolve => setTimeout(resolve, 5000));
-      Logger.success('✅ Status update posted successfully');
+        // Login sequence
+        Logger.info('🔄 Navigating to Twitter login...');
+        await page.goto('https://twitter.com/i/flow/login', { 
+            waitUntil: 'networkidle2',
+            timeout: 60000 
+        });
+
+        // Enter username/password
+        Logger.info('⌨️ Entering credentials...');
+        await page.waitForSelector('input[autocomplete="username"]', { visible: true });
+        await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME);
+        await page.keyboard.press('Enter');
+        await this.randomDelay(3000, 5000);
+
+        await page.waitForSelector('input[type="password"]', { visible: true });
+        await page.type('input[type="password"]', process.env.TWITTER_PASSWORD);
+        await this.randomDelay(1000, 2000);
+        await page.keyboard.press('Enter');
+
+        // Wait for homepage
+        Logger.info('⏳ Waiting for home page...');
+        await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 60000 });
+        await this.randomDelay(5000, 8000);
+
+        // Find and click tweet box
+        Logger.info('📝 Looking for tweet box...');
+        await page.waitForSelector('div[data-offset-key][class*="public-DraftStyleDefault-block"]', { visible: true });
+        await page.click('div[data-offset-key][class*="public-DraftStyleDefault-block"]');
+        await this.randomDelay(2000, 3000);
+
+        // Type tweet content
+        const statusUpdate = this.generateStatusUpdate(stats);
+        Logger.info('📝 Typing tweet...');
+        await page.keyboard.type(statusUpdate);
+        await this.randomDelay(2000, 3000);
+
+        // Post tweet
+        Logger.info('📤 Posting tweet...');
+        await page.keyboard.down('Control');
+        await page.keyboard.press('Enter');
+        await page.keyboard.up('Control');
+        
+        await this.randomDelay(5000, 8000);
+        Logger.success('✅ Status update posted successfully');
+
+        await browser.close();
+        Logger.info('🔒 Browser closed');
 
     } catch (error) {
-      Logger.error(`Failed to post status update: ${error.message}`);
-      Logger.debug(`Full error: ${error.stack}`);
-    } finally {
-      // Keep browser open for debugging if there was an error
-      if (process.env.DEBUG === 'true') {
-        Logger.info('🔍 Debug mode: keeping browser open for inspection');
-      } else {
-        await browser.close();
-      }
+        Logger.error(`❌ Failed to post status update: ${error.message}`);
+        Logger.info('Browser left open for debugging - press Ctrl+C to exit');
+        return;
     }
-  }
+}
 
   generateStatusUpdate(stats) {
     const now = new Date();
     return `[SYSTEM STATUS] ${format(now, 'yyyy-MM-dd HH:mm')}
-Tweets Analyzed: ${stats.totalTweets}
-Keywords Found: ${stats.matchingTweets}
-Collection Rate: ${stats.tweetsPerMinute}/min
-Status: NOMINAL
-#RolodexterAI #SystemStatus`;
+Status: NOMINAL`;
   }
 
   async shouldSkipScraping() {

@@ -15,23 +15,20 @@ process.on('uncaughtException', (error) => {
   process.exit(1);
 });
 
-const args = process.argv.slice(2);
-const username = args[0] || 'degenspartan';
-
+// Use a dummy username since we're not filtering by user
+const username = 'global_search';
 const pipeline = new TwitterPipeline(username);
 
-// Extend pipeline to search for specific keywords and hashtags
+// Simplify the pipeline to use a single filtering pass
 pipeline.filterTweets = (tweets) => {
-  return tweets.filter(tweet => {
-    const text = tweet.text.toLowerCase();
-    const hashtags = tweet.entities?.hashtags?.map(h => h.text.toLowerCase()) || [];
-
-    return (
-      text.includes('rolodexter') ||
-      text.includes('rolodexterai') ||
-      hashtags.includes('rolodexter')
-    );
-  });
+  const LIMIT = 1000;
+  return tweets
+    .filter(tweet => {
+      if (!tweet?.text) return false;
+      const text = tweet.text.toLowerCase();
+      return text.includes('rolodexter') || text.includes('rolodexterai');
+    })
+    .slice(0, LIMIT); // Ensure we never return more than limit
 };
 
 const cleanup = async () => {
@@ -53,7 +50,7 @@ process.on('SIGTERM', cleanup);
 pipeline.run()
   .then(tweets => {
     const filteredTweets = pipeline.filterTweets(tweets);
-    Logger.success(`✅ Found ${filteredTweets.length} relevant tweets for keywords and hashtags.`);
-    // Save filtered tweets or process further
+    Logger.success(`✅ Found ${filteredTweets.length} tweets containing rolodexter keywords`);
+    return pipeline.dataOrganizer.saveTweets(filteredTweets); // Save only filtered tweets
   })
   .catch(() => process.exit(1));
