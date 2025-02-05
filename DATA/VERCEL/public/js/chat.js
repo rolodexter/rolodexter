@@ -24,13 +24,8 @@ async function sendMessage() {
       body: JSON.stringify({ message }),
     });
 
-    if (response.ok) {
-      const data = await response.json();
-      addMessage(data.reply, 'bot');
-    } else {
-      const error = await response.json();
-      addMessage(error.error || 'Error: Unable to communicate with the bot.', 'bot');
-    }
+    const data = await response.json();
+    addMessage(data.reply || data.error || 'Error: No response from bot.', 'bot');
   } catch (error) {
     addMessage('Error: Unable to communicate with the bot.', 'bot');
   }
