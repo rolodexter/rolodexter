@@ -8,6 +8,7 @@ import fs from "fs/promises";
 import Logger from "./Logger.js";
 import DataOrganizer from "./DataOrganizer.js";
 import TweetFilter from "./TweetFilter.js";
+import ResponseScheduler from './ResponseScheduler.js';
 
 // agent-twitter-client
 import { Scraper, SearchMode } from "agent-twitter-client";
@@ -28,6 +29,7 @@ class TwitterPipeline {
     this.dataOrganizer = new DataOrganizer("pipeline", username);
     this.paths = this.dataOrganizer.getPaths();
     this.tweetFilter = new TweetFilter();
+    this.responseScheduler = new ResponseScheduler();
 
     // Update cookie path to be in top-level cookies directory
     this.paths.cookies = path.join(
@@ -609,25 +611,53 @@ async saveCookies() {
 }
 
 async loginToTwitter(page) {
-    Logger.info('🔄 Logging into Twitter...');
-    await page.goto('https://twitter.com/i/flow/login', { 
-        waitUntil: 'networkidle2',
-        timeout: 60000 
-    });
+    try {
+        Logger.info('🔄 Logging into Twitter...');
+        
+        // Go to login page and wait for it to load
+        await page.goto('https://twitter.com/i/flow/login', { 
+            waitUntil: 'networkidle2',
+            timeout: 60000 
+        });
+        await this.randomDelay(3000, 5000);
 
-    await page.waitForSelector('input[autocomplete="username"]', { visible: true });
-    await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME);
-    await page.keyboard.press('Enter');
-    await this.randomDelay(3000, 5000);
+        // Type username and explicitly press Enter
+        Logger.info('Entering username...');
+        await page.waitForSelector('input[autocomplete="username"]', { visible: true });
+        await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME);
+        await this.randomDelay(1000, 2000);
+        await page.keyboard.press('Enter');
+        
+        // Wait for password field with better error handling
+        Logger.info('Waiting for password field...');
+        await page.waitForSelector('input[name="password"]', { 
+            visible: true,
+            timeout: 10000 
+        });
+        
+        // Type password and submit
+        Logger.info('Entering password...');
+        await page.type('input[name="password"]', process.env.TWITTER_PASSWORD);
+        await this.randomDelay(1000, 2000);
+        await page.keyboard.press('Enter');
 
-    await page.waitForSelector('input[type="password"]', { visible: true });
-    await page.type('input[type="password"]', process.env.TWITTER_PASSWORD);
-    await this.randomDelay(1000, 2000);
-    await page.keyboard.press('Enter');
+        // Wait for navigation and verify login
+        await Promise.race([
+            page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 60000 }),
+            page.waitForSelector('[data-testid="AppTabBar_Home_Link"]', { timeout: 60000 })
+        ]);
 
-    await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 60000 });
-    await this.randomDelay(5000, 8000);
-    Logger.success('✅ Logged in successfully');
+        Logger.success('✅ Logged in successfully');
+        return true;
+
+    } catch (error) {
+        Logger.error(`Failed to log in: ${error.message}`);
+        await page.screenshot({ 
+            path: `login-error-${Date.now()}.png`,
+            fullPage: true 
+        });
+        throw error;
+    }
 }
 
 async resetSession() {
@@ -787,6 +817,7 @@ Status: NOMINAL`;
 
     // Start monitoring loop
     Logger.info('🔍 Starting live tweet monitoring...');
+    Logger.info(chalk.blue('💡 Click on tweet URLs to open in browser or copy to clipboard'));
     let lastSeenTweets = new Set();
     let currentMode = 'search'; // Use string instead of boolean
 
@@ -852,11 +883,22 @@ Status: NOMINAL`;
                 newTweets.forEach(tweet => {
                     const date = new Date(tweet.time).toLocaleString();
                     const sourceColor = tweet.source === 'search' ? chalk.yellow : chalk.green;
+                    
+                    // Make the tweet URL stand out and more accessible
+                    const tweetUrlDisplay = chalk.bold.underline.blue(`➜ ${tweet.url}`);
+                    
                     console.log(chalk.cyan(`\n@${tweet.username}`) + chalk.gray(` • ${date}`));
                     console.log(chalk.white(tweet.text));
-                    console.log(chalk.blue(tweet.url));
+                    console.log(tweetUrlDisplay);  // More prominent URL display
                     console.log(sourceColor(`Source: ${tweet.source}`));
                     console.log(chalk.gray(`❤️  ${tweet.metrics.likes} • 🔁 ${tweet.metrics.retweets} • 💬 ${tweet.metrics.replies}`));
+                    
+                    // Add response hint if tweet is recent (< 6 hours old)
+                    const tweetAge = Date.now() - new Date(tweet.time).getTime();
+                    if (tweetAge < 6 * 60 * 60 * 1000) {
+                        console.log(chalk.green('✨ Recent tweet - Consider responding!'));
+                    }
+                    
                     console.log(chalk.gray('─'.repeat(80)));
                 });
             } else {
