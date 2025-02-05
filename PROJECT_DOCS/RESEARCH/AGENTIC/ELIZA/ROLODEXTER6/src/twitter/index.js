@@ -15,23 +15,20 @@ process.on('uncaughtException', (error) => {
   process.exit(1);
 });
 
-const args = process.argv.slice(2);
-const username = args[0] || 'rolodexter6';
-
+// Use a dummy username since we're not filtering by user
+const username = 'global_search';
 const pipeline = new TwitterPipeline(username);
 
-// More restrictive tweet filtering
+// Simplify the pipeline to use a single filtering pass
 pipeline.filterTweets = (tweets) => {
-  return tweets.filter(tweet => {
-    // Skip if tweet is null or text is missing
-    if (!tweet?.text) return false;
-    
-    const text = tweet.text.toLowerCase();
-    const keywords = ['rolodexter', 'rolodexterai'];
-    
-    // Only keep tweets that contain any of our keywords
-    return keywords.some(keyword => text.includes(keyword));
-  });
+  const LIMIT = 1000;
+  return tweets
+    .filter(tweet => {
+      if (!tweet?.text) return false;
+      const text = tweet.text.toLowerCase();
+      return text.includes('rolodexter') || text.includes('rolodexterai');
+    })
+    .slice(0, LIMIT); // Ensure we never return more than limit
 };
 
 const cleanup = async () => {

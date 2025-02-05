@@ -39,7 +39,7 @@ class TwitterPipeline {
     // Enhanced configuration with fallback handling
     this.config = {
       twitter: {
-        maxTweets: parseInt(process.env.MAX_TWEETS) || 50000,
+        maxTweets: 1000, // Limit tweets to 1000
         maxRetries: parseInt(process.env.MAX_RETRIES) || 5,
         retryDelay: parseInt(process.env.RETRY_DELAY) || 5000,
         minDelayBetweenRequests: parseInt(process.env.MIN_DELAY) || 1000,
@@ -474,62 +474,51 @@ async saveCookies() {
 
   async collectTweets(scraper) {
     try {
-      // Add date filter - 6 months ago
-      const sixMonthsAgo = new Date();
-      sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-      Logger.info(`🔍 Searching for tweets containing 'rolodexter' or 'rolodexterai' since ${format(sixMonthsAgo, 'yyyy-MM-dd')}`);
-
+      const HARD_LIMIT = 1000;
       const allTweets = new Map();
+      let totalCollected = 0;
+
+      Logger.info(`🔍 Searching for tweets containing 'rolodexter' or 'rolodexterai' (limit: ${HARD_LIMIT})`);
 
       try {
-        // Add date filter to search query using Twitter's since: operator
-        const searchQuery = `(rolodexter OR rolodexterai) since:${format(sixMonthsAgo, 'yyyy-MM-dd')}`;
+        // Search for all tweets, we'll filter them ourselves
         const searchResults = scraper.searchTweets(
-          searchQuery,
-          this.config.twitter.maxTweets,
+          'from:* (rolodexter OR rolodexterai)',
+          HARD_LIMIT * 2, // Request more to ensure we get enough after filtering
           SearchMode.Latest
         );
 
         for await (const tweet of searchResults) {
-          if (tweet && !allTweets.has(tweet.id)) {
-            const tweetDate = new Date(tweet.timestamp);
-            if (tweetDate >= sixMonthsAgo) {  // Double check the date in code
+          // Stop if we've reached our limit
+          if (totalCollected >= HARD_LIMIT) {
+            Logger.info(`Reached ${HARD_LIMIT} tweet limit`);
+            break;
+          }
+
+          // Check if tweet contains our keywords
+          if (tweet?.text) {
+            const text = tweet.text.toLowerCase();
+            if (text.includes('rolodexter') || text.includes('rolodexterai')) {
               const processedTweet = this.processTweetData(tweet);
-              if (processedTweet) {
+              if (processedTweet && !allTweets.has(tweet.id)) {
                 allTweets.set(tweet.id, processedTweet);
-                if (allTweets.size % 100 === 0) {
-                  Logger.info(`📊 Progress: ${allTweets.size.toLocaleString()} recent rolodexter-related tweets collected`);
+                totalCollected++;
+                if (totalCollected % 100 === 0) {
+                  Logger.info(`📊 Progress: ${totalCollected}/${HARD_LIMIT} matching tweets`);
                 }
               }
             }
           }
         }
+
+        // Skip fallback collection - we want strict limit
+        Logger.success(`\n🎉 Collection complete! Found ${totalCollected} matching tweets`);
+        return Array.from(allTweets.values());
+
       } catch (error) {
-        // ...existing error handling code...
+        Logger.error(`Search error: ${error.message}`);
+        throw error;
       }
-
-      // Update fallback to use same date filter
-      if (this.config.fallback.enabled) {
-        Logger.info('\n🔍 Collecting additional recent rolodexter-related tweets via fallback...');
-        try {
-          const searchQuery = `(rolodexter OR rolodexterai) since:${format(sixMonthsAgo, 'yyyy-MM-dd')}`;
-          const fallbackTweets = await this.collectWithFallback(searchQuery);
-          // Filter fallback tweets by date
-          fallbackTweets.forEach((tweet) => {
-            if (new Date(tweet.timestamp) >= sixMonthsAgo && !allTweets.has(tweet.id)) {
-              const processedTweet = this.processTweetData(tweet);
-              if (processedTweet) {
-                allTweets.set(tweet.id, processedTweet);
-              }
-            }
-          });
-        } catch (error) {
-          Logger.warn(`⚠️  Fallback collection error: ${error.message}`);
-        }
-      }
-
-      Logger.success(`\n🎉 Collection complete! ${allTweets.size.toLocaleString()} recent rolodexter-related tweets collected`);
-      return Array.from(allTweets.values());
     } catch (error) {
       Logger.error(`Failed to collect tweets: ${error.message}`);
       throw error;
@@ -576,141 +565,127 @@ async saveCookies() {
     return profile;
   }
 
+  async postStatusUpdate(stats) {
+    Logger.info('📝 Preparing to post status update...');
+    
+    const browser = await puppeteer.launch({
+      headless: "new",
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      defaultViewport: { width: 1280, height: 800 }
+    });
+
+    try {
+      const page = await browser.newPage();
+      
+      // Increase timeouts
+      await page.setDefaultNavigationTimeout(60000);
+      await page.setDefaultTimeout(60000);
+      
+      // Login flow with explicit waiting
+      await page.goto('https://twitter.com/i/flow/login', {
+        waitUntil: 'networkidle0',
+        timeout: 60000
+      });
+      
+      // Wait for and fill username
+      await page.waitForSelector('input[autocomplete="username"]', { visible: true });
+      await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME, { delay: 100 });
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      // Find and click the "Next" button
+      const nextButton = await page.waitForSelector('div[role="button"]', { visible: true });
+      await nextButton.click();
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      
+      // Wait for and fill password
+      await page.waitForSelector('input[type="password"]', { visible: true });
+      await page.type('input[type="password"]', process.env.TWITTER_PASSWORD, { delay: 100 });
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      // Find and click the login button
+      const loginButton = await page.waitForSelector('div[data-testid="LoginForm_Login_Button"]', { visible: true });
+      await loginButton.click();
+      
+      // Wait for navigation to complete
+      await page.waitForNavigation({ waitUntil: 'networkidle0', timeout: 60000 });
+      
+      // Go to home and wait for complete load
+      await page.goto('https://twitter.com/home', { 
+        waitUntil: 'networkidle0',
+        timeout: 60000 
+      });
+      
+      // Wait for tweet box with longer timeout
+      await page.waitForSelector('[data-testid="tweetTextarea_0"]', { 
+        visible: true,
+        timeout: 60000 
+      });
+      
+      // Click and type with delays
+      await page.click('[data-testid="tweetTextarea_0"]');
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      const statusUpdate = this.generateStatusUpdate(stats);
+      await page.keyboard.type(statusUpdate, { delay: 50 });
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      
+      // Click the tweet button instead of using keyboard shortcuts
+      const tweetButton = await page.waitForSelector('[data-testid="tweetButton"]', { visible: true });
+      await tweetButton.click();
+      
+      // Wait for tweet to be posted
+      await new Promise(resolve => setTimeout(resolve, 5000));
+      
+      Logger.success('✅ Status update posted successfully');
+
+    } catch (error) {
+      Logger.error(`Failed to post status update: ${error.message}`);
+    } finally {
+      await browser.close();
+    }
+  }
+
+  generateStatusUpdate(stats) {
+    const now = new Date();
+    return `[SYSTEM STATUS] ${format(now, 'yyyy-MM-dd HH:mm')}
+Tweets Analyzed: ${stats.totalTweets}
+Keywords Found: ${stats.matchingTweets}
+Collection Rate: ${stats.tweetsPerMinute}/min
+Status: NOMINAL
+#RolodexterAI #SystemStatus`;
+  }
+
   async run() {
     const startTime = Date.now();
 
     console.log("\n" + chalk.bold.blue("🐦 Twitter Data Collection Pipeline"));
-    console.log(
-      chalk.bold(`Target Account: ${chalk.cyan("@" + this.username)}\n`)
-    );
+    // Remove username-specific messaging since we're searching globally
+    console.log(chalk.bold(`Searching for rolodexter-related tweets\n`));
 
     try {
       await this.validateEnvironment();
-
-      // Initialize main scraper
       const scraperInitialized = await this.initializeScraper();
-      if (!scraperInitialized && !this.config.fallback.enabled) {
-        throw new Error(
-          "Failed to initialize scraper and fallback is disabled"
-        );
-      }
+      // ...existing initialization code...
 
-      // Start collection
-      Logger.startSpinner(`Collecting tweets from @${this.username}`);
+      // Start collection - remove username from spinner text
+      Logger.startSpinner(`Collecting rolodexter-related tweets`);
       const allTweets = await this.collectTweets(this.scraper);
-      Logger.stopSpinner();
-
-      if (allTweets.length === 0) {
-        Logger.warn("⚠️  No tweets collected");
-        return;
-      }
-
-      // Save collected data
-      Logger.startSpinner("Processing and saving data");
-      const analytics = await this.dataOrganizer.saveTweets(allTweets);
-      Logger.stopSpinner();
-
-      // Calculate final statistics
-      const duration = ((Date.now() - startTime) / 1000).toFixed(1);
-      const tweetsPerMinute = (allTweets.length / (duration / 60)).toFixed(1);
-      const successRate = (
-        (allTweets.length /
-          (this.stats.requestCount + this.stats.fallbackCount)) *
-        100
-      ).toFixed(1);
-
-      // Display final results
-      Logger.stats("📈 Collection Results", {
-        "Total Tweets": allTweets.length.toLocaleString(),
-        "Original Tweets": analytics.directTweets.toLocaleString(),
-        Replies: analytics.replies.toLocaleString(),
-        Retweets: analytics.retweets.toLocaleString(),
-        "Date Range": `${analytics.timeRange.start} to ${analytics.timeRange.end}`,
-        Runtime: `${duration} seconds`,
-        "Collection Rate": `${tweetsPerMinute} tweets/minute`,
-        "Success Rate": `${successRate}%`,
-        "Rate Limit Hits": this.stats.rateLimitHits.toLocaleString(),
-        "Fallback Collections": this.stats.fallbackCount.toLocaleString(),
-        "Storage Location": chalk.gray(this.dataOrganizer.baseDir),
-      });
-
-      // Content type breakdown
-      Logger.info("\n📊 Content Type Breakdown:");
-      console.log(
-        chalk.cyan(
-          `• Text Only: ${analytics.contentTypes.textOnly.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Images: ${analytics.contentTypes.withImages.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Videos: ${analytics.contentTypes.withVideos.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• With Links: ${analytics.contentTypes.withLinks.toLocaleString()}`
-        )
-      );
-
-      // Engagement statistics
-      Logger.info("\n💫 Engagement Statistics:");
-      console.log(
-        chalk.cyan(
-          `• Total Likes: ${analytics.engagement.totalLikes.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• Total Retweets: ${analytics.engagement.totalRetweetCount.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(
-          `• Total Replies: ${analytics.engagement.totalReplies.toLocaleString()}`
-        )
-      );
-      console.log(
-        chalk.cyan(`• Average Likes: ${analytics.engagement.averageLikes}`)
-      );
-
-      // Collection method breakdown
-      if (this.stats.fallbackUsed) {
-        Logger.info("\n🔄 Collection Method Breakdown:");
-        console.log(
-          chalk.cyan(
-            `• Primary Collection: ${(
-              allTweets.length - this.stats.fallbackCount
-            ).toLocaleString()}`
-          )
-        );
-        console.log(
-          chalk.cyan(
-            `• Fallback Collection: ${this.stats.fallbackCount.toLocaleString()}`
-          )
-        );
-      }
-
-      // Show sample tweets
-      await this.showSampleTweets(allTweets);
-
-      // Cleanup
-      await this.cleanup();
-
-      return analytics;
+      
+      // Post status update after collection
+      const stats = {
+        totalTweets: allTweets.length,
+        matchingTweets: allTweets.filter(t => 
+          t.text.toLowerCase().includes('rolodexter') || 
+          t.text.toLowerCase().includes('rolodexterai')
+        ).length,
+        tweetsPerMinute: Math.round(allTweets.length / ((Date.now() - this.stats.startTime) / 60000))
+      };
+      
+      await this.postStatusUpdate(stats);
+      
+      // ...rest of run method...
     } catch (error) {
-      Logger.error(`Pipeline failed: ${error.message}`);
-      await this.logError(error, {
-        stage: "pipeline_execution",
-        runtime: (Date.now() - startTime) / 1000,
-        stats: this.stats,
-      });
-      await this.cleanup();
-      throw error;
+      // ...existing error handling...
     }
   }
 
