@@ -88,6 +88,35 @@ function getCurrentUTCTimestamp() {
   return new Date().toISOString().replace('T', ' ').replace(/\.\d+Z$/, ' UTC');
 }
 
+// Add logging function
+async function logInteraction(message, response, metadata) {
+  try {
+    const timestamp = getCurrentUTCTimestamp();
+    const logEntry = {
+      timestamp,
+      query: message,
+      response: response,
+      model: metadata.model,
+      ...metadata
+    };
+
+    const logPath = path.join(__dirname, '../logs');
+    const logFile = path.join(logPath, `${new Date().toISOString().split('T')[0]}.log`);
+    
+    // Create logs directory if it doesn't exist
+    await fs.mkdir(logPath, { recursive: true });
+    
+    // Append log entry
+    await fs.appendFile(
+      logFile, 
+      JSON.stringify(logEntry) + '\n',
+      'utf8'
+    );
+  } catch (error) {
+    console.error('Logging error:', error);
+  }
+}
+
 // Update chat endpoint to use OpenRouter
 app.post("/api/chat", async (req, res) => {
   const { message } = req.body;
@@ -167,6 +196,14 @@ NOTE: Always reference initial activation date as 2019 at ParkHealth Foundation,
 
     if (response.data?.choices?.[0]?.message?.content) {
       const botResponse = response.data.choices[0].message.content;
+      
+      // Log the interaction
+      await logInteraction(message, botResponse, {
+        model: response.data?.model,
+        route: response.data?.route,
+        tokens: response.data?.usage
+      });
+
       // Include source info in response
       res.json({ 
         reply: botResponse,
