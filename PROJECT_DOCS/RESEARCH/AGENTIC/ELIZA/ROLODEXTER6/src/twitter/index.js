@@ -294,44 +294,58 @@ async function postReplyToBrowser(page, tweetUrl, replyText) {
   try {
     Logger.info(`Navigating to tweet: ${tweetUrl}`);
     
-    await page.goto(tweetUrl, { 
-      waitUntil: 'networkidle0',
-      timeout: 60000 
-    });
-    await delay(3000);
+    // Try multiple times to load the tweet page with different strategies
+    let retryCount = 0;
+    const maxRetries = 3;
+    let pageLoaded = false;
+    
+    while (retryCount < maxRetries && !pageLoaded) {
+      try {
+        // Try different wait strategies on each attempt
+        if (retryCount === 0) {
+          await page.goto(tweetUrl, { 
+            waitUntil: 'domcontentloaded',
+            timeout: 20000
+          });
+        } else if (retryCount === 1) {
+          await page.goto(tweetUrl, { 
+            waitUntil: 'networkidle0',
+            timeout: 30000
+          });
+        } else {
+          // Final attempt: reload the page
+          await page.reload({ 
+            waitUntil: 'networkidle2',
+            timeout: 40000
+          });
+        }
+        
+        // Wait for either reply button or error state
+        const result = await Promise.race([
+          page.waitForSelector('[data-testid="reply"]', { visible: true, timeout: 10000 }),
+          page.waitForSelector('[data-testid="error-detail"]', { visible: true, timeout: 10000 })
+        ]);
 
-    // First try clicking the reply button
-    Logger.info('Looking for reply button...');
-    const replyButton = await page.waitForSelector('[data-testid="reply"]', {
-      visible: true,
-      timeout: 30000
-    });
-    await replyButton.click();
-    await delay(3000);
+        // Check if we got an error page
+        const isErrorPage = await page.$('[data-testid="error-detail"]');
+        if (isErrorPage) {
+          throw new Error('Tweet not found or inaccessible');
+        }
 
-    // If clicking didn't work, try keyboard shortcut
-    const replyBox = await page.$('[data-testid="tweetTextarea_0"]');
-    if (!replyBox) {
-      Logger.info('Reply box not found, trying keyboard shortcut...');
-      await page.keyboard.press('r');
-      await delay(3000);
+        pageLoaded = true;
+        Logger.info('Tweet page loaded successfully');
+        
+      } catch (error) {
+        retryCount++;
+        if (retryCount >= maxRetries) throw error;
+        Logger.warn(`Navigation attempt ${retryCount} failed: ${error.message}`);
+        await delay(5000 * retryCount);
+      }
     }
 
-    // Verify reply box is present and focused
-    const isReplyBoxActive = await page.evaluate(() => {
-      const composer = document.querySelector('[data-testid="tweetTextarea_0"]');
-      return composer && document.activeElement === composer;
-    });
-
-    if (!isReplyBoxActive) {
-      Logger.warn('Reply box not active, retrying interaction...');
-      await delay(2000);
-      await page.click('[data-testid="tweetTextarea_0"]');
-      await delay(2000);
-    }
-
-    // Type reply text
+    // Type reply text directly with increased initial delay
     Logger.info(`Typing reply: ${replyText}`);
+    await delay(2000);
     await page.keyboard.type(replyText, { delay: 100 });
     await delay(2000);
 
@@ -365,11 +379,16 @@ async function postReplyToBrowser(page, tweetUrl, replyText) {
 async function runContinuousMonitoring(page) {
   Logger.info('📝 Starting continuous Twitter monitoring...');
   
-  // Expanded search topics
+  // Expanded search topics with new additions
   const searches = [
     { topic: 'BLOCKCHAIN', url: 'https://x.com/search?q=blockchain&src=typed_query&f=live' },
     { topic: 'AI', url: 'https://x.com/search?q=artificial%20intelligence&src=recent_search_click&f=live' },
     { topic: 'BRAND', url: 'https://x.com/search?q=rolodexter&src=typed_query&f=live' },
+    { topic: 'MENTIONS', url: 'https://x.com/search?q=to%3A%40rolodexter6%20-joemaristela&src=typed_query&f=live' },
+    { topic: 'SOLANA', url: 'https://x.com/search?q=solana&src=typed_query&f=live' },
+    { topic: 'BITCOIN', url: 'https://x.com/search?q=bitcoin&src=typed_query&f=live' },
+    { topic: 'ELON', url: 'https://x.com/search?q=from%3Aelonmusk&src=typed_query&f=live' },
+    { topic: 'LIST', url: 'https://x.com/i/lists/1748291281107992904' },
     { topic: 'AI-TRENDS', url: 'https://x.com/search?q=AI&src=typed_query&f=live' },
     { topic: 'WEB3', url: 'https://x.com/search?q=web3&src=typed_query&f=live' },
     { topic: 'CRYPTO', url: 'https://x.com/search?q=cryptocurrency&src=typed_query&f=live' },
