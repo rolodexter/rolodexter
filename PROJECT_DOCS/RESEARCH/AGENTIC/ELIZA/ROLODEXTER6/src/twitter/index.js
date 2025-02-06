@@ -300,46 +300,60 @@ async function postReplyToBrowser(page, tweetUrl, replyText) {
     });
     await delay(3000);
 
-    // Click reply button
-    Logger.info('Opening reply dialog...');
+    // First try clicking the reply button
+    Logger.info('Looking for reply button...');
     const replyButton = await page.waitForSelector('[data-testid="reply"]', {
       visible: true,
       timeout: 30000
     });
     await replyButton.click();
+    await delay(3000);
+
+    // If clicking didn't work, try keyboard shortcut
+    const replyBox = await page.$('[data-testid="tweetTextarea_0"]');
+    if (!replyBox) {
+      Logger.info('Reply box not found, trying keyboard shortcut...');
+      await page.keyboard.press('r');
+      await delay(3000);
+    }
+
+    // Verify reply box is present and focused
+    const isReplyBoxActive = await page.evaluate(() => {
+      const composer = document.querySelector('[data-testid="tweetTextarea_0"]');
+      return composer && document.activeElement === composer;
+    });
+
+    if (!isReplyBoxActive) {
+      Logger.warn('Reply box not active, retrying interaction...');
+      await delay(2000);
+      await page.click('[data-testid="tweetTextarea_0"]');
+      await delay(2000);
+    }
+
+    // Type reply text
+    Logger.info(`Typing reply: ${replyText}`);
+    await page.keyboard.type(replyText, { delay: 100 });
     await delay(2000);
 
-    // Find and focus the contenteditable div
-    Logger.info('Focusing reply input...');
-    const editor = await page.waitForSelector('div[data-testid="tweetTextarea_0"] div[contenteditable="true"]', {
-      visible: true,
-      timeout: 10000
-    });
-    await editor.click();
-    await delay(1000);
-
-    // Type the reply text directly into the contenteditable div
-    Logger.info(`Typing reply: ${replyText}`);
-    await page.evaluate((text) => {
-      const div = document.querySelector('div[data-testid="tweetTextarea_0"] div[contenteditable="true"]');
-      if (div) {
-        div.innerHTML = text;
-        // Trigger input event to ensure Twitter recognizes the text
-        div.dispatchEvent(new Event('input', { bubbles: true }));
-      }
-    }, replyText);
-    await delay(1000);
-
-    // Submit using Ctrl+Enter
-    Logger.info('Submitting reply...');
+    // Post reply
+    Logger.info('Posting reply...');
     await page.keyboard.down('Control');
     await page.keyboard.press('Enter');
     await page.keyboard.up('Control');
-    
     await delay(5000);
 
-    Logger.success('Reply posted successfully');
-    return true;
+    // Rest of verification code...
+    const postedText = await page.evaluate(() => {
+      const tweets = document.querySelectorAll('[data-testid="tweet"]');
+      return Array.from(tweets).map(t => t.textContent).join('\n');
+    });
+
+    if (postedText.includes(replyText)) {
+      Logger.success('Reply posted successfully');
+      return true;
+    }
+    Logger.warn('Reply verification failed');
+    return false;
 
   } catch (error) {
     Logger.error(`Reply failed: ${error.message}`);
@@ -351,30 +365,25 @@ async function postReplyToBrowser(page, tweetUrl, replyText) {
 async function runContinuousMonitoring(page) {
   Logger.info('📝 Starting continuous Twitter monitoring...');
   
-  // Define search URLs with topics
+  // Expanded search topics
   const searches = [
-    {
-      topic: 'BLOCKCHAIN',
-      url: 'https://x.com/search?q=blockchain&src=typed_query&f=live'
-    },
-    {
-      topic: 'AI',
-      url: 'https://x.com/search?q=artificial%20intelligence&src=recent_search_click&f=live'
-    },
-    {
-      topic: 'BRAND',
-      url: 'https://x.com/search?q=rolodexter&src=typed_query&f=live'
-    },
-    {
-      topic: 'AI-TRENDS',
-      url: 'https://x.com/search?q=AI&src=typed_query&f=live'
-    }
+    { topic: 'BLOCKCHAIN', url: 'https://x.com/search?q=blockchain&src=typed_query&f=live' },
+    { topic: 'AI', url: 'https://x.com/search?q=artificial%20intelligence&src=recent_search_click&f=live' },
+    { topic: 'BRAND', url: 'https://x.com/search?q=rolodexter&src=typed_query&f=live' },
+    { topic: 'AI-TRENDS', url: 'https://x.com/search?q=AI&src=typed_query&f=live' },
+    { topic: 'WEB3', url: 'https://x.com/search?q=web3&src=typed_query&f=live' },
+    { topic: 'CRYPTO', url: 'https://x.com/search?q=cryptocurrency&src=typed_query&f=live' },
+    { topic: 'TECH', url: 'https://x.com/search?q=technology&src=typed_query&f=live' },
+    { topic: 'FINTECH', url: 'https://x.com/search?q=fintech&src=typed_query&f=live' }
   ];
 
-  let currentIndex = 0;
+  // Start with a random topic
+  let currentIndex = Math.floor(Math.random() * searches.length);
+  Logger.info(`Starting random monitoring from: ${searches[currentIndex].topic}`);
 
   while (true) {
     try {
+      // Instead of random selection, use rotating index
       const { topic, url } = searches[currentIndex];
       Logger.info(`\n🔍 Starting search for: ${topic}`);
 
@@ -411,15 +420,16 @@ async function runContinuousMonitoring(page) {
       }
 
       // Show next search info
-      const nextSearch = searches[(currentIndex + 1) % searches.length];
+      const nextIndex = (currentIndex + 1) % searches.length;
+      const nextSearch = searches[nextIndex];
       console.log(`\nNext search will be: ${nextSearch.topic}`);
       
-      // Rotate to next search
-      currentIndex = (currentIndex + 1) % searches.length;
+      // Update index for next iteration
+      currentIndex = nextIndex;
       
       // Add delay
-      const delayTime = Math.floor(Math.random() * 30000) + 30000;
-      console.log(`\nWaiting ${Math.floor(delayTime/1000)}s before next search...`);
+      const delayTime = 30000 + Math.floor(Math.random() * 60000);
+      Logger.info(`Waiting ${Math.floor(delayTime/1000)}s before next search...`);
       await delay(delayTime);
 
     } catch (error) {
