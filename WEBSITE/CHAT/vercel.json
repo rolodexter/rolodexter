@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "projectId": "prj_tb0TgkFgDiq4oDLYkn9LWDSkhkRx",
   "builds": [
     {
       "src": "api/**/*.js",
@@ -11,6 +12,10 @@
     }
   ],
   "routes": [
+    {
+      "src": "/ws",
+      "dest": "/api/websocket.js"
+    },
     {
       "src": "/api/(.*)",
       "dest": "/api/$1"

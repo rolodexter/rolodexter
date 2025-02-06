@@ -1,6 +1,7 @@
+const VERCEL_PROJECT_ID = 'prj_tb0TgkFgDiq4oDLYkn9LWDSkhkRx';
 const WS_CONFIG = {
-    production: 'wss://rolodexter.vercel.app/ws',
-    development: 'ws://localhost:3000'
+    production: `wss://website-terminal.vercel.app`,
+    development: `ws://${window.location.hostname}:3000`
 };
 
 let ws = null;
@@ -11,10 +12,10 @@ function connectWebSocket() {
     const wsUrl = window.location.hostname === 'localhost' ? 
         WS_CONFIG.development : 
         WS_CONFIG.production;
-
+        
     try {
+        console.log(`Attempting connection to: ${wsUrl} (${window.location.hostname})`);
         ws = new WebSocket(wsUrl);
-        console.log('Attempting connection to:', wsUrl);
         
         ws.onopen = () => {
             console.log('Connected to server');
@@ -25,7 +26,10 @@ function connectWebSocket() {
 
         ws.onerror = (error) => {
             console.error('WebSocket error:', error);
+            console.error('Current environment:', window.location.hostname);
+            console.error('Attempted URL:', wsUrl);
             document.getElementById('connection-status').className = 'error';
+            console.log('Check if server is running on port 3000');
         };
 
         ws.onclose = () => {
@@ -38,8 +42,10 @@ function connectWebSocket() {
         };
 
     } catch (error) {
-        console.error('Connection error:', error);
-        reconnect();
+        console.error(`Failed to connect to ${wsUrl}:`, error);
+        console.log('Make sure to run: node server.js');
+        document.getElementById('connection-status').className = 'error';
+        appendMessage('System: Failed to connect. Check console for details.', false);
     }
 }
 
