@@ -825,121 +825,56 @@ Status: NOMINAL`;
 
     while (true) {
         try {
-            Logger.info(`\n🔄 Checking ${currentMode.toUpperCase()} feed...`);
-            
-            // Navigate based on mode
+            let cycleNewTweets = [];  // Collect tweets from both search and following
+
+            // Do search phase
             if (currentMode === 'search') {
                 const searchQuery = '(rolodexter OR rolodexterai) -from:rolodexter6 -from:joemaristela';
-                await this.page.goto(`https://twitter.com/search?q=${encodeURIComponent(searchQuery)}&f=live`, {
-                    waitUntil: 'networkidle2',
-                    timeout: 60000
-                });
-            } else {
-                await this.page.goto('https://twitter.com/home', {
-                    waitUntil: 'networkidle2',
-                    timeout: 60000
-                });
-            }
-            await this.randomDelay(2000, 3000);
-
-            // Extract tweets using self-contained evaluate function
-            const tweets = await this.page.evaluate((mode) => {
-                return Array.from(document.querySelectorAll('article[data-testid="tweet"]'))
-                    .map(tweet => {
-                        try {
-                            const tweetLink = tweet.querySelector('a[href*="/status/"]')?.href || '';
-                            if (!tweetLink) return null;
-
-                            // Check if there's already a reply from rolodexter6
-                            const replies = Array.from(tweet.parentElement.querySelectorAll('article'));
-                            const hasRolodexterReply = replies.some(reply => {
-                                const username = reply.querySelector('div[dir="ltr"] span')?.textContent || '';
-                                return username.toLowerCase() === 'rolodexter6';
-                            });
-
-                            return {
-                                id: tweetLink.split('/status/')[1]?.split('?')[0] || '',
-                                username: tweet.querySelector('div[dir="ltr"] span')?.textContent || '',
-                                text: tweet.querySelector('div[lang]')?.innerText || '',
-                                time: tweet.querySelector('time')?.getAttribute('datetime') || '',
-                                url: tweetLink,
-                                source: mode,
-                                hasRolodexterReply,
-                                metrics: {
-                                    likes: tweet.querySelector('[data-testid="like"]')?.textContent || '0',
-                                    retweets: tweet.querySelector('[data-testid="retweet"]')?.textContent || '0',
-                                    replies: tweet.querySelector('[data-testid="reply"]')?.textContent || '0'
-                                }
-                            };
-                        } catch (err) {
-                            return null;
-                        }
-                    })
-                    .filter(tweet => tweet?.id && tweet?.text);
-            }, currentMode);
-
-            // Process new tweets
-            const newTweets = tweets.filter(tweet => !lastSeenTweets.has(tweet.id));
-            newTweets.forEach(tweet => lastSeenTweets.add(tweet.id));
-
-            // Prevent memory growth
-            if (lastSeenTweets.size > 1000) {
-                lastSeenTweets = new Set([...lastSeenTweets].slice(-500));
-            }
-
-            // Log results
-            if (newTweets.length > 0) {
-                Logger.info(`\n📢 Found ${newTweets.length} new tweets from ${currentMode.toUpperCase()}:\n`);
+                await this.page.goto(`https://twitter.com/search?q=${encodeURIComponent(searchQuery)}&f=live`);
+                await this.randomDelay(2000, 3000);
                 
-                // Find tweets we haven't responded to yet
-                const unrespondedTweets = newTweets.filter(tweet => 
+                const searchTweets = await this.collectTweetsFromPage();
+                cycleNewTweets.push(...searchTweets);
+                
+                // Switch to following mode
+                currentMode = 'following';
+                await this.randomDelay(3000, 5000);
+                
+                // Do following phase
+                await this.page.goto('https://twitter.com/home');
+                await this.randomDelay(2000, 3000);
+                
+                const followingTweets = await this.collectTweetsFromPage();
+                cycleNewTweets.push(...followingTweets);
+
+                // After both phases, attempt to respond to one random unresponded tweet
+                const unrespondedTweets = cycleNewTweets.filter(tweet => 
                     !respondedTweets.has(tweet.id) && 
                     !tweet.hasRolodexterReply &&
                     tweet.username.toLowerCase() !== 'rolodexter6'
                 );
-                
-                for (const tweet of unrespondedTweets) {
-                    const date = new Date(tweet.time).toLocaleString();
+
+                if (unrespondedTweets.length > 0) {
+                    // Randomly select one tweet to respond to
+                    const randomTweet = unrespondedTweets[Math.floor(Math.random() * unrespondedTweets.length)];
+                    Logger.info(`Selected random tweet from @${randomTweet.username} to respond to`);
                     
-                    // Log tweet details
-                    console.log(chalk.cyan(`\n@${tweet.username}`) + chalk.gray(` • ${date}`));
-                    console.log(chalk.white(tweet.text));
-                    console.log(chalk.bold.blue(`➜ ${tweet.url}`));
-                    
-                    // Try to respond to this tweet
+                    const responsePage = await this.browser.newPage();
                     try {
-                        await this.page.goto(tweet.url);
-                        await this.randomDelay(2000, 3000);
-                        
-                        // Click reply button
-                        await this.page.waitForSelector('[data-testid="reply"]');
-                        await this.page.click('[data-testid="reply"]');
-                        await this.randomDelay(1000, 2000);
-                        
-                        // Generate and post response
-                        const response = `[INGEST] ${format(new Date(), 'yyyy-MM-dd HH:mm:ss')}\nTweet received for processing.`;
-                        await this.page.keyboard.type(response);
-                        await this.randomDelay(1000, 2000);
-                        
-                        await this.page.keyboard.down('Control');
-                        await this.page.keyboard.press('Enter');
-                        await this.page.keyboard.up('Control');
-                        
-                        // Mark as responded
-                        respondedTweets.add(tweet.id);
-                        Logger.success(`✅ Posted response to @${tweet.username}`);
-                        
-                        // Exit after first response
-                        break;
+                        await this.respondToTweet(responsePage, randomTweet);
+                        respondedTweets.add(randomTweet.id);
                     } catch (error) {
                         Logger.error(`Failed to respond to tweet: ${error.message}`);
-                        continue;
+                    } finally {
+                        await responsePage.close();
                     }
                 }
+
+                // Reset for next cycle
+                currentMode = 'search';
+                cycleCount++;
             }
 
-            // Toggle mode and wait
-            currentMode = currentMode === 'search' ? 'following' : 'search';
             await this.randomDelay(5000, 8000);
 
         } catch (error) {
@@ -962,6 +897,88 @@ Status: NOMINAL`;
             
             await this.randomDelay(30000, 60000);
         }
+    }
+}
+
+async collectTweetsFromPage() {
+    // Extract tweets using existing evaluate function
+    const tweets = await this.page.evaluate((mode) => {
+        return Array.from(document.querySelectorAll('article[data-testid="tweet"]'))
+            .map(tweet => {
+                try {
+                    const tweetLink = tweet.querySelector('a[href*="/status/"]')?.href || '';
+                    if (!tweetLink) return null;
+
+                    // Check if there's already a reply from rolodexter6
+                    const replies = Array.from(tweet.parentElement.querySelectorAll('article'));
+                    const hasRolodexterReply = replies.some(reply => {
+                        const username = reply.querySelector('div[dir="ltr"] span')?.textContent || '';
+                        return username.toLowerCase() === 'rolodexter6';
+                    });
+
+                    return {
+                        id: tweetLink.split('/status/')[1]?.split('?')[0] || '',
+                        username: tweet.querySelector('div[dir="ltr"] span')?.textContent || '',
+                        text: tweet.querySelector('div[lang]')?.innerText || '',
+                        time: tweet.querySelector('time')?.getAttribute('datetime') || '',
+                        url: tweetLink,
+                        source: mode,
+                        hasRolodexterReply,
+                        metrics: {
+                            likes: tweet.querySelector('[data-testid="like"]')?.textContent || '0',
+                            retweets: tweet.querySelector('[data-testid="retweet"]')?.textContent || '0',
+                            replies: tweet.querySelector('[data-testid="reply"]')?.textContent || '0'
+                        }
+                    };
+                } catch (err) {
+                    return null;
+                }
+            })
+            .filter(tweet => tweet?.id && tweet?.text);
+    }, currentMode);
+
+    // Filter and track new tweets
+    const newTweets = tweets.filter(tweet => !this.lastSeenTweets.has(tweet.id));
+    newTweets.forEach(tweet => this.lastSeenTweets.add(tweet.id));
+
+    return newTweets;
+}
+
+async respondToTweet(page, tweet) {
+    await page.goto(tweet.url, {
+        waitUntil: 'networkidle2',
+        timeout: 30000
+    });
+    await this.randomDelay(2000, 3000);
+    
+    await page.waitForSelector('[data-testid="reply"]');
+    await page.click('[data-testid="reply"]');
+    await this.randomDelay(1000, 2000);
+    
+    const response = await this.responseScheduler.generateResponse(tweet);
+    await page.keyboard.type(response);
+    await this.randomDelay(1000, 2000);
+    
+    await page.keyboard.down('Control');
+    await page.keyboard.press('Enter');
+    await page.keyboard.up('Control');
+    
+    Logger.success(`✅ Posted response to @${tweet.username}`);
+}
+
+async recoverSession() {
+    try {
+        await this.resetSession();
+        this.browser = await puppeteer.launch({
+            headless: false,
+            args: ['--no-sandbox', '--disable-setuid-sandbox']
+        });
+        this.page = await this.browser.newPage();
+        await this.loginToTwitter(this.page);
+        Logger.success('✅ Successfully recovered monitoring session');
+    } catch (recoveryError) {
+        Logger.error(`❌ Failed to recover session: ${recoveryError.message}`);
+        throw recoveryError;
     }
 }
 

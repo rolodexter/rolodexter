@@ -39,10 +39,16 @@ async function saveCookies(page) {
 
 async function loginToTwitter() {
   const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    headless: false,
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--window-size=1280,800"
+    ]
   });
+  
   const page = await browser.newPage();
+  await page.setViewport({ width: 1280, height: 800 });
 
   try {
     console.log("🔑 Logging into Twitter...");
@@ -50,39 +56,75 @@ async function loginToTwitter() {
     // Try loading cookies
     const cookiesLoaded = await loadCookies(page);
     if (cookiesLoaded) {
-      await page.goto("https://twitter.com/home", { waitUntil: "networkidle2" });
-      if (await page.$('input[name="session[username_or_email]"]') === null) {
+      await page.goto("https://twitter.com/home", { 
+        waitUntil: ["networkidle0", "domcontentloaded"],
+        timeout: 30000 
+      });
+      
+      // Check if we're actually logged in
+      const loginButton = await page.$('a[href="/login"]');
+      if (!loginButton) {
         console.log("✅ Already logged in using cookies.");
-        await browser.close();
-        return;
+        return { browser, page };
       }
     }
 
-    // Go to login page
-    await page.goto("https://twitter.com/login", { waitUntil: "networkidle2" });
+    // Go to login page and wait for it to load
+    await page.goto("https://twitter.com/i/flow/login", { 
+      waitUntil: ["networkidle0", "domcontentloaded"],
+      timeout: 30000 
+    });
 
-    // Enter credentials
+    // Wait for the login form to be ready
+    await page.waitForTimeout(2000);
+
+    // Updated selectors for username
     console.log("Entering username...");
-    await page.type('input[name="text"]', process.env.TWITTER_USERNAME);
-    await page.click('div[role="button"]'); // Click "Next"
-    await page.waitForSelector('input[name="password"]', { timeout: 10000 });
+    await page.waitForSelector('input[autocomplete="username"]', { timeout: 10000 });
+    await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME, { delay: 100 });
+    
+    // Click the Next button
+    await page.waitForSelector('div[role="button"]:has-text("Next")', { timeout: 5000 });
+    await page.click('div[role="button"]:has-text("Next")');
+    
+    // Wait and enter password
     console.log("Entering password...");
-    await page.type('input[name="password"]', process.env.TWITTER_PASSWORD);
-    await page.click('div[data-testid="LoginForm_Login_Button"]');
+    await page.waitForSelector('input[type="password"]', { timeout: 10000 });
+    await page.type('input[type="password"]', process.env.TWITTER_PASSWORD, { delay: 100 });
+    
+    // Click login button
+    await page.waitForSelector('div[role="button"]:has-text("Log in")', { timeout: 5000 });
+    await page.click('div[role="button"]:has-text("Log in")');
 
-    // Wait for successful login
-    await page.waitForNavigation({ waitUntil: "networkidle2" });
+    // Wait for navigation after login
+    await page.waitForNavigation({ 
+      waitUntil: ["networkidle0", "domcontentloaded"],
+      timeout: 30000 
+    });
+
+    // Verify login success
+    const loginError = await page.$('div[role="alert"]');
+    if (loginError) {
+      throw new Error('Login failed - Invalid credentials or verification required');
+    }
+
     console.log("✅ Successfully logged in to Twitter.");
-
-    // Save cookies
     await saveCookies(page);
+    
+    return { browser, page };
   } catch (error) {
+    // Take screenshot on error for debugging
+    try {
+      await page.screenshot({ path: 'login-error.png' });
+      console.error("📸 Login error screenshot saved to login-error.png");
+    } catch (screenshotError) {
+      console.warn("⚠️ Could not save error screenshot");
+    }
+    
     console.error(`❌ Login failed: ${error.message}`);
-  } finally {
     await browser.close();
-    console.log("🔒 Browser closed.");
+    throw error;
   }
 }
 
-// Run the login script
-loginToTwitter();
+export { loginToTwitter };
