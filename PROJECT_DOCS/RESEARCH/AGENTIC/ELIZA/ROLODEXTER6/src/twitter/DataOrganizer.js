@@ -3,6 +3,12 @@ import fs from 'fs/promises';
 import path from 'path';
 import { format } from 'date-fns';
 import Logger from './Logger.js';
+import puppeteer from 'puppeteer';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 class DataOrganizer {
   constructor(baseDir, username) {
@@ -138,8 +144,6 @@ class DataOrganizer {
       const summary = this.generateSummary(tweets, analytics);
       await fs.writeFile(paths.exports.summary, summary, 'utf-8');
       Logger.success(`✅ Saved summary to ${paths.exports.summary}`);
-
-      await page.waitForTimeout(3000); // Ensure this line is correct
 
       return analytics;
     } catch (error) {

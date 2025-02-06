@@ -1,6 +1,13 @@
 import fetch from 'node-fetch';
 import fs from 'fs/promises';
 import Logger from './Logger.js';
+import puppeteer from 'puppeteer';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 class OpenRouterClient {
     constructor() {

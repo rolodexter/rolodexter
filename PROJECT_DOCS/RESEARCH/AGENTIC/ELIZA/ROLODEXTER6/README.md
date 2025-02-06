@@ -81,3 +81,31 @@ Example without date: `npm run generate-virtuals -- rolodexter6`
 
 The generated character file will be in the `pipeline/[username]/[date]/character/character.json` directory.
 The generated tweet dataset file will be in `pipeline/[username]/[date]/raw/tweets.json`.
+
+## Troubleshooting
+
+### Twitter Collection Issues
+
+1. **Login Errors**
+   - Verify Twitter credentials in `.env` file
+   - Create a new Twitter account if your account is restricted
+   - Wait 15 minutes if you see too many login attempts
+
+2. **Rate Limiting**
+   - Increase `MIN_DELAY` and `MAX_DELAY` in `.env`
+   - Reduce `MAX_TWEETS` to collect data in smaller batches
+   - Wait at least 15 minutes between collection attempts
+
+3. **Network Errors**
+   - Check your internet connection
+   - Verify you're not using a VPN that Twitter might block
+   - Try increasing `MAX_RETRIES` and `RETRY_DELAY`
+
+4. **No Data Collected**
+   - Verify the target username exists
+   - Check if the account is private
+   - Ensure the account has public tweets
+
+For detailed error logs, run with debug mode:
+
+```
