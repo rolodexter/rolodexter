@@ -229,6 +229,19 @@ NOTE: Always reference initial activation date as 2019 at ParkHealth Foundation,
   }
 });
 
+// Add deploy hook verification endpoint
+app.post('/api/deploy', (req, res) => {
+  // Verify deploy hook request
+  const hookSecret = process.env.DEPLOY_HOOK_SECRET;
+  if (req.headers['x-vercel-signature'] !== hookSecret) {
+    return res.status(403).send('Unauthorized');
+  }
+
+  // Handle deployment trigger
+  console.log('Deployment triggered via hook');
+  res.status(200).send('Deployment initiated');
+});
+
 // Server startup
 const PORT = process.env.PORT || 3000;
 if (require.main === module) {
