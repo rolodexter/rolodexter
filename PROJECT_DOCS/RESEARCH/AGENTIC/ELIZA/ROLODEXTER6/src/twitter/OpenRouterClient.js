@@ -40,6 +40,8 @@ class OpenRouterClient {
                 })
             });
 
+            await page.waitForTimeout(3000); // Ensure this line is correct
+
             const data = await response.json();
             
             if (!response.ok) {

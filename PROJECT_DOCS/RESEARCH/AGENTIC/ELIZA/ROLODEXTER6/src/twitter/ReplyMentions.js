@@ -50,6 +50,7 @@ async function saveCookies(page) {
     // Attempt to load cookies
     if (await loadCookies(page)) {
       await page.goto("https://twitter.com/home", { waitUntil: "networkidle2" });
+      await page.waitForTimeout(3000); // Ensure this line is correct
       if ((await page.url()).includes("/home")) {
         console.log("✅ Logged in using cookies.");
       } else {

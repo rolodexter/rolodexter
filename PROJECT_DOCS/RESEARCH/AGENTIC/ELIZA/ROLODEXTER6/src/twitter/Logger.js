@@ -182,3 +182,18 @@ class Logger {
 }
 
 export default Logger;
+
+// Ensure page is defined and passed to the function
+async function logError(page) {
+    // ...existing code...
+    await page.waitForTimeout(3000);
+    // ...existing code...
+}
+
+// Ensure the function is called with the correct page parameter
+(async () => {
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    await logError(page);
+    // ...existing code...
+})();

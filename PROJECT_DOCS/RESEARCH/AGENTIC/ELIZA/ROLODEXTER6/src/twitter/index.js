@@ -63,6 +63,7 @@ async function monitorTweets(page) {
       
       // Wait for tweets to load
       await page.waitForSelector('article[data-testid="tweet"]', { timeout: 30000 });
+      await page.waitForTimeout(3000); // Ensure this line is correct
       
       // Extract tweets
       const tweets = await page.evaluate(() => {

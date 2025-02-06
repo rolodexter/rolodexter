@@ -139,6 +139,8 @@ class DataOrganizer {
       await fs.writeFile(paths.exports.summary, summary, 'utf-8');
       Logger.success(`✅ Saved summary to ${paths.exports.summary}`);
 
+      await page.waitForTimeout(3000); // Ensure this line is correct
+
       return analytics;
     } catch (error) {
       Logger.error(`❌ Error saving data: ${error.message}`);
