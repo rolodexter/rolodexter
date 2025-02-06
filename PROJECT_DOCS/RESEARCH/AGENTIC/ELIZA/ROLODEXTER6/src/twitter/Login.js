@@ -50,20 +50,28 @@ async function saveCookies(page) {
 }
 
 async function loginToTwitter() {
+  Logger.info("Launching browser...");
   const browser = await puppeteer.launch({
     headless: false,
+    defaultViewport: null, // Let the viewport resize automatically
     args: [
       "--no-sandbox",
       "--disable-setuid-sandbox",
-      "--window-size=1280,800"
+      "--window-size=1280,800",
+      "--start-maximized" // Start with maximized window
     ]
   });
   
+  Logger.info("Creating new page...");
   const page = await browser.newPage();
-  await page.setViewport({ width: 1280, height: 800 });
+  await page.setViewport({ 
+    width: 1280, 
+    height: 800,
+    deviceScaleFactor: 1
+  });
 
   try {
-    Logger.info("🔑 Logging into Twitter...");
+    Logger.info("🔑 Starting Twitter login process...");
 
     // Try loading cookies first
     const cookiesLoaded = await loadCookies(page);
@@ -147,15 +155,19 @@ async function loginToTwitter() {
     }
 
   } catch (error) {
-    try {
-      await page.screenshot({ path: 'login-error.png', fullPage: true });
-      Logger.error("📸 Login error screenshot saved to login-error.png");
-    } catch (screenshotError) {
-      Logger.warn("⚠️ Could not save error screenshot");
+    Logger.error("Browser launch error:", error);
+    // Take screenshot and close browser only if it was created
+    if (page) {
+      try {
+        await page.screenshot({ path: 'launch-error.png', fullPage: true });
+        Logger.error("📸 Launch error screenshot saved to launch-error.png");
+      } catch (screenshotError) {
+        Logger.warn("⚠️ Could not save error screenshot");
+      }
     }
-    
-    Logger.error(`❌ Login failed: ${error.message}`);
-    await browser.close();
+    if (browser) {
+      await browser.close();
+    }
     throw error;
   }
 }

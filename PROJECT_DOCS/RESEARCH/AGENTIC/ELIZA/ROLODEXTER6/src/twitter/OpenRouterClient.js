@@ -31,36 +31,34 @@ class OpenRouterClient {
             const basePrompt = await this.loadPrompt();
             if (!basePrompt) throw new Error('Failed to load base prompt');
 
-            const response = await fetch(`${this.baseUrl}/chat/completions`, {
+            Logger.info(`Generating response for tweet from @${tweet.username}`);
+            
+            const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${this.apiKey}`,
-                    'HTTP-Referer': 'https://github.com/your-username/your-repo',
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    model: this.model,
+                    model: 'openai/gpt-4',
                     messages: [
                         { role: "system", content: basePrompt },
-                        { role: "user", content: `Tweet to respond to: "${tweet.text}" from @${tweet.username}` }
+                        { role: "user", content: `Generate a creative and engaging reply to this tweet: "${tweet.text}" from @${tweet.username}. Keep it under 280 characters and make it relevant to the topic.` }
                     ]
                 })
             });
 
-            await page.waitForTimeout(3000); // Ensure this line is correct
-
-            const data = await response.json();
-            
             if (!response.ok) {
-                throw new Error(data.error?.message || 'Failed to generate response');
+                const error = await response.json();
+                throw new Error(error.error?.message || 'API request failed');
             }
 
+            const data = await response.json();
             return data.choices[0].message.content.trim();
 
         } catch (error) {
             Logger.error(`OpenRouter API error: ${error.message}`);
-            // Fallback to default response
-            return `[INGEST] ${new Date().toISOString()}\nTweet received for processing.`;
+            return null;
         }
     }
 }

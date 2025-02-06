@@ -982,6 +982,33 @@ async recoverSession() {
     }
 }
 
+async collectTweets(page) {
+    Logger.info('Starting tweet collection...');
+    
+    try {
+      const tweets = await page.$$eval('article[data-testid="tweet"]', articles => {
+        return articles.map(article => {
+          const tweet = {
+            text: article.querySelector('[data-testid="tweetText"]')?.innerText || '',
+            username: article.querySelector('[data-testid="User-Name"]')?.innerText.split('\n')[0] || '',
+            url: article.querySelector('time')?.parentElement?.href || ''
+          };
+          console.log('Found tweet:', tweet); // Debug log
+          return tweet;
+        });
+      });
+
+      Logger.info(`Collected ${tweets.length} tweets`);
+      console.log('\nDEBUG: Raw Tweets:');
+      tweets.forEach((t, i) => console.log(`${i+1}. ${t.text}\n   ${t.url}\n`));
+      
+      return tweets;
+    } catch (error) {
+      Logger.error('Tweet collection failed:', error);
+      return [];
+    }
+  }
+
 }
 
 export default TwitterPipeline;
