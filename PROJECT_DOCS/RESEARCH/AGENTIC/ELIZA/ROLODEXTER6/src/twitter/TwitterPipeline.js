@@ -1009,6 +1009,71 @@ async collectTweets(page) {
     }
   }
 
+async postReplyToBrowser(page, tweetUrl, replyText) {
+  try {
+    Logger.info(`Navigating to tweet: ${tweetUrl}`);
+    
+    // Navigate to tweet
+    await page.goto(tweetUrl, { 
+      waitUntil: 'networkidle2',
+      timeout: 30000 
+    });
+
+    // Wait for tweet to load
+    await page.waitForSelector('article[data-testid="tweet"]', { visible: true });
+    await this.randomDelay(1000, 2000);
+
+    // Press 'r' to open reply dialog (Twitter keyboard shortcut)
+    await page.keyboard.press('r');
+    await this.randomDelay(1000, 2000);
+
+    // Type reply text (cursor should already be in text field)
+    Logger.info(`Typing reply: ${replyText}`);
+    await page.keyboard.type(replyText, { delay: 50 });
+    await this.randomDelay(1000, 2000);
+
+    // Press Ctrl+Enter to submit reply
+    await page.keyboard.down('Control');
+    await page.keyboard.press('Enter');
+    await page.keyboard.up('Control');
+    await this.randomDelay(3000, 5000);
+
+    // Verify reply was posted
+    const postedReply = await page.evaluate((text) => {
+      const tweets = Array.from(document.querySelectorAll('article[data-testid="tweet"]'));
+      return tweets.some(tweet => tweet.textContent.includes(text));
+    }, replyText);
+
+    if (postedReply) {
+      Logger.success('Reply posted successfully');
+      return true;
+    }
+
+    Logger.warn('Could not verify reply was posted');
+    return false;
+
+  } catch (error) {
+    Logger.error(`Reply failed: ${error.message}`);
+    await this.saveErrorScreenshot(page, 'reply-error');
+    return false;
+  }
+}
+
+// Helper method to save error screenshots
+async saveErrorScreenshot(page, prefix) {
+  try {
+    const timestamp = format(new Date(), 'yyyyMMddHHmmss');
+    const filename = `errors/${prefix}-${timestamp}.png`;
+    await page.screenshot({ 
+      path: filename,
+      fullPage: true 
+    });
+    Logger.info(`Error screenshot saved to ${filename}`);
+  } catch (error) {
+    Logger.warn(`Could not save error screenshot: ${error.message}`);
+  }
+}
+
 }
 
 export default TwitterPipeline;

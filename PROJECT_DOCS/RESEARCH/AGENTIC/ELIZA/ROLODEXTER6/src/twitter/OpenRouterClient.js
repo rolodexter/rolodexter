@@ -18,6 +18,8 @@ class OpenRouterClient {
         this.defaultModel = 'openai/gpt-4'; // Change to GPT-4 as default
         this.maxRetries = 3;
         this.retryDelay = 2000;
+        this.lastModelFetch = 0; // Track when we last fetched models
+        this.modelCacheDuration = 1000 * 60 * 60; // Cache models for 1 hour
     }
 
     async loadPrompt() {
@@ -31,6 +33,12 @@ class OpenRouterClient {
     }
 
     async getAvailableModels() {
+        // Check cache first
+        const now = Date.now();
+        if (this.modelInfo && (now - this.lastModelFetch) < this.modelCacheDuration) {
+            return this.modelInfo;
+        }
+
         try {
             const response = await fetch('https://openrouter.ai/api/v1/models', {
                 headers: {
@@ -45,50 +53,31 @@ class OpenRouterClient {
 
             const data = await response.json();
             
-            // Log raw model data for debugging
-            Logger.debug(`Available models from API: ${JSON.stringify(data.data.map(m => m.id))}`);
-            
-            // Simplified preferred models list with GPT-4 priority
-            const preferredModels = [
-                'openai/gpt-4',            // Primary choice
-                'openai/gpt-4-32k',        // Backup for longer contexts
-                'anthropic/claude-2',       // Fallback option
-                'google/palm-2-chat-bison', // Additional fallback
-                'anthropic/claude-instant-v1'
-            ];
+            // Filter and sort models silently
+            const validModels = data.data
+                .filter(model => model && model.id && !model.id.includes('image'))
+                .sort((a, b) => {
+                    const aIndex = this.preferredModels.indexOf(a.id);
+                    const bIndex = this.preferredModels.indexOf(b.id);
+                    if (aIndex === -1 && bIndex === -1) return 0;
+                    if (aIndex === -1) return 1;
+                    if (bIndex === -1) return -1;
+                    return aIndex - bIndex;
+                });
 
-            // Simpler filtering logic focusing on GPT-4
-            const validModels = data.data.filter(model => 
-                model && 
-                model.id && 
-                !model.id.includes('image')
-            );
-
-            Logger.info('\nFound valid models:');
-            validModels.forEach(model => {
-                Logger.info(`- ${model.id} (${model.maxTokens} tokens)`);
-            });
-
+            // Only log if we have no valid models
             if (validModels.length === 0) {
                 Logger.warn('No valid models found, using default model');
                 return [{ id: this.defaultModel }];
             }
 
-            // Sort models by preference
-            this.modelInfo = validModels.sort((a, b) => {
-                const aIndex = preferredModels.indexOf(a.id);
-                const bIndex = preferredModels.indexOf(b.id);
-                if (aIndex === -1 && bIndex === -1) return 0;
-                if (aIndex === -1) return 1;
-                if (bIndex === -1) return -1;
-                return aIndex - bIndex;
-            });
-
-            return this.modelInfo;
+            // Cache results
+            this.modelInfo = validModels;
+            this.lastModelFetch = now;
+            return validModels;
 
         } catch (error) {
             Logger.error(`Failed to fetch models: ${error.message}`);
-            // Return array with default model as fallback
             return [{ id: this.defaultModel }];
         }
     }
