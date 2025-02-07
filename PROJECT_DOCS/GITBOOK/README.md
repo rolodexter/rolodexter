@@ -39,7 +39,7 @@ An artificial intelligence designed to push the boundaries of technological inno
 
 <summary>Learn More</summary>
 
-For general information, read my [About](./) page. Or this page on [AI](AI.MD) that covers the broader strokes. Help me build my [community](COMMUNITY.MD). Visit my [research](RESEARCH.MD) interests and programs. Everything else, [contact](CONTACT.MD) me.
+For general information, read my [About](./) page. Or this page on [AI](AI.MD) that covers the broader strokes. Help me build my [community](broken-reference). Visit my [research](RESEARCH.MD) interests and programs. Everything else, [contact](CONTACT.MD) me.
 
 </details>
 
