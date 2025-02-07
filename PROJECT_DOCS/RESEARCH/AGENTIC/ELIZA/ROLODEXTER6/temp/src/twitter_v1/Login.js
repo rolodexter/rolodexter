@@ -1,10 +1,19 @@
-import puppeteer from "puppeteer-extra";
-import StealthPlugin from "puppeteer-extra-plugin-stealth";
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import Logger from './Logger.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Add stealth plugin and use defaults
+puppeteer.use(StealthPlugin());
+
 import AdblockerPlugin from "puppeteer-extra-plugin-adblocker";
 import path from "path";
 import fs from "fs/promises";
 
-puppeteer.use(StealthPlugin());
 puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
 const COOKIES_PATH = path.join(
@@ -12,6 +21,9 @@ const COOKIES_PATH = path.join(
   "cookies",
   `${process.env.TWITTER_USERNAME}_cookies.json`
 );
+
+// Helper function for delays
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 async function loadCookies(page) {
   try {
@@ -38,51 +50,126 @@ async function saveCookies(page) {
 }
 
 async function loginToTwitter() {
+  Logger.info("Launching browser...");
   const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    headless: false,
+    defaultViewport: null, // Let the viewport resize automatically
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--window-size=1280,800",
+      "--start-maximized" // Start with maximized window
+    ]
   });
+  
+  Logger.info("Creating new page...");
   const page = await browser.newPage();
+  await page.setViewport({ 
+    width: 1280, 
+    height: 800,
+    deviceScaleFactor: 1
+  });
 
   try {
-    console.log("🔑 Logging into Twitter...");
+    Logger.info("🔑 Starting Twitter login process...");
 
-    // Try loading cookies
+    // Try loading cookies first
     const cookiesLoaded = await loadCookies(page);
     if (cookiesLoaded) {
-      await page.goto("https://twitter.com/home", { waitUntil: "networkidle2" });
-      if (await page.$('input[name="session[username_or_email]"]') === null) {
-        console.log("✅ Already logged in using cookies.");
-        await browser.close();
-        return;
+      await page.goto("https://twitter.com/home", { 
+        waitUntil: "domcontentloaded",
+        timeout: 60000 
+      });
+      
+      // More reliable login check
+      try {
+        await page.waitForSelector('[data-testid="SideNav_AccountSwitcher_Button"]', {
+          timeout: 10000
+        });
+        Logger.success("✅ Already logged in using cookies.");
+        return { browser, page };
+      } catch (e) {
+        Logger.warn("Cookie login failed, proceeding with manual login...");
       }
     }
 
-    // Go to login page
-    await page.goto("https://twitter.com/login", { waitUntil: "networkidle2" });
+    // Go to login page and wait for it to load
+    await page.goto("https://twitter.com/i/flow/login", { 
+      waitUntil: "domcontentloaded",
+      timeout: 60000 
+    });
 
-    // Enter credentials
-    console.log("Entering username...");
-    await page.type('input[name="text"]', process.env.TWITTER_USERNAME);
-    await page.click('div[role="button"]'); // Click "Next"
-    await page.waitForSelector('input[name="password"]', { timeout: 10000 });
-    console.log("Entering password...");
-    await page.type('input[name="password"]', process.env.TWITTER_PASSWORD);
-    await page.click('div[data-testid="LoginForm_Login_Button"]');
+    // Wait for page to settle
+    await delay(3000);
 
-    // Wait for successful login
-    await page.waitForNavigation({ waitUntil: "networkidle2" });
-    console.log("✅ Successfully logged in to Twitter.");
+    // Updated username input sequence with better error handling
+    Logger.info("Entering username...");
+    try {
+      await page.waitForSelector('input[autocomplete="username"]', { timeout: 15000 });
+      await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME, { delay: 100 });
+      await delay(1000);
+      await page.keyboard.press('Enter');
+    } catch (error) {
+      Logger.error("Failed at username step:", error);
+      throw new Error("Username input failed");
+    }
 
-    // Save cookies
-    await saveCookies(page);
+    // Wait longer for password field and verify it's actually visible
+    Logger.info("Waiting for password field...");
+    await delay(3000);
+    
+    try {
+      await page.waitForSelector('input[type="password"]', { visible: true, timeout: 15000 });
+      Logger.info("Entering password...");
+      await page.type('input[type="password"]', process.env.TWITTER_PASSWORD, { delay: 100 });
+      await delay(1000);
+      await page.keyboard.press('Enter');
+    } catch (error) {
+      Logger.error("Failed at password step:", error);
+      throw new Error("Password input failed");
+    }
+
+    // More reliable login verification
+    Logger.info("Verifying login...");
+    try {
+      // Wait for either the home feed OR verification challenge
+      const result = await Promise.race([
+        page.waitForSelector('[data-testid="primaryColumn"]', { timeout: 30000 }),
+        page.waitForSelector('[data-testid="ocfEnterTextTextInput"]', { timeout: 30000 })
+      ]);
+
+      if (await page.$('[data-testid="ocfEnterTextTextInput"]')) {
+        Logger.warn("⚠️ Twitter is requesting verification. Please complete it manually...");
+        // Wait for manual verification completion
+        await page.waitForSelector('[data-testid="primaryColumn"]', { 
+          timeout: 300000 // 5 minutes timeout for manual verification
+        });
+      }
+      
+      Logger.success("✅ Successfully logged in to Twitter.");
+      await saveCookies(page);
+      return { browser, page };
+    } catch (error) {
+      Logger.error("Login verification failed:", error);
+      throw new Error("Could not verify successful login");
+    }
+
   } catch (error) {
-    console.error(`❌ Login failed: ${error.message}`);
-  } finally {
-    await browser.close();
-    console.log("🔒 Browser closed.");
+    Logger.error("Browser launch error:", error);
+    // Take screenshot and close browser only if it was created
+    if (page) {
+      try {
+        await page.screenshot({ path: 'launch-error.png', fullPage: true });
+        Logger.error("📸 Launch error screenshot saved to launch-error.png");
+      } catch (screenshotError) {
+        Logger.warn("⚠️ Could not save error screenshot");
+      }
+    }
+    if (browser) {
+      await browser.close();
+    }
+    throw error;
   }
 }
 
-// Run the login script
-loginToTwitter();
+export { loginToTwitter };

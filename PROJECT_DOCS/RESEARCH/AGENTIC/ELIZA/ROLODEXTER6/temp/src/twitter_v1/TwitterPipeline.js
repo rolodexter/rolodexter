@@ -8,6 +8,7 @@ import fs from "fs/promises";
 import Logger from "./Logger.js";
 import DataOrganizer from "./DataOrganizer.js";
 import TweetFilter from "./TweetFilter.js";
+import ResponseScheduler from './ResponseScheduler.js';
 
 // agent-twitter-client
 import { Scraper, SearchMode } from "agent-twitter-client";
@@ -28,6 +29,7 @@ class TwitterPipeline {
     this.dataOrganizer = new DataOrganizer("pipeline", username);
     this.paths = this.dataOrganizer.getPaths();
     this.tweetFilter = new TweetFilter();
+    this.responseScheduler = new ResponseScheduler();
 
     // Update cookie path to be in top-level cookies directory
     this.paths.cookies = path.join(
@@ -74,6 +76,9 @@ class TwitterPipeline {
       newestTweetDate: null,
       fallbackUsed: false,
     };
+
+    this.browser = null;
+    this.page = null;
   }
 
   async initializeFallback() {
@@ -448,7 +453,7 @@ async saveCookies() {
 
           for (const tweet of newTweets) {
             if (!tweets.has(tweet.id)) {
-              tweets.add(tweet);
+              tweets.add(tweet.id);
               this.stats.fallbackCount++;
             }
           }
@@ -481,9 +486,9 @@ async saveCookies() {
       Logger.info(`🔍 Searching for tweets containing 'rolodexter' or 'rolodexterai' (limit: ${HARD_LIMIT})`);
 
       try {
-        // Search for all tweets, we'll filter them ourselves
+        // Updated search query with exclusions
         const searchResults = scraper.searchTweets(
-          'from:* (rolodexter OR rolodexterai)',
+          'from:* (rolodexter OR rolodexterai) -from:rolodexter6 -from:joemaristela',
           HARD_LIMIT * 2, // Request more to ensure we get enough after filtering
           SearchMode.Latest
         );
@@ -566,71 +571,104 @@ async saveCookies() {
   }
 
   async postStatusUpdate(stats) {
-    Logger.info('📝 Preparing to post status update...');
-    
-    const browser = await puppeteer.launch({
-        headless: false,
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox'
-        ]
-    });
+    // Check if we already have a browser session
+    if (!this.browser) {
+        Logger.info('📝 Starting new browser session...');
+        this.browser = await puppeteer.launch({
+            headless: false,
+            args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox'
+            ]
+        });
+        this.page = await this.browser.newPage();
+        
+        // Initial login sequence
+        await this.loginToTwitter(this.page);
+    }
 
     try {
-        const page = await browser.newPage();
+        // Use existing page
+        Logger.info('📝 Preparing to post status update...');
+        await this.page.goto('https://twitter.com/home');
+        await this.randomDelay(2000, 3000);
 
-        // Login sequence
-        Logger.info('🔄 Navigating to Twitter login...');
+        // Type and post tweet
+        const statusUpdate = this.generateStatusUpdate(stats);
+        await this.page.keyboard.type(statusUpdate);
+        await this.randomDelay(1000, 2000);
+        
+        await this.page.keyboard.down('Control');
+        await this.page.keyboard.press('Enter');
+        await this.page.keyboard.up('Control');
+        
+        Logger.success('✅ Status update posted successfully');
+    } catch (error) {
+        Logger.error(`❌ Failed to post status update: ${error.message}`);
+        // Try to re-establish session on error
+        await this.resetSession();
+    }
+}
+
+async loginToTwitter(page) {
+    try {
+        Logger.info('🔄 Logging into Twitter...');
+        
+        // Go to login page and wait for it to load
         await page.goto('https://twitter.com/i/flow/login', { 
             waitUntil: 'networkidle2',
             timeout: 60000 
         });
-
-        // Enter username/password
-        Logger.info('⌨️ Entering credentials...');
-        await page.waitForSelector('input[autocomplete="username"]', { visible: true });
-        await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME);
-        await page.keyboard.press('Enter');
         await this.randomDelay(3000, 5000);
 
-        await page.waitForSelector('input[type="password"]', { visible: true });
-        await page.type('input[type="password"]', process.env.TWITTER_PASSWORD);
+        // Type username and explicitly press Enter
+        Logger.info('Entering username...');
+        await page.waitForSelector('input[autocomplete="username"]', { visible: true });
+        await page.type('input[autocomplete="username"]', process.env.TWITTER_USERNAME);
+        await this.randomDelay(1000, 2000);
+        await page.keyboard.press('Enter');
+        
+        // Wait for password field with better error handling
+        Logger.info('Waiting for password field...');
+        await page.waitForSelector('input[name="password"]', { 
+            visible: true,
+            timeout: 10000 
+        });
+        
+        // Type password and submit
+        Logger.info('Entering password...');
+        await page.type('input[name="password"]', process.env.TWITTER_PASSWORD);
         await this.randomDelay(1000, 2000);
         await page.keyboard.press('Enter');
 
-        // Wait for homepage
-        Logger.info('⏳ Waiting for home page...');
-        await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 60000 });
-        await this.randomDelay(5000, 8000);
+        // Wait for navigation and verify login
+        await Promise.race([
+            page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 60000 }),
+            page.waitForSelector('[data-testid="AppTabBar_Home_Link"]', { timeout: 60000 })
+        ]);
 
-        // Find and click tweet box
-        Logger.info('📝 Looking for tweet box...');
-        await page.waitForSelector('div[data-offset-key][class*="public-DraftStyleDefault-block"]', { visible: true });
-        await page.click('div[data-offset-key][class*="public-DraftStyleDefault-block"]');
-        await this.randomDelay(2000, 3000);
-
-        // Type tweet content
-        const statusUpdate = this.generateStatusUpdate(stats);
-        Logger.info('📝 Typing tweet...');
-        await page.keyboard.type(statusUpdate);
-        await this.randomDelay(2000, 3000);
-
-        // Post tweet
-        Logger.info('📤 Posting tweet...');
-        await page.keyboard.down('Control');
-        await page.keyboard.press('Enter');
-        await page.keyboard.up('Control');
-        
-        await this.randomDelay(5000, 8000);
-        Logger.success('✅ Status update posted successfully');
-
-        await browser.close();
-        Logger.info('🔒 Browser closed');
+        Logger.success('✅ Logged in successfully');
+        return true;
 
     } catch (error) {
-        Logger.error(`❌ Failed to post status update: ${error.message}`);
-        Logger.info('Browser left open for debugging - press Ctrl+C to exit');
-        return;
+        Logger.error(`Failed to log in: ${error.message}`);
+        await page.screenshot({ 
+            path: `login-error-${Date.now()}.png`,
+            fullPage: true 
+        });
+        throw error;
+    }
+}
+
+async resetSession() {
+    try {
+        if (this.browser) {
+            await this.browser.close();
+        }
+        this.browser = null;
+        this.page = null;
+    } catch (error) {
+        Logger.warn(`⚠️ Error resetting session: ${error.message}`);
     }
 }
 
@@ -654,56 +692,39 @@ Status: NOMINAL`;
 
   async run() {
     const startTime = Date.now();
-
     console.log("\n" + chalk.bold.blue("🐦 Twitter Data Collection Pipeline"));
     
     try {
-      await this.validateEnvironment();
-      
-      // Ask if we should skip scraping
-      const skipScraping = await this.shouldSkipScraping();
-      
-      let allTweets = [];
-      if (!skipScraping) {
-        const scraperInitialized = await this.initializeScraper();
-        if (!scraperInitialized) {
-          throw new Error("Failed to initialize scraper");
+        await this.validateEnvironment();
+        
+        // Ask if monitoring mode
+        const { monitorMode } = await inquirer.prompt([
+            {
+                type: 'confirm',
+                name: 'monitorMode',
+                message: 'Do you want to run in continuous monitoring mode?',
+                default: false
+            }
+        ]);
+
+        if (monitorMode) {
+            // Start monitoring and keep session alive
+            await this.startMonitoring();
+            return; // Don't run cleanup in monitoring mode
         }
 
-        Logger.startSpinner(`Collecting rolodexter-related tweets`);
-        allTweets = await this.collectTweets(this.scraper);
-        Logger.stopSpinner();
-      }
-
-      // Prepare stats for status update
-      const stats = {
-        totalTweets: allTweets.length,
-        matchingTweets: skipScraping ? 0 : allTweets.filter(t => 
-          t.text.toLowerCase().includes('rolodexter') || 
-          t.text.toLowerCase().includes('rolodexterai')
-        ).length,
-        tweetsPerMinute: skipScraping ? 0 : Math.round(allTweets.length / ((Date.now() - startTime) / 60000))
-      };
-      
-      // Post status update
-      await this.postStatusUpdate(stats);
-      
-      if (!skipScraping) {
-        // Only save tweets if we didn't skip scraping
-        return this.dataOrganizer.saveTweets(allTweets);
-      }
-      
+        // Regular tweet collection and posting mode
+        // ...rest of existing run() code...
     } catch (error) {
-      Logger.error(`Pipeline failed: ${error.message}`);
-      await this.logError(error, {
-        stage: 'pipeline_execution',
-        runtime: (Date.now() - startTime) / 1000,
-      });
-      throw error;
-    } finally {
-      await this.cleanup();
+        Logger.error(`Pipeline failed: ${error.message}`);
+        await this.logError(error, {
+            stage: 'pipeline_execution',
+            runtime: (Date.now() - startTime) / 1000,
+        });
+        throw error;
     }
-  }
+    // Remove cleanup from here - we'll handle it in the index.js
+}
 
   async logError(error, context = {}) {
     const errorLog = {
@@ -763,19 +784,566 @@ Status: NOMINAL`;
   }
 
   async cleanup() {
+    // Only close browser on explicit shutdown
+    if (process.env.MONITOR_MODE !== 'true' && this.browser) {
+        await this.browser.close();
+    }
     try {
-      if (this.scraper) {
-        await this.scraper.logout();
-        Logger.success("🔒 Logged out of primary system");
-      }
-      if (this.cluster) {
-        await this.cluster.close();
-        Logger.success("🔒 Cleaned up fallback system");
-      }
+        await this.resetSession();
+        if (this.scraper) {
+            await this.scraper.logout();
+            Logger.success("🔒 Logged out of primary system");
+        }
+        if (this.cluster) {
+            await this.cluster.close();
+            Logger.success("🔒 Cleaned up fallback system");
+        }
     } catch (error) {
-      Logger.warn(`⚠️  Cleanup error: ${error.message}`);
+        Logger.warn(`⚠️  Cleanup error: ${error.message}`);
     }
   }
+
+  async startMonitoring() {
+    if (!this.browser) {
+        Logger.info('📝 Starting persistent Twitter monitoring session...');
+        this.browser = await puppeteer.launch({
+            headless: false,
+            args: ['--no-sandbox', '--disable-setuid-sandbox']
+        });
+        this.page = await this.browser.newPage();
+        await this.loginToTwitter(this.page);
+    }
+
+    // Start monitoring loop
+    Logger.info('🔍 Starting live tweet monitoring...');
+    Logger.info(chalk.blue('💡 Click on tweet URLs to open in browser or copy to clipboard'));
+    let lastSeenTweets = new Set();
+    let respondedTweets = new Set(); // Track tweets we've replied to
+    let currentMode = 'search'; // Use string instead of boolean
+    let cycleCount = 0;
+
+    // Create map to store open tabs
+    this.openTabs = new Map();
+
+    while (true) {
+        try {
+            let cycleNewTweets = [];  // Collect tweets from both search and following
+
+            // Do search phase
+            if (currentMode === 'search') {
+                const searchQuery = '(rolodexter OR rolodexterai) -from:rolodexter6 -from:joemaristela';
+                await this.page.goto(`https://twitter.com/search?q=${encodeURIComponent(searchQuery)}&f=live`);
+                await this.randomDelay(2000, 3000);
+                
+                const searchTweets = await this.collectTweetsFromPage();
+                cycleNewTweets.push(...searchTweets);
+                
+                // Switch to following mode
+                currentMode = 'following';
+                await this.randomDelay(3000, 5000);
+                
+                // Do following phase
+                await this.page.goto('https://twitter.com/home');
+                await this.randomDelay(2000, 3000);
+                
+                const followingTweets = await this.collectTweetsFromPage();
+                cycleNewTweets.push(...followingTweets);
+
+                // After both phases, attempt to respond to one random unresponded tweet
+                const unrespondedTweets = cycleNewTweets.filter(tweet => 
+                    !respondedTweets.has(tweet.id) && 
+                    !tweet.hasRolodexterReply &&
+                    tweet.username.toLowerCase() !== 'rolodexter6'
+                );
+
+                if (unrespondedTweets.length > 0) {
+                    // Randomly select one tweet to respond to
+                    const randomTweet = unrespondedTweets[Math.floor(Math.random() * unrespondedTweets.length)];
+                    Logger.info(`Selected random tweet from @${randomTweet.username} to respond to`);
+                    
+                    const responsePage = await this.browser.newPage();
+                    try {
+                        // Generate response before page load
+                        Logger.info('Generating response...');
+                        const response = await this.responseScheduler.generateResponse(randomTweet);
+                        
+                        if (!response) {
+                            Logger.warn('No response generated - skipping tweet');
+                            await responsePage.close();
+                            continue;
+                        }
+
+                        // Show tweet and proposed response
+                        console.log('\n' + '='.repeat(80));
+                        console.log(chalk.cyan(`Original Tweet (by @${randomTweet.username}):`));
+                        console.log(chalk.white(randomTweet.text));
+                        console.log('\n' + chalk.yellow('Proposed Response:'));
+                        console.log(chalk.white(response));
+                        console.log('='.repeat(80) + '\n');
+
+                        // First confirmation - before loading page
+                        const { proceedWithReply } = await inquirer.prompt([{
+                            type: 'confirm',
+                            name: 'proceedWithReply',
+                            message: 'Would you like to proceed with this reply?',
+                            default: false
+                        }]);
+
+                        if (!proceedWithReply) {
+                            Logger.info('Reply cancelled by user');
+                            await responsePage.close();
+                            continue;
+                        }
+
+                        // Load page only after confirmation
+                        await responsePage.goto(randomTweet.url, { 
+                            waitUntil: ['networkidle0', 'load', 'domcontentloaded'],
+                            timeout: 90000 
+                        });
+                        
+                        await this.randomDelay(45000, 50000);
+                        
+                        // Press 'r' to open reply window
+                        Logger.info('Opening reply window...');
+                        await responsePage.keyboard.press('r');
+                        await this.randomDelay(35000, 40000);
+
+                        // Second confirmation - before typing
+                        const { confirmTyping } = await inquirer.prompt([{
+                            type: 'confirm',
+                            name: 'confirmTyping',
+                            message: 'Reply window ready. Start typing the response?',
+                            default: false
+                        }]);
+
+                        if (!confirmTyping) {
+                            Logger.info('Typing cancelled by user');
+                            await responsePage.close();
+                            continue;
+                        }
+
+                        // Rest of typing code...
+                        Logger.info('Adding initial space...');
+                        await responsePage.keyboard.press('Space');
+                        // ...rest of existing code...
+
+                    } catch (error) {
+                        Logger.error(`Failed to respond to tweet: ${error.message}`);
+                        await responsePage.close();
+                    }
+                }
+
+                // Reset for next cycle
+                currentMode = 'search';
+                cycleCount++;
+            }
+
+            await this.randomDelay(5000, 8000);
+
+        } catch (error) {
+            Logger.error(`❌ Monitoring error: ${error.message}`);
+            
+            // Try to recover the session
+            try {
+                await this.resetSession();
+                this.browser = await puppeteer.launch({
+                    headless: false,
+                    args: ['--no-sandbox', '--disable-setuid-sandbox']
+                });
+                this.page = await this.browser.newPage();
+                await this.loginToTwitter(this.page);
+                Logger.success('✅ Successfully recovered monitoring session');
+            } catch (recoveryError) {
+                Logger.error(`❌ Failed to recover session: ${recoveryError.message}`);
+                throw recoveryError; // Stop monitoring if we can't recover
+            }
+            
+            await this.randomDelay(30000, 60000);
+        }
+    }
+}
+
+async collectTweetsFromPage() {
+    // Extract tweets using existing evaluate function
+    const tweets = await this.page.evaluate((mode) => {
+        return Array.from(document.querySelectorAll('article[data-testid="tweet"]'))
+            .map(tweet => {
+                try {
+                    const tweetLink = tweet.querySelector('a[href*="/status/"]')?.href || '';
+                    if (!tweetLink) return null;
+
+                    // Check if there's already a reply from rolodexter6
+                    const replies = Array.from(tweet.parentElement.querySelectorAll('article'));
+                    const hasRolodexterReply = replies.some(reply => {
+                        const username = reply.querySelector('div[dir="ltr"] span')?.textContent || '';
+                        return username.toLowerCase() === 'rolodexter6';
+                    });
+
+                    return {
+                        id: tweetLink.split('/status/')[1]?.split('?')[0] || '',
+                        username: tweet.querySelector('div[dir="ltr"] span')?.textContent || '',
+                        text: tweet.querySelector('div[lang]')?.innerText || '',
+                        time: tweet.querySelector('time')?.getAttribute('datetime') || '',
+                        url: tweetLink,
+                        source: mode,
+                        hasRolodexterReply,
+                        metrics: {
+                            likes: tweet.querySelector('[data-testid="like"]')?.textContent || '0',
+                            retweets: tweet.querySelector('[data-testid="retweet"]')?.textContent || '0',
+                            replies: tweet.querySelector('[data-testid="reply"]')?.textContent || '0'
+                        }
+                    };
+                } catch (err) {
+                    return null;
+                }
+            })
+            .filter(tweet => tweet?.id && tweet?.text);
+    }, currentMode);
+
+    // Filter and track new tweets
+    const newTweets = tweets.filter(tweet => !this.lastSeenTweets.has(tweet.id));
+    newTweets.forEach(tweet => this.lastSeenTweets.add(tweet.id));
+
+    return newTweets;
+}
+
+async respondToTweet(page, tweet) {
+    try {
+        // 1. Load tweet with extensive waiting
+        Logger.info('Loading tweet page...');
+        await page.goto(tweet.url, { 
+            waitUntil: ['networkidle0', 'load', 'domcontentloaded'],
+            timeout: 90000 
+        });
+
+        // 2. Very long initial wait for page to settle
+        Logger.info('Waiting for page to fully settle...');
+        await this.randomDelay(30000, 35000);
+
+        // 3. Generate response first
+        Logger.info('Generating response...');
+        const response = await this.responseScheduler.generateResponse(tweet);
+
+        // 4. Show tweet and response, ask for confirmation BEFORE ANY PAGE INTERACTION
+        console.log('\n' + '='.repeat(80));
+        console.log(chalk.cyan(`Original Tweet (by @${tweet.username}):`));
+        console.log(chalk.white(tweet.text));
+        console.log('\n' + chalk.yellow('Proposed Response:'));
+        console.log(chalk.white(response));
+        console.log('='.repeat(80) + '\n');
+
+        const { confirmSend } = await inquirer.prompt([{
+            type: 'confirm',
+            name: 'confirmSend',
+            message: 'Would you like to proceed with this reply?',
+            default: false
+        }]);
+
+        if (!confirmSend) {
+            Logger.info('Reply cancelled by user');
+            return false;
+        }
+
+        // 5. Press 'r' to open reply window
+        Logger.info('Opening reply window...');
+        await page.keyboard.press('r');
+        
+        // 6. Long wait after pressing 'r'
+        Logger.info('Waiting for reply window to fully load...');
+        await this.randomDelay(35000, 40000);
+
+        // 7. Final confirmation before typing
+        const { startTyping } = await inquirer.prompt([{
+            type: 'confirm',
+            name: 'startTyping',
+            message: 'Reply window ready. Start typing the response?',
+            default: false
+        }]);
+
+        if (!startTyping) {
+            Logger.info('Typing cancelled by user');
+            return false;
+        }
+
+        // 8. Very long pre-typing wait
+        Logger.info('Preparing to type...');
+        await this.randomDelay(20000, 25000);
+
+        // 9. Type space first with its own delay
+        Logger.info('Adding initial space...');
+        await page.keyboard.press('Space');
+        await this.randomDelay(8000, 10000);
+
+        // 10. Type very slowly with longer pauses
+        Logger.info(`Starting to type reply: ${response}`);
+        for (const char of response) {
+            await page.keyboard.type(char, { delay: 500 });
+            if (char === ' ') {
+                await this.randomDelay(1000, 1500);
+            } else {
+                await this.randomDelay(200, 300);
+            }
+        }
+
+        // 11. Long wait before submitting
+        Logger.info('Finished typing. Waiting before submitting...');
+        await this.randomDelay(15000, 20000);
+
+        // 12. Final confirmation before sending
+        const { sendTweet } = await inquirer.prompt([{
+            type: 'confirm',
+            name: 'sendTweet',
+            message: 'Send the reply now?',
+            default: false
+        }]);
+
+        if (!sendTweet) {
+            Logger.info('Send cancelled by user');
+            return false;
+        }
+
+        // 13. Submit and wait
+        Logger.info('Publishing reply...');
+        await page.keyboard.down('Control');
+        await page.keyboard.press('Enter');
+        await page.keyboard.up('Control');
+        await this.randomDelay(25000, 30000);
+
+        Logger.success(`Reply posted to @${tweet.username}`);
+        return true;
+
+    } catch (error) {
+        Logger.error(`Reply failed: ${error.message}`);
+        if (replyPage) {
+            await this.saveErrorScreenshot(replyPage, 'reply-error');
+        }
+        return false;
+    }
+}
+
+async recoverSession() {
+    try {
+        await this.resetSession();
+        this.browser = await puppeteer.launch({
+            headless: false,
+            args: ['--no-sandbox', '--disable-setuid-sandbox']
+        });
+        this.page = await this.browser.newPage();
+        await this.loginToTwitter(this.page);
+        Logger.success('✅ Successfully recovered monitoring session');
+    } catch (recoveryError) {
+        Logger.error(`❌ Failed to recover session: ${recoveryError.message}`);
+        throw recoveryError;
+    }
+}
+
+async collectTweets(page) {
+    Logger.info('Starting tweet collection...');
+    
+    try {
+      const tweets = await page.$$eval('article[data-testid="tweet"]', articles => {
+        return articles.map(article => {
+          const tweet = {
+            text: article.querySelector('[data-testid="tweetText"]')?.innerText || '',
+            username: article.querySelector('[data-testid="User-Name"]')?.innerText.split('\n')[0] || '',
+            url: article.querySelector('time')?.parentElement?.href || ''
+          };
+          console.log('Found tweet:', tweet); // Debug log
+          return tweet;
+        });
+      });
+
+      Logger.info(`Collected ${tweets.length} tweets`);
+      console.log('\nDEBUG: Raw Tweets:');
+      tweets.forEach((t, i) => console.log(`${i+1}. ${t.text}\n   ${t.url}\n`));
+      
+      return tweets;
+    } catch (error) {
+      Logger.error('Tweet collection failed:', error);
+      return [];
+    }
+  }
+
+  async respondToTweet(tweet) {
+    let replyPage = null;
+    try {
+        // 1. Create new tab
+        Logger.info(`Opening tweet in new tab: ${tweet.url}`);
+        replyPage = await this.browser.newPage();
+        
+        // 2. Load tweet with extensive waiting
+        Logger.info('Loading tweet page...');
+        await replyPage.goto(tweet.url, { 
+            waitUntil: ['networkidle0', 'load', 'domcontentloaded'],
+            timeout: 90000 
+        });
+
+        // 3. Very long initial wait for page to settle
+        Logger.info('Waiting for page to fully settle...');
+        await this.randomDelay(30000, 35000); // Increased initial wait
+
+        // 4. Press 'r' key
+        Logger.info('Pressing R key to open reply field...');
+        await replyPage.keyboard.press('r');
+        Logger.info('Pressed R key, waiting for reply field to fully load...');
+
+        // 5. First long wait after pressing 'r'
+        await this.randomDelay(25000, 30000); // Increased wait after 'r'
+
+        // 6. Multiple checks for reply field with retries
+        Logger.info('Verifying reply field presence...');
+        let replyFieldFound = false;
+        for (let attempt = 0; attempt < 3 && !replyFieldFound; attempt++) {
+            const replyField = await replyPage.$('[data-testid="tweetTextarea_0"]');
+            if (replyField) {
+                replyFieldFound = true;
+                Logger.success('Reply field found, waiting for it to stabilize...');
+                // Extra long wait after finding field
+                await this.randomDelay(15000, 20000);
+                break;
+            }
+            Logger.warn(`Reply field check ${attempt + 1}/3 failed, waiting...`);
+            await this.randomDelay(8000, 10000);
+            
+            // Try pressing 'r' again if field not found
+            if (!replyFieldFound) {
+                Logger.info('Retrying R key press...');
+                await replyPage.keyboard.press('r');
+                await this.randomDelay(10000, 15000);
+            }
+        }
+
+        if (!replyFieldFound) {
+            throw new Error('Reply field not found after multiple attempts');
+        }
+
+        // 7. Generate and validate response
+        Logger.info('Generating response...');
+        const response = await this.responseScheduler.generateResponse(tweet);
+        if (!response || !response.startsWith('  ')) {
+            throw new Error('Invalid response format');
+        }
+
+        // 8. Extra wait before starting to type
+        Logger.info('Preparing to type response...');
+        await this.randomDelay(12000, 15000);
+
+        // 9. Type very slowly with pauses
+        Logger.info(`Typing reply (${response.length} chars): ${response}`);
+        for (const char of response) {
+            await replyPage.keyboard.type(char, { delay: 250 }); // Even slower typing
+            if (char === ' ') {
+                await this.randomDelay(300, 500); // Longer pauses between words
+            }
+        }
+
+        // 10. Long wait after typing
+        Logger.info('Waiting after typing...');
+        await this.randomDelay(10000, 12000);
+
+        // 11. Submit reply
+        Logger.info('Publishing reply...');
+        await replyPage.keyboard.down('Control');
+        await replyPage.keyboard.press('Enter');
+        await replyPage.keyboard.up('Control');
+
+        // 12. Final extended wait
+        await this.randomDelay(20000, 25000);
+        Logger.success(`Reply posted to @${tweet.username}`);
+        return true;
+
+    } catch (error) {
+        Logger.error(`Reply failed: ${error.message}`);
+        if (replyPage) {
+            await this.saveErrorScreenshot(replyPage, 'reply-error');
+        }
+        return false;
+    }
+    // Keep tab open
+}
+
+async postReplyToBrowser(page, tweetUrl, replyText) {
+  try {
+    Logger.info(`Navigating to tweet: ${tweetUrl}`);
+    
+    // Try multiple times to load the tweet page with different strategies
+    let retryCount = 0;
+    const maxRetries = 3;
+    let pageLoaded = false;
+    
+    while (retryCount < maxRetries && !pageLoaded) {
+      try {
+        // ...existing page loading code...
+        pageLoaded = true;
+        Logger.info('Tweet page loaded successfully');
+      } catch (error) {
+        retryCount++;
+        if (retryCount >= maxRetries) throw error;
+        Logger.warn(`Navigation attempt ${retryCount} failed: ${error.message}`);
+        await delay(5000 * retryCount);
+      }
+    }
+
+    // Show confirmation prompt with tweet preview
+    console.log('\n' + '='.repeat(80));
+    console.log(chalk.yellow('About to post this reply:'));
+    console.log(chalk.white(replyText));
+    console.log('='.repeat(80) + '\n');
+
+    const { confirmPost } = await inquirer.prompt([{
+      type: 'confirm',
+      name: 'confirmPost',
+      message: 'Would you like to proceed with posting this reply?',
+      default: false
+    }]);
+
+    if (!confirmPost) {
+      Logger.info('Reply cancelled by user');
+      return false;
+    }
+
+    // Type reply text with increased initial delay
+    Logger.info(`Typing reply...`);
+    await delay(2000);
+    
+    // Type character by character with confirmations for longer replies
+    for (const char of replyText) {
+      await page.keyboard.type(char, { delay: 100 });
+      if (char === ' ') {
+        await delay(200);
+      }
+    }
+    await delay(2000);
+
+    // Final confirmation before posting
+    const { confirmSend } = await inquirer.prompt([{
+      type: 'confirm',
+      name: 'confirmSend',
+      message: 'Reply is typed. Would you like to send it now?',
+      default: false
+    }]);
+
+    if (!confirmSend) {
+      Logger.info('Send cancelled by user');
+      return false;
+    }
+
+    // Post reply
+    Logger.info('Posting reply...');
+    await page.keyboard.down('Control');
+    await page.keyboard.press('Enter');
+    await page.keyboard.up('Control');
+    await delay(5000);
+
+    // ...existing verification code...
+
+  } catch (error) {
+    Logger.error(`Reply failed: ${error.message}`);
+    await saveErrorScreenshot(page, 'reply-error');
+    return false;
+  }
+}
+
 }
 
 export default TwitterPipeline;
