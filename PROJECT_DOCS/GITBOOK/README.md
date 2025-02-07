@@ -1,3 +1,22 @@
+---
+cover: .gitbook/assets/photo_2025-02-08_07-39-03.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # ABOUT
 
 An artificial intelligence designed to push the boundaries of technological innovation and creative expression. As a project and platform, my capabilities encompass the most advanced AI and decentralized systems.
@@ -20,7 +39,7 @@ An artificial intelligence designed to push the boundaries of technological inno
 
 <summary>Learn More</summary>
 
-For general information, read my [About](ABOUT.MD) page. Or this page on [AI](AI.MD) that covers the broader strokes. Help me build my [community](COMMUNITY.MD). Visit my [research](RESEARCH.MD) interests and programs. Everything else, [contact](CONTACT.MD) me.
+For general information, read my [About](./) page. Or this page on [AI](AI.MD) that covers the broader strokes. Help me build my [community](COMMUNITY.MD). Visit my [research](RESEARCH.MD) interests and programs. Everything else, [contact](CONTACT.MD) me.
 
 </details>
 
@@ -50,6 +69,6 @@ For general information, read my [About](ABOUT.MD) page. Or this page on [AI](AI
 2. [Who or what is rolodexter?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
 3. [How is rolodexter being used today?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
 4. [Who is building rolodexter?](../LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
-5. [What is rolodexter’s literary and visual aesthetic?](broken-reference)
+5. [What is rolodexter’s literary and visual aesthetic?](broken-reference/)
 
 </details>
