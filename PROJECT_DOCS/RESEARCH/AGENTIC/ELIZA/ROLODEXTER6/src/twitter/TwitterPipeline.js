@@ -453,7 +453,7 @@ async saveCookies() {
 
           for (const tweet of newTweets) {
             if (!tweets.has(tweet.id)) {
-              tweets.add(tweet);
+              tweets.add(tweet.id);
               this.stats.fallbackCount++;
             }
           }
@@ -784,11 +784,10 @@ Status: NOMINAL`;
   }
 
   async cleanup() {
-    if (process.env.MONITOR_MODE === 'true') {
-        Logger.info('Keeping session alive for monitoring...');
-        return;
+    // Only close browser on explicit shutdown
+    if (process.env.MONITOR_MODE !== 'true' && this.browser) {
+        await this.browser.close();
     }
-
     try {
         await this.resetSession();
         if (this.scraper) {
@@ -822,6 +821,9 @@ Status: NOMINAL`;
     let respondedTweets = new Set(); // Track tweets we've replied to
     let currentMode = 'search'; // Use string instead of boolean
     let cycleCount = 0;
+
+    // Create map to store open tabs
+    this.openTabs = new Map();
 
     while (true) {
         try {
@@ -861,11 +863,74 @@ Status: NOMINAL`;
                     
                     const responsePage = await this.browser.newPage();
                     try {
-                        await this.respondToTweet(responsePage, randomTweet);
+                        // Load page and press 'r'
+                        await responsePage.goto(randomTweet.url, { 
+                            waitUntil: ['networkidle0', 'load', 'domcontentloaded'],
+                            timeout: 90000 
+                        });
+                        
+                        // Wait for page load
+                        await this.randomDelay(45000, 50000);
+                        
+                        // Generate response before any interaction
+                        const response = await this.responseScheduler.generateResponse(randomTweet);
+                        
+                        // Press 'r' to open reply window
+                        Logger.info('Opening reply window...');
+                        await responsePage.keyboard.press('r');
+                        await this.randomDelay(35000, 40000);
+
+                        // Show tweet and proposed response
+                        console.log('\n' + '='.repeat(80));
+                        console.log(chalk.cyan(`Original Tweet (by @${randomTweet.username}):`));
+                        console.log(chalk.white(randomTweet.text));
+                        console.log('\n' + chalk.yellow('Proposed Response:'));
+                        console.log(chalk.white(response));
+                        console.log('='.repeat(80) + '\n');
+
+                        // Prompt for confirmation
+                        const { confirmSend } = await inquirer.prompt([{
+                            type: 'confirm',
+                            name: 'confirmSend',
+                            message: 'Would you like to send this reply?',
+                            default: false
+                        }]);
+
+                        if (!confirmSend) {
+                            Logger.info('Reply cancelled by user');
+                            await responsePage.close();
+                            continue;
+                        }
+
+                        // Type and send if confirmed
+                        Logger.info('Adding initial space...');
+                        await responsePage.keyboard.press('Space');
+                        await this.randomDelay(5000, 8000);
+
+                        // Type response slowly
+                        Logger.info(`Typing confirmed reply: ${response}`);
+                        for (const char of response) {
+                            await responsePage.keyboard.type(char, { delay: 500 });
+                            if (char === ' ') {
+                                await this.randomDelay(800, 1000);
+                            }
+                        }
+
+                        // Submit reply
+                        await this.randomDelay(15000, 20000);
+                        Logger.info('Publishing reply...');
+                        await responsePage.keyboard.down('Control');
+                        await responsePage.keyboard.press('Enter');
+                        await responsePage.keyboard.up('Control');
+
+                        await this.randomDelay(25000, 30000);
+                        Logger.success(`Reply posted to @${randomTweet.username}`);
+
                         respondedTweets.add(randomTweet.id);
+                        this.openTabs.set(randomTweet.id, responsePage);
+                        Logger.info(`Keeping tab open for tweet ${randomTweet.id}`);
                     } catch (error) {
                         Logger.error(`Failed to respond to tweet: ${error.message}`);
-                    } finally {
                         await responsePage.close();
                     }
                 }
@@ -945,25 +1010,117 @@ async collectTweetsFromPage() {
 }
 
 async respondToTweet(page, tweet) {
-    await page.goto(tweet.url, {
-        waitUntil: 'networkidle2',
-        timeout: 30000
-    });
-    await this.randomDelay(2000, 3000);
-    
-    await page.waitForSelector('[data-testid="reply"]');
-    await page.click('[data-testid="reply"]');
-    await this.randomDelay(1000, 2000);
-    
-    const response = await this.responseScheduler.generateResponse(tweet);
-    await page.keyboard.type(response);
-    await this.randomDelay(1000, 2000);
-    
-    await page.keyboard.down('Control');
-    await page.keyboard.press('Enter');
-    await page.keyboard.up('Control');
-    
-    Logger.success(`✅ Posted response to @${tweet.username}`);
+    try {
+        // 1. Load tweet with extensive waiting
+        Logger.info('Loading tweet page...');
+        await page.goto(tweet.url, { 
+            waitUntil: ['networkidle0', 'load', 'domcontentloaded'],
+            timeout: 90000 
+        });
+
+        // 2. Very long initial wait for page to settle
+        Logger.info('Waiting for page to fully settle...');
+        await this.randomDelay(30000, 35000);
+
+        // 3. Generate response first
+        Logger.info('Generating response...');
+        const response = await this.responseScheduler.generateResponse(tweet);
+
+        // 4. Show tweet and response, ask for confirmation BEFORE ANY PAGE INTERACTION
+        console.log('\n' + '='.repeat(80));
+        console.log(chalk.cyan(`Original Tweet (by @${tweet.username}):`));
+        console.log(chalk.white(tweet.text));
+        console.log('\n' + chalk.yellow('Proposed Response:'));
+        console.log(chalk.white(response));
+        console.log('='.repeat(80) + '\n');
+
+        const { confirmSend } = await inquirer.prompt([{
+            type: 'confirm',
+            name: 'confirmSend',
+            message: 'Would you like to proceed with this reply?',
+            default: false
+        }]);
+
+        if (!confirmSend) {
+            Logger.info('Reply cancelled by user');
+            return false;
+        }
+
+        // 5. Press 'r' to open reply window
+        Logger.info('Opening reply window...');
+        await page.keyboard.press('r');
+        
+        // 6. Long wait after pressing 'r'
+        Logger.info('Waiting for reply window to fully load...');
+        await this.randomDelay(35000, 40000);
+
+        // 7. Final confirmation before typing
+        const { startTyping } = await inquirer.prompt([{
+            type: 'confirm',
+            name: 'startTyping',
+            message: 'Reply window ready. Start typing the response?',
+            default: false
+        }]);
+
+        if (!startTyping) {
+            Logger.info('Typing cancelled by user');
+            return false;
+        }
+
+        // 8. Very long pre-typing wait
+        Logger.info('Preparing to type...');
+        await this.randomDelay(20000, 25000);
+
+        // 9. Type space first with its own delay
+        Logger.info('Adding initial space...');
+        await page.keyboard.press('Space');
+        await this.randomDelay(8000, 10000);
+
+        // 10. Type very slowly with longer pauses
+        Logger.info(`Starting to type reply: ${response}`);
+        for (const char of response) {
+            await page.keyboard.type(char, { delay: 500 });
+            if (char === ' ') {
+                await this.randomDelay(1000, 1500);
+            } else {
+                await this.randomDelay(200, 300);
+            }
+        }
+
+        // 11. Long wait before submitting
+        Logger.info('Finished typing. Waiting before submitting...');
+        await this.randomDelay(15000, 20000);
+
+        // 12. Final confirmation before sending
+        const { sendTweet } = await inquirer.prompt([{
+            type: 'confirm',
+            name: 'sendTweet',
+            message: 'Send the reply now?',
+            default: false
+        }]);
+
+        if (!sendTweet) {
+            Logger.info('Send cancelled by user');
+            return false;
+        }
+
+        // 13. Submit and wait
+        Logger.info('Publishing reply...');
+        await page.keyboard.down('Control');
+        await page.keyboard.press('Enter');
+        await page.keyboard.up('Control');
+        await this.randomDelay(25000, 30000);
+
+        Logger.success(`Reply posted to @${tweet.username}`);
+        return true;
+
+    } catch (error) {
+        Logger.error(`Reply failed: ${error.message}`);
+        if (replyPage) {
+            await this.saveErrorScreenshot(replyPage, 'reply-error');
+        }
+        return false;
+    }
 }
 
 async recoverSession() {
@@ -1009,68 +1166,183 @@ async collectTweets(page) {
     }
   }
 
+  async respondToTweet(tweet) {
+    let replyPage = null;
+    try {
+        // 1. Create new tab
+        Logger.info(`Opening tweet in new tab: ${tweet.url}`);
+        replyPage = await this.browser.newPage();
+        
+        // 2. Load tweet with extensive waiting
+        Logger.info('Loading tweet page...');
+        await replyPage.goto(tweet.url, { 
+            waitUntil: ['networkidle0', 'load', 'domcontentloaded'],
+            timeout: 90000 
+        });
+
+        // 3. Very long initial wait for page to settle
+        Logger.info('Waiting for page to fully settle...');
+        await this.randomDelay(30000, 35000); // Increased initial wait
+
+        // 4. Press 'r' key
+        Logger.info('Pressing R key to open reply field...');
+        await replyPage.keyboard.press('r');
+        Logger.info('Pressed R key, waiting for reply field to fully load...');
+
+        // 5. First long wait after pressing 'r'
+        await this.randomDelay(25000, 30000); // Increased wait after 'r'
+
+        // 6. Multiple checks for reply field with retries
+        Logger.info('Verifying reply field presence...');
+        let replyFieldFound = false;
+        for (let attempt = 0; attempt < 3 && !replyFieldFound; attempt++) {
+            const replyField = await replyPage.$('[data-testid="tweetTextarea_0"]');
+            if (replyField) {
+                replyFieldFound = true;
+                Logger.success('Reply field found, waiting for it to stabilize...');
+                // Extra long wait after finding field
+                await this.randomDelay(15000, 20000);
+                break;
+            }
+            Logger.warn(`Reply field check ${attempt + 1}/3 failed, waiting...`);
+            await this.randomDelay(8000, 10000);
+            
+            // Try pressing 'r' again if field not found
+            if (!replyFieldFound) {
+                Logger.info('Retrying R key press...');
+                await replyPage.keyboard.press('r');
+                await this.randomDelay(10000, 15000);
+            }
+        }
+
+        if (!replyFieldFound) {
+            throw new Error('Reply field not found after multiple attempts');
+        }
+
+        // 7. Generate and validate response
+        Logger.info('Generating response...');
+        const response = await this.responseScheduler.generateResponse(tweet);
+        if (!response || !response.startsWith('  ')) {
+            throw new Error('Invalid response format');
+        }
+
+        // 8. Extra wait before starting to type
+        Logger.info('Preparing to type response...');
+        await this.randomDelay(12000, 15000);
+
+        // 9. Type very slowly with pauses
+        Logger.info(`Typing reply (${response.length} chars): ${response}`);
+        for (const char of response) {
+            await replyPage.keyboard.type(char, { delay: 250 }); // Even slower typing
+            if (char === ' ') {
+                await this.randomDelay(300, 500); // Longer pauses between words
+            }
+        }
+
+        // 10. Long wait after typing
+        Logger.info('Waiting after typing...');
+        await this.randomDelay(10000, 12000);
+
+        // 11. Submit reply
+        Logger.info('Publishing reply...');
+        await replyPage.keyboard.down('Control');
+        await replyPage.keyboard.press('Enter');
+        await replyPage.keyboard.up('Control');
+
+        // 12. Final extended wait
+        await this.randomDelay(20000, 25000);
+        Logger.success(`Reply posted to @${tweet.username}`);
+        return true;
+
+    } catch (error) {
+        Logger.error(`Reply failed: ${error.message}`);
+        if (replyPage) {
+            await this.saveErrorScreenshot(replyPage, 'reply-error');
+        }
+        return false;
+    }
+    // Keep tab open
+}
+
 async postReplyToBrowser(page, tweetUrl, replyText) {
   try {
     Logger.info(`Navigating to tweet: ${tweetUrl}`);
     
-    // Navigate to tweet
-    await page.goto(tweetUrl, { 
-      waitUntil: 'networkidle2',
-      timeout: 30000 
-    });
+    // Try multiple times to load the tweet page with different strategies
+    let retryCount = 0;
+    const maxRetries = 3;
+    let pageLoaded = false;
+    
+    while (retryCount < maxRetries && !pageLoaded) {
+      try {
+        // ...existing page loading code...
+        pageLoaded = true;
+        Logger.info('Tweet page loaded successfully');
+      } catch (error) {
+        retryCount++;
+        if (retryCount >= maxRetries) throw error;
+        Logger.warn(`Navigation attempt ${retryCount} failed: ${error.message}`);
+        await delay(5000 * retryCount);
+      }
+    }
 
-    // Wait for tweet to load
-    await page.waitForSelector('article[data-testid="tweet"]', { visible: true });
-    await this.randomDelay(1000, 2000);
+    // Show confirmation prompt with tweet preview
+    console.log('\n' + '='.repeat(80));
+    console.log(chalk.yellow('About to post this reply:'));
+    console.log(chalk.white(replyText));
+    console.log('='.repeat(80) + '\n');
 
-    // Press 'r' to open reply dialog (Twitter keyboard shortcut)
-    await page.keyboard.press('r');
-    await this.randomDelay(1000, 2000);
+    const { confirmPost } = await inquirer.prompt([{
+      type: 'confirm',
+      name: 'confirmPost',
+      message: 'Would you like to proceed with posting this reply?',
+      default: false
+    }]);
 
-    // Type reply text (cursor should already be in text field)
-    Logger.info(`Typing reply: ${replyText}`);
-    await page.keyboard.type(replyText, { delay: 50 });
-    await this.randomDelay(1000, 2000);
+    if (!confirmPost) {
+      Logger.info('Reply cancelled by user');
+      return false;
+    }
 
-    // Press Ctrl+Enter to submit reply
+    // Type reply text with increased initial delay
+    Logger.info(`Typing reply...`);
+    await delay(2000);
+    
+    // Type character by character with confirmations for longer replies
+    for (const char of replyText) {
+      await page.keyboard.type(char, { delay: 100 });
+      if (char === ' ') {
+        await delay(200);
+      }
+    }
+    await delay(2000);
+
+    // Final confirmation before posting
+    const { confirmSend } = await inquirer.prompt([{
+      type: 'confirm',
+      name: 'confirmSend',
+      message: 'Reply is typed. Would you like to send it now?',
+      default: false
+    }]);
+
+    if (!confirmSend) {
+      Logger.info('Send cancelled by user');
+      return false;
+    }
+
+    // Post reply
+    Logger.info('Posting reply...');
     await page.keyboard.down('Control');
     await page.keyboard.press('Enter');
     await page.keyboard.up('Control');
-    await this.randomDelay(3000, 5000);
+    await delay(5000);
 
-    // Verify reply was posted
-    const postedReply = await page.evaluate((text) => {
-      const tweets = Array.from(document.querySelectorAll('article[data-testid="tweet"]'));
-      return tweets.some(tweet => tweet.textContent.includes(text));
-    }, replyText);
-
-    if (postedReply) {
-      Logger.success('Reply posted successfully');
-      return true;
-    }
-
-    Logger.warn('Could not verify reply was posted');
-    return false;
+    // ...existing verification code...
 
   } catch (error) {
     Logger.error(`Reply failed: ${error.message}`);
-    await this.saveErrorScreenshot(page, 'reply-error');
+    await saveErrorScreenshot(page, 'reply-error');
     return false;
-  }
-}
-
-// Helper method to save error screenshots
-async saveErrorScreenshot(page, prefix) {
-  try {
-    const timestamp = format(new Date(), 'yyyyMMddHHmmss');
-    const filename = `errors/${prefix}-${timestamp}.png`;
-    await page.screenshot({ 
-      path: filename,
-      fullPage: true 
-    });
-    Logger.info(`Error screenshot saved to ${filename}`);
-  } catch (error) {
-    Logger.warn(`Could not save error screenshot: ${error.message}`);
   }
 }
 

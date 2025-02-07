@@ -274,16 +274,14 @@ async function handleTweetResponse(tweets, topic) {
     const openRouter = new OpenRouterClient();
     const response = await openRouter.generateResponse(randomTweet);
     
-    if (response) {
-      Logger.success(`Generated response: ${response}`);
-      
-      const posted = await postReplyToBrowser(page, randomTweet.permanentUrl, response);
-      if (posted) {
-        Logger.success(`Posted reply to @${randomTweet.username}`);
-      } else {
-        Logger.warn(`Failed to post reply to @${randomTweet.username}, will try again next cycle`);
-      }
+    if (!response || response.startsWith('🤖')) {
+      Logger.error('Failed to generate valid response - skipping tweet');
+      return; // Don't post if we got an error response
     }
+
+    // Only proceed with posting if we got a valid response
+    Logger.success(`Generated response: ${response}`);
+    await postReplyToBrowser(page, randomTweet.permanentUrl, response);
 
   } catch (error) {
     Logger.error(`Failed to handle tweet response: ${error.message}`);
@@ -385,6 +383,14 @@ async function runContinuousMonitoring(page) {
     { topic: 'AI', url: 'https://x.com/search?q=artificial%20intelligence&src=recent_search_click&f=live' },
     { topic: 'BRAND', url: 'https://x.com/search?q=rolodexter&src=typed_query&f=live' },
     { topic: 'MENTIONS', url: 'https://x.com/search?q=to%3A%40rolodexter6%20-joemaristela&src=typed_query&f=live' },
+    { 
+      topic: 'TRUMP', 
+      url: 'https://x.com/search?q=Donald%20Trump&src=typed_query&f=live' 
+    },
+    { 
+      topic: 'AI-COMPANIES', 
+      url: 'https://x.com/search?q=Google%20or%20OpenAI%20or%20ChatGPT%20or%20Anthropic%20or%20DeepSeek&src=typed_query&f=live'
+    },
     { topic: 'SOLANA', url: 'https://x.com/search?q=solana&src=typed_query&f=live' },
     { topic: 'BITCOIN', url: 'https://x.com/search?q=bitcoin&src=typed_query&f=live' },
     { topic: 'ELON', url: 'https://x.com/search?q=from%3Aelonmusk&src=typed_query&f=live' },

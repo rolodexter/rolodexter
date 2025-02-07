@@ -3,6 +3,8 @@ import { format } from "date-fns";
 import OpenRouterClient from './OpenRouterClient.js';
 import fs from 'fs/promises';
 import path from 'path';
+import inquirer from 'inquirer';
+import chalk from 'chalk';
 
 class ResponseScheduler {
     constructor() {
@@ -72,6 +74,24 @@ class ResponseScheduler {
 
     async generateResponse(tweet) {
         try {
+            // Show tweet and ask for confirmation
+            console.log('\n' + '='.repeat(80));
+            console.log(chalk.cyan(`Tweet by @${tweet.username}:`));
+            console.log(chalk.white(tweet.text));
+            console.log('='.repeat(80) + '\n');
+
+            const { confirmGenerate } = await inquirer.prompt([{
+                type: 'confirm',
+                name: 'confirmGenerate',
+                message: 'Would you like to generate a response for this tweet?',
+                default: false
+            }]);
+
+            if (!confirmGenerate) {
+                Logger.info('Response generation cancelled by user');
+                return null;
+            }
+
             const llmResponse = await this.llm.generateResponse(tweet);
             return llmResponse;
         } catch (error) {
