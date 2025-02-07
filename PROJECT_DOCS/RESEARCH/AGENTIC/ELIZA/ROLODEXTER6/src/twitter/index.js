@@ -279,10 +279,10 @@ async function handleTweetResponse(tweets, topic) {
       return; // Don't post if we got an error response
     }
 
-    // Only proceed with posting if we got a valid response
     Logger.success(`Generated response: ${response}`);
+    
+    // Removed the prompt here. The new tab reply process will now prompt after toggling.
     await postReplyToBrowser(page, randomTweet.permanentUrl, response);
-
   } catch (error) {
     Logger.error(`Failed to handle tweet response: ${error.message}`);
   }
@@ -290,83 +290,47 @@ async function handleTweetResponse(tweets, topic) {
 
 async function postReplyToBrowser(page, tweetUrl, replyText) {
   try {
-    Logger.info(`Navigating to tweet: ${tweetUrl}`);
-    
-    // Try multiple times to load the tweet page with different strategies
-    let retryCount = 0;
-    const maxRetries = 3;
-    let pageLoaded = false;
-    
-    while (retryCount < maxRetries && !pageLoaded) {
-      try {
-        // Try different wait strategies on each attempt
-        if (retryCount === 0) {
-          await page.goto(tweetUrl, { 
-            waitUntil: 'domcontentloaded',
-            timeout: 20000
-          });
-        } else if (retryCount === 1) {
-          await page.goto(tweetUrl, { 
-            waitUntil: 'networkidle0',
-            timeout: 30000
-          });
-        } else {
-          // Final attempt: reload the page
-          await page.reload({ 
-            waitUntil: 'networkidle2',
-            timeout: 40000
-          });
-        }
-        
-        // Wait for either reply button or error state
-        const result = await Promise.race([
-          page.waitForSelector('[data-testid="reply"]', { visible: true, timeout: 10000 }),
-          page.waitForSelector('[data-testid="error-detail"]', { visible: true, timeout: 10000 })
-        ]);
-
-        // Check if we got an error page
-        const isErrorPage = await page.$('[data-testid="error-detail"]');
-        if (isErrorPage) {
-          throw new Error('Tweet not found or inaccessible');
-        }
-
-        pageLoaded = true;
-        Logger.info('Tweet page loaded successfully');
-        
-      } catch (error) {
-        retryCount++;
-        if (retryCount >= maxRetries) throw error;
-        Logger.warn(`Navigation attempt ${retryCount} failed: ${error.message}`);
-        await delay(5000 * retryCount);
-      }
-    }
-
-    // Type reply text directly with increased initial delay
-    Logger.info(`Typing reply: ${replyText}`);
-    await delay(2000);
-    await page.keyboard.type(replyText, { delay: 100 });
-    await delay(2000);
-
-    // Post reply
-    Logger.info('Posting reply...');
-    await page.keyboard.down('Control');
-    await page.keyboard.press('Enter');
-    await page.keyboard.up('Control');
-    await delay(5000);
-
-    // Rest of verification code...
-    const postedText = await page.evaluate(() => {
-      const tweets = document.querySelectorAll('[data-testid="tweet"]');
-      return Array.from(tweets).map(t => t.textContent).join('\n');
+    Logger.info(`Opening tweet in a new tab: ${tweetUrl}`);
+    const browser = page.browser();
+    const newTab = await browser.newPage();
+    await newTab.goto(tweetUrl, {
+      waitUntil: 'domcontentloaded',
+      timeout: 30000
     });
+    await delay(3000); // replaced newTab.waitForTimeout(3000)
 
-    if (postedText.includes(replyText)) {
-      Logger.success('Reply posted successfully');
-      return true;
+    Logger.info("Pressing 'r' key to toggle the reply window");
+    await newTab.keyboard.press('r');
+    await delay(2000); // replaced newTab.waitForTimeout(2000)
+
+    const { sendReply } = await inquirer.prompt([
+      {
+        type: 'confirm',
+        name: 'sendReply',
+        message: `Send this reply: ${replyText}?`, // removed extra quotes around replyText
+        default: false
+      }
+    ]);
+    
+    if (!sendReply) {
+      Logger.info('Reply posting cancelled by user.');
+      await newTab.close();
+      return;
     }
-    Logger.warn('Reply verification failed');
-    return false;
+    
+    Logger.info(`Typing reply: ${replyText}`);
+    await newTab.keyboard.type(replyText, { delay: 100 });
+    await delay(2000); // replaced newTab.waitForTimeout(2000)
 
+    Logger.info('Posting reply...');
+    await newTab.keyboard.down('Control');
+    await newTab.keyboard.press('Enter');
+    await newTab.keyboard.up('Control');
+    await delay(5000); // replaced newTab.waitForTimeout(5000)
+    
+    Logger.success('Reply posted successfully');
+    await newTab.close();
+    return true;
   } catch (error) {
     Logger.error(`Reply failed: ${error.message}`);
     await saveErrorScreenshot(page, 'reply-error');

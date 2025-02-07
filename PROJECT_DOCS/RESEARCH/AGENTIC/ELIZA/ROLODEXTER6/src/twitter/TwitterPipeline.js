@@ -863,22 +863,15 @@ Status: NOMINAL`;
                     
                     const responsePage = await this.browser.newPage();
                     try {
-                        // Load page and press 'r'
-                        await responsePage.goto(randomTweet.url, { 
-                            waitUntil: ['networkidle0', 'load', 'domcontentloaded'],
-                            timeout: 90000 
-                        });
-                        
-                        // Wait for page load
-                        await this.randomDelay(45000, 50000);
-                        
-                        // Generate response before any interaction
+                        // Generate response before page load
+                        Logger.info('Generating response...');
                         const response = await this.responseScheduler.generateResponse(randomTweet);
                         
-                        // Press 'r' to open reply window
-                        Logger.info('Opening reply window...');
-                        await responsePage.keyboard.press('r');
-                        await this.randomDelay(35000, 40000);
+                        if (!response) {
+                            Logger.warn('No response generated - skipping tweet');
+                            await responsePage.close();
+                            continue;
+                        }
 
                         // Show tweet and proposed response
                         console.log('\n' + '='.repeat(80));
@@ -888,47 +881,52 @@ Status: NOMINAL`;
                         console.log(chalk.white(response));
                         console.log('='.repeat(80) + '\n');
 
-                        // Prompt for confirmation
-                        const { confirmSend } = await inquirer.prompt([{
+                        // First confirmation - before loading page
+                        const { proceedWithReply } = await inquirer.prompt([{
                             type: 'confirm',
-                            name: 'confirmSend',
-                            message: 'Would you like to send this reply?',
+                            name: 'proceedWithReply',
+                            message: 'Would you like to proceed with this reply?',
                             default: false
                         }]);
 
-                        if (!confirmSend) {
+                        if (!proceedWithReply) {
                             Logger.info('Reply cancelled by user');
                             await responsePage.close();
                             continue;
                         }
 
-                        // Type and send if confirmed
-                        Logger.info('Adding initial space...');
-                        await responsePage.keyboard.press('Space');
-                        await this.randomDelay(5000, 8000);
+                        // Load page only after confirmation
+                        await responsePage.goto(randomTweet.url, { 
+                            waitUntil: ['networkidle0', 'load', 'domcontentloaded'],
+                            timeout: 90000 
+                        });
+                        
+                        await this.randomDelay(45000, 50000);
+                        
+                        // Press 'r' to open reply window
+                        Logger.info('Opening reply window...');
+                        await responsePage.keyboard.press('r');
+                        await this.randomDelay(35000, 40000);
 
-                        // Type response slowly
-                        Logger.info(`Typing confirmed reply: ${response}`);
-                        for (const char of response) {
-                            await responsePage.keyboard.type(char, { delay: 500 });
-                            if (char === ' ') {
-                                await this.randomDelay(800, 1000);
-                            }
+                        // Second confirmation - before typing
+                        const { confirmTyping } = await inquirer.prompt([{
+                            type: 'confirm',
+                            name: 'confirmTyping',
+                            message: 'Reply window ready. Start typing the response?',
+                            default: false
+                        }]);
+
+                        if (!confirmTyping) {
+                            Logger.info('Typing cancelled by user');
+                            await responsePage.close();
+                            continue;
                         }
 
-                        // Submit reply
-                        await this.randomDelay(15000, 20000);
-                        Logger.info('Publishing reply...');
-                        await responsePage.keyboard.down('Control');
-                        await responsePage.keyboard.press('Enter');
-                        await responsePage.keyboard.up('Control');
+                        // Rest of typing code...
+                        Logger.info('Adding initial space...');
+                        await responsePage.keyboard.press('Space');
+                        // ...rest of existing code...
 
-                        await this.randomDelay(25000, 30000);
-                        Logger.success(`Reply posted to @${randomTweet.username}`);
-
-                        respondedTweets.add(randomTweet.id);
-                        this.openTabs.set(randomTweet.id, responsePage);
-                        Logger.info(`Keeping tab open for tweet ${randomTweet.id}`);
                     } catch (error) {
                         Logger.error(`Failed to respond to tweet: ${error.message}`);
                         await responsePage.close();

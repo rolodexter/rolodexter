@@ -1,3 +1,4 @@
+import puppeteer from 'puppeteer';
 import chalk from 'chalk';
 import ora from 'ora';
 import Table from 'cli-table3';
@@ -46,8 +47,41 @@ class Logger {
     console.log(chalk.yellow(`⚠️  ${msg}`));
   }
 
-  static error(msg) {
+  static error(msg, error = null) {
     console.log(chalk.red(`❌ ${msg}`));
+    if (error) {
+      console.log(chalk.red('Error details:'));
+      console.log(chalk.dim(error.stack || error.message || error));
+    }
+  }
+
+  static logTwitterError(error, context = '') {
+    const errorMap = {
+      'Login failed': 'Twitter login failed. Check your credentials in .env file',
+      'Rate limit': 'Hit Twitter rate limit - waiting before retry',
+      'Network error': 'Network connection issue - check your internet connection',
+      'Page load timeout': 'Page failed to load - Twitter may be blocking requests',
+      'Element not found': 'Twitter page structure changed - update selectors'
+    };
+
+    const errorMessage = errorMap[error.message] || error.message || 'Unknown error occurred';
+    this.error(`Twitter Error${context ? ` (${context})` : ''}: ${errorMessage}`, error);
+    
+    // Update stats
+    this.collectionStats.lastError = {
+      message: errorMessage,
+      time: new Date(),
+      context
+    };
+  }
+
+  static displayErrorSummary() {
+    if (this.collectionStats.lastError) {
+      console.log(chalk.red('\n⚠️  Last Error:'));
+      console.log(chalk.dim(`Time: ${format(this.collectionStats.lastError.time, 'HH:mm:ss')}`));
+      console.log(chalk.dim(`Context: ${this.collectionStats.lastError.context}`));
+      console.log(chalk.dim(`Message: ${this.collectionStats.lastError.message}`));
+    }
   }
 
   // Add the debug method
@@ -182,3 +216,14 @@ class Logger {
 }
 
 export default Logger;
+
+// Remove these functions as they're not needed and causing errors
+// async function logError(page) {
+//     await page.waitForTimeout(3000);
+// }
+
+// (async () => {
+//     const browser = await puppeteer.launch();
+//     const page = await browser.newPage();
+//     await logError(page);
+// })();
