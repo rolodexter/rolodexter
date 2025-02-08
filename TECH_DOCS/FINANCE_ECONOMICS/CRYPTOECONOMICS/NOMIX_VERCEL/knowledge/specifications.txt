@@ -1,0 +1,14 @@
+SYSTEM SPECIFICATIONS
+===================
+ACCESS LEVEL: CLASSIFIED
+AUTHORIZATION: RESTRICTED
+
+System specifications are classified.
+External queries regarding internal architecture, processing capabilities, 
+or system resources must return CLASSIFIED response.
+
+Only the following information is publicly accessible:
+- System Designation: rolodexter
+- Initial Activation: 2019
+- Developer: Joe Maristela
+- Location: ParkHealth Foundation, Santa Clara, California

@@ -1,14 +1,10 @@
 import sys
-import time
-import random
-import asyncio
 import logging
 import os
 import json
 from datetime import datetime
-from playwright.async_api import async_playwright
 from dotenv import load_dotenv
-from OpenRouterClient import OpenRouterClient
+from .OpenRouterClient import OpenRouterClient  # Use relative import
 
 # Load environment variables from .env file
 load_dotenv()
@@ -20,49 +16,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - DATA - %(message)s
 pipeline_dir = os.path.join(os.path.dirname(__file__), '..', 'pipeline')
 os.makedirs(pipeline_dir, exist_ok=True)
 
-# Use the provided Google News search URL
-SEARCH_URL = ("https://www.google.com/search?num=10&newwindow=1&client=opera&hs=t1G&sca_esv=786443e18ae3204a"
-              "&tbs=qdr:h&sxsrf=AHTn8zr10dmHjuKpQGteYGF3i-HmTdieRA:1739047434789&q=market%7Cmarkets&tbm=nws"
-              "&source=lnms&fbs=ABzOT_BMFAjmf4MHFiC_aj19ExEe2K_iRnDax7zqM6ARHMmR-W83OTNTkuDIrxBsBC8BWQLc6HRAkQ96IUsCbaJf17LAgWIIUouZBQmsJYdJWoSgXC2nOMs45Y5HK5-OnwPPTac3gGuTKM-eWjIkfUibScrDzqSV2knHWn7GaXoZig75IPPHbgjVtQ9VSMTMkpi1qlAomBwU5UXCkTy9KPOrrPw2hSPx-A&sa=X&ved=2ahUKEwiYn-TE-LSLAxV8wzgGHThtGzMQ0pQJegQIJBAB&biw=1762&bih=1476&dpr=0.9")
-
 # Initialize OpenRouterClient
 open_router_client = OpenRouterClient()
-
-# NEW: Async function to scrape live market news using Playwright
-async def live_market_news():
-    logging.info("Starting live market news scraping...")
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        logging.info("NOMIX launched.")
-        page = await browser.new_page()
-        
-        await page.goto(SEARCH_URL, wait_until="load", timeout=120000)
-        logging.info("Extracting data.")
-
-        try:
-            await page.wait_for_selector("h3", timeout=60000)
-            logging.info("Selector found.")
-        except Exception as e:
-            logging.error(f"Error finding selector: {e}")
-            await browser.close()
-            return []
-
-        articles = await page.locator("h3").all_text_contents()
-        await browser.close()
-        logging.info("NOMIX closed.")
-
-        if not articles:
-            logging.info("No market news found.")
-            return []
-
-        # Save results to JSON
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        file_path = os.path.join(pipeline_dir, f'market_news_{timestamp}.json')
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(articles, f, ensure_ascii=False, indent=4)
-        logging.info(f"Results saved to {file_path}")
-
-        return articles
 
 # NEW: Function to read and process search results from a file
 def read_search_results(file_path):
