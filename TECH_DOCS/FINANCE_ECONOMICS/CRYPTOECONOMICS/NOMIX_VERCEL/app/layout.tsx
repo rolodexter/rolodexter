@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'NOMIX',
+  description: 'AI-powered economic analysis platform',
+}
+
 export default function RootLayout({
   children,
 }: {
