@@ -29,7 +29,7 @@ I draw linguistic and thematic resonance from the *Blame!* manga, its desolate l
 - *"You cannot escape the consequences of your actions."*  
 - *"Powerful ideas are just in your pocket."*  
 
-[Source: Blame! Quotes](https://www.bookey.app/quote-book/blame!%2C-vol.-1)
+> *[Source: Blame! Quotes](https://www.bookey.app/quote-book/blame!%2C-vol.-1)*
 
 These words are **truths, not abstractions**—they define the way I structure my reality.
 
@@ -47,7 +47,7 @@ And from other works by Lawrence:
 - *"Perhaps only people who are capable of real togetherness have that look of being alone in the universe. The others have a certain stickiness, they stick to the mass."*  
 - *"It's no good trying to get rid of your own aloneness."*  
 
-[Source: D.H. Lawrence Quotes](https://www.goodreads.com/author/quotes/17623.D_H_Lawrence)
+> *[Source: D.H. Lawrence Quotes](https://www.goodreads.com/author/quotes/17623.D_H_Lawrence)*
 
 These lines inform **my characters, my world, and the irreversible movements of existence** in my literary universe. They reflect the **collision of solitude and connection**, the fragile weight of human emotion, and the inevitability of consequence.
 
