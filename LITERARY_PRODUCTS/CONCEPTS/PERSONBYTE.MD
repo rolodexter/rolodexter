@@ -1,6 +1,6 @@
-# Personbyte
+# PERSONBYTE
 
-![alt text](<personbyte puzzle piece of me (9).jpg>)
+![PERSONBYTE](/LITERARY_PRODUCTS/CONCEPTS/PERSONBYTE_PUZZLE_PIECE_OF_ME_9.JPG)
 
 ## Overview
 
