@@ -1,5 +1,7 @@
-export const metadata = {
-  title: 'NOMIX',
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'rolodexter',
   description: 'AI-powered economic analysis platform',
 }
 
