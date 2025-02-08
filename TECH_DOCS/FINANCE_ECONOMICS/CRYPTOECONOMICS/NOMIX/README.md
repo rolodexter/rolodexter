@@ -11,6 +11,7 @@ NOMIX
 ├── data                        # Directory for sample datasets and market data
 ├── logs                        # Directory for execution logs
 ├── config                      # Directory for configuration files
+├── pipeline                    # Directory for storing scraped data
 ├── docs
 │   └── README.md              # Documentation for the project
 ├── setup.bat                  # Batch script to set up and launch the console
@@ -24,30 +25,42 @@ NOMIX
 - Perform market analysis using historical data.
 - Easy-to-use command-line interface for user interaction.
 - Logging capabilities for debugging and performance tracking.
+- Organized storage of scraped data in the `pipeline` folder.
 
 ## Installation
 
 1. Clone the repository:
+
    ```
    git clone <repository-url>
    cd NOMIX
    ```
 
 2. Install the required dependencies:
+
    ```
    pip install -r requirements.txt
    ```
 
-3. Configure your API keys and settings in the `config/` directory.
+3. Install Playwright:
+
+   ```
+   pip install playwright
+   playwright install
+   ```
+
+4. Configure your API keys and settings in the `config/` directory.
 
 ## Usage
 
 To launch the NOMIX console, run the following command in your terminal:
+
 ```
 python src/nomix_console.py
 ```
 
 Alternatively, you can use the provided batch script:
+
 ```
 setup.bat
 ```
