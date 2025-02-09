@@ -5,6 +5,16 @@ export async function POST(req: Request) {
   try {
     const { messages } = await req.json() as ChatRequest
     
+    if (!process.env.OPENROUTER_API_KEY) {
+      console.error('OPENROUTER_API_KEY not found')
+      return NextResponse.json(
+        { error: 'API key not configured' },
+        { status: 500 }
+      )
+    }
+
+    console.log('Sending request to OpenRouter with messages:', messages)
+    
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -19,13 +29,23 @@ export async function POST(req: Request) {
       })
     })
 
+    if (!response.ok) {
+      const errorData = await response.text()
+      console.error('OpenRouter API error:', errorData)
+      return NextResponse.json(
+        { error: `OpenRouter API error: ${response.status}` },
+        { status: response.status }
+      )
+    }
+
     const data = await response.json() as ChatResponse
+    console.log('Received response from OpenRouter:', data)
     return NextResponse.json(data)
     
   } catch (error) {
-    console.error('Chat API error:', error)
+    console.error('Unexpected error:', error)
     return NextResponse.json(
-      { error: 'Failed to communicate with bot' },
+      { error: 'Internal server error' },
       { status: 500 }
     )
   }
