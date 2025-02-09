@@ -1,50 +1,62 @@
+require('dotenv').config({ path: 'C:/rolodexter/DATA/VERCEL/.env' }); // Add this line at the top
 const express = require("express");
 const path = require("path");
 const cors = require("cors");
+const axios = require('axios');
 const app = express();
+const port = process.env.PORT || 8080;
+
+const apiKey = process.env.OPENROUTER_API_KEY;
+const apiUrl = 'https://openrouter.ai/api/v1/chat/completions';
+
+console.log(`OpenRouter API Key: ${apiKey}`);
+console.log('🤖 rolodexter is running at http://localhost:8080');
 
 // Middleware setup
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public'))); // Move this line up
 
-const botResponses = {
-  hello: ["Hi there!", "Hello! How can I help?", "Greetings!"],
-  help: ["I can help you with basic questions.", "What do you need help with?"],
-  bye: ["Goodbye!", "See you later!", "Have a great day!"],
-};
-
-function getBotResponse(message) {
-  const lowercaseMsg = message.toLowerCase();
-  
-  for (const [key, responses] of Object.entries(botResponses)) {
-    if (lowercaseMsg.includes(key)) {
-      return responses[Math.floor(Math.random() * responses.length)];
-    }
-  }
-  
-  return "I'm still learning, but I'll try my best to help!";
-}
-
 // API routes
-app.post("/api/chat", (req, res) => {
+app.post("/api/chat", async (req, res) => {
   const { message } = req.body;
   if (!message) {
     return res.status(400).json({ error: "Message is required!" });
   }
 
-  const reply = getBotResponse(message);
-  res.json({ reply });
+  console.log("DEBUG: Using API Key:", apiKey); // Ensure key is loaded
+  console.log("DEBUG: Sending request with headers:");
+
+  const headers = {
+    "Authorization": apiKey,  // Use raw API key without "Bearer"
+    "Content-Type": "application/json",
+    "Referer": "http://localhost:8080",  // Updated header key for local testing
+    "X-Title": "Rolodexter" // Optional, but recommended
+  };
+
+  console.log(headers); // Log headers
+
+  try {
+    const response = await axios.post(apiUrl, {
+      model: "gpt-4",
+      messages: [{ role: "user", content: message }],
+    }, { headers });
+
+    res.json({ reply: response.data });
+  } catch (error) {
+    console.error("Error response from OpenRouter:", {
+      status: error.response ? error.response.status : null,
+      headers: error.response ? error.response.headers : null,
+      data: error.response ? error.response.data : error.message
+    });
+    res.status(500).json({ error: error.response ? error.response.data : error.message });
+  }
 });
 
-// Remove the catch-all route since we want static files to be served directly
-// app.get('*', ...) - Remove this line
-
 // Server startup
-const PORT = process.env.PORT || 3000;
 if (require.main === module) {
-  app.listen(PORT, () => {
-    console.log(`🤖 Bot is running at http://localhost:${PORT}`);
+  app.listen(port, () => {
+    console.log(`🤖 rolodexter is running at http://localhost:${port}`);
   });
 }
 

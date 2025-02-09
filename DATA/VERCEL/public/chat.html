@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenRouter API Test</title>
+    <style>
+        #chat { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h2>OpenRouter API Test</h2>
+    <div id="chat"></div>
+    <input id="message" type="text" placeholder="Type message...">
+    <button onclick="sendMessage()">Test API</button>
+
+    <script>
+        const API_KEY = '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';
+
+        async function sendMessage() {
+            const message = document.getElementById('message').value;
+            const chat = document.getElementById('chat');
+            
+            chat.innerHTML += `<div>Sending: ${message}</div>`;
+            
+            // Updated headers format
+            const headers = new Headers({
+                'Authorization': `Bearer ${API_KEY}`,
+                'Content-Type': 'application/json',
+                'HTTP-Referer': 'https://openrouter.ai/',
+                'X-Title': 'API Test'
+            });
+
+            const payload = {
+                model: 'gpt-3.5-turbo', // Simplified model name
+                messages: [{ role: 'user', content: message }]
+            };
+
+            console.log('Headers:', Object.fromEntries(headers.entries()));
+            console.log('Payload:', payload);
+            
+            try {
+                const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                    method: 'POST',
+                    headers: headers,
+                    mode: 'cors',
+                    cache: 'no-cache',
+                    body: JSON.stringify(payload)
+                });
+
+                const data = await response.json();
+                console.log('Raw Response:', response);
+                console.log('Response Data:', data);
+                
+                if (!response.ok) {
+                    throw new Error(`API Error: ${data.error?.message || JSON.stringify(data)}`);
+                }
+                
+                const reply = data.choices?.[0]?.message?.content;
+                chat.innerHTML += `<div><strong>Response:</strong> ${reply || 'No content'}</div>`;
+            } catch (error) {
+                console.error('Full Error:', error);
+                chat.innerHTML += `<div class="error">Error: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>

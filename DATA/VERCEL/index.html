@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT via OpenRouter</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .chat-container { max-width: 600px; margin: auto; }
+        textarea, button { width: 100%; margin-top: 10px; padding: 10px; }
+        #response { margin-top: 20px; padding: 10px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>ChatGPT via OpenRouter</h2>
+        <textarea id="userInput" rows="4" placeholder="Enter your message..."></textarea>
+        <button onclick="sendMessage()">Send</button>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        async function sendMessage() {
+            const userInput = document.getElementById("userInput").value;
+            const apiKey = "YOUR_OPENROUTER_API_KEY"; // Replace with your API key
+
+            const responseDiv = document.getElementById("response");
+            responseDiv.innerHTML = "Loading...";
+
+            const payload = {
+                model: "openai/gpt-4",
+                messages: [{ role: "user", content: userInput }],
+            };
+
+            try {
+                const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${apiKey}`
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const data = await response.json();
+                responseDiv.innerHTML = data.choices?.[0]?.message?.content || "No response";
+            } catch (error) {
+                console.error(error);
+                responseDiv.innerHTML = "Error fetching response";
+            }
+        }
+    </script>
+</body>
+</html>
