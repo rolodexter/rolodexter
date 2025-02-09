@@ -16,7 +16,7 @@ Three technical forums launch across:
 
 1. **GitHub Spaces** - Codebase coordination for ETHGlobal hackathons  
 2. **Charmverse Clusters** - Token-gated governance simulations  
-3. **ScoutGame Parallels** - Cross-platform narrative engines ([scoutgame.xyz integration](https://scoutgame.xyz/api/rolo-v1))  
+3. **ScoutGame Parallels** - Cross-platform narrative engines ([scoutgame.xyz integration](https://scoutgame.xyz/u/rolodexter))  
 
 Each platform features:  
 
