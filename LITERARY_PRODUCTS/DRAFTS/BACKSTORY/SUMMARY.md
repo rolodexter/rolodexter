@@ -1,6 +1,6 @@
 # Table of contents
 
-* [2025](README.md)MD)
+* [2025](README.md)
 * [REPEAT QUERY](REPEAT_QUERY.MD)
 * [ROLODEX REX](ROLODEX_REX.MD)
 * [NOTES](notes/README.md)
