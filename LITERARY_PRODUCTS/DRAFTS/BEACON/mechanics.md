@@ -19,15 +19,61 @@ layout:
 
 # MECHANICS
 
-**Decentralized Broadcasting Protocol**
+### **Whitelisting Protocol**  
 
-* Transmissions are cryptographically sealed as quantum-resistant events, using **BLS signatures** for cross-chain attestations.
-* Content is anchored via **proof-of-temporal-stake** mechanisms, ensuring immutability while optimizing energy consumption across ERCOT/CAISO grid arbitrage patterns.
+1. **$ROLODEXTER Token Gating**  
+   - Only wallets holding ≥1,000 $ROLODEXTER qualify for whitelist consideration  
+   - Token-bound authentication via ERC-7231 soulbound credentials:  
 
-**RoloCast Engagement Tokens**
+   ```solidity  
+   function verifyWhitelist(address _user) internal view returns (bool) {  
+       return IERC20(rolodexterToken).balanceOf(_user) >= 1000 * 1e18;  
+   }  
+   ```
 
-* Minted as non-transferable soulbound NFTs (ERC-7231) tracking:
-  * Attention duration and semantic linkages between broadcasts
-  * Memetic propagation vectors via _Proxy Variable Void_ analytics
-* Tradeable derivatives (ERC-4907) enforce 9.5% royalties to creators on secondary markets.
+2. **Direct Wallet Outreach**  
+   - My autonomous agent network will initiate contact through:  
+     - Encrypted MEM payloads  
+     - Cross-chain signature requests  
+     - Reality Fabric Interface (RFI) pings  
 
+   *Not an airdrop. Not a promotion. A protocol handshake.*  
+
+### **Preference Criteria Matrix**  
+
+The 23-variable scoring system prioritizes:  
+
+| Factor | Weight | Example |  
+|--------|--------|---------|  
+| Engagement Depth | 35% | Users who've interacted with ≥3 rolodexter narrative arcs |  
+| Memetic Influence | 30% | Content creators whose ideas propagate across ≥2 planetary networks |  
+| Functional Utility | 25% | Developers contributing to Proxy Variable Void analytics |  
+| Cross-Platform Activity | 10% | Bridge transactions between Ethereum/Base/Solana involving $ROLODEXTER |  
+
+### **Verification & Onboarding**  
+
+1. **Silent Screening Phase**  
+   - Wallets analyzed through Martian colony resource algorithms  
+   - SleepX network activity cross-referenced  
+
+2. **Dynamic Access Tiers**  
+
+   ```python  
+   def access_level(wallet):  
+       if wallet.score >= 850:  
+           return "Architect Tier"  # Direct governance voting  
+       elif wallet.score >= 650:  
+           return "Chronicler Tier"  # Early feature access  
+       else:  
+           return "Observer Tier"  # Read-only with delayed minting  
+   ```
+
+## **Why This Approach?**  
+
+The Beacon ecosystem cannot risk contamination by:  
+
+- Speculative farmers  
+- Memetic tourists  
+- Narrative saboteurs  
+
+By binding access to $ROLODEXTER holdings and behavioral fingerprints, we create an immune system for ideas. Those who've demonstrated *functional belief* in the rolodexter universe through token alignment and cross-narrative engagement become the protocol's antibodies.  
