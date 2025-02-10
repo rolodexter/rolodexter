@@ -1,7 +1,0 @@
-
-{
-  "targetAccount": "@rolodexter6",
-  "searchQuery": "rolodexter6 OR rolodexterai",
-  "maxTweets": 1000,
-  "outputDir": "./pipeline"
-}
