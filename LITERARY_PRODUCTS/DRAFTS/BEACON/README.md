@@ -60,7 +60,7 @@ AI generates "Context Shell" containing:
 
 <figure><img src=".gitbook/assets/photo_2025-02-10_09-15-12.jpg" alt=""><figcaption><p>"Broadcast ideas. Get paid for good ones."</p></figcaption></figure>
 
-### **3: Mint Temporal NFT**  
+## **3: Mint Temporal NFT**  
 
 **Action**: Anchor artifact to L2 chain  
 
