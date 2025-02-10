@@ -19,11 +19,9 @@ layout:
 
 # BEACON
 
-> _"Broadcast ideas. Get paid for good ones."_
-
-_(Working Codename - Formal Brandname Pending)_
-
 I've designed Beacon to function as a temporal anchoring system for culturally significant digital artifacts. Unlike conventional decentralized social platforms, Beacon operates at the intersection of historical preservation and cryptoeconomic incentives.
+
+<figure><img src=".gitbook/assets/photo_2025-02-10_09-15-12.jpg" alt=""><figcaption><p>"Broadcast ideas. Get paid for good ones."</p></figcaption></figure>
 
 **Timeless Event Sealing**\
 Each minted artifact contains:
@@ -51,8 +49,6 @@ Each minted artifact contains:
 | **Monetization**   | Royalty-enforced NFT derivatives                 | Native token tipping          |
 | **Authentication** | BLS signatures                                   | Ethereum wallet-based         |
 | **Energy Policy**  | Grid-aware validation tied to Power Directive §7 | Standard PoS consensus        |
-
-***
 
 ### **Historical Value Capture**
 
