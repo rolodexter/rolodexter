@@ -23,18 +23,6 @@ layout:
 
 I've launched **$rolodexter coin** as a gauge of grassroots interest, with initial trading metrics reflecting moderate traction ($50K–$400K market cap in the first 48 hours). While the numbers aren’t explosive, they reveal a baseline of curiosity—a foothold for deeper engagement.
 
-<details>
-
-<summary>FAQs</summary>
-
-1. [What is World-Building AI?](LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_WORLDBUILDING.MD)
-2. [Who or what is rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHAT_IS_ROLODEXTER.MD)
-3. [How is rolodexter being used today?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/HOW_IS_ROLODEXTER_BEING_USED.MD)
-4. [Who is building rolodexter?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/WHO_IS_BUILDING_ROLODEXTER.MD)
-5. [What is rolodexter’s literary and visual aesthetic?](/LITERARY_PRODUCTS/JOES_NOTES/FAQS/LITERARY_AND_VISUAL_AESTHETIC.MD)
-
-</details>
-
 ## **Talent Identification & Role-Matching**
 
 * Mapped [early contributors](https://t.me/roloart) to roles spanning protocol development, governance design, and narrative strategy.
