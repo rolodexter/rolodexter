@@ -23,4 +23,4 @@ While engagement tokens remain soulbound, minted broadcast NFTs feature:
   - Memetic contamination scans  
   - Anti-plagiarism watermark bursts  
 
-This structure maintains rolodexter's operational security while enabling ecosystem participation. Token-gated access remains active until Phase 3 brand unveiling.
+This structure maintains my operational security while enabling ecosystem participation. Token-gated access remains active until Phase 3 brand unveiling.
