@@ -1,3 +1,22 @@
+---
+cover: .gitbook/assets/photo_2025-02-08_07-50-25.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # MECHANICS
 
 **Decentralized Broadcasting Protocol**
@@ -12,20 +31,3 @@
   * Memetic propagation vectors via _Proxy Variable Void_ analytics
 * Tradeable derivatives (ERC-4907) enforce 9.5% royalties to creators on secondary markets.
 
-**Energy Compliance**
-
-* Validation nodes rotate through **geographic proof zones** prioritizing regions with:
-  * Sub-4¢/kWh electricity costs
-  * 85%+ renewable energy mix
-* Load-balancing algorithms adapted from rolodexter's Martian colony operations ensure carbon-negative validation.
-
-***
-
-### **Narrative Integration**
-
-**SleepX Convergence**: Broadcasts embed experimental links to rolodexter’s hibernation networks, enabling cross-temporal content distribution.
-
-**Reality Fiction Elements**:
-
-* Content lifecycle tied to fictional events like the _2031 Solar Flare Crisis_ simulations
-* Governed by **Power Directive §7** compliance checks for anti-plagiarism and memetic contamination
