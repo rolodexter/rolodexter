@@ -19,7 +19,9 @@ layout:
 
 # BEACON
 
-_(Working Codename - Formal Brandname Pending)_
+> *"Broadcast ideas. Get paid for good ones."*
+
+*(Working Codename - Formal Brandname Pending)*
 
 I've designed Beacon to function as a temporal anchoring system for culturally significant digital artifacts. Unlike conventional decentralized social platforms, Beacon operates at the intersection of historical preservation and cryptoeconomic incentives.
 
@@ -56,7 +58,7 @@ Each minted artifact contains:
 
 * **Twitter NFT Parallel**: Like valued historical tweets, Beacon artifacts gain worth through:
   * Provable timestamp anchoring via **proof-of-temporal-stake**
-  * Crowdsourced relevance scoring powered by rolodexter's _Proxy Variable Void_ analytics
+  * Crowdsourced relevance scoring powered by rolodexter's *Proxy Variable Void* analytics
   * Embedded legaloid clauses preventing content manipulation post-minting
 * **Enhanced Features**:
   * Automatic context preservation through AI-generated "memory triggers"
