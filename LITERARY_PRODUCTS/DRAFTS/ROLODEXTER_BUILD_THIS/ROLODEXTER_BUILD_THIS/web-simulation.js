@@ -647,3 +647,50 @@ window.addEventListener('load', () => {
     console.log('Window load event fired');
     console.log('Document readyState:', document.readyState);
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const loginContainer = document.getElementById('login-container');
+    const usernameInput = document.getElementById('username');
+    const passwordInput = document.getElementById('password');
+    const chatInput = document.getElementById('chat-input');
+
+    // Credentials to auto-type
+    const credentials = {
+        username: 'joe.maristela',
+        password: 'rolodexter2024'
+    };
+
+    // Function to simulate typing
+    const typeText = async (element, text, delay = 100) => {
+        element.classList.add('typing');
+        element.parentElement.classList.add('typing');
+        
+        for (let char of text) {
+            element.value += char;
+            await new Promise(resolve => setTimeout(resolve, delay));
+        }
+        
+        element.classList.remove('typing');
+        element.parentElement.classList.remove('typing');
+        element.parentElement.classList.add('done');
+    };
+
+    // Auto type credentials sequence
+    const autoTypeCredentials = async () => {
+        await new Promise(resolve => setTimeout(resolve, 1000)); // Initial pause
+        await typeText(usernameInput, credentials.username);
+        await new Promise(resolve => setTimeout(resolve, 500)); // Pause between fields
+        await typeText(passwordInput, credentials.password);
+        
+        // After typing is complete, wait and then hide login
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        loginContainer.classList.add('hidden');
+        
+        // Enable chat input after login
+        chatInput.removeAttribute('readonly');
+        document.querySelector('.chat-controls').classList.add('enabled');
+    };
+
+    // Start the auto-typing sequence
+    autoTypeCredentials();
+});
