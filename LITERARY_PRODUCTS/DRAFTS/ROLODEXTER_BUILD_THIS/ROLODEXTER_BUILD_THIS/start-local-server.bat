@@ -1,0 +1,3 @@
+@echo off
+echo Starting rolodexter simulation...
+npx http-server -p 3000

@@ -1,7 +1,16 @@
 # ROLODEXTER_BUILD_THIS
 
 ## Project Overview
-ROLODEXTER_BUILD_THIS is a terminal simulation project designed to demonstrate user interactions within a simulated terminal environment. The project aims to provide a realistic experience of how a user, Joe Maristela, interacts with the rolodexter system.
+ROLODEXTER_BUILD_THIS is a terminal simulation project that recreates a key scene where Joe Maristela interacts with the rolodexter system. The simulation depicts Joe's first encounter with the AI-powered personal relationship management system, showing how he discovers and explores its capabilities to help manage his connections and relationships.
+
+The simulation showcases:
+- Joe's initial login and authentication process
+- His discovery of the system's relationship tracking features
+- Interactive dialogue between Joe and the rolodexter AI
+- Demonstration of how rolodexter helps analyze and manage personal relationships
+- Key commands and interactions that represent the system's core functionality
+
+This project serves as both a technical demonstration and a narrative device, helping readers understand the rolodexter system through Joe's perspective.
 
 ## Project Structure
 ```
