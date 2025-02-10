@@ -1,0 +1,50 @@
+# ROLODEXTER_BUILD_THIS
+
+## Project Overview
+ROLODEXTER_BUILD_THIS is a terminal simulation project designed to demonstrate user interactions within a simulated terminal environment. The project aims to provide a realistic experience of how a user, Joe Maristela, interacts with the rolodexter system.
+
+## Project Structure
+```
+ROLODEXTER_BUILD_THIS
+├── src
+│   ├── index.ts
+│   ├── simulation
+│   │   └── terminal.ts
+│   └── types
+│       └── index.ts
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## Installation
+To set up the project, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd ROLODEXTER_BUILD_THIS
+   ```
+
+3. Install the dependencies:
+   ```
+   npm install
+   ```
+
+## Usage
+To run the terminal simulation, execute the following command:
+```
+npm start
+```
+
+This will start the application and initialize the terminal interface.
+
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
