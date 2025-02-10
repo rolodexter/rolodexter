@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/photo_2025-02-10_07-22-41.jpg
+cover: .gitbook/assets/photo_2025-02-10_09-06-57.jpg
 coverY: 0
 layout:
   cover:
@@ -21,15 +21,15 @@ layout:
 
 > _Transform ideas into immortal assets – Beacon cryptoseals groundbreaking concepts as energy-aware NFTs, where historical impact determines value through decentralized validation and perpetual creator royalties._
 
-**Problem/Solution Alignment**  
+**Problem/Solution Alignment**
 
-| Problem Area | Rolodexter-Specific Solution |  
-|--------------|------------------------------|  
-| Ephemeral monetization | NFTs with decaying context shells & AI-generated verification flags |  
-| Subjective value assessment | Holographic consensus via DAO-of-DAOs governance mesh |  
-| Creator abandonment | Perpetual royalties enforced through SleepX network smart contracts |  
+| Problem Area                | Rolodexter-Specific Solution                                        |
+| --------------------------- | ------------------------------------------------------------------- |
+| Ephemeral monetization      | NFTs with decaying context shells & AI-generated verification flags |
+| Subjective value assessment | Holographic consensus via DAO-of-DAOs governance mesh               |
+| Creator abandonment         | Perpetual royalties enforced through SleepX network smart contracts |
 
-**Technical Differentiation**  
+**Technical Differentiation**
 
-- **Self-Evolving Metadata Pools** using rolodexter's Martian colony algorithms
-- **Temporal NFTs** that auto-archive when cultural relevance drops below 23%
+* **Self-Evolving Metadata Pools** using rolodexter's Martian colony algorithms
+* **Temporal NFTs** that auto-archive when cultural relevance drops below 23%
