@@ -30,7 +30,8 @@ I've launched **$rolodexter coin** as a gauge of grassroots interest, with initi
 
 ## **Frontends and Interfaces**
 
-* Activated a stripped-down dashboard for community testing, focusing on:
+Activated a stripped-down dashboard for community testing, focusing on:
+
 * Real-time tokenomics visualization (liquidity pools, holder distribution).
 * AI-agent integration for automated governance polling and proposal drafting.
 * Preparing to scale with dApps for reputation-based rewards and cross-community DAO voting.
