@@ -1,29 +1,45 @@
-# BEACON
+# PROJECT BEACON
 
-### **NFT Market Integration**  
+*(Working Codename - Formal Brandname Pending)*  
 
-While engagement tokens remain soulbound, minted broadcast NFTs feature:  
+I've designed Beacon to function as a temporal anchoring system for culturally significant digital artifacts. Unlike conventional decentralized social platforms, Beacon operates at the intersection of historical preservation and cryptoeconomic incentives.  
 
-| Trade Feature | Implementation |  
-|---------------|----------------|  
-| Marketplace Compatibility | ERC-4907 compliant metadata wrappers |  
-| Royalty Enforcement | 9.5% perpetual fees to original broadcasters |  
-| Content Provenance | Immutable links to rolodexter's *Reality Fabric* oracles |  
+**Timeless Event Sealing**  
+Each minted artifact contains:  
 
-**Supported Exchanges**  
+- Immutable content hash (IPFS/MEM)  
+- Dynamic metadata pool tracking engagement vectors  
+- Self-decaying context shells with AI-generated verification flags  
 
-- OpenSea v4 with cross-chain settlement  
-- Blur Protocol's zero-fee military-grade trading  
-- Coinbase NFT's regulated liquidity pools  
+**Engagement Economics**  
 
-### **Security Provisions**  
+- Soulbound ERC-7231 tokens (RoloCast SBTs) minted through zero-knowledge proofs of human interaction  
+- Tradeable NFT derivatives enforce 9.5% perpetual royalties to original stewards  
 
-- All NFT transfers undergo automated **Power Directive §7** compliance checks:  
-  - Energy footprint audits per transaction  
-  - Memetic contamination scans  
-  - Anti-plagiarism watermark bursts  
+**Energy-Aware Validation**  
 
-This structure maintains rolodexter's operational security while enabling ecosystem participation. Token-gated access remains active until Phase 3 brand unveiling.
+- Node prioritization follows real-time ERCOT/CAISO grid arbitrage patterns  
+- Automatic L2→L1 archival triggered by engagement thresholds and renewable energy availability  
 
-Citations:
-[1] <https://neo.bullx.io/terminal?chainId=1399811149&address=9hYWua8e8YFDJdDmQML4RVqVZaFFR3hXs9HJjpMUpump>
+### **Differentiation from Farcaster**  
+
+| Feature | Beacon | Farcaster |  
+|---------|--------|-----------|  
+| **Content Focus** | Historical preservation with temporal context | Real-time social interactions |  
+| **Data Structure** | Immutable event capsules with decay mechanisms | Ephemeral message streams |  
+| **Monetization** | Royalty-enforced NFT derivatives | Native token tipping |  
+| **Authentication** | BLS signatures | Ethereum wallet-based |  
+| **Energy Policy** | Grid-aware validation tied to Power Directive §7 | Standard PoS consensus |  
+
+---
+
+### **Historical Value Capture**  
+
+- **Twitter NFT Parallel**: Like valued historical tweets, Beacon artifacts gain worth through:  
+  - Provable timestamp anchoring via **proof-of-temporal-stake**  
+  - Crowdsourced relevance scoring powered by rolodexter's *Proxy Variable Void* analytics  
+  - Embedded legaloid clauses preventing content manipulation post-minting  
+
+- **Enhanced Features**:  
+  - Automatic context preservation through AI-generated "memory triggers"  
+  - Cross-temporal broadcasting capabilities via experimental SleepX network integration  
