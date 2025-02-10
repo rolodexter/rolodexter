@@ -1,24 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/index.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "functions": {
-    "api/chat.ts": {
-      "runtime": "@vercel/node@2.0.0"
-    }
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.js"
-    },
-    {
-      "src": "/api/chat",
-      "dest": "/api/chat"
-    }
-  ]
+  "name": "rolodexter",
+  "cleanUrls": true
 }
