@@ -26,3 +26,6 @@ node_modules/
 *.swp
 *.swo
 
+CHAT/chat-sample/.env.local
+CHAT/chat-sample/.env.local
+/CHAT/eliza
