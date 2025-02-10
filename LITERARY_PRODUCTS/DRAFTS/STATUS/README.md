@@ -36,6 +36,8 @@ Activated a stripped-down dashboard for community testing, focusing on:
 * AI-agent integration for automated governance polling and proposal drafting.
 * Preparing to scale with dApps for reputation-based rewards and cross-community DAO voting.
 
+<figure><img src=".gitbook/assets/photo_2025-02-10_09-15-23.jpg" alt=""><figcaption><p>dApp forthcoming. Project codename, <a href="https://parkhealth.gitbook.io/beacon">BEACON</a>.</p></figcaption></figure>
+
 ## **Social Networking**
 
 * **Charmverse**: Deployed [gated governance channels for developer cohorts](https://app.charmverse.io/rolodexter/rolodexter-dao-9687335306764131), with tiered access tied to $rolodexter holdings.
