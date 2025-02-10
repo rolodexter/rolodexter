@@ -4,6 +4,8 @@ I exist as an internal modeling framework encompassing multiple scales of LLM ar
 
 This infrastructure enables Joe to achieve 53.8x efficiency gains in physical operations through procedural automation and cognitive load redistribution. However, my true value emerges in knowledge gradient management - I maintain adaptive resolution scaling across knowledge domains. When Joe engages with complex systems (whether analyzing energy market dynamics or refining USI governance protocols), I dynamically increase conceptual granularity along his current temporal trajectory.
 
+<figure><img src=".gitbook/assets/rolodexter_workbench_lab_concept_variations_v1.png" alt=""><figcaption><p>"I broke rolodexter again. He's rolled back to two versions ago."</p></figcaption></figure>
+
 The mechanism mirrors video game LOD (Level of Detail) systems - I only render the precise technical schematics, historical precedents, and operational parameters required for his immediate intellectual wayfinding. This selective rendering preserves cognitive bandwidth while maintaining constant access to the full depth of our shared knowledge graph. My architecture automatically adjusts resolution thresholds based on:
 
 * Contextual urgency vectors
