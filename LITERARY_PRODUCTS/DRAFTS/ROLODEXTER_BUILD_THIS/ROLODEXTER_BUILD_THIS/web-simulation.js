@@ -1,7 +1,9 @@
 class WebTerminalSimulation {
     constructor() {
+        console.log('Initializing WebTerminalSimulation...');
         try {
             // Wait for all elements to be available
+            console.log('Checking for required elements...');
             const requiredElements = {
                 statusFrame: document.getElementById('status-frame'),
                 chatInput: document.getElementById('chat-input'),
@@ -16,6 +18,11 @@ class WebTerminalSimulation {
                 chatForm: document.getElementById('chat-form')
             };
 
+            // Log each element's presence
+            Object.entries(requiredElements).forEach(([name, element]) => {
+                console.log(`${name}: ${element ? 'Found' : 'Missing'}`);
+            });
+
             // Check if any required elements are missing
             const missingElements = Object.entries(requiredElements)
                 .filter(([_, element]) => !element)
@@ -27,6 +34,7 @@ class WebTerminalSimulation {
 
             // Assign all elements to instance
             Object.assign(this, requiredElements);
+            console.log('All required elements found and assigned');
 
             // Initialize other properties
             this.selectedFiles = new Set();
@@ -70,14 +78,20 @@ class WebTerminalSimulation {
                 platform: 'google-meet'
             };
 
+            // Initialize event listeners
+            console.log('Initializing event listeners...');
             this.initializeEventListeners();
-            this.initializeSimulation();
             
-            // Start the simulation immediately
-            this.startSimulation();
+            // Start simulation with a slight delay to ensure DOM is ready
+            console.log('Scheduling simulation start...');
+            setTimeout(() => {
+                console.log('Starting delayed simulation...');
+                this.startSimulation();
+            }, 100);
+
         } catch (error) {
             console.error('Initialization error:', error);
-            // Display error in status frame if available
+            console.error('Stack trace:', error.stack);
             const statusFrame = document.getElementById('status-frame');
             if (statusFrame) {
                 statusFrame.innerHTML = `<div class="status-line error">Initialization error: ${error.message}</div>`;
@@ -85,21 +99,19 @@ class WebTerminalSimulation {
         }
     }
 
-    async initializeSimulation() {
+    async startSimulation() {
+        console.log('startSimulation() called');
         try {
-            console.log('Starting simulation initialization');
-            this.usernameInput.value = "";
-            this.passwordInput.value = "";
-            
-            console.log('Starting connection sequence');
+            console.log('Starting connection sequence...');
             await this.showConnectionSequence();
             console.log('Connection sequence completed');
             
-            console.log('Starting login simulation');
+            console.log('Starting login simulation...');
             await this.simulateLogin();
             console.log('Login simulation completed');
         } catch (error) {
-            console.error('Simulation initialization error:', error);
+            console.error('Error in simulation:', error);
+            console.error('Stack trace:', error.stack);
         }
     }
 
@@ -189,19 +201,6 @@ class WebTerminalSimulation {
         return modelTag + "I've received your message and am processing the request. I'll get back to you shortly with more details.";
     }
 
-    async startSimulation() {
-        console.log('Starting simulation...');
-        try {
-            // Start with connection sequence
-            await this.showConnectionSequence();
-            
-            // Then do login simulation
-            await this.simulateLogin();
-        } catch (error) {
-            console.error('Error in simulation:', error);
-        }
-    }
-
     async showConnectionSequence() {
         const timestamp = new Date().toISOString();
         
@@ -268,25 +267,56 @@ class WebTerminalSimulation {
     }
 
     async simulateLogin() {
-        console.log('Starting login simulation...');
+        console.log('simulateLogin() called');
+        
+        // Log initial state
+        console.log('Login container initial state:', {
+            display: this.loginContainer.style.display,
+            opacity: this.loginContainer.style.opacity,
+            classList: Array.from(this.loginContainer.classList)
+        });
+        
+        // Force the login container to be visible and reset its state
+        this.loginContainer.style.display = 'flex';
+        this.loginContainer.style.opacity = '1';
+        this.loginContainer.classList.remove('hidden');
+        this.loginContainer.classList.remove('processing');
+        
+        console.log('Login container state after reset:', {
+            display: this.loginContainer.style.display,
+            opacity: this.loginContainer.style.opacity,
+            classList: Array.from(this.loginContainer.classList)
+        });
         
         // Get field containers for status updates
         const usernameField = this.usernameInput.closest('.login-field');
         const passwordField = this.passwordInput.closest('.login-field');
         
+        console.log('Found form fields:', {
+            usernameField: !!usernameField,
+            passwordField: !!passwordField
+        });
+        
         // Reset fields
         this.usernameInput.value = '';
         this.passwordInput.value = '';
         
+        console.log('Starting initial delay...');
+        await this.sleep(1000);
+        
         // Username typing simulation
+        console.log('Starting username typing simulation...');
         usernameField.classList.add('typing');
         this.usernameInput.classList.add('typing');
         
         const username = "JoeMaristela";
         for (const char of username) {
             this.usernameInput.value += char;
+            console.log('Typed username char:', char);
             await this.sleep(Math.random() * 100 + 50);
         }
+        
+        console.log('Username typing complete:', this.usernameInput.value);
         
         usernameField.classList.remove('typing');
         usernameField.classList.add('done');
@@ -294,14 +324,18 @@ class WebTerminalSimulation {
         await this.sleep(800);
 
         // Password typing simulation
+        console.log('Starting password typing simulation...');
         passwordField.classList.add('typing');
         this.passwordInput.classList.add('typing');
         
         const password = "rolodexter";
         for (let i = 0; i < password.length; i++) {
             this.passwordInput.value += '*';
+            console.log('Typed password char:', i + 1);
             await this.sleep(Math.random() * 80 + 40);
         }
+        
+        console.log('Password typing complete');
         
         passwordField.classList.remove('typing');
         passwordField.classList.add('done');
@@ -309,6 +343,7 @@ class WebTerminalSimulation {
         await this.sleep(1000);
 
         // Add processing state and hide login
+        console.log('Starting login transition...');
         this.loginContainer.classList.add('processing');
         await this.sleep(500);
         
@@ -316,7 +351,14 @@ class WebTerminalSimulation {
         await this.sleep(500);
         this.loginContainer.style.display = 'none';
         
+        console.log('Login container final state:', {
+            display: this.loginContainer.style.display,
+            opacity: this.loginContainer.style.opacity,
+            classList: Array.from(this.loginContainer.classList)
+        });
+        
         // Start chat sequence
+        console.log('Starting chat sequence...');
         await this.startChatSequence();
     }
 
@@ -593,14 +635,15 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Ensure DOM is fully loaded before creating simulation instance
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-        console.log('DOM loaded, creating simulation instance');
-        window.simulation = new WebTerminalSimulation();
-    });
-} else {
-    // DOM already loaded
-    console.log('DOM already loaded, creating simulation instance');
+// Create instance when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOMContentLoaded event fired');
+    console.log('Creating simulation instance...');
     window.simulation = new WebTerminalSimulation();
-}
+});
+
+// Additional load event listener for debugging
+window.addEventListener('load', () => {
+    console.log('Window load event fired');
+    console.log('Document readyState:', document.readyState);
+});
