@@ -16,16 +16,32 @@ This GitHub Copilot Extension sample shows:
 ![demo](./demo.png)
 
 Documentation can be found here:
-- https://code.visualstudio.com/api/extension-guides/chat
-- https://code.visualstudio.com/api/extension-guides/language-model
+
+- <https://code.visualstudio.com/api/extension-guides/chat>
+- <https://code.visualstudio.com/api/extension-guides/language-model>
 
 ## Running the Sample
 
 - Run `npm install` in terminal to install dependencies
 - Run the `Run Extension` target in the Debug View. This will:
-	- Start a task `npm: watch` to compile the code
-	- Run the extension in a new VS Code window
-	- You will see the @cat chat participant show in the GitHub Copilot Chat view
+ 	- Start a task `npm: watch` to compile the code
+ 	- Run the extension in a new VS Code window
+ 	- You will see the @cat chat participant show in the GitHub Copilot Chat view
+
+## Setup & Run
+
+1. Clone this repository
+2. Run `npm install` to install dependencies
+3. Press F5 to start debugging
+4. In the VS Code instance that opens, open the Command Palette (Ctrl+Shift+P)
+5. Type "Hello" to test the chat command
+
+## Development
+
+- `npm run compile` - Compile the extension
+- `npm run watch` - Compile the extension and watch for changes
+- `npm run lint` - Lint the code
+- `npm run test` - Run tests
 
 ## About this sample
 
