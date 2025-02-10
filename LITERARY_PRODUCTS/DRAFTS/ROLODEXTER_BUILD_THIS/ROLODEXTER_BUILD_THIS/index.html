@@ -15,7 +15,7 @@
             height: 100vh;
             width: 100vw;
             overflow: hidden;
-            background-color: #f7f7f7;
+            background-color: #fdfdfd;
             color: #333;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             line-height: 1.4;
@@ -28,46 +28,68 @@
             max-width: 1200px;
             margin: 0 auto;
             background: #ffffff;
-            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            box-shadow: 0 0 20px rgba(0,0,0,0.02);
         }
 
         .status-frame {
-            background: #1e1e1e;
-            color: #e0e0e0;
+            background: #f7f7f7;
+            color: #333;
             font-family: 'Courier New', monospace;
             padding: 1rem;
-            font-size: 0.9rem;
-            line-height: 1.5;
+            font-size: 0.7rem;
+            line-height: 1.3;
             max-height: 200px;
             overflow-y: auto;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid #f2f2f2;
         }
 
         .status-frame .status-line {
-            margin: 0.25rem 0;
+            margin: 0.15rem 0;
             opacity: 0;
             transform: translateY(-10px);
             transition: all 0.3s ease-out;
+            padding: 2px 0;
+            font-family: 'Consolas', 'Monaco', monospace;
+            letter-spacing: -0.2px;
+            display: flex;
+            justify-content: space-between;
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-size: 0.65rem;
         }
 
-        .status-frame .status-line.visible {
-            opacity: 1;
-            transform: translateY(0);
+        .status-frame .status-line .progress {
+            color: #888;
+            margin-left: 8px;
+            font-size: 0.65rem;
+            min-width: 36px;
+            text-align: right;
+        }
+
+        .status-frame .status-line.success .progress {
+            color: #4caf50;
+        }
+
+        .status-frame .status-line [class^="metric-"] {
+            color: #888;
+            font-size: 0.65rem;
         }
 
         .status-frame .status-line.success {
-            color: #4caf50;
+            color: #333;
+            transition: color 0.3s ease-out;
         }
 
         .status-frame .status-line.success::before {
             content: "✓";
-            color: #4caf50;
             margin-right: 8px;
             font-weight: bold;
+            opacity: 0;
+            animation: fadeIn 0.3s ease-out forwards;
         }
 
         .status-frame .status-line.pending {
-            color: #ffd700;
+            color: #666;
         }
 
         .status-frame .status-line.pending::before {
@@ -75,23 +97,59 @@
             display: inline-block;
             animation: spin 1s linear infinite;
             margin-right: 8px;
+            opacity: 0.8;
         }
 
         .status-frame .status-line.error {
             color: #ff6b6b;
         }
 
+        .status-frame .status-line.info {
+            color: #64b5f6;
+            font-style: italic;
+        }
+
+        .status-frame .server-id {
+            color: #9575cd;
+            font-weight: 500;
+        }
+
+        .status-frame .env-cluster {
+            color: #4db6ac;
+        }
+
+        .status-frame .env-pod {
+            color: #81c784;
+        }
+
+        .status-frame .status-line .param {
+            color: #ff8a65;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+
         .status-frame .connection-success {
             color: #4caf50;
-            text-align: center;
-            padding: 0.5rem 0;
-            font-weight: bold;
-            text-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+            text-align: left;
+            padding: 0.2rem 0;
+            font-weight: normal;
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease-out;
+        }
+
+        .status-frame .connection-success.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
 
         @keyframes spin {
             from { transform: rotate(0deg); }
             to { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
 
         .chat-header {
@@ -113,7 +171,7 @@
             display: flex;
             flex-direction: column;
             gap: 1rem;
-            background: #fdfdfd;
+            background: #fcfcfc;
         }
 
         .message {
@@ -126,6 +184,9 @@
             display: flex;
             align-items: flex-start;
             gap: 1rem;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: messageAppear 0.3s ease-out forwards;
         }
 
         .message .avatar {
@@ -140,8 +201,36 @@
             flex: 1;
         }
 
+        .message .content-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+        }
+
+        .message .timestamp {
+            font-size: 0.75rem;
+            color: #999;
+            margin-top: 0.2rem;
+        }
+
+        .message .timestamp .ip-address {
+            color: #2196F3;
+            cursor: pointer;
+            text-decoration: underline;
+            transition: color 0.2s ease;
+        }
+
+        .message .timestamp .ip-address:hover {
+            color: #1976D2;
+        }
+
+        .message.joe .timestamp {
+            text-align: right;
+        }
+
         .message.rolodexter {
-            background-color: #fcfcfc;
+            background-color: #ffffff;
             border-left: 3px solid #f1f1f1;
             align-self: flex-start;
             color: #333;
@@ -157,6 +246,14 @@
             flex-direction: row-reverse;
         }
 
+        .message.delivered::after {
+            content: '✓';
+            font-size: 0.7rem;
+            color: #4caf50;
+            margin-left: 4px;
+            opacity: 0.7;
+        }
+
         .chat-input-container {
             background-color: #fefefe;
             padding: 1.5rem;
@@ -165,27 +262,131 @@
 
         .chat-form {
             display: flex;
-            gap: 1rem;
+            gap: 0.5rem;
             width: 100%;
+            align-items: flex-end;
+        }
+
+        .chat-input-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .chat-controls {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .model-select {
+            padding: 0.3rem 0.5rem;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: #666;
+            background: #fff;
+            cursor: pointer;
+        }
+
+        .attach-file {
+            padding: 0.3rem;
+            color: #666;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .attach-file:hover {
+            background: #f7f7f7;
+        }
+
+        .attach-file input {
+            display: none;
+        }
+
+        .attach-file svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .send-button {
+            padding: 1rem;
+            background: #f3f3f3;
+            color: #333;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .send-button:hover {
+            background: #f1f1f1;
+        }
+
+        .send-button svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .send-button:disabled {
+            background: #f7f7f7;
+            color: #999;
+            cursor: not-allowed;
+        }
+
+        .attachment-preview {
+            padding: 0.5rem;
+            background: #f6f6f6;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .attachment-preview .remove {
+            color: #666;
+            cursor: pointer;
         }
 
         .chat-input {
             flex: 1;
             padding: 1rem;
             font-size: 1rem;
-            border: 2px solid #f0f0f0;
+            border: 2px solid #f2f2f2;
             border-radius: 0.5rem;
             background-color: #ffffff;
             color: #333;
             resize: none;
             height: 60px;
             font-family: inherit;
-            transition: border-color 0.2s;
+            transition: all 0.2s ease-out;
+            min-height: 60px;
+            max-height: 150px;
+            overflow-y: auto;
+            resize: none;
+        }
+
+        .chat-input.typing {
+            border-color: #f1f1f1;
+            box-shadow: 0 0 0 1px rgba(241, 241, 241, 0.1);
+            caret-color: #2196F3;
+            animation: cursorBlink 1s step-end infinite;
+        }
+
+        @keyframes cursorBlink {
+            from, to { caret-color: transparent }
+            50% { caret-color: #2196F3; }
         }
 
         .chat-input:focus {
             outline: none;
-            border-color: #f1f1f1;
+            border-color: #2196F3;
         }
 
         .typing-indicator {
@@ -193,6 +394,25 @@
             font-style: italic;
             padding: 0.5rem;
             font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .typing-indicator::after {
+            content: '';
+            animation: typingDots 1.5s infinite;
+            width: 24px;
+            text-align: left;
+            display: inline-block;
+        }
+
+        @keyframes typingDots {
+            0% { content: ''; }
+            25% { content: '.'; }
+            50% { content: '..'; }
+            75% { content: '...'; }
+            100% { content: ''; }
         }
 
         .system-message {
@@ -211,35 +431,72 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(254,254,254,0.95);
+            background: rgba(254,254,254,0.98);
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 1000;
+            z-index: 9999;
+            opacity: 1;
+            transition: opacity 0.5s ease-out;
+            pointer-events: auto;
+        }
+
+        .login-container.hidden {
+            opacity: 0;
+            pointer-events: none;
         }
 
         .login-box {
             background: #ffffff;
             padding: 2rem;
             border-radius: 1rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
             width: 100%;
             max-width: 400px;
+            opacity: 1;
+            transform: translateY(0);
+            transition: all 0.3s ease-out;
+            cursor: wait;
         }
 
         .login-box h2 {
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
             color: #333;
+            text-align: center;
+            font-weight: normal;
         }
 
         .login-field {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .login-field::after {
+            content: attr(data-status);
+            position: absolute;
+            right: 0;
+            bottom: -1.2rem;
+            font-size: 0.8rem;
+            color: #666;
+            font-style: italic;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .login-field.typing::after {
+            opacity: 1;
+        }
+
+        .login-field.done::after {
+            opacity: 1;
+            color: #4caf50;
         }
 
         .login-field label {
             display: block;
             margin-bottom: 0.5rem;
             color: #666;
+            font-size: 0.9rem;
         }
 
         .login-field input {
@@ -248,12 +505,32 @@
             border: 2px solid #f2f2f2;
             border-radius: 0.5rem;
             font-size: 1rem;
-            transition: border-color 0.2s;
+            background: #fcfcfc;
+            transition: all 0.2s ease;
         }
 
         .login-field input:focus {
             outline: none;
-            border-color: #f1f1f1;
+            border-color: #2196F3;
+        }
+
+        .login-field input[readonly] {
+            background: #fff;
+            cursor: default;
+        }
+
+        .login-field input.typing {
+            caret-color: #2196F3;
+            animation: cursorBlink 1s step-end infinite;
+        }
+
+        .login-container.hidden .login-box {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .login-container.processing {
+            cursor: progress;
         }
 
         @media (max-width: 768px) {
@@ -269,17 +546,179 @@
                 margin: 1rem;
             }
         }
+
+        .message .content.typing::after {
+            content: '|';
+            animation: blink 1s steps(2, jump-none) infinite;
+            margin-left: 1px;
+            font-weight: 300;
+        }
+
+        @keyframes blink {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+
+        .status-frame .status-line time {
+            color: #666;
+            margin-right: 8px;
+        }
+
+        .status-frame .status-line [class^="param-"] {
+            color: #2196F3;
+            font-weight: 500;
+        }
+
+        /* Metric types styling */
+        .status-frame .metric-network {
+            color: #64b5f6;
+        }
+
+        .status-frame .metric-system {
+            color: #81c784;
+        }
+
+        .status-frame .metric-security {
+            color: #ffb74d;
+        }
+
+        .status-frame .metric-progress {
+            color: #ba68c8;
+        }
+
+        .status-frame .metric-latency {
+            color: #4db6ac;
+        }
+
+        /* Parameter styling */
+        .status-frame .param-value {
+            color: #ff8a65;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-weight: 500;
+        }
+
+        /* Timestamp and server info */
+        .status-frame .timestamp {
+            color: #666;
+        }
+
+        .status-frame .server-info {
+            color: #9575cd;
+        }
+
+        /* Status indicators */
+        .status-frame .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .status-frame .status-indicator.pending {
+            background: #ffd54f;
+            animation: pulse 1s infinite;
+        }
+
+        .status-frame .status-indicator.success {
+            background: #66bb6a;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.4; }
+            50% { opacity: 1; }
+            100% { opacity: 0.4; }
+        }
+
+        .ai-thinking {
+            color: #666;
+            font-style: italic;
+            padding: 0.5rem;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 4px 0;
+        }
+
+        .ai-thinking::after {
+            content: '';
+            width: 12px;
+            height: 12px;
+            border: 2px solid #666;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes messageAppear {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .sending-indicator {
+            font-size: 0.8rem;
+            color: #666;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            opacity: 0;
+            transform: translateY(5px);
+            transition: all 0.2s ease-out;
+        }
+
+        .sending-indicator.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .sending-indicator::after {
+            content: '';
+            width: 10px;
+            height: 10px;
+            border: 2px solid #2196F3;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 0.8s linear infinite;
+        }
+
+        .chat-controls {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .chat-controls.enabled {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .model-select:disabled,
+        .attach-file.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Styling for when files are being dragged over the chat area */
+        .chat-input-wrapper.drag-over {
+            border: 2px dashed #2196F3;
+            border-radius: 0.5rem;
+            background: rgba(33, 150, 243, 0.05);
+        }
     </style>
 </head>
 <body>
     <div class="login-container" id="login-container">
         <div class="login-box">
             <h2>rolodexter</h2>
-            <div class="login-field">
+            <div class="login-field" data-status="Authenticating...">
                 <label for="username">Username</label>
                 <input type="text" id="username" readonly>
             </div>
-            <div class="login-field">
+            <div class="login-field" data-status="Verifying credentials...">
                 <label for="password">Password</label>
                 <input type="password" id="password" readonly>
             </div>
@@ -295,12 +734,34 @@
         <div class="chat-messages" id="chat-messages"></div>
         <div class="chat-input-container">
             <form class="chat-form" id="chat-form">
-                <textarea 
-                    class="chat-input" 
-                    id="chat-input" 
-                    placeholder="Type a message..."
-                    rows="1"
-                    readonly></textarea>
+                <div class="chat-input-wrapper">
+                    <div class="chat-controls">
+                        <select class="model-select" id="model-select">
+                            <option value="gpt-4">GPT-4</option>
+                            <option value="gpt-3.5">GPT-3.5</option>
+                            <option value="claude-2">Claude 2</option>
+                            <option value="palm">PaLM</option>
+                        </select>
+                        <label class="attach-file" title="Attach file">
+                            <input type="file" id="file-input" multiple>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48"/>
+                            </svg>
+                        </label>
+                    </div>
+                    <textarea 
+                        class="chat-input" 
+                        id="chat-input" 
+                        placeholder="Type a message..."
+                        rows="1"
+                        readonly></textarea>
+                    <div id="attachment-preview"></div>
+                </div>
+                <button type="submit" class="send-button" id="send-button" disabled>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
             </form>
         </div>
     </div>
