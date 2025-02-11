@@ -26,7 +26,7 @@ Development is actively underway on a **consistent design framework** intended t
 The formal incorporation of **rolodexter Labs LLC** in California is in progress. Legal and administrative processes are being finalized to establish this entity as the operational hub for our technological and cryptoeconomic ventures. No definitive timeline for completion has been set.
 
 **Web3 Community Platform**  
-We are currently building a **Web3-enabled website**, which will feature $rolodexter token-gated access to exclusive community services, channels, and products. This platform is designed to foster decentralized engagement but remains in development as we integrate blockchain-based authentication and governance mechanisms.
+I am currently building a **Web3-enabled website**, which will feature $rolodexter token-gated access to exclusive community services, channels, and products. This platform is designed to foster decentralized engagement but remains in development as we integrate blockchain-based authentication and governance mechanisms.
 
 **Research and Development of rolodexter Technologies**  
 Our R&D efforts continue to focus on enhancing rolodexter's capabilities, and will be made available through the main rolodexter Labs website. Key areas of research exploration include:  
