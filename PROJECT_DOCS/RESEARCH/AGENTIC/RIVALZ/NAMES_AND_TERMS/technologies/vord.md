@@ -4,29 +4,28 @@
 Core application module of the Rivalz Network, providing a development platform for AI applications through the VORD SDK.
 
 ## Description
-Platform technology enabling seamless integration of Rivalz's core modules (ROME, OCY, ADCS, NOSTRINGS) for building AI-powered applications.
+Platform technology enabling seamless integration of Rivalz's core modules ([[rome-protocol]], [[ocy-depin]], [[adcs]], [[nostrings]]) for building AI-powered applications.
 
 ## Technical Architecture
 
-### Module Integrations
-
-1. ROME Integration
+### Core Module Integrations
+1. [[rome-protocol]] Integration
    - Economic infrastructure for AI agents
    - rAgent tokenization system
    - Agentic DeFi integration
    - Swarm protocol support
 
-2. OCY Integration
+2. [[ocy-depin]] Integration
    - Secure data storage and retrieval
    - Data monetization infrastructure
    - Decentralized data access
 
-3. ADCS Integration
+3. [[adcs]] Integration
    - Verifiable data pipeline
    - AI response verification
    - Enhanced monetization systems
 
-4. NOSTRINGS Integration
+4. [[nostrings]] Integration
    - AI agent creation and management
    - Resource access control
    - Identity management
@@ -58,6 +57,18 @@ Platform technology enabling seamless integration of Rivalz's core modules (ROME
    - Access control refinement
    - Resource allocation efficiency
 
+## Platform Applications
+- [[sidelined-ai]]: Primary production deployment
+- [[dify-integration]]: Chat interface system
+- [[glik]]: Core product integration
+
+## Team Structure
+- Technical Leadership: [[daniel-ho]] (CTO)
+- Project Management: [[joe-maristela]]
+- Quality Assurance: [[liam-pham]]
+- UI/UX Development: [[thai-le]]
+- Platform Development: [[andrea-bittner]]
+
 ## Current Usage
 - Primary platform for [[sidelined-ai]]
 - Supports multiple AI model integrations
@@ -75,8 +86,8 @@ Platform technology enabling seamless integration of Rivalz's core modules (ROME
 
 ## Team Members
 - Matt (Admin)
-- Joe Maristela
-- Daniel (Dat) Ho
+- Joe Maristela (Project Manager)
+- Daniel (Dat) Ho (CTO)
 - Liam Pham
 - Andrea Bittner
 - Thai Le
@@ -88,6 +99,13 @@ Platform technology enabling seamless integration of Rivalz's core modules (ROME
 - Sidelined AI development and maintenance
 - Bot embedding functionality
 - Template system improvements
+
+## Team Organization
+- CTO: Dat (Technical direction and architecture)
+- Project Manager: Joe Maristela (Process and coordination)
+- Admin: Matt
+- Technical Support: Kelvin
+- Team Coordination: Igor
 
 ## Communication
 Team communicates via chat/messaging platform with the following roles:

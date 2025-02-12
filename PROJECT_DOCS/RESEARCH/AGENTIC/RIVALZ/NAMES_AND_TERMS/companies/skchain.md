@@ -3,18 +3,26 @@
 ## Description
 Strategic partner consultant company for Rivalz, specializing in blockchain and strategic advisory services.
 
-## Website
-https://www.skchainadvisors.com/
+## Current Partners
+- [[51-nodes]]: Co-strategic implementation partner
+- [[matt]]: Business development relationship lead
+- [[daniel-ho]]: Technical oversight
+- [[joe-maristela]]: Project management
 
-## Current Status
-- Partnership alignment in progress
-- Part of P0 priority strategic initiatives
-- Pending definition of partnership requirements
+## Technical Integration Areas
+- [[glik]]: Core product alignment
+- [[vord]]: Platform architecture consulting
+- [[rome-protocol]]: Agent framework guidance
 
-## Partnership Context
-- Strategic consulting relationship
-- Alignment with Rivalz technical initiatives
-- Key focus on partnership deliverables
+## Project Status
+- Partnership alignment in progress (P0 priority)
+- Requirements definition phase
+- Pending technical specification review
+
+## Related Documentation
+- [[partnership-requirements-alignment]]: Detailed requirements tracking
+- [[meetings/2024-01-meeting-skchain-igor]]: Latest meeting notes
+- [[strategic-questions]]: Partnership management framework
 
 ## Related Terms
 - [[51-nodes]]: Co-strategic partner

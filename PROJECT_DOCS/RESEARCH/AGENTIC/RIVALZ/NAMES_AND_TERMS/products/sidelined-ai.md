@@ -32,12 +32,34 @@ Token-gated platform providing free access to premium AI models including GPT-4 
 - Upcoming: GPT-4 O3 integration
 - Future: Additional premium model integrations
 
+## Team & Development
+- Technical Lead: [[daniel-ho]] (CTO)
+- UI/UX: [[thai-le]]
+- Quality Assurance: [[liam-pham]]
+- Project Management: [[joe-maristela]]
+
+## Technical Stack & Dependencies
+- Platform: [[vord]]
+- Chat Interface: [[dify-integration]]
+- Infrastructure: [[arbitrum-orbit]]
+- Data Management: [[ocy-depin]]
+
+## Integration Points
+- [[rome-protocol]]: Agent management
+- [[maso]]: Swarm coordination
+- [[nostrings]]: Identity and access
+- [[adcs]]: Data verification
+
 ## Website
 https://sidelined.ai
 
 ## Related Terms
 - [[vord]]: Core development platform
+- [[dify-integration]]: Chat interface implementation
 - [[glik]]: Related Rivalz product
+- [[thai-le]]: UI/UX improvements
+- [[liam-pham]]: Quality assurance
+- [[daniel-ho]]: Technical oversight
 
 ## Status Updates
 - As of Feb 2025, template issues identified

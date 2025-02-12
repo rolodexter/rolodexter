@@ -41,9 +41,28 @@ Global consulting and technology services company implementing AI-driven supply 
   - Blockchain network design
   - Analytics pipeline setup
 
+## Technical Implementation
+- Core Platform: [[vord]]
+- Agent Framework: [[rome-protocol]]
+- Data Infrastructure: [[ocy-depin]]
+- Identity Management: [[nostrings]]
+
+## Team & Responsibilities
+- Technical Oversight: [[daniel-ho]]
+- Project Management: [[joe-maristela]]
+- Quality Assurance: [[liam-pham]]
+
+## Integration Stakeholders
+- [[51-nodes]]: Blockchain implementation partner
+- [[skchain]]: Strategic consulting
+- [[matt]]: Business development lead
+
 ## Related Terms
 - [[glik]]: Analytics integration
 - [[51-nodes]]: Blockchain implementation
+- [[vord]]: Core platform
+- [[rome-protocol]]: Agent framework
+- [[ocy-depin]]: Data infrastructure
 
 ---
 ## Metadata

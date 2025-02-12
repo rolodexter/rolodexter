@@ -2,13 +2,17 @@
 
 ## Current Priorities [P0]
 1. [ ] Define partnership requirements for [[51-nodes]] and [[skchain]]
-2. [ ] Establish clear role transition plan for [[dat]]
+2. [ ] PM Role Transition:
+   - Transfer PM responsibilities from [[daniel-ho]] to [[joe-maristela]]
+   - Set up PM processes and documentation
+   - Establish project tracking systems
+   - Review current sprint structure
 3. [ ] Create expanded [[glik]] roadmap and vision document
 
 ## Documentation Tasks [P1]
 1. [ ] Document current technical architecture
-2. [ ] Create sprint planning template
-3. [ ] Establish PM processes documentation
+2. [ ] Create sprint planning template (Owner: [[joe-maristela]])
+3. [ ] Establish PM processes documentation (Owner: [[joe-maristela]])
 
 ## Knowledge Base Organization [P1]
 1. [ ] Set up regular knowledge base audit schedule
