@@ -29,6 +29,7 @@ A comprehensive list of all terms, names, and proper nouns relevant to Rivalz, o
 
 ## K
 - [Kelvin](/NAMES_AND_TERMS/people/kelvin.md) - Head of DePIN/Crypto Development Team, leads blockchain and DePIN infrastructure development
+- [Knowledge Graph](/NAMES_AND_TERMS/technologies/knowledge-graph.md) - Centralized repository for managing and organizing knowledge within Rivalz
 
 ## L
 - [Liam Pham](/NAMES_AND_TERMS/people/liam-pham.md) - Quality Assurance specialist, testing lead

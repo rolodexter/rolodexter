@@ -40,11 +40,12 @@ Core product solution by Rivalz requiring strategic roadmap expansion and vision
 - [[strategic-questions]]: Product development framework
 
 ## Related Terms
-- [[51-nodes]]: Strategic partner
-- [[skchain]]: Strategic partner
-- [[vord]]: Technical foundation
-- [[rome-protocol]]: Agent framework
-- [[sidelined-ai]]: Sister product
+- [51-nodes](/NAMES_AND_TERMS/companies/51-nodes.md): Strategic partner
+- [skchain](/NAMES_AND_TERMS/companies/skchain.md): Strategic partner
+- [vord](/NAMES_AND_TERMS/technologies/vord.md): Technical foundation
+- [rome-protocol](/NAMES_AND_TERMS/technologies/rome-protocol.md): Agent framework
+- [sidelined-ai](/NAMES_AND_TERMS/products/sidelined-ai.md): Sister product
+- [Knowledge Graph](/NAMES_AND_TERMS/technologies/knowledge-graph.md): Centralized knowledge repository
 
 ---
 created: 2024-01-09

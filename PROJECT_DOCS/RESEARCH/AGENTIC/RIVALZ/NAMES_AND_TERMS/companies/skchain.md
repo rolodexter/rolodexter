@@ -27,6 +27,7 @@ Strategic partner consultant company for Rivalz, specializing in blockchain and 
 - [Glik](/NAMES_AND_TERMS/products/glik.md): Product alignment focus
 - [Matt](/NAMES_AND_TERMS/people/matt.md): BD relationship management
 - [Kelvin](/NAMES_AND_TERMS/people/kelvin.md): DePIN/Crypto implementation coordination
+- [Knowledge Graph](/NAMES_AND_TERMS/technologies/knowledge-graph.md): Centralized knowledge repository
 
 ---
 created: 2024-01-09

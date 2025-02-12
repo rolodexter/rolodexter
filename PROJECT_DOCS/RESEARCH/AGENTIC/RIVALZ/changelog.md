@@ -247,6 +247,27 @@ Each entry should include:
 - [[skchain]]: Related partner context
 - [[meetings/2024-01-meeting-skchain-igor]]: Upcoming discussion
 
+### 2024-02-13
+**Author**: [GitHub Copilot](https://github.com/features/copilot)
+
+#### Added
+- Added 'Knowledge Graph' entry to the glossary
+
+#### Modified
+- Updated glossary with new term
+
+#### Documentation
+- Enhanced glossary with 'Knowledge Graph' entry
+
+#### Knowledge Graph Operations
+- Updated glossary structure
+
+#### Priority Updates
+- [P1] Glossary update
+
+#### Related Documents
+- [glossary](/NAMES_AND_TERMS/glossary.md)
+
 ---
 ## Metadata
 created: 2024-01-09
