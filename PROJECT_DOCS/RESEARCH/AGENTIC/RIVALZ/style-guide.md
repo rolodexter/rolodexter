@@ -138,3 +138,50 @@ status: [draft|review|final]
 - REVIEW: Ready for review
 - FINAL: Approved content
 - Format: `status: [DRAFT|REVIEW|FINAL]`
+
+## Changelog Format
+
+### Daily Entries
+```md
+### YYYY-MM-DD
+**Author**: [[author-name]]
+
+#### Added
+- New features or documents
+- List with bullet points
+- Group by category
+
+#### Modified
+- Changes to existing documents
+- Updates to structures
+- Process modifications
+
+#### Documentation
+- New documentation
+- Updated guidelines
+- Template changes
+
+#### Knowledge Graph Operations
+- Structural changes
+- Process updates
+- System modifications
+
+#### Priority Updates
+- [P0] Critical updates
+- [P1] High priority changes
+- [P2] Medium priority updates
+
+#### Related Documents
+- [[document-1]]: Change context
+- [[document-2]]: Change context
+```
+
+### Changelog Rules
+- One entry per day
+- Most recent entries at top
+- Must include all categories even if empty
+- Link all referenced documents
+- Include specific priorities
+- Group similar changes
+- Use consistent verb tense (Added, Modified, Updated)
+- Reference related tickets or issues if applicable

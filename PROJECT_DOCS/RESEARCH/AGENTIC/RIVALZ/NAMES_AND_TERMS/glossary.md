@@ -3,6 +3,8 @@
 A comprehensive list of all terms, names, and proper nouns relevant to Rivalz, organized alphabetically with cross-references.
 
 ## A
+- [[adcs]] - Advanced Data Connectivity System, providing verifiable data and AI responses
+- [[arbitrum-orbit]] - Layer-3 scaling framework enabling customized blockchain solutions for Rivalz Network
 
 ## B
 
@@ -17,6 +19,16 @@ A comprehensive list of all terms, names, and proper nouns relevant to Rivalz, o
 
 ## M
 - [[matt]] - Head of Business Development at Rivalz
+- [[maso]] - Mass Agent Swarm Orchestration system for coordinating AI agent swarms
+
+## N
+- [[nostrings]] - Network Orchestrated System for Trust, Resource Integration, and Network Governance System
+
+## O
+- [[ocy-depin]] - Decentralized Physical Infrastructure Network for AI data management
+
+## R
+- [[rome-protocol]] - Protocol for orchestrating resource-backed Agents in Rivalz's AI economy
 
 ## S
 - [[sidelined-ai]] - Token-gated platform providing free access to premium AI models
@@ -25,9 +37,8 @@ A comprehensive list of all terms, names, and proper nouns relevant to Rivalz, o
 ## V
 - [[vord]] - Development platform used as foundation for Sidelined.ai and other Rivalz projects
 
-...
-
 ---
+
 *Note: This glossary is automatically updated when new terms are added to the knowledge base. Each term links to its detailed entry in the appropriate directory.*
 
 ---
