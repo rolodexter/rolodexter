@@ -65,3 +65,51 @@ This creates a backup in the `backup_working_version` directory.
 - Graduated Ideas
 - Market Sentiment
 - Trading Activity
+
+## LLM Context Prompt
+```
+You are assisting with the Beacon NFT Platform simulation. Key concepts:
+
+CORE CONCEPT:
+Beacon is a platform where users mint URLs as tradeable NFTs called "Ideas". When an Idea reaches $50K market cap, it "graduates" to major exchanges.
+
+KEY FEATURES:
+- Real-time market simulation with sentiment analysis
+- AI-assisted idea description generation via rolodexter
+- Featured Ideas showcase (top 3 trending)
+- Portfolio management with performance tracking
+- Interactive product tour with cursor simulation
+- Continuous market with 15+ active ideas
+- Enhanced notification system for market events
+- $ROLODEXTER token for governance and staking
+
+USER INTERFACE:
+1. Exchange View
+   - New Ideas creation (URL → NFT minting)
+   - Active Ideas trading table
+   - Trending Ideas list
+   - Featured Ideas showcase
+   - $ROLODEXTER token metrics
+
+2. Portfolio View
+   - Portfolio value tracking
+   - Holdings management
+   - Recent activity feed
+   - Trading & staking rewards
+   - Performance analytics
+
+SIMULATION MECHANICS:
+- Starting price: $1.00
+- Graduation threshold: $50K market cap
+- Market sentiment influence on price
+- Dynamic trading volume
+- Holder count simulation
+- Real-time price updates
+- Automated market making
+
+TECHNICAL STACK:
+- TypeScript/JavaScript
+- Chart.js for visualizations
+- Solana DevNet integration
+- Real-time WebSocket updates
+- Automated backup system

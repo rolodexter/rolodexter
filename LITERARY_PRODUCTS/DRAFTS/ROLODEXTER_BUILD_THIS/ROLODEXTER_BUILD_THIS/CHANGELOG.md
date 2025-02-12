@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.0.3] - 2024-02-12 20:14
+
+### Added
+- Comprehensive LLM context prompt for project orientation
+- Enhanced backup procedures
+- Improved tour spotlight visibility and interactions
+- Portfolio view with real-time tracking
+
+### Enhanced
+- Tour spotlight visibility with stronger contrast
+- Tour cursor movement mechanics
+- Documentation clarity and structure
+- Market simulation responsiveness
+
+### Infrastructure
+- Automated backup system verification
+- Documentation synchronization
+- Development environment stability improvements
+
 ## [1.0.2] - 2024-02-12
 
 ### Added

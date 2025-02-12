@@ -55,7 +55,10 @@
                 </div>
                 <div class="header-right">
                     <div class="profile-section">
-                        <button class="connect-wallet">Connect Wallet</button>
+                        <div class="wallet-info">
+                            <span class="wallet-balance">24,500 $ROLODEXTER</span>
+                            <button class="wallet-address">7x24...f8e9</button>
+                        </div>
                     </div>
                 </div>
             </header>
@@ -236,6 +239,117 @@
                                 <span class="hot-tag">🔥 Hot</span>
                             </div>
                             <div class="featured-grid" id="featuredIdeas"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Page -->
+                <div class="platform-page portfolio-page" style="display: none;">
+                    <div class="platform-grid">
+                        <!-- Left Column - Portfolio Overview -->
+                        <div class="platform-sidebar left">
+                            <div class="platform-card portfolio-summary">
+                                <div class="card-header">
+                                    <h2>Portfolio Value</h2>
+                                    <div class="portfolio-total">
+                                        <span class="value">$47,892.45</span>
+                                        <span class="change positive">+12.4%</span>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div class="portfolio-metrics">
+                                        <div class="metric-row">
+                                            <span class="label">Total Ideas</span>
+                                            <span class="value">12</span>
+                                        </div>
+                                        <div class="metric-row">
+                                            <span class="label">Graduated Ideas</span>
+                                            <span class="value highlight">3</span>
+                                        </div>
+                                        <div class="metric-row">
+                                            <span class="label">$ROLODEXTER Balance</span>
+                                            <span class="value">24,500</span>
+                                        </div>
+                                        <div class="metric-row">
+                                            <span class="label">Staked $ROLODEXTER</span>
+                                            <span class="value">15,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="platform-card portfolio-stats">
+                                <div class="card-header">
+                                    <h2>Performance</h2>
+                                </div>
+                                <div class="card-content">
+                                    <canvas id="portfolioChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Center Column - Holdings -->
+                        <div class="platform-main-content">
+                            <div class="platform-card holdings-card">
+                                <div class="card-header">
+                                    <h2>Your Ideas</h2>
+                                    <div class="view-controls">
+                                        <button class="view-btn active">All</button>
+                                        <button class="view-btn">Active</button>
+                                        <button class="view-btn">Graduated</button>
+                                    </div>
+                                </div>
+                                <div class="table-container">
+                                    <table class="holdings-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Idea</th>
+                                                <th>Holdings</th>
+                                                <th>Avg Price</th>
+                                                <th>Current Price</th>
+                                                <th>P/L</th>
+                                                <th>Value</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="holdingsList"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column - Recent Activity -->
+                        <div class="platform-sidebar right">
+                            <div class="platform-card activity-card">
+                                <div class="card-header">
+                                    <h2>Recent Activity</h2>
+                                </div>
+                                <div class="activity-list" id="recentActivity"></div>
+                            </div>
+
+                            <div class="platform-card rewards-card">
+                                <div class="card-header">
+                                    <h2>Rewards</h2>
+                                    <span class="hot-tag">🎁 Active</span>
+                                </div>
+                                <div class="card-content">
+                                    <div class="rewards-summary">
+                                        <div class="reward-item">
+                                            <span class="label">Trading Rewards</span>
+                                            <span class="value">450 $ROLODEXTER</span>
+                                        </div>
+                                        <div class="reward-item">
+                                            <span class="label">Staking Rewards</span>
+                                            <span class="value">890 $ROLODEXTER</span>
+                                        </div>
+                                        <div class="reward-item">
+                                            <span class="label">Idea Royalties</span>
+                                            <span class="value">1,245 $ROLODEXTER</span>
+                                        </div>
+                                    </div>
+                                    <button class="claim-btn">Claim All Rewards</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

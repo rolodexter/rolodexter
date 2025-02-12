@@ -179,55 +179,67 @@ class BeaconPlatform {
 
         this.tourSteps = [
             {
+                element: '.logo',
+                title: 'Welcome to Beacon',
+                content: 'Generate ideas. Get paid for good ones.',
+                position: 'right',
+                spotlight: true
+            },
+            {
                 element: '.idea-creation',
                 title: 'Create New Ideas',
                 content: 'Turn any URL into a tradeable NFT. This is where your idea journey begins.',
-                position: 'right'
+                position: 'right',
+                spotlight: true
             },
             {
                 element: '#ideaUrl',
                 title: 'URL Input',
-                content: 'Let\'s try creating an Idea NFT! We\'ll use this SpaceX post about space exploration.',
+                content: 'Paste any URL you think has potential value.',
                 position: 'right',
+                spotlight: true,
                 action: async () => {
                     const url = 'https://x.com/SpaceX/status/1889386081960730742';
-                    await this.typeIntoInput('ideaUrl', url);
+                    await this.simulateTyping('#ideaUrl', url);
                 }
             },
             {
-                element: '#ideaDescription',
-                title: 'Idea Description',
-                content: 'Add a compelling description that explains the potential of your idea.',
+                element: '#aiGenerateBtn',
+                title: 'AI Assistance',
+                content: 'Let rolodexter help generate a compelling idea description.',
                 position: 'right',
+                spotlight: true,
                 action: async () => {
-                    const desc = 'One step closer to discovering Aliens!';
-                    await this.typeIntoInput('ideaDescription', desc);
+                    await this.simulateClick('#aiGenerateBtn');
                 }
-            },
-            {
-                element: '.form-grid',
-                title: 'Supply & Royalties',
-                content: 'Set your initial token supply and royalty percentage. You\'ll earn royalties every time your idea is traded.',
-                position: 'right'
-            },
-            {
-                element: '#mintIdea',
-                title: 'Mint Your Idea',
-                content: 'Click here to mint your idea as an NFT. Once minted, it will appear in the Active Ideas table.',
-                position: 'top',
-                action: () => document.getElementById('mintIdea').click()
             },
             {
                 element: '.ideas-table',
                 title: 'Active Ideas Market',
-                content: 'Watch your idea trade in real-time. When it reaches $50K market cap, it graduates to major exchanges!',
-                position: 'left'
+                content: 'Watch ideas trade in real-time. Ideas graduate when they reach $50K market cap!',
+                position: 'left',
+                spotlight: true
+            },
+            {
+                element: '.trending',
+                title: 'Trending Ideas',
+                content: 'See which ideas are gaining momentum right now.',
+                position: 'right',
+                spotlight: true
+            },
+            {
+                element: '.featured-ideas',
+                title: 'Featured Ideas',
+                content: 'Top performing ideas with the highest potential.',
+                position: 'left',
+                spotlight: true
             },
             {
                 element: '.token-card',
                 title: '$ROLODEXTER Token',
                 content: 'Stake $ROLODEXTER to earn platform fees and participate in idea curation.',
-                position: 'left'
+                position: 'left',
+                spotlight: true
             }
         ];
 
@@ -243,6 +255,99 @@ class BeaconPlatform {
             "Bio-engineered solution for {environmental_issue}",
             "Neural interface to enhance {human_ability}"
         ];
+
+        // Add mock portfolio data
+        this.portfolioIdeas = [
+            {
+                url: 'https://x.com/tesla/status/1234567890',
+                description: 'Tesla Quantum Battery Tech',
+                holdings: 2500,
+                avgPrice: 1.20,
+                currentPrice: 5.20,
+                value: 13000,
+                status: 'graduated',
+                purchaseDate: new Date(Date.now() - 15 * 24 * 60 * 60 * 1000)
+            },
+            {
+                url: 'https://github.com/microsoft/deepspeed',
+                description: 'Revolutionary AI Training Speed',
+                holdings: 1800,
+                avgPrice: 2.10,
+                currentPrice: 6.20,
+                value: 11160,
+                status: 'active',
+                purchaseDate: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
+            },
+            {
+                url: 'https://x.com/ethereum/status/1234567890',
+                description: 'ETH 2.0 Major Breakthrough',
+                holdings: 2200,
+                avgPrice: 3.50,
+                currentPrice: 7.80,
+                value: 17160,
+                status: 'graduated',
+                purchaseDate: new Date(Date.now() - 20 * 24 * 60 * 60 * 1000)
+            }
+        ];
+
+        // Add recent activity
+        this.recentActivity = [
+            {
+                type: 'purchase',
+                idea: 'Revolutionary AI Training Speed',
+                amount: 500,
+                price: 6.20,
+                time: new Date(Date.now() - 2 * 60 * 60 * 1000)
+            },
+            {
+                type: 'sale',
+                idea: 'Tesla Quantum Battery Tech',
+                amount: 200,
+                price: 5.20,
+                time: new Date(Date.now() - 5 * 60 * 60 * 1000)
+            },
+            {
+                type: 'graduation',
+                idea: 'ETH 2.0 Major Breakthrough',
+                reward: 1000,
+                time: new Date(Date.now() - 24 * 60 * 60 * 1000)
+            }
+        ];
+
+        // Add portfolio tour steps
+        this.tourSteps.push(
+            {
+                element: '.portfolio-nav',
+                title: 'Your Portfolio',
+                content: 'Track your idea investments, rewards, and performance.',
+                position: 'right',
+                spotlight: true,
+                action: async () => {
+                    await this.simulateClick('.portfolio-nav');
+                }
+            },
+            {
+                element: '.portfolio-summary',
+                title: 'Portfolio Overview',
+                content: 'See your total portfolio value and key metrics at a glance.',
+                position: 'right',
+                spotlight: true
+            },
+            {
+                element: '.holdings-card',
+                title: 'Your Ideas',
+                content: 'Manage your idea investments and track their performance.',
+                position: 'left',
+                spotlight: true
+            },
+            {
+                element: '.rewards-card',
+                title: 'Earn Rewards',
+                content: 'Collect rewards from trading, staking, and idea royalties.',
+                position: 'left',
+                spotlight: true
+            }
+        );
     }
 
     initializeTokenChart() {
@@ -345,6 +450,29 @@ class BeaconPlatform {
                 this.showNotification('AI generated a new idea description!', 'info');
             });
         }
+
+        // Add portfolio navigation
+        const portfolioNav = document.querySelector('.nav-item[href="#portfolio"]');
+        if (portfolioNav) {
+            portfolioNav.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector('.platform-page').style.display = 'none';
+                document.querySelector('.portfolio-page').style.display = 'block';
+                this.initializePortfolio();
+            });
+        }
+
+        // Add view controls for portfolio
+        const viewButtons = document.querySelectorAll('.view-btn');
+        viewButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                viewButtons.forEach(b => b.classList.remove('active'));
+                button.classList.add('active');
+                // Filter portfolio view based on selection
+                const filter = button.textContent.toLowerCase();
+                this.updatePortfolioView(filter);
+            });
+        });
     }
 
     async handleMintIdea() {
@@ -886,47 +1014,79 @@ class BeaconPlatform {
         document.body.removeChild(overlay);
     }
 
-    async showTourStep(step) {
+    async showTourStep(step, cursor, spotlight, spotlightHole) {
         const element = document.querySelector(step.element);
         if (!element) return;
 
-        // Highlight current element
-        element.classList.add('tour-highlight');
+        // Remove highlight from previous elements
+        document.querySelectorAll('[data-tour-active="true"]').forEach(el => {
+            el.removeAttribute('data-tour-active');
+        });
 
-        // Position tooltip
+        // Add highlight to current element
+        element.setAttribute('data-tour-active', 'true');
+
+        // Move cursor to element with smoother animation
+        const rect = element.getBoundingClientRect();
+        const targetX = rect.left + rect.width / 2;
+        const targetY = rect.top + rect.height / 2;
+        
+        await this.moveCursor(cursor, targetX, targetY);
+
+        if (step.spotlight) {
+            spotlight.classList.add('visible');
+            // Position spotlight hole with padding for better visibility
+            const padding = 10;
+            Object.assign(spotlightHole.style, {
+                left: `${rect.left - padding}px`,
+                top: `${rect.top - padding}px`,
+                width: `${rect.width + (padding * 2)}px`,
+                height: `${rect.height + (padding * 2)}px`
+            });
+        }
+
+        // Enhanced tooltip positioning and visibility
         const tooltip = document.getElementById('tourTooltip');
         tooltip.innerHTML = `
-            <div class="tour-tooltip-header">${step.title}</div>
+            <div class="tour-tooltip-header">
+                <h3>${step.title}</h3>
+                <span class="tour-step">${this.tourSteps.indexOf(step) + 1}/${this.tourSteps.length}</span>
+            </div>
             <div class="tour-tooltip-content">${step.content}</div>
             <div class="tour-tooltip-footer">
-                <div class="tour-progress">Step ${this.currentTourStep + 1}/${this.tourSteps.length}</div>
-                <button class="tour-next-btn">Next</button>
+                <button class="tour-next-btn">Continue</button>
             </div>
         `;
 
-        // Position tooltip relative to element
-        const rect = element.getBoundingClientRect();
-        const tooltipPosition = this.calculateTooltipPosition(rect, step.position);
-        Object.assign(tooltip.style, tooltipPosition);
-
-        // Show tooltip
-        tooltip.classList.remove('hidden');
+        // Position tooltip with smart placement
+        const tooltipPos = this.calculateTooltipPosition(rect, step.position);
+        Object.assign(tooltip.style, tooltipPos);
+        tooltip.classList.add('visible');
 
         // Perform step action if any
         if (step.action) {
             await step.action();
         }
 
-        // Wait for next button click
+        // Wait for next button or timeout
         await new Promise(resolve => {
             const nextBtn = tooltip.querySelector('.tour-next-btn');
-            nextBtn.onclick = resolve;
+            nextBtn.onclick = () => {
+                element.removeAttribute('data-tour-active');
+                tooltip.classList.remove('visible');
+                spotlight.classList.remove('visible');
+                resolve();
+            };
+            // Auto-advance timeout
+            setTimeout(() => {
+                if (tooltip.classList.contains('visible')) {
+                    element.removeAttribute('data-tour-active');
+                    tooltip.classList.remove('visible');
+                    spotlight.classList.remove('visible');
+                    resolve();
+                }
+            }, 8000); // Extended from 5000 to give more time to read
         });
-
-        // Hide tooltip and remove highlight
-        tooltip.classList.add('hidden');
-        element.classList.remove('tour-highlight');
-        this.currentTourStep++;
     }
 
     calculateTooltipPosition(elementRect, position) {
@@ -996,9 +1156,248 @@ class BeaconPlatform {
         await this.sleep(1000);
         return prompt;
     }
+
+    // Add these new methods for tour functionality
+    async startProductTour() {
+        // Create cursor element
+        const cursor = document.createElement('div');
+        cursor.className = 'simulated-cursor';
+        document.body.appendChild(cursor);
+
+        // Create spotlight overlay
+        const spotlight = document.createElement('div');
+        spotlight.className = 'tour-spotlight';
+        const spotlightHole = document.createElement('div');
+        spotlightHole.className = 'tour-spotlight-hole';
+        spotlight.appendChild(spotlightHole);
+        document.body.appendChild(spotlight);
+
+        // Wait before starting tour
+        await this.sleep(2000);
+
+        // Run through each tour step
+        for (const step of this.tourSteps) {
+            await this.showTourStep(step, cursor, spotlight, spotlightHole);
+        }
+
+        // Cleanup
+        document.body.removeChild(cursor);
+        document.body.removeChild(spotlight);
+    }
+
+    async moveCursor(cursor, targetX, targetY) {
+        const startX = parseFloat(cursor.style.left) || 0;
+        const startY = parseFloat(cursor.style.top) || 0;
+        const steps = 20;
+        
+        for (let i = 0; i <= steps; i++) {
+            const progress = i / steps;
+            const x = startX + (targetX - startX) * this.easeInOutCubic(progress);
+            const y = startY + (targetY - startY) * this.easeInOutCubic(progress);
+            
+            cursor.style.left = `${x}px`;
+            cursor.style.top = `${y}px`;
+            
+            await this.sleep(20);
+        }
+    }
+
+    async simulateClick(selector) {
+        const element = document.querySelector(selector);
+        if (!element) return;
+
+        const cursor = document.querySelector('.simulated-cursor');
+        if (cursor) {
+            cursor.classList.add('clicking');
+            await this.sleep(200);
+            cursor.classList.remove('clicking');
+        }
+
+        element.click();
+    }
+
+    async simulateTyping(selector, text) {
+        const element = document.querySelector(selector);
+        if (!element) return;
+
+        element.focus();
+        element.value = '';
+        for (const char of text) {
+            element.value += char;
+            await this.sleep(50);
+        }
+    }
+
+    easeInOutCubic(t) {
+        return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+    }
+
+    initializePortfolio() {
+        this.initializePortfolioChart();
+        this.updatePortfolioView();
+        this.updateActivityList();
+        this.startPortfolioUpdates();
+    }
+
+    initializePortfolioChart() {
+        const ctx = document.getElementById('portfolioChart').getContext('2d');
+        const gradientFill = ctx.createLinearGradient(0, 0, 0, 200);
+        gradientFill.addColorStop(0, 'rgba(59, 130, 246, 0.2)');
+        gradientFill.addColorStop(1, 'rgba(59, 130, 246, 0)');
+
+        this.portfolioChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: Array.from({length: 30}, (_, i) => `${29-i}d`).reverse(),
+                datasets: [{
+                    label: 'Portfolio Value',
+                    data: this.generatePortfolioHistory(),
+                    borderColor: '#3B82F6',
+                    borderWidth: 2,
+                    fill: true,
+                    backgroundColor: gradientFill,
+                    tension: 0.4,
+                    pointRadius: 0,
+                    pointHoverRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: {
+                        grid: { display: false }
+                    },
+                    y: {
+                        grid: {
+                            color: 'rgba(75, 85, 99, 0.1)'
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    generatePortfolioHistory() {
+        let value = 35000;
+        return Array.from({length: 30}, () => {
+            value += (Math.random() - 0.45) * 1000; // Slight upward bias
+            return value;
+        });
+    }
+
+    updatePortfolioView() {
+        const holdingsList = document.getElementById('holdingsList');
+        if (!holdingsList) return;
+
+        holdingsList.innerHTML = this.portfolioIdeas.map(idea => {
+            const profitLoss = (idea.currentPrice - idea.avgPrice) * idea.holdings;
+            const profitLossPercent = ((idea.currentPrice / idea.avgPrice - 1) * 100).toFixed(2);
+            
+            return `
+                <tr>
+                    <td>
+                        <div class="idea-cell">
+                            <div class="idea-name">${new URL(idea.url).hostname}</div>
+                            <div class="idea-desc">${idea.description}</div>
+                        </div>
+                    </td>
+                    <td>${idea.holdings.toLocaleString()}</td>
+                    <td>$${idea.avgPrice.toFixed(4)}</td>
+                    <td>$${idea.currentPrice.toFixed(4)}</td>
+                    <td class="holdings-profit ${profitLoss >= 0 ? 'positive' : 'negative'}">
+                        ${profitLoss >= 0 ? '+' : ''}${profitLossPercent}%
+                        ($${Math.abs(profitLoss).toLocaleString(undefined, {maximumFractionDigits: 2})})
+                    </td>
+                    <td>$${idea.value.toLocaleString()}</td>
+                    <td>
+                        <span class="status-badge ${idea.status}">${idea.status}</span>
+                    </td>
+                </tr>
+            `;
+        }).join('');
+    }
+
+    updateActivityList() {
+        const activityList = document.getElementById('recentActivity');
+        if (!activityList) return;
+
+        activityList.innerHTML = this.recentActivity.map(activity => {
+            const timeAgo = this.getTimeAgo(activity.time);
+            let icon, title, details;
+
+            switch (activity.type) {
+                case 'purchase':
+                    icon = '🔵';
+                    title = `Bought ${activity.idea}`;
+                    details = `${activity.amount} tokens at $${activity.price}`;
+                    break;
+                case 'sale':
+                    icon = '🔴';
+                    title = `Sold ${activity.idea}`;
+                    details = `${activity.amount} tokens at $${activity.price}`;
+                    break;
+                case 'graduation':
+                    icon = '🎓';
+                    title = `${activity.idea} Graduated`;
+                    details = `Earned ${activity.reward} $ROLODEXTER`;
+                    break;
+            }
+
+            return `
+                <div class="activity-item">
+                    <div class="activity-icon">${icon}</div>
+                    <div class="activity-content">
+                        <div class="activity-title">${title}</div>
+                        <div class="activity-details">${details}</div>
+                        <div class="activity-time">${timeAgo}</div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    getTimeAgo(date) {
+        const seconds = Math.floor((new Date() - date) / 1000);
+        if (seconds < 60) return 'just now';
+        const minutes = Math.floor(seconds / 60);
+        if (minutes < 60) return `${minutes}m ago`;
+        const hours = Math.floor(minutes / 60);
+        if (hours < 24) return `${hours}h ago`;
+        const days = Math.floor(hours / 24);
+        return `${days}d ago`;
+    }
+
+    startPortfolioUpdates() {
+        setInterval(() => {
+            // Update idea prices
+            this.portfolioIdeas.forEach(idea => {
+                const change = (Math.random() - 0.48) * 0.01; // Slight upward bias
+                idea.currentPrice *= (1 + change);
+                idea.value = idea.holdings * idea.currentPrice;
+            });
+
+            this.updatePortfolioView();
+        }, 5000);
+    }
 }
 
-// Initialize platform when page loads
-window.addEventListener('load', () => {
-    const platform = new BeaconPlatform();
-});
+// Only add browser-specific code if we're in a browser environment
+if (typeof window !== 'undefined') {
+    window.addEventListener('load', () => {
+        const platform = new BeaconPlatform();
+        
+        // Start product tour after a brief delay
+        setTimeout(() => {
+            platform.startProductTour();
+        }, 3000);
+    });
+}
+
+// Export for Node.js
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = BeaconPlatform;
+}
