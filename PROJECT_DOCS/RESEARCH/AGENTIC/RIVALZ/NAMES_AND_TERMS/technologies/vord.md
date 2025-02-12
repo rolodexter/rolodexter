@@ -71,6 +71,36 @@ Platform technology enabling seamless integration of Rivalz's core modules (ROME
 - [[sidelined-ai]]: Main product implementation
 - [[glik]]: Related product integration
 
+# Vord Team at Rivalz
+
+## Team Members
+- Matt (Admin)
+- Joe Maristela
+- Daniel (Dat) Ho
+- Liam Pham
+- Andrea Bittner
+- Thai Le
+- Igor
+- Kelvin
+
+## Current Projects
+- Dify Integration
+- Sidelined AI development and maintenance
+- Bot embedding functionality
+- Template system improvements
+
+## Communication
+Team communicates via chat/messaging platform with the following roles:
+- Matt: Team admin
+- Kelvin: Administrative privileges
+- Igor: Team coordination
+
+## Recent Developments (Feb 2025)
+- New team member onboarding (Joe Maristela)
+- Administrative structure updates
+- Technical focus on Dify integration improvements
+- Template and banner system updates
+
 ---
 ## Metadata
 created: 2024-01-09

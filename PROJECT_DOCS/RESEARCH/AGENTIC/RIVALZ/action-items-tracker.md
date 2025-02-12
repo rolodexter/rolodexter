@@ -48,6 +48,26 @@
 - Monthly: Strategic review
 - Quarterly: Roadmap review
 
+# Action Items
+
+## Current Tasks (as of Feb 2025)
+
+### High Priority
+- [ ] Remove all zNode sale banners from:
+  - Landing page
+  - Sidelined chat interface
+- [ ] Fix Dify integration issues:
+  - Embed functionality
+  - Login system for embedded version
+  - Update to latest Dify version
+  - Implement website whitelisting for iframe security
+
+### Personnel
+- [x] Set up Matt as admin (completed by Kelvin)
+
+### Security
+- [ ] Address impersonation risks in bot system
+
 ---
 created: 2024-01-09
 updated: 2024-01-09
