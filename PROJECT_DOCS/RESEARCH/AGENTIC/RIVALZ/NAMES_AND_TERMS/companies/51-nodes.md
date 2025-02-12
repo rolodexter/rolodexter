@@ -3,31 +3,40 @@
 ## Description
 Strategic partner company for Rivalz, specializing in blockchain development and infrastructure solutions.
 
-## Website
-https://www.51nodes.io/en/
+## Technical Implementation Areas
+- [[arbitrum-orbit]]: Layer-3 scaling solutions
+- [[rome-protocol]]: Agent framework implementation
+- [[nostrings]]: Identity management system
+- [[ocy-depin]]: Infrastructure development
 
-## Current Status
-- Partnership alignment in progress
-- Part of P0 priority strategic initiatives
-- Pending definition of partnership requirements
-- Joint alignment needed with [[skchain]]
+## Client Projects
+- [[capgemini]]: Blockchain implementation
+- [[alstom]]: Security implementation
+- [[ntt-data]]: Technical integration
+- [[swm]]: Smart contract systems
 
-## Partnership Context
-- Strategic technical collaboration
-- Requirements and deliverables to be established
-- Coordination with [[skchain]] for aligned delivery
-- Focus on technical infrastructure and implementation
+## Team Coordination
+- Technical Interface: [[daniel-ho]] (CTO)
+- Project Management: [[joe-maristela]]
+- Business Development: [[matt]]
+- Strategic Alignment: [[skchain]]
 
-## Key Priorities
-- Define specific deliverables
-- Establish technical requirements
-- Align implementation timelines
-- Coordinate with [[skchain]] initiatives
+## Active Initiatives
+- Partnership requirements definition
+- Technical architecture alignment
+- Implementation timeline planning
+- Resource allocation strategy
+
+## Related Documentation
+- [[partnership-requirements-alignment]]: Requirements tracking
+- [[meetings/2024-01-meeting-skchain-igor]]: Strategic discussion
+- [[strategic-questions]]: Technical integration planning
 
 ## Related Terms
-- [[skchain]]: Co-strategic partner requiring aligned deliverables
-- [[glik]]: Core product integration target
-- [[matt]]: BD relationship management
+- [[skchain]]: Co-strategic partner
+- [[glik]]: Core product integration
+- [[vord]]: Platform integration
+- [[rome-protocol]]: Technical framework
 
 ---
 created: 2024-01-09

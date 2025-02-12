@@ -4,28 +4,28 @@
 Core application module of the Rivalz Network, providing a development platform for AI applications through the VORD SDK.
 
 ## Description
-Platform technology enabling seamless integration of Rivalz's core modules ([[rome-protocol]], [[ocy-depin]], [[adcs]], [[nostrings]]) for building AI-powered applications.
+Platform technology enabling seamless integration of Rivalz's core modules ([ROME Protocol](../technologies/rome-protocol.md), [OCY DePIN](../technologies/ocy-depin.md), [ADCS](../technologies/adcs.md), [NOSTRINGS](../technologies/nostrings.md)) for building AI-powered applications.
 
 ## Technical Architecture
 
 ### Core Module Integrations
-1. [[rome-protocol]] Integration
+1. [ROME Protocol](../technologies/rome-protocol.md) Integration
    - Economic infrastructure for AI agents
    - rAgent tokenization system
    - Agentic DeFi integration
    - Swarm protocol support
 
-2. [[ocy-depin]] Integration
+2. [OCY DePIN](../technologies/ocy-depin.md) Integration
    - Secure data storage and retrieval
    - Data monetization infrastructure
    - Decentralized data access
 
-3. [[adcs]] Integration
+3. [ADCS](../technologies/adcs.md) Integration
    - Verifiable data pipeline
    - AI response verification
    - Enhanced monetization systems
 
-4. [[nostrings]] Integration
+4. [NOSTRINGS](../technologies/nostrings.md) Integration
    - AI agent creation and management
    - Resource access control
    - Identity management
@@ -58,29 +58,29 @@ Platform technology enabling seamless integration of Rivalz's core modules ([[ro
    - Resource allocation efficiency
 
 ## Platform Applications
-- [[sidelined-ai]]: Primary production deployment
-- [[dify-integration]]: Chat interface system
-- [[glik]]: Core product integration
+- [Sidelined AI](../products/sidelined-ai.md): Primary production deployment
+- [Dify Integration](../technologies/dify-integration.md): Chat interface system
+- [Glik](../products/glik.md): Core product integration
 
 ## Team Structure
-- Technical Leadership: [[daniel-ho]] (CTO)
-- Project Management: [[joe-maristela]]
-- Quality Assurance: [[liam-pham]]
-- UI/UX Development: [[thai-le]]
-- Platform Development: [[andrea-bittner]]
+- Technical Leadership: [Daniel Ho](../people/daniel-ho.md) (CTO)
+- Project Management: [Joe Maristela](../people/joe-maristela.md)
+- Quality Assurance: [Liam Pham](../people/liam-pham.md)
+- UI/UX Development: [Thai Le](../people/thai-le.md)
+- Platform Development: [Andrea Bittner](../people/andrea-bittner.md)
 
 ## Current Usage
-- Primary platform for [[sidelined-ai]]
+- Primary platform for [Sidelined AI](../products/sidelined-ai.md)
 - Supports multiple AI model integrations
 - Handles token-based authentication
 - Powers decentralized AI applications
 
 ## Related Terms
-- [[rome-protocol]]: Economic infrastructure integration
-- [[ocy-depin]]: Data infrastructure integration
-- [[maso]]: Swarm management integration
-- [[sidelined-ai]]: Main product implementation
-- [[glik]]: Related product integration
+- [ROME Protocol](../technologies/rome-protocol.md): Economic infrastructure integration
+- [OCY DePIN](../technologies/ocy-depin.md): Data infrastructure integration
+- [MASO](../technologies/maso.md): Swarm management integration
+- [Sidelined AI](../products/sidelined-ai.md): Main product implementation
+- [Glik](../products/glik.md): Related product integration
 
 # Vord Team at Rivalz
 
@@ -123,7 +123,7 @@ Team communicates via chat/messaging platform with the following roles:
 ## Metadata
 created: 2024-01-09
 updated: 2024-01-09
-author: [[github-copilot]]
+author: [GitHub Copilot](https://github.com/features/copilot)
 tags: [technology, platform, development-framework, core-module]
 status: DRAFT
 priority: P0

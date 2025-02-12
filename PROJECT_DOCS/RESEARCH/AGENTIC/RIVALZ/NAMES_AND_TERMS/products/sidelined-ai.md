@@ -17,10 +17,10 @@ Token-gated platform providing free access to premium AI models including GPT-4 
   - Web-based chat interface
 
 ## Technical Implementation
-- Built on [[vord]] platform
+- Built on [Vord](/NAMES_AND_TERMS/technologies/vord.md) platform
 - Token authentication system
 - Multi-model integration capability
-- Chat interface based on [[dify-integration]]
+- Chat interface based on [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md)
 
 ## Access Control
 - Token-gated access system
@@ -33,33 +33,33 @@ Token-gated platform providing free access to premium AI models including GPT-4 
 - Future: Additional premium model integrations
 
 ## Team & Development
-- Technical Lead: [[daniel-ho]] (CTO)
-- UI/UX: [[thai-le]]
-- Quality Assurance: [[liam-pham]]
-- Project Management: [[joe-maristela]]
+- Technical Lead: [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md) (CTO)
+- UI/UX: [Thai Le](/NAMES_AND_TERMS/people/thai-le.md)
+- Quality Assurance: [Liam Pham](/NAMES_AND_TERMS/people/liam-pham.md)
+- Project Management: [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md)
 
 ## Technical Stack & Dependencies
-- Platform: [[vord]]
-- Chat Interface: [[dify-integration]]
-- Infrastructure: [[arbitrum-orbit]]
-- Data Management: [[ocy-depin]]
+- Platform: [Vord](/NAMES_AND_TERMS/technologies/vord.md)
+- Chat Interface: [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md)
+- Infrastructure: [Arbitrum Orbit](/NAMES_AND_TERMS/technologies/arbitrum-orbit.md)
+- Data Management: [OCY DePIN](/NAMES_AND_TERMS/technologies/ocy-depin.md)
 
 ## Integration Points
-- [[rome-protocol]]: Agent management
-- [[maso]]: Swarm coordination
-- [[nostrings]]: Identity and access
-- [[adcs]]: Data verification
+- [ROME Protocol](/NAMES_AND_TERMS/technologies/rome-protocol.md): Agent management
+- [MASO](/NAMES_AND_TERMS/technologies/maso.md): Swarm coordination
+- [NOSTRINGS](/NAMES_AND_TERMS/technologies/nostrings.md): Identity and access
+- [ADCS](/NAMES_AND_TERMS/technologies/adcs.md): Data verification
 
 ## Website
 https://sidelined.ai
 
 ## Related Terms
-- [[vord]]: Core development platform
-- [[dify-integration]]: Chat interface implementation
-- [[glik]]: Related Rivalz product
-- [[thai-le]]: UI/UX improvements
-- [[liam-pham]]: Quality assurance
-- [[daniel-ho]]: Technical oversight
+- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Core development platform
+- [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md): Chat interface implementation
+- [Glik](/NAMES_AND_TERMS/products/glik.md): Related Rivalz product
+- [Thai Le](/NAMES_AND_TERMS/people/thai-le.md): UI/UX improvements
+- [Liam Pham](/NAMES_AND_TERMS/people/liam-pham.md): Quality assurance
+- [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md): Technical oversight
 
 ## Status Updates
 - As of Feb 2025, template issues identified
@@ -78,7 +78,7 @@ https://sidelined.ai
 ## Metadata
 created: 2024-01-09
 updated: 2024-01-09
-author: [[github-copilot]]
+author: [GitHub Copilot](https://github.com/features/copilot)
 tags: [product, ai-platform, token-gated, gpt]
 status: DRAFT
 priority: P1

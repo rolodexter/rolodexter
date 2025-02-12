@@ -1,25 +1,50 @@
 # Glik
 
-## Description
-Product/solution by Rivalz requiring strategic roadmap expansion
+## Overview
+Core product solution by Rivalz requiring strategic roadmap expansion and vision development.
+
+## Technical Architecture
+- Platform Foundation: [[vord]]
+- Agent Framework: [[rome-protocol]]
+- Data Infrastructure: [[ocy-depin]]
+- Identity Management: [[nostrings]]
+- Connectivity Layer: [[adcs]]
+- Swarm Management: [[maso]]
+
+## Key Personnel
+- Technical Direction: [[daniel-ho]] (CTO)
+- Project Management: [[joe-maristela]]
+- Business Development: [[matt]]
+- Quality Assurance: [[liam-pham]]
+
+## Integration Partners
+- [[51-nodes]]: Technical implementation
+- [[skchain]]: Strategic consulting
+- [[arbitrum-orbit]]: Layer-3 infrastructure
+
+## Client Implementations
+- [[capgemini]]: Analytics integration
+- [[alstom]]: Core platform
+- [[ntt-data]]: Enterprise deployment
+- [[swm]]: Infrastructure component
 
 ## Current Status
-Under strategic review for expanded vision and roadmap development
+- Under strategic review
+- Vision expansion in progress
+- Technical architecture alignment ongoing
+- Partnership integration planning
 
-## Key Focus Areas
-- Roadmap development
-- Vision expansion
-- Strategic alignment with partners
-
-## Development Context
-- Requires expanded vision
-- Architectural focus needed
-- Integration with partner requirements ([[51-nodes]], [[skchain]])
+## Related Documentation
+- [[partnership-requirements-alignment]]: Integration planning
+- [[meetings/2024-01-meeting-matt-bd]]: Vision discussion
+- [[strategic-questions]]: Product development framework
 
 ## Related Terms
 - [[51-nodes]]: Strategic partner
 - [[skchain]]: Strategic partner
-- [[dat]]: Technical architecture
+- [[vord]]: Technical foundation
+- [[rome-protocol]]: Agent framework
+- [[sidelined-ai]]: Sister product
 
 ---
 created: 2024-01-09

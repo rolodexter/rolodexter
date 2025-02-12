@@ -32,10 +32,10 @@ A forked version of Dify being used for bot integration in Rivalz projects, prim
 - Embedded chat widgets (currently experiencing stability issues)
 
 ## Integration Points
-- [[sidelined-ai]]: Primary deployment powering chat interface
-- [[vord]]: Core platform integration
-- [[daniel-ho]]: Technical oversight (CTO)
-- [[thai-le]]: Template and banner updates
+- [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md): Primary deployment powering chat interface
+- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Core platform integration
+- [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md): Technical oversight (CTO)
+- [Thai Le](/NAMES_AND_TERMS/people/thai-le.md): Template and banner updates
 
 ## Technical Stack
 - Chat Interface: chat.sidelined.ai
@@ -43,16 +43,16 @@ A forked version of Dify being used for bot integration in Rivalz projects, prim
 - Deployment: Embedded and standalone
 
 ## Related Terms
-- [[sidelined-ai]]: Main product implementation
-- [[vord]]: Platform foundation
-- [[thai-le]]: Recent UI updates
-- [[liam-pham]]: Testing and error resolution
+- [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md): Main product implementation
+- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Platform foundation
+- [Thai Le](/NAMES_AND_TERMS/people/thai-le.md): Recent UI updates
+- [Liam Pham](/NAMES_AND_TERMS/people/liam-pham.md): Testing and error resolution
 
 ---
 ## Metadata
 created: 2024-01-09
 updated: 2024-01-09
-author: [[github-copilot]]
+author: [GitHub Copilot](https://github.com/features/copilot)
 tags: [technology, integration, chat-bot, platform]
 status: DRAFT
 priority: P1
