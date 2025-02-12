@@ -29,6 +29,47 @@ Visual development environment for building and managing AI applications within 
 - Debugging tools
 - Version control
 
+### Dataset Management
+1. Text Processing
+   - Advanced preprocessing pipelines
+   - Content cleaning workflows
+   - Format standardization
+   - Metadata extraction
+   - Quality validation
+
+2. Retrieval Configuration
+   - Citation system setup
+   - Source management
+   - Relevance tuning
+   - Context optimization
+   - Query configuration
+
+3. Advanced Settings
+   - Preprocessing rules
+   - Cleaning parameters
+   - Format configurations
+   - Quality thresholds
+   - Index settings
+
+### Application Toolkits
+1. Pre-built Solutions
+   - Common workflow templates
+   - Industry-specific patterns
+   - Best practice implementations
+   - Integration examples
+
+2. Component Library
+   - Reusable node combinations
+   - Custom node templates
+   - Workflow patterns
+   - Integration blocks
+
+3. Use Case Templates
+   - Domain-specific workflows
+   - Vertical solutions
+   - Reference implementations
+   - Quick-start templates
+
 ## Integration Points
 - [Orchestration Interface](/NAMES_AND_TERMS/technologies/vord-orchestration.md)
 - [Chatbot Features](/NAMES_AND_TERMS/technologies/vord-chatbot.md)

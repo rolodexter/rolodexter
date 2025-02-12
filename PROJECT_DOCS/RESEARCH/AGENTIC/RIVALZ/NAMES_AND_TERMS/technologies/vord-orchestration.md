@@ -74,6 +74,68 @@ Node-based workflow system for orchestrating AI applications and automation flow
    - Filtering operations
    - Aggregation functions
 
+### Variable Management Nodes
+1. Parameter Extraction
+   - Input parameter processing
+   - Type validation and conversion
+   - Default value handling
+   - Schema validation
+   - Error management
+   - Scope definition
+
+2. Variable Aggregator
+   - Data collection and merging
+   - State management
+   - Type coercion
+   - Scope handling
+   - Conflict resolution
+   - History tracking
+
+3. Variable Assigner
+   - Value assignment
+   - Type checking
+   - Scope management
+   - Reference handling
+   - Change tracking
+   - Validation rules
+
+## Dataset Features
+1. Text Processing
+   - Advanced preprocessing
+   - Content cleaning
+   - Format conversion
+   - Quality validation
+   - Citation handling
+
+2. Retrieval Systems
+   - Context gathering
+   - Source tracking
+   - Relevance scoring
+   - Citation management
+   - Query optimization
+
+## Variable System
+1. Scope Management
+   - Global variables
+   - Flow-level variables
+   - Node-level variables
+   - Lifetime management
+   - Access control
+
+2. Data Types
+   - Primitive types
+   - Complex objects
+   - Arrays and collections
+   - Custom types
+   - Type conversion
+
+3. State Management
+   - Variable persistence
+   - State tracking
+   - History management
+   - Rollback support
+   - Recovery handling
+
 ## Workflow Features
 - Visual flow designer
 - Node configuration

@@ -116,6 +116,50 @@
 ### Security
 - [ ] Address impersonation risks in bot system
 
+## Dify Integration Security and Embedding Issues
+*Raised by Daniel Ho on 2024-02-12*
+
+### Current Issues:
+1. Need to implement iframe embedding security measures
+2. Whitelist configuration for origin websites required
+3. Third-party connection requirements
+
+### Action Items:
+
+#### 1. Dify Embed Updates Investigation
+- [ ] Research latest Dify embedding capabilities and documentation
+- [ ] Document any changes or new features in embedding implementation
+- [ ] Update our integration approach based on findings
+
+#### 2. Security Implementation
+- [ ] Implement origin website whitelisting system
+- [ ] Create configuration system for allowed domains
+- [ ] Document security implementation requirements
+- [ ] Test iframe embedding with security measures
+
+#### 3. Third-Party Connections
+- [ ] List all required third-party integrations (Google, Dynamic xyz, etc.)
+- [ ] Document connection requirements for each service
+- [ ] Estimate implementation timeline
+- [ ] Create integration test plan
+
+### Dependencies:
+- Dify documentation and updates
+- Third-party service documentation
+- Security requirements documentation
+
+### Status: 🟡 In Progress
+
+### Next Steps:
+1. Begin research on latest Dify embed functionality
+2. Draft security implementation plan
+3. Create timeline for third-party integrations
+
+### Notes:
+- Implementation is straightforward but requires careful coordination with third-party services
+- Security measures are critical for iframe implementation
+- Need to maintain list of approved origin websites
+
 ---
 created: 2024-01-09
 updated: 2024-01-09
