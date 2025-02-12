@@ -19,7 +19,11 @@ A comprehensive list of all terms, names, and proper nouns relevant to Rivalz, o
 - [[matt]] - Head of Business Development at Rivalz
 
 ## S
+- [[sidelined-ai]] - Token-gated platform providing free access to premium AI models
 - [[skchain]] - Strategic partner company for Rivalz
+
+## V
+- [[vord]] - Development platform used as foundation for Sidelined.ai and other Rivalz projects
 
 ...
 
