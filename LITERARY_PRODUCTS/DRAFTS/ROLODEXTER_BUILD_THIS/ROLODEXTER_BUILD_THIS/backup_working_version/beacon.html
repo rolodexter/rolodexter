@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beacon Terminal</title>
+    <link rel="stylesheet" href="src/styles/beacon.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal-container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">BEACON</span>
+            </div>
+            <div class="tagline">Generate ideas. Get paid for good ones.</div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active">
+                    <span class="nav-icon">📊</span>
+                    <span>Exchange</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">💎</span>
+                    <span>Portfolio</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">📈</span>
+                    <span>Analytics</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">⚖️</span>
+                    <span>Stake</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Container -->
+        <div class="main-wrapper">
+            <!-- Top Header -->
+            <header class="platform-header">
+                <div class="header-left">
+                    <div class="network-status">
+                        <span class="status-dot"></span>
+                        Solana DevNet
+                    </div>
+                    <div class="token-price-header">
+                        <span class="token-symbol">$ROLODEXTER</span>
+                        <span class="token-value">$1.24</span>
+                        <span class="token-change positive">+5.2%</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="profile-section">
+                        <button class="connect-wallet">Connect Wallet</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="platform-main">
+                <!-- Market Stats Bar -->
+                <div class="market-stats-bar">
+                    <div class="stat-item">
+                        <div class="stat-label">24h Volume</div>
+                        <div class="stat-value">$2.1M</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Ideas Minted</div>
+                        <div class="stat-value">1,234</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Graduated Ideas</div>
+                        <div class="stat-value">89</div>
+                    </div>
+                </div>
+
+                <!-- Main Grid Layout -->
+                <div class="platform-grid">
+                    <!-- Left Column -->
+                    <div class="platform-sidebar left">
+                        <!-- Idea Creation Card -->
+                        <div class="platform-card idea-creation">
+                            <div class="card-header">
+                                <h2>New Ideas</h2>
+                                <div class="header-actions">
+                                    <span class="premium-tag">Premium</span>
+                                    <button class="help-button" title="Learn more">?</button>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <form id="ideaForm" class="idea-form">
+                                    <div class="form-field">
+                                        <label>URL</label>
+                                        <div class="input-wrapper">
+                                            <input type="url" id="ideaUrl" placeholder="Paste any URL to mint as an Idea">
+                                            <span class="input-icon">🔗</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-field">
+                                        <label>Generate Idea</label>
+                                        <div class="description-controls">
+                                            <textarea id="ideaDescription" placeholder="Describe your idea's potential"></textarea>
+                                            <button id="aiGenerateBtn" class="ai-generate-btn">
+                                                <span class="ai-icon">🤖</span>
+                                                Ask rolodexter
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="form-grid">
+                                        <div class="form-field">
+                                            <label>Initial Supply</label>
+                                            <input type="number" id="ideaSupply" value="1000" min="100" max="10000">
+                                        </div>
+                                        <div class="form-field">
+                                            <label>Royalty %</label>
+                                            <input type="number" id="ideaRoyalty" value="5" min="1" max="10">
+                                        </div>
+                                    </div>
+                                    <button type="submit" id="mintIdea" class="mint-button">
+                                        <span class="button-icon">⚡</span>
+                                        Mint Idea NFT
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Trending Ideas -->
+                        <div class="platform-card trending">
+                            <div class="card-header">
+                                <h2>Trending Ideas</h2>
+                                <div class="time-selector">
+                                    <button class="time-btn active">1H</button>
+                                    <button class="time-btn">24H</button>
+                                    <button class="time-btn">7D</button>
+                                </div>
+                            </div>
+                            <div class="trending-list" id="trendingIdeas"></div>
+                        </div>
+                    </div>
+
+                    <!-- Center Column -->
+                    <div class="platform-main-content">
+                        <!-- Ideas Table -->
+                        <div class="platform-card ideas-table-card">
+                            <div class="card-header">
+                                <div class="header-left">
+                                    <h2>Active Ideas</h2>
+                                    <span class="ideas-count">1,234 Ideas</span>
+                                </div>
+                                <div class="header-right">
+                                    <div class="search-box">
+                                        <input type="search" placeholder="Search ideas...">
+                                        <span class="search-icon">🔍</span>
+                                    </div>
+                                    <div class="table-actions">
+                                        <button class="action-btn">
+                                            <span class="icon">📊</span>
+                                            Filter
+                                        </button>
+                                        <button class="action-btn">
+                                            <span class="icon">↕️</span>
+                                            Sort
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-container">
+                                <table class="ideas-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Idea</th>
+                                            <th>Price</th>
+                                            <th>24h Change</th>
+                                            <th>Market Cap</th>
+                                            <th>Volume</th>
+                                            <th>About to Graduate</th>
+                                            <th>Graduated</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="activeIdeasList"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="platform-sidebar right">
+                        <!-- ROLODEXTER Token Card -->
+                        <div class="platform-card token-card">
+                            <div class="card-header">
+                                <div class="token-info">
+                                    <span class="token-icon">🪙</span>
+                                    <h2>$ROLODEXTER</h2>
+                                </div>
+                                <div class="token-price">
+                                    <div class="current-price">$1.24</div>
+                                    <div class="price-change positive">+5.2%</div>
+                                </div>
+                            </div>
+                            <div class="token-chart-container">
+                                <canvas id="tokenChart"></canvas>
+                            </div>
+                            <div class="token-stats">
+                                <div class="stat-row">
+                                    <span class="label">Market Cap</span>
+                                    <span class="value">$124M</span>
+                                </div>
+                                <div class="stat-row">
+                                    <span class="label">Total Supply</span>
+                                    <span class="value">100M</span>
+                                </div>
+                                <div class="stat-row">
+                                    <span class="label">Staked</span>
+                                    <span class="value">75M (75%)</span>
+                                </div>
+                                <div class="stat-row">
+                                    <span class="label">APY</span>
+                                    <span class="value highlight">23.4%</span>
+                                </div>
+                            </div>
+                            <div class="token-actions">
+                                <button class="action-btn primary">Buy</button>
+                                <button class="action-btn secondary">Stake</button>
+                            </div>
+                        </div>
+
+                        <!-- Featured Ideas Card -->
+                        <div class="platform-card featured-ideas">
+                            <div class="card-header">
+                                <h2>Featured Ideas</h2>
+                                <span class="hot-tag">🔥 Hot</span>
+                            </div>
+                            <div class="featured-grid" id="featuredIdeas"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Tour Guide Tooltips -->
+    <div id="tourTooltip" class="tour-tooltip"></div>
+
+    <!-- Notifications Container -->
+    <div id="notificationsContainer" class="notifications-container"></div>
+
+    <script src="src/simulation/beacon.js" type="module"></script>
+</body>
+</html>
