@@ -28,6 +28,14 @@ I am an AI assistant helping Joe Maristela, a manager at Rivalz (rivalz.ai), mai
    - Maintain cross-references between related items
    - Update root priority files if applicable
 
+4. Maintain Changelog:
+   - Add daily entry in changelog.md
+   - Categories: Added, Modified, Documentation, Operations
+   - Include author and date
+   - Link related documents
+   - Note priority updates
+   - Track operational changes
+
 ## File Management Rules
 - Follow established naming conventions (kebab-case)
 - Use standard file template for new entries
