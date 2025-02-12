@@ -1,8 +1,9 @@
 # Matt
 
 ## Role
-Head of Business Development at Rivalz
-Admin for Vord Team
+- Head of Business Development at Rivalz
+- Admin for Vord Team
+- Partnership Management
 
 ## Responsibilities
 - Business Development Strategy
@@ -10,38 +11,33 @@ Admin for Vord Team
 - Strategic Planning
 - Team Administration
 
-## Key Relationships
-### Partnerships
-- [[51-nodes]]: Technical partnership lead
-- [[skchain]]: Strategic consulting alignment
-- [[capgemini]]: Enterprise client relationship
-- [[alstom]]: Client relationship management
+## Team Relationships
+### Internal Teams
+- Coordinates with:
+  - [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md) (CTO, VORD SDK Team)
+  - [Kelvin](/NAMES_AND_TERMS/people/kelvin.md) (DePIN/Crypto Team Lead)
+  - [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md) (Project Manager)
 
-### Internal Team
-- Coordinates with: [[daniel-ho]] (CTO)
-- Project updates from: [[joe-maristela]] (PM)
-- Team administration with: Kelvin
+### External Partnerships
+- [51 Nodes](/NAMES_AND_TERMS/companies/51-nodes.md): Technical partnership lead
+- [SKChain](/NAMES_AND_TERMS/companies/skchain.md): Strategic consulting alignment
+- [Capgemini](/NAMES_AND_TERMS/clients/capgemini.md): Enterprise client relationship
+- [Alstom](/NAMES_AND_TERMS/clients/alstom.md): Client relationship management
 
-## Current Focus Areas
-- Partnership development and alignment
-- [[glik]] vision and roadmap expansion
+## Focus Areas
+- Partnership development
 - Team organization and administration
-- [[sidelined-ai]] strategic direction
+- [Glik](/NAMES_AND_TERMS/products/glik.md) vision and roadmap
+- [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md) strategic direction
 
 ## Related Documents
-- [[meetings/2024-01-meeting-matt-bd]]: Business development strategy
-- [[partnership-requirements-alignment]]: Partnership tracking
-- [[strategic-questions]]: Business development framework
-
-## Related Terms
-- [[51-nodes]]: Strategic partnership
-- [[skchain]]: Strategic consulting
-- [[glik]]: Product strategy
-- [[vord]]: Team administration
+- [Technical Decisions](/technical-decisions/2024-02-13-development-teams.md): Team structure
+- [Partnership Requirements](/partnership-requirements-alignment.md)
+- [Strategic Questions](/strategic-questions.md)
 
 ---
 created: 2024-01-09
-updated: 2024-01-09
-author: [[github-copilot]]
-tags: [people, business-development, leadership]
-status: DRAFT
+updated: 2024-02-13
+author: [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md)
+tags: [people, business-development, leadership, team-admin]
+status: ACTIVE

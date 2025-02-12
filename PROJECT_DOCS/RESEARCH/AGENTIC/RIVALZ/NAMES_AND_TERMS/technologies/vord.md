@@ -94,18 +94,35 @@ Platform technology enabling seamless integration of Rivalz's core modules ([ROM
 - Igor
 - Kelvin
 
+## Development Teams
+
+### VORD SDK Team (Led by [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md))
+- Primary Focus: VORD SDK development and platform architecture
+- Key Members:
+  - [Thai Le](/NAMES_AND_TERMS/people/thai-le.md): UI/UX Development
+  - [Liam Pham](/NAMES_AND_TERMS/people/liam-pham.md): Quality Assurance
+  - [Andrea Bittner](/NAMES_AND_TERMS/people/andrea-bittner.md): Platform Development
+
+### DePIN/Crypto Team (Led by [Kelvin](/NAMES_AND_TERMS/people/kelvin.md))
+- Focus: DePIN infrastructure and crypto development
+- Areas:
+  - Blockchain infrastructure
+  - Crypto implementation
+  - DePIN development
+  - Technical infrastructure
+
+### Team Organization
+- CTO: [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md) (Technical direction and VORD SDK)
+- DePIN/Crypto Lead: [Kelvin](/NAMES_AND_TERMS/people/kelvin.md)
+- Project Manager: [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md)
+- Admin: [Matt](/NAMES_AND_TERMS/people/matt.md)
+- Team Coordination: Igor
+
 ## Current Projects
 - Dify Integration
 - Sidelined AI development and maintenance
 - Bot embedding functionality
 - Template system improvements
-
-## Team Organization
-- CTO: Dat (Technical direction and architecture)
-- Project Manager: Joe Maristela (Process and coordination)
-- Admin: Matt
-- Technical Support: Kelvin
-- Team Coordination: Igor
 
 ## Communication
 Team communicates via chat/messaging platform with the following roles:

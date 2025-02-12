@@ -42,33 +42,33 @@ Global consulting and technology services company implementing AI-driven supply 
   - Analytics pipeline setup
 
 ## Technical Implementation
-- Core Platform: [[vord]]
-- Agent Framework: [[rome-protocol]]
-- Data Infrastructure: [[ocy-depin]]
-- Identity Management: [[nostrings]]
+- Core Platform: [Vord](/NAMES_AND_TERMS/technologies/vord.md)
+- Agent Framework: [ROME Protocol](/NAMES_AND_TERMS/technologies/rome-protocol.md)
+- Data Infrastructure: [OCY DePIN](/NAMES_AND_TERMS/technologies/ocy-depin.md)
+- Identity Management: [NOSTRINGS](/NAMES_AND_TERMS/technologies/nostrings.md)
 
 ## Team & Responsibilities
-- Technical Oversight: [[daniel-ho]]
-- Project Management: [[joe-maristela]]
-- Quality Assurance: [[liam-pham]]
+- Technical Oversight: [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md)
+- Project Management: [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md)
+- Quality Assurance: [Liam Pham](/NAMES_AND_TERMS/people/liam-pham.md)
 
 ## Integration Stakeholders
-- [[51-nodes]]: Blockchain implementation partner
-- [[skchain]]: Strategic consulting
-- [[matt]]: Business development lead
+- [51 Nodes](/NAMES_AND_TERMS/companies/51-nodes.md): Blockchain implementation partner
+- [SKChain](/NAMES_AND_TERMS/companies/skchain.md): Strategic consulting
+- [Matt](/NAMES_AND_TERMS/people/matt.md): Business development lead
 
 ## Related Terms
-- [[glik]]: Analytics integration
-- [[51-nodes]]: Blockchain implementation
-- [[vord]]: Core platform
-- [[rome-protocol]]: Agent framework
-- [[ocy-depin]]: Data infrastructure
+- [Glik](/NAMES_AND_TERMS/products/glik.md): Analytics integration
+- [51 Nodes](/NAMES_AND_TERMS/companies/51-nodes.md): Blockchain implementation
+- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Core platform
+- [ROME Protocol](/NAMES_AND_TERMS/technologies/rome-protocol.md): Agent framework
+- [OCY DePIN](/NAMES_AND_TERMS/technologies/ocy-depin.md): Data infrastructure
 
 ---
 ## Metadata
 created: 2024-01-09
 updated: 2024-01-09
-author: [[github-copilot]]
+author: [GitHub Copilot](/NAMES_AND_TERMS/people/github-copilot.md)
 tags: [client, supply-chain, consulting, enterprise]
 status: DRAFT
 priority: P1

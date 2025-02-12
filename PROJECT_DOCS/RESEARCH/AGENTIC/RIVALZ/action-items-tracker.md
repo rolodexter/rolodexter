@@ -1,18 +1,38 @@
 # Action Items Tracker
 
 ## Current Priorities [P0]
-1. [ ] Define partnership requirements for [[51-nodes]] and [[skchain]]
+1. [ ] Define partnership requirements for [51 Nodes](/NAMES_AND_TERMS/companies/51-nodes.md) and [SKChain](/NAMES_AND_TERMS/companies/skchain.md)
 2. [ ] PM Role Transition:
-   - Transfer PM responsibilities from [[daniel-ho]] to [[joe-maristela]]
+   - Transfer PM responsibilities from [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md) to [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md)
    - Set up PM processes and documentation
    - Establish project tracking systems
    - Review current sprint structure
 3. [ ] Create expanded [Glik](/NAMES_AND_TERMS/products/glik.md) roadmap and vision document
 
+## Team Organization Tasks [P1]
+1. [ ] Document cross-team coordination processes:
+   - VORD SDK Team ([Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md))
+   - DePIN/Crypto Team ([Kelvin](/NAMES_AND_TERMS/people/kelvin.md))
+
+2. [ ] Establish technical sync meeting schedule:
+   - Regular cross-team technical reviews
+   - Integration planning sessions
+   - Resource allocation discussions
+
+3. [ ] Create team communication guidelines:
+   - Define reporting structures
+   - Establish decision-making protocols
+   - Document escalation paths
+
 ## Documentation Tasks [P1]
 1. [ ] Document current technical architecture
-2. [ ] Create sprint planning template (Owner: [[joe-maristela]])
-3. [ ] Establish PM processes documentation (Owner: [[joe-maristela]])
+2. [ ] Create sprint planning template (Owner: [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md))
+3. [ ] Establish PM processes documentation (Owner: [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md))
+4. [ ] Update team documentation:
+   - [ ] Development team structures
+   - [ ] Role definitions and responsibilities
+   - [ ] Technical decision-making processes
+   - [ ] Integration points between teams
 
 ## Knowledge Base Organization [P1]
 1. [ ] Set up regular knowledge base audit schedule
@@ -39,7 +59,7 @@
 - [ ] Check knowledge base updates
 - [ ] Update priority list
 - [ ] Document new learnings
-- [ ] Track question responses from [[strategic-questions]]
+- [ ] Track question responses from [Strategic Questions](/strategic-questions.md)
 
 ## Metrics to Track
 1. Sprint Velocity
@@ -99,7 +119,7 @@
 ---
 created: 2024-01-09
 updated: 2024-01-09
-author: [[github-copilot]]
+author: [GitHub Copilot](https://github.com/features/copilot)
 tags: [action-items, tracking, management, priorities]
 status: DRAFT
 priority: P0

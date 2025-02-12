@@ -18,9 +18,32 @@ Token-gated platform providing free access to premium AI models including GPT-4 
 
 ## Technical Implementation
 - Built on [Vord](/NAMES_AND_TERMS/technologies/vord.md) platform
+- Advanced LLMOps capabilities through [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md):
+  - No-code/low-code interface
+  - Visual workflow design
+  - Prompt optimization
+  - RAG (Retrieval-Augmented Generation)
 - Token authentication system
 - Multi-model integration capability
-- Chat interface based on [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md)
+
+## Application Features
+1. Chat Interface
+   - GPT-4 O0, O1 model access
+   - Visual workflow customization
+   - Template-based interactions
+   - Prompt management system
+
+2. Development Tools
+   - Prompt IDE for optimization
+   - Visual workflow designer
+   - Template management
+   - Performance monitoring
+
+3. Enterprise Features
+   - Token-gated access system
+   - Whitelisted project integration
+   - Usage analytics
+   - Performance tracking
 
 ## Access Control
 - Token-gated access system
@@ -44,11 +67,24 @@ Token-gated platform providing free access to premium AI models including GPT-4 
 - Infrastructure: [Arbitrum Orbit](/NAMES_AND_TERMS/technologies/arbitrum-orbit.md)
 - Data Management: [OCY DePIN](/NAMES_AND_TERMS/technologies/ocy-depin.md)
 
-## Integration Points
-- [ROME Protocol](/NAMES_AND_TERMS/technologies/rome-protocol.md): Agent management
-- [MASO](/NAMES_AND_TERMS/technologies/maso.md): Swarm coordination
-- [NOSTRINGS](/NAMES_AND_TERMS/technologies/nostrings.md): Identity and access
-- [ADCS](/NAMES_AND_TERMS/technologies/adcs.md): Data verification
+## Integration Architecture
+1. Frontend Layer
+   - Web interface (sidelined.ai)
+   - Chat interface (chat.sidelined.ai)
+   - Embedded widgets
+   - Admin dashboard
+
+2. Backend Services
+   - LLM orchestration
+   - Token authentication
+   - Data management
+   - Analytics system
+
+3. Integration Points
+   - [ROME Protocol](/NAMES_AND_TERMS/technologies/rome-protocol.md): Agent management
+   - [MASO](/NAMES_AND_TERMS/technologies/maso.md): Swarm coordination
+   - [NOSTRINGS](/NAMES_AND_TERMS/technologies/nostrings.md): Identity and access
+   - [ADCS](/NAMES_AND_TERMS/technologies/adcs.md): Data verification
 
 ## Website
 https://sidelined.ai
