@@ -62,6 +62,6 @@
 
 ---
 created: 2024-02-12
-author: rolodexter
+author: [rolodexter]
 tags: [meetings, team-sync, development]
 status: SCHEDULED

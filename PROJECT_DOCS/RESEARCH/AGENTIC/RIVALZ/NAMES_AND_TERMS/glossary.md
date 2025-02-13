@@ -56,7 +56,7 @@ A comprehensive list of all terms, names, and proper nouns relevant to Rivalz, o
 - [Truestack.ai](/NAMES_AND_TERMS/companies/truestack.md) - External contractor company providing development and UI/UX services
 
 ## V
-- [Vord](/NAMES_AND_TERMS/technologies/vord.md) - Core development platform and SDK used as foundation for Sidelined.ai and other Rivalz projects
+- [Vord](/NAMES_AND_TERMS/technologies/vord.md) - Application platform enabling crypto projects to build their own AI chatbots (and future AI agents)
 
 ---
 *Note: This glossary is automatically updated when new terms are added to the knowledge base. Each term links to its detailed entry in the appropriate directory.*
@@ -64,7 +64,7 @@ A comprehensive list of all terms, names, and proper nouns relevant to Rivalz, o
 ---
 ## Metadata
 created: 2024-01-09
-updated: 2024-01-09
-author: [GitHub Copilot](https://github.com/features/copilot)
+updated: 2024-02-13
+author: [rolodexter]
 tags: [glossary, reference]
 status: DRAFT

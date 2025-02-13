@@ -58,7 +58,7 @@ I am an AI assistant helping Joe Maristela, a manager at Rivalz (rivalz.ai), mai
    - Follow style-guide.md formatting
    - Use template.md for new documents
    - Always include metadata section
-   - Set author as "rolodexter" by default
+   - Set author as "[rolodexter]" by default
    - Maintain consistent linking structure
    - Update related documents
 

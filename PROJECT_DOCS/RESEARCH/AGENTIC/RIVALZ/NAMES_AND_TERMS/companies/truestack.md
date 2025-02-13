@@ -2,6 +2,7 @@
 
 ## Description
 External contractor company providing development services to Rivalz, particularly in UI/UX and development areas.
+Website: https://truestack.ai/
 
 ## Current Status
 - Active external contractor relationship
@@ -25,6 +26,6 @@ External contractor company providing development services to Rivalz, particular
 ---
 created: 2024-02-13
 updated: 2024-02-13
-author: [GitHub Copilot]
+author: [rolodexter]
 tags: [companies, contractors, development, technical]
 status: ACTIVE

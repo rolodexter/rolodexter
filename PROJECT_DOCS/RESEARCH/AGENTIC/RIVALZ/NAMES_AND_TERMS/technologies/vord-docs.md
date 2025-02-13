@@ -1,20 +1,20 @@
 # Vord Documentation
 
 ## Overview
-Comprehensive documentation for the Vord platform, covering core components, technical architecture, and implementation guidelines.
+Comprehensive documentation for the Vord platform, an application designed specifically for crypto projects to build and deploy their own AI chatbots. The platform is focused on simplicity and ease of integration, with a clear roadmap for future AI agent capabilities.
 
 ## Core Components
 1. [Studio](/NAMES_AND_TERMS/technologies/vord-studio.md)
-   - Visual development environment
-   - Application builder interface
-   - Configuration management
-   - Resource orchestration
+   - Visual chatbot builder
+   - Simple configuration interface
+   - Template management
+   - Quick deployment tools
 
 2. [Orchestration Interface](/NAMES_AND_TERMS/technologies/vord-orchestration.md)
-   - Node-based workflow system
+   - Basic workflow system
    - Visual flow designer
-   - Component orchestration
-   - Execution management
+   - Bot orchestration
+   - Easy management
 
 3. [Chatbot Features](/NAMES_AND_TERMS/technologies/vord-chatbot.md)
    - AI-powered conversations
@@ -22,78 +22,39 @@ Comprehensive documentation for the Vord platform, covering core components, tec
    - Context management
    - Response generation
 
-## Architecture Overview
-1. Core Services
-   - Node orchestration engine
-   - State management system
-   - Variable scope handler
-   - Template processor
-   - Model integration layer
+## Current Focus
+1. Core Chatbot Tools
+   - Basic workflow creation
+   - Template management
+   - Bot configuration
+   - Simple deployment
 
-2. Data Management
-   - Text preprocessing
-   - Dataset management
-   - Citation handling
-   - Retrieval systems
-   - Content indexing
-   - Advanced cleaning
+2. Maintenance Priority
+   - Platform stability
+   - Core feature support
+   - Essential updates
+   - Bug fixes
 
-3. Integration Layer
-   - API management
-   - Authentication
-   - External services
-   - Model connectors
-   - Data pipelines
+## Future Roadmap
+1. Enhanced Workflows
+   - Inter-workflow communication
+   - Cross-workflow execution
+   - Advanced orchestration
 
-## Dataset Features
-1. Text Processing
-   - Advanced preprocessing
-   - Content cleaning
-   - Format conversion
-   - Metadata extraction
-   - Quality validation
-   - Schema validation
+2. Agent Evolution
+   - External agent integration (e.g., ElizaOS)
+   - Agent-to-agent communication
+   - Advanced workflow management
 
-2. Retrieval Systems
-   - Citation management
-   - Source tracking
-   - Relevance scoring
-   - Context gathering
-   - Query optimization
-   - Results ranking
+3. Platform Connections
+   - Twitter integration
+   - Telegram support
+   - Additional social platforms
 
-3. Configuration Options
-   - Processing rules
-   - Cleaning parameters
-   - Format settings
-   - Quality thresholds
-   - Index configuration
-   - Validation rules
-
-## Variable Management
-1. Scope Control
-   - Global scope
-   - Flow-level scope
-   - Node-level scope
-   - Lifetime management
-   - Access control
-   - Persistence rules
-
-2. Type System
-   - Basic types
-   - Complex objects
-   - Collections
-   - Custom types
-   - Type conversion
-   - Validation rules
-
-3. State Handling
-   - State persistence
-   - History tracking
-   - Rollback support
-   - Recovery options
-   - Change management
-   - Version control
+4. Crypto Features
+   - Transaction capabilities
+   - Wallet integration
+   - Blockchain interactions
 
 ## Documentation Structure
 - Platform Overview
@@ -108,10 +69,9 @@ Comprehensive documentation for the Vord platform, covering core components, tec
 - [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md)
 
 ---
-## Metadata
 created: 2024-02-13
 updated: 2024-02-13
-author: [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md)
+author: [rolodexter]
 tags: [documentation, vord, technical]
 status: ACTIVE
 priority: P1

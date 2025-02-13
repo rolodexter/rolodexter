@@ -31,7 +31,7 @@
 ## Metadata
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-author: rolodexter
+author: [rolodexter]
 tags: [tag1, tag2, tag3]
 status: [DRAFT|REVIEW|FINAL]
 priority: [P0|P1|P2|P3]

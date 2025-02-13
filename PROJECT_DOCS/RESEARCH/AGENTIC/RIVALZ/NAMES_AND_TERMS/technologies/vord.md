@@ -1,10 +1,10 @@
 # Vord
 
 ## Overview
-Core application module of the Rivalz Network, providing a development platform for AI applications through the VORD SDK.
+An application designed for crypto projects and developers to build and deploy their own AI chatbots, with future expansion into AI agents. Provides a simplified development platform through the VORD SDK.
 
 ## Description
-Platform technology enabling seamless integration of Rivalz's core modules ([ROME Protocol](../technologies/rome-protocol.md), [OCY DePIN](../technologies/ocy-depin.md), [ADCS](../technologies/adcs.md), [NOSTRINGS](../technologies/nostrings.md)) for building AI-powered applications.
+Platform focused on enabling crypto projects to create AI-powered chatbots, with a streamlined integration of core modules ([ROME Protocol](../technologies/rome-protocol.md), [OCY DePIN](../technologies/ocy-depin.md), [ADCS](../technologies/adcs.md), [NOSTRINGS](../technologies/nostrings.md)).
 
 ## Technical Architecture
 
@@ -30,11 +30,33 @@ Platform technology enabling seamless integration of Rivalz's core modules ([ROM
    - Resource access control
    - Identity management
 
-## SDK Features
-- Module abstraction layer
-- API integration
-- No-code builder support
-- Developer tooling
+## Current Features
+- AI chatbot development tools
+- Visual workflow builder
+- Template system
+- Basic integration capabilities
+- Development SDK access
+
+## Planned Features
+1. Workflow Capabilities
+   - Inter-workflow communication
+   - Cross-workflow execution
+   - Workflow orchestration
+
+2. Agent Integration
+   - External agent connections (e.g., ElizaOS)
+   - Agent-to-agent communication
+   - Agent workflow management
+
+3. Social Integration
+   - Twitter connectivity
+   - Telegram integration
+   - Additional platform support
+
+4. Crypto Features
+   - Transaction capabilities
+   - Wallet integration
+   - Blockchain interactions
 
 ## Performance Optimization Areas
 1. Transaction Optimization
@@ -70,10 +92,16 @@ Platform technology enabling seamless integration of Rivalz's core modules ([ROM
 - Platform Development: [Andrea Bittner](../people/andrea-bittner.md)
 
 ## Current Usage
-- Primary platform for [Sidelined AI](../products/sidelined-ai.md)
-- Supports multiple AI model integrations
-- Handles token-based authentication
-- Powers decentralized AI applications
+Primary focus: Enabling crypto projects to build AI chatbots
+Secondary applications:
+- Powers [Sidelined AI](../products/sidelined-ai.md) chatbot
+- Supports custom bot implementations
+- Provides developer SDK access
+
+## Development Priority
+- Current: Maintain core chatbot functionality
+- Future: Implement planned features after Glik development
+- Focus: Keep platform stable for existing users
 
 ## Related Terms
 - [ROME Protocol](../technologies/rome-protocol.md): Economic infrastructure integration

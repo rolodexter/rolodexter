@@ -1,7 +1,12 @@
 # Vord Chatbot Features
 
 ## Overview
-Comprehensive chatbot development and deployment system within the Vord platform, providing tools for building AI-powered conversational interfaces.
+Core functionality providing crypto projects with tools to build and deploy AI-powered chatbots. Designed for simple integration and customization, enabling projects to quickly implement conversational AI interfaces.
+
+## Target Users
+- Crypto projects needing AI chat capabilities
+- Blockchain developers building user interfaces
+- Projects wanting custom AI agents (future)
 
 ## Core Features
 
