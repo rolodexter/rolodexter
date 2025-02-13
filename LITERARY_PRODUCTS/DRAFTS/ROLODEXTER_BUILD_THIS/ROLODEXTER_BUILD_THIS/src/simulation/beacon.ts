@@ -57,6 +57,24 @@ class BeaconSimulation {
         YELLOW: "\x1b[93m"
     };
 
+    private readonly ANIMATION_CONFIG = {
+        duration: {
+            fast: 300,
+            medium: 600,
+            slow: 1000
+        },
+        easing: {
+            bounce: 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+            smooth: 'cubic-bezier(0.4, 0, 0.2, 1)',
+            sharp: 'cubic-bezier(0.4, 0, 1, 1)'
+        },
+        transitions: {
+            price: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease',
+            hover: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+            scale: 'transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)'
+        }
+    };
+
     private activeIdeas: Map<string, IdeaNFT>;
 
     constructor() {
@@ -298,6 +316,121 @@ Graduated Ideas: ${this.marketMetrics.graduatedIdeas}
 
     private sleep(ms: number): Promise<void> {
         return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    private updateIdeaInTable(idea: IdeaNFT) {
+        const row = document.getElementById(`idea-${idea.id}`);
+        if (!row) return;
+
+        const cells = row.getElementsByTagName('td');
+        const oldPrice = parseFloat(cells[1].textContent.replace('$', ''));
+        const newPrice = idea.currentPrice;
+        
+        // Enhanced price animation with floating numbers
+        cells[1].innerHTML = `
+            <div class="price-container">
+                <span class="current-price">$${newPrice.toFixed(4)}</span>
+                <span class="price-change ${newPrice > oldPrice ? 'price-up' : 'price-down'}">
+                    ${newPrice > oldPrice ? '+' : '-'}$${Math.abs(newPrice - oldPrice).toFixed(4)}
+                </span>
+            </div>
+        `;
+
+        // Add pulse animation for significant price changes
+        if (Math.abs(newPrice - oldPrice) / oldPrice > 0.01) {
+            cells[1].classList.add('pulse-animation');
+            setTimeout(() => cells[1].classList.remove('pulse-animation'), this.ANIMATION_CONFIG.duration.medium);
+        }
+
+        // Enhanced trend animation with smooth transitions
+        cells[2].className = idea.change24h >= 0 ? 'positive' : 'negative';
+        cells[2].innerHTML = `
+            <div class="trend-container">
+                <span class="trend-arrow ${idea.change24h >= 0 ? 'trend-up' : 'trend-down'}">
+                    ${idea.change24h >= 0 ? '↑' : '↓'}
+                </span>
+                <span class="trend-value">${Math.abs(idea.change24h).toFixed(2)}%</span>
+            </div>
+        `;
+
+        // Animated market cap progress
+        const graduationProgress = Math.min((idea.marketCap / 50000) * 100, 100);
+        cells[3].innerHTML = `
+            <div class="market-cap-container">
+                <span class="market-cap-value">$${this.formatNumber(idea.marketCap)}</span>
+                <div class="graduation-progress">
+                    <div class="graduation-progress-bar" style="width: ${graduationProgress}%">
+                        <div class="progress-glow"></div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Volume visualization with dynamic bars
+        const maxVolume = Math.max(...Array.from(this.activeIdeas.values()).map(i => i.volume24h));
+        const volumePercentage = (idea.volume24h / maxVolume) * 100;
+        cells[4].innerHTML = `
+            <div class="volume-container">
+                <span class="volume-value">$${this.formatNumber(idea.volume24h)}</span>
+                <div class="volume-bar">
+                    <div class="volume-bar-fill" 
+                         style="width: ${volumePercentage}%; 
+                                transition: width ${this.ANIMATION_CONFIG.duration.fast}ms ${this.ANIMATION_CONFIG.easing.smooth}">
+                        <div class="volume-pulse"></div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // ...existing code for graduation status...
+    }
+
+    private showNotification(message: string, type: string) {
+        const notification = document.createElement('div');
+        
+        // Enhanced notification animations
+        if (type === 'graduation') {
+            notification.innerHTML = `
+                <div class="notification-wrapper">
+                    <div class="notification-icon">
+                        <div class="graduation-cap">🎓</div>
+                        <div class="celebration-particles"></div>
+                    </div>
+                    <div class="notification-content">
+                        <div class="notification-title">Graduation Achievement!</div>
+                        <div class="notification-message">${message}</div>
+                    </div>
+                </div>
+            `;
+        } else {
+            notification.innerHTML = `
+                <div class="notification-wrapper">
+                    <div class="notification-content">
+                        <div class="notification-message">${message}</div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        notification.className = `notification ${type}`;
+        document.querySelector('.notifications-container').appendChild(notification);
+
+        // Smooth entry animation
+        requestAnimationFrame(() => {
+            notification.classList.add('show');
+            notification.style.animation = `
+                slideIn ${this.ANIMATION_CONFIG.duration.fast}ms ${this.ANIMATION_CONFIG.easing.bounce} forwards,
+                fadeIn ${this.ANIMATION_CONFIG.duration.fast}ms ${this.ANIMATION_CONFIG.easing.smooth} forwards
+            `;
+            
+            setTimeout(() => {
+                notification.style.animation = `
+                    slideOut ${this.ANIMATION_CONFIG.duration.fast}ms ${this.ANIMATION_CONFIG.easing.smooth} forwards,
+                    fadeOut ${this.ANIMATION_CONFIG.duration.fast}ms ${this.ANIMATION_CONFIG.easing.smooth} forwards
+                `;
+                setTimeout(() => notification.remove(), this.ANIMATION_CONFIG.duration.fast);
+            }, type === 'graduation' ? 6000 : 4000);
+        });
     }
 }
 

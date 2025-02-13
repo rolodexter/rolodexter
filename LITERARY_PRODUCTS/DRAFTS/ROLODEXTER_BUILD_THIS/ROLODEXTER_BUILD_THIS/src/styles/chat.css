@@ -1,0 +1,631 @@
+/* Chat System Styles */
+.chat-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.chat-toggle {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #3B82F6, #2563EB);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 1000;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Special highlighting during tour */
+.chat-toggle[data-tour-active="true"] {
+    animation: pulse-highlight 2s infinite;
+    z-index: 10001; /* Ensure visibility during tour */
+}
+
+@keyframes pulse-highlight {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+    50% { transform: scale(1.1); box-shadow: 0 0 0 10px rgba(59, 130, 246, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
+
+.chat-toggle:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+.chat-toggle.active {
+    transform: scale(0.9);
+}
+
+.chat-toggle .chat-icon {
+    font-size: 28px;
+    color: white;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Make the initial animation more noticeable */
+.chat-toggle.initial {
+    animation: bounceIn 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0); }
+    50% { transform: scale(1.2); }
+    70% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+}
+
+.unread-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #EF4444;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.unread-badge.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.chat-window {
+    width: 380px;
+    height: 580px;
+    background: linear-gradient(180deg, #1E293B, #0F172A);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    border-radius: 16px;
+    position: fixed;
+    right: 25px;
+    bottom: 100px;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+/* Ensure chat window is visible during tour */
+.chat-window[data-tour-active="true"] {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: all;
+    z-index: 10001;
+}
+
+.chat-window.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: all;
+}
+
+.chat-header {
+    padding: 15px;
+    border-bottom: 1px solid #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-title {
+    font-weight: 600;
+    color: #111827;
+}
+
+.minimize-chat {
+    background: none;
+    border: none;
+    color: #6B7280;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.minimize-chat:hover {
+    background: #F3F4F6;
+}
+
+.chat-threads {
+    padding: 10px;
+    border-bottom: 1px solid #E5E7EB;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.chat-thread {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.chat-thread:hover {
+    background: #F3F4F6;
+}
+
+.chat-thread.active {
+    background: #EBF5FF;
+}
+
+.thread-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.thread-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.thread-name {
+    font-weight: 500;
+    color: #111827;
+    margin-bottom: 2px;
+}
+
+.thread-preview {
+    font-size: 12px;
+    color: #6B7280;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.thread-unread {
+    background: #3B82F6;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chat-message {
+    max-width: 80%;
+    padding: 8px 12px;
+    border-radius: 12px;
+    position: relative;
+    animation: slideInMessage 0.3s ease-out forwards;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.chat-message.user {
+    align-self: flex-end;
+    background: #3B82F6;
+    color: white;
+}
+
+.chat-message.rolodexter {
+    align-self: flex-start;
+    background: linear-gradient(135deg, #2563eb11, #3b82f611);
+    border: 1px solid #3b82f622;
+}
+
+.chat-message.rolodexter .message-content {
+    font-family: "Monaco", "Consolas", monospace;
+    white-space: pre-wrap;
+}
+
+.chat-message.rolodexter .message-content:has(+ .technical-analysis) {
+    line-height: 1.6;
+}
+
+.chat-message.system {
+    align-self: center;
+    background: #E5E7EB;
+    color: #6B7280;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.message-time {
+    font-size: 10px;
+    opacity: 0.7;
+    margin-top: 4px;
+}
+
+.chat-input-container {
+    padding: 15px;
+    border-top: 1px solid #E5E7EB;
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input {
+    flex: 1;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 8px 15px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.chat-input:focus {
+    border-color: #3B82F6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+.send-message {
+    background: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.send-message:hover {
+    background: #2563EB;
+    transform: translateY(-1px);
+}
+
+.typing-indicator {
+    padding: 8px 12px;
+    background: #F3F4F6;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.typing-indicator span {
+    width: 6px;
+    height: 6px;
+    background: #6B7280;
+    border-radius: 50%;
+    animation: typingBounce 1s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typing {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+@keyframes typingBounce {
+    0%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-4px); }
+}
+
+.message-attachment {
+    margin-top: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.idea-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.idea-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.view-idea {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.view-idea:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Technical Analysis Formatting */
+.chat-message.rolodexter .message-content:has(+ .technical-analysis) {
+    line-height: 1.6;
+}
+
+/* Market Analysis Indicators */
+.indicator {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 0 2px;
+}
+
+.indicator.bullish {
+    background: #22c55e22;
+    color: #22c55e;
+}
+
+.indicator.bearish {
+    background: #ef444422;
+    color: #ef4444;
+}
+
+/* Chart Previews in Chat */
+.chart-preview {
+    margin: 8px 0;
+    padding: 12px;
+    background: #1e293b;
+    border-radius: 8px;
+    border: 1px solid #3b82f622;
+}
+
+/* Message Enter Animation */
+@keyframes slideInMessage {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Technical Metrics Styling */
+.metric-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.metric-item {
+    background: #2563eb11;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #3b82f622;
+}
+
+.metric-label {
+    font-size: 12px;
+    color: #64748b;
+}
+
+.metric-value {
+    font-size: 14px;
+    font-weight: 500;
+    color: #e2e8f0;
+}
+
+/* Highlight Important Market Data */
+.highlight-data {
+    color: #3b82f6;
+    font-weight: 500;
+}
+
+/* Market Analysis Visualizations */
+.market-chart {
+    background: #1e293b;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #3b82f622;
+}
+
+.price-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #1e293b;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin: 4px 0;
+}
+
+.price-main {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.price-value {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Monaco", monospace;
+}
+
+.price-change {
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.price-change.positive {
+    background: #22c55e22;
+    color: #22c55e;
+}
+
+.price-change.negative {
+    background: #ef444422;
+    color: #ef4444;
+}
+
+.indicator-gauge {
+    width: 100px;
+    height: 60px;
+    margin: 8px 0;
+}
+
+.analysis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.analysis-metric {
+    background: #1e293b;
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.metric-name {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.metric-value {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Monaco", monospace;
+}
+
+.sentiment-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sentiment-badge.bullish {
+    background: #22c55e22;
+    color: #22c55e;
+    border: 1px solid #22c55e44;
+}
+
+.sentiment-badge.bearish {
+    background: #ef444422;
+    color: #ef4444;
+    border: 1px solid #ef444444;
+}
+
+.chart-legend {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.legend-color {
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+}
+
+/* Animated Analysis Loading */
+.analysis-loading {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px;
+    background: #1e293b;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+
+.analysis-loading .dot {
+    width: 8px;
+    height: 8px;
+    background: #3b82f6;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+}
+
+.analysis-loading .dot:nth-child(2) { animation-delay: 0.2s; }
+.analysis-loading .dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0.5; }
+}
+
+/* Tooltip Styles */
+.analysis-tooltip {
+    position: absolute;
+    background: #1e293b;
+    border: 1px solid #3b82f644;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #e2e8f0;
+    pointer-events: none;
+    z-index: 1000;
+    transform: translate(-50%, -100%);
+    transition: opacity 0.2s ease;
+}
+
+/* Enhanced visibility for tour spotlights */
+.tour-spotlight-hole {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+    border-radius: 12px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+    .analysis-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .price-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

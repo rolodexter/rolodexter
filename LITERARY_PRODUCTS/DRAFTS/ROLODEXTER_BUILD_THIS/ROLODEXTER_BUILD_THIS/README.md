@@ -1,22 +1,28 @@
-# Beacon NFT Platform Simulation
+# Beacon Platform
 
-Generate ideas. Get paid for good ones.
-
-## Overview
-The Beacon platform enables users to mint any URL as a tradeable NFT. Each Idea NFT captures the potential value of online content through real-time trading and graduation mechanics.
+A real-time idea marketplace simulation platform where users can mint, trade, and graduate idea NFTs.
 
 ## Features
-- Mint any URL as an Idea NFT
-- AI-powered idea generation with rolodexter
-- Real-time trading simulation with market sentiment
-- Automatic graduation system for successful Ideas
-- Complete trading interface with real-time charts
-- Featured Ideas showcase (top 3 trending)
-- Solana DevNet integration
-- $ROLODEXTER token staking and governance
-- Continuous market simulation with 15+ active ideas
-- Enhanced notification system
-- Advanced trending detection
+
+### Core Features
+- Real-time idea NFT trading
+- Market simulation with dynamic pricing
+- Graduation mechanism for successful ideas
+- Portfolio management system
+
+### New Features
+- Interactive Messenger System
+  - Chat with rolodexter AI for market analysis
+  - Group chats with other idea creators
+  - Real-time market insights
+  - Technical analysis visualizations
+
+- Advanced Market Analysis
+  - Real-time technical indicators
+  - Sentiment analysis
+  - Price trend visualization
+  - Market momentum tracking
+  - Whale activity monitoring
 
 ## Getting Started
 
@@ -113,3 +119,19 @@ TECHNICAL STACK:
 - Solana DevNet integration
 - Real-time WebSocket updates
 - Automated backup system
+
+## Development
+- Node.js 18+
+- TypeScript 5.0+
+- Web Components
+- Canvas API for visualizations
+
+## Recent Updates
+- Enhanced tour system
+- Improved animation performance
+- Added market analysis capabilities
+- Real-time chat functionality
+- Technical analysis tools
+
+## License
+// ...existing code...

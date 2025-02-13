@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beacon Terminal</title>
     <link rel="stylesheet" href="src/styles/beacon.css">
+    <link rel="stylesheet" href="src/styles/chat.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Initialize Platform -->
+    <script type="module" src="src/simulation/init.js"></script>
 </head>
 <body>
     <div class="terminal-container">
@@ -361,8 +364,26 @@
     <div id="tourTooltip" class="tour-tooltip"></div>
 
     <!-- Notifications Container -->
-    <div id="notificationsContainer" class="notifications-container"></div>
+    <div class="notifications-container"></div>
 
-    <script src="src/simulation/beacon.js" type="module"></script>
+    <!-- Messenger Component -->
+    <div class="chat-container">
+        <div class="chat-toggle">
+            <span class="chat-icon">💬</span>
+            <span class="unread-badge"></span>
+        </div>
+        <div class="chat-window">
+            <div class="chat-header">
+                <div class="chat-title">Messages</div>
+                <button class="minimize-chat">_</button>
+            </div>
+            <div class="chat-threads"></div>
+            <div class="chat-messages"></div>
+            <div class="chat-input-container">
+                <input type="text" class="chat-input" placeholder="Ask rolodexter anything...">
+                <button class="send-message">↗️</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

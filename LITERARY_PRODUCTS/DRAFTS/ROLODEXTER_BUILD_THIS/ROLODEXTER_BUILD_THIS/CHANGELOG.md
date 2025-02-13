@@ -1,5 +1,32 @@
 # Changelog
 
+## [Unreleased]
+
+## [1.2.0] - 2024-02-14
+### Added
+- Interactive messenger system with rolodexter AI chat
+- Real-time market analysis capabilities
+- Technical analysis visualizations and charts
+- Group chat functionality for idea creators
+- Enhanced market sentiment analysis
+- Visual price trend indicators
+- Advanced market metrics in chat interface
+
+### Enhanced
+- Tour system to include messenger features
+- Animation timings for better UX
+- Market data visualization
+- Real-time price updates
+- Technical analysis tools
+
+### Fixed
+- Tour timing and cursor movement
+- Chat window responsiveness
+- Market data update frequency
+- Animation performance
+
+## [1.1.0] - 2024-02-01
+
 ## [1.0.3] - 2024-02-12 20:14
 
 ### Added

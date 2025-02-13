@@ -1,9 +1,66 @@
-class BeaconPlatform {
+// Import dependencies
+import { ChatSystem } from './chat.js';
+import { MarketVisuals } from './marketVisuals.js';
+
+export class BeaconPlatform {
     constructor() {
+        // Initialize core components
         this.activeIdeas = new Map();
-        this.initializeTokenChart();
-        this.setupEventListeners();
+        this.marketVisuals = new MarketVisuals();
+        this.chatSystem = new ChatSystem();
         
+        // Setup UI elements immediately
+        this.setupTourGuide();
+        this.setupNotifications();
+        this.setupMessenger();
+        
+        // Initialize mock data
+        this.initializeMockData();
+        
+        // Setup event listeners after DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => this.setupEventListeners());
+        } else {
+            this.setupEventListeners();
+        }
+    }
+
+    setupTourGuide() {
+        const cursor = document.createElement('div');
+        cursor.className = 'simulated-cursor';
+        document.body.appendChild(cursor);
+
+        const spotlight = document.createElement('div');
+        spotlight.className = 'tour-spotlight';
+        const spotlightHole = document.createElement('div');
+        spotlightHole.className = 'tour-spotlight-hole';
+        spotlight.appendChild(spotlightHole);
+        document.body.appendChild(spotlight);
+    }
+
+    setupNotifications() {
+        const container = document.querySelector('.notifications-container');
+        if (!container) {
+            const notificationContainer = document.createElement('div');
+            notificationContainer.className = 'notifications-container';
+            document.body.appendChild(notificationContainer);
+        }
+    }
+
+    setupMessenger() {
+        // Ensure messenger is visible and properly positioned
+        const chatContainer = document.querySelector('.chat-container');
+        if (chatContainer) {
+            chatContainer.style.zIndex = '1000';
+            chatContainer.style.visibility = 'visible';
+        }
+        
+        // Initialize chat system
+        this.chatSystem.createChatUI();
+    }
+
+    initializeMockData() {
+        // Initialize mock data and tour steps
         this.mockIdeas = [
             {
                 url: 'https://x.com/SpaceX/status/1889386081960730742',
@@ -240,6 +297,36 @@ class BeaconPlatform {
                 content: 'Stake $ROLODEXTER to earn platform fees and participate in idea curation.',
                 position: 'left',
                 spotlight: true
+            },
+            {
+                element: '.chat-toggle',
+                title: 'Market Analysis Assistant',
+                content: 'Meet rolodexter, your AI market analyst. Get real-time technical analysis, market sentiment, and idea validation.',
+                position: 'left',
+                spotlight: true,
+                action: async () => {
+                    await this.simulateClick('.chat-toggle');
+                }
+            },
+            {
+                element: '.chat-window',
+                title: 'Analyze Any Idea',
+                content: 'Ask rolodexter about price trends, trading volumes, or graduation potential for any idea NFT.',
+                position: 'left',
+                spotlight: true,
+                action: async () => {
+                    await this.simulateMarketAnalysisChat({
+                        query: 'What\'s your technical analysis for Space debris cleanup idea NFT?',
+                        ideaId: 'space-debris'
+                    });
+                }
+            },
+            {
+                element: '.chat-threads',
+                title: 'Connect with Creators',
+                content: 'Join group chats with other idea creators or have private discussions about market opportunities.',
+                position: 'left',
+                spotlight: true
             }
         ];
 
@@ -348,6 +435,102 @@ class BeaconPlatform {
                 spotlight: true
             }
         );
+
+        // Add messenger tour steps
+        this.tourSteps.push(
+            {
+                element: '.chat-toggle',
+                title: 'Messenger & Market Analysis',
+                content: 'Chat with rolodexter for real-time market analysis and connect with other idea creators.',
+                position: 'left',
+                spotlight: true,
+                action: async () => {
+                    await this.simulateClick('.chat-toggle');
+                }
+            },
+            {
+                element: '.chat-window',
+                title: 'Market Analysis Chat',
+                content: 'Ask rolodexter about market trends, technical analysis, and idea validation.',
+                position: 'left',
+                spotlight: true,
+                action: async () => {
+                    const chatSystem = document.querySelector('.chat-system');
+                    await this.simulateMarketAnalysisChat(chatSystem);
+                }
+            }
+        );
+
+        // Initialize rolodexter's market analysis responses
+        this.marketAnalysisResponses = {
+            technicalAnalysis: [
+                "Based on the 4-hour chart, {idea} shows a bullish divergence with RSI crossing above 30. Key resistance at ${price + 2.50}.",
+                "Volume analysis indicates strong accumulation for {idea}. MACD histogram turning positive suggests momentum shift.",
+                "Market structure for {idea} forming higher lows. Watch for breakout above ${price} with increased volume.",
+                "Fibonacci retracement levels suggest strong support at ${price * 0.786}. Graduation potential within 72 hours."
+            ],
+            marketSentiment: [
+                "Social sentiment analysis shows growing interest in {idea}. Mentions up 125% in the last 24h.",
+                "Institutional wallets accumulating {idea}. Smart money flow index trending positive.",
+                "Market makers building positions in {idea}. Order book shows strong bid support.",
+                "Whale tracking indicates notable accumulation of {idea} at current levels."
+            ],
+            ideaValidation: [
+                "Innovation score for {idea}: 8.5/10. Similar successful ideas had graduation rates of 85%.",
+                "Market timing analysis suggests optimal entry. Category momentum strongly positive.",
+                "Competitive analysis shows unique value proposition. Limited similar ideas in market.",
+                "Growth metrics indicate high graduation potential. User adoption curve accelerating."
+            ]
+        };
+    }
+
+    initializeUI() {
+        // Initialize chat system
+        this.chatSystem.createChatUI();
+        
+        // Initialize market data display
+        this.initializeMarketData();
+        
+        // Initialize charts
+        if (document.getElementById('tokenChart')) {
+            this.initializeTokenChart();
+        }
+        
+        // Setup event listeners
+        this.setupEventListeners();
+        
+        // Populate initial ideas table
+        this.populateIdeasTable();
+        
+        // Start market simulation
+        this.startMarketSimulation();
+    }
+
+    populateIdeasTable() {
+        const tbody = document.getElementById('activeIdeasList');
+        if (!tbody) return;
+        
+        // Clear existing content
+        tbody.innerHTML = '';
+        
+        // Add each idea to the table
+        this.mockIdeas.forEach(mockIdea => {
+            const idea = {
+                id: this.generateHash(),
+                ...mockIdea,
+                currentPrice: mockIdea.initialPrice,
+                marketCap: mockIdea.initialPrice * mockIdea.supply,
+                holders: Math.floor(mockIdea.supply * 0.4),
+                volume24h: mockIdea.initialPrice * mockIdea.supply * (Math.random() * 0.3),
+                change24h: (Math.random() * 20) - 10,
+                mintedAt: new Date(Date.now() - Math.random() * 86400000),
+                graduated: false,
+                graduationWarningShown: false
+            };
+            
+            this.activeIdeas.set(idea.id, idea);
+            this.addIdeaToTable(idea);
+        });
     }
 
     initializeTokenChart() {
@@ -472,6 +655,15 @@ class BeaconPlatform {
                 const filter = button.textContent.toLowerCase();
                 this.updatePortfolioView(filter);
             });
+        });
+
+        // Add chat system event listeners
+        document.querySelector('.chat-toggle')?.addEventListener('click', () => {
+            document.querySelector('.chat-window')?.classList.toggle('show');
+        });
+
+        document.querySelector('.minimize-chat')?.addEventListener('click', () => {
+            document.querySelector('.chat-window')?.classList.remove('show');
         });
     }
 
@@ -615,42 +807,20 @@ class BeaconPlatform {
     }
 
     startMarketSimulation() {
-        // Update prices more frequently
+        // Update prices every 1.5 seconds
         setInterval(() => this.updateMarketPrices(), 1500);
         
-        // Update trends more frequently
+        // Update trends every 20 seconds
         setInterval(() => this.updateMarketTrends(), 20000);
         
-        // Simulate new ideas being created (more frequently)
-        setInterval(() => {
-            // Maintain minimum 15 active ideas
-            if (this.activeIdeas.size < 15) {
-                this.simulateNewIdea();
-            }
-        }, 30000);
-        
-        // Update trading volume
+        // Update trading volume every 5 seconds
         setInterval(() => this.updateTradingVolumes(), 5000);
-
-        // Update featured ideas
+        
+        // Update featured ideas every 3 seconds
         setInterval(() => this.updateFeaturedIdeas(), 3000);
-
-        // More frequent notifications about market activity
-        setInterval(() => {
-            const ideas = Array.from(this.activeIdeas.values());
-            const randomIdea = ideas[Math.floor(Math.random() * ideas.length)];
-            
-            if (Math.random() > 0.7) {
-                const events = [
-                    `Whale accumulating ${new URL(randomIdea.url).hostname} 🐋`,
-                    `Strong buy signals for ${new URL(randomIdea.url).hostname} 📈`,
-                    `Unusual volume detected in ${new URL(randomIdea.url).hostname} 🚀`,
-                    `New analysis suggests ${new URL(randomIdea.url).hostname} undervalued 💎`,
-                    `Market makers interested in ${new URL(randomIdea.url).hostname} 👀`
-                ];
-                this.showNotification(events[Math.floor(Math.random() * events.length)], 'info');
-            }
-        }, 8000);
+        
+        // Update trending ideas every 10 seconds
+        setInterval(() => this.updateTrendingIdeas(), 10000);
     }
 
     updateMarketPrices() {
@@ -823,7 +993,7 @@ class BeaconPlatform {
         cells[2].className = idea.change24h >= 0 ? 'positive' : 'negative';
         cells[2].innerHTML = `
             <span class="trend-indicator ${idea.change24h >= 0 ? 'trend-up' : 'trend-down'}">
-                ${idea.change24h > 0 ? '↑' : '↓'} ${Math.abs(idea.change24h).toFixed(2)}%
+                ${idea.change24h >= 0 ? '↑' : '↓'} ${Math.abs(idea.change24h).toFixed(2)}%
             </span>
         `;
 
@@ -1018,24 +1188,44 @@ class BeaconPlatform {
         const element = document.querySelector(step.element);
         if (!element) return;
 
+        // Special handling for messenger steps
+        if (step.element === '.chat-toggle') {
+            // Ensure messenger button is highly visible
+            document.querySelector('.chat-toggle').classList.add('highlight-pulse');
+            // Wait slightly longer on messenger introduction
+            await this.sleep(800);
+        }
+
         // Remove highlight from previous elements
         document.querySelectorAll('[data-tour-active="true"]').forEach(el => {
             el.removeAttribute('data-tour-active');
+            el.classList.remove('highlight-pulse');
         });
 
         // Add highlight to current element
         element.setAttribute('data-tour-active', 'true');
 
-        // Move cursor to element with smoother animation
+        // Move cursor to element
         const rect = element.getBoundingClientRect();
         const targetX = rect.left + rect.width / 2;
         const targetY = rect.top + rect.height / 2;
         
         await this.moveCursor(cursor, targetX, targetY);
 
-        if (step.spotlight) {
+        // Enhanced spotlight for messenger features
+        if (step.element.includes('chat-')) {
+            spotlight.classList.add('visible', 'messenger-spotlight');
+            const padding = step.element === '.chat-toggle' ? 15 : 20;
+            Object.assign(spotlightHole.style, {
+                left: `${rect.left - padding}px`,
+                top: `${rect.top - padding}px`,
+                width: `${rect.width + (padding * 2)}px`,
+                height: `${rect.height + (padding * 2)}px`,
+                transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
+            });
+        } else {
+            spotlight.classList.remove('messenger-spotlight');
             spotlight.classList.add('visible');
-            // Position spotlight hole with padding for better visibility
             const padding = 10;
             Object.assign(spotlightHole.style, {
                 left: `${rect.left - padding}px`,
@@ -1045,8 +1235,14 @@ class BeaconPlatform {
             });
         }
 
-        // Enhanced tooltip positioning and visibility
+        // Enhanced tooltip for messenger features
         const tooltip = document.getElementById('tourTooltip');
+        if (step.element.includes('chat-')) {
+            tooltip.className = 'tour-tooltip messenger-tooltip';
+        } else {
+            tooltip.className = 'tour-tooltip';
+        }
+
         tooltip.innerHTML = `
             <div class="tour-tooltip-header">
                 <h3>${step.title}</h3>
@@ -1058,7 +1254,7 @@ class BeaconPlatform {
             </div>
         `;
 
-        // Position tooltip with smart placement
+        // Position tooltip
         const tooltipPos = this.calculateTooltipPosition(rect, step.position);
         Object.assign(tooltip.style, tooltipPos);
         tooltip.classList.add('visible');
@@ -1068,24 +1264,46 @@ class BeaconPlatform {
             await step.action();
         }
 
-        // Wait for next button or timeout
+        // Special handling for chat window step
+        if (step.element === '.chat-window') {
+            // Keep chat window visible longer to show the interaction
+            await new Promise(resolve => {
+                const nextBtn = tooltip.querySelector('.tour-next-btn');
+                nextBtn.onclick = () => {
+                    element.removeAttribute('data-tour-active');
+                    tooltip.classList.remove('visible');
+                    spotlight.classList.remove('visible', 'messenger-spotlight');
+                    resolve();
+                };
+                setTimeout(() => {
+                    if (tooltip.classList.contains('visible')) {
+                        element.removeAttribute('data-tour-active');
+                        tooltip.classList.remove('visible');
+                        spotlight.classList.remove('visible', 'messenger-spotlight');
+                        resolve();
+                    }
+                }, 8000); // Longer timeout for chat interaction
+            });
+            return;
+        }
+
+        // Standard step handling
         await new Promise(resolve => {
             const nextBtn = tooltip.querySelector('.tour-next-btn');
             nextBtn.onclick = () => {
                 element.removeAttribute('data-tour-active');
                 tooltip.classList.remove('visible');
-                spotlight.classList.remove('visible');
+                spotlight.classList.remove('visible', 'messenger-spotlight');
                 resolve();
             };
-            // Auto-advance timeout
             setTimeout(() => {
                 if (tooltip.classList.contains('visible')) {
                     element.removeAttribute('data-tour-active');
                     tooltip.classList.remove('visible');
-                    spotlight.classList.remove('visible');
+                    spotlight.classList.remove('visible', 'messenger-spotlight');
                     resolve();
                 }
-            }, 8000); // Extended from 5000 to give more time to read
+            }, 4000);
         });
     }
 
@@ -1172,8 +1390,8 @@ class BeaconPlatform {
         spotlight.appendChild(spotlightHole);
         document.body.appendChild(spotlight);
 
-        // Wait before starting tour
-        await this.sleep(2000);
+        // Reduced initial wait time
+        await this.sleep(1000); // Reduced from 2000ms to 1000ms
 
         // Run through each tour step
         for (const step of this.tourSteps) {
@@ -1188,7 +1406,7 @@ class BeaconPlatform {
     async moveCursor(cursor, targetX, targetY) {
         const startX = parseFloat(cursor.style.left) || 0;
         const startY = parseFloat(cursor.style.top) || 0;
-        const steps = 20;
+        const steps = 15; // Reduced from 20 for faster movement
         
         for (let i = 0; i <= steps; i++) {
             const progress = i / steps;
@@ -1198,7 +1416,7 @@ class BeaconPlatform {
             cursor.style.left = `${x}px`;
             cursor.style.top = `${y}px`;
             
-            await this.sleep(20);
+            await this.sleep(15); // Reduced from 20ms to 15ms for faster movement
         }
     }
 
@@ -1224,7 +1442,7 @@ class BeaconPlatform {
         element.value = '';
         for (const char of text) {
             element.value += char;
-            await this.sleep(50);
+            await this.sleep(25); // Reduced from 50ms to 25ms for faster typing
         }
     }
 
@@ -1383,6 +1601,91 @@ class BeaconPlatform {
             this.updatePortfolioView();
         }, 5000);
     }
+
+    async simulateMarketAnalysisChat(chatSystem) {
+        const messages = [
+            {
+                content: "Hi rolodexter! Can you analyze the Space debris cleanup NFT?",
+                sender: "user"
+            },
+            {
+                content: "📊 Quick Market Analysis for Space Debris Cleanup NFT:\n\n" +
+                        "Price: $2.45 (+15.3% 24h)\n" +
+                        "Volume: $125K (+85% 24h)\n" +
+                        "Market Cap: $12.25K\n\n" +
+                        "Graduation Progress: 24.5%\n\n" +
+                        "Would you like technical analysis, market sentiment, or idea validation metrics?",
+                sender: "rolodexter"
+            },
+            {
+                content: "Show me the technical analysis please",
+                sender: "user"
+            },
+            {
+                content: "🎯 Technical Analysis - Space Debris Cleanup NFT:\n\n" +
+                        "1. Price Action:\n" +
+                        "- Strong uptrend on 4H chart\n" +
+                        "- Trading above all EMAs\n" +
+                        "- Clear higher highs and lows\n\n" +
+                        "2. Key Levels:\n" +
+                        "- Support: $2.30\n" +
+                        "- Resistance: $2.75\n" +
+                        "- Breakout target: $3.15\n\n" +
+                        "3. Indicators:\n" +
+                        "- RSI: 65 (Bullish)\n" +
+                        "- MACD: Golden Cross forming\n" +
+                        "- Volume: Above 20D average\n\n" +
+                        "🔮 Forecast: High probability of reaching $3.15 within 48h",
+                sender: "rolodexter"
+            }
+        ];
+
+        for (const message of messages) {
+            await this.sleep(800); // Slightly faster message timing
+            await this.simulateTypingMessage(message, message.sender === 'rolodexter' ? 20 : 10);
+        }
+    }
+
+    async simulateTypingMessage(message, typingSpeed = 10) {
+        const messageContainer = document.createElement('div');
+        messageContainer.className = `chat-message ${message.sender}`;
+        
+        // Enhanced message styling for rolodexter's analysis
+        if (message.sender === 'rolodexter' && message.content.includes('Technical Analysis')) {
+            messageContainer.classList.add('analysis-message');
+        }
+        
+        messageContainer.innerHTML = `<div class="message-content"></div>`;
+        document.querySelector('.chat-messages').appendChild(messageContainer);
+
+        const content = messageContainer.querySelector('.message-content');
+        
+        // Show typing indicator
+        if (message.sender === 'rolodexter') {
+            const typingIndicator = document.createElement('div');
+            typingIndicator.className = 'typing-indicator';
+            typingIndicator.innerHTML = '<span></span><span></span><span></span>';
+            messageContainer.appendChild(typingIndicator);
+            await this.sleep(500);
+            typingIndicator.remove();
+        }
+
+        // Type out the message
+        for (const char of message.content) {
+            content.textContent += char;
+            await this.sleep(typingSpeed);
+        }
+
+        // Scroll to latest message
+        const messagesContainer = document.querySelector('.chat-messages');
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+}
+
+// Initialize platform when running in browser
+if (typeof window !== 'undefined') {
+    // Make BeaconPlatform available globally
+    window.BeaconPlatform = BeaconPlatform;
 }
 
 // Only add browser-specific code if we're in a browser environment
