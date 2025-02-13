@@ -16,9 +16,14 @@
 2. Technical Review
 3. Upcoming Deliverables
 4. Action Items
+5. Team Structure Clarification
+   - Truestack.ai relationship status
+   - Documentation updates needed
 
 ## Discussion Points
-<!-- To be filled during/after the meeting -->
+- Clarify Truestack.ai team members' status (Thai and Thien)
+- Update team documentation accordingly
+- Review any implications for project documentation and access
 
 ## Action Items
 <!-- To be filled during/after the meeting -->

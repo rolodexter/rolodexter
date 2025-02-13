@@ -52,7 +52,8 @@ A comprehensive list of all terms, names, and proper nouns relevant to Rivalz, o
 - [SKChain](/NAMES_AND_TERMS/companies/skchain.md) - Strategic consulting partner
 
 ## T
-- [Thai Le](/NAMES_AND_TERMS/people/thai-le.md) - UI/UX specialist, template management
+- [Thai Le](/NAMES_AND_TERMS/people/thai-le.md) - UI/UX specialist from Truestack.ai (external contractor)
+- [Truestack.ai](/NAMES_AND_TERMS/companies/truestack.md) - External contractor company providing development and UI/UX services
 
 ## V
 - [Vord](/NAMES_AND_TERMS/technologies/vord.md) - Core development platform and SDK used as foundation for Sidelined.ai and other Rivalz projects
