@@ -3,22 +3,28 @@ import { BeaconPlatform } from './beacon.js';
 import { ChatSystem } from './chat.js';
 import { MarketVisuals } from './marketVisuals.js';
 
-// Create and export a singleton instance
-export const platform = new BeaconPlatform();
-
-// Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-    // Initialize platform components
-    platform.initializeUI();
+    const platform = new BeaconPlatform();
     
-    // Start market simulation with a slight delay to ensure DOM elements are ready
+    // Register platform globally
+    window.platform = platform;
+    
+    // Initialize core components first
+    platform.activeIdeas = new Map();
+    platform.initializeTokenChart();
+    platform.setupEventListeners();
+    
+    // Initialize mock data and market data
+    platform.initializeMockData();
+    platform.initializeMarketData();
+    
+    // Start market simulation with slight delay to ensure DOM is ready
     setTimeout(() => {
-        platform.initializeMarketData();
         platform.startMarketSimulation();
         
-        // Start product tour after a brief delay
+        // Start product tour after market is running
         setTimeout(() => {
             platform.startProductTour();
-        }, 1000);
-    }, 100);
+        }, 2000);
+    }, 500);
 });

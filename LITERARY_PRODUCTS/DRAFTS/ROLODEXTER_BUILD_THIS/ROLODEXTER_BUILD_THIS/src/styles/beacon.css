@@ -816,7 +816,7 @@ body {
 
 .price-up::after {
     content: '↑';
-    color: var(--success);
+    color: var (--success);
 }
 
 .price-down::after {
@@ -1069,20 +1069,20 @@ body {
 }
 
 .simulated-cursor {
-    width: 20px;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.8);
+    width: 24px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 50%;
     position: fixed;
     pointer-events: none;
     z-index: 10000;
     transition: transform 0.1s;
-    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
 }
 
 .simulated-cursor.clicking {
     transform: scale(0.8);
-    background: rgba(59, 130, 246, 0.8);
+    background: rgba(59, 130, 246, 0.9);
 }
 
 .simulated-cursor::after {
@@ -1090,8 +1090,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     background: rgba(59, 130, 246, 0.3);
     transform: translate(-50%, -50%) scale(0);

@@ -4,25 +4,94 @@ import { MarketVisuals } from './marketVisuals.js';
 
 export class BeaconPlatform {
     constructor() {
-        // Initialize core components
+        // Initialize core components first
         this.activeIdeas = new Map();
-        this.marketVisuals = new MarketVisuals();
-        this.chatSystem = new ChatSystem();
+        this.initializeTokenChart();
+        this.setupEventListeners();
         
-        // Setup UI elements immediately
-        this.setupTourGuide();
-        this.setupNotifications();
-        this.setupMessenger();
-        
-        // Initialize mock data
+        // Initialize mock data and simulation settings
         this.initializeMockData();
-        
-        // Setup event listeners after DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => this.setupEventListeners());
-        } else {
-            this.setupEventListeners();
-        }
+
+        // Initialize tour steps before anything else
+        this.tourSteps = [
+            {
+                element: '.logo',
+                title: 'Welcome to Beacon',
+                content: 'Generate ideas. Get paid for good ones.',
+                position: 'right',
+                spotlight: true
+            },
+            {
+                element: '.idea-creation',
+                title: 'Create New Ideas',
+                content: 'Turn any URL into a tradeable NFT. This is where your idea journey begins.',
+                position: 'right',
+                spotlight: true
+            },
+            {
+                element: '#ideaUrl',
+                title: 'URL Input',
+                content: 'Paste any URL you think has potential value.',
+                position: 'right',
+                spotlight: true,
+                action: async () => {
+                    const url = 'https://x.com/SpaceX/status/1889386081960730742';
+                    await this.simulateTyping('#ideaUrl', url);
+                }
+            },
+            {
+                element: '#aiGenerateBtn',
+                title: 'AI Assistance',
+                content: 'Let rolodexter help generate a compelling idea description.',
+                position: 'right',
+                spotlight: true,
+                action: async () => {
+                    await this.simulateClick('#aiGenerateBtn');
+                }
+            },
+            {
+                element: '.chat-toggle',
+                title: 'Market Analysis Assistant',
+                content: 'Chat with rolodexter for real-time market analysis and connect with other idea creators.',
+                position: 'left',
+                spotlight: true,
+                action: async () => {
+                    await this.simulateClick('.chat-toggle');
+                }
+            },
+            {
+                element: '.ideas-table',
+                title: 'Active Ideas Market',
+                content: 'Watch ideas trade in real-time. Ideas graduate when they reach $50K market cap!',
+                position: 'left',
+                spotlight: true
+            },
+            {
+                element: '.trending',
+                title: 'Trending Ideas',
+                content: 'See which ideas are gaining momentum right now.',
+                position: 'right',
+                spotlight: true
+            },
+            {
+                element: '.featured-ideas',
+                title: 'Featured Ideas',
+                content: 'Top performing ideas with the highest potential.',
+                position: 'left',
+                spotlight: true
+            },
+            {
+                element: '.token-card',
+                title: '$ROLODEXTER Token',
+                content: 'Stake $ROLODEXTER to earn platform fees and participate in idea curation.',
+                position: 'left',
+                spotlight: true
+            }
+        ];
+
+        this.currentTourStep = 0;
+        this.initializeMarketData();
+        this.startMarketSimulation();
     }
 
     setupTourGuide() {
@@ -1390,8 +1459,8 @@ export class BeaconPlatform {
         spotlight.appendChild(spotlightHole);
         document.body.appendChild(spotlight);
 
-        // Reduced initial wait time
-        await this.sleep(1000); // Reduced from 2000ms to 1000ms
+        // Wait before starting tour
+        await this.sleep(1000);
 
         // Run through each tour step
         for (const step of this.tourSteps) {
@@ -1406,7 +1475,7 @@ export class BeaconPlatform {
     async moveCursor(cursor, targetX, targetY) {
         const startX = parseFloat(cursor.style.left) || 0;
         const startY = parseFloat(cursor.style.top) || 0;
-        const steps = 15; // Reduced from 20 for faster movement
+        const steps = 20;
         
         for (let i = 0; i <= steps; i++) {
             const progress = i / steps;
@@ -1416,7 +1485,7 @@ export class BeaconPlatform {
             cursor.style.left = `${x}px`;
             cursor.style.top = `${y}px`;
             
-            await this.sleep(15); // Reduced from 20ms to 15ms for faster movement
+            await this.sleep(20);
         }
     }
 
