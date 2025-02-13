@@ -60,10 +60,10 @@ Each entry should include:
 
 #### Added
 - Core technology documentation:
-  - [[arbitrum-orbit]] Layer-3 scaling framework
-  - [[rome-protocol]] Agent orchestration system
-  - [[maso]] Swarm management system
-  - [[ocy-depin]] Infrastructure network
+  - [arbitrum-orbit](/NAMES_AND_TERMS/technologies/arbitrum-orbit.md) Layer-3 scaling framework
+  - [rome-protocol](/NAMES_AND_TERMS/technologies/rome-protocol.md) Agent orchestration system
+  - [maso](/NAMES_AND_TERMS/technologies/maso.md) Swarm management system
+  - [ocy-depin](/NAMES_AND_TERMS/technologies/ocy-depin.md) Infrastructure network
 
 #### Modified
 - Updated glossary with new technical terms
@@ -86,26 +86,24 @@ Each entry should include:
 - [P1] Infrastructure integration details
 
 #### Related Documents
-- [[arbitrum-orbit]]
-- [[rome-protocol]]
-- [[maso]]
-- [[ocy-depin]]
-- [[glossary]]
+- [arbitrum-orbit](/NAMES_AND_TERMS/technologies/arbitrum-orbit.md)
+- [rome-protocol](/NAMES_AND_TERMS/technologies/rome-protocol.md)
+- [maso](/NAMES_AND_TERMS/technologies/maso.md)
+- [ocy-depin](/NAMES_AND_TERMS/technologies/ocy-depin.md)
+- [glossary](/NAMES_AND_TERMS/glossary.md)
 
 ### 2024-01-09 (Update 3)
-**Author**: [[github-copilot]]
+**Author**: [github-copilot](/NAMES_AND_TERMS/people/github-copilot.md)
 
 #### Added
 - Detailed technical documentation:
-  - Core module integration details in [[vord]]
-  - [[adcs]] connectivity module documentation
-  - [[nostrings]] identity and resource management documentation
+  - Core module integration details in [vord](/NAMES_AND_TERMS/technologies/vord.md)
+  - [adcs](/NAMES_AND_TERMS/technologies/adcs.md) connectivity module documentation
+  - [nostrings](/NAMES_AND_TERMS/technologies/nostrings.md) identity and resource management documentation
   - Performance optimization guidelines
-- Module performance metrics and optimization strategies
-- Technical architecture diagrams and relationships
 
 #### Modified
-- Enhanced [[vord]] documentation with detailed module integration
+- Enhanced [vord](/NAMES_AND_TERMS/technologies/vord.md) documentation with detailed module integration
 - Updated glossary with technical terms
 - Expanded core module relationships and dependencies
 
@@ -125,11 +123,11 @@ Each entry should include:
 - [P1] Technical specification updates
 
 #### Related Documents
-- [[vord]]
-- [[adcs]]
-- [[nostrings]]
-- [[performance-optimization-guidelines]]
-- [[glossary]]
+- [vord](/NAMES_AND_TERMS/technologies/vord.md)
+- [adcs](/NAMES_AND_TERMS/technologies/adcs.md)
+- [nostrings](/NAMES_AND_TERMS/technologies/nostrings.md)
+- [performance-optimization-guidelines](/documentation/performance-optimization-guidelines.md)
+- [glossary](/NAMES_AND_TERMS/glossary.md)
 
 ### 2024-01-09 (Update 4)
 **Author**: [[github-copilot]]
@@ -246,6 +244,26 @@ Each entry should include:
 - [[51-nodes]]: Updated company information
 - [[skchain]]: Related partner context
 - [[meetings/2024-01-meeting-skchain-igor]]: Upcoming discussion
+
+### 2024-02-12
+**Author**: [GitHub Copilot]
+
+#### Added
+- Created meeting notes template for Dat Team Sync (Feb 12, 2025)
+
+#### Documentation
+- Added meeting preparation document
+- Set up structure for action item tracking
+
+#### Knowledge Graph Operations
+- Created new meeting documentation
+- Established attendee tracking
+
+#### Priority Updates
+- [P1] Meeting preparation and documentation
+
+#### Related Documents
+- [meetings/2025-02-12-dat-team-sync.md](/meetings/2025-02-12-dat-team-sync.md)
 
 ### 2024-02-13
 **Author**: [GitHub Copilot](https://github.com/features/copilot)
