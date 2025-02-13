@@ -4,107 +4,76 @@ import { MarketVisuals } from './marketVisuals.js';
 
 export class BeaconPlatform {
     constructor() {
+        // Set default username
+        this.username = 'JoeMaristela';
+        this.tourStarted = false;
+        this.cursor = null;
+        this.spotlight = null;
+        
         // Initialize core components first
         this.activeIdeas = new Map();
-        this.initializeTokenChart();
-        this.setupEventListeners();
-        
-        // Initialize mock data and simulation settings
         this.initializeMockData();
-
-        // Initialize tour steps before anything else
-        this.tourSteps = [
-            {
-                element: '.logo',
-                title: 'Welcome to Beacon',
-                content: 'Generate ideas. Get paid for good ones.',
-                position: 'right',
-                spotlight: true
-            },
-            {
-                element: '.idea-creation',
-                title: 'Create New Ideas',
-                content: 'Turn any URL into a tradeable NFT. This is where your idea journey begins.',
-                position: 'right',
-                spotlight: true
-            },
-            {
-                element: '#ideaUrl',
-                title: 'URL Input',
-                content: 'Paste any URL you think has potential value.',
-                position: 'right',
-                spotlight: true,
-                action: async () => {
-                    const url = 'https://x.com/SpaceX/status/1889386081960730742';
-                    await this.simulateTyping('#ideaUrl', url);
-                }
-            },
-            {
-                element: '#aiGenerateBtn',
-                title: 'AI Assistance',
-                content: 'Let rolodexter help generate a compelling idea description.',
-                position: 'right',
-                spotlight: true,
-                action: async () => {
-                    await this.simulateClick('#aiGenerateBtn');
-                }
-            },
-            {
-                element: '.chat-toggle',
-                title: 'Market Analysis Assistant',
-                content: 'Chat with rolodexter for real-time market analysis and connect with other idea creators.',
-                position: 'left',
-                spotlight: true,
-                action: async () => {
-                    await this.simulateClick('.chat-toggle');
-                }
-            },
-            {
-                element: '.ideas-table',
-                title: 'Active Ideas Market',
-                content: 'Watch ideas trade in real-time. Ideas graduate when they reach $50K market cap!',
-                position: 'left',
-                spotlight: true
-            },
-            {
-                element: '.trending',
-                title: 'Trending Ideas',
-                content: 'See which ideas are gaining momentum right now.',
-                position: 'right',
-                spotlight: true
-            },
-            {
-                element: '.featured-ideas',
-                title: 'Featured Ideas',
-                content: 'Top performing ideas with the highest potential.',
-                position: 'left',
-                spotlight: true
-            },
-            {
-                element: '.token-card',
-                title: '$ROLODEXTER Token',
-                content: 'Stake $ROLODEXTER to earn platform fees and participate in idea curation.',
-                position: 'left',
-                spotlight: true
-            }
-        ];
-
-        this.currentTourStep = 0;
+        
+        // Initialize tour components immediately
+        this.setupTourGuide();
+        this.setupNotifications();
+        this.setupMessenger();
+        
+        // Start core features
+        this.initializeTokenChart();
         this.initializeMarketData();
         this.startMarketSimulation();
+        this.setupEventListeners();
+        
+        // Start tour after a brief delay
+        setTimeout(() => {
+            if (!this.tourStarted) {
+                this.startProductTour();
+            }
+        }, 1000);
     }
 
     setupTourGuide() {
-        const cursor = document.createElement('div');
-        cursor.className = 'simulated-cursor';
-        document.body.appendChild(cursor);
+        // Create and store cursor reference
+        this.cursor = document.createElement('div');
+        this.cursor.className = 'simulated-cursor';
+        this.cursor.style.position = 'fixed';
+        this.cursor.style.width = '20px';
+        this.cursor.style.height = '20px';
+        this.cursor.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+        this.cursor.style.borderRadius = '50%';
+        this.cursor.style.pointerEvents = 'none';
+        this.cursor.style.zIndex = '10000';
+        this.cursor.style.transform = 'translate(-50%, -50%)';
+        this.cursor.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+        this.cursor.style.boxShadow = '0 0 0 2px rgba(0, 82, 204, 0.8)';
+        document.body.appendChild(this.cursor);
 
-        const spotlight = document.createElement('div');
-        spotlight.className = 'tour-spotlight';
+        // Create and store spotlight reference
+        this.spotlight = document.createElement('div');
+        this.spotlight.className = 'tour-spotlight';
         const spotlightHole = document.createElement('div');
         spotlightHole.className = 'tour-spotlight-hole';
-        spotlight.appendChild(spotlightHole);
-        document.body.appendChild(spotlight);
+        this.spotlight.appendChild(spotlightHole);
+        document.body.appendChild(this.spotlight);
+
+        // Add cursor animation styles
+        const style = document.createElement('style');
+        style.textContent = `
+            .simulated-cursor {
+                animation: pulse 2s infinite;
+            }
+            @keyframes pulse {
+                0% { transform: translate(-50%, -50%) scale(1); }
+                50% { transform: translate(-50%, -50%) scale(1.2); }
+                100% { transform: translate(-50%, -50%) scale(1); }
+            }
+            .simulated-cursor.clicking {
+                transform: translate(-50%, -50%) scale(0.8);
+                background-color: rgba(255, 255, 255, 1);
+            }
+        `;
+        document.head.appendChild(style);
     }
 
     setupNotifications() {
@@ -554,52 +523,23 @@ export class BeaconPlatform {
     }
 
     initializeUI() {
-        // Initialize chat system
-        this.chatSystem.createChatUI();
-        
-        // Initialize market data display
+        this.initializeTokenChart();
         this.initializeMarketData();
-        
-        // Initialize charts
-        if (document.getElementById('tokenChart')) {
-            this.initializeTokenChart();
-        }
-        
-        // Setup event listeners
-        this.setupEventListeners();
-        
-        // Populate initial ideas table
-        this.populateIdeasTable();
-        
-        // Start market simulation
         this.startMarketSimulation();
-    }
-
-    populateIdeasTable() {
-        const tbody = document.getElementById('activeIdeasList');
-        if (!tbody) return;
         
-        // Clear existing content
-        tbody.innerHTML = '';
+        // Setup required tour components
+        this.setupTourGuide();
+        this.setupNotifications();
+        this.setupMessenger();
         
-        // Add each idea to the table
-        this.mockIdeas.forEach(mockIdea => {
-            const idea = {
-                id: this.generateHash(),
-                ...mockIdea,
-                currentPrice: mockIdea.initialPrice,
-                marketCap: mockIdea.initialPrice * mockIdea.supply,
-                holders: Math.floor(mockIdea.supply * 0.4),
-                volume24h: mockIdea.initialPrice * mockIdea.supply * (Math.random() * 0.3),
-                change24h: (Math.random() * 20) - 10,
-                mintedAt: new Date(Date.now() - Math.random() * 86400000),
-                graduated: false,
-                graduationWarningShown: false
-            };
-            
-            this.activeIdeas.set(idea.id, idea);
-            this.addIdeaToTable(idea);
-        });
+        // Initialize tour after DOM is fully loaded
+        if (document.readyState === 'complete') {
+            this.startProductTour();
+        } else {
+            window.addEventListener('load', () => {
+                this.startProductTour();
+            });
+        }
     }
 
     initializeTokenChart() {
@@ -734,6 +674,54 @@ export class BeaconPlatform {
         document.querySelector('.minimize-chat')?.addEventListener('click', () => {
             document.querySelector('.chat-window')?.classList.remove('show');
         });
+
+        // Setup filter and sort buttons
+        const filterBtn = document.querySelector('[data-filter-type]');
+        const sortBtn = document.querySelector('[data-sort-type]');
+
+        if (filterBtn) {
+            filterBtn.addEventListener('click', () => {
+                const currentState = filterBtn.getAttribute('data-active') === 'true';
+                filterBtn.setAttribute('data-active', !currentState);
+                
+                // Toggle filter options
+                const filters = ['All', 'Active', 'About to Graduate', 'Graduated'];
+                const currentFilter = filters[Math.floor(Math.random() * filters.length)];
+                filterBtn.innerHTML = `
+                    <span class="icon">📊</span>
+                    Filter: ${currentFilter}
+                    <span class="icon">▾</span>
+                `;
+            });
+        }
+
+        if (sortBtn) {
+            sortBtn.addEventListener('click', () => {
+                const currentState = sortBtn.getAttribute('data-active') === 'true';
+                sortBtn.setAttribute('data-active', !currentState);
+                
+                // Toggle sort options
+                const sorts = ['Price ↑', 'Price ↓', 'Volume ↑', 'Volume ↓'];
+                const currentSort = sorts[Math.floor(Math.random() * sorts.length)];
+                sortBtn.innerHTML = `
+                    <span class="icon">↕️</span>
+                    Sort: ${currentSort}
+                    <span class="icon">▾</span>
+                `;
+            });
+        }
+
+        // Update wallet info with username
+        const walletInfo = document.querySelector('.wallet-info');
+        if (walletInfo) {
+            walletInfo.innerHTML = `
+                <span class="wallet-balance">24,500 $ROLODEXTER</span>
+                <div class="wallet-user">
+                    <span class="username">${this.username}</span>
+                    <button class="wallet-address">7x24...f8e9</button>
+                </div>
+            `;
+        }
     }
 
     async handleMintIdea() {
@@ -1257,14 +1245,6 @@ export class BeaconPlatform {
         const element = document.querySelector(step.element);
         if (!element) return;
 
-        // Special handling for messenger steps
-        if (step.element === '.chat-toggle') {
-            // Ensure messenger button is highly visible
-            document.querySelector('.chat-toggle').classList.add('highlight-pulse');
-            // Wait slightly longer on messenger introduction
-            await this.sleep(800);
-        }
-
         // Remove highlight from previous elements
         document.querySelectorAll('[data-tour-active="true"]').forEach(el => {
             el.removeAttribute('data-tour-active');
@@ -1274,17 +1254,25 @@ export class BeaconPlatform {
         // Add highlight to current element
         element.setAttribute('data-tour-active', 'true');
 
-        // Move cursor to element
+        // Calculate cursor position relative to element
         const rect = element.getBoundingClientRect();
-        const targetX = rect.left + rect.width / 2;
-        const targetY = rect.top + rect.height / 2;
-        
-        await this.moveCursor(cursor, targetX, targetY);
+        const targetX = rect.left + (rect.width / 2);
+        const targetY = rect.top + (rect.height / 2);
 
-        // Enhanced spotlight for messenger features
-        if (step.element.includes('chat-')) {
-            spotlight.classList.add('visible', 'messenger-spotlight');
-            const padding = step.element === '.chat-toggle' ? 15 : 20;
+        // Ensure cursor is visible and move it
+        if (cursor) {
+            cursor.style.display = 'block';
+            cursor.style.opacity = '1';
+            await this.moveCursor(cursor, targetX, targetY);
+
+            // Add pulse animation after movement
+            cursor.style.animation = 'pulse 2s infinite';
+        }
+
+        // Update spotlight position
+        if (spotlight && spotlightHole) {
+            spotlight.classList.add('visible');
+            const padding = step.element.includes('chat-') ? 15 : 10;
             Object.assign(spotlightHole.style, {
                 left: `${rect.left - padding}px`,
                 top: `${rect.top - padding}px`,
@@ -1292,123 +1280,80 @@ export class BeaconPlatform {
                 height: `${rect.height + (padding * 2)}px`,
                 transition: 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
             });
-        } else {
-            spotlight.classList.remove('messenger-spotlight');
-            spotlight.classList.add('visible');
-            const padding = 10;
-            Object.assign(spotlightHole.style, {
-                left: `${rect.left - padding}px`,
-                top: `${rect.top - padding}px`,
-                width: `${rect.width + (padding * 2)}px`,
-                height: `${rect.height + (padding * 2)}px`
-            });
         }
 
-        // Enhanced tooltip for messenger features
+        // Show tooltip
         const tooltip = document.getElementById('tourTooltip');
-        if (step.element.includes('chat-')) {
-            tooltip.className = 'tour-tooltip messenger-tooltip';
-        } else {
-            tooltip.className = 'tour-tooltip';
+        if (tooltip) {
+            tooltip.className = `tour-tooltip ${step.element.includes('chat-') ? 'messenger-tooltip' : ''}`;
+            tooltip.innerHTML = `
+                <div class="tour-tooltip-header">
+                    <h3>${step.title}</h3>
+                    <span class="tour-step">${this.tourSteps.indexOf(step) + 1}/${this.tourSteps.length}</span>
+                </div>
+                <div class="tour-tooltip-content">${step.content}</div>
+                <div class="tour-tooltip-footer">
+                    <button class="tour-next-btn">Continue</button>
+                </div>
+            `;
+
+            const tooltipPos = this.calculateTooltipPosition(rect, step.position);
+            Object.assign(tooltip.style, tooltipPos);
+            tooltip.classList.add('visible');
         }
-
-        tooltip.innerHTML = `
-            <div class="tour-tooltip-header">
-                <h3>${step.title}</h3>
-                <span class="tour-step">${this.tourSteps.indexOf(step) + 1}/${this.tourSteps.length}</span>
-            </div>
-            <div class="tour-tooltip-content">${step.content}</div>
-            <div class="tour-tooltip-footer">
-                <button class="tour-next-btn">Continue</button>
-            </div>
-        `;
-
-        // Position tooltip
-        const tooltipPos = this.calculateTooltipPosition(rect, step.position);
-        Object.assign(tooltip.style, tooltipPos);
-        tooltip.classList.add('visible');
 
         // Perform step action if any
         if (step.action) {
+            if (cursor) cursor.classList.add('clicking');
             await step.action();
+            if (cursor) cursor.classList.remove('clicking');
         }
 
-        // Special handling for chat window step
-        if (step.element === '.chat-window') {
-            // Keep chat window visible longer to show the interaction
-            await new Promise(resolve => {
-                const nextBtn = tooltip.querySelector('.tour-next-btn');
+        // Wait for next button click or timeout
+        await new Promise(resolve => {
+            const nextBtn = tooltip?.querySelector('.tour-next-btn');
+            if (nextBtn) {
                 nextBtn.onclick = () => {
-                    element.removeAttribute('data-tour-active');
                     tooltip.classList.remove('visible');
-                    spotlight.classList.remove('visible', 'messenger-spotlight');
+                    spotlight?.classList.remove('visible');
                     resolve();
                 };
-                setTimeout(() => {
-                    if (tooltip.classList.contains('visible')) {
-                        element.removeAttribute('data-tour-active');
-                        tooltip.classList.remove('visible');
-                        spotlight.classList.remove('visible', 'messenger-spotlight');
-                        resolve();
-                    }
-                }, 8000); // Longer timeout for chat interaction
-            });
-            return;
-        }
-
-        // Standard step handling
-        await new Promise(resolve => {
-            const nextBtn = tooltip.querySelector('.tour-next-btn');
-            nextBtn.onclick = () => {
-                element.removeAttribute('data-tour-active');
-                tooltip.classList.remove('visible');
-                spotlight.classList.remove('visible', 'messenger-spotlight');
-                resolve();
-            };
+            }
+            
+            // Auto-advance timeout
             setTimeout(() => {
-                if (tooltip.classList.contains('visible')) {
-                    element.removeAttribute('data-tour-active');
+                if (tooltip?.classList.contains('visible')) {
                     tooltip.classList.remove('visible');
-                    spotlight.classList.remove('visible', 'messenger-spotlight');
+                    spotlight?.classList.remove('visible');
                     resolve();
                 }
-            }, 4000);
+            }, 5000);
         });
     }
 
-    calculateTooltipPosition(elementRect, position) {
-        const tooltipWidth = 300;
-        const tooltipHeight = 150;
-        const margin = 20;
-        let left, top;
-
-        switch (position) {
-            case 'right':
-                left = elementRect.right + margin;
-                top = elementRect.top + (elementRect.height - tooltipHeight) / 2;
-                break;
-            case 'left':
-                left = elementRect.left - tooltipWidth - margin;
-                top = elementRect.top + (elementRect.height - tooltipHeight) / 2;
-                break;
-            case 'top':
-                left = elementRect.left + (elementRect.width - tooltipWidth) / 2;
-                top = elementRect.top - tooltipHeight - margin;
-                break;
-            case 'bottom':
-                left = elementRect.left + (elementRect.width - tooltipWidth) / 2;
-                top = elementRect.bottom + margin;
-                break;
+    async moveCursor(cursor, targetX, targetY) {
+        if (!cursor) return;
+        
+        const startX = parseFloat(cursor.style.left) || window.innerWidth / 2;
+        const startY = parseFloat(cursor.style.top) || window.innerHeight / 2;
+        const steps = 30;
+        
+        // Temporarily disable animation during movement
+        cursor.style.animation = 'none';
+        
+        for (let i = 0; i <= steps; i++) {
+            const progress = i / steps;
+            const x = startX + (targetX - startX) * this.easeInOutCubic(progress);
+            const y = startY + (targetY - startY) * this.easeInOutCubic(progress);
+            
+            cursor.style.left = `${x}px`;
+            cursor.style.top = `${y}px`;
+            
+            await this.sleep(16); // Smooth 60fps animation
         }
-
-        // Keep tooltip within viewport
-        left = Math.max(margin, Math.min(left, window.innerWidth - tooltipWidth - margin));
-        top = Math.max(margin, Math.min(top, window.innerHeight - tooltipHeight - margin));
-
-        return {
-            left: `${left}px`,
-            top: `${top}px`
-        };
+        
+        // Re-enable pulse animation after movement
+        cursor.style.animation = 'pulse 2s infinite';
     }
 
     async typeIntoInput(inputId, text) {
@@ -1446,46 +1391,151 @@ export class BeaconPlatform {
 
     // Add these new methods for tour functionality
     async startProductTour() {
-        // Create cursor element
-        const cursor = document.createElement('div');
-        cursor.className = 'simulated-cursor';
-        document.body.appendChild(cursor);
+        if (this.tourStarted) return;
+        this.tourStarted = true;
 
-        // Create spotlight overlay
-        const spotlight = document.createElement('div');
-        spotlight.className = 'tour-spotlight';
+        // Remove any existing cursor and spotlight
+        document.querySelector('.simulated-cursor')?.remove();
+        document.querySelector('.tour-spotlight')?.remove();
+
+        // Create cursor
+        this.cursor = document.createElement('div');
+        this.cursor.className = 'simulated-cursor';
+        this.cursor.style.cssText = `
+            position: fixed !important;
+            width: 24px !important;
+            height: 24px !important;
+            background: rgba(255, 255, 255, 0.95) !important;
+            border-radius: 50% !important;
+            pointer-events: none !important;
+            z-index: 1000000 !important;
+            transform: translate(-50%, -50%) !important;
+            mix-blend-mode: difference;
+            box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.9), 0 0 10px rgba(0, 82, 204, 0.5);
+            display: block !important;
+            opacity: 1 !important;
+            left: 50%;
+            top: 50%;
+            transition: none;
+        `;
+        document.body.appendChild(this.cursor);
+
+        // Create spotlight
+        this.spotlight = document.createElement('div');
+        this.spotlight.className = 'tour-spotlight';
         const spotlightHole = document.createElement('div');
         spotlightHole.className = 'tour-spotlight-hole';
-        spotlight.appendChild(spotlightHole);
-        document.body.appendChild(spotlight);
+        this.spotlight.appendChild(spotlightHole);
+        document.body.appendChild(this.spotlight);
+
+        // Create tooltip if it doesn't exist
+        if (!document.getElementById('tourTooltip')) {
+            const tooltip = document.createElement('div');
+            tooltip.id = 'tourTooltip';
+            tooltip.className = 'tour-tooltip';
+            document.body.appendChild(tooltip);
+        }
 
         // Wait before starting tour
-        await this.sleep(1000);
+        await this.sleep(500);
 
         // Run through each tour step
         for (const step of this.tourSteps) {
-            await this.showTourStep(step, cursor, spotlight, spotlightHole);
+            await this.showTourStep(step);
         }
-
-        // Cleanup
-        document.body.removeChild(cursor);
-        document.body.removeChild(spotlight);
     }
 
-    async moveCursor(cursor, targetX, targetY) {
-        const startX = parseFloat(cursor.style.left) || 0;
-        const startY = parseFloat(cursor.style.top) || 0;
-        const steps = 20;
-        
-        for (let i = 0; i <= steps; i++) {
-            const progress = i / steps;
-            const x = startX + (targetX - startX) * this.easeInOutCubic(progress);
-            const y = startY + (targetY - startY) * this.easeInOutCubic(progress);
+    async showTourStep(step) {
+        const element = document.querySelector(step.element);
+        if (!element) return;
+
+        // Remove previous highlights
+        document.querySelectorAll('[data-tour-active="true"]').forEach(el => {
+            el.removeAttribute('data-tour-active');
+        });
+
+        // Highlight current element
+        element.setAttribute('data-tour-active', 'true');
+
+        // Move cursor to element
+        const rect = element.getBoundingClientRect();
+        const targetX = rect.left + (rect.width / 2);
+        const targetY = rect.top + (rect.height / 2);
+
+        if (this.cursor) {
+            const startX = parseFloat(this.cursor.style.left) || window.innerWidth / 2;
+            const startY = parseFloat(this.cursor.style.top) || window.innerHeight / 2;
             
-            cursor.style.left = `${x}px`;
-            cursor.style.top = `${y}px`;
-            
-            await this.sleep(20);
+            // Move in steps
+            const steps = 30;
+            for (let i = 0; i <= steps; i++) {
+                const progress = i / steps;
+                const x = startX + (targetX - startX) * this.easeInOutCubic(progress);
+                const y = startY + (targetY - startY) * this.easeInOutCubic(progress);
+                
+                this.cursor.style.left = `${x}px`;
+                this.cursor.style.top = `${y}px`;
+                
+                await this.sleep(16);
+            }
+
+            // Add click effect if step has action
+            if (step.action) {
+                this.cursor.classList.add('clicking');
+                await step.action();
+                this.cursor.classList.remove('clicking');
+            }
+        }
+
+        // Update spotlight
+        if (this.spotlight) {
+            this.spotlight.classList.add('visible');
+            const padding = 10;
+            const spotlightHole = this.spotlight.firstChild;
+            Object.assign(spotlightHole.style, {
+                left: `${rect.left - padding}px`,
+                top: `${rect.top - padding}px`,
+                width: `${rect.width + (padding * 2)}px`,
+                height: `${rect.height + (padding * 2)}px`,
+                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+            });
+        }
+
+        // Show tooltip
+        const tooltip = document.getElementById('tourTooltip');
+        if (tooltip) {
+            tooltip.innerHTML = `
+                <div class="tour-tooltip-header">
+                    <h3>${step.title}</h3>
+                    <span class="tour-step">${this.tourSteps.indexOf(step) + 1}/${this.tourSteps.length}</span>
+                </div>
+                <div class="tour-tooltip-content">${step.content}</div>
+                <div class="tour-tooltip-footer">
+                    <button class="tour-next-btn">Continue</button>
+                </div>
+            `;
+
+            const tooltipPos = this.calculateTooltipPosition(rect, step.position);
+            Object.assign(tooltip.style, tooltipPos);
+            tooltip.classList.add('visible');
+
+            // Wait for next button or timeout
+            await new Promise(resolve => {
+                const nextBtn = tooltip.querySelector('.tour-next-btn');
+                if (nextBtn) {
+                    nextBtn.onclick = () => {
+                        tooltip.classList.remove('visible');
+                        this.spotlight?.classList.remove('visible');
+                        resolve();
+                    };
+                }
+                
+                setTimeout(() => {
+                    tooltip.classList.remove('visible');
+                    this.spotlight?.classList.remove('visible');
+                    resolve();
+                }, 5000);
+            });
         }
     }
 
@@ -1755,18 +1805,6 @@ export class BeaconPlatform {
 if (typeof window !== 'undefined') {
     // Make BeaconPlatform available globally
     window.BeaconPlatform = BeaconPlatform;
-}
-
-// Only add browser-specific code if we're in a browser environment
-if (typeof window !== 'undefined') {
-    window.addEventListener('load', () => {
-        const platform = new BeaconPlatform();
-        
-        // Start product tour after a brief delay
-        setTimeout(() => {
-            platform.startProductTour();
-        }, 3000);
-    });
 }
 
 // Export for Node.js

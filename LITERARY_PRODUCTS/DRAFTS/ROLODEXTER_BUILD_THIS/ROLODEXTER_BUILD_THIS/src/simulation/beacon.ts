@@ -77,6 +77,64 @@ class BeaconSimulation {
 
     private activeIdeas: Map<string, IdeaNFT>;
 
+    private readonly productTourSteps = [
+        { 
+            el: '.platform-intro',
+            message: 'Welcome to BEACON—turn trending internet content into earning opportunities'
+        },
+        { 
+            el: '.staking-section', 
+            message: 'Stake your Rolodexter tokens to earn platform fees and shape the future'
+        },
+        { 
+            el: '.idea-creation-form',
+            message: 'Turn your ideas into NFTs or SPL tokens with AI-powered narratives'
+        },
+        { 
+            el: '.market-overview',
+            message: 'Explore the Ideas Market—watch, trade, and invest in early-stage ideas'
+        },
+        { 
+            el: '.trending-ideas',
+            message: 'Track trending ideas capturing mindshare across the platform'
+        },
+        { 
+            el: '.portfolio-dashboard',
+            message: 'Monitor your success with our real-time portfolio dashboard'
+        },
+        {
+            el: '.rolodexter-flywheel',
+            message: 'Trading fees fuel the Rolodexter Flywheel, creating a sustainable ecosystem'
+        }
+    ];
+
+    private readonly tourSteps = [
+        {
+            selector: '.logo',
+            message: 'Welcome to BEACON—the first Rolodexter-AI powered decentralized application'
+        },
+        {
+            selector: '.sidebar-nav .nav-item:nth-child(4)', // Stake nav item
+            message: 'Stake your Rolodexter tokens to earn platform fees'
+        },
+        {
+            selector: '.idea-creation',
+            message: 'Turn your ideas into NFTs or SPL tokens with AI assistance'
+        },
+        {
+            selector: '.ideas-table-card',
+            message: 'Explore the Ideas Market—watch, trade, and invest early'
+        },
+        {
+            selector: '.trending',
+            message: 'Keep an eye on Trending Ideas capturing mindshare'
+        },
+        {
+            selector: '.token-card',
+            message: 'Trading fees fuel the Rolodexter Flywheel, creating a sustainable ecosystem'
+        }
+    ];
+
     constructor() {
         this.username = "";
         this.password = "";
@@ -88,12 +146,17 @@ class BeaconSimulation {
         console.log('Starting Beacon simulation...');
         await this.showConnectionSequence();
         await this.initializeInterface();
+        // Start the product tour automatically after a short delay
+        setTimeout(() => this.startProductTour(), 1000);
     }
 
     private async initializeInterface() {
         await this.createIdeaForm();
         this.startMarketMetricsUpdate();
         this.setupEventListeners();
+        // Start cursor movement immediately
+        this.setupCursorSimulation();
+        await this.startProductTour();
     }
 
     private setupEventListeners() {
@@ -248,19 +311,43 @@ Total Holders: ${idea.holders}
     private setupCursorSimulation() {
         const cursor = document.createElement('div');
         cursor.className = 'simulated-cursor';
-        cursor.style.cssText = `
-            width: 20px;
-            height: 20px;
-            background: rgba(255, 255, 255, 0.8);
-            border-radius: 50%;
-            position: fixed;
-            pointer-events: none;
-            z-index: 10000;
-            transform: translate(-50%, -50%);
-            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.8);
-        `;
         document.body.appendChild(cursor);
+        
+        // Start with cursor movement based on form elements
+        this.moveCursorToNextElement();
+    }
+
+    private async moveCursorToNextElement() {
+        const elements = [
+            document.querySelector('.idea-creation-form'),
+            document.querySelector('#ideaUrl'),
+            document.querySelector('#ideaDescription'),
+            document.querySelector('#ideaSupply'),
+            document.querySelector('#ideaRoyalty'),
+            document.querySelector('#mintIdea')
+        ].filter(el => el !== null) as HTMLElement[];
+
+        const cursor = document.querySelector('.simulated-cursor') as HTMLElement;
+        if (!cursor || elements.length === 0) return;
+
+        let currentIndex = 0;
+        const moveToNext = async () => {
+            const element = elements[currentIndex];
+            const rect = element.getBoundingClientRect();
+            
+            cursor.style.left = `${rect.left + rect.width / 2}px`;
+            cursor.style.top = `${rect.top + rect.height / 2}px`;
+            
+            // Add highlight effect
+            element.classList.add('highlight');
+            await this.sleep(2000);
+            element.classList.remove('highlight');
+            
+            currentIndex = (currentIndex + 1) % elements.length;
+            setTimeout(moveToNext, 2000);
+        };
+
+        moveToNext();
     }
 
     private async simulateCursorMovement(element: HTMLElement) {
@@ -275,6 +362,75 @@ Total Holders: ${idea.holders}
         cursor.style.transform = 'scale(0.9)';
         await this.sleep(200);
         cursor.style.transform = 'scale(1)';
+    }
+
+    private async startProductTour() {
+        const cursor = document.querySelector('.simulated-cursor');
+        const tooltip = document.getElementById('tourTooltip');
+        if (!cursor || !tooltip) return;
+
+        for (const step of this.tourSteps) {
+            const element = document.querySelector(step.selector);
+            if (!element) continue;
+
+            const rect = element.getBoundingClientRect();
+            
+            // Move cursor
+            cursor.style.transition = 'all 1s cubic-bezier(0.4, 0, 0.2, 1)';
+            cursor.style.left = `${rect.left + rect.width / 2}px`;
+            cursor.style.top = `${rect.top + rect.height / 2}px`;
+            cursor.classList.add('moving');
+
+            // Show tooltip
+            tooltip.textContent = step.message;
+            tooltip.style.left = `${rect.left + rect.width / 2}px`;
+            tooltip.style.top = `${rect.top - 40}px`;
+            tooltip.classList.add('visible');
+
+            // Highlight the section
+            element.classList.add('highlight');
+
+            // Wait for animation
+            await this.sleep(3000);
+
+            // Reset highlight and hide tooltip
+            element.classList.remove('highlight');
+            tooltip.classList.remove('visible');
+            cursor.classList.remove('moving');
+        }
+
+        // Move to idea creation form after tour
+        const ideaForm = document.querySelector('.idea-creation');
+        if (ideaForm) {
+            const rect = ideaForm.getBoundingClientRect();
+            cursor.style.left = `${rect.left + rect.width / 2}px`;
+            cursor.style.top = `${rect.top + rect.height / 2}px`;
+        }
+    }
+
+    private showTooltip(element: HTMLElement, message: string) {
+        const tooltip = document.createElement('div');
+        tooltip.className = 'tour-tooltip';
+        tooltip.textContent = message;
+        tooltip.style.cssText = `
+            position: absolute;
+            background: rgba(0, 82, 204, 0.9);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            z-index: 10001;
+            pointer-events: none;
+            animation: fadeIn 0.3s ${this.ANIMATION_CONFIG.easing.smooth};
+        `;
+
+        // Position tooltip above the element
+        const rect = element.getBoundingClientRect();
+        tooltip.style.left = `${rect.left + rect.width / 2}px`;
+        tooltip.style.top = `${rect.top - 40}px`;
+        tooltip.style.transform = 'translateX(-50%)';
+
+        document.body.appendChild(tooltip);
+        setTimeout(() => tooltip.remove(), 1900);
     }
 
     private startMarketMetricsUpdate() {
