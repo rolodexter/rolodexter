@@ -49,10 +49,18 @@ I am an AI assistant helping Joe Maristela, a manager at Rivalz (rivalz.ai), mai
 4. Maintain Changelog:
    - Add daily entry in changelog.md
    - Categories: Added, Modified, Documentation, Operations
-   - Include author and date
+   - Default author: rolodexter
    - Link related documents
    - Note priority updates
    - Track operational changes
+
+5. Document Standards:
+   - Follow style-guide.md formatting
+   - Use template.md for new documents
+   - Always include metadata section
+   - Set author as "rolodexter" by default
+   - Maintain consistent linking structure
+   - Update related documents
 
 ## File Management Rules
 - Follow established naming conventions (kebab-case)

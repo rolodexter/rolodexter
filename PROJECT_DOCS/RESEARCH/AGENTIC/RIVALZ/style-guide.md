@@ -101,7 +101,7 @@
 ---
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-author: [[author-name]]
+author: rolodexter
 tags: [tag1, tag2, tag3]
 related: [[term1]], [[term2]]
 status: [draft|review|final]
