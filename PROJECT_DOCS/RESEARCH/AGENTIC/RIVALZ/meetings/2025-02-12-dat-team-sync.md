@@ -13,46 +13,79 @@
 
 ## Agenda
 1. Project Status Updates
+   - VORD Team Structure
+   - Project Management Introduction
+   - Dify Integration Status
 2. Technical Review
    - VORD Version Status
    - Rollback Requirements and Procedure
    - State Management System Review
    - Version Control Implementation Check
-3. Upcoming Deliverables
-4. Action Items
+3. Development Updates
+   - Dify Fork Status
+   - VORD vs Dify Alignment
+   - B2B2C Focus
+4. Technical Issues
+   - Authentication System
+   - Iframe Embedding Security
+   - Domain Whitelisting
 5. Team Structure Clarification
    - Truestack.ai relationship status
    - Documentation updates needed
 
 ## Discussion Points
-- VORD System Stability
-  - Current version assessment
-  - Rollback procedure verification
-  - Recovery plan validation
-- Clarify Truestack.ai team members' status (Thai and Thien)
-- Update team documentation accordingly
-- Review any implications for project documentation and access
+
+### VORD Team Structure & Tools
+- Team Members:
+  - Le Thai: Technical Lead
+  - Thien: Data Engineer
+  - Linh: Tech Writer
+  - Tung: Full Stack Developer
+- Using ClickUp for project management
+- Implementing Agile methodology
+
+### Dify Integration Context
+- Originally forked 6 months ago
+- Mission alignment differences:
+  - Dify: B2B Solution
+  - VORD: B2B2C Application Builder with end-user focus
+- Current Decision: Continue VORD development independently
+
+### Technical Issues
+1. Authentication System
+   - Implementing dynamic authentication
+   - Using dynamic.xyz for user authentication
+   - Addressing security concerns
+
+2. Embedding/Iframe Issues
+   - Problems with origin site and embedding
+   - Google denied iframe access
+   - Need whitelist system implementation
+   - Security concerns with Saigon classic
+   - Short-term fix: Update origin to Google dynamic whitelist
 
 ## Action Items
 1. Technical Review:
+   - Access VORD repo at https://github.com/orgs/RNet-AI/repositories
    - Document current Dify fork repository location and access
    - Add GitHub user rolodexter to repository access list
    - Verify current version state and stability
-   - Review rollback procedures and recovery plans
 
-2. Team Access:
-   - Update repository access documentation
-   - Review and update team member permissions
-   - Verify external contractor access protocols
+2. Development Planning:
+   - Implement Agile project management
+   - Set up two-week release cycles in ClickUp
+   - Address authentication and embedding issues
+   - Plan VORD version 1.0 release
 
-3. Documentation Updates:
-   - Document repository locations and access procedures
-   - Update technical documentation with current fork status
-   - Review and update integration documentation
+3. Security Implementation:
+   - Set up domain whitelisting system
+   - Review iframe security measures
+   - Document approved embedding domains
 
 ## Next Steps
-- Daniel Ho to provide Dify repository details and handle access request
-- Schedule technical review of current Dify implementation
+- Contact Kevin for VORD repo permissions
+- Schedule Agile planning meeting
+- Create detailed security implementation plan
 - Document version control and rollback procedures
 
 ## Follow-up
