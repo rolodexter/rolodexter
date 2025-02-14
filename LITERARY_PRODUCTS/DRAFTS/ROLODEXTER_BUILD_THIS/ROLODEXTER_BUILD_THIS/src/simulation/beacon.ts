@@ -77,60 +77,29 @@ class BeaconSimulation {
 
     private activeIdeas: Map<string, IdeaNFT>;
 
-    private readonly productTourSteps = [
-        { 
-            el: '.platform-intro',
-            message: 'Welcome to BEACON—turn trending internet content into earning opportunities'
-        },
-        { 
-            el: '.staking-section', 
-            message: 'Stake your Rolodexter tokens to earn platform fees and shape the future'
-        },
-        { 
-            el: '.idea-creation-form',
-            message: 'Turn your ideas into NFTs or SPL tokens with AI-powered narratives'
-        },
-        { 
-            el: '.market-overview',
-            message: 'Explore the Ideas Market—watch, trade, and invest in early-stage ideas'
-        },
-        { 
-            el: '.trending-ideas',
-            message: 'Track trending ideas capturing mindshare across the platform'
-        },
-        { 
-            el: '.portfolio-dashboard',
-            message: 'Monitor your success with our real-time portfolio dashboard'
-        },
-        {
-            el: '.rolodexter-flywheel',
-            message: 'Trading fees fuel the Rolodexter Flywheel, creating a sustainable ecosystem'
-        }
-    ];
-
     private readonly tourSteps = [
         {
-            selector: '.logo',
+            selector: '.welcome-section',
             message: 'Welcome to BEACON—the first Rolodexter-AI powered decentralized application'
         },
         {
-            selector: '.sidebar-nav .nav-item:nth-child(4)', // Stake nav item
+            selector: '.staking-section',
             message: 'Stake your Rolodexter tokens to earn platform fees'
         },
         {
-            selector: '.idea-creation',
+            selector: '.idea-nft-section',
             message: 'Turn your ideas into NFTs or SPL tokens with AI assistance'
         },
         {
-            selector: '.ideas-table-card',
+            selector: '.ideas-market',
             message: 'Explore the Ideas Market—watch, trade, and invest early'
         },
         {
-            selector: '.trending',
+            selector: '.trending-section',
             message: 'Keep an eye on Trending Ideas capturing mindshare'
         },
         {
-            selector: '.token-card',
+            selector: '.rolodexter-flywheel',
             message: 'Trading fees fuel the Rolodexter Flywheel, creating a sustainable ecosystem'
         }
     ];
@@ -140,23 +109,281 @@ class BeaconSimulation {
         this.password = "";
         this.isLoggedIn = false;
         this.activeIdeas = new Map();
+
+        // Single point of initialization
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => this.init());
+        } else {
+            this.init();
+        }
+    }
+
+    private async init() {
+        try {
+            console.log('=== INITIALIZATION SEQUENCE ===');
+            
+            // Wait for DOM to be completely ready
+            if (document.readyState !== 'complete') {
+                console.log('Waiting for DOM to be ready...');
+                await new Promise(resolve => window.addEventListener('load', resolve));
+            }
+            console.log('✓ DOM is ready');
+
+            await this.showConnectionSequence();
+            
+            // Create cursor first and verify it exists
+            await this.createCursor();
+            const cursorExists = document.querySelector('.simulated-cursor');
+            if (!cursorExists) {
+                throw new Error('Failed to create cursor element');
+            }
+            
+            // Wait for beacon container to be ready
+            await this.waitForBeaconContainer();
+            
+            await this.setupUI();
+            await this.createIdeaForm();
+            this.startMarketMetricsUpdate();
+            this.setupEventListeners();
+            
+            // Initialize market visuals
+            const marketVisuals = new MarketVisuals();
+            marketVisuals.initializeRolodexterChart();
+            
+            // Extra verification step for required elements
+            console.log('Verifying all required elements...');
+            const allElements = [
+                '.welcome-section',
+                '.staking-section',
+                '.idea-nft-section',
+                '.ideas-market',
+                '.trending-section',
+                '.rolodexter-flywheel'
+            ].every(selector => {
+                const exists = !!document.querySelector(selector);
+                console.log(`${exists ? '✓' : '❌'} ${selector}`);
+                return exists;
+            });
+
+            if (!allElements) {
+                console.error('Some required elements are missing');
+                return;
+            }
+
+            // Start cursor movement with a guaranteed delay
+            console.log('Starting cursor movement in 1 second...');
+            await this.sleep(1000);
+            await this.moveCursorToNextElement();
+            
+        } catch (error) {
+            console.error('Initialization error:', error);
+        }
+    }
+
+    private async createCursor() {
+        console.log('=== CURSOR INITIALIZATION ===');
+        if (document.querySelector('.simulated-cursor')) {
+            console.log('✓ Cursor already exists');
+            return;
+        }
+
+        console.log('Creating cursor element');
+        const cursor = document.createElement('div');
+        cursor.className = 'simulated-cursor';
+        cursor.style.cssText = `
+            position: fixed !important;
+            width: 24px !important;
+            height: 24px !important;
+            background: rgba(255, 255, 255, 0.95) !important;
+            border-radius: 50% !important;
+            pointer-events: none !important;
+            z-index: 2147483647 !important;
+            transform: translate(-50%, -50%) !important;
+            mix-blend-mode: difference;
+            box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.9),
+                        0 0 10px rgba(0, 82, 204, 0.5),
+                        0 0 20px rgba(0, 82, 204, 0.3);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            left: 50% !important;
+            top: 50% !important;
+            display: block !important;
+            opacity: 1 !important;
+            will-change: transform, left, top;
+            visibility: visible !important;
+        `;
+        document.body.appendChild(cursor);
+        console.log('✓ Cursor element created');
+
+        // Verify cursor is in DOM and visible
+        await this.sleep(100);
+        const verifiedCursor = document.querySelector('.simulated-cursor');
+        console.log('Cursor verification:', verifiedCursor ? '✓ Success' : '❌ Failed');
+        
+        if (verifiedCursor) {
+            const style = window.getComputedStyle(verifiedCursor);
+            console.log('Cursor computed style:', {
+                display: style.display,
+                opacity: style.opacity,
+                zIndex: style.zIndex,
+                position: style.position,
+                visibility: style.visibility
+            });
+        }
+    }
+
+    private async waitForBeaconContainer(): Promise<void> {
+        const maxAttempts = 10;
+        let attempts = 0;
+
+        while (attempts < maxAttempts) {
+            const container = document.querySelector('.beacon-container');
+            if (container) {
+                console.log('Beacon container found');
+                return;
+            }
+            console.log('Waiting for beacon container...');
+            await this.sleep(500);
+            attempts++;
+        }
+        throw new Error('Beacon container not found after max attempts');
+    }
+
+    private verifyTourElements(): boolean {
+        // Log the presence of each tour element
+        this.tourSteps.forEach(step => {
+            const element = document.querySelector(step.selector);
+            console.log(`Tour element ${step.selector}: ${element ? 'Found' : 'Not found'}`);
+        });
+
+        return this.tourSteps.every(step => document.querySelector(step.selector));
+    }
+
+    private async ensureElementsExist(): Promise<boolean> {
+        const maxAttempts = 15; // Increased from 10
+        let attempts = 0;
+
+        while (attempts < maxAttempts) {
+            const missingElements = this.tourSteps
+                .filter(step => !document.querySelector(step.selector))
+                .map(step => step.selector);
+
+            if (missingElements.length === 0) {
+                console.log('All tour elements found successfully');
+                return true;
+            }
+
+            console.log(`Waiting for elements... Attempt ${attempts + 1}/${maxAttempts}`);
+            console.log('Missing elements:', missingElements.join(', '));
+            
+            await this.sleep(500);
+            attempts++;
+        }
+
+        console.error('Some tour elements not found after max attempts');
+        return false;
+    }
+
+    private async setupUI() {
+        // Create tour elements only
+        if (!document.querySelector('.tour-spotlight')) {
+            const spotlight = document.createElement('div');
+            spotlight.className = 'tour-spotlight';
+            document.body.appendChild(spotlight);
+        }
+
+        if (!document.querySelector('.tour-tooltip')) {
+            const tooltip = document.createElement('div');
+            tooltip.className = 'tour-tooltip';
+            document.body.appendChild(tooltip);
+        }
+
+        // Create chart container if needed
+        if (!document.querySelector('.right-side-chart')) {
+            const chartContainer = document.createElement('div');
+            chartContainer.className = 'right-side-chart';
+            document.body.appendChild(chartContainer);
+        }
+    }
+
+    private initializeEventListeners() {
+        // Listen for route changes or significant DOM updates
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                if (mutation.addedNodes.length > 0) {
+                    this.checkAndRestartTour();
+                }
+            });
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    }
+
+    private checkAndRestartTour() {
+        // Check if key tour elements are present but tour isn't active
+        const hasElements = this.tourSteps.some(step => 
+            document.querySelector(step.selector) !== null
+        );
+        const tourActive = document.querySelector('.simulated-cursor.moving') !== null;
+
+        if (hasElements && !tourActive) {
+            this.startProductTour();
+        }
     }
 
     async startSimulation() {
         console.log('Starting Beacon simulation...');
         await this.showConnectionSequence();
         await this.initializeInterface();
-        // Start the product tour automatically after a short delay
-        setTimeout(() => this.startProductTour(), 1000);
+        
+        // Ensure UI is ready before starting tour
+        await this.sleep(1500);
+        await this.startProductTour();
     }
 
     private async initializeInterface() {
+        // Initialize market visuals first
+        const marketVisuals = new MarketVisuals();
+        marketVisuals.initializeRolodexterChart();
+        
+        // Create and append chart container
+        const chartContainer = document.createElement('div');
+        chartContainer.className = 'right-side-chart';
+        document.body.appendChild(chartContainer);
+
+        // Create cursor immediately with initial position
+        const cursor = document.createElement('div');
+        cursor.className = 'simulated-cursor';
+        cursor.style.cssText = `
+            position: fixed;
+            width: 24px;
+            height: 24px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 1000000;
+            transform: translate(-50%, -50%);
+            mix-blend-mode: difference;
+            box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.9),
+                        0 0 10px rgba(0, 82, 204, 0.5),
+                        0 0 20px rgba(0, 82, 204, 0.3);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            display: block;
+            left: 50%;
+            top: 50%;
+        `;
+        document.body.appendChild(cursor);
+
         await this.createIdeaForm();
         this.startMarketMetricsUpdate();
         this.setupEventListeners();
-        // Start cursor movement immediately
-        this.setupCursorSimulation();
-        await this.startProductTour();
+
+        // Force cursor movement to start immediately
+        requestAnimationFrame(() => {
+            this.moveCursorToNextElement();
+        });
     }
 
     private setupEventListeners() {
@@ -249,10 +476,10 @@ class BeaconSimulation {
             if (idea.marketCap >= 50000 && !idea.graduated) {
                 idea.graduated = true;
                 this.marketMetrics.graduatedIdeas++;
-                this.simulateIdeaGraduation();
+                this.showNotification(`"${idea.description}" has graduated with a market cap of $${idea.marketCap.toFixed(2)}!`, 'graduation');
                 console.log(`
 ${this.COLORS.BRIGHT_GREEN}[GRADUATION ALERT]${this.COLORS.RESET}
-Idea: ${idea.url}
+Idea: ${idea.description}
 Market Cap: $${idea.marketCap.toFixed(2)}
 Current Price: $${idea.currentPrice.toFixed(2)}
 Total Holders: ${idea.holders}
@@ -309,44 +536,93 @@ Total Holders: ${idea.holders}
     }
 
     private setupCursorSimulation() {
-        const cursor = document.createElement('div');
-        cursor.className = 'simulated-cursor';
-        document.body.appendChild(cursor);
-        
-        // Start with cursor movement based on form elements
-        this.moveCursorToNextElement();
+        // Force immediate cursor movement start
+        requestAnimationFrame(() => {
+            this.moveCursorToNextElement();
+        });
     }
 
     private async moveCursorToNextElement() {
-        const elements = [
-            document.querySelector('.idea-creation-form'),
-            document.querySelector('#ideaUrl'),
-            document.querySelector('#ideaDescription'),
-            document.querySelector('#ideaSupply'),
-            document.querySelector('#ideaRoyalty'),
-            document.querySelector('#mintIdea')
-        ].filter(el => el !== null) as HTMLElement[];
-
+        console.log('=== CURSOR MOVEMENT DEBUG ===');
         const cursor = document.querySelector('.simulated-cursor') as HTMLElement;
-        if (!cursor || elements.length === 0) return;
+        if (!cursor) {
+            console.error('❌ Cursor element not found - will retry in 1s');
+            setTimeout(() => this.moveCursorToNextElement(), 1000);
+            return;
+        }
+        console.log('✓ Cursor element found');
+
+        // Get all required elements first
+        const requiredElements = [
+            '.welcome-section',
+            '.staking-section',
+            '.idea-nft-section',
+            '.ideas-market',
+            '.trending-section',
+            '.rolodexter-flywheel'
+        ];
+
+        // Log each element's presence
+        console.log('Checking for required elements:');
+        const elements = requiredElements.map(selector => {
+            const el = document.querySelector(selector);
+            console.log(`${el ? '✓' : '❌'} ${selector}: ${el ? 'Found' : 'Not found'}`);
+            return el;
+        }).filter(el => el) as HTMLElement[];
+
+        if (elements.length === 0) {
+            console.warn('❌ No tour elements found - retrying in 1s');
+            setTimeout(() => this.moveCursorToNextElement(), 1000);
+            return;
+        }
+
+        console.log(`✓ Found ${elements.length} elements to visit`);
 
         let currentIndex = 0;
         const moveToNext = async () => {
             const element = elements[currentIndex];
+            if (!element) {
+                console.error('❌ Target element not found');
+                return;
+            }
+
             const rect = element.getBoundingClientRect();
+            console.log(`Moving to element ${currentIndex}:`, {
+                selector: requiredElements[currentIndex],
+                position: { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 }
+            });
             
-            cursor.style.left = `${rect.left + rect.width / 2}px`;
-            cursor.style.top = `${rect.top + rect.height / 2}px`;
+            // Force cursor visibility
+            cursor.style.display = 'block';
+            cursor.style.opacity = '1';
+            cursor.classList.add('moving');
             
-            // Add highlight effect
+            // Ensure z-index is maximal
+            cursor.style.zIndex = '2147483647';
+            
+            // Explicitly set position with important flag
+            cursor.style.cssText += `
+                left: ${rect.left + rect.width / 2}px !important;
+                top: ${rect.top + rect.height / 2}px !important;
+                transform: translate(-50%, -50%) !important;
+                transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            `;
+            
+            // Add highlight
             element.classList.add('highlight');
+            console.log('Added highlight to element');
+            
             await this.sleep(2000);
+            
             element.classList.remove('highlight');
+            cursor.classList.remove('moving');
             
             currentIndex = (currentIndex + 1) % elements.length;
+            console.log(`Moving to next element (${currentIndex})`);
             setTimeout(moveToNext, 2000);
         };
 
+        console.log('Starting cursor movement loop');
         moveToNext();
     }
 
@@ -365,47 +641,8 @@ Total Holders: ${idea.holders}
     }
 
     private async startProductTour() {
-        const cursor = document.querySelector('.simulated-cursor');
-        const tooltip = document.getElementById('tourTooltip');
-        if (!cursor || !tooltip) return;
-
-        for (const step of this.tourSteps) {
-            const element = document.querySelector(step.selector);
-            if (!element) continue;
-
-            const rect = element.getBoundingClientRect();
-            
-            // Move cursor
-            cursor.style.transition = 'all 1s cubic-bezier(0.4, 0, 0.2, 1)';
-            cursor.style.left = `${rect.left + rect.width / 2}px`;
-            cursor.style.top = `${rect.top + rect.height / 2}px`;
-            cursor.classList.add('moving');
-
-            // Show tooltip
-            tooltip.textContent = step.message;
-            tooltip.style.left = `${rect.left + rect.width / 2}px`;
-            tooltip.style.top = `${rect.top - 40}px`;
-            tooltip.classList.add('visible');
-
-            // Highlight the section
-            element.classList.add('highlight');
-
-            // Wait for animation
-            await this.sleep(3000);
-
-            // Reset highlight and hide tooltip
-            element.classList.remove('highlight');
-            tooltip.classList.remove('visible');
-            cursor.classList.remove('moving');
-        }
-
-        // Move to idea creation form after tour
-        const ideaForm = document.querySelector('.idea-creation');
-        if (ideaForm) {
-            const rect = ideaForm.getBoundingClientRect();
-            cursor.style.left = `${rect.left + rect.width / 2}px`;
-            cursor.style.top = `${rect.top + rect.height / 2}px`;
-        }
+        // Remove product tour initialization as we're handling movement directly in init
+        console.log('Product tour deprecated - using direct cursor movement');
     }
 
     private showTooltip(element: HTMLElement, message: string) {
@@ -450,7 +687,15 @@ Total Holders: ${idea.holders}
     }
 
     private async simulateIdeaGraduation() {
-        console.log(`${this.COLORS.BRIGHT_GREEN}[GRADUATION] New Idea NFT reached $50K market cap! Ready for exchange listing${this.COLORS.RESET}`);
+        // Find the most recently graduated idea
+        const graduatedIdea = Array.from(this.activeIdeas.values())
+            .find(idea => idea.graduated && idea.marketCap >= 50000);
+        
+        if (graduatedIdea) {
+            this.showNotification(`"${graduatedIdea.description}" has graduated with a market cap of $${graduatedIdea.marketCap.toFixed(2)}!`, 'graduation');
+        } else {
+            this.showNotification(`New Idea NFT reached $50K market cap! Ready for exchange listing`, 'graduation');
+        }
     }
 
     private updateMarketMetrics() {

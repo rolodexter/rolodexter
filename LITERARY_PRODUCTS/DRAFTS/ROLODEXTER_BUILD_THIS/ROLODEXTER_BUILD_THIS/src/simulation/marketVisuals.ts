@@ -7,6 +7,9 @@ export class MarketVisuals {
         text: '#94a3b8'
     };
 
+    private priceData: number[] = [];
+    private chartUpdateInterval: number | null = null;
+
     drawMiniChart(canvas: HTMLCanvasElement, data: number[], isPositive: boolean) {
         const ctx = canvas.getContext('2d');
         if (!ctx) return;
@@ -131,5 +134,158 @@ export class MarketVisuals {
         
         card.appendChild(miniChartCanvas);
         return card;
+    }
+
+    initializeRolodexterChart() {
+        // Create chart container if it doesn't exist
+        let chartContainer = document.querySelector('.rolodexter-chart-container');
+        if (!chartContainer) {
+            chartContainer = document.createElement('div');
+            chartContainer.className = 'rolodexter-chart-container';
+            
+            // Add chart header
+            const header = document.createElement('div');
+            header.className = 'chart-header';
+            header.innerHTML = `
+                <div class="token-info">
+                    <span class="token-name">$ROLODEXTER</span>
+                    <span class="token-price">$0.00</span>
+                </div>
+                <div class="chart-controls">
+                    <div class="time-selector">
+                        <button class="time-btn active" data-interval="1h">1H</button>
+                        <button class="time-btn" data-interval="24h">24H</button>
+                        <button class="time-btn" data-interval="7d">7D</button>
+                    </div>
+                </div>
+            `;
+            chartContainer.appendChild(header);
+
+            // Add canvas for the chart
+            const canvas = document.createElement('canvas');
+            canvas.width = 600;
+            canvas.height = 300;
+            chartContainer.appendChild(canvas);
+
+            // Insert chart into the right sidebar
+            const rightSidebar = document.querySelector('.right-side-chart');
+            if (rightSidebar) {
+                rightSidebar.appendChild(chartContainer);
+            }
+
+            // Start updating chart
+            this.startChartUpdates();
+        }
+    }
+
+    private startChartUpdates() {
+        // Initialize with some data
+        this.priceData = Array.from({length: 24}, () => 1 + Math.random() * 0.2);
+        
+        // Update chart every 5 seconds
+        if (!this.chartUpdateInterval) {
+            this.chartUpdateInterval = window.setInterval(() => {
+                // Add new price point
+                const lastPrice = this.priceData[this.priceData.length - 1];
+                const newPrice = lastPrice * (1 + (Math.random() - 0.45) * 0.02);
+                this.priceData.push(newPrice);
+                
+                // Keep only last 24 points
+                if (this.priceData.length > 24) {
+                    this.priceData.shift();
+                }
+
+                // Update chart
+                const canvas = document.querySelector('.rolodexter-chart-container canvas') as HTMLCanvasElement;
+                if (canvas) {
+                    this.drawRolodexterChart(canvas, this.priceData);
+                }
+
+                // Update price display
+                const priceDisplay = document.querySelector('.token-price');
+                if (priceDisplay) {
+                    priceDisplay.textContent = `$${newPrice.toFixed(4)}`;
+                }
+            }, 5000);
+        }
+    }
+
+    private drawRolodexterChart(canvas: HTMLCanvasElement, data: number[]) {
+        const ctx = canvas.getContext('2d');
+        if (!ctx) return;
+
+        const width = canvas.width;
+        const height = canvas.height;
+        const padding = 20;
+
+        // Clear canvas
+        ctx.clearRect(0, 0, width, height);
+
+        // Draw grid
+        this.drawChartGrid(ctx, width, height, padding);
+
+        // Calculate points
+        const points = this.calculateChartPoints(data, width, height, padding);
+
+        // Draw line with gradient
+        const gradient = ctx.createLinearGradient(0, 0, 0, height);
+        gradient.addColorStop(0, 'rgba(59, 130, 256, 0.1)');
+        gradient.addColorStop(1, 'rgba(59, 130, 256, 0)');
+
+        // Fill area under line
+        ctx.beginPath();
+        ctx.moveTo(points[0].x, height - padding);
+        points.forEach(point => ctx.lineTo(point.x, point.y));
+        ctx.lineTo(points[points.length - 1].x, height - padding);
+        ctx.closePath();
+        ctx.fillStyle = gradient;
+        ctx.fill();
+
+        // Draw line
+        ctx.beginPath();
+        points.forEach((point, i) => {
+            if (i === 0) {
+                ctx.moveTo(point.x, point.y);
+            } else {
+                ctx.lineTo(point.x, point.y);
+            }
+        });
+        ctx.strokeStyle = '#3B82F6';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // Draw points
+        points.forEach(point => {
+            ctx.beginPath();
+            ctx.arc(point.x, point.y, 3, 0, Math.PI * 2);
+            ctx.fillStyle = '#3B82F6';
+            ctx.fill();
+            ctx.strokeStyle = '#fff';
+            ctx.lineWidth = 1;
+            ctx.stroke();
+        });
+    }
+
+    private drawChartGrid(ctx: CanvasRenderingContext2D, width: number, height: number, padding: number) {
+        ctx.strokeStyle = 'rgba(75, 85, 99, 0.1)';
+        ctx.lineWidth = 1;
+
+        // Draw horizontal lines
+        for (let i = 0; i < 5; i++) {
+            const y = padding + (height - padding * 2) * (i / 4);
+            ctx.beginPath();
+            ctx.moveTo(padding, y);
+            ctx.lineTo(width - padding, y);
+            ctx.stroke();
+        }
+
+        // Draw vertical lines
+        for (let i = 0; i < 6; i++) {
+            const x = padding + (width - padding * 2) * (i / 5);
+            ctx.beginPath();
+            ctx.moveTo(x, padding);
+            ctx.lineTo(x, height - padding);
+            ctx.stroke();
+        }
     }
 }
