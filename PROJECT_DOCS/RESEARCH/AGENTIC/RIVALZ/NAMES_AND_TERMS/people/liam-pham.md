@@ -1,34 +1,36 @@
 # Liam Pham
 
-## Roles & Responsibilities
-- Technical team member
-- Quality assurance and testing
-- Error resolution specialist
+## Role
+- Quality Assurance Specialist
+- Testing Lead for VORD Team
 
-## Current Focus
-- Testing [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md) functionality
-- Error resolution for embedded chat systems
-- Quality assurance for [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md)
+## Contact Information
+- Email: liampham309@gmail.com
 
-## Projects
-- [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md): Testing and error resolution
-- [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md): Quality assurance
-- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Platform testing
+## Responsibilities
+- Quality Assurance
+- Testing Implementation
+- Bug Verification
+- Test Documentation
 
-## Team Relationships
-- Reports to: [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md) (CTO)
-- Coordinates with: [Thai Le](/NAMES_AND_TERMS/people/thai-le.md) on UI testing
-- Project management: [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md)
+## Current Projects
+- VORD Testing
+- Authentication Testing
+- Embedding System Validation
+- Security Implementation Testing
+
+## Reporting Structure
+- Reports to: Daniel Ho (CTO)
+- Team: VORD Development
 
 ## Related Terms
-- [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md): Technical testing
-- [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md): QA process
-- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Platform testing
+- [Truestack.ai](/NAMES_AND_TERMS/companies/truestack.md): Company affiliation
+- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Primary project
+- [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md): Technical reporting line
 
 ---
-## Metadata
-created: 2024-01-09
-updated: 2024-01-09
-author: [GitHub Copilot](https://github.com/features/copilot)
-tags: [people, technical, testing, qa]
-status: DRAFT
+created: 2024-02-14
+updated: 2024-02-14
+author: [rolodexter]
+tags: [people, qa, testing, development]
+status: ACTIVE

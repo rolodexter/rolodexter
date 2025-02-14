@@ -11,10 +11,24 @@ The multi-agent framework (ClickUp task 8697x273t) is being developed as a found
 - Impact: High
 
 ## Current State
-- Framework development in progress
-- Led by Daniel Ho
-- Tracked in ClickUp (8697x273t)
-- Integration points with VORD and Glik pending documentation
+- Framework in research stage
+- Led by Daniel Ho with Thai Le
+- Initial exploration and planning phase
+- Integration planning with VORD and Glik pending
+
+## Status Updates
+### 2024-02-14
+- Confirmed research phase ongoing
+- Team composition clarified:
+  - Lead: Daniel Ho
+  - Technical Support: Thai Le
+
+## Team Administration Notes
+### Email Policy Discussion
+- Current: Some developers using Gmail accounts
+- Proposed: Migration to corporate accounts (truestack.ai or rivalz.ai)
+- Status: Under consideration for chain of custody purposes
+- Priority: Low - Not immediate requirement
 
 ## Technical Details
 

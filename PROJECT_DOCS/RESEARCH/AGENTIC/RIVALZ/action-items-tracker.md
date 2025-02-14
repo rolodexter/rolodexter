@@ -204,6 +204,40 @@
 - Integration mapping: TBD
 - Roadmap finalization: TBD
 
+### P1: Multi-Agent Framework Development
+**Context**: Framework in research phase (ClickUp task 8697x273t)
+**Status**: Research
+**Owner**: Daniel Ho, Thai Le
+
+#### Current Tasks:
+- [ ] Conduct initial research
+- [ ] Document integration possibilities with VORD/Glik
+- [ ] Create preliminary architecture proposal
+- [ ] Define research milestones
+
+#### Status Notes:
+- Currently in research/exploration phase
+- Team composition confirmed
+- Integration planning pending research completion
+
+### P2: Team Email Policy Review
+**Context**: Developers using Gmail accounts for work
+**Status**: Under Consideration
+**Owner**: TBD
+
+#### Considerations:
+- Chain of custody requirements
+- Corporate account options:
+  - truestack.ai
+  - rivalz.ai
+- Impact on existing workflows
+- Migration timeline if approved
+
+#### Current State:
+- Low priority
+- No immediate action required
+- Further discussion needed on requirements
+
 ### Follow-up Actions
 1. Priority Client Support:
    - [ ] Communicate temporary solution
@@ -267,6 +301,72 @@
 - n8n.io platform capabilities
 - Current AI agent implementations
 - Existing object detection solutions
+
+### P0: VORD Authentication Issues
+**Context**: GitHub login on public VORD returning 404 error
+**Status**: New
+**Owner**: Daniel Ho, Thai Le, Liam Pham
+
+#### Current Tasks:
+- [ ] Document reproduction steps with Getkap
+- [ ] Investigate GitHub configuration
+- [ ] Review OAuth settings
+- [ ] Fix authentication flow
+- [ ] Test solution in production
+
+#### Dependencies:
+- GitHub OAuth configuration access
+- Authentication flow documentation
+- Testing environment access
+
+#### Timeline:
+- Investigation: Immediate
+- Fix implementation: TBD
+- Testing: Pending investigation
+
+#### Related Tasks:
+- ClickUp: 8697yk59r
+- Technical Issue: [2024-02-14-vord-github-login.md](/technical-issues/2024-02-14-vord-github-login.md)
+
+### P1: VORD Team Meeting Preparation
+**Context**: Bi-weekly VORD team meetings (Tuesday/Friday)
+**Status**: Ongoing
+**Owner**: Joe Maristela
+
+#### Meeting Schedule:
+- Tuesdays 7:00 - 8:00 AM
+- Fridays 7:00 - 8:00 AM
+- meet.google.com/xuy-ihhd-hes
+
+#### Current Tasks:
+- [ ] Review previous meeting notes before each session
+- [ ] Gather project status updates
+- [ ] Track action item progress
+- [ ] Prepare agenda items
+- [ ] Document meeting outcomes
+
+#### Regular Preparation:
+1. Pre-meeting:
+   - [ ] Review sprint progress
+   - [ ] Collect team blockers
+   - [ ] Check deadline status
+   - [ ] Prepare status updates
+
+2. Post-meeting:
+   - [ ] Document decisions made
+   - [ ] Update action items
+   - [ ] Share meeting notes
+   - [ ] Follow up on assignments
+
+#### Timeline:
+- Meeting Prep: 24 hours before
+- Notes Distribution: Within 24 hours after
+- Action Items: Update same day
+
+#### Related Tasks:
+- Weekly status reporting
+- Sprint progress tracking
+- Technical decision documentation
 
 ## Follow-up Actions
 1. Documentation:

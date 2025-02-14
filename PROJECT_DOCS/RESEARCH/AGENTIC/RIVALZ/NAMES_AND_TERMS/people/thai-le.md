@@ -1,30 +1,37 @@
 # Thai Le
 
-## Roles & Responsibilities
-- Technical team member
-- Responsible for template and banner updates
-- UI/UX improvements for [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md)
+## Role
+- UI/UX specialist at Truestack.ai
+- Technical Lead for VORD team
 
-## Recent Contributions
-- Updated templates and banners for apps (February 2025)
-- UI improvements for [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md) chat interface
-- Template system updates for [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md)
+## Contact Information
+- Email: thailh.work@gmail.com
+- Company: Truestack.ai
 
-## Projects
-- [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md): UI/UX improvements
-- [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md): Template updates
-- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Team member
+## Responsibilities
+- UI/UX Development
+- Technical Team Leadership
+- VORD Development
+- Development Team Coordination
+
+## Current Projects
+- VORD UI/UX Implementation
+- Embedding Systems Development
+- Authentication Flow Design
+- Interface Security Implementation
+
+## Reporting Structure
+- Reports to: Daniel Ho (CTO)
+- Team: VORD Development
 
 ## Related Terms
-- [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md): Technical oversight (CTO)
-- [Joe Maristela](/NAMES_AND_TERMS/people/joe-maristela.md): Project management
-- [Sidelined AI](/NAMES_AND_TERMS/products/sidelined-ai.md): Product work
-- [Dify Integration](/NAMES_AND_TERMS/technologies/dify-integration.md): Current focus
+- [Truestack.ai](/NAMES_AND_TERMS/companies/truestack.md): Parent company
+- [Vord](/NAMES_AND_TERMS/technologies/vord.md): Primary project
+- [Daniel Ho](/NAMES_AND_TERMS/people/daniel-ho.md): Technical reporting line
 
 ---
-## Metadata
-created: 2024-01-09
-updated: 2024-01-09
-author: [GitHub Copilot](https://github.com/features/copilot)
-tags: [people, technical, ui-ux]
-status: DRAFT
+created: 2024-02-13
+updated: 2024-02-14
+author: [rolodexter]
+tags: [people, technical-lead, ui-ux, development]
+status: ACTIVE
