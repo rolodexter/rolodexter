@@ -160,6 +160,130 @@
 - Security measures are critical for iframe implementation
 - Need to maintain list of approved origin websites
 
+## Updated Priorities (Feb 14, 2025)
+
+### P0: Embedding Functionality
+**Context**: Priority client (Matt's contact) needs embedding solution
+**Status**: In Progress
+**Owner**: Daniel Ho
+
+#### Current Tasks:
+- [ ] Implement embedding without Google signin
+- [ ] Test basic domain validation
+- [ ] Document client implementation steps
+- [ ] Deploy temporary solution
+
+#### Dependencies:
+- Team discussion approval
+- Domain validation testing
+- Client domain information
+
+#### Timeline:
+- Initial solution: ASAP
+- Team discussion: Pending
+- Client delivery: TBD
+
+### P1: Multi-Agent Framework
+**Context**: ClickUp task 8697x273t tracking framework development
+**Status**: In Progress
+**Owner**: Daniel Ho
+
+#### Current Tasks:
+- [ ] Document current framework architecture
+- [ ] Map integration points with VORD/Glik
+- [ ] Create development roadmap
+- [ ] Define success metrics
+
+#### Dependencies:
+- Architecture documentation
+- Integration planning
+- Resource allocation
+
+#### Timeline:
+- Documentation: Pending
+- Integration mapping: TBD
+- Roadmap finalization: TBD
+
+### Follow-up Actions
+1. Priority Client Support:
+   - [ ] Communicate temporary solution
+   - [ ] Document implementation steps
+   - [ ] Prepare client documentation
+   - [ ] Schedule follow-up review
+
+2. Framework Development:
+   - [ ] Review current documentation
+   - [ ] Identify integration requirements
+   - [ ] Plan resource allocation
+   - [ ] Set milestone dates
+
+## Updated Priorities (Feb 14, 2025 PM)
+
+### P0: Documentation Access & Management
+**Context**: Team uses Google Docs for drafts before Gitbook publication
+**Status**: In Progress
+**Owner**: Sarah, Linh
+
+#### Current Tasks:
+- [ ] Share doc folder with joe@rivalz.ai
+- [ ] Review Vord simplified documentation
+- [ ] Complete Glik documentation review
+- [ ] Train team on Gitbook/Markdown
+
+#### Timeline:
+- Documentation access: ASAP
+- Glik review: In Progress
+- Gitbook training: TBD
+
+### P0: Embedding Solution Implementation
+**Context**: Users unable to embed apps, Google signin blocking progress
+**Status**: In Development
+**Owner**: Thai Le, Dat Ho
+
+#### Current Tasks:
+- [ ] Enable embedding without Google signin
+- [ ] Implement username/password auth
+- [ ] Design query string auth method
+- [ ] Test embedding functionality
+- [ ] Document configuration requirements
+
+#### Dependencies:
+- dynamic.xyz integration
+- Query string auth implementation
+- User configuration guide
+
+### P2: New Feature Exploration
+**Context**: Client request for object detection capability
+**Status**: Under Evaluation
+**Owner**: Dat Ho
+
+#### Tasks:
+- [ ] Evaluate YOLO integration feasibility
+- [ ] Assess integration requirements for GLIK/Vord
+- [ ] Document potential implementation approach
+- [ ] Create proof of concept if approved
+
+#### Reference Systems:
+- n8n.io platform capabilities
+- Current AI agent implementations
+- Existing object detection solutions
+
+## Follow-up Actions
+1. Documentation:
+   - [ ] Review all Google Docs drafts
+   - [ ] Establish clear publication workflow
+   - [ ] Create Markdown/Gitbook guidelines
+
+2. Technical Implementation:
+   - [ ] Document user app configuration requirements
+   - [ ] Test embedding without Google signin
+   - [ ] Create user configuration guide
+
+3. Feature Planning:
+   - [ ] Research n8n capabilities
+   - [ ] Document potential feature roadmap
+   - [ ] Assess resource requirements
+
 ---
 created: 2024-01-09
 updated: 2024-01-09
