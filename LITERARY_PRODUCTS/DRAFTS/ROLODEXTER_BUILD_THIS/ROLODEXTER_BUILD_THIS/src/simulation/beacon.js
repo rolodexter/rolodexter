@@ -9,44 +9,59 @@ export class BeaconPlatform {
         this.tourStarted = false;
         this.cursor = null;
         this.spotlight = null;
+        this.tourLoopEnabled = true; // Enable continuous looping
         
         // Initialize core components first
         this.activeIdeas = new Map();
         this.initializeMockData();
         
-        // Initialize tour components immediately
-        this.setupTourGuide();
-        this.setupNotifications();
-        this.setupMessenger();
+        // Initialize news ticker right after core components
+        this.initializeNewsTicker();
         
         // Start core features
         this.initializeTokenChart();
         this.initializeMarketData();
         this.startMarketSimulation();
         this.setupEventListeners();
-        
-        // Start tour after a brief delay
-        setTimeout(() => {
-            if (!this.tourStarted) {
+
+        // Start tour immediately when DOM is ready
+        if (document.readyState === 'complete') {
+            this.startProductTour();
+        } else {
+            document.addEventListener('DOMContentLoaded', () => {
                 this.startProductTour();
-            }
-        }, 1000);
+            });
+        }
     }
 
     setupTourGuide() {
-        // Create and store cursor reference
+        // Remove any existing cursor
+        const existingCursor = document.querySelector('.simulated-cursor');
+        if (existingCursor) {
+            existingCursor.remove();
+        }
+
+        // Create and store cursor reference with improved visibility
         this.cursor = document.createElement('div');
         this.cursor.className = 'simulated-cursor';
-        this.cursor.style.position = 'fixed';
-        this.cursor.style.width = '20px';
-        this.cursor.style.height = '20px';
-        this.cursor.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
-        this.cursor.style.borderRadius = '50%';
-        this.cursor.style.pointerEvents = 'none';
-        this.cursor.style.zIndex = '10000';
-        this.cursor.style.transform = 'translate(-50%, -50%)';
-        this.cursor.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
-        this.cursor.style.boxShadow = '0 0 0 2px rgba(0, 82, 204, 0.8)';
+        this.cursor.style.cssText = `
+            position: fixed !important;
+            width: 24px !important;
+            height: 24px !important;
+            background: rgba(255, 255, 255, 0.95) !important;
+            border-radius: 50% !important;
+            pointer-events: none !important;
+            z-index: 2147483647 !important;
+            transform: translate(-50%, -50%) !important;
+            mix-blend-mode: difference !important;
+            box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.9), 0 0 10px rgba(0, 82, 204, 0.5) !important;
+            display: block !important;
+            opacity: 1 !important;
+            left: 50% !important;
+            top: 50% !important;
+            visibility: visible !important;
+            transition: all 0.1s cubic-bezier(0.16, 1, 0.3, 1) !important;
+        `;
         document.body.appendChild(this.cursor);
 
         // Create and store spotlight reference
@@ -711,16 +726,65 @@ export class BeaconPlatform {
             });
         }
 
-        // Update wallet info with username
-        const walletInfo = document.querySelector('.wallet-info');
-        if (walletInfo) {
-            walletInfo.innerHTML = `
-                <span class="wallet-balance">24,500 $ROLODEXTER</span>
-                <div class="wallet-user">
-                    <span class="username">${this.username}</span>
-                    <button class="wallet-address">7x24...f8e9</button>
-                </div>
-            `;
+        // User menu functionality
+        const userMenuTrigger = document.querySelector('.user-menu-trigger');
+        if (userMenuTrigger) {
+            userMenuTrigger.addEventListener('click', () => {
+                const menu = document.createElement('div');
+                menu.className = 'user-dropdown-menu';
+                menu.innerHTML = `
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <span class="item-icon">👤</span>
+                            <span>Profile</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-icon">⚙️</span>
+                            <span>Settings</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-icon">🏆</span>
+                            <span>Achievements</span>
+                        </div>
+                        <div class="menu-divider"></div>
+                        <div class="menu-item">
+                            <span class="item-icon">📤</span>
+                            <span>Sign Out</span>
+                        </div>
+                    </div>
+                `;
+                
+                // Position the menu
+                const rect = userMenuTrigger.getBoundingClientRect();
+                menu.style.position = 'absolute';
+                menu.style.top = `${rect.bottom + 8}px`;
+                menu.style.right = '0';
+                
+                // Remove existing menu if any
+                document.querySelector('.user-dropdown-menu')?.remove();
+                document.body.appendChild(menu);
+                
+                // Close menu when clicking outside
+                const closeMenu = (e) => {
+                    if (!menu.contains(e.target) && !userMenuTrigger.contains(e.target)) {
+                        menu.remove();
+                        document.removeEventListener('click', closeMenu);
+                    }
+                };
+                
+                // Delay adding click listener to prevent immediate closure
+                setTimeout(() => {
+                    document.addEventListener('click', closeMenu);
+                }, 0);
+            });
+        }
+    }
+
+    // Add new method to handle wallet info updates
+    updateWalletInfo() {
+        const balanceEl = document.querySelector('.balance-value');
+        if (balanceEl) {
+            balanceEl.textContent = `${this.formatNumber(24500)} $ROLODEXTER`;
         }
     }
 
@@ -1003,8 +1067,8 @@ export class BeaconPlatform {
         tr.innerHTML = `
             <td>
                 <div class="idea-cell">
-                    <div class="idea-name">${new URL(idea.url).hostname}</div>
-                    <div class="idea-desc">${idea.description}</div>
+                    <div class="idea-name">${idea.description}</div>
+                    <div class="idea-source">${new URL(idea.url).hostname}</div>
                 </div>
             </td>
             <td>$${idea.currentPrice.toFixed(4)}</td>
@@ -1101,8 +1165,8 @@ export class BeaconPlatform {
         container.innerHTML = ideas.map(idea => `
             <div class="trending-item">
                 <div class="trending-info">
-                    <div class="trending-url">${new URL(idea.url).hostname}</div>
-                    <div class="trending-description">${idea.description}</div>
+                    <div class="trending-title">${idea.description}</div>
+                    <div class="trending-source">${new URL(idea.url).hostname}</div>
                 </div>
                 <div class="trending-metrics">
                     <div class="trending-price">$${idea.currentPrice.toFixed(4)}</div>
@@ -1160,10 +1224,10 @@ export class BeaconPlatform {
         featuredContainer.innerHTML = featuredIdeas.map(idea => `
             <div class="featured-item">
                 <div class="featured-header">
-                    <div class="featured-name">${new URL(idea.url).hostname}</div>
+                    <div class="featured-title">${idea.description}</div>
                     <div class="featured-price">$${idea.currentPrice.toFixed(4)}</div>
                 </div>
-                <div class="featured-description">${idea.description}</div>
+                <div class="featured-source">${new URL(idea.url).hostname}</div>
                 <div class="featured-metrics">
                     <div class="metric">
                         <span class="label">Vol</span>
@@ -1196,6 +1260,14 @@ export class BeaconPlatform {
                     <div class="notification-message">${message}</div>
                 </div>
             `;
+        } else if (message.includes('approaching graduation')) {
+            // Extract idea description instead of domain
+            const idea = Array.from(this.activeIdeas.values())
+                .find(idea => idea.marketCap >= 40000 && idea.marketCap < 50000);
+            if (idea) {
+                message = `"${idea.description}" is approaching graduation! 🚀`;
+            }
+            notification.textContent = message;
         } else {
             notification.textContent = message;
         }
@@ -1208,7 +1280,7 @@ export class BeaconPlatform {
             setTimeout(() => {
                 notification.classList.remove('show');
                 setTimeout(() => notification.remove(), 300);
-            }, 5000); // Show graduation notifications longer
+            }, 5000);
         }, 100);
     }
 
@@ -1331,29 +1403,27 @@ export class BeaconPlatform {
         });
     }
 
-    async moveCursor(cursor, targetX, targetY) {
-        if (!cursor) return;
+    async moveCursor(targetX, targetY) {
+        if (!this.cursor) return;
         
-        const startX = parseFloat(cursor.style.left) || window.innerWidth / 2;
-        const startY = parseFloat(cursor.style.top) || window.innerHeight / 2;
-        const steps = 30;
+        const startX = parseFloat(this.cursor.style.left) || window.innerWidth / 2;
+        const startY = parseFloat(this.cursor.style.top) || window.innerHeight / 2;
+        const steps = 10; // Even fewer steps for faster movement
         
-        // Temporarily disable animation during movement
-        cursor.style.animation = 'none';
+        this.cursor.classList.add('moving');
         
         for (let i = 0; i <= steps; i++) {
             const progress = i / steps;
-            const x = startX + (targetX - startX) * this.easeInOutCubic(progress);
-            const y = startY + (targetY - startY) * this.easeInOutCubic(progress);
+            const x = startX + (targetX - startX) * this.easeOutQuart(progress);
+            const y = startY + (targetY - startY) * this.easeOutQuart(progress);
             
-            cursor.style.left = `${x}px`;
-            cursor.style.top = `${y}px`;
+            this.cursor.style.left = `${x}px`;
+            this.cursor.style.top = `${y}px`;
             
-            await this.sleep(16); // Smooth 60fps animation
+            await this.sleep(8); // Faster animation (was 16)
         }
         
-        // Re-enable pulse animation after movement
-        cursor.style.animation = 'pulse 2s infinite';
+        this.cursor.classList.remove('moving');
     }
 
     async typeIntoInput(inputId, text) {
@@ -1391,32 +1461,33 @@ export class BeaconPlatform {
 
     // Add these new methods for tour functionality
     async startProductTour() {
-        if (this.tourStarted) return;
+        if (this.tourStarted) {
+            return;
+        }
         this.tourStarted = true;
 
-        // Remove any existing cursor and spotlight
-        document.querySelector('.simulated-cursor')?.remove();
-        document.querySelector('.tour-spotlight')?.remove();
-
-        // Create cursor
+        // Create cursor with more dynamic styling
         this.cursor = document.createElement('div');
         this.cursor.className = 'simulated-cursor';
         this.cursor.style.cssText = `
             position: fixed !important;
-            width: 24px !important;
-            height: 24px !important;
+            width: 28px !important;
+            height: 28px !important;
             background: rgba(255, 255, 255, 0.95) !important;
             border-radius: 50% !important;
             pointer-events: none !important;
-            z-index: 1000000 !important;
+            z-index: 2147483647 !important;
             transform: translate(-50%, -50%) !important;
-            mix-blend-mode: difference;
-            box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.9), 0 0 10px rgba(0, 82, 204, 0.5);
+            mix-blend-mode: difference !important;
+            box-shadow: 
+                0 0 0 3px rgba(0, 82, 204, 0.9),
+                0 0 20px rgba(0, 82, 204, 0.5),
+                0 0 40px rgba(0, 82, 204, 0.3) !important;
             display: block !important;
             opacity: 1 !important;
-            left: 50%;
-            top: 50%;
-            transition: none;
+            left: 50% !important;
+            top: 50% !important;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
         `;
         document.body.appendChild(this.cursor);
 
@@ -1439,103 +1510,199 @@ export class BeaconPlatform {
         // Wait before starting tour
         await this.sleep(500);
 
-        // Run through each tour step
-        for (const step of this.tourSteps) {
-            await this.showTourStep(step);
+        while (this.tourLoopEnabled) {
+            // Exciting tour steps with dynamic content
+            this.tourSteps = [
+                {
+                    element: '.news-ticker',
+                    title: '🚀 Real-Time Innovation Feed',
+                    content: 'Breaking news and trending topics instantly become tradeable ideas! Watch the magic happen as articles transform into valuable NFTs.',
+                    position: 'bottom',
+                    spotlight: true,
+                    action: async () => {
+                        await this.simulateNewsClick();
+                    }
+                },
+                {
+                    element: '.idea-creation',
+                    title: '✨ Instant Idea Generation',
+                    content: 'One click to mint groundbreaking ideas! Our AI analyzes market trends and predicts potential winners.',
+                    position: 'right',
+                    spotlight: true,
+                    action: async () => {
+                        await this.simulateIdeaMinting();
+                    }
+                },
+                {
+                    element: '.ideas-table',
+                    title: '💎 Watch Ideas Grow',
+                    content: 'Experience the thrill of early-stage ideas racing towards graduation! Join thousands of idea hunters already profiting.',
+                    position: 'left',
+                    spotlight: true,
+                    highlightRows: true
+                },
+                {
+                    element: '.trending',
+                    title: '🔥 Trending Now',
+                    content: 'Catch the next big thing before everyone else! These ideas are gaining massive momentum.',
+                    position: 'right',
+                    spotlight: true,
+                    pulseEffect: true
+                },
+                {
+                    element: '.token-card',
+                    title: '💫 Earn While You Create',
+                    content: 'Stake $ROLODEXTER and earn from platform fees. Your creativity powers the ecosystem!',
+                    position: 'left',
+                    spotlight: true,
+                    tokenAnimation: true
+                }
+            ];
+
+            for (const step of this.tourSteps) {
+                await this.showEnhancedTourStep(step);
+                if (!this.tourLoopEnabled) break;
+            }
+
+            // Brief pause before restarting
+            await this.sleep(2000);
         }
     }
 
-    async showTourStep(step) {
+    async showEnhancedTourStep(step) {
         const element = document.querySelector(step.element);
         if (!element) return;
 
-        // Remove previous highlights
-        document.querySelectorAll('[data-tour-active="true"]').forEach(el => {
-            el.removeAttribute('data-tour-active');
-        });
-
-        // Highlight current element
-        element.setAttribute('data-tour-active', 'true');
-
-        // Move cursor to element
+        // Dynamic entrance for each feature
+        element.classList.add('feature-highlight');
+        
+        // Snappy cursor movement
         const rect = element.getBoundingClientRect();
         const targetX = rect.left + (rect.width / 2);
         const targetY = rect.top + (rect.height / 2);
 
-        if (this.cursor) {
-            const startX = parseFloat(this.cursor.style.left) || window.innerWidth / 2;
-            const startY = parseFloat(this.cursor.style.top) || window.innerHeight / 2;
-            
-            // Move in steps
-            const steps = 30;
-            for (let i = 0; i <= steps; i++) {
-                const progress = i / steps;
-                const x = startX + (targetX - startX) * this.easeInOutCubic(progress);
-                const y = startY + (targetY - startY) * this.easeInOutCubic(progress);
-                
-                this.cursor.style.left = `${x}px`;
-                this.cursor.style.top = `${y}px`;
-                
-                await this.sleep(16);
-            }
+        await this.moveCursor(targetX, targetY, true);
 
-            // Add click effect if step has action
-            if (step.action) {
-                this.cursor.classList.add('clicking');
-                await step.action();
-                this.cursor.classList.remove('clicking');
-            }
-        }
-
-        // Update spotlight
-        if (this.spotlight) {
-            this.spotlight.classList.add('visible');
-            const padding = 10;
-            const spotlightHole = this.spotlight.firstChild;
-            Object.assign(spotlightHole.style, {
-                left: `${rect.left - padding}px`,
-                top: `${rect.top - padding}px`,
-                width: `${rect.width + (padding * 2)}px`,
-                height: `${rect.height + (padding * 2)}px`,
-                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
-            });
-        }
-
-        // Show tooltip
+        // Show dynamic tooltip with animation
         const tooltip = document.getElementById('tourTooltip');
         if (tooltip) {
             tooltip.innerHTML = `
                 <div class="tour-tooltip-header">
                     <h3>${step.title}</h3>
-                    <span class="tour-step">${this.tourSteps.indexOf(step) + 1}/${this.tourSteps.length}</span>
                 </div>
-                <div class="tour-tooltip-content">${step.content}</div>
-                <div class="tour-tooltip-footer">
-                    <button class="tour-next-btn">Continue</button>
+                <div class="tour-tooltip-content animated-text">
+                    ${step.content}
                 </div>
             `;
 
             const tooltipPos = this.calculateTooltipPosition(rect, step.position);
             Object.assign(tooltip.style, tooltipPos);
-            tooltip.classList.add('visible');
+            tooltip.classList.add('visible', 'animated');
+        }
 
-            // Wait for next button or timeout
-            await new Promise(resolve => {
-                const nextBtn = tooltip.querySelector('.tour-next-btn');
-                if (nextBtn) {
-                    nextBtn.onclick = () => {
-                        tooltip.classList.remove('visible');
-                        this.spotlight?.classList.remove('visible');
-                        resolve();
-                    };
-                }
-                
-                setTimeout(() => {
-                    tooltip.classList.remove('visible');
-                    this.spotlight?.classList.remove('visible');
-                    resolve();
-                }, 5000);
-            });
+        // Special feature animations
+        if (step.highlightRows) {
+            await this.animateTableRows();
+        }
+        if (step.pulseEffect) {
+            await this.addPulseEffect(element);
+        }
+        if (step.tokenAnimation) {
+            await this.animateTokenCard();
+        }
+
+        // Execute step action with excitement
+        if (step.action) {
+            this.cursor.classList.add('action-ready');
+            await step.action();
+            this.cursor.classList.remove('action-ready');
+        }
+
+        // Hold for dramatic effect but not too long
+        await this.sleep(3500);
+
+        // Smooth exit
+        tooltip.classList.remove('visible', 'animated');
+        element.classList.remove('feature-highlight');
+    }
+
+    async moveCursor(targetX, targetY, excited = false) {
+        if (!this.cursor) return;
+        
+        const startX = parseFloat(this.cursor.style.left) || window.innerWidth / 2;
+        const startY = parseFloat(this.cursor.style.top) || window.innerHeight / 2;
+        const steps = excited ? 8 : 12; // Even faster for excited movements
+        
+        this.cursor.classList.add('moving');
+        
+        for (let i = 0; i <= steps; i++) {
+            const progress = i / steps;
+            const x = startX + (targetX - startX) * this.easeOutExpo(progress);
+            const y = startY + (targetY - startY) * this.easeOutExpo(progress);
+            
+            this.cursor.style.left = `${x}px`;
+            this.cursor.style.top = `${y}px`;
+            
+            await this.sleep(excited ? 6 : 10);
+        }
+        
+        this.cursor.classList.remove('moving');
+    }
+
+    // Snappier easing function for excited movements
+    easeOutExpo(x) {
+        return x === 1 ? 1 : 1 - Math.pow(2, -10 * x);
+    }
+
+    async simulateNewsClick() {
+        const newsItems = document.querySelectorAll('.news-item');
+        if (newsItems.length) {
+            const item = newsItems[0];
+            item.classList.add('highlight-pulse');
+            await this.sleep(300);
+            this.cursor.classList.add('clicking');
+            await this.sleep(200);
+            this.showNotification('🎯 Instantly creating idea from trending news!', 'success');
+            item.classList.remove('highlight-pulse');
+            this.cursor.classList.remove('clicking');
+        }
+    }
+
+    async simulateIdeaMinting() {
+        const input = document.getElementById('ideaUrl');
+        if (input) {
+            await this.simulateTyping(input, 'https://x.com/breaking-tech-news', 8); // Faster typing
+            await this.sleep(300);
+            const mintBtn = document.getElementById('mintIdea');
+            if (mintBtn) {
+                mintBtn.classList.add('highlight-pulse');
+                await this.sleep(300);
+                this.showNotification('✨ New idea minted! Watch it trade live.', 'success');
+            }
+        }
+    }
+
+    async animateTableRows() {
+        const rows = document.querySelectorAll('.ideas-table tbody tr');
+        for (const row of rows) {
+            row.classList.add('pulse-highlight');
+            await this.sleep(150); // Quick sequence
+            row.classList.remove('pulse-highlight');
+        }
+    }
+
+    async addPulseEffect(element) {
+        element.classList.add('super-pulse');
+        await this.sleep(1000);
+        element.classList.remove('super-pulse');
+    }
+
+    async animateTokenCard() {
+        const card = document.querySelector('.token-card');
+        if (card) {
+            card.classList.add('token-glow');
+            await this.sleep(1000);
+            card.classList.remove('token-glow');
         }
     }
 
@@ -1561,7 +1728,7 @@ export class BeaconPlatform {
         element.value = '';
         for (const char of text) {
             element.value += char;
-            await this.sleep(25); // Reduced from 50ms to 25ms for faster typing
+            await this.sleep(15); // Reduced from 25ms to 15ms for faster typing
         }
     }
 
@@ -1798,6 +1965,248 @@ export class BeaconPlatform {
         // Scroll to latest message
         const messagesContainer = document.querySelector('.chat-messages');
         messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+
+    calculateTooltipPosition(elementRect, position = 'bottom') {
+        const tooltipWidth = 300; // Approximate width of tooltip
+        const tooltipHeight = 150; // Approximate height of tooltip
+        const margin = 10; // Margin from element
+        
+        let left, top;
+        
+        switch (position) {
+            case 'right':
+                left = elementRect.right + margin;
+                top = elementRect.top + (elementRect.height / 2);
+                break;
+            case 'left':
+                left = elementRect.left - tooltipWidth - margin;
+                top = elementRect.top + (elementRect.height / 2);
+                break;
+            case 'top':
+                left = elementRect.left + (elementRect.width / 2);
+                top = elementRect.top - tooltipHeight - margin;
+                break;
+            default: // bottom
+                left = elementRect.left + (elementRect.width / 2);
+                top = elementRect.bottom + margin;
+        }
+
+        // Ensure tooltip stays within viewport
+        const viewport = {
+            width: window.innerWidth,
+            height: window.innerHeight
+        };
+
+        if (left < 0) left = margin;
+        if (left + tooltipWidth > viewport.width) left = viewport.width - tooltipWidth - margin;
+        if (top < 0) top = margin;
+        if (top + tooltipHeight > viewport.height) top = viewport.height - tooltipHeight - margin;
+
+        return {
+            left: `${left}px`,
+            top: `${top}px`
+        };
+    }
+
+    async moveCursor(targetX, targetY) {
+        if (!this.cursor) return;
+        
+        const startX = parseFloat(this.cursor.style.left) || window.innerWidth / 2;
+        const startY = parseFloat(this.cursor.style.top) || window.innerHeight / 2;
+        const steps = 15; // Reduced steps for faster movement
+        
+        this.cursor.classList.add('moving');
+        
+        for (let i = 0; i <= steps; i++) {
+            const progress = i / steps;
+            const x = startX + (targetX - startX) * this.easeOutQuart(progress);
+            const y = startY + (targetY - startY) * this.easeOutQuart(progress);
+            
+            this.cursor.style.left = `${x}px`;
+            this.cursor.style.top = `${y}px`;
+            
+            await this.sleep(8); // Faster animation (was 16)
+        }
+        
+        this.cursor.classList.remove('moving');
+    }
+
+    // Add snappier easing function for cursor movement
+    easeOutQuart(x) {
+        return 1 - Math.pow(1 - x, 4);
+    }
+
+    async showTourStep(step) {
+        const element = document.querySelector(step.element);
+        if (!element) return;
+
+        // Clear previous highlights with quick fade
+        document.querySelectorAll('[data-tour-active="true"]').forEach(el => {
+            el.style.transition = 'all 0.2s ease';
+            el.removeAttribute('data-tour-active');
+        });
+
+        // Add highlight to current element
+        element.setAttribute('data-tour-active', 'true');
+        element.classList.add('highlight-pulse');
+
+        // Quick cursor movement to element
+        const rect = element.getBoundingClientRect();
+        const targetX = rect.left + (rect.width / 2);
+        const targetY = rect.top + (rect.height / 2);
+
+        if (this.cursor) {
+            await this.moveCursor(targetX, targetY);
+
+            // Add excitement to the cursor
+            if (step.action) {
+                this.cursor.classList.add('clicking');
+                await this.sleep(200); // Quick click animation
+                await step.action();
+                this.cursor.classList.remove('clicking');
+            } else {
+                // Add hover effect when no action
+                this.cursor.style.transform = 'scale(1.2)';
+                await this.sleep(200);
+                this.cursor.style.transform = 'scale(1)';
+            }
+        }
+
+        // Show tooltip with dynamic content
+        const tooltip = document.getElementById('tourTooltip');
+        if (tooltip) {
+            tooltip.innerHTML = `
+                <div class="tour-tooltip-header">
+                    <h3>${step.title}</h3>
+                    <span class="tour-step">${this.tourSteps.indexOf(step) + 1}/${this.tourSteps.length}</span>
+                </div>
+                <div class="tour-tooltip-content">${step.content}</div>
+                <div class="tour-tooltip-footer">
+                    <button class="tour-next-btn">Continue →</button>
+                </div>
+            `;
+
+            const tooltipPos = this.calculateTooltipPosition(rect, step.position);
+            Object.assign(tooltip.style, tooltipPos);
+            tooltip.classList.add('visible');
+        }
+
+        // Shorter wait time for auto-advance
+        await new Promise(resolve => {
+            const nextBtn = tooltip?.querySelector('.tour-next-btn');
+            if (nextBtn) {
+                nextBtn.onclick = () => {
+                    tooltip.classList.remove('visible');
+                    this.spotlight?.classList.remove('visible');
+                    element.classList.remove('highlight-pulse');
+                    resolve();
+                };
+            }
+            
+            // Faster auto-advance (was 8000ms)
+            setTimeout(() => {
+                if (tooltip?.classList.contains('visible')) {
+                    tooltip.classList.remove('visible');
+                    this.spotlight?.classList.remove('visible');
+                    element.classList.remove('highlight-pulse');
+                    resolve();
+                }
+            }, 4000);
+        });
+    }
+
+    // Update type simulation speed
+    async simulateTyping(selector, text) {
+        const element = document.querySelector(selector);
+        if (!element) return;
+
+        element.focus();
+        element.value = '';
+        
+        // Faster typing speed
+        for (const char of text) {
+            element.value += char;
+            await this.sleep(15); // Was 25ms
+        }
+    }
+
+    initializeNewsTicker() {
+        const newsItems = [
+            {
+                time: '1m ago',
+                source: 'TechCrunch',
+                headline: 'OpenAI releases breakthrough in quantum-resistant encryption',
+                url: 'https://x.com/techcrunch/quantum-ai'
+            },
+            {
+                time: '3m ago',
+                source: 'SpaceX',
+                headline: 'Starship successfully completes first orbital refueling',
+                url: 'https://x.com/spacex/orbital-refuel'
+            },
+            {
+                time: '5m ago',
+                source: 'Nature',
+                headline: 'Scientists achieve room-temperature superconductivity',
+                url: 'https://nature.com/superconductor'
+            },
+            {
+                time: '7m ago',
+                source: 'DeepMind',
+                headline: 'New AI model achieves human-level performance in creative tasks',
+                url: 'https://x.com/deepmind/creative-ai'
+            }
+        ];
+
+        const tickerContent = document.querySelector('.news-ticker-content');
+        if (tickerContent) {
+            const newsHtml = newsItems.map(item => `
+                <a href="#" class="news-item" data-url="${item.url}">
+                    <span class="time">${item.time}</span>
+                    <span class="separator">|</span>
+                    <span class="source">${item.source}</span>
+                    <span class="separator">:</span>
+                    <span class="headline">${item.headline}</span>
+                </a>
+            `).join('');
+            tickerContent.innerHTML = newsHtml + newsHtml; // Duplicate for seamless loop
+
+            // Add click handlers for instant NFT creation
+            document.querySelectorAll('.news-item').forEach(item => {
+                item.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    const url = item.dataset.url;
+                    const headline = item.querySelector('.headline').textContent;
+                    
+                    // Highlight the clicked news item
+                    item.classList.add('highlight-pulse');
+                    
+                    // Auto-fill the idea creation form
+                    const urlInput = document.getElementById('ideaUrl');
+                    const descInput = document.getElementById('ideaDescription');
+                    if (urlInput && descInput) {
+                        urlInput.value = url;
+                        descInput.value = headline;
+                        
+                        // Show exciting notification
+                        this.showNotification(`🚀 Instant NFT: "${headline}"`, 'success');
+                        
+                        // Simulate AI analysis
+                        const aiBtn = document.getElementById('aiGenerateBtn');
+                        if (aiBtn) {
+                            aiBtn.innerHTML = '<span class="ai-icon">🤖</span>Analyzing...';
+                            await this.sleep(800);
+                            descInput.value += '\n\nAI Analysis: High potential idea with significant market impact. Similar ideas have shown 85% graduation rate.';
+                            aiBtn.innerHTML = '<span class="ai-icon">🤖</span>Ask rolodexter';
+                        }
+                    }
+                    
+                    // Remove highlight after animation
+                    setTimeout(() => item.classList.remove('highlight-pulse'), 1000);
+                });
+            });
+        }
     }
 }
 

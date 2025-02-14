@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beacon Terminal</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="src/styles/beacon.css">
     <link rel="stylesheet" href="src/styles/chat.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -53,16 +57,36 @@
                         <span class="token-value">$1.24</span>
                         <span class="token-change positive">+5.2%</span>
                     </div>
+                    <div class="wallet-balance">
+                        <span class="balance-value">24,500 $ROLODEXTER</span>
+                    </div>
                 </div>
                 <div class="header-right">
                     <div class="profile-section">
-                        <div class="wallet-info">
-                            <span class="wallet-balance">24,500 $ROLODEXTER</span>
-                            <button class="wallet-address">7x24...f8e9</button>
+                        <div class="user-menu">
+                            <button class="user-menu-trigger">
+                                <img src="images/joe.jpg" alt="Profile" class="user-avatar">
+                                <span class="username">JoeMaristela</span>
+                                <span class="wallet-pill">7x24...f8e9</span>
+                                <span class="menu-arrow">▾</span>
+                            </button>
                         </div>
                     </div>
                 </div>
             </header>
+
+            <!-- News Ticker -->
+            <div class="news-ticker">
+                <div class="news-ticker-label">LIVE UPDATES</div>
+                <div class="news-ticker-container">
+                    <div class="news-ticker-content">
+                        <!-- News items will be dynamically inserted here -->
+                    </div>
+                </div>
+                <div class="news-ticker-controls">
+                    <button class="ticker-control pause-btn" title="Pause">⏸</button>
+                </div>
+            </div>
 
             <!-- Main Content -->
             <main class="platform-main">
