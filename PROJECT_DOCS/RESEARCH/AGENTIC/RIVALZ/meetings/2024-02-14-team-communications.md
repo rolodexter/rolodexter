@@ -64,6 +64,48 @@
 - Monitor user app configuration issues
 
 ---
+
+# Team Communications - February 14, 2024
+
+## Participants
+- Dat (Daniel) Ho
+- Igor
+- Matt
+- Joe Maristela
+- thailh
+- LiamPhx
+- Matias_Rivalz
+- QuynhCao94
+
+## Discussion Points
+
+### Sidelined Access Requirements
+- Implement access for $RIZ token holders:
+  - Minimum requirement: 1000 $RIZ
+  - Platforms: Base and Solana
+- Timeline: Plan to announce by end of month
+- Adam to be notified for announcement scheduling
+
+### Landing Page Updates
+- New landing page needed for Sidelined
+- Key elements:
+  - Primary logos: zNode and RIZ
+  - Include whitelisted partners
+  
+### Questions Raised
+- Clarification needed on access model:
+  - Exclusive to $RIZ holders only?
+  - Or additional special permissions for $RIZ holders?
+
+## Action Items
+- [ ] Implement $RIZ holder access system
+- [ ] Design and develop new landing page
+- [ ] Create announcement plan with Adam
+- [ ] Gather whitelisted partner logos
+- [ ] Clarify exact access model and permissions
+
+---
+
 created: 2024-02-14
 author: [rolodexter]
 tags: [meetings, documentation, technical, workflow]
