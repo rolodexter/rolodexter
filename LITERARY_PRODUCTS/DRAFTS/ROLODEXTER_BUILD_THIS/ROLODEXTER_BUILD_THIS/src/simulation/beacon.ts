@@ -20,6 +20,11 @@ interface IdeaNFT {
     graduated: boolean;
 }
 
+// Import and export configuration for ES modules
+export interface BeaconConfig {
+    startImmediately?: boolean;
+}
+
 class BeaconSimulation {
     private username: string;
     private password: string;
@@ -110,84 +115,45 @@ class BeaconSimulation {
         this.isLoggedIn = false;
         this.activeIdeas = new Map();
 
-        // Single point of initialization
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => this.init());
-        } else {
-            this.init();
-        }
+        // Create DOM elements immediately
+        this.createRequiredElements();
+
+        // Start simulation immediately
+        this.forceCursorStart();
+        this.startInfiniteLoop();
     }
 
-    private async init() {
-        try {
-            console.log('=== INITIALIZATION SEQUENCE ===');
-            
-            // Wait for DOM to be completely ready
-            if (document.readyState !== 'complete') {
-                console.log('Waiting for DOM to be ready...');
-                await new Promise(resolve => window.addEventListener('load', resolve));
-            }
-            console.log('✓ DOM is ready');
+    private createRequiredElements() {
+        const sections = [
+            { class: 'welcome-section', text: 'Welcome to BEACON' },
+            { class: 'staking-section', text: 'Staking Section' },
+            { class: 'idea-nft-section', text: 'NFT Creation' },
+            { class: 'ideas-market', text: 'Ideas Market' },
+            { class: 'trending-section', text: 'Trending Ideas' },
+            { class: 'rolodexter-flywheel', text: 'Rolodexter Flywheel' }
+        ];
 
-            await this.showConnectionSequence();
-            
-            // Create cursor first and verify it exists
-            await this.createCursor();
-            const cursorExists = document.querySelector('.simulated-cursor');
-            if (!cursorExists) {
-                throw new Error('Failed to create cursor element');
-            }
-            
-            // Wait for beacon container to be ready
-            await this.waitForBeaconContainer();
-            
-            await this.setupUI();
-            await this.createIdeaForm();
-            this.startMarketMetricsUpdate();
-            this.setupEventListeners();
-            
-            // Initialize market visuals
-            const marketVisuals = new MarketVisuals();
-            marketVisuals.initializeRolodexterChart();
-            
-            // Extra verification step for required elements
-            console.log('Verifying all required elements...');
-            const allElements = [
-                '.welcome-section',
-                '.staking-section',
-                '.idea-nft-section',
-                '.ideas-market',
-                '.trending-section',
-                '.rolodexter-flywheel'
-            ].every(selector => {
-                const exists = !!document.querySelector(selector);
-                console.log(`${exists ? '✓' : '❌'} ${selector}`);
-                return exists;
-            });
+        const container = document.createElement('div');
+        container.className = 'beacon-container';
+        
+        sections.forEach(section => {
+            const div = document.createElement('div');
+            div.className = section.class;
+            div.textContent = section.text;
+            container.appendChild(div);
+        });
 
-            if (!allElements) {
-                console.error('Some required elements are missing');
-                return;
-            }
-
-            // Start cursor movement with a guaranteed delay
-            console.log('Starting cursor movement in 1 second...');
-            await this.sleep(1000);
-            await this.moveCursorToNextElement();
-            
-        } catch (error) {
-            console.error('Initialization error:', error);
-        }
+        document.body.appendChild(container);
     }
 
-    private async createCursor() {
-        console.log('=== CURSOR INITIALIZATION ===');
-        if (document.querySelector('.simulated-cursor')) {
-            console.log('✓ Cursor already exists');
-            return;
+    private forceCursorStart() {
+        // Remove any existing cursor to prevent duplicates
+        const existingCursor = document.querySelector('.simulated-cursor');
+        if (existingCursor) {
+            existingCursor.remove();
         }
 
-        console.log('Creating cursor element');
+        // Create cursor immediately
         const cursor = document.createElement('div');
         cursor.className = 'simulated-cursor';
         cursor.style.cssText = `
@@ -203,32 +169,93 @@ class BeaconSimulation {
             box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.9),
                         0 0 10px rgba(0, 82, 204, 0.5),
                         0 0 20px rgba(0, 82, 204, 0.3);
-            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-            left: 50% !important;
-            top: 50% !important;
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) !important;
             display: block !important;
             opacity: 1 !important;
-            will-change: transform, left, top;
             visibility: visible !important;
+            left: 50% !important;
+            top: 50% !important;
         `;
         document.body.appendChild(cursor);
-        console.log('✓ Cursor element created');
+    }
 
-        // Verify cursor is in DOM and visible
-        await this.sleep(100);
-        const verifiedCursor = document.querySelector('.simulated-cursor');
-        console.log('Cursor verification:', verifiedCursor ? '✓ Success' : '❌ Failed');
-        
-        if (verifiedCursor) {
-            const style = window.getComputedStyle(verifiedCursor);
-            console.log('Cursor computed style:', {
-                display: style.display,
-                opacity: style.opacity,
-                zIndex: style.zIndex,
-                position: style.position,
-                visibility: style.visibility
-            });
+    private startInfiniteLoop() {
+        const elements = [
+            '.welcome-section',
+            '.staking-section',
+            '.idea-nft-section',
+            '.ideas-market',
+            '.trending-section',
+            '.rolodexter-flywheel'
+        ];
+
+        let currentIndex = 0;
+        let loopInterval: number;
+
+        const moveToNext = () => {
+            const cursor = document.querySelector('.simulated-cursor') as HTMLElement;
+            const currentElement = document.querySelector(elements[currentIndex]);
+
+            if (cursor && currentElement) {
+                const rect = currentElement.getBoundingClientRect();
+                
+                // Force cursor visibility and position
+                cursor.style.cssText = `
+                    position: fixed !important;
+                    width: 24px !important;
+                    height: 24px !important;
+                    background: rgba(255, 255, 255, 0.95) !important;
+                    border-radius: 50% !important;
+                    pointer-events: none !important;
+                    z-index: 2147483647 !important;
+                    transform: translate(-50%, -50%) !important;
+                    mix-blend-mode: difference;
+                    box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.9),
+                                0 0 10px rgba(0, 82, 204, 0.5),
+                                0 0 20px rgba(0, 82, 204, 0.3);
+                    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) !important;
+                    display: block !important;
+                    opacity: 1 !important;
+                    visibility: visible !important;
+                    left: ${rect.left + rect.width / 2}px !important;
+                    top: ${rect.top + rect.height / 2}px !important;
+                `;
+                
+                cursor.classList.add('moving');
+                currentElement.classList.add('highlight');
+                
+                // Show tooltip
+                this.showTooltip(currentElement, this.tourSteps[currentIndex]?.message || '');
+                
+                // Move to next element
+                currentIndex = (currentIndex + 1) % elements.length;
+                
+                // Remove highlight after delay
+                setTimeout(() => {
+                    currentElement.classList.remove('highlight');
+                    cursor.classList.remove('moving');
+                }, 1500);
+            } else {
+                // If elements are not found, retry after a short delay
+                clearInterval(loopInterval);
+                setTimeout(() => {
+                    this.forceCursorStart();
+                    this.startInfiniteLoop();
+                }, 500);
+            }
+        };
+
+        // Clear any existing intervals
+        if (window['beaconLoopInterval']) {
+            clearInterval(window['beaconLoopInterval']);
         }
+
+        // Start new interval and store reference
+        loopInterval = window.setInterval(moveToNext, 2000);
+        window['beaconLoopInterval'] = loopInterval;
+
+        // Start immediately
+        moveToNext();
     }
 
     private async waitForBeaconContainer(): Promise<void> {
@@ -546,11 +573,32 @@ Total Holders: ${idea.holders}
         console.log('=== CURSOR MOVEMENT DEBUG ===');
         const cursor = document.querySelector('.simulated-cursor') as HTMLElement;
         if (!cursor) {
-            console.error('❌ Cursor element not found - will retry in 1s');
+            console.error('❌ Cursor element not found - creating new cursor');
+            await this.createCursor();
             setTimeout(() => this.moveCursorToNextElement(), 1000);
             return;
         }
         console.log('✓ Cursor element found');
+
+        // Force cursor visibility
+        cursor.style.cssText = `
+            position: fixed !important;
+            width: 24px !important;
+            height: 24px !important;
+            background: rgba(255, 255, 255, 0.95) !important;
+            border-radius: 50% !important;
+            pointer-events: none !important;
+            z-index: 2147483647 !important;
+            transform: translate(-50%, -50%) !important;
+            mix-blend-mode: difference;
+            box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.9),
+                        0 0 10px rgba(0, 82, 204, 0.5),
+                        0 0 20px rgba(0, 82, 204, 0.3);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            display: block !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        `;
 
         // Get all required elements first
         const requiredElements = [
@@ -576,54 +624,45 @@ Total Holders: ${idea.holders}
             return;
         }
 
-        console.log(`✓ Found ${elements.length} elements to visit`);
-
         let currentIndex = 0;
-        const moveToNext = async () => {
+        const visitElement = async () => {
             const element = elements[currentIndex];
-            if (!element) {
-                console.error('❌ Target element not found');
-                return;
-            }
+            if (!element) return;
 
             const rect = element.getBoundingClientRect();
             console.log(`Moving to element ${currentIndex}:`, {
                 selector: requiredElements[currentIndex],
                 position: { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 }
             });
-            
-            // Force cursor visibility
-            cursor.style.display = 'block';
-            cursor.style.opacity = '1';
+
+            // Move cursor with animation
+            cursor.style.left = `${rect.left + rect.width / 2}px`;
+            cursor.style.top = `${rect.top + rect.height / 2}px`;
             cursor.classList.add('moving');
-            
-            // Ensure z-index is maximal
-            cursor.style.zIndex = '2147483647';
-            
-            // Explicitly set position with important flag
-            cursor.style.cssText += `
-                left: ${rect.left + rect.width / 2}px !important;
-                top: ${rect.top + rect.height / 2}px !important;
-                transform: translate(-50%, -50%) !important;
-                transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1) !important;
-            `;
-            
-            // Add highlight
+
+            // Add highlight effect
             element.classList.add('highlight');
-            console.log('Added highlight to element');
             
+            // Show tooltip with element description
+            this.showTooltip(element, this.tourSteps[currentIndex]?.message || '');
+            
+            // Wait for animation and highlight duration
             await this.sleep(2000);
             
+            // Remove highlight
             element.classList.remove('highlight');
             cursor.classList.remove('moving');
             
+            // Move to next element
             currentIndex = (currentIndex + 1) % elements.length;
-            console.log(`Moving to next element (${currentIndex})`);
-            setTimeout(moveToNext, 2000);
+            
+            // Continue the infinite loop
+            setTimeout(visitElement, 1000);
         };
 
-        console.log('Starting cursor movement loop');
-        moveToNext();
+        // Start the infinite loop
+        console.log('Starting infinite cursor movement loop');
+        visitElement();
     }
 
     private async simulateCursorMovement(element: HTMLElement) {
@@ -835,4 +874,13 @@ Graduated Ideas: ${this.marketMetrics.graduatedIdeas}
     }
 }
 
-export default BeaconSimulation;
+// Create and export a single instance that auto-starts
+const defaultInstance = new BeaconSimulation();
+defaultInstance.forceCursorStart();
+defaultInstance.startInfiniteLoop();
+
+// Make sure we expose the instance globally for immediate access
+(window as any).beacon = defaultInstance;
+
+export { BeaconSimulation };
+export default defaultInstance;

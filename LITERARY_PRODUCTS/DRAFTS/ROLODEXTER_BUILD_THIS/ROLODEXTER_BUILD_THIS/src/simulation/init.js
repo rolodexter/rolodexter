@@ -1,8 +1,19 @@
-// Initialize BeaconPlatform with all required components
-import { BeaconPlatform } from './beacon.js';
+// Simple initialization
+const init = () => {
+    const beacon = new BeaconSimulation();
+    window.beacon = beacon;
+};
 
-// Single initialization point to avoid race conditions
-document.addEventListener('DOMContentLoaded', () => {
-    const platform = new BeaconPlatform();
-    window.platform = platform;
+// Start immediately if document is ready
+if (document.readyState !== 'loading') {
+    init();
+} else {
+    document.addEventListener('DOMContentLoaded', init);
+}
+
+// Backup initialization
+window.addEventListener('load', () => {
+    if (!window.beacon) {
+        init();
+    }
 });
