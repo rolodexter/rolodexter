@@ -1,3 +1,0 @@
-@echo off
-echo Starting Beacon simulation server...
-npx http-server -p 3001 -o beacon.html
