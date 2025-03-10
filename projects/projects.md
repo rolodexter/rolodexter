@@ -15,6 +15,7 @@
 
 This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../COPYRIGHT.md) for details.
 </details>
+
 ## Active Projects
 
 ### [rolodexter Labs](./labs/README.md)
