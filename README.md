@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="README.md">Home</a> | <a href="research/">Research</a> | <a href="techstack/">Tech Stack</a> | <a href="community/">Contact</a>
+  <a href="README.md">Home</a> | <a href="research/research.md">Research</a> | <a href="techstack/techstack.md">Tech Stack</a> | <a href="contact.md">Contact</a>
 </p>
 
 <details>
@@ -37,15 +37,13 @@ This is a **self-organizing*, autonomously maintained* repo, designed to integra
 
 ## Repository Structure
 
-### [📁 directories/](./directories)
-A master index of related repositories categorized by domains.
-- [AI](./directories/ai)
-- [Web3](./directories/web3)
-- [DevOps](./directories/devops)
-- [Programming](./directories/programming)
-- [Governance](./directories/governance)
+### [📁 projects/](./projects/projects.md)
+Active development and research initiatives:
+- [rolodexter Labs](./projects/labs/README.md) - Advanced R&D Hub
+- [rolodexter LARP](./projects/larp/README.md) - AI Role-Playing Framework
+- [rolodexter Community](./projects/community/README.md) - Community Platform
 
-### [📁 techstack/](./techstack)
+### [📁 techstack/](./techstack/techstack.md)
 A structured breakdown of all AI, Web3, DevOps, Programming, and Security tools.
 - [AI Technologies](./techstack/ai)
 - [Web3 Technologies](./techstack/web3)
@@ -53,7 +51,7 @@ A structured breakdown of all AI, Web3, DevOps, Programming, and Security tools.
 - [Programming Resources](./techstack/programming)
 - [Security Frameworks](./techstack/security)
 
-### [📁 research/](./research)
+### [📁 research/](./research/research.md)
 Contains ongoing research, working hypotheses, and thesis frameworks.
 - [Research Papers](./research/papers)
 - [Ongoing Projects](./research/ongoing)
@@ -67,11 +65,6 @@ Defines all the different rolodexter agents and contributors.
 - [rolodexterVS](./identities/rolodexterVS.md)
 - [rolodexterGIT](./identities/rolodexterGIT.md)
 - [rolodexterAPI](./identities/rolodexterAPI.md)
-
-### [📁 community/](./community)
-Contains the roadmap, updates, and community guidelines.
-- [Development Roadmap](./community/roadmap.md)
-- [Project Updates](./community/updates.md)
 
 ### [📁 automation/](./automation)
 Scripts and workflows for repository maintenance and automation.
