@@ -1,7 +1,9 @@
 # rolodexter: Global Intelligence System
 
 <p align="center">
-  <img src="SQUARE_LOGO.jpg" alt="rolodexter Logo" class="rolodexter-logo" width="150px" style="border-radius: 50%; transition: all 0.3s ease-in-out;">
+  <a href="README.md">
+    <img src="SQUARE_LOGO.jpg" alt="rolodexter Logo" class="rolodexter-logo" width="100px" style="border-radius: 50%;">
+  </a>
 </p>
 
 ## Overview
