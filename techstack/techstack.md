@@ -82,17 +82,9 @@ This document outlines the technology stack used across rolodexter's systems and
 - Container Orchestration
 - Cloud Services
 
-## Integration Guidelines
-
-For information on integrating with our technology stack:
-1. Review the documentation in the relevant technology section
-2. Check compatibility requirements
-3. Follow our [integration guidelines](../contrib/integration-guidelines.md)
-4. Test in isolated environments first
-
 ## Updates and Maintenance
 
 Our technology stack is continuously evolving. For the latest updates:
 - Watch this repository
-- Check the [changelog](../CHANGELOG.md)
-- Follow our [tech blog](https://blog.rolodexter.ai/tech) 
+- Review recent changes in the repository history
+- Check individual component documentation for specific updates 
