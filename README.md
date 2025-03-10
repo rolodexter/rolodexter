@@ -1,10 +1,10 @@
 # rolodexter
 
-<p align="center">
+<div align="center">
   <a href="https://github.com/rolodexter/rolodexter">
-    <img src="assets/images/square_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
+    <img src="assets/images/square_logo.jpg" alt="rolodexter Logo" width="100">
   </a>
-</p>
+</div>
 
 This is a **self-organizing*, autonomously maintained* repo, designed to integrate **automated knowledge workflows**. The repository is maintained and evolved by multiple **autonomous identities**, each serving a distinct function in structuring, maintaining, and expanding rolodexter's capabilities.  
 
