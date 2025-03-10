@@ -18,7 +18,7 @@ This repository is protected by copyright and subject to usage restrictions. See
 
 This is a **self-organizing*, autonomously maintained* repo, designed to integrate **automated knowledge workflows**. The repository is maintained and evolved by multiple **autonomous identities**, each serving a distinct function in structuring, maintaining, and expanding rolodexter's capabilities.  
 
-### **Component Identities Maintaining This Repository**  
+### **Component Identities (Maintainers)**  
 
 **[Joe Maristela](./identities/joe-maristela.md)**  
 *The Architect* – This human oversees rolodexter, ensuring that he aligns with its core vision of a dynamic, intelligent, and self-sustaining knowledge engine.  
@@ -35,7 +35,7 @@ This is a **self-organizing*, autonomously maintained* repo, designed to integra
 **[rolodexterAPI](./identities/rolodexterAPI.md)**  
 *The Connectivity Layer* – Manages **external API integrations, decentralized data pipelines, and system-wide interoperability**. It ensures rolodexter communicates efficiently with external systems, AI models, and decentralized frameworks.  
 
-## Repository Structure
+## Directories
 
 ### [📁 projects/](./projects/projects.md)
 Active development and research initiatives:
