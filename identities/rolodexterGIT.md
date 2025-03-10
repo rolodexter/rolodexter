@@ -1,4 +1,4 @@
-# rolodexterGIT: Automation Engine
+# rolodexterGIT: DevOps Intelligence System
 
 <p align="center">
   <a href="../README.md">
@@ -7,127 +7,110 @@
 </p>
 
 <p align="center">
-  🔹 **[Home](../README.md)** | 🔹 **[Projects](../directories/)** | 🔹 **[Research](../research/)** | 🔹 **[Tech Stack](../techstack/)** | 🔹 **[Contact](../community/)**
+  <a href="../README.md">Home</a> | <a href="../projects/projects.md">Projects</a> | <a href="../research/research.md">Research</a> | <a href="../techstack/techstack.md">Tech Stack</a> | <a href="../contact.md">Contact</a>
 </p>
 
 ## Overview
 
-rolodexterGIT serves as the **Automation Engine** within the rolodexter ecosystem, managing:
-- **Version control automation**
-- **Continuous integration/deployment**
-- **Repository maintenance**
-- **Automated testing and validation**
+rolodexterGIT serves as the **DevOps Intelligence System** within the rolodexter ecosystem, providing:
+- **Intelligent workflow orchestration**
+- **Predictive development analytics**
+- **Smart resource optimization**
+- **Autonomous system evolution**
 
-## Core Functions
+## Core Intelligence Systems
 
-### Automation Management
-- **Version Control**: Git operations and workflow management
-- **CI/CD Pipeline**: Automated testing and deployment
-- **Repository Health**: Maintenance and optimization
-- **Quality Assurance**: Automated checks and validations
+### Development Intelligence
+- **Pattern Recognition**: Learning from development patterns
+- **Code Flow Analysis**: Understanding development trajectories
+- **Resource Optimization**: Smart resource allocation
+- **Performance Prediction**: Anticipating system needs
 
 ### Workflow Architecture
 ```mermaid
 graph TD;
-    A[rolodexterGIT] -->|Version Control| B[Git Operations]
-    A -->|CI/CD| C[Pipeline Management]
-    A -->|Quality| D[Automated Testing]
-    A -->|Maintenance| E[Repository Health]
+    A[rolodexterGIT] -->|Intelligence| B[Pattern Analysis]
+    A -->|Optimization| C[Resource Management]
+    A -->|Evolution| D[System Learning]
+    A -->|Prediction| E[Future Planning]
     
-    B -->|Changes| F[Code Repository]
-    C -->|Deployment| G[Production Systems]
-    D -->|Validation| H[Quality Gates]
-    E -->|Optimization| I[System Health]
+    B -->|Insights| F[Development Flow]
+    C -->|Efficiency| G[Resource Usage]
+    D -->|Growth| H[System Adaptation]
+    E -->|Strategy| I[Future States]
 ```
 
-## Responsibilities
+## Intelligence Capabilities
 
-| Domain | Function |
-|--------|----------|
-| **Version Control** | Git operations and branch management |
-| **CI/CD** | Automated testing and deployment |
-| **Quality** | Code quality and testing automation |
-| **Maintenance** | Repository health and optimization |
+### Pattern Recognition
+- Development flow analysis
+- Code evolution tracking
+- Resource usage patterns
+- System behavior learning
 
-## Key Features
+### Predictive Systems
+- Resource requirement forecasting
+- Performance trend analysis
+- Scaling need prediction
+- Risk pattern identification
 
-### Version Control
-- Branch management
-- Commit automation
-- Merge operations
-- History tracking
+### Autonomous Operations
+- Self-optimizing workflows
+- Adaptive resource management
+- Intelligent scaling decisions
+- Automated problem resolution
 
-### CI/CD Pipeline
-- Automated testing
-- Deployment automation
-- Environment management
-- Release coordination
+## Current Systems
 
-### Quality Assurance
-- Code linting
-- Test automation
-- Coverage tracking
-- Performance monitoring
+### Active Intelligence
+- Development pattern analysis
+- Resource optimization engines
+- Predictive scaling systems
+- Autonomous decision making
 
-## Current Capabilities
-
-### Active Systems
-- Git workflow automation
-- GitHub Actions integration
-- Automated testing
-- Quality gates
-
-### Automation Tools
-- Continuous integration
-- Automated deployment
-- Test runners
-- Code analysis
+### Learning Systems
+- Workflow optimization
+- Resource allocation
+- System adaptation
+- Performance tuning
 
 ## Integration Points
 
 ### With Human Architect
-- Receives automation strategy from [Joe Maristela](./joe-maristela.md)
-- Provides system health metrics
-- Suggests workflow improvements
-- Maintains automation standards
+- Provides intelligence insights to [Joe Maristela](./joe-maristela.md)
+- Recommends system optimizations
+- Predicts resource needs
+- Suggests architectural improvements
 
 ### With Other Agents
-- Coordinates with [rolodexterGPT](./rolodexterGPT.md) for documentation
-- Supports [rolodexterVS](./rolodexterVS.md) with version control
-- Integrates with [rolodexterAPI](./rolodexterAPI.md) for deployment
+- Shares analytics with [rolodexterGPT](./rolodexterGPT.md)
+- Enhances [rolodexterVS](./rolodexterVS.md) development flows
+- Optimizes [rolodexterAPI](./rolodexterAPI.md) operations
 
-## Technical Stack
+## Technical Foundation
 
-### Core Components
-- Git
-- GitHub Actions
-- CI/CD tools
-- Testing frameworks
+### Core Systems
+- Pattern recognition engines
+- Predictive analytics
+- Machine learning models
+- Autonomous decision systems
 
-### Automation Tools
-- Shell scripting
-- Build systems
-- Test runners
-- Deployment tools
+### Intelligence Tools
+- Development analytics
+- Resource optimization
+- Performance prediction
+- System adaptation
 
-### Integration Systems
-- Version control
-- Container orchestration
-- Cloud platforms
-- Monitoring systems
+### Integration Framework
+- Cross-system analytics
+- Resource coordination
+- Performance optimization
+- System evolution
 
-## Future Development
-
-### Planned Features
-- Enhanced automation workflows
-- Advanced testing capabilities
-- Improved deployment systems
-- Deeper agent integration
-
-### Research Integration
-- [Swarm Intelligence](../research/papers/swarm-intelligence.md) for workflow optimization
-- [Agentic Architecture](../research/ongoing/agentic-architecture.md) for automation design
-- [Hardware Infrastructure](../techstack/infrastructure/hardware.md) for deployment
+## Research Integration
+- [Swarm Intelligence](../research/papers/swarm-intelligence.md) for system optimization
+- [Agentic Architecture](../research/ongoing/agentic-architecture.md) for intelligence design
+- [Hardware Infrastructure](../techstack/infrastructure/hardware.md) for resource management
 
 ## Related Documentation
 - [Human Architect: Joe Maristela](./joe-maristela.md)

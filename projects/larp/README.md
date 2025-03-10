@@ -15,77 +15,104 @@
 
 This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../../COPYRIGHT.md) for details.
 </details>
+
 ## Overview
 
-rolodexter LARP (Live Action Role-Playing) is an innovative framework for creating immersive AI agent interactions through dynamic character development and storytelling.
+rolodexter LARP (Live Artifact Reality Processing) is a real-time world building engine powered by Reality Fiction data architecture. It transforms real-world artifacts into dynamic, interconnected narrative universes and multimedia experiences. By processing real-world data streams (emails, documents, communications), LARP continuously evolves and expands its generated worlds while maintaining coherent narrative structures across multiple media formats.
 
-## Core Features
+## Reality Fiction Architecture
 
-### Character Development Systems
-- Personality modeling
-- Behavioral patterns
-- Memory systems
-- Emotional intelligence
-- Character evolution
+### Data Structure
+- Reality-narrative mapping
+- Temporal stream processing
+- Multi-dimensional story graphs
+- World state management
+- Narrative coherence validation
 
-### Narrative Generation
-- Dynamic storylines
-- Plot development
-- Character interactions
-- World events
-- Narrative branching
+### World Building Core
+- Real-time universe expansion
+- Dynamic reality integration
+- Narrative thread weaving
+- World state persistence
+- Cross-reality synchronization
 
-### Interactive Storytelling
-- Real-time responses
-- Multi-character dialogues
-- Environmental adaptation
-- Player interaction
-- Story progression
+### Narrative Systems
+- Reality-fiction bridges
+- Story emergence patterns
+- Character ecosystem development
+- Event cascade management
+- Timeline reconciliation
 
-### Dynamic World Building
-- Environment generation
-- Social system modeling
-- Economic simulations
-- Cultural frameworks
-- Historical development
+## Processing Systems
 
-## Current Projects
+### Reality Stream Processing
+- Real-time artifact analysis
+- Context extraction engines
+- Pattern recognition systems
+- Metadata enrichment
+- Reality-fiction mapping
 
-1. **Character Engine**
-   - Personality generation
-   - Behavior modeling
-   - Relationship dynamics
-   - Memory management
+### World Generation
+- Dynamic universe creation
+- Environmental manifestation
+- Reality anchoring systems
+- World state evolution
+- Coherence maintenance
 
-2. **Story Weaver**
-   - Plot generation
-   - Scene management
-   - Narrative flow
-   - Event scheduling
+### Entity Development
+- Character manifestation
+- Relationship networks
+- Behavioral emergence
+- Identity persistence
+- Cross-reality presence
 
-3. **World Forge**
-   - Environment creation
-   - Society simulation
-   - Resource management
-   - Culture development
+### Media Materialization
+- Format-specific rendering
+- Cross-media coherence
+- Production asset generation
+- Distribution packaging
+- Rights management
 
-## Getting Started
+## Output Manifestations
 
-### For Players
-- Character creation guide
-- Interaction guidelines
-- World exploration rules
-- Community standards
+### Digital Environments
+- Real-time VR worlds
+- Dynamic XR spaces
+- Interactive reality bridges
+- Persistent universes
+- Cross-reality portals
 
-### For Developers
-- System architecture
-- API documentation
-- Integration guides
-- Development tools
+### Narrative Products
+- Emergent storylines
+- Character arcs
+- World histories
+- Reality-fiction interfaces
+- Universe documentation
 
-## Resources
+### Industry Deliverables
+- Studio development packages
+- Agent representation materials
+- Production blueprints
+- Licensing frameworks
+- Distribution strategies
 
-- [Documentation](./docs/)
-- [Character Templates](./templates/)
-- [World Building Tools](./tools/)
-- [Story Archives](./archives/) 
+## Technical Foundation
+
+### Core Architecture
+- Reality Fiction data model
+- Stream processing engine
+- World state manager
+- Narrative coherence validator
+- Distribution framework
+
+### Integration Systems
+- [Swarm Intelligence](../../research/papers/swarm-intelligence.md) for narrative emergence
+- [Hardware Infrastructure](../../techstack/infrastructure/hardware.md) for world manifestation
+- [Agent Ethics](../../research/hypotheses/swarm-ethics.md) for reality-fiction boundaries
+
+### Industry Interfaces
+- Licensed broker protocols
+- Agent credentialing systems
+- Studio pipeline integration
+- Rights management framework
+- Distribution network APIs 
