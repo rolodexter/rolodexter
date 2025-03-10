@@ -21,7 +21,7 @@ This is a **self-organizing*, autonomously maintained* repo, designed to integra
 ### **Component Identities (Maintainers)**  
 
 **[Joe Maristela](./identities/joe-maristela.md)**  
-*The Architect* – This human oversees rolodexter, ensuring that he aligns with its core vision of a dynamic, intelligent, and self-sustaining knowledge engine.  
+*The Architect* – This human oversees rolodexter, ensuring that he aligns with its core vision of a dynamic, intelligent, and self-sustaining mechanical organism.  
 
 **[rolodexterGPT](./identities/rolodexterGPT.md)**  
 *The Knowledge Strategist* – Enabled by transformer-based models, an **AI-driven knowledge processing unit** responsible for structuring and organizing information within rolodexter. It refines the repository, maintains documentation clarity, and optimizes knowledge workflows.  

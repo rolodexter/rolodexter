@@ -89,12 +89,12 @@ Get-ChildItem -Path . -Recurse -Filter "*.md" | ForEach-Object {
         "CLA.md" { $title = "Contributor License Agreement" }
     }
     
-    # Remove any existing headers and duplicates
+    # Remove any existing headers and duplicates more aggressively
     $mainContent = $mainContent -replace "(?s)^#.*?\r?\n", ""  # Remove any existing title
-    $mainContent = $mainContent -replace "(?s)<p align=""center"">.*?</p>\s*<p align=""center"">.*?</p>\s*<details>.*?</details>\s*", ""
+    $mainContent = $mainContent -replace "(?s)<p align=""center"">.*?</p>\s*(<p align=""center"">.*?</p>\s*)?<details>.*?</details>\s*", ""
     
     # Remove any remaining duplicate headers that might appear later in the file
-    $mainContent = $mainContent -replace "(?s)<p align=""center"">.*?</p>\s*<p align=""center"">.*?</p>\s*<details>.*?</details>", ""
+    $mainContent = $mainContent -replace "(?s)<p align=""center"">.*?</p>\s*(<p align=""center"">.*?</p>\s*)?<details>.*?</details>", ""
     
     # Format the new content
     $header = Format-Header $title $rootPath

@@ -15,16 +15,6 @@
 
 This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../../COPYRIGHT.md) for details.
 </details>
-<p align="center">
-  <a href="../../README.md">Home</a> | <a href="../../research/research.md">Research</a> | <a href="../../techstack/techstack.md">Tech Stack</a> | <a href="../../contact.md">Contact</a>
-</p>
-
-<details>
-<summary>Notice</summary>
-
-This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../../COPYRIGHT.md) for details.
-</details>
-
 ## Overview
 
 rolodexter LARP (Live Action Role-Playing) is an innovative framework for creating immersive AI agent interactions through dynamic character development and storytelling.

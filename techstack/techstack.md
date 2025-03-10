@@ -16,6 +16,10 @@
 This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../COPYRIGHT.md) for details.
 </details>
 
+## Overview
+
+This document outlines the technology stack used across rolodexter's systems and projects. Our stack is carefully chosen to support autonomous operations, knowledge processing, and decentralized collaboration.
+
 ## Infrastructure
 
 ### [Hardware Infrastructure](./infrastructure/hardware.md)
