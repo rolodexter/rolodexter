@@ -1,3 +1,11 @@
+REM
+REM  Copyright (c) 2025 rolodexter
+REM  All rights reserved.
+REM 
+REM  This file is part of the rolodexter repository.
+REM  Unauthorized copying, modification, distribution, or use is prohibited.
+REM  See COPYRIGHT.md for complete terms.
+
 @echo off
 REM log-chat.bat - Wrapper for log-copilot-chat.ps1
 

@@ -1,3 +1,11 @@
+<#
+#  Copyright (c) 2025 rolodexter
+#  All rights reserved.
+# 
+#  This file is part of the rolodexter repository.
+#  Unauthorized copying, modification, distribution, or use is prohibited.
+#  See COPYRIGHT.md for complete terms.
+#>
 # add-internal-links.ps1
 # Script to add internal links for component identities across all Markdown files
 

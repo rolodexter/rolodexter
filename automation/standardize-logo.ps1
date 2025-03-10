@@ -1,3 +1,11 @@
+<#
+#  Copyright (c) 2025 rolodexter
+#  All rights reserved.
+# 
+#  This file is part of the rolodexter repository.
+#  Unauthorized copying, modification, distribution, or use is prohibited.
+#  See COPYRIGHT.md for complete terms.
+#>
 # standardize-logo.ps1
 # Script to standardize the logo across all Markdown files in the repository
 
