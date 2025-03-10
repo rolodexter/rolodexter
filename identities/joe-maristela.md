@@ -1,38 +1,87 @@
+# {1}
+
 <p align="center">
+  <a href="../README.md">
+    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
+  </a>
+</p>
+
+<p align="center">
+  <a href="../README.md">Home</a> | <a href="../research/">Research</a> | <a href="../techstack/">Tech Stack</a> | <a href="../community/">Contact</a>
+</p>
+
+<details>
+<summary>Notice</summary>
+
+This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../COPYRIGHT.md) for details.
+</details>
+<p align="center">
+  <a href="../README.md">
+    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
+  </a>
+</p>
+
+<p align="center">
+  <a href="../README.md">Home</a> | <a href="../research/">Research</a> | <a href="../techstack/">Tech Stack</a> | <a href="../community/">Contact</a>
+</p>
+
+<details>
+<summary>Notice</summary>
+
+This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../COPYRIGHT.md) for details.
+</details>
+<p align="center">
+  <a href="../README.md">
+    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
+  </a>
+</p>
+
+<p align="center">
+  <a href="../README.md">Home</a> | <a href="../research/">Research</a> | <a href="../techstack/">Tech Stack</a> | <a href="../community/">Contact</a>
+</p>
+
+<details>
+<summary>Notice</summary>
+<br>
+This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../COPYRIGHT.md) for details.
+</details>
+<p align="center">
+  <a href="{0}README.md">
+    <img src="{0}assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
+  </a>
+</p>
+
+<p align="center">
+  <a href="{0}README.md">Home</a> | <a href="{0}research/">Research</a> | <a href="{0}techstack/">Tech Stack</a> | <a href="{0}community/">Contact</a>
+</p>
+
+<details>
+<summary>Notice</summary>
+<br>
+This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice]({0}COPYRIGHT.md) for details.
+</details>
+# $args[0].Groups[1].Value.ToUpper() oe maristela
+
+
+<p align="center">
+  <a href="../README.md">
+    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
+  </a>
+</p>
+
+<p align="center">
+  <a href="../README.md">Home</a> | <a href="../research/">Research</a> | <a href="../techstack/">Tech Stack</a> | <a href="../community/">Contact</a>
+</p>
+
+<details>
+<summary>Notice</summary>
+<br>
+This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../COPYRIGHT.md) for details.
+</details>
+
+# <p align="center">
   <a href="../README.md">
     <img src="../assets/images/square_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
-
-# Joe Maristela
-
-This document provides an overview of Joe Maristela's role in the rolodexter ecosystem.
-
-## Role and Responsibilities
-
-Joe Maristela is the **human architect and visionary** behind the rolodexter global intelligence system, responsible for:
-
-- **System Architecture**: Designing the overall structure and vision of rolodexter
-- **Strategic Direction**: Setting the strategic direction and priorities
-- **Human Oversight**: Providing human judgment and ethical guidance
-- **Resource Allocation**: Determining where to focus development efforts
-- **External Relationships**: Managing relationships with external stakeholders
-- **Final Decision Making**: Making critical decisions that shape the system
-
-## Technical Capabilities
-
-- **Cross-domain Expertise**: Knowledge spanning AI, Web3, programming, and business domains
-- **System Design**: Ability to design complex, integrated systems
-- **Technical Leadership**: Guiding technical development across multiple domains
-- **Strategic Vision**: Capacity to envision and articulate long-term goals and strategies
-- **Human-AI Collaboration**: Expertise in optimizing collaboration between humans and AI systems
-
-## Collaboration Points
-
-- Works with **rolodexterGPT** on strategic planning and knowledge organization
-- Directs **rolodexterVS** on development environment and technical implementation priorities
-- Guides **rolodexterGIT** on repository management and version control policies
-- Collaborates with **rolodexterAPI** on external system integration strategies
-
-
 
