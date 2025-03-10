@@ -77,6 +77,12 @@ Get-ChildItem -Path . -Recurse -Filter "*.md" | ForEach-Object {
     # Extract title and content
     if ($content -match "(?s)^#\s+(.+?)(\r?\n|\$)(.*)") {
         $title = $matches[1]
+        # Clean up any template variables or code
+        $title = $title -replace "\{[0-9]+\}", "" -replace "\$.*?ToUpper\(\).*", ""
+        $title = $title.Trim()
+        if ($title -eq "") {
+            $title = $_.BaseName -replace "-", " " -replace "(?:^|_)(\w)", { $args[0].Groups[1].Value.ToUpper() }
+        }
         $mainContent = $matches[3]
     } else {
         $title = $_.BaseName -replace "-", " " -replace "(?:^|_)(\w)", { $args[0].Groups[1].Value.ToUpper() }
@@ -87,6 +93,10 @@ Get-ChildItem -Path . -Recurse -Filter "*.md" | ForEach-Object {
     switch ($_.Name) {
         "COPYRIGHT.md" { $title = "Copyright Notice" }
         "CLA.md" { $title = "Contributor License Agreement" }
+        "rolodexterGPT.md" { $title = "rolodexterGPT" }
+        "rolodexterVS.md" { $title = "rolodexterVS" }
+        "rolodexterAPI.md" { $title = "rolodexterAPI" }
+        "rolodexterGIT.md" { $title = "rolodexterGIT" }
     }
     
     # Remove any existing headers and duplicates more aggressively

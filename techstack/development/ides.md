@@ -18,7 +18,7 @@ This repository is protected by copyright and subject to usage restrictions. See
 
 ## Primary IDEs
 
-### [rolodexterIDE](../custom/rolodexter-ide.md)
+### [rolodexterIDE](./rolodexter-ide.md)
 Our custom VS Code fork optimized for AI development:
 - Enhanced AI integration capabilities
 - Custom extensions for autonomous development
