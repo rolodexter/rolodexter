@@ -83,9 +83,10 @@ Get-ChildItem -Path . -Recurse -Filter "*.md" | ForEach-Object {
         $mainContent = $content
     }
     
-    # Special handling for COPYRIGHT.md
-    if ($_.Name -eq "COPYRIGHT.md") {
-        $title = "Copyright Notice"
+    # Special handling for specific files
+    switch ($_.Name) {
+        "COPYRIGHT.md" { $title = "Copyright Notice" }
+        "CLA.md" { $title = "Contributor License Agreement" }
     }
     
     # Remove any existing headers and duplicates
