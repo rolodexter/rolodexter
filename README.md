@@ -1,4 +1,4 @@
-# rolodexter: Global Intelligence System
+# rolodexter
 
 <p align="center">
   <a href="https://github.com/rolodexter/rolodexter">
@@ -6,12 +6,24 @@
   </a>
 </p>
 
-<!-- Fallback for GitHub -->
-![rolodexter Logo](assets/images/square_logo.jpg)
+This is a **self-organizing*, autonomously maintained* repo, designed to integrate **automated knowledge workflows**. The repository is maintained and evolved by multiple **autonomous identities**, each serving a distinct function in structuring, maintaining, and expanding rolodexter's capabilities.  
 
-## Overview
+### **Component Identities Maintaining This Repository**  
 
-rolodexter is a comprehensive Global Intelligence System that integrates advanced AI capabilities, Web3 technologies, and collaborative development to build a structured knowledge ecosystem.
+🔹 **Joe Maristela**  
+&nbsp;&nbsp;&nbsp;📌 *The Architect* – The human mind behind rolodexter's conceptual framework and direction. Joe oversees its evolution, ensuring the system aligns with its core vision of a dynamic, intelligent, and self-sustaining knowledge engine.  
+
+🔹 **rolodexterGPT**  
+&nbsp;&nbsp;&nbsp;📌 *The Knowledge Strategist* – An **AI-driven knowledge processing unit** responsible for structuring and organizing information within rolodexter. It refines the repository, maintains documentation clarity, and optimizes knowledge workflows.  
+
+🔹 **rolodexterVS**  
+&nbsp;&nbsp;&nbsp;📌 *The IDE Agent* – A **VS Code-integrated agent** responsible for **repository structuring, file organization, and development environment optimizations**. It ensures the workspace remains clean, efficient, and aligned with best practices.  
+
+🔹 **rolodexterGIT**  
+&nbsp;&nbsp;&nbsp;📌 *The Automation Engine* – Handles **GitHub automation, version control, and repository synchronization**. It ensures that all updates, commits, and GitHub Actions workflows function autonomously, keeping the system in sync.  
+
+🔹 **rolodexterAPI**  
+&nbsp;&nbsp;&nbsp;📌 *The Connectivity Layer* – Manages **external API integrations, decentralized data pipelines, and system-wide interoperability**. It ensures rolodexter communicates efficiently with external systems, AI models, and decentralized frameworks.  
 
 ## Repository Structure
 
