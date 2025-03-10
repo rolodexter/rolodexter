@@ -83,8 +83,17 @@ Get-ChildItem -Path . -Recurse -Filter "*.md" | ForEach-Object {
         $mainContent = $content
     }
     
-    # Remove any existing headers
+    # Special handling for COPYRIGHT.md
+    if ($_.Name -eq "COPYRIGHT.md") {
+        $title = "Copyright Notice"
+    }
+    
+    # Remove any existing headers and duplicates
+    $mainContent = $mainContent -replace "(?s)^#.*?\r?\n", ""  # Remove any existing title
     $mainContent = $mainContent -replace "(?s)<p align=""center"">.*?</p>\s*<p align=""center"">.*?</p>\s*<details>.*?</details>\s*", ""
+    
+    # Remove any remaining duplicate headers that might appear later in the file
+    $mainContent = $mainContent -replace "(?s)<p align=""center"">.*?</p>\s*<p align=""center"">.*?</p>\s*<details>.*?</details>", ""
     
     # Format the new content
     $header = Format-Header $title $rootPath
