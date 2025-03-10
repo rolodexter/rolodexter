@@ -16,7 +16,7 @@ function Format-Header {
 </p>
 
 <p align="center">
-  <a href="$($rootPath)README.md">Home</a> | <a href="$($rootPath)research/">Research</a> | <a href="$($rootPath)techstack/">Tech Stack</a> | <a href="$($rootPath)contact.md">Contact</a>
+  <a href="$($rootPath)README.md">Home</a> | <a href="$($rootPath)research/research.md">Research</a> | <a href="$($rootPath)techstack/techstack.md">Tech Stack</a> | <a href="$($rootPath)contact.md">Contact</a>
 </p>
 
 <details>
@@ -39,7 +39,7 @@ $rootHeader = @"
 </p>
 
 <p align="center">
-  <a href="README.md">Home</a> | <a href="research/">Research</a> | <a href="techstack/">Tech Stack</a> | <a href="contact.md">Contact</a>
+  <a href="README.md">Home</a> | <a href="research/research.md">Research</a> | <a href="techstack/techstack.md">Tech Stack</a> | <a href="contact.md">Contact</a>
 </p>
 
 <details>
