@@ -1,0 +1,29 @@
+.rolodexter-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.rolodexter-logo:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0px 0px 20px rgba(0, 120, 255, 0.7);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 120, 255, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(0, 120, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 120, 255, 0);
+  }
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+} 

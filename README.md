@@ -1,6 +1,8 @@
 # rolodexter: Global Intelligence System
 
-![rolodexter Logo](assets/images/rolodexter_logo.png)
+<p align="center">
+  <img src="SQUARE_LOGO.jpg" alt="rolodexter Logo" class="rolodexter-logo" width="150px" style="border-radius: 50%; transition: all 0.3s ease-in-out;">
+</p>
 
 ## Overview
 
@@ -57,3 +59,6 @@ Please see our [contribution guidelines](./contrib/issue-templates) for details 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<script src="assets/script.js"></script>
