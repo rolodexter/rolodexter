@@ -15,6 +15,7 @@
 
 This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](COPYRIGHT.md) for details.
 </details>
+
 ## Professional Profiles
 
 ### Academic & Research
@@ -62,7 +63,6 @@ This repository is protected by copyright and subject to usage restrictions. See
 
 ### Direct Contact
 [![Telegram](https://img.shields.io/badge/Telegram-Contact-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/joemaristela)
-- Email: contact@rolodexter.ai
 
 ### Repository Issues
 - Open a [new issue](https://github.com/rolodexter/rolodexter/issues/new) for technical questions or bug reports
