@@ -29,6 +29,40 @@ rolodexter LARP (Live Artifact Reality Processing) is a real-time world building
 - World state management
 - Narrative coherence validation
 
+### Technical Architecture
+```mermaid
+graph TD
+    A[Reality Artifacts] -->|Ingestion| B[Stream Processing Engine]
+    B -->|Analysis| C[Context Extraction]
+    B -->|Metadata| D[Pattern Recognition]
+    
+    C --> E[Reality Fiction Mapper]
+    D --> E
+    
+    E -->|World State| F[Narrative Universe]
+    F -->|Evolution| G[World Building Engine]
+    
+    G -->|Characters| H[Entity Generator]
+    G -->|Environments| I[World Renderer]
+    G -->|Stories| J[Narrative Constructor]
+    
+    H --> K[Media Output Engine]
+    I --> K
+    J --> K
+    
+    K -->|VR/XR| L[Digital Environments]
+    K -->|Documents| M[Production Materials]
+    K -->|Packages| N[Industry Deliverables]
+    
+    O[Reality Fiction Data Model] -.->|Governs| B
+    O -.->|Structures| E
+    O -.->|Defines| F
+    O -.->|Guides| G
+    
+    P[Swarm Intelligence] -.->|Optimizes| G
+    Q[Agent Ethics] -.->|Constrains| K
+```
+
 ### World Building Core
 - Real-time universe expansion
 - Dynamic reality integration
