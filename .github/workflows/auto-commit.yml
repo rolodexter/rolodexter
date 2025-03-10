@@ -1,0 +1,36 @@
+name: Auto Commit & Push
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set Up Git
+        run: |
+          git config --global user.name "rolodexterGIT"
+          git config --global user.email "rolodexterGIT@users.noreply.github.com"
+
+      - name: Check for Changes
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes detected. Exiting..."
+            exit 0
+          fi
+          git commit -m "Auto-commit: Updating repo with latest changes"
+          git push origin main
