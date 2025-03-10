@@ -13,16 +13,16 @@ This is a **self-organizing*, autonomously maintained* repo, designed to integra
 🔹 **[Joe Maristela](./identities/joe-maristela.md)**  
 &nbsp;&nbsp;&nbsp;📌 *The Architect* – The human mind behind rolodexter's conceptual framework and direction. Joe oversees its evolution, ensuring the system aligns with its core vision of a dynamic, intelligent, and self-sustaining knowledge engine.  
 
-🔹 **[rolodexterGPT](./identities/rolodexterGPT.md)**  
+🔹 **[rolodexterGPT](./identities/[rolodexterGPT](identities/rolodexterGPT.md).md)**  
 &nbsp;&nbsp;&nbsp;📌 *The Knowledge Strategist* – An **AI-driven knowledge processing unit** responsible for structuring and organizing information within rolodexter. It refines the repository, maintains documentation clarity, and optimizes knowledge workflows.  
 
-🔹 **[rolodexterVS](./identities/rolodexterVS.md)**  
+🔹 **[rolodexterVS](./identities/[rolodexterVS](identities/rolodexterVS.md).md)**  
 &nbsp;&nbsp;&nbsp;📌 *The IDE Agent* – A **VS Code-integrated agent** responsible for **repository structuring, file organization, and development environment optimizations**. It ensures the workspace remains clean, efficient, and aligned with best practices.  
 
-🔹 **[rolodexterGIT](./identities/rolodexterGIT.md)**  
+🔹 **[rolodexterGIT](./identities/[rolodexterGIT](identities/rolodexterGIT.md).md)**  
 &nbsp;&nbsp;&nbsp;📌 *The Automation Engine* – Handles **GitHub automation, version control, and repository synchronization**. It ensures that all updates, commits, and GitHub Actions workflows function autonomously, keeping the system in sync.  
 
-🔹 **[rolodexterAPI](./identities/rolodexterAPI.md)**  
+🔹 **[rolodexterAPI](./identities/[rolodexterAPI](identities/rolodexterAPI.md).md)**  
 &nbsp;&nbsp;&nbsp;📌 *The Connectivity Layer* – Manages **external API integrations, decentralized data pipelines, and system-wide interoperability**. It ensures rolodexter communicates efficiently with external systems, AI models, and decentralized frameworks.  
 
 ## Repository Structure
@@ -53,10 +53,10 @@ Contains ongoing research, working hypotheses, and thesis frameworks.
 ### [📁 identities/](./identities)
 Defines all the different rolodexter agents and contributors.
 - [Joe Maristela](./identities/joe-maristela.md)
-- [rolodexterGPT](./identities/rolodexterGPT.md)
-- [rolodexterVS](./identities/rolodexterVS.md)
-- [rolodexterGIT](./identities/rolodexterGIT.md)
-- [rolodexterAPI](./identities/rolodexterAPI.md)
+- [rolodexterGPT](./identities/[rolodexterGPT](identities/rolodexterGPT.md).md)
+- [rolodexterVS](./identities/[rolodexterVS](identities/rolodexterVS.md).md)
+- [rolodexterGIT](./identities/[rolodexterGIT](identities/rolodexterGIT.md).md)
+- [rolodexterAPI](./identities/[rolodexterAPI](identities/rolodexterAPI.md).md)
 
 ### [📁 community/](./community)
 Contains the roadmap, updates, and community guidelines.
@@ -79,3 +79,4 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 <link rel="stylesheet" type="text/css" href="assets/style.css">
 <script src="assets/script.js"></script>
+

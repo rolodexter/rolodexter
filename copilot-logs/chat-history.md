@@ -28,8 +28,8 @@ Each chat session is logged with the following structure:
 ## [2025-03-10] Initial Setup of Copilot Chat Logging
 
 ### Participants
-- Human: Joe Maristela
-- AI: rolodexterVS
+- Human: [Joe Maristela](../identities/joe-maristela.md)
+- AI: [rolodexterVS](../identities/rolodexterVS.md)
 
 ### Conversation
 [14:27] **Human**: Request to implement Copilot chat logging system
@@ -38,8 +38,8 @@ Each chat session is logged with the following structure:
 ## [2025-03-10] Logo Implementation and Repository Description Update
 
 ### Participants
-- Human: Joe Maristela
-- AI: rolodexterVS
+- Human: [Joe Maristela](../identities/joe-maristela.md)
+- AI: [rolodexterVS](../identities/rolodexterVS.md)
 
 ### Conversation
 [14:35] **Human**: Placed SQUARE_LOGO.jpg in the root directory and requested implementation with circular frame and hover animations
@@ -50,8 +50,8 @@ Each chat session is logged with the following structure:
 ## [2025-03-10] Standardizing Logo Across All Markdown Files
 
 ### Participants
-- Human: Joe Maristela
-- AI: rolodexterVS
+- Human: [Joe Maristela](../identities/joe-maristela.md)
+- AI: [rolodexterVS](../identities/rolodexterVS.md)
 
 ### Conversation
 [14:50] **Human**: Requested to standardize the logo across all Markdown files with smaller size and clickable link to README.md
@@ -60,8 +60,8 @@ Each chat session is logged with the following structure:
 ## [2025-03-10] Fixing Logo Rendering on GitHub and GitHub Pages
 
 ### Participants
-- Human: Joe Maristela
-- AI: rolodexterVS
+- Human: [Joe Maristela](../identities/joe-maristela.md)
+- AI: [rolodexterVS](../identities/rolodexterVS.md)
 
 ### Conversation
 [15:05] **Human**: Reported issue with logo not rendering properly on GitHub and GitHub Pages
@@ -70,5 +70,6 @@ Each chat session is logged with the following structure:
 [15:20] **AI**: Moved logo to assets/images/square_logo.jpg and updated all references across the repository
 [15:25] **Human**: Reported issue with large duplicate logo appearing in README.md
 [15:27] **AI**: Removed the fallback Markdown logo syntax that was causing the duplicate large logo
+
 
 
