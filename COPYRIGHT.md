@@ -1,4 +1,4 @@
-# {1}
+# Copyright Notice
 
 <p align="center">
   <a href="README.md">
@@ -15,82 +15,55 @@
 
 This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](COPYRIGHT.md) for details.
 </details>
-<p align="center">
-  <a href="README.md">
-    <img src="assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
-  </a>
-</p>
 
-<p align="center">
-  <a href="README.md">Home</a> | <a href="research/">Research</a> | <a href="techstack/">Tech Stack</a> | <a href="community/">Contact</a>
-</p>
+## Copyright and Usage Restrictions
 
-<details>
-<summary>Notice</summary>
+This repository and all its contents are protected by copyright law and subject to specific usage restrictions. By accessing or using this repository, you agree to comply with these terms.
 
-This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](COPYRIGHT.md) for details.
-</details>
-<p align="center">
-  <a href="README.md">
-    <img src="assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
-  </a>
-</p>
+### Ownership
 
-<p align="center">
-  <a href="README.md">Home</a> | <a href="research/">Research</a> | <a href="techstack/">Tech Stack</a> | <a href="community/">Contact</a>
-</p>
+All content in this repository is owned by rolodexter and its contributors. This includes but is not limited to:
+- Source code
+- Documentation
+- Images and media
+- Research papers and analysis
+- Configuration files
+- Scripts and tools
 
-<details>
-<summary>Notice</summary>
-<br>
-This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](COPYRIGHT.md) for details.
-</details>
-<p align="center">
-  <a href="{0}README.md">
-    <img src="{0}assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
-  </a>
-</p>
+### Usage Restrictions
 
-<p align="center">
-  <a href="{0}README.md">Home</a> | <a href="{0}research/">Research</a> | <a href="{0}techstack/">Tech Stack</a> | <a href="{0}community/">Contact</a>
-</p>
+1. **No Commercial Use**
+   - This repository and its contents may not be used for commercial purposes without explicit written permission.
 
-<details>
-<summary>Notice</summary>
-<br>
-This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice]({0}COPYRIGHT.md) for details.
-</details>
-# $args[0].Groups[1].Value.ToUpper() OPYRIGHT
+2. **No Derivative Works**
+   - You may not create derivative works based on this repository's contents without permission.
 
+3. **No Distribution**
+   - You may not distribute copies of this repository or its contents.
 
-<p align="center">
-  <a href="README.md">
-    <img src="assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
-  </a>
-</p>
+4. **Academic and Research Use**
+   - Limited use for academic and research purposes may be permitted with proper attribution.
 
-<p align="center">
-  <a href="README.md">Home</a> | <a href="research/">Research</a> | <a href="techstack/">Tech Stack</a> | <a href="community/">Contact</a>
-</p>
+### Permissions
 
-<details>
-<summary>Notice</summary>
-<br>
-This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](COPYRIGHT.md) for details.
-</details>
+To request permission for any use not covered by these restrictions:
+1. Open an issue in the repository
+2. Clearly state your intended use
+3. Wait for explicit written approval
 
-# <p align="center">
-  <a href="../../../../README.md">
-    <img src="../../../../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="80px" style="border-radius: 50%;">
-  </a>
-</p>
+### Enforcement
 
----
+Violations of these terms will be enforced to the fullest extent of applicable law. This includes:
+- DMCA takedown notices
+- Legal action
+- Revocation of access
 
-<p align="center">
-  <strong>ðŸ”¹ <a href="../../../../README.md">Home</a> | ðŸ”¹ <a href="../../../../research/">Research</a> | ðŸ”¹ <a href="../../../../techstack/">Tech Stack</a> | ðŸ”¹ <a href="../../../../contrib/">Contribute</a> | ðŸ”¹ <a href="../../../../community/">Contact</a></strong>
-</p>
+### Contact
 
----
+For questions about usage rights and permissions:
+- Open an issue in this repository
+- Contact the repository maintainers
 
-##
+## Acknowledgment
+
+By using this repository, you acknowledge that you have read, understood, and agree to these terms.
