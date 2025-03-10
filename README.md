@@ -1,10 +1,13 @@
 # rolodexter: Global Intelligence System
 
 <p align="center">
-  <a href="README.md">
-    <img src="assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" class="rolodexter-logo" width="100px" style="border-radius: 50%;">
+  <a href="https://github.com/rolodexter/rolodexter">
+    <img src="https://raw.githubusercontent.com/rolodexter/rolodexter/fix-auto-commit/assets/images/square_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
+
+<!-- Fallback for GitHub -->
+![rolodexter Logo](assets/images/square_logo.jpg)
 
 ## Overview
 

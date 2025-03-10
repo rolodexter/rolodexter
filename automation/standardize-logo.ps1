@@ -41,7 +41,7 @@ foreach ($file in $mdFiles) {
     $header = @"
 <p align="center">
   <a href="${relativePath}README.md">
-    <img src="${relativePath}assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
+    <img src="${relativePath}assets/images/square_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
 
@@ -51,9 +51,9 @@ foreach ($file in $mdFiles) {
     $content = Get-Content -Path $file.FullName -Raw
     
     # Check if the file already has a logo header
-    if ($content -match '<p align="center">[\s\S]*?<img src=.*?(SQUARE_LOGO\.jpg|rolodexter_logo\.jpg).*?>[\s\S]*?</p>') {
+    if ($content -match '<p align="center">[\s\S]*?<img src=.*?(SQUARE_LOGO\.jpg|rolodexter_logo\.jpg|square_logo\.jpg).*?>[\s\S]*?</p>') {
         Write-Host "File already has a logo header. Replacing it..."
-        $content = $content -replace '<p align="center">[\s\S]*?<img src=.*?(SQUARE_LOGO\.jpg|rolodexter_logo\.jpg).*?>[\s\S]*?</p>', $header.Trim()
+        $content = $content -replace '<p align="center">[\s\S]*?<img src=.*?(SQUARE_LOGO\.jpg|rolodexter_logo\.jpg|square_logo\.jpg).*?>[\s\S]*?</p>', $header.Trim()
     } else {
         # Add the header to the beginning of the file
         $content = $header + $content

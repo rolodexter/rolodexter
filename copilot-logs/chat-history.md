@@ -1,6 +1,6 @@
 <p align="center">
   <a href="../README.md">
-    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
+    <img src="../assets/images/square_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
 # Copilot Chat History
@@ -66,4 +66,5 @@ Each chat session is logged with the following structure:
 ### Conversation
 [15:05] **Human**: Reported issue with logo not rendering properly on GitHub and GitHub Pages
 [15:10] **AI**: Fixed logo paths to use assets/images/rolodexter_logo.jpg for better compatibility with both platforms
+
 
