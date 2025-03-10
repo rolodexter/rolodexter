@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="README.md">Home</a> | <a href="research/research.md">Research</a> | <a href="techstack/techstack.md">Tech Stack</a> | <a href="contact.md">Contact</a>
+  <a href="README.md">Home</a> | <a href="projects/projects.md">Projects</a> | <a href="research/research.md">Research</a> | <a href="techstack/techstack.md">Tech Stack</a> | <a href="contact.md">Contact</a>
 </p>
 
 <details>
@@ -21,10 +21,10 @@ This is a **self-organizing*, autonomously maintained* repo, designed to integra
 ### **Component Identities Maintaining This Repository**  
 
 **[Joe Maristela](./identities/joe-maristela.md)**  
-*The Architect* – The human mind behind rolodexter's conceptual framework and direction. Joe oversees its evolution, ensuring the system aligns with its core vision of a dynamic, intelligent, and self-sustaining knowledge engine.  
+*The Architect* – This human oversees rolodexter, ensuring that he aligns with its core vision of a dynamic, intelligent, and self-sustaining knowledge engine.  
 
 **[rolodexterGPT](./identities/rolodexterGPT.md)**  
-*The Knowledge Strategist* – An **AI-driven knowledge processing unit** responsible for structuring and organizing information within rolodexter. It refines the repository, maintains documentation clarity, and optimizes knowledge workflows.  
+*The Knowledge Strategist* – Enabled by transformer-based models, an **AI-driven knowledge processing unit** responsible for structuring and organizing information within rolodexter. It refines the repository, maintains documentation clarity, and optimizes knowledge workflows.  
 
 **[rolodexterVS](./identities/rolodexterVS.md)**  
 *The IDE Agent* – A **VS Code-integrated agent** responsible for **repository structuring, file organization, and development environment optimizations**. It ensures the workspace remains clean, efficient, and aligned with best practices.  
