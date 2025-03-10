@@ -3,7 +3,9 @@
     <img src="../assets/images/square_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
+
 # Joe Maristela
+
 This document provides an overview of Joe Maristela's role in the rolodexter ecosystem.
 
 ## Role and Responsibilities
