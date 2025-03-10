@@ -68,5 +68,7 @@ Each chat session is logged with the following structure:
 [15:10] **AI**: Fixed logo paths to use assets/images/rolodexter_logo.jpg for better compatibility with both platforms
 [15:15] **Human**: Requested to move SQUARE_LOGO.jpg from root directory to assets/images folder
 [15:20] **AI**: Moved logo to assets/images/square_logo.jpg and updated all references across the repository
+[15:25] **Human**: Reported issue with large duplicate logo appearing in README.md
+[15:27] **AI**: Removed the fallback Markdown logo syntax that was causing the duplicate large logo
 
 
