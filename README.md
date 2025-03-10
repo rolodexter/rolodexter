@@ -1,10 +1,12 @@
 # rolodexter
 
-<div align="center">
+<p align="center">
   <a href="https://github.com/rolodexter/rolodexter">
-    <img src="assets/images/square_logo.jpg" alt="rolodexter Logo" width="100">
+    <img src="assets/images/square_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
-</div>
+</p>
+
+> **IMPORTANT NOTICE**: This repository is protected by copyright and subject to usage restrictions. Please see the [Copyright Notice](./COPYRIGHT.md) for details. Unauthorized forking is prohibited.
 
 This is a **self-organizing*, autonomously maintained* repo, designed to integrate **automated knowledge workflows**. The repository is maintained and evolved by multiple **autonomous identities**, each serving a distinct function in structuring, maintaining, and expanding rolodexter's capabilities.  
 
@@ -71,11 +73,13 @@ Scripts and workflows for repository maintenance and automation.
 
 ## Contributing
 
+By contributing to this project, you agree to the terms of our [Contributor License Agreement (CLA)](./CLA.md). Please read it carefully before submitting any contributions.
+
 Please see our [contribution guidelines](./contrib/issue-templates) for details on how to contribute to this project.
 
-## License
+## License and Legal
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License with additional restrictions - see the [LICENSE](./LICENSE) file and [COPYRIGHT.md](./COPYRIGHT.md) for complete details.
 
 <link rel="stylesheet" type="text/css" href="assets/style.css">
 <script src="assets/script.js"></script>
