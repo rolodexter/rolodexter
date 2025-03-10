@@ -1,2 +1,0 @@
-# einstein\_cartan
-

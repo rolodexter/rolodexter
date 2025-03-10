@@ -1,3 +1,0 @@
-# FINAL ARCHITECTURE
-
-Placeholder content for FINAL_ARCHITECTURE.md.

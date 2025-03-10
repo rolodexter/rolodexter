@@ -1,2 +1,0 @@
-# microsoft\_azure
-

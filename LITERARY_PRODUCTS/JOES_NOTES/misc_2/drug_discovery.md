@@ -1,2 +1,0 @@
-# drug\_discovery
-

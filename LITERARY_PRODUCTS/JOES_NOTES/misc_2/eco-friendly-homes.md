@@ -1,2 +1,0 @@
-# ECO-FRIENDLY HOMES
-

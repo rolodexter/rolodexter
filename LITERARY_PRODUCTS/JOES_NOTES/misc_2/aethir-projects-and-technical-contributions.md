@@ -1,2 +1,0 @@
-# Aethir Projects & Technical Contributions
-

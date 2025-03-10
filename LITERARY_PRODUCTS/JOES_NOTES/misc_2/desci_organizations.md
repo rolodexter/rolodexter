@@ -1,2 +1,0 @@
-# desci\_organizations
-

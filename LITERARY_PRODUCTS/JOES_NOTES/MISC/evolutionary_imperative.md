@@ -1,2 +1,0 @@
-# evolutionary\_imperative
-

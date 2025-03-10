@@ -1,2 +1,0 @@
-# FINANCE\_ECONOMICS
-

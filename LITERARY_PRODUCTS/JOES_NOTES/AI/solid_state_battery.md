@@ -1,2 +1,0 @@
-# SOLID\_STATE\_BATTERY
-

@@ -1,2 +1,0 @@
-# semiconductor\_electronics
-

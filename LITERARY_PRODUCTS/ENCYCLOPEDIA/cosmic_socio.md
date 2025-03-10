@@ -1,2 +1,0 @@
-# COSMIC\_SOCIO
-

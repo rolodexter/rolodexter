@@ -1,6 +1,0 @@
-{
-  "default": true,
-  "line-length": false,
-  "no-inline-html": true,
-  "relative-links": true
-}

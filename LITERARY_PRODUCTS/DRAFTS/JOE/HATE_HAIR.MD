@@ -1,2 +1,0 @@
-# HATE\_HAIR
-

@@ -1,2 +1,0 @@
-# Divergence of Hominin Lineages
-

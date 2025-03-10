@@ -1,2 +1,0 @@
-# ROLODEXTER\_AVATAR
-

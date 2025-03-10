@@ -1,2 +1,0 @@
-# lifestyle\_factors
-

@@ -1,2 +1,0 @@
-# strategic\_alignment
-

@@ -1,3 +1,0 @@
-# DECENTRALIZATION
-
-Placeholder content for DECENTRALIZATION.md.

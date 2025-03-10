@@ -1,3 +1,0 @@
-# SECURITY BEST PRACTICES
-
-Placeholder content for SECURITY_BEST_PRACTICES.md.

@@ -1,2 +1,0 @@
-# intellectual\_property
-

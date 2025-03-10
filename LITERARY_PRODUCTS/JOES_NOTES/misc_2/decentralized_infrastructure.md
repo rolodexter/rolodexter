@@ -1,2 +1,0 @@
-# decentralized\_infrastructure
-

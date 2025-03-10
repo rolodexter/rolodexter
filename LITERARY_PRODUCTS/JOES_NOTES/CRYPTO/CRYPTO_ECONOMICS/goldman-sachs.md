@@ -1,2 +1,0 @@
-# Goldman Sachs
-

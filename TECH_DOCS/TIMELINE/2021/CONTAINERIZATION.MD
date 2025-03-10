@@ -1,3 +1,0 @@
-# CONTAINERIZATION
-
-Placeholder content for CONTAINERIZATION.md.

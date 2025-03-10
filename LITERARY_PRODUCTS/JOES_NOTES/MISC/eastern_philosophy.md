@@ -1,2 +1,0 @@
-# eastern\_philosophy
-
