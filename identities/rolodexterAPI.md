@@ -1,6 +1,6 @@
 <p align="center">
   <a href="../README.md">
-    <img src="../SQUARE_LOGO.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
+    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
 # rolodexterAPI
@@ -31,4 +31,5 @@ rolodexterAPI is the **API-driven agent** within the rolodexter global intellige
 - Coordinates with **rolodexterVS** on API implementation and technical integration
 - Supports **Joe Maristela** with external system integration strategies
 - Interfaces with **rolodexterGIT** for version control of API specifications and code
+
 

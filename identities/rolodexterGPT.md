@@ -1,6 +1,6 @@
 <p align="center">
   <a href="../README.md">
-    <img src="../SQUARE_LOGO.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
+    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
 # rolodexterGPT
@@ -31,4 +31,5 @@ rolodexterGPT is the **AI-driven knowledge organizer and strategist** within the
 - Provides strategic guidance to **Joe Maristela** on system architecture and development
 - Coordinates with **rolodexterGIT** on version control strategy and documentation
 - Works with **rolodexterAPI** to design and document API interfaces and integrations
+
 

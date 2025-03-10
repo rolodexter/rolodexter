@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="README.md">
-    <img src="SQUARE_LOGO.jpg" alt="rolodexter Logo" class="rolodexter-logo" width="100px" style="border-radius: 50%;">
+    <img src="assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" class="rolodexter-logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
 

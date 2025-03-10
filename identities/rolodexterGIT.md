@@ -1,6 +1,6 @@
 <p align="center">
   <a href="../README.md">
-    <img src="../SQUARE_LOGO.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
+    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
 # rolodexterGIT
@@ -31,4 +31,5 @@ rolodexterGIT is the **Git automation agent** within the rolodexter global intel
 - Coordinates with **rolodexterGPT** on documentation and knowledge management
 - Supports **Joe Maristela** with version control strategy and repository governance
 - Interfaces with **rolodexterAPI** for integration of external systems with version control
+
 

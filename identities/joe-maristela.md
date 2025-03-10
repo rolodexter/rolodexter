@@ -1,6 +1,6 @@
 <p align="center">
   <a href="../README.md">
-    <img src="../SQUARE_LOGO.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
+    <img src="../assets/images/rolodexter_logo.jpg" alt="rolodexter Logo" width="100px" style="border-radius: 50%;">
   </a>
 </p>
 # Joe Maristela
@@ -31,4 +31,5 @@ Joe Maristela is the **human architect and visionary** behind the rolodexter glo
 - Directs **rolodexterVS** on development environment and technical implementation priorities
 - Guides **rolodexterGIT** on repository management and version control policies
 - Collaborates with **rolodexterAPI** on external system integration strategies
+
 
