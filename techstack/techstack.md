@@ -15,60 +15,68 @@
 
 This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../COPYRIGHT.md) for details.
 </details>
-<p align="center">
-  <a href="../README.md">Home</a> | <a href="../research/">Research</a> | <a href="../techstack/techstack.md">Tech Stack</a> | <a href="../contact.md">Contact</a>
-</p>
 
-<details>
-<summary>Notice</summary>
+## Infrastructure
 
-This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../COPYRIGHT.md) for details.
-</details>
+### [Hardware Infrastructure](./infrastructure/hardware.md)
+- Workbench Lab (Fixed Location)
+- Mobile Lab & Device Fleet
+- Development Workstations
+- Network & Power Systems
 
-## Overview
+## Development Tools
 
-This document outlines the technology stack used across rolodexter's systems and projects. Our stack is carefully chosen to support autonomous operations, knowledge processing, and decentralized collaboration.
+### [Development Environments](./development/ides.md)
+- rolodexterIDE (Custom VS Code Fork)
+- Cursor AI
+- VS Code Insiders
+- WindSurf (Agent Testing Environment)
+
+### [Documentation Tools](./documentation/README.md)
+- Obsidian (Knowledge Management)
+- Overleaf (Scientific Writing)
+- Custom Markdown Tools
+- Documentation Automation
+
+## Programming & Development
+
+### [Languages & Frameworks](./programming/README.md)
+- Python Ecosystem
+- TypeScript/JavaScript
+- Rust Systems
+- Smart Contract Development
+
+### [Linters & Debuggers](./programming/linters-debuggers/README.md)
+- Language-specific Tools
+- Multi-language Analysis
+- Custom Neural Debuggers
+- Performance Profiling
+
+### [Security & Privacy](./security/README.md)
+- Zero Trust Architecture
+- Encryption Standards
+- Access Control
+- Audit Tools
 
 ## Core Technologies
 
-### AI & Machine Learning
-- Large Language Models (LLMs)
+### [AI & Machine Learning](./ai/README.md)
+- Large Language Models
 - Neural Networks
 - Autonomous Agents
-- Knowledge Processing Systems
+- Knowledge Processing
 
-### Web3 & Blockchain
+### [Web3 & Blockchain](./web3/README.md)
 - Smart Contracts
 - Decentralized Storage
 - Token Systems
 - Cross-chain Protocols
 
-### DevOps & Infrastructure
+### [DevOps & Infrastructure](./devops/README.md)
 - Automated Workflows
 - Continuous Integration
 - Container Orchestration
 - Cloud Services
-
-### Programming Languages
-- Python
-- JavaScript/TypeScript
-- Solidity
-- Rust
-
-### Security Frameworks
-- Zero Trust Architecture
-- Encryption Standards
-- Access Control Systems
-- Audit Tools
-
-## Detailed Documentation
-
-For detailed documentation on specific technologies, please visit:
-- [AI Technologies](./ai/README.md)
-- [Web3 Technologies](./web3/README.md)
-- [DevOps Tools](./devops/README.md)
-- [Programming Resources](./programming/README.md)
-- [Security Frameworks](./security/README.md)
 
 ## Integration Guidelines
 
