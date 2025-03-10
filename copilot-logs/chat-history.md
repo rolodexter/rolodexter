@@ -55,5 +55,15 @@ Each chat session is logged with the following structure:
 
 ### Conversation
 [14:50] **Human**: Requested to standardize the logo across all Markdown files with smaller size and clickable link to README.md
-[14:55] **AI**: Created and executed automation script to add standardized logo header to all Markdown files in the repository 
+[14:55] **AI**: Created and executed automation script to add standardized logo header to all Markdown files in the repository
+
+## [2025-03-10] Fixing Logo Rendering on GitHub and GitHub Pages
+
+### Participants
+- Human: Joe Maristela
+- AI: rolodexterVS
+
+### Conversation
+[15:05] **Human**: Reported issue with logo not rendering properly on GitHub and GitHub Pages
+[15:10] **AI**: Fixed logo paths to use assets/images/rolodexter_logo.jpg for better compatibility with both platforms
 
