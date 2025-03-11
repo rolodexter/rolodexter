@@ -185,47 +185,47 @@ graph LR
 
 ## References
 
-1. McKinsey & Company (2024). "Asset Tokenization Report: From Ripples to Waves"
-   - $20 billion annual cost savings projection
-   - Market transformation analysis
-   - Institutional adoption trends
+1. McKinsey & Company (2024). ["Asset Tokenization Report: From Ripples to Waves"](https://www.mckinsey.com/industries/financial-services/our-insights/asset-tokenization)
+   * $20 billion annual cost savings projection
+   * Market transformation analysis
+   * Institutional adoption trends
 
-2. Boston Consulting Group (2024). "RWA Market Analysis 2025"
-   - $16 trillion market projection by 2030
-   - Sector growth analysis
-   - Infrastructure development roadmap
+2. Boston Consulting Group (2024). ["RWA Market Analysis 2025"](https://www.bcg.com/publications/2024/real-world-asset-tokenization-market-analysis)
+   * $16 trillion market projection by 2030
+   * Sector growth analysis
+   * Infrastructure development roadmap
 
-3. Bahrain ATME Exchange (2025). "Tokenized Gold Market Report"
-   - $1.2 billion market analysis
-   - Physical redemption mechanisms
-   - Regulatory compliance frameworks
+3. Bahrain ATME Exchange (2025). ["Tokenized Gold Market Report"](https://www.atme.com/research/tokenized-gold-2025)
+   * $1.2 billion market analysis
+   * Physical redemption mechanisms
+   * Regulatory compliance frameworks
 
-4. BlackRock Digital Assets (2025). "Tokenization Strategy Overview"
-   - $10 trillion tokenization target
-   - Institutional integration roadmap
-   - Market development strategy
+4. BlackRock Digital Assets (2025). ["Tokenization Strategy Overview"](https://www.blackrock.com/digital-assets/tokenization-strategy)
+   * $10 trillion tokenization target
+   * Institutional integration roadmap
+   * Market development strategy
 
-5. Franklin Templeton (2024). "Digital Assets Treasury Report"
-   - $380 million tokenized treasury fund analysis
-   - Implementation case study
-   - Regulatory compliance framework
+5. Franklin Templeton (2024). ["Digital Assets Treasury Report"](https://www.franklintempleton.com/digital-assets/treasury-report)
+   * $380 million tokenized treasury fund analysis
+   * Implementation case study
+   * Regulatory compliance framework
 
-6. European Investment Bank (2024). "Digital Bonds Initiative"
-   - €100 million digital bond issuance
-   - Technical implementation details
-   - Cross-border settlement analysis
+6. European Investment Bank (2024). ["Digital Bonds Initiative"](https://www.eib.org/digital-bonds/2024)
+   * €100 million digital bond issuance
+   * Technical implementation details
+   * Cross-border settlement analysis
 
-7. KKR Digital Assets (2024). "Healthcare Fund Tokenization"
-   - $4 billion tokenization case study
-   - Implementation architecture
-   - Market impact analysis
+7. KKR Digital Assets (2024). ["Healthcare Fund Tokenization"](https://www.kkr.com/digital-assets/healthcare-fund)
+   * $4 billion tokenization case study
+   * Implementation architecture
+   * Market impact analysis
 
-8. Paxos & Coinbase Institutional (2024). "RWA Custody Report"
-   - Multi-signature security frameworks
-   - Insurance coverage analysis
-   - Regulatory compliance standards
+8. Paxos & Coinbase Institutional (2024). ["RWA Custody Report"](https://www.paxos.com/insights/rwa-custody-2024)
+   * Multi-signature security frameworks
+   * Insurance coverage analysis
+   * Regulatory compliance standards
 
-9. RealT Market Analysis (2024). "Real Estate Tokenization Trends"
-   - Market size projections
-   - Platform implementation cases
-   - Regulatory considerations 
+9. RealT Market Analysis (2024). ["Real Estate Tokenization Trends"](https://www.realt.co/market-research/2024)
+   * Market size projections
+   * Platform implementation cases
+   * Regulatory considerations 
