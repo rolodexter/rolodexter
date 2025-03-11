@@ -664,6 +664,318 @@ graph TD
     L[Schedule] -->|Trigger| G
 ```
 
+### Error Handling & Retry Mechanisms
+
+```python
+class RetryManager:
+    def __init__(self, max_retries=3, backoff_factor=1.5):
+        self.max_retries = max_retries
+        self.backoff_factor = backoff_factor
+        
+    async def execute_with_retry(self, operation, *args, **kwargs):
+        """Execute operation with exponential backoff retry."""
+        last_exception = None
+        for attempt in range(self.max_retries):
+            try:
+                return await operation(*args, **kwargs)
+            except Exception as e:
+                last_exception = e
+                if not self._should_retry(e):
+                    raise
+                    
+                wait_time = self.backoff_factor ** attempt
+                logging.warning(f"Attempt {attempt + 1} failed: {str(e)}. Retrying in {wait_time}s")
+                await asyncio.sleep(wait_time)
+                
+        raise MaxRetriesExceededError(f"Operation failed after {self.max_retries} attempts") from last_exception
+    
+    def _should_retry(self, exception):
+        """Determine if exception is retryable."""
+        retryable_exceptions = (
+            ConnectionError,
+            TimeoutError,
+            azure.core.exceptions.ServiceRequestError,
+            sqlalchemy.exc.OperationalError
+        )
+        return isinstance(exception, retryable_exceptions)
+
+class ErrorBoundary:
+    def __init__(self, logger):
+        self.logger = logger
+        
+    async def handle_error(self, context, error):
+        """Centralized error handling with context."""
+        error_id = str(uuid.uuid4())
+        self.logger.error(f"Error ID: {error_id}", extra={
+            'error_type': type(error).__name__,
+            'error_message': str(error),
+            'context': context,
+            'stack_trace': traceback.format_exc()
+        })
+        
+        if isinstance(error, BusinessLogicError):
+            return {'error': 'Business logic error', 'details': str(error)}
+        elif isinstance(error, ValidationError):
+            return {'error': 'Validation failed', 'details': error.errors()}
+        else:
+            return {
+                'error': 'Internal server error',
+                'error_id': error_id,
+                'contact': 'support@rolodexter.ai'
+            }
+```
+
+### Agent Configuration
+
+```yaml
+# config/agents/rolodexter.yml
+agents:
+  ai:
+    model: gpt-4-turbo
+    temperature: 0.7
+    max_tokens: 2000
+    retry_config:
+      max_retries: 3
+      backoff_factor: 1.5
+    rate_limits:
+      requests_per_minute: 60
+      burst_limit: 100
+    
+  doc:
+    update_interval: 300  # seconds
+    batch_size: 50
+    concurrent_tasks: 4
+    git:
+      branch: main
+      commit_message_template: "docs: update {category} documentation"
+    
+  git:
+    sync_interval: 900  # seconds
+    backup:
+      retention_days: 30
+      compression_level: 9
+    azure:
+      container: phrase-backups
+      tier: Cool
+      
+monitoring:
+  logging:
+    level: INFO
+    handlers:
+      - type: console
+        format: "%(asctime)s [%(levelname)s] %(message)s"
+      - type: file
+        filename: logs/rolodexter.log
+        max_size: 10MB
+        backup_count: 5
+  metrics:
+    prometheus:
+      port: 9090
+      path: /metrics
+    custom_metrics:
+      - name: phrase_optimization_duration
+        type: histogram
+        buckets: [0.1, 0.5, 1.0, 2.0, 5.0]
+      - name: sync_success_rate
+        type: gauge
+        
+security:
+  encryption:
+    algorithm: AES-256-GCM
+    key_rotation_days: 90
+  authentication:
+    jwt:
+      expiry: 3600
+      refresh_enabled: true
+  authorization:
+    roles:
+      - admin
+      - editor
+      - viewer
+    permissions:
+      admin:
+        - manage_agents
+        - manage_phrases
+        - manage_users
+      editor:
+        - edit_phrases
+        - view_analytics
+      viewer:
+        - view_phrases
+```
+
+### Monitoring & Logging
+
+```python
+class MonitoringSystem:
+    def __init__(self):
+        self.metrics = PrometheusMetrics()
+        self.logger = structlog.get_logger()
+        self.tracer = OpenTelemetryTracer()
+        
+    async def track_operation(self, operation_name, **kwargs):
+        """Track operation with metrics, logs, and traces."""
+        with self.tracer.start_span(operation_name) as span:
+            start_time = time.time()
+            try:
+                result = await self._execute_operation(operation_name, **kwargs)
+                duration = time.time() - start_time
+                
+                # Record metrics
+                self.metrics.operation_duration.observe(duration)
+                self.metrics.operation_success.inc()
+                
+                # Structured logging
+                self.logger.info(
+                    "operation_completed",
+                    operation=operation_name,
+                    duration=duration,
+                    **kwargs
+                )
+                
+                return result
+                
+            except Exception as e:
+                self.metrics.operation_failure.inc()
+                self.logger.error(
+                    "operation_failed",
+                    operation=operation_name,
+                    error=str(e),
+                    **kwargs
+                )
+                raise
+
+class MetricsCollector:
+    def __init__(self):
+        # Prometheus metrics
+        self.phrase_count = Counter(
+            'rolodexter_phrases_total',
+            'Total number of phrases',
+            ['category']
+        )
+        self.optimization_duration = Histogram(
+            'rolodexter_optimization_seconds',
+            'Time spent optimizing phrases',
+            buckets=[0.1, 0.5, 1.0, 2.0, 5.0]
+        )
+        self.sync_errors = Counter(
+            'rolodexter_sync_errors_total',
+            'Total number of sync errors',
+            ['service']
+        )
+        
+    async def collect_metrics(self):
+        """Collect and export metrics."""
+        while True:
+            metrics = await self._gather_metrics()
+            await self._export_metrics(metrics)
+            await asyncio.sleep(60)
+    
+    async def _gather_metrics(self):
+        """Gather metrics from various sources."""
+        return {
+            'system': await self._system_metrics(),
+            'application': await self._application_metrics(),
+            'business': await self._business_metrics()
+        }
+```
+
+### Security & Access Control
+
+```python
+class SecurityManager:
+    def __init__(self, config):
+        self.config = config
+        self.crypto = CryptoProvider()
+        self.auth = AuthenticationService()
+        self.rbac = RBACProvider()
+        
+    async def secure_operation(self, user, operation, resource):
+        """Secure operation execution with authentication and authorization."""
+        # Verify JWT token
+        if not await self.auth.verify_token(user.token):
+            raise AuthenticationError("Invalid or expired token")
+            
+        # Check permissions
+        if not await self.rbac.check_permission(user.id, operation, resource):
+            raise AuthorizationError(f"User {user.id} not authorized for {operation} on {resource}")
+            
+        # Audit logging
+        await self._audit_log(user, operation, resource)
+        
+    async def rotate_keys(self):
+        """Rotate encryption keys periodically."""
+        while True:
+            try:
+                new_key = self.crypto.generate_key()
+                await self._safely_rotate_key(new_key)
+                await asyncio.sleep(self.config.key_rotation_interval)
+            except Exception as e:
+                logging.error(f"Key rotation failed: {str(e)}")
+                
+    async def _safely_rotate_key(self, new_key):
+        """Safely rotate encryption keys without data loss."""
+        async with self.db.transaction():
+            # Re-encrypt sensitive data with new key
+            phrases = await self.db.fetch_all("SELECT * FROM Phrases")
+            for phrase in phrases:
+                decrypted = self.crypto.decrypt(phrase.content, self.current_key)
+                encrypted = self.crypto.encrypt(decrypted, new_key)
+                await self.db.execute(
+                    "UPDATE Phrases SET content = $1 WHERE id = $2",
+                    encrypted, phrase.id
+                )
+            
+            # Update key metadata
+            await self.db.execute(
+                "INSERT INTO KeyRotation (key_id, created_at) VALUES ($1, $2)",
+                new_key.id, datetime.utcnow()
+            )
+            
+class RBACProvider:
+    def __init__(self):
+        self.role_definitions = {
+            'admin': {
+                'permissions': ['manage_agents', 'manage_phrases', 'manage_users'],
+                'scope': 'global'
+            },
+            'editor': {
+                'permissions': ['edit_phrases', 'view_analytics'],
+                'scope': 'assigned_categories'
+            },
+            'viewer': {
+                'permissions': ['view_phrases'],
+                'scope': 'public'
+            }
+        }
+        
+    async def check_permission(self, user_id, operation, resource):
+        """Check if user has permission for operation on resource."""
+        user_roles = await self.get_user_roles(user_id)
+        required_permission = self._get_required_permission(operation)
+        
+        for role in user_roles:
+            if required_permission in self.role_definitions[role]['permissions']:
+                if await self._check_scope(user_id, role, resource):
+                    return True
+                    
+        return False
+        
+    async def _check_scope(self, user_id, role, resource):
+        """Check if user's role scope includes the resource."""
+        scope = self.role_definitions[role]['scope']
+        if scope == 'global':
+            return True
+            
+        if scope == 'assigned_categories':
+            return await self._is_in_assigned_category(user_id, resource)
+            
+        if scope == 'public':
+            return await self._is_public_resource(resource)
+            
+        return False
+```
+
 ---
 
 Last Updated: March 2025  
