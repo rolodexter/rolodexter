@@ -79,24 +79,6 @@ This repository is protected by copyright and subject to usage restrictions. See
    - Performance monitoring
    - Security protocols
 
-## Getting Involved
-
-### For Enterprises
-- [Contact us](../../contact.md) for custom solutions
-- Review our enterprise service portfolio
-- Schedule a consultation
-- Request a demo
-
-### For Researchers
-- Review our [research guidelines](../../research/research.md)
-- Check current [project opportunities](../../contact.md)
-- Submit research proposals
-
-### For Developers
-- Explore our [tech stack](../../techstack/techstack.md)
-- Review contribution guidelines
-- Join development discussions
-
 ## Resources
 
 - [Documentation](./docs/)
