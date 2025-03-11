@@ -14,6 +14,7 @@ This repository is protected by copyright and subject to usage restrictions. See
 
 ### Market Analysis
 - [OpenAI Agents Platform Analysis](./market-analysis/openai-agents/analysis.md) - Comprehensive review of technical architecture, competitive landscape, and economic implications
+- [Real-World Asset Tokenization](./market-analysis/rwa-tokenization/analysis.md) - Analysis of blockchain-based asset tokenization, market dynamics, and economic impact
 - Industry trends and competitive positioning
 - Economic impact assessment
 - Strategic recommendations
