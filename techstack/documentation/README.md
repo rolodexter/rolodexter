@@ -205,6 +205,212 @@ graph TD
     H[Version Control] -->|Track| B
 ```
 
+### Use Case Specialization
+
+```mermaid
+graph TD
+    A[Text Expansion Tasks] -->|Development| B[Espanso]
+    A -->|Enterprise| C[PhraseExpress]
+    A -->|Automation| D[AutoHotkey]
+    A -->|Quick Text| E[Beeftext]
+    
+    B -->|Code Snippets| F[Git Commands]
+    B -->|Shell Scripts| G[DevOps Tasks]
+    
+    C -->|Documentation| H[Templates]
+    C -->|Research| I[Citations]
+    
+    D -->|System| J[Macros]
+    D -->|UI| K[Automation]
+    
+    E -->|Common| L[Quick Replies]
+    E -->|Standard| M[Signatures]
+```
+
+#### Development Workflows (Espanso)
+> Specialized for developer tasks with shell integration and dynamic content generation.
+
+```yaml
+# config/espanso.yml
+matches:
+  - trigger: ":git"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "git status"
+  
+  - trigger: ":docker"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: choice
+        params:
+          values:
+            - "docker-compose up -d"
+            - "docker ps"
+            - "docker logs -f"
+
+  - trigger: ":pr"
+    replace: |
+      ## Description
+      {{description}}
+      
+      ## Changes
+      - 
+      
+      ## Testing
+      - [ ] Unit Tests
+      - [ ] Integration Tests
+    vars:
+      - name: description
+        type: form
+        params:
+          layout: "Description: "
+```
+
+#### Enterprise Documentation (PhraseExpress)
+> Advanced template system with SQL Server backend for enterprise-wide standardization.
+
+```sql
+-- Database Schema
+CREATE TABLE Phrases (
+    PhraseID uniqueidentifier PRIMARY KEY,
+    Content nvarchar(max),
+    Category nvarchar(100),
+    Tags nvarchar(500),
+    CreatedBy nvarchar(50),
+    CreatedDate datetime2 DEFAULT GETUTCDATE(),
+    LastModified datetime2,
+    LastModifiedBy nvarchar(50),
+    IsActive bit DEFAULT 1,
+    Version int DEFAULT 1
+);
+
+CREATE TABLE Categories (
+    CategoryID int IDENTITY(1,1) PRIMARY KEY,
+    Name nvarchar(100) UNIQUE,
+    ParentID int FOREIGN KEY REFERENCES Categories(CategoryID),
+    Description nvarchar(500),
+    IsSystem bit DEFAULT 0
+);
+
+CREATE TABLE PhraseHistory (
+    HistoryID bigint IDENTITY(1,1) PRIMARY KEY,
+    PhraseID uniqueidentifier,
+    Content nvarchar(max),
+    ModifiedBy nvarchar(50),
+    ModifiedDate datetime2 DEFAULT GETUTCDATE(),
+    Version int,
+    ChangeType char(1), -- 'I'nsert, 'U'pdate, 'D'elete
+    FOREIGN KEY (PhraseID) REFERENCES Phrases(PhraseID)
+);
+
+-- Advanced Search Procedure
+CREATE PROCEDURE [dbo].[usp_SearchPhrases]
+    @SearchTerm nvarchar(500),
+    @Category nvarchar(100) = NULL,
+    @Tags nvarchar(500) = NULL,
+    @ModifiedSince datetime2 = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    SELECT p.PhraseID,
+           p.Content,
+           p.Category,
+           p.Tags,
+           p.LastModified,
+           p.Version
+    FROM Phrases p
+    WHERE (@SearchTerm IS NULL OR 
+           CONTAINS(p.Content, @SearchTerm) OR
+           CONTAINS(p.Tags, @SearchTerm))
+    AND (@Category IS NULL OR p.Category = @Category)
+    AND (@Tags IS NULL OR p.Tags LIKE '%' + @Tags + '%')
+    AND (@ModifiedSince IS NULL OR p.LastModified >= @ModifiedSince)
+    AND p.IsActive = 1
+    ORDER BY p.LastModified DESC;
+END
+```
+
+#### System Automation (AutoHotkey)
+> Complex system automation and text manipulation scripts.
+
+```autohotkey
+; Advanced Text Processing
+#NoEnv
+SetWorkingDir %A_ScriptDir%
+
+; Quick documentation template
+:*:@doc::
+(
+/**
+ * @function: 
+ * @param: 
+ * @returns: 
+ * @description: 
+ */
+)
+
+; Git workflow automation
+:*:@git::
+InputBox, commit, Commit Message, Enter commit message:
+if ErrorLevel
+    return
+Run, git add .
+Run, git commit -m "%commit%"
+Run, git push
+return
+
+; Advanced text processing
+^!t::
+{
+    ; Get selected text
+    SavedClip := ClipboardAll
+    Clipboard := ""
+    Send ^c
+    ClipWait, 1
+    if ErrorLevel
+        return
+    
+    ; Process text
+    text := Clipboard
+    text := RegExReplace(text, "^\s+|\s+$", "")
+    text := RegExReplace(text, "\R\R+", "`n`n")
+    
+    ; Send processed text
+    Clipboard := text
+    Send ^v
+    Sleep 50
+    Clipboard := SavedClip
+    return
+}
+```
+
+#### Quick Text (Beeftext)
+> Lightweight text expansion for common patterns.
+
+```json
+{
+  "combos": [
+    {
+      "trigger": "#email",
+      "text": "contact@rolodexter.ai"
+    },
+    {
+      "trigger": "#sig",
+      "text": "Best regards,\nRolodexter Team"
+    },
+    {
+      "trigger": "#date",
+      "text": "$[DATE:yyyy-MM-dd]"
+    }
+  ]
+}
+```
+
 ## Markdown Enhancement
 
 ```mermaid
@@ -298,6 +504,165 @@ graph LR
 - Automated builds with cache
 - Link validation with retry logic
 - Format checking with custom rules
+
+### AI Agent Integration Patterns
+
+#### rolodexterAI Implementation
+```python
+class PhraseOptimizer:
+    def __init__(self, db_connection):
+        self.db = db_connection
+        self.nlp = spacy.load('en_core_web_lg')
+        
+    async def analyze_usage_patterns(self):
+        """Analyzes phrase usage patterns and suggests optimizations."""
+        query = """
+        SELECT PhraseID, Content, UsageCount, LastUsed
+        FROM Phrases
+        WHERE IsActive = 1
+        AND LastAnalyzed < DATEADD(day, -7, GETUTCDATE())
+        """
+        phrases = await self.db.fetch_all(query)
+        
+        for phrase in phrases:
+            doc = self.nlp(phrase.Content)
+            suggestions = self.generate_suggestions(doc)
+            await self.update_suggestions(phrase.PhraseID, suggestions)
+    
+    def generate_suggestions(self, doc):
+        """Generates optimization suggestions using NLP."""
+        suggestions = []
+        # Analyze phrase structure
+        if len(doc) > 100:
+            suggestions.append({
+                'type': 'length',
+                'suggestion': 'Consider breaking into smaller phrases'
+            })
+        
+        # Check for common patterns
+        patterns = self.identify_patterns(doc)
+        if patterns:
+            suggestions.append({
+                'type': 'pattern',
+                'suggestion': f'Similar patterns found: {patterns}'
+            })
+            
+        return suggestions
+
+    async def update_suggestions(self, phrase_id, suggestions):
+        """Updates phrase suggestions in the database."""
+        query = """
+        UPDATE Phrases 
+        SET Suggestions = @suggestions,
+            LastAnalyzed = GETUTCDATE()
+        WHERE PhraseID = @phrase_id
+        """
+        await self.db.execute(query, {
+            'suggestions': json.dumps(suggestions),
+            'phrase_id': phrase_id
+        })
+```
+
+#### rolodexterDOC Integration
+```python
+class DocumentationManager:
+    def __init__(self, db_connection, git_repo):
+        self.db = db_connection
+        self.repo = git_repo
+        
+    async def update_documentation(self):
+        """Updates documentation based on phrase changes."""
+        changes = await self.get_recent_changes()
+        for change in changes:
+            await self.process_change(change)
+            await self.update_git_repo(change)
+    
+    async def get_recent_changes(self):
+        """Retrieves recent phrase changes."""
+        query = """
+        SELECT ph.PhraseID,
+               ph.Content,
+               ph.ModifiedBy,
+               ph.ModifiedDate,
+               ph.Version,
+               ph.ChangeType
+        FROM PhraseHistory ph
+        WHERE ph.ModifiedDate > DATEADD(hour, -24, GETUTCDATE())
+        ORDER BY ph.ModifiedDate DESC
+        """
+        return await self.db.fetch_all(query)
+    
+    async def process_change(self, change):
+        """Updates documentation for a phrase change."""
+        if change.ChangeType == 'I':
+            await self.document_new_phrase(change)
+        elif change.ChangeType == 'U':
+            await self.document_update(change)
+        elif change.ChangeType == 'D':
+            await self.document_deletion(change)
+```
+
+#### rolodexterGIT Integration
+```python
+class VersionController:
+    def __init__(self, db_connection, backup_service):
+        self.db = db_connection
+        self.backup = backup_service
+        
+    async def sync_changes(self):
+        """Synchronizes changes across systems."""
+        await self.backup_to_azure()
+        await self.sync_to_onedrive()
+        await self.update_git_repo()
+    
+    async def backup_to_azure(self):
+        """Handles Azure backup process."""
+        timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+        backup_file = f'phrases_backup_{timestamp}.bak'
+        
+        # Create backup
+        query = """
+        BACKUP DATABASE PhraseDB
+        TO DISK = @backup_file
+        WITH FORMAT, COMPRESSION
+        """
+        await self.db.execute(query, {'backup_file': backup_file})
+        
+        # Upload to Azure
+        await self.backup.upload_blob(
+            container='phrase-backups',
+            blob_name=backup_file,
+            file_path=backup_file
+        )
+    
+    async def sync_to_onedrive(self):
+        """Syncs changes to OneDrive."""
+        changes = await self.get_pending_changes()
+        for change in changes:
+            await self.upload_to_onedrive(change)
+            await self.mark_synced(change.PhraseID)
+```
+
+### Integration Workflows
+
+```mermaid
+graph TD
+    A[User Input] -->|New Phrase| B[PhraseExpress]
+    B -->|Store| C[SQL Server]
+    
+    D[rolodexterAI] -->|Analyze| C
+    D -->|Optimize| B
+    
+    E[rolodexterDOC] -->|Monitor| C
+    E -->|Update| F[Documentation]
+    
+    G[rolodexterGIT] -->|Backup| H[Azure]
+    G -->|Sync| I[OneDrive]
+    
+    J[Usage Analytics] -->|Feed| D
+    K[Change Events] -->|Trigger| E
+    L[Schedule] -->|Trigger| G
+```
 
 ---
 
