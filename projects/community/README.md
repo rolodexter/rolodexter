@@ -15,6 +15,7 @@
 
 This repository is protected by copyright and subject to usage restrictions. See the [Copyright Notice](../../COPYRIGHT.md) for details.
 </details>
+
 ## Overview
 
 rolodexter Community is our collaborative platform for fostering open-source development, knowledge sharing, and community engagement in AI and autonomous systems.
@@ -69,19 +70,22 @@ rolodexter Community is our collaborative platform for fostering open-source dev
    - Collaboration tools
    - Communication channels
 
-## Getting Involved
+## Community Resources
 
-### For Contributors
-- Contribution guidelines
-- Project opportunities
-- Review process
-- Recognition program
+### Documentation
+- Project guidelines
+- Technical documentation
+- API references
+- Best practices
 
-### For Learners
-- Learning resources
-- Study groups
-- Mentorship
-- Practice projects
+### Learning Materials
+- Educational resources
+- Tutorial series
+- Workshop content
+- Case studies
+
+### Support Channels
+For assistance or inquiries, please visit our [contact page](../../contact.md).
 
 ## Resources
 

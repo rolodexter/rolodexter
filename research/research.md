@@ -14,21 +14,21 @@ This repository is protected by copyright and subject to usage restrictions. See
 
 ### Published Papers
 
-#### [Foundational AI Agents](./papers/foundational-ai-agents.md)
+#### Foundational AI Agents
 Exploring the fundamental principles and architectures for creating robust, autonomous AI agents.
 
-#### [Swarm Intelligence](./papers/swarm-intelligence.md)
+#### Swarm Intelligence
 Investigating billion-scale agent networks and biomimetic swarm behaviors for advanced AI systems.
 
 ### Active Research
 
-#### [Hypotheses](./hypotheses/)
+#### Hypotheses
 Current theoretical frameworks and experimental propositions under investigation.
 
-#### [Ongoing Projects](./ongoing/)
+#### Ongoing Projects
 Active research initiatives and experimental implementations.
 
-#### [Thesis Frameworks](./thesis-frameworks/)
+#### Thesis Frameworks
 Comprehensive analytical frameworks for evaluating AI systems.
 
 ## Research Areas
@@ -58,9 +58,6 @@ Comprehensive analytical frameworks for evaluating AI systems.
 - Industry collaborators
 - Open-source contributors
 - Research laboratories
-
-### Getting Involved
-For collaboration inquiries, please see our [contact page](../contact.md).
 
 ## Research Principles
 
