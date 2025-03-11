@@ -1,7 +1,7 @@
-# rolodexter LARP
+# rolodexterLARP: Live Action Role-Playing AI System
 
 <p align="center">
-  <a href="../../README.md">Home</a> | <a href="../../projects/projects.md">Projects</a> | <a href="../../research/research.md">Research</a> | <a href="../../techstack/techstack.md">Tech Stack</a> | <a href="../../contact.md">Contact</a>
+  <a href="../../README.md">Home</a> | <a href="../projects.md">Projects</a> | <a href="../../research/research.md">Research</a> | <a href="../../techstack/techstack.md">Tech Stack</a> | <a href="../../contact.md">Contact</a>
 </p>
 
 <details>
@@ -12,135 +12,115 @@ This repository is protected by copyright and subject to usage restrictions. See
 
 ## Overview
 
-rolodexter LARP (Live Artifact Reality Processing) is a real-time world building engine powered by Reality Fiction data architecture. It transforms real-world artifacts into dynamic, interconnected narrative universes and multimedia experiences. By processing real-world data streams (emails, documents, communications), LARP continuously evolves and expands its generated worlds while maintaining coherent narrative structures across multiple media formats.
+rolodexterLARP represents a groundbreaking approach to AI character embodiment and interactive storytelling. The system dynamically generates and maintains persistent AI characters that engage in complex narratives while maintaining consistent personalities, memories, and relationships.
 
-## Reality Fiction Architecture
-
-### Data Structure
-- Reality-narrative mapping
-- Temporal stream processing
-- Multi-dimensional story graphs
-- World state management
-- Narrative coherence validation
-
-### Technical Architecture
 ```mermaid
 graph TD
-    A[Reality Artifacts] -->|Ingestion| B[Stream Processing Engine]
-    B -->|Analysis| C[Context Extraction]
-    B -->|Metadata| D[Pattern Recognition]
-    
-    C --> E[Reality Fiction Mapper]
-    D --> E
-    
-    E -->|World State| F[Narrative Universe]
-    F -->|Evolution| G[World Building Engine]
-    
-    G -->|Characters| H[Entity Generator]
-    G -->|Environments| I[World Renderer]
-    G -->|Stories| J[Narrative Constructor]
-    
-    H --> K[Media Output Engine]
-    I --> K
-    J --> K
-    
-    K -->|VR/XR| L[Digital Environments]
-    K -->|Documents| M[Production Materials]
-    K -->|Packages| N[Industry Deliverables]
-    
-    O[Reality Fiction Data Model] -.->|Governs| B
-    O -.->|Structures| E
-    O -.->|Defines| F
-    O -.->|Guides| G
-    
-    P[Swarm Intelligence] -.->|Optimizes| G
-    Q[Agent Ethics] -.->|Constrains| K
+    subgraph "rolodexterLARP Core Systems"
+        A[Character Engine] -->|Generates| B[Personality Matrix]
+        B -->|Informs| C[Interaction System]
+        C -->|Updates| D[Memory Network]
+        D -->|Enriches| B
+        
+        E[Narrative Engine] -->|Guides| C
+        F[World State] -->|Constrains| E
+        G[Social Graph] -->|Influences| C
+    end
 ```
 
-### World Building Core
-- Real-time universe expansion
-- Dynamic reality integration
-- Narrative thread weaving
-- World state persistence
-- Cross-reality synchronization
+## Core Components
 
-### Narrative Systems
-- Reality-fiction bridges
-- Story emergence patterns
-- Character ecosystem development
-- Event cascade management
-- Timeline reconciliation
+Each component has its own detailed documentation in dedicated subfolders:
 
-## Processing Systems
+1. [Character Generation System](character-system/README.md)
+   - Personality matrix generation
+   - Trait inheritance and evolution
+   - Background synthesis
+   - Behavioral pattern modeling
 
-### Reality Stream Processing
-- Real-time artifact analysis
-- Context extraction engines
-- Pattern recognition systems
-- Metadata enrichment
-- Reality-fiction mapping
+2. [Memory Architecture](memory-architecture/README.md)
+   - Episodic memory system
+   - Semantic knowledge base
+   - Emotional memory tagging
+   - Memory consolidation algorithms
 
-### World Generation
-- Dynamic universe creation
-- Environmental manifestation
-- Reality anchoring systems
-- World state evolution
-- Coherence maintenance
+3. [Social Dynamics Engine](social-dynamics/README.md)
+   - Relationship modeling
+   - Social network evolution
+   - Group dynamics simulation
+   - Conflict resolution systems
 
-### Entity Development
-- Character manifestation
-- Relationship networks
-- Behavioral emergence
-- Identity persistence
-- Cross-reality presence
+4. [Narrative Generation](narrative-engine/README.md)
+   - Story arc management
+   - Plot development algorithms
+   - Dynamic scenario generation
+   - Narrative consistency enforcement
 
-### Media Materialization
-- Format-specific rendering
-- Cross-media coherence
-- Production asset generation
-- Distribution packaging
-- Rights management
+5. [World State Management](world-state/README.md)
+   - Environmental modeling
+   - Resource tracking
+   - Event causality chains
+   - Physical simulation integration
 
-## Output Manifestations
+6. [Interaction Protocols](interaction-protocols/README.md)
+   - Natural language processing
+   - Emotional response generation
+   - Action-reaction patterns
+   - Multi-agent coordination
 
-### Digital Environments
-- Real-time VR worlds
-- Dynamic XR spaces
-- Interactive reality bridges
-- Persistent universes
-- Cross-reality portals
+## Technical Implementation
 
-### Narrative Products
-- Emergent storylines
-- Character arcs
-- World histories
-- Reality-fiction interfaces
-- Universe documentation
+```mermaid
+sequenceDiagram
+    participant User
+    participant LARP as rolodexterLARP
+    participant Char as Character Engine
+    participant Mem as Memory System
+    participant World as World State
+    
+    User->>LARP: Interaction Input
+    LARP->>Char: Process Character State
+    Char->>Mem: Retrieve Context
+    Mem->>World: Check World State
+    
+    par Character Processing
+        Char->>Char: Update Personality Matrix
+        Mem->>Mem: Form New Memories
+        World->>World: Update State
+    end
+    
+    World->>Char: Environmental Feedback
+    Char->>LARP: Generate Response
+    LARP->>User: Character Action/Dialogue
+```
 
-### Industry Deliverables
-- Studio development packages
-- Agent representation materials
-- Production blueprints
-- Licensing frameworks
-- Distribution strategies
+## Integration Points
 
-## Technical Foundation
+For detailed integration documentation, see the respective subdirectories:
 
-### Core Architecture
-- Reality Fiction data model
-- Stream processing engine
-- World state manager
-- Narrative coherence validator
-- Distribution framework
+- [API Documentation](api-docs/README.md)
+- [Plugin System](plugins/README.md)
+- [Extension Framework](extensions/README.md)
 
-### Integration Systems
-- [Swarm Intelligence](../../research/papers/swarm-intelligence.md) for narrative emergence
-- [Hardware Infrastructure](../../techstack/infrastructure/hardware.md) for world manifestation
-- [Agent Ethics](../../research/hypotheses/swarm-ethics.md) for reality-fiction boundaries
+## Research Areas
 
-### Industry Interfaces
-- Licensed broker protocols
-- Agent credentialing systems
-- Studio pipeline integration
-- Rights management framework
-- Distribution network APIs 
+Current research directions are documented in:
+
+- [Personality Modeling](research/personality/README.md)
+- [Memory Systems](research/memory/README.md)
+- [Social Dynamics](research/social/README.md)
+- [Narrative AI](research/narrative/README.md)
+
+## Getting Started
+
+See the following guides for implementation details:
+
+- [Quick Start Guide](guides/quick-start/README.md)
+- [Development Guide](guides/development/README.md)
+- [Integration Guide](guides/integration/README.md)
+
+## Contributors
+
+- **Author**: rolodexterLARP
+- **Technical Implementation**: rolodexterGPT
+- **Research & Development**: rolodexterVS 
