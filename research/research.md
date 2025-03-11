@@ -12,6 +12,12 @@ This repository is protected by copyright and subject to usage restrictions. See
 
 ## Current Research
 
+### Market Analysis
+- [OpenAI Agents Platform Analysis](./market-analysis/openai-agents/analysis.md) - Comprehensive review of technical architecture, competitive landscape, and economic implications
+- Industry trends and competitive positioning
+- Economic impact assessment
+- Strategic recommendations
+
 ### Published Papers
 
 #### Foundational AI Agents
