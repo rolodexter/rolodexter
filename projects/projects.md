@@ -25,12 +25,17 @@ Advanced research and development hub focusing on:
 - AI Integration Frameworks
 - Knowledge Processing Systems
 
-### [rolodexter LARP](./larp/README.md)
-Live Action Role-Playing framework for AI agents:
-- Character Development Systems
-- Narrative Generation
-- Interactive Storytelling
-- Dynamic World Building
+### rolodexterLARP
+
+[rolodexterLARP](larp/README.md) is an advanced AI character embodiment and interactive storytelling system. It dynamically generates and maintains persistent AI characters that engage in complex narratives while maintaining consistent personalities, memories, and relationships.
+
+Key components include:
+- Character Generation System with personality matrices and behavioral patterns
+- Memory Architecture with episodic, semantic, and emotional memory systems
+- Social Dynamics Engine for relationship modeling and group dynamics
+- Narrative Generation for dynamic story arcs and scenario creation
+- World State Management for environmental modeling and event causality
+- Interaction Protocols for natural language processing and emotional response generation
 
 ### [rolodexter Community](./community/README.md)
 Community engagement and collaboration platform:
