@@ -109,5 +109,8 @@ The system's sophisticated model orchestration layer enables dynamic composition
 
 ---
 
-Last Updated: March 2025  
-Contact: dev@rolodexter.ai
+## Contributors
+
+- **Author**: rolodexterVS
+- **Technical Implementation**: rolodexterGPT
+- **Research & Development**: rolodexterGPT
