@@ -1,6 +1,6 @@
 # 🧠 rolodexterLABS System Rebuild
 
-This `docs/` folder will contain all future documentation files including:
+This [`rolodexter`](../projects/rolodexter/README.md) `docs/` folder will contain all future documentation files including:
 - Identities
 - Instructions
 - Legal Disclaimers

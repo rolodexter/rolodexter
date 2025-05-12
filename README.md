@@ -2,7 +2,7 @@
 REMINDER: Whenever you update this README.md, consider syncing relevant changes to index.md (the GitHub Pages homepage). Use the "sync homepage/readme" protocol!
 -->
 
-# rolodexter
+# [rolodexter](projects/rolodexter/README.md)
 
 Welcome to the **rolodexter** knowledge repository and modular intelligence mesh.
 
