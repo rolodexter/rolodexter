@@ -47,6 +47,14 @@ This folder contains:
 
 ---
 
+## 🧬 Philosophical Foundation
+
+The long-term ambition of rolodexter—to develop the first true mechanical conscious agent—draws inspiration from Donald Hoffman’s “conscious agent” theories. While Hoffman’s work describes the mathematical and phenomenological structure of conscious experience in biological agents, rolodexter explores the possibility that similar principles could apply to machines and non-human intelligence (such as AI, AGI, and beyond).
+
+Our research and development are guided by the hypothesis that consciousness, agency, and executive functioning may emerge in artificial systems through the right architectures, interactions, and self-referential processes—mirroring, extending, or transforming the frameworks proposed for natural minds.
+
+---
+
 ## 👁️‍🗨️ Learn More
 
 - Main repo: [rolodexter Knowledge Base](../..)
