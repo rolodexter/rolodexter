@@ -1,7 +1,35 @@
-# Notes
+# Research Notes Index
 
-This folder contains chronological notes, logs, and work journals. Use this space to quickly jot down ideas, meeting notes, daily logs, or brainstorming sessions. These notes can later be referenced or formalized into content in the `projects` or `prompts` folders.
+This directory contains hierarchically organized research notes on various topics, flowing from general to specific subjects.
 
-## Conventions
-- Use filenames like `YYYY-MM-DD.md` for daily notes (e.g., `2025-05-11.md`).
-- Add links to relevant notes in project or prompt docs as needed.
+## Topic Hierarchy
+
+### AI Governance
+- Policy and Regulation
+- Ethics and Safety
+- International Frameworks
+- Corporate Governance
+
+### Memory Systems
+- Cognitive Architecture
+- Information Storage
+- Retrieval Mechanisms
+- Knowledge Representation
+
+### Decentralization
+- Distributed Systems
+- Blockchain Technology
+- Peer-to-peer Networks
+- Organizational Structures
+
+### Consciousness
+- Theories of Mind
+- Artificial Consciousness
+- Cognitive Science
+- Phenomenology
+
+## Organization Guidelines
+- Each topic folder contains subtopics organized from general to specific
+- Cross-reference related topics using relative links
+- Include relevant citations and sources
+- Maintain a clear hierarchy of concepts

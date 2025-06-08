@@ -2,32 +2,42 @@
 REMINDER: Whenever you update this README.md, consider syncing relevant changes to index.md (the GitHub Pages homepage). Use the "sync homepage/readme" protocol!
 -->
 
-# [rolodexter](projects/rolodexter/README.md)
+# rolodexter — Joe Maristela’s Research & Information Portal
 
-> **Audience:** This repository is intended for AI researchers, engineers, technical founders, and venture/innovation professionals seeking a modular, agentic, and extensible platform for knowledge management and intelligent automation.
+> **NOTE:** This repository is currently under rapid reconstruction and content migration. Check back regularly for major updates, new research notes, and expanded resources!
 
----
-
-## 🚀 What is rolodexter?
-rolodexter is an agent-operable knowledge base and modular intelligence mesh. It is not a static wiki or simple chatbot, but a platform for building, orchestrating, and deploying advanced, executive-functioning AI agents with persistent memory, semantic search, and real system integration.
+Welcome to my public research, notes, and professional information portal. Here you’ll find living research notes, project links, and knowledge scaffolding across science, technology, consciousness studies, and more. All work here is independent and not affiliated with any organization unless explicitly stated.
 
 ---
 
-## ⚡ Quick Technical Overview / How It Works
+## 📢 Connect & Follow
 
-- **Knowledge & Memory Systems:** Modular, semantically structured knowledge base ([details](projects/rolodexter/systems/README.md)) and a persistent, context-aware memory system.
-- **Agent Orchestration:** Multi-agent architecture ([details](projects/rolodexter/agents/README.md)) with specialized agents for DevOps, research, system automation, and more.
-- **Foundation Model Integration:** Leverages LLMs, vector DBs, and RAG for context-rich reasoning and action.
-- **System Automation:** Agents can operate on Windows, cloud, and API environments ([rolodexterWIN](projects/rolodexter/agents/rolodexterWIN.md)).
-- **Continuous Learning:** Empirical development and real-world validation in [rolodexterLABS](projects/rolodexterLABS/README.md).
-
-> **How is this accomplished?**
-> - Modular file structure and semantic linking
-> - Integration with open-source and proprietary LLMs
-> - Persistent, agent-accessible memory and knowledge stores
-> - System-level hooks for automation and orchestration
+[![SMS/Phone](https://img.shields.io/badge/SMS%2FPhone-%2B1%20%28650%29%20918--6796-blue?logo=telegram)](sms:+16509186796)
+[![Updates](https://img.shields.io/badge/Updates-Newsletter-orange?logo=rss)](https://buff.ly/3S5j7JU)
+[![Doximity](https://img.shields.io/badge/Doximity-Profile-blue?logo=doximity)](https://buff.ly/3yysACL)
+[![Portfolio](https://img.shields.io/badge/Portfolio-jmaristela.portfo.ly-blueviolet?logo=notion)](https://jmaristela.portfo.ly/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rolodexter-blue?logo=linkedin)](https://linkedin.com/in/rolodexter)
+[![X/Twitter](https://img.shields.io/badge/X%20(Twitter)-@JoeMaristela-black?logo=twitter)](https://x.com/JoeMaristela)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-lightgrey?logo=googlescholar)](https://scholar.google.com/citations?user=gHTHirEAAAAJ&hl=en)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-brightgreen?logo=researchgate)](https://www.researchgate.net/profile/Joe-Maristela-2)
+[![SSRN](https://img.shields.io/badge/SSRN-Profile-lightblue?logo=ssrn)](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5257557)
 
 ---
+
+## 🗂️ What’s Here?
+- **notes/** — Real-time topical research, drafts, and knowledge scaffolding
+- **legal/** — Disclaimers and affiliations
+- **(More folders coming soon as the repo evolves!)**
+
+---
+
+## ⚠️ Status
+This repository is in a period of rapid restructuring and content migration. Many sections are being reorganized, and new material is being added frequently. For the latest, check back often or follow the updates link above.
+
+---
+
+## Legal
+See [legal/disclaimer.md](legal/disclaimer.md) for disclaimers regarding independence, sponsorship, and intellectual property.
 
 ## 🧩 Repository Structure
 - `notes/` — Research notes, daily logs, drafts
