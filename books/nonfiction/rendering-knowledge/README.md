@@ -90,8 +90,12 @@ This textbook leverages Joe Maristela's unique interdisciplinary background:
 - **M.D. with Distinction** (Cognitive science, information processing)
 - **M.S. Industrial Economics** (Systems modeling, optimization)
 - **M.F.A. Literature** (Communication theory, narrative structure)
-- **AI Industry Experience** (Leading AI projects at Rivalz AI, real-world knowledge systems development)
+- **AI Industry Experience** (Leading AI projects at [Rivalz AI](https://www.coindesk.com/press-release/2024/08/14/rivalz-network-secures-9-million-to-advance-ai-intel-infrastructure), real-world knowledge systems development)
 
----
+### Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rolodexter-blue?logo=linkedin)](https://www.linkedin.com/in/rolodexter/)
+[![X/Twitter](https://img.shields.io/badge/X%20(Twitter)-@JoeMaristela-black?logo=twitter)](https://x.com/JoeMaristela)
+[![Telegram](https://img.shields.io/badge/Telegram-@joemaristela-blue?logo=telegram)](https://t.me/joemaristela)
+[![CoinDesk](https://img.shields.io/badge/CoinDesk-Author_Profile-darkblue?logo=coindesk)](https://www.coindesk.com/author/joe-maristela)
 
-*This textbook represents a comprehensive academic treatment of knowledge systems that will serve as a foundational reference for researchers and practitioners working at the intersection of AI, cognitive science, and education.*
+This textbook represents a comprehensive academic treatment of knowledge systems that will serve as a foundational reference for researchers and practitioners working at the intersection of AI, cognitive science, and education.

@@ -46,7 +46,7 @@ My interdisciplinary expertise creates a unique perspective at the intersection 
 - **M.F.A. Literature**: Communication theory and narrative structure
 
 ### Industry Experience
-- **Current Work**: Leading AI projects at Rivalz AI
+- **Current Work**: Leading AI projects at [Rivalz AI](https://www.coindesk.com/press-release/2024/08/14/rivalz-network-secures-9-million-to-advance-ai-intel-infrastructure)
 - **Focus**: Real-world implementation of AI systems and knowledge frameworks
 - **Impact**: Daily validation and refinement of theoretical models
 
@@ -80,6 +80,7 @@ books/
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rolodexter-blue?logo=linkedin)](https://www.linkedin.com/in/rolodexter/)
 [![X/Twitter](https://img.shields.io/badge/X%20(Twitter)-@JoeMaristela-black?logo=twitter)](https://x.com/JoeMaristela)
 [![Telegram](https://img.shields.io/badge/Telegram-@joemaristela-blue?logo=telegram)](https://t.me/joemaristela)
+[![CoinDesk](https://img.shields.io/badge/CoinDesk-Author_Profile-darkblue?logo=coindesk)](https://www.coindesk.com/author/joe-maristela)
 
 ---
 
