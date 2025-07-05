@@ -45,8 +45,8 @@ My interdisciplinary expertise creates a unique perspective at the intersection 
 - **M.S. Industrial Economics**: Systems modeling and optimization
 - **M.F.A. Literature**: Communication theory and narrative structure
 
-### Industry Leadership
-- **Current Role**: CEO, Rivalz AI
+### Industry Experience
+- **Current Work**: Leading AI projects at Rivalz AI
 - **Focus**: Real-world implementation of AI systems and knowledge frameworks
 - **Impact**: Daily validation and refinement of theoretical models
 
@@ -69,17 +69,17 @@ books/
 │   └── rendering-knowledge/       # Knowledge systems textbook
 ```
 
-## Academic Engagement
+## Connect & Engage
 
 ### Collaboration Opportunities
 - **Academic Review**: Participate in manuscript review
 - **University Partnerships**: Curriculum development and research
 - **Industry Integration**: Case studies and practical applications
 
-### Contact
-For academic collaboration, research opportunities, or publication inquiries:
-- Email: [academic@rolodexter.ai]
-- LinkedIn: [linkedin.com/in/rolodexter]
+### Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rolodexter-blue?logo=linkedin)](https://www.linkedin.com/in/rolodexter/)
+[![X/Twitter](https://img.shields.io/badge/X%20(Twitter)-@JoeMaristela-black?logo=twitter)](https://x.com/JoeMaristela)
+[![Telegram](https://img.shields.io/badge/Telegram-@joemaristela-blue?logo=telegram)](https://t.me/joemaristela)
 
 ---
 

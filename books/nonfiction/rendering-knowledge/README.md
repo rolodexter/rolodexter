@@ -90,7 +90,7 @@ This textbook leverages Joe Maristela's unique interdisciplinary background:
 - **M.D. with Distinction** (Cognitive science, information processing)
 - **M.S. Industrial Economics** (Systems modeling, optimization)
 - **M.F.A. Literature** (Communication theory, narrative structure)
-- **Current AI Leadership** (CEO Rivalz AI, real-world knowledge systems development)
+- **AI Industry Experience** (Leading AI projects at Rivalz AI, real-world knowledge systems development)
 
 ---
 
